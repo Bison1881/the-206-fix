@@ -46,8 +46,23 @@ const SOURCES = [
 // Per-fetch timeout. We don't want one slow source to stall the whole build.
 // ---------------------------------------------------------------------------
 const FETCH_TIMEOUT_MS = 10_000;
+const HARD_TIMEOUT_MS = 15_000; // belt-and-braces wall clock cap per source
 const MAX_ITEMS_PER_FEED = 8;
 const MAX_TOTAL_ITEMS = 60;
+
+/**
+ * Wraps a promise with a hard wall-clock timeout. If the underlying
+ * fetch/parse hangs (e.g. slow TCP, library ignoring its own timeout),
+ * the race rejects after HARD_TIMEOUT_MS so the whole run can complete.
+ */
+function withHardTimeout(promise, ms, label) {
+  return Promise.race([
+    promise,
+    new Promise((_, reject) =>
+      setTimeout(() => reject(new Error(`Hard timeout after ${ms}ms (${label})`)), ms)
+    ),
+  ]);
+}
 
 const parser = new Parser({
   timeout: FETCH_TIMEOUT_MS,
@@ -110,12 +125,12 @@ function truncate(input, max = 200) {
 async function fetchSource(source) {
   let feed;
   try {
-    feed = await parser.parseURL(source.url);
+    feed = await withHardTimeout(parser.parseURL(source.url), HARD_TIMEOUT_MS, source.name);
   } catch (firstErr) {
     // Retry with the lenient path: fetch raw, sanitize XML, then parse.
     // This recovers MyNorthwest-style feeds whose copy contains unescaped ampersands.
     try {
-      feed = await fetchAndParseLenient(source.url);
+      feed = await withHardTimeout(fetchAndParseLenient(source.url), HARD_TIMEOUT_MS, `${source.name} (lenient)`);
     } catch (secondErr) {
       return {
         ok: false,
@@ -191,7 +206,13 @@ async function main() {
   console.log(`[rss] Wrote ${allItems.length} items to ${OUTPUT_PATH} in ${elapsed}s`);
 }
 
-main().catch((err) => {
-  console.error('[rss] Fatal error:', err);
-  process.exit(1);
-});
+main()
+  .then(() => {
+    // Force-exit. Some RSS sources leave sockets or timers in the event loop
+    // after responding, which can keep Node alive for minutes on CI runners.
+    process.exit(0);
+  })
+  .catch((err) => {
+    console.error('[rss] Fatal error:', err);
+    process.exit(1);
+  });
