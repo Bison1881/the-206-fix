@@ -19,7 +19,7 @@ This is not nostalgia. It is something stranger and more useful. Seattle is bein
 
 The city has changed in ways both obvious and quiet. South Lake Union is a different neighborhood. The waterfront is a different waterfront. The light rail runs to places that used to be a long ride or a longer walk. And the sports culture has grown into the absences left behind.
 
-The Mariners endured. The Seahawks won a Super Bowl. The Sounders built a championship culture from scratch. The Kraken arrived as the city's first major league team to be born in the building it would call home. Each of those stories is its own, but together they answered a question that the Sonics' departure had left hanging: would Seattle still be a sports town without them?
+The Mariners endured. The Seahawks won a Super Bowl. The Kraken arrived as the city's first major league team to be born in the building it would call home. Each of those stories is its own, but together they answered a question that the Sonics' departure had left hanging: would Seattle still be a sports town without them?
 
 The answer turned out to be yes. But the question that has not been answered, that cannot be answered yet, is whether the city that was big enough to survive the loss will still be hungry enough to celebrate the return.
 

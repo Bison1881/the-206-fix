@@ -27,10 +27,9 @@ const SOURCES = [
 
   // Team-specific blogs
   // Field Gulls and Lookout Landing remain on SB Nation; /rss/current.xml is correct.
-  // Sounder at Heart and Davy Jones' Locker Room left SB Nation and run on their own platforms.
+  // Davy Jones' Locker Room left SB Nation in 2023 and runs on its own platform.
   { name: 'Field Gulls',           url: 'https://www.fieldgulls.com/rss/current.xml',               team: 'seahawks', priority: 1 },
   { name: 'Lookout Landing',       url: 'https://www.lookoutlanding.com/rss/current.xml',           team: 'mariners', priority: 1 },
-  { name: 'Sounder at Heart',      url: 'https://www.sounderatheart.com/rss/',                      team: 'sounders', priority: 1 },
   { name: "Davy Jones' Locker Room", url: 'https://www.davyjoneslockerroom.com/feed/',              team: 'kraken',   priority: 1 },
 
   // Official team feeds
