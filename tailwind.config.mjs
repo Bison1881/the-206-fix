@@ -8,8 +8,8 @@ export default {
         forest: '#2D4A3E',
         slate: '#4A5560',
         fog: '#8FA9B8',
-        cream: '#E8E4D9',
-        paper: '#DDD8CB',
+        cream: '#E7E6E7',
+        paper: '#DCDADC',
         rust: '#A0522D',
       },
       fontFamily: {

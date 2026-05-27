@@ -10,8 +10,8 @@
     --forest: #2D4A3E;
     --slate: #4A5560;
     --fog: #8FA9B8;
-    --cream: #E8E4D9;
-    --paper: #DDD8CB;
+    --cream: #E7E6E7;
+    --paper: #DCDADC;
     --rust: #A0522D;
   }
 
@@ -31,8 +31,8 @@
     font-size: 17px;
     line-height: 1.55;
     background-image:
-      radial-gradient(circle at 25% 30%, rgba(160, 82, 45, 0.04) 0%, transparent 50%),
-      radial-gradient(circle at 75% 70%, rgba(45, 74, 62, 0.05) 0%, transparent 50%),
+      radial-gradient(circle at 25% 30%, rgba(0, 0, 0, 0.025) 0%, transparent 50%),
+      radial-gradient(circle at 75% 70%, rgba(0, 0, 0, 0.03) 0%, transparent 50%),
       repeating-linear-gradient(45deg, transparent 0, transparent 2px, rgba(0, 0, 0, 0.012) 2px, rgba(0, 0, 0, 0.012) 3px);
     min-height: 100vh;
   }
