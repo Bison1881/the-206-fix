@@ -1,0 +1,111 @@
+---
+// src/pages/articles/[...slug].astro
+import { getCollection } from 'astro:content';
+import type { CollectionEntry } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+export async function getStaticPaths() {
+  const articles = await getCollection('articles', ({ data }) => !data.draft);
+  return articles.map((entry) => ({
+    params: { slug: entry.slug },
+    props: { entry },
+  }));
+}
+
+interface Props {
+  entry: CollectionEntry<'articles'>;
+}
+
+const { entry } = Astro.props;
+const { Content } = await entry.render();
+
+const publishedString = entry.data.publishDate.toLocaleDateString('en-US', {
+  weekday: 'long',
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+});
+---
+
+<BaseLayout title={`${entry.data.title} — The 206 Fix`} description={entry.data.deck} activeNav="columns">
+  <article class="container-fix py-12 max-w-[800px]">
+    <div class="kicker mb-3">{entry.data.tag}</div>
+    <h1 class="font-display font-black text-[48px] leading-[1.05] mb-4 text-ink max-md:text-[34px]">
+      {entry.data.title}
+    </h1>
+    {entry.data.deck && (
+      <p class="font-caslon italic text-[22px] text-slate mb-6 pb-5 border-b border-ink">
+        {entry.data.deck}
+      </p>
+    )}
+
+    <div class="meta-line mb-10 flex flex-wrap gap-x-4 gap-y-2">
+      <span>By <strong class="text-ink">{entry.data.author}</strong></span>
+      <span>{publishedString}</span>
+      {entry.data.readMinutes && <span>{entry.data.readMinutes} min read</span>}
+    </div>
+
+    <div class="prose-article font-body text-[19px] leading-[1.7]">
+      <Content />
+    </div>
+
+    <div class="mt-12 pt-6 border-t border-ink">
+      <a href="/" class="font-pixel text-rust hover:text-forest text-[18px]">&laquo; Back to Front Page</a>
+    </div>
+  </article>
+</BaseLayout>
+
+<style is:global>
+  .prose-article p {
+    margin-bottom: 1.2em;
+  }
+  .prose-article h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+    font-size: 30px;
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+    color: var(--forest);
+  }
+  .prose-article h3 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 22px;
+    margin-top: 1.5em;
+    margin-bottom: 0.4em;
+  }
+  .prose-article blockquote {
+    border-left: 3px solid var(--rust);
+    padding: 0.5em 0 0.5em 1.4em;
+    margin: 1.5em 0;
+    font-style: italic;
+    color: var(--slate);
+  }
+  .prose-article a {
+    color: var(--rust);
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+  }
+  .prose-article a:hover {
+    color: var(--forest);
+  }
+  .prose-article ul, .prose-article ol {
+    margin: 1em 0 1.2em 1.4em;
+    list-style: disc;
+  }
+  .prose-article ol { list-style: decimal; }
+  .prose-article li { margin-bottom: 0.4em; }
+  .prose-article hr {
+    border: none;
+    text-align: center;
+    margin: 2em 0;
+  }
+  .prose-article hr::after {
+    content: '◆ ◆ ◆';
+    color: var(--rust);
+    letter-spacing: 0.5em;
+    font-family: 'Press Start 2P', monospace;
+    font-size: 12px;
+  }
+</style>

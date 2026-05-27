@@ -1,0 +1,613 @@
+{
+  "generatedAt": "2026-05-27T10:54:52.441Z",
+  "sourceCount": 9,
+  "successfulSources": 8,
+  "failedSources": [
+    {
+      "source": "MyNorthwest Sports",
+      "error": "Invalid character in entity name\nLine: 19\nColumn: 33\nChar: & (lenient retry: Feed not recognized as RSS 1 or 2.)"
+    }
+  ],
+  "items": [
+    {
+      "title": "Hancock, Mariners play spoiler in crucial win over A's",
+      "link": "https://www.mlb.com/mariners/news/emerson-hancock-mariners-end-nick-kurtz-s-48-game-on-base-streak",
+      "pubDate": "Wed, 27 May 2026 06:31:00 GMT",
+      "isoDate": "2026-05-27T06:31:00.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "What stood out from Seahawks’ 1st OTA practice",
+      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/what-stood-out-seattle-seahawks-1st-ota-practice-2026",
+      "pubDate": "Wed, 27 May 2026 05:47:35 +0000",
+      "isoDate": "2026-05-27T05:47:35.000Z",
+      "excerpt": "Just like last year, Seattle had impressive attendance for its first voluntary OTA practice.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "UW men’s golf won’t bring back Alan Murray as head coach",
+      "link": "https://www.seattletimes.com/sports/uw-mens-golf-wont-bring-back-alan-murray-as-head-coach/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Tue, 26 May 2026 22:19:12 -0700",
+      "isoDate": "2026-05-27T05:19:12.000Z",
+      "excerpt": "Murray recently completed his 10th season with the Huskies.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Mariners make it easy, win 4-1",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/143994/mariners-make-it-easy-win-4-1",
+      "pubDate": "2026-05-27T04:28:22.000Z",
+      "isoDate": "2026-05-27T04:28:22.000Z",
+      "excerpt": "SACRAMENTO, CALIFORNIA - MAY 26: Mitch Garver #18 of the Seattle Mariners reacts after hitting an RBI double during the second inning against the Athletics at Sutter Health Park on May 26, 2026 in Sacramento,...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Mariners on verge of AL West lead after Emerson Hancock’s gem vs. Athletics",
+      "link": "https://www.seattletimes.com/sports/mariners/mariners-on-verge-of-al-west-lead-after-emerson-hancocks-gem-vs-athletics/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Tue, 26 May 2026 21:17:05 -0700",
+      "isoDate": "2026-05-27T04:17:05.000Z",
+      "excerpt": "In his latest gem, Emerson Hancock allowed only one hit over six dominant innings as the Mariners pulled to within a half game of the AL West lead with a 4-1 win over the Athletics.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Mariners beat A’s 4-1, pull within half-game of AL West lead",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-4-1-athletics-half-game-al-west",
+      "pubDate": "Wed, 27 May 2026 04:14:07 +0000",
+      "isoDate": "2026-05-27T04:14:07.000Z",
+      "excerpt": "Emerson Hancock shined with six scoreless innings to lead the M's over the A's.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "27-29: Chart",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/143997/27-29-chart",
+      "pubDate": "2026-05-27T04:13:48.000Z",
+      "isoDate": "2026-05-27T04:13:48.000Z",
+      "excerpt": "SACRAMENTO, CALIFORNIA - MAY 26: Victor Robles #10 of the Seattle Mariners reacts after hitting a double during the fourth inning against the Athletics at Sutter Health Park on May 26, 2026 in Sacramento, California....",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Mariners address communication gap over piggyback plan with Castillo, Miller",
+      "link": "https://www.mlb.com/mariners/news/mariners-clarify-piggyback-plan-with-luis-castillo-bryce-miller",
+      "pubDate": "Wed, 27 May 2026 04:11:19 GMT",
+      "isoDate": "2026-05-27T04:11:19.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Mariners stick with piggyback plan for Bryce Miller, Luis Castillo for now",
+      "link": "https://www.seattletimes.com/sports/mariners/mariners-stick-with-piggyback-plan-for-bryce-miller-luis-castillo-for-now/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Tue, 26 May 2026 19:38:59 -0700",
+      "isoDate": "2026-05-27T02:38:59.000Z",
+      "excerpt": "The Mariners followed up with Luis Castillo and Bryce Miller after both expressed frustration, but the team plans to stick with its piggyback plan for at least one more turn through the rotation.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Latest Mariners injuries and transactions",
+      "link": "https://www.mlb.com/mariners/news/mariners-injuries-and-roster-moves",
+      "pubDate": "Wed, 27 May 2026 02:13:00 GMT",
+      "isoDate": "2026-05-27T02:13:00.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Mariners Game #56 Preview and Discussion: SEA at ATH",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-game-information/143986/mariners-game-56-preview-and-discussion-sea-at-ath",
+      "pubDate": "2026-05-27T01:07:51.000Z",
+      "isoDate": "2026-05-27T01:07:51.000Z",
+      "excerpt": "SEATTLE, WASHINGTON - MAY 20: Emerson Hancock #26 of the Seattle Mariners takes a moment before the game against the Chicago White Sox at T-Mobile Park on May 20, 2026 in Seattle, Washington. (Photo by Jack...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Trump May Appear at NBA Finals in New York",
+      "link": "https://www.seattletimes.com/nation-world/nation-politics/trump-may-appear-at-nba-finals-in-new-york/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Tue, 26 May 2026 17:54:43 -0700",
+      "isoDate": "2026-05-27T00:54:43.000Z",
+      "excerpt": "An appearance by Trump at Madison Square Garden would be the latest incidence of a high-profile sports event serving as a backdrop for his presidency.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Seahawks’ DeMarcus Lawrence absent from offseason program | Notebook",
+      "link": "https://www.seattletimes.com/sports/seahawks/seahawks-demarcus-lawrence-absent-from-offseason-program-notebook/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Tue, 26 May 2026 17:49:53 -0700",
+      "isoDate": "2026-05-27T00:49:53.000Z",
+      "excerpt": "As has been the case throughout the offseason program, veteran defensive end DeMarcus Lawrence was not on the field when the Seahawks began OTAs.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Seahawks Injury Updates: Tory Horton gets ‘good news’",
+      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/seattle-seahawks-injury-updates-tory-horton-good-news",
+      "pubDate": "Wed, 27 May 2026 00:28:55 +0000",
+      "isoDate": "2026-05-27T00:28:55.000Z",
+      "excerpt": "Here's a roundup of injury updates on Tory Horton, Zach Charbonnet, AJ Barner and Robbie Ouzts.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Mike Macdonald starts Seahawks OTAs with ‘good news’ on Tory Horton",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-injury-report/168859/mike-macdonald-starts-seahawks-otas-good-news-tory-horton",
+      "pubDate": "2026-05-27T00:10:16.000Z",
+      "isoDate": "2026-05-27T00:10:16.000Z",
+      "excerpt": "LANDOVER, MARYLAND - NOVEMBER 02: Tory Horton #15 of the Seattle Seahawks catches a pass for a touchdown against the Washington Commanders during the first quarter in the game at Northwest Stadium on November 02, 2025...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
+    {
+      "title": "Seahawks Open OTAs Looking To 'Run It Forward' In 2026",
+      "link": "https://www.seahawks.com/news/seahawks-open-otas-looking-to-run-it-forward-in-2026",
+      "pubDate": "Wed, 27 May 2026 00:00:38 GMT",
+      "isoDate": "2026-05-27T00:00:38.000Z",
+      "excerpt": "The Seahawks are proud of what they accomplished in the 2025 season, but the reigning Super Bowl champs know past success won’t help them going forward.",
+      "source": "Seahawks.com",
+      "team": "seahawks",
+      "priority": 6
+    },
+    {
+      "title": "Day 1 Of Seahawks' OTAs, Injury Updates On Tory Horton & More",
+      "link": "https://www.seahawks.com/news/day-1-of-seahawks-otas-injury-updates-on-tory-horton-more",
+      "pubDate": "Tue, 26 May 2026 23:56:40 GMT",
+      "isoDate": "2026-05-26T23:56:40.000Z",
+      "excerpt": "News and notes from the first day of Seattle’s organized team activities.",
+      "source": "Seahawks.com",
+      "team": "seahawks",
+      "priority": 6
+    },
+    {
+      "title": "Seahawks return to field, look to ‘run it forward’ in Super Bowl defense",
+      "link": "https://www.seattletimes.com/sports/seahawks/seahawks-return-to-field-look-to-run-it-forward-in-super-bowl-defense/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Tue, 26 May 2026 16:52:08 -0700",
+      "isoDate": "2026-05-26T23:52:08.000Z",
+      "excerpt": "The Seahawks took the field for the first time since their Super Bowl win, and coach Mike Macdonald had a message about 2025: “That was then and this is now.\"",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Gabe Speier activated from injured list in Mariners bullpen relief",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-roster/143979/gabe-speier-activated-from-injured-list-in-mariners-bullpen-relief",
+      "pubDate": "2026-05-26T23:21:41.000Z",
+      "isoDate": "2026-05-26T23:21:41.000Z",
+      "excerpt": "MINNEAPOLIS, MN - APRIL 28: Gabe Speier #55 of the Seattle Mariners pitches against the Minnesota Twins on April 28, 2026 at Target Field in Minneapolis, Minnesota. (Photo by Brace Hemmelgarn/Minnesota Twins/Getty...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "The Cooler Guild: Rhode win",
+      "link": "https://www.sounderatheart.com/2026/05/the-cooler-guild-rhode-win/",
+      "pubDate": "Tue, 26 May 2026 23:15:45 GMT",
+      "isoDate": "2026-05-26T23:15:45.000Z",
+      "excerpt": "The back of the net was finally found.",
+      "source": "Sounder at Heart",
+      "team": "sounders",
+      "priority": 1
+    },
+    {
+      "title": "UFC fighting cage rises on White House lawn for bout celebrating America’s 250th anniversary",
+      "link": "https://www.seattletimes.com/nation-world/nation/ufc-fighting-cage-rises-on-white-house-lawn-for-bout-celebrating-americas-250th-anniversary/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Tue, 26 May 2026 16:13:03 -0700",
+      "isoDate": "2026-05-26T23:13:03.000Z",
+      "excerpt": "Crews are busy building a temporary octagon-shaped cage on the White House South Lawn for a UFC bout.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Seahawks coach on DeMarcus Lawrence: ‘He’ll be here’",
+      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/seattle-seahawks-macdonald-demarcus-lawrence-expected-back-ota",
+      "pubDate": "Tue, 26 May 2026 22:56:58 +0000",
+      "isoDate": "2026-05-26T22:56:58.000Z",
+      "excerpt": "DeMarcus Lawrence wasn't at Seattle's first OTA practice, but Mike Macdonald reiterated he's expected to play in 2026.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Photos: Seahawks gather for OTAs",
+      "link": "https://www.seattletimes.com/sports/seahawks/photos-seahawks-gather-for-otas/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Tue, 26 May 2026 15:16:13 -0700",
+      "isoDate": "2026-05-26T22:16:13.000Z",
+      "excerpt": "",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "The 2026 Seattle Mariners as Breaking Bad characters",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-discussion/143968/the-2026-seattle-mariners-as-breaking-bad-characters",
+      "pubDate": "2026-05-26T22:04:44.000Z",
+      "isoDate": "2026-05-26T22:04:44.000Z",
+      "excerpt": "KANSAS CITY, MO - MAY 23: Julio Rodríguez (44) of the Seattle Mariners reacts after diving back to first base safely during an MLB game against the Kansas City Royals on May 23, 2026 at Kauffman Stadium in Kansas City,...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "USMNT sets its 26-man roster for World Cup",
+      "link": "https://sports.mynorthwest.com/mls/seattle-sounders-fc/usmnt-sets-26-man-roster-world-cup",
+      "pubDate": "Tue, 26 May 2026 21:03:04 +0000",
+      "isoDate": "2026-05-26T21:03:04.000Z",
+      "excerpt": "Half of the USMNT roster returns from the last World Cup in 2022 in Qatar.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Sounders’ Cristian Roldan named to Team USA for World Cup",
+      "link": "https://sports.mynorthwest.com/mls/seattle-sounders-fc/seattle-sounders-cristian-roldan-usmnt-world-cup",
+      "pubDate": "Tue, 26 May 2026 20:48:22 +0000",
+      "isoDate": "2026-05-26T20:48:22.000Z",
+      "excerpt": "Seattle Sounders midfielder Cristian Roldan was officially announced as one of the 26 players included on U.S. coach Mauricio Pochettino’s World Cup roster Tuesday.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "College Baseball: What to know going into NCAA Tournament regionals",
+      "link": "https://sports.mynorthwest.com/ncaa/wsu/college-baseball-what-to-know-going-into-ncaa-tournament-regionals",
+      "pubDate": "Tue, 26 May 2026 20:40:21 +0000",
+      "isoDate": "2026-05-26T20:40:21.000Z",
+      "excerpt": "The NCAA baseball tournament opens Friday with play in 16 double-elimination regionals.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Mariners activate Speier from IL, option Davila to Triple-A",
+      "link": "https://www.mlb.com/mariners/news/mariners-activate-gabe-speier-from-15-day-injured-list",
+      "pubDate": "Tue, 26 May 2026 20:15:03 GMT",
+      "isoDate": "2026-05-26T20:15:03.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Cristian Roldan named to USA's 2026 World Cup roster",
+      "link": "https://www.sounderatheart.com/2026/05/cristian-roldan-named-to-usas-2026-world-cup-roster/",
+      "pubDate": "Tue, 26 May 2026 19:40:37 GMT",
+      "isoDate": "2026-05-26T19:40:37.000Z",
+      "excerpt": "News becomes official during a made-for-TV event.",
+      "source": "Sounder at Heart",
+      "team": "sounders",
+      "priority": 1
+    },
+    {
+      "title": "Mariners Roster Move: Gabe Speier returns, reliever sent down",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-roster-move-gabe-speier-returns",
+      "pubDate": "Tue, 26 May 2026 19:01:40 +0000",
+      "isoDate": "2026-05-26T19:01:40.000Z",
+      "excerpt": "Left-handed reliever Gabe Speier has been activated from the 15-day injured list, the M's announced late Tuesday morning.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Five Things To Watch As The Seahawks Kick Off 2026 OTAs",
+      "link": "https://www.seahawks.com/news/five-things-to-watch-as-the-seahawks-kick-off-2026-otas",
+      "pubDate": "Tue, 26 May 2026 18:49:01 GMT",
+      "isoDate": "2026-05-26T18:49:01.000Z",
+      "excerpt": "Storylines to watch as the Seahawks begin voluntary organized team activities.",
+      "source": "Seahawks.com",
+      "team": "seahawks",
+      "priority": 6
+    },
+    {
+      "title": "Mariners News: Luis Castillo, Tatsuya Imai, and Jarred Kelenic",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-news/143950/mariners-news-luis-castillo-tatsuya-imai-and-jarred-kelenic",
+      "pubDate": "2026-05-26T17:50:06.000Z",
+      "isoDate": "2026-05-26T17:50:06.000Z",
+      "excerpt": "May 23, 2026; San Francisco, California, USA; Chicago White Sox right fielder Jarred Kelenic (24) hits a double against the San Francisco Giants during the fifth inning at Oracle Park. Mandatory Credit: Darren...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Seahawks 2026 rookie predictions: Julian Neal is a swing for 2027 and beyond",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/168821/seahawks-2026-rookie-predictions-julian-neal-is-a-swing-2027-beyond",
+      "pubDate": "2026-05-26T15:00:00.000Z",
+      "isoDate": "2026-05-26T15:00:00.000Z",
+      "excerpt": "In the third round, John Schneider finally got to flex his trading muscles, dropping down a few spots from No. 96 to No. 99 while adding a sixth-rounder (No. 216) in the process. At No. 99, the Seattle Seahawks stayed...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
+    {
+      "title": "Lobbing Scorchers Kickoff: Sounders Midseason Report Card + USMNT Roster Reaction",
+      "link": "https://www.sounderatheart.com/2026/05/lobbing-scorchers-kickoff-sounders-midseason-report-card-usmnt-roster-reaction/",
+      "pubDate": "Tue, 26 May 2026 14:30:11 GMT",
+      "isoDate": "2026-05-26T14:30:11.000Z",
+      "excerpt": "Join us live at 8 am PT every Monday!",
+      "source": "Sounder at Heart",
+      "team": "sounders",
+      "priority": 1
+    },
+    {
+      "title": "An early look at the 2027 Seahawks free agent class",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-free-agency/168816/an-early-look-2027-seattle-seahawks-free-agent-class",
+      "pubDate": "2026-05-26T14:00:00.000Z",
+      "isoDate": "2026-05-26T14:00:00.000Z",
+      "excerpt": "SANTA CLARA, CALIFORNIA - FEBRUARY 8: Leonard Williams #99 of the Seattle Seahawks celebrates after a touchdown during the fourth quarter of the NFL Super Bowl LX football game against the New England Patriots, at...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
+    {
+      "title": "Seahawks News 5/26: It’s Tuesday and the Seahawks are still champs",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-news/168851/seahawks-news-5-26-its-tuesday-and-the-seahawks-are-still-champs",
+      "pubDate": "2026-05-26T13:00:00.000Z",
+      "isoDate": "2026-05-26T13:00:00.000Z",
+      "excerpt": "Jan 25, 2026; Seattle, WA, USA; A Seattle Seahawks fan holds up a sign after the 2026 NFC Championship Game against the Los Angeles Rams at Lumen Field. Mandatory Credit: Kevin Ng-Imagn Images | Kevin Ng-Imagn Images In...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
+    {
+      "title": "Castillo, Miller still adjusting to 'piggyback' pitching plan",
+      "link": "https://www.mlb.com/mariners/news/luis-castillo-frustrated-with-early-exit-in-mariners-win",
+      "pubDate": "Tue, 26 May 2026 06:14:00 GMT",
+      "isoDate": "2026-05-26T06:14:00.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Mariners win battle of piggyback starters against A’s, 9-2",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/143936/mariners-win-battle-of-piggyback-starters-against-as-9-2",
+      "pubDate": "2026-05-26T05:18:38.000Z",
+      "isoDate": "2026-05-26T05:18:38.000Z",
+      "excerpt": "SACRAMENTO, CA - MAY 25: Luis Castillo #58 of the Seattle Mariners reacts during the game between the Seattle Mariners and the Athletics at Sutter Health Park on Monday, May 25, 2026 in Sacramento, California. (Photo by...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "26-29: Chart",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/143937/26-29-chart",
+      "pubDate": "2026-05-26T04:23:20.000Z",
+      "isoDate": "2026-05-26T04:23:20.000Z",
+      "excerpt": "SACRAMENTO, CA - MAY 25: Randy Arozarena #56 high-fives Luke Raley #20 of the Seattle Mariners during the game between the Seattle Mariners and the Athletics at Sutter Health Park on Monday, May 25, 2026 in Sacramento,...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Raleigh resumes baseball activity for first time since oblique injury",
+      "link": "https://www.mlb.com/mariners/news/cal-raleigh-plays-catch-for-first-time-since-injury",
+      "pubDate": "Tue, 26 May 2026 01:35:06 GMT",
+      "isoDate": "2026-05-26T01:35:06.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Seattle Sounders at LAFC: community player ratings form",
+      "link": "https://www.sounderatheart.com/2026/05/seattle-sounders-lafc-community-player-ratings-form-6/",
+      "pubDate": "Mon, 25 May 2026 22:43:21 GMT",
+      "isoDate": "2026-05-25T22:43:21.000Z",
+      "excerpt": "Rate your Sounders on their 1-0 loss that apparently came via a brutal late-game goal.",
+      "source": "Sounder at Heart",
+      "team": "sounders",
+      "priority": 1
+    },
+    {
+      "title": "LAFC vs. Sounders: Highlights, stats, quotes",
+      "link": "https://www.sounderatheart.com/2026/05/lafc-vs-sounders-highlights-stats-quotes-2/",
+      "pubDate": "Mon, 25 May 2026 20:07:14 GMT",
+      "isoDate": "2026-05-25T20:07:14.000Z",
+      "excerpt": "Sounders fall 1–0 on a late Tim Tillman goal.",
+      "source": "Sounder at Heart",
+      "team": "sounders",
+      "priority": 1
+    },
+    {
+      "title": "Devon Witherspoon, Seahawks ‘do not yet appear to be close to an agreement’",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-news/168801/devon-witherspoon-seahawks-do-not-yet-appear-to-be-close-to-agreement-nfl-news",
+      "pubDate": "2026-05-25T15:00:00.000Z",
+      "isoDate": "2026-05-25T15:00:00.000Z",
+      "excerpt": "SANTA CLARA, CALIFORNIA - FEBRUARY 08: Devon Witherspoon #21 of the Seattle Seahawks warms up prior to the NFL Super Bowl LX football game against the New England Patriots at Levi Stadium on February 8, 2026 in Santa...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
+    {
+      "title": "Which Seahawks are under the most pressure entering 2026?",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/168782/which-seahawks-are-under-the-most-pressure-entering-2026",
+      "pubDate": "2026-05-25T14:00:00.000Z",
+      "isoDate": "2026-05-25T14:00:00.000Z",
+      "excerpt": "SANTA CLARA, CALIFORNIA - FEBRUARY 8: Sam Darnold #14 of the Seattle Seahawks celebrates after the NFL Super Bowl LX football game against the New England Patriots, at Levi's Stadium on February 8, 2026 in Santa Clara,...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
+    {
+      "title": "Seahawks News 5/25: Michael Dickson always deserves his flowers",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-news/168808/seahawks-news-5-25-michael-dickson-always-deserves-his-flowers",
+      "pubDate": "2026-05-25T13:00:00.000Z",
+      "isoDate": "2026-05-25T13:00:00.000Z",
+      "excerpt": "In Today’s Links: if the ‘Hawks make a trade, Bumpus has his eye on Anthony Bradford (amongst others), another look at the possibility that the new owner of our beloved Seattle Seahawks will want to build a new stadium,...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
+    {
+      "title": "Ending with a whimper: Late goal sinks Sounders",
+      "link": "https://www.sounderatheart.com/2026/05/ending-with-a-whimper-late-goal-sinks-sounders/",
+      "pubDate": "Mon, 25 May 2026 04:17:47 GMT",
+      "isoDate": "2026-05-25T04:17:47.000Z",
+      "excerpt": "Sounders head into the World Cup break with a 1-0 loss on the road to LAFC.",
+      "source": "Sounder at Heart",
+      "team": "sounders",
+      "priority": 1
+    },
+    {
+      "title": "LAFC vs. Sounders, livestream: Kickoff, lineups, updates",
+      "link": "https://www.sounderatheart.com/2026/05/lafc-vs-sounders-livestream-kickoff-lineups-updates/",
+      "pubDate": "Sun, 24 May 2026 23:00:31 GMT",
+      "isoDate": "2026-05-24T23:00:31.000Z",
+      "excerpt": "Sounders will visit LAFC at 6 PM PT on AppleTV and Fox.",
+      "source": "Sounder at Heart",
+      "team": "sounders",
+      "priority": 1
+    },
+    {
+      "title": "Everything you need to know about LAFC-Sounders",
+      "link": "https://www.sounderatheart.com/2026/05/everything-you-need-to-know-about-lafc-sounders-4/",
+      "pubDate": "Sun, 24 May 2026 17:00:12 GMT",
+      "isoDate": "2026-05-24T17:00:12.000Z",
+      "excerpt": "Sounders travel to LAFC at 6 PM on AppleTV and Fox.",
+      "source": "Sounder at Heart",
+      "team": "sounders",
+      "priority": 1
+    },
+    {
+      "title": "Seattle Seahawks 53-man roster projection: Pre-OTAs edition",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-roster/168693/seattle-seahawks-53-man-roster-projection-otas",
+      "pubDate": "2026-05-24T14:00:00.000Z",
+      "isoDate": "2026-05-24T14:00:00.000Z",
+      "excerpt": "SEATTLE, WASHINGTON - JANUARY 17: Nick Kallerup #89 of the Seattle Seahawks warms up prior to an NFL divisional playoff football game against the San Francisco 49ers at Lumen Field on January 17, 2026 in Seattle,...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
+    {
+      "title": "Seahawks Hang Another Super Bowl Champions Banner",
+      "link": "https://www.seahawks.com/news/seahawks-hang-another-super-bowl-champions-banner",
+      "pubDate": "Sat, 23 May 2026 01:02:11 GMT",
+      "isoDate": "2026-05-23T01:02:11.000Z",
+      "excerpt": "The banner celebrating the Seahawks’ Super Bowl LX victory over the Patriots went up Friday in the Virginia Mason Athletic Center.",
+      "source": "Seahawks.com",
+      "team": "seahawks",
+      "priority": 6
+    },
+    {
+      "title": "For Seahawks, Chasing Edges Includes Comprehensive Sleep Program",
+      "link": "https://www.seahawks.com/news/for-seahawks-chasing-edges-includes-comprehensive-sleep-program",
+      "pubDate": "Thu, 21 May 2026 16:59:35 GMT",
+      "isoDate": "2026-05-21T16:59:35.000Z",
+      "excerpt": "Seahawks rookies met with sleep physician and performance expert Dr. Cheri D. Mah as part of the organization’s continued commitment to player performance.",
+      "source": "Seahawks.com",
+      "team": "seahawks",
+      "priority": 6
+    },
+    {
+      "title": "Firebirds season ends in 4 games in AHL Pacific Division Final",
+      "link": "https://www.davyjoneslockerroom.com/firebirds-season-ends-in-4-games-in-ahl-pacific-division-final/",
+      "pubDate": "Thu, 21 May 2026 14:00:00 +0000",
+      "isoDate": "2026-05-21T14:00:00.000Z",
+      "excerpt": "Just not to be. The Coachella Valley Firebirds faced Colorado in Game 4 last night, and unfortunately, with their season on the line, couldn’t stymie the advance of the Eagles in the AHL Postseason, losing a...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
+      "title": "Seahawks 2026 Schedule Features Six Primetime Games, Including Christmas at Lumen Field",
+      "link": "https://www.seahawks.com/news/seattle-seahawks-2026-schedule-release-features-six-primetime-games-including-christmas-at-lumen-field",
+      "pubDate": "Tue, 19 May 2026 23:30:00 GMT",
+      "isoDate": "2026-05-19T23:30:00.000Z",
+      "excerpt": "The Seahawks’ 2026 schedule was announced Thursday, and it features a franchise-record six primetime games, including five at Lumen Field, and a Week 11 bye.",
+      "source": "Seahawks.com",
+      "team": "seahawks",
+      "priority": 6
+    },
+    {
+      "title": "Four Options for the Kraken at Pick 7",
+      "link": "https://www.davyjoneslockerroom.com/four-options-for-the-kraken-at-pick-7/",
+      "pubDate": "Tue, 19 May 2026 15:00:00 +0000",
+      "isoDate": "2026-05-19T15:00:00.000Z",
+      "excerpt": "The NHL Draft Lottery has come and gone, and luck continues to not be on the Seattle Kraken’s side. The Hockey Gods are clearly prepared to drag this team – and fanbase – through years of developing instead of having...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
+      "title": "Firebirds Round 3 Playoffs SO FAR: BIRDFIGHT…2!",
+      "link": "https://www.davyjoneslockerroom.com/firebirds-round-3-playoffs-so-far-birdfight-2/",
+      "pubDate": "Sun, 17 May 2026 14:00:00 +0000",
+      "isoDate": "2026-05-17T14:00:00.000Z",
+      "excerpt": "The Need to Knows The Times for remaining games: Game 3: May 17 – 5:05pm PDT Game 4: May 20 – 7:05pm PDT Game 5: May 22- 7:05pm PDT The Place: All remaining games in this series will be conducted in Blue Federal Credit...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
+      "title": "A Game-By-Game Look At The Seahawks' 2026 Schedule",
+      "link": "https://www.seahawks.com/news/a-game-by-game-look-at-the-seahawks-2026-schedule",
+      "pubDate": "Thu, 14 May 2026 23:27:00 GMT",
+      "isoDate": "2026-05-14T23:27:00.000Z",
+      "excerpt": "With the NFL schedule coming out on Thursday, here’s a week-by-week analysis of the Seahawks’ slate of games.",
+      "source": "Seahawks.com",
+      "team": "seahawks",
+      "priority": 6
+    },
+    {
+      "title": "Seahawks 2026 Preseason Schedule Announced",
+      "link": "https://www.seahawks.com/news/seahawks-2026-preseason-schedule-announced",
+      "pubDate": "Thu, 14 May 2026 23:25:00 GMT",
+      "isoDate": "2026-05-14T23:25:00.000Z",
+      "excerpt": "The Seahawks’ three preseason games were announced on Thursday in addition to the full regular-season schedule.",
+      "source": "Seahawks.com",
+      "team": "seahawks",
+      "priority": 6
+    },
+    {
+      "title": "Who is Sportsology?: Seattle Kraken Hire Audit Firm",
+      "link": "https://www.davyjoneslockerroom.com/who-is-sportsology-seattle-kraken-hire-audit-firm/",
+      "pubDate": "Wed, 13 May 2026 14:00:00 +0000",
+      "isoDate": "2026-05-13T14:00:00.000Z",
+      "excerpt": "The Kraken announced Tuesday they have hired Sportsology Group to conduct the external audit of hockey operations that Tod Leiweke first mentioned on April 9, the day after Ron Francis’s departure as president of hockey...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
+      "title": "Firebirds Series RECAP: Coachella goes the distance, wins series against Ontario in double overtime!",
+      "link": "https://www.davyjoneslockerroom.com/firebirds-series-recap-coachella-goes-the-distance-wins-series-against-ontario-in-double-overtime/",
+      "pubDate": "Mon, 11 May 2026 13:45:00 +0000",
+      "isoDate": "2026-05-11T13:45:00.000Z",
+      "excerpt": "The Firebirds punched their ticket to the Pacific Division finals last night with a double OT spectacular, where forward JR Avon, who has absolutely exploded through these last few games, broke through the Reign’s...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
+      "title": "Stream Mariners games on Mariners.TV; get a free trial",
+      "link": "https://www.mlb.com/mariners/news/mariners-tv-is-here-for-2026-season",
+      "pubDate": "Thu, 07 May 2026 16:06:00 GMT",
+      "isoDate": "2026-05-07T16:06:00.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    }
+  ]
+}

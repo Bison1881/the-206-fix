@@ -1,0 +1,98 @@
+---
+// src/components/HeroSection.astro
+import rssData from '../data/rss-feed.json';
+
+interface LeadArticle {
+  title: string;
+  deck?: string;
+  author: string;
+  tag: string;
+  readMinutes?: number;
+  bodyHtml: string;
+  slug: string;
+}
+
+interface Props {
+  lead: LeadArticle | null;
+}
+
+const { lead } = Astro.props;
+
+function timeAgo(iso: string): string {
+  const then = new Date(iso).getTime();
+  const now = Date.now();
+  const diffMs = now - then;
+  const hours = Math.floor(diffMs / (1000 * 60 * 60));
+  if (hours < 1) return 'Just now';
+  if (hours < 24) return `${hours} hour${hours === 1 ? '' : 's'} ago`;
+  const days = Math.floor(hours / 24);
+  if (days === 1) return 'Yesterday';
+  if (days < 7) return `${days} days ago`;
+  return new Date(iso).toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+}
+
+const sidebarItems = rssData.items.slice(0, 6);
+---
+
+<section class="py-10 pb-6 border-b border-ink">
+  <div class="container-fix">
+    <div class="grid grid-cols-[1fr_1px_360px] gap-8 max-lg:grid-cols-1">
+      <article>
+        {lead ? (
+          <>
+            <div class="kicker mb-3">Lead Story &middot; {lead.tag}</div>
+            <h1 class="font-display font-black text-[56px] leading-[1.02] tracking-[-0.015em] mb-4 text-ink max-md:text-[38px]">
+              <a href={`/articles/${lead.slug}`} class="hover:text-rust">{lead.title}</a>
+            </h1>
+            {lead.deck && (
+              <p class="font-caslon italic text-[22px] leading-snug text-slate mb-5 pb-4 border-b border-ink">
+                {lead.deck}
+              </p>
+            )}
+            <div class="meta-line mb-5">
+              By <strong class="text-ink">{lead.author}</strong>
+              {lead.readMinutes && <> &middot; {lead.readMinutes} min read</>}
+            </div>
+            <div class="lead-body font-body text-[17px]" set:html={lead.bodyHtml} />
+          </>
+        ) : (
+          <>
+            <div class="kicker mb-3">Lead Story</div>
+            <h1 class="font-display font-black text-[56px] leading-[1.02] tracking-[-0.015em] mb-4 text-ink max-md:text-[38px]">
+              The Front Page Will Print Here
+            </h1>
+            <p class="font-caslon italic text-[22px] text-slate mb-5 pb-4 border-b border-ink">
+              Mark an article as <code>lead: true</code> in its frontmatter to feature it here.
+            </p>
+            <p class="font-body text-[17px] text-slate">
+              The lead slot is reserved for the weekly column or whatever original piece deserves above-the-fold real estate.
+            </p>
+          </>
+        )}
+      </article>
+
+      <div class="bg-ink max-lg:hidden"></div>
+
+      <aside>
+        <div class="section-label-tag mb-[14px]">From the Wires</div>
+        <div>
+          {sidebarItems.map((item) => (
+            <div class="dashed-border border-x-0 border-t-0 py-3 last:border-b-0">
+              <div class="font-ui text-[10px] uppercase tracking-[0.12em] text-rust font-bold mb-1">
+                {item.source}
+              </div>
+              <div class="font-caslon text-[16px] leading-[1.25] font-bold">
+                <a href={item.link} target="_blank" rel="noopener noreferrer" class="hover:text-rust">
+                  {item.title}
+                </a>
+              </div>
+              <div class="font-ui text-[10px] text-slate mt-1 tracking-[0.05em]">
+                {timeAgo(item.isoDate)}
+              </div>
+            </div>
+          ))}
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>

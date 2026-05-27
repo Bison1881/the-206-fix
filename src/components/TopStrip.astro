@@ -1,0 +1,20 @@
+---
+// src/components/TopStrip.astro
+interface Props {
+  volume?: string;
+  issue?: string;
+}
+const { volume = 'I', issue = '001' } = Astro.props;
+---
+
+<div class="bg-ink text-cream font-ui text-[11px] tracking-[0.12em] uppercase py-2">
+  <div class="container-fix flex justify-between items-center">
+    <span>Volume {volume} &middot; No. {issue}</span>
+    <span class="flex gap-[18px]">
+      <a href="https://www.youtube.com/@the206fix" class="hover:text-fog">YouTube</a>
+      <a href="/rss.xml" class="hover:text-fog">RSS</a>
+      <a href="/newsletter" class="hover:text-fog">Newsletter</a>
+      <a href="/archive" class="hover:text-fog">Archive</a>
+    </span>
+  </div>
+</div>

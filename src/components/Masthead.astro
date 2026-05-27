@@ -1,0 +1,42 @@
+---
+// src/components/Masthead.astro
+const today = new Date();
+const dateString = today.toLocaleDateString('en-US', {
+  weekday: 'long',
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+});
+
+function getEdition(date: Date): string {
+  const hour = date.getHours();
+  if (hour < 12) return 'Morning Edition';
+  if (hour < 17) return 'Afternoon Edition';
+  return 'Evening Edition';
+}
+---
+
+<header class="border-b-4 border-double border-ink pt-8 pb-5 text-center relative">
+  <div class="container-fix">
+    <div class="flex justify-between font-ui text-[10px] uppercase tracking-[0.15em] mb-[18px] text-slate">
+      <span>Independent &middot; Pacific Northwest</span>
+      <span>Sports &middot; Retro &middot; Reflection</span>
+    </div>
+
+    <h1 class="font-mast text-[52px] leading-none text-forest mb-2 pixel-shadow tracking-[-0.02em] max-md:text-[32px]">
+      THE&nbsp;206&nbsp;FIX
+    </h1>
+
+    <div class="font-caslon italic text-[18px] text-slate mb-4">
+      A companion paper for Seattle sports and the games we grew up on.
+    </div>
+
+    <div class="flex justify-center gap-8 font-ui text-[11px] uppercase tracking-[0.18em] text-ink pt-3 border-t border-ink mt-[14px]">
+      <span>Seattle, Washington</span>
+      <span class="text-rust">&#9632;</span>
+      <span>{dateString}</span>
+      <span class="text-rust">&#9632;</span>
+      <span>{getEdition(today)}</span>
+    </div>
+  </div>
+</header>

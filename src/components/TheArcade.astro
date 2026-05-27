@@ -1,0 +1,102 @@
+---
+// src/components/TheArcade.astro
+interface RetroFeature {
+  slug: string;
+  title: string;
+  deck?: string;
+  episodeNumber?: number;
+  youtubeId?: string;
+  publishDate: Date;
+}
+interface RetroListItem {
+  slug: string;
+  title: string;
+  game: string;
+  readMinutes?: number;
+}
+interface Props {
+  feature: RetroFeature | null;
+  companions: RetroListItem[];
+}
+const { feature, companions } = Astro.props;
+
+function formatPublished(date: Date): string {
+  const diff = Date.now() - date.getTime();
+  const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+  if (days === 0) return 'Today';
+  if (days === 1) return 'Yesterday';
+  if (days < 7) return `${days} days ago`;
+  return date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+}
+
+const youtubeUrl = feature?.youtubeId
+  ? `https://www.youtube.com/watch?v=${feature.youtubeId}`
+  : 'https://www.youtube.com/@the206fix';
+---
+
+<section class="py-10 border-b-4 border-double border-ink">
+  <div class="container-fix">
+    <div class="flex items-center gap-4 mb-6 pb-2 border-b-2 border-ink">
+      <h2 class="font-mast text-[18px] text-forest tracking-[0.02em]">THE ARCADE</h2>
+      <div class="flex-1 h-px bg-ink"></div>
+      <div class="meta-line">Companion to The 206 Fix on YouTube</div>
+    </div>
+
+    <div class="grid grid-cols-[1.4fr_1fr] gap-9 items-start max-md:grid-cols-1">
+      {feature ? (
+        <div class="bg-ink text-cream p-7 relative">
+          <div class="absolute inset-2 border-2 border-dashed border-fog pointer-events-none"></div>
+          <div class="font-mast text-[10px] text-rust mb-[14px] tracking-[0.05em] relative">
+            &#9658; NOW PLAYING
+          </div>
+          <h3 class="font-pixel text-[36px] leading-[1.05] mb-3 text-cream relative">
+            <a href={`/retro/${feature.slug}`} class="hover:text-fog">{feature.title}</a>
+          </h3>
+          {feature.deck && (
+            <p class="font-caslon italic text-[17px] text-fog mb-[18px] relative">{feature.deck}</p>
+          )}
+          <a
+            href={youtubeUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-block bg-rust text-cream font-pixel text-[16px] px-[18px] py-[10px] tracking-[0.05em] hover:bg-cream hover:text-ink relative"
+          >
+            Watch on YouTube &#9654;
+          </a>
+          <div class="font-ui text-[11px] text-fog tracking-[0.12em] uppercase pt-[14px] border-t border-fog mt-[18px] relative">
+            {feature.episodeNumber && <>Episode {String(feature.episodeNumber).padStart(3, '0')} &middot; </>}
+            Published {formatPublished(feature.publishDate)}
+          </div>
+        </div>
+      ) : (
+        <div class="bg-ink text-cream p-7 relative">
+          <div class="absolute inset-2 border-2 border-dashed border-fog pointer-events-none"></div>
+          <div class="font-mast text-[10px] text-rust mb-[14px] relative">&#9658; LOADING</div>
+          <h3 class="font-pixel text-[28px] text-cream relative">
+            No retro feature published yet. Add a Markdown file to <code>src/content/retro/</code>.
+          </h3>
+        </div>
+      )}
+
+      <div>
+        {companions.length === 0 ? (
+          <p class="font-body text-slate italic py-4">
+            Companion reads will appear here as you publish them.
+          </p>
+        ) : (
+          companions.slice(0, 4).map((item) => (
+            <div class="dashed-border border-x-0 border-t-0 py-[14px] first:pt-0 last:border-b-0">
+              <h4 class="font-pixel text-[19px] leading-[1.15] text-ink mb-1">
+                <a href={`/retro/${item.slug}`} class="hover:text-rust">{item.title}</a>
+              </h4>
+              <div class="meta-line">
+                {item.game}
+                {item.readMinutes && <> &middot; {item.readMinutes} min read</>}
+              </div>
+            </div>
+          ))
+        )}
+      </div>
+    </div>
+  </div>
+</section>

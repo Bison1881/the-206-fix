@@ -1,0 +1,52 @@
+---
+// src/components/FromTheDesk.astro
+interface Story {
+  slug: string;
+  title: string;
+  excerpt: string;
+  tag: string;
+  author: string;
+  readMinutes?: number;
+}
+interface Props {
+  stories: Story[];
+}
+const { stories } = Astro.props;
+---
+
+<section class="py-6 pb-10 border-b-4 border-double border-ink">
+  <div class="container-fix">
+    <div class="flex items-center gap-4 mb-6 pb-2 border-b-2 border-ink">
+      <h2 class="font-mast text-[18px] text-forest tracking-[0.02em]">FROM THE DESK</h2>
+      <div class="flex-1 h-px bg-ink"></div>
+      <div class="meta-line">Original Writing &middot; Updated Weekly</div>
+    </div>
+
+    {stories.length === 0 ? (
+      <p class="font-body text-slate text-center py-8 italic">
+        No published columns yet. Add Markdown files to <code>src/content/articles/</code> to populate this section.
+      </p>
+    ) : (
+      <div class="grid grid-cols-3 gap-0 max-md:grid-cols-1">
+        {stories.slice(0, 3).map((story, i) => (
+          <article
+            class:list={[
+              'px-6 border-r border-black/20 first:pl-0 last:pr-0 last:border-r-0',
+              'max-md:px-0 max-md:py-5 max-md:border-r-0 max-md:border-b max-md:border-black/20',
+            ]}
+          >
+            <div class="font-ui text-[10px] uppercase tracking-[0.18em] text-rust font-bold mb-[10px]">{story.tag}</div>
+            <h3 class="font-display font-extrabold text-[26px] leading-[1.1] mb-[10px] text-ink">
+              <a href={`/articles/${story.slug}`} class="hover:text-rust">{story.title}</a>
+            </h3>
+            <p class="font-body text-[15px] leading-[1.5] text-slate mb-3">{story.excerpt}</p>
+            <div class="meta-line">
+              By <strong class="text-ink">{story.author}</strong>
+              {story.readMinutes && <> &middot; {story.readMinutes} min read</>}
+            </div>
+          </article>
+        ))}
+      </div>
+    )}
+  </div>
+</section>

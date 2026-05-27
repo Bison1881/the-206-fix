@@ -1,0 +1,52 @@
+---
+// src/components/Footer.astro
+const year = new Date().getFullYear();
+---
+
+<footer class="bg-ink text-cream pt-12 pb-6 mt-10">
+  <div class="container-fix">
+    <div class="grid grid-cols-[2fr_1fr_1fr_1fr] gap-9 mb-8 max-md:grid-cols-2">
+      <div>
+        <div class="font-mast text-[18px] text-cream mb-3 pixel-shadow-sm">THE 206 FIX</div>
+        <div class="font-caslon italic text-fog mb-4">A Seattle sports paper with a pixel heart.</div>
+        <p class="font-ui text-[12px] text-fog leading-relaxed">
+          Independent writing on Seahawks, Mariners, Kraken, Sounders, the return of the Sonics, and the retro games that shaped how we watch sports.
+        </p>
+      </div>
+
+      <div>
+        <h4 class="font-pixel text-[14px] text-rust uppercase tracking-[0.1em] mb-3">Sections</h4>
+        <ul class="space-y-2 font-ui text-[13px]">
+          <li><a href="/" class="hover:text-rust">Front Page</a></li>
+          <li><a href="/columns" class="hover:text-rust">Columns</a></li>
+          <li><a href="/retro" class="hover:text-rust">The Arcade</a></li>
+          <li><a href="/teams/sonics" class="hover:text-rust">Sonics Watch</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="font-pixel text-[14px] text-rust uppercase tracking-[0.1em] mb-3">Teams</h4>
+        <ul class="space-y-2 font-ui text-[13px]">
+          <li><a href="/teams/seahawks" class="hover:text-rust">Seahawks</a></li>
+          <li><a href="/teams/mariners" class="hover:text-rust">Mariners</a></li>
+          <li><a href="/teams/kraken" class="hover:text-rust">Kraken</a></li>
+          <li><a href="/teams/sounders" class="hover:text-rust">Sounders</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="font-pixel text-[14px] text-rust uppercase tracking-[0.1em] mb-3">Connect</h4>
+        <ul class="space-y-2 font-ui text-[13px]">
+          <li><a href="https://www.youtube.com/@the206fix" class="hover:text-rust">YouTube</a></li>
+          <li><a href="/rss.xml" class="hover:text-rust">RSS Feed</a></li>
+          <li><a href="/newsletter" class="hover:text-rust">Newsletter</a></li>
+          <li><a href="/contact" class="hover:text-rust">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="pt-5 border-t border-slate text-center font-ui text-[11px] text-fog tracking-[0.1em] uppercase">
+      &copy; {year} The 206 Fix &middot; Built in Queensland with eyes on Seattle &middot; Press Start to continue
+    </div>
+  </div>
+</footer>
