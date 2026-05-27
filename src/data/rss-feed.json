@@ -1,14 +1,29 @@
 {
-  "generatedAt": "2026-05-27T13:08:19.387Z",
+  "generatedAt": "2026-05-27T13:30:50.090Z",
   "sourceCount": 7,
-  "successfulSources": 6,
-  "failedSources": [
-    {
-      "source": "Seattle Times Sports",
-      "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
-    }
-  ],
+  "successfulSources": 7,
+  "failedSources": [],
   "items": [
+    {
+      "title": "Why Seattle’s highway traffic during World Cup might be just fine",
+      "link": "https://www.seattletimes.com/seattle-news/transportation/why-seattles-highway-traffic-during-world-cup-might-be-just-fine/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Wed, 27 May 2026 06:00:00 -0700",
+      "isoDate": "2026-05-27T13:00:00.000Z",
+      "excerpt": "Highway traffic during World Cup play might be better than normal, and no worse than during a Seahawks game. In downtown Seattle, though, clogs could be severe.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Seattle Storm’s Katie Lou Samuelson returns to action after nearly 2 years",
+      "link": "https://www.seattletimes.com/sports/storm/seattle-storms-katie-lou-samuelson-returns-to-action-after-nearly-2-years/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Wed, 27 May 2026 06:00:00 -0700",
+      "isoDate": "2026-05-27T13:00:00.000Z",
+      "excerpt": "Storm forward Katie Lou Samuelson went 622 days between playing in a WNBA game. The 28-year-old Samuelson called Sunday's return a \"surreal feeling.\"",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
     {
       "title": "Hancock, Mariners play spoiler in crucial win over A's",
       "link": "https://www.mlb.com/mariners/news/emerson-hancock-mariners-end-nick-kurtz-s-48-game-on-base-streak",
@@ -30,6 +45,16 @@
       "priority": 3
     },
     {
+      "title": "UW men’s golf won’t bring back Alan Murray as head coach",
+      "link": "https://www.seattletimes.com/sports/uw-mens-golf-wont-bring-back-alan-murray-as-head-coach/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Tue, 26 May 2026 22:19:12 -0700",
+      "isoDate": "2026-05-27T05:19:12.000Z",
+      "excerpt": "Murray recently completed his 10th season with the Huskies.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
       "title": "Mariners make it easy, win 4-1",
       "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/143994/mariners-make-it-easy-win-4-1",
       "pubDate": "2026-05-27T04:28:22.000Z",
@@ -37,6 +62,16 @@
       "excerpt": "SACRAMENTO, CALIFORNIA - MAY 26: Mitch Garver #18 of the Seattle Mariners reacts after hitting an RBI double during the second inning against the Athletics at Sutter Health Park on May 26, 2026 in Sacramento,...",
       "source": "Lookout Landing",
       "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Mariners on verge of AL West lead after Emerson Hancock’s gem vs. Athletics",
+      "link": "https://www.seattletimes.com/sports/mariners/mariners-on-verge-of-al-west-lead-after-emerson-hancocks-gem-vs-athletics/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Tue, 26 May 2026 21:17:05 -0700",
+      "isoDate": "2026-05-27T04:17:05.000Z",
+      "excerpt": "In his latest gem, Emerson Hancock allowed only one hit over six dominant innings as the Mariners pulled to within a half game of the AL West lead with a 4-1 win over the Athletics.",
+      "source": "Seattle Times Sports",
+      "team": "general",
       "priority": 1
     },
     {
@@ -70,6 +105,16 @@
       "priority": 6
     },
     {
+      "title": "Mariners stick with piggyback plan for Bryce Miller, Luis Castillo for now",
+      "link": "https://www.seattletimes.com/sports/mariners/mariners-stick-with-piggyback-plan-for-bryce-miller-luis-castillo-for-now/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Tue, 26 May 2026 19:38:59 -0700",
+      "isoDate": "2026-05-27T02:38:59.000Z",
+      "excerpt": "The Mariners followed up with Luis Castillo and Bryce Miller after both expressed frustration, but the team plans to stick with its piggyback plan for at least one more turn through the rotation.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
       "title": "Latest Mariners injuries and transactions",
       "link": "https://www.mlb.com/mariners/news/mariners-injuries-and-roster-moves",
       "pubDate": "Wed, 27 May 2026 02:13:00 GMT",
@@ -87,6 +132,26 @@
       "excerpt": "SEATTLE, WASHINGTON - MAY 20: Emerson Hancock #26 of the Seattle Mariners takes a moment before the game against the Chicago White Sox at T-Mobile Park on May 20, 2026 in Seattle, Washington. (Photo by Jack...",
       "source": "Lookout Landing",
       "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Trump May Appear at NBA Finals in New York",
+      "link": "https://www.seattletimes.com/nation-world/nation-politics/trump-may-appear-at-nba-finals-in-new-york/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Tue, 26 May 2026 17:54:43 -0700",
+      "isoDate": "2026-05-27T00:54:43.000Z",
+      "excerpt": "An appearance by Trump at Madison Square Garden would be the latest incidence of a high-profile sports event serving as a backdrop for his presidency.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Seahawks’ DeMarcus Lawrence absent from offseason program | Notebook",
+      "link": "https://www.seattletimes.com/sports/seahawks/seahawks-demarcus-lawrence-absent-from-offseason-program-notebook/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Tue, 26 May 2026 17:49:53 -0700",
+      "isoDate": "2026-05-27T00:49:53.000Z",
+      "excerpt": "As has been the case throughout the offseason program, veteran defensive end DeMarcus Lawrence was not on the field when the Seahawks began OTAs.",
+      "source": "Seattle Times Sports",
+      "team": "general",
       "priority": 1
     },
     {
@@ -128,6 +193,16 @@
       "source": "Seahawks.com",
       "team": "seahawks",
       "priority": 6
+    },
+    {
+      "title": "Seahawks return to field, look to ‘run it forward’ in Super Bowl defense",
+      "link": "https://www.seattletimes.com/sports/seahawks/seahawks-return-to-field-look-to-run-it-forward-in-super-bowl-defense/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Tue, 26 May 2026 16:52:08 -0700",
+      "isoDate": "2026-05-26T23:52:08.000Z",
+      "excerpt": "The Seahawks took the field for the first time since their Super Bowl win, and coach Mike Macdonald had a message about 2025: “That was then and this is now.\"",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
     },
     {
       "title": "Gabe Speier activated from injured list in Mariners bullpen relief",
