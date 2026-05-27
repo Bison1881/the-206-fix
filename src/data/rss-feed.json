@@ -1,62 +1,36 @@
 {
-  "generatedAt": "2026-05-27T18:24:22.224Z",
+  "generatedAt": "2026-05-27T21:52:05.694Z",
   "sourceCount": 7,
-  "successfulSources": 6,
+  "successfulSources": 5,
   "failedSources": [
     {
       "source": "Seattle Times Sports",
       "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
+    },
+    {
+      "source": "710 Seattle Sports",
+      "error": "Request timed out after 10000ms (lenient retry: The operation was aborted due to timeout)"
     }
   ],
   "items": [
     {
-      "title": "Macdonald: Seahawks hoping to do joint practice with Titans",
-      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/macdonald-seattle-seahawks-hoping-joint-practice-titans",
-      "pubDate": "Wed, 27 May 2026 17:26:32 +0000",
-      "isoDate": "2026-05-27T17:26:32.000Z",
-      "excerpt": "\"I wouldn't say it's a done deal yet, but we're just trying to finalize some details,\" Seahawks coach Mike Macdonald said.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "How much it cost the Seahawks to sign veteran pass rusher Dante Fowler Jr",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-nfl-salary-cap/168865/how-much-it-cost-seattle-seahawks-sign-dante-fowler-nfl-news",
-      "pubDate": "2026-05-27T17:00:00.000Z",
-      "isoDate": "2026-05-27T17:00:00.000Z",
-      "excerpt": "ARLINGTON, TX - DECEMBER 21: Dante Fowler Jr. #13 of the Dallas Cowboys rushes the passer during an NFL football game against the Los Angeles Chargers at AT&T Stadium on December 21, 2025 in Arlington, Texas. (Photo by...",
-      "source": "Field Gulls",
+      "title": "Seahawks Acquire WR Irvin Charles In Trade With Jets",
+      "link": "https://www.seahawks.com/news/seahawks-acquire-wr-irvin-charles-in-trade-with-jets",
+      "pubDate": "Wed, 27 May 2026 20:00:00 GMT",
+      "isoDate": "2026-05-27T20:00:00.000Z",
+      "excerpt": "The Seahawks added receiver and special teams standout Irvin Charles in a trade with the Jets.",
+      "source": "Seahawks.com",
       "team": "seahawks",
-      "priority": 1
+      "priority": 6
     },
     {
-      "title": "Lineups for M’s-A’s series finale with 1st place on the line",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/lineup-seattle-mariners-athletics-al-west-lead",
-      "pubDate": "Wed, 27 May 2026 16:39:23 +0000",
-      "isoDate": "2026-05-27T16:39:23.000Z",
-      "excerpt": "The Mariners have a chance to complete a series sweep and take the AL West lead Wednesday.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "Report: Seahawks trading for Jets special teams standout",
-      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/report-seattle-seahawks-trade-for-jets-special-teams-standout-irvin-charles",
-      "pubDate": "Wed, 27 May 2026 16:11:33 +0000",
-      "isoDate": "2026-05-27T16:11:33.000Z",
-      "excerpt": "Seattle reportedly is acquiring special teamer Irvin Charles, who was a standout gunner for the Jets.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "Seahawks trade for New York Jets special teams gunner Irv Charles",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-news/168885/nfl-news-seahawks-trade-new-york-jets-special-teams-gunner-irv-charles",
-      "pubDate": "2026-05-27T15:53:25.000Z",
-      "isoDate": "2026-05-27T15:53:25.000Z",
-      "excerpt": "FOXBOROUGH, MA - OCTOBER 27: New York Jets wide receiver Irvin Charles (19) carries in warm up before a game between the New England Patriots and the New York Jets on October 27, 2024, at Gillette Stadium in Foxborough,...",
-      "source": "Field Gulls",
-      "team": "seahawks",
+      "title": "Mariners Game #57 Preview and Discussion: SEA at ATH, 5/27",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-game-information/144009/mariners-game-57-preview-and-discussion-sea-at-ath-5-27",
+      "pubDate": "2026-05-27T18:30:25.000Z",
+      "isoDate": "2026-05-27T18:30:25.000Z",
+      "excerpt": "May 26, 2026; West Sacramento, California, USA; Seattle Mariners first baseman Josh Naylor (12) catches the ball to make a force out against the Athletics during the fifth inning at Sutter Health Park. Mandatory Credit:...",
+      "source": "Lookout Landing",
+      "team": "mariners",
       "priority": 1
     },
     {
@@ -68,16 +42,6 @@
       "source": "Field Gulls",
       "team": "seahawks",
       "priority": 1
-    },
-    {
-      "title": "Mariners end A’s slugger Nick Kurtz’s 48-game on-base streak",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/mariners-end-as-slugger-nick-kurtzs-48-game-on-base-streak",
-      "pubDate": "Wed, 27 May 2026 14:47:04 +0000",
-      "isoDate": "2026-05-27T14:47:04.000Z",
-      "excerpt": "Nick Kurtz's franchise-record-tying streak ended with an 0-for-4 night against Seattle.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
     },
     {
       "title": "No joint practice for Seahawks at VMAC this year, says Mike Macdonald",
@@ -120,16 +84,6 @@
       "priority": 6
     },
     {
-      "title": "What stood out from Seahawks’ 1st OTA practice",
-      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/what-stood-out-seattle-seahawks-1st-ota-practice-2026",
-      "pubDate": "Wed, 27 May 2026 05:15:35 +0000",
-      "isoDate": "2026-05-27T05:15:35.000Z",
-      "excerpt": "Just like last year, Seattle had impressive attendance for its first voluntary OTA practice.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
       "title": "Mariners make it easy, win 4-1",
       "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/143994/mariners-make-it-easy-win-4-1",
       "pubDate": "2026-05-27T04:28:22.000Z",
@@ -138,16 +92,6 @@
       "source": "Lookout Landing",
       "team": "mariners",
       "priority": 1
-    },
-    {
-      "title": "Mariners beat A’s 4-1, pull within half-game of AL West lead",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-4-1-athletics-half-game-al-west",
-      "pubDate": "Wed, 27 May 2026 04:14:07 +0000",
-      "isoDate": "2026-05-27T04:14:07.000Z",
-      "excerpt": "Emerson Hancock shined with six scoreless innings to lead the M's over the A's.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
     },
     {
       "title": "27-29: Chart",
@@ -190,16 +134,6 @@
       "priority": 1
     },
     {
-      "title": "Seahawks Injury Updates: Tory Horton gets ‘good news’",
-      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/seattle-seahawks-injury-updates-tory-horton-good-news",
-      "pubDate": "Wed, 27 May 2026 00:28:55 +0000",
-      "isoDate": "2026-05-27T00:28:55.000Z",
-      "excerpt": "Here's a roundup of injury updates on Tory Horton, Zach Charbonnet, AJ Barner and Robbie Ouzts.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
       "title": "Mike Macdonald starts Seahawks OTAs with ‘good news’ on Tory Horton",
       "link": "https://www.fieldgulls.com/seattle-seahawks-injury-report/168859/mike-macdonald-starts-seahawks-otas-good-news-tory-horton",
       "pubDate": "2026-05-27T00:10:16.000Z",
@@ -238,16 +172,6 @@
       "source": "Lookout Landing",
       "team": "mariners",
       "priority": 1
-    },
-    {
-      "title": "Seahawks coach on DeMarcus Lawrence: ‘He’ll be here’",
-      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/seattle-seahawks-macdonald-demarcus-lawrence-expected-back-ota",
-      "pubDate": "Tue, 26 May 2026 22:56:58 +0000",
-      "isoDate": "2026-05-26T22:56:58.000Z",
-      "excerpt": "DeMarcus Lawrence wasn't at Seattle's first OTA practice, but Mike Macdonald reiterated he's expected to play in 2026.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
     },
     {
       "title": "The 2026 Seattle Mariners as Breaking Bad characters",
@@ -310,6 +234,16 @@
       "priority": 1
     },
     {
+      "title": "Seahawks News 5/26: It’s Tuesday and the Seahawks are still champs",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-news/168851/seahawks-news-5-26-its-tuesday-and-the-seahawks-are-still-champs",
+      "pubDate": "2026-05-26T13:00:00.000Z",
+      "isoDate": "2026-05-26T13:00:00.000Z",
+      "excerpt": "Jan 25, 2026; Seattle, WA, USA; A Seattle Seahawks fan holds up a sign after the 2026 NFC Championship Game against the Los Angeles Rams at Lumen Field. Mandatory Credit: Kevin Ng-Imagn Images | Kevin Ng-Imagn Images In...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
+    {
       "title": "Castillo, Miller still adjusting to 'piggyback' pitching plan",
       "link": "https://www.mlb.com/mariners/news/luis-castillo-frustrated-with-early-exit-in-mariners-win",
       "pubDate": "Tue, 26 May 2026 06:14:00 GMT",
@@ -320,16 +254,6 @@
       "priority": 6
     },
     {
-      "title": "Mariners win battle of piggyback starters against A’s, 9-2",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/143936/mariners-win-battle-of-piggyback-starters-against-as-9-2",
-      "pubDate": "2026-05-26T05:18:38.000Z",
-      "isoDate": "2026-05-26T05:18:38.000Z",
-      "excerpt": "SACRAMENTO, CA - MAY 25: Luis Castillo #58 of the Seattle Mariners reacts during the game between the Seattle Mariners and the Athletics at Sutter Health Park on Monday, May 25, 2026 in Sacramento, California. (Photo by...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
       "title": "Raleigh resumes baseball activity for first time since oblique injury",
       "link": "https://www.mlb.com/mariners/news/cal-raleigh-plays-catch-for-first-time-since-injury",
       "pubDate": "Tue, 26 May 2026 01:35:06 GMT",
@@ -338,6 +262,16 @@
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
+    },
+    {
+      "title": "Devon Witherspoon, Seahawks ‘do not yet appear to be close to an agreement’",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-news/168801/devon-witherspoon-seahawks-do-not-yet-appear-to-be-close-to-agreement-nfl-news",
+      "pubDate": "2026-05-25T15:00:00.000Z",
+      "isoDate": "2026-05-25T15:00:00.000Z",
+      "excerpt": "SANTA CLARA, CALIFORNIA - FEBRUARY 08: Devon Witherspoon #21 of the Seattle Seahawks warms up prior to the NFL Super Bowl LX football game against the New England Patriots at Levi Stadium on February 8, 2026 in Santa...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
     },
     {
       "title": "Seahawks Hang Another Super Bowl Champions Banner",
@@ -405,16 +339,6 @@
       "pubDate": "Thu, 14 May 2026 23:27:00 GMT",
       "isoDate": "2026-05-14T23:27:00.000Z",
       "excerpt": "With the NFL schedule coming out on Thursday, here’s a week-by-week analysis of the Seahawks’ slate of games.",
-      "source": "Seahawks.com",
-      "team": "seahawks",
-      "priority": 6
-    },
-    {
-      "title": "Seahawks 2026 Preseason Schedule Announced",
-      "link": "https://www.seahawks.com/news/seahawks-2026-preseason-schedule-announced",
-      "pubDate": "Thu, 14 May 2026 23:25:00 GMT",
-      "isoDate": "2026-05-14T23:25:00.000Z",
-      "excerpt": "The Seahawks’ three preseason games were announced on Thursday in addition to the full regular-season schedule.",
       "source": "Seahawks.com",
       "team": "seahawks",
       "priority": 6
