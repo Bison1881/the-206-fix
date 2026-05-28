@@ -1,28 +1,53 @@
 {
-  "generatedAt": "2026-05-28T18:34:24.219Z",
+  "generatedAt": "2026-05-28T21:53:35.878Z",
   "sourceCount": 7,
-  "successfulSources": 7,
-  "failedSources": [],
+  "successfulSources": 6,
+  "failedSources": [
+    {
+      "source": "Seattle Times Sports",
+      "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
+    }
+  ],
   "items": [
     {
-      "title": "Market for Seahawks sale is ‘robust,’ report says. Here’s latest timeline",
-      "link": "https://www.seattletimes.com/sports/seahawks/market-for-seahawks-sale-is-robust-report-says-heres-the-latest-timeline/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Thu, 28 May 2026 10:04:33 -0700",
-      "isoDate": "2026-05-28T17:04:33.000Z",
-      "excerpt": "The market for buying the Seahawks has reportedly been “robust” and has “picked up steam.” Here's when the team could sell, and how high the price could get.",
-      "source": "Seattle Times Sports",
+      "title": "Which Seattle Mariners will be All-Stars? A look at 4 top candidates",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/which-seattle-mariners-will-be-all-stars-a-look-at-4-top-candidates",
+      "pubDate": "Thu, 28 May 2026 19:51:55 +0000",
+      "isoDate": "2026-05-28T19:51:55.000Z",
+      "excerpt": "Three outfielders and a surprising starting pitcher make up the Mariners' top All-Star candidates.",
+      "source": "710 Seattle Sports",
       "team": "general",
-      "priority": 1
+      "priority": 3
     },
     {
-      "title": "Washington Huskies women rowing into NCAA championships",
-      "link": "https://www.seattletimes.com/sports/uw-huskies/washington-huskies-women-rowing-into-ncaa-championships/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Thu, 28 May 2026 10:00:00 -0700",
-      "isoDate": "2026-05-28T17:00:00.000Z",
-      "excerpt": "Rower Mira Calder, whose dad was also a standout at UW, will be in the No. 5 seat at the NCAA championships, where the Huskies can rely on her \"mysterious\" abilities.",
-      "source": "Seattle Times Sports",
+      "title": "MLB owners propose salary cap for first time since 1994-95 strike",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/mlb-owners-propose-salary-cap-for-first-time-since-1994-95-strike",
+      "pubDate": "Thu, 28 May 2026 19:38:52 +0000",
+      "isoDate": "2026-05-28T19:38:52.000Z",
+      "excerpt": "The two sides are on course for a confrontation that threatens the 2027 season and perhaps beyond.",
+      "source": "710 Seattle Sports",
       "team": "general",
-      "priority": 1
+      "priority": 3
+    },
+    {
+      "title": "Wyman: OL Mason Richman stood out at Seahawks OTA practice",
+      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/wyman-mason-richman-stood-out-seattle-seahawks-ota",
+      "pubDate": "Thu, 28 May 2026 18:43:15 +0000",
+      "isoDate": "2026-05-28T18:43:15.000Z",
+      "excerpt": "\"He looked different,\" Dave Wyman said of second-year offensive lineman Mason Richman.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Former M’s closer Paul Sewald reaches 100 career saves against the odds",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/paul-sewald-ex-seattle-mariners-100-saves-arizona-diamondbacks",
+      "pubDate": "Thu, 28 May 2026 17:40:17 +0000",
+      "isoDate": "2026-05-28T17:40:17.000Z",
+      "excerpt": "Last year, Paul Sewald doubted his future in MLB. This season, he has locked down the ninth inning and reached a milestone for the Diamondbacks.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
     },
     {
       "title": "Huard: How new OC Brian Fleury impressed Seahawks",
@@ -79,19 +104,9 @@
       "link": "https://www.lookoutlanding.com/seattle-mariners-news/144053/mariners-news-andrew-mccutchen-abner-uribe-and-cristopher-sanchez",
       "pubDate": "2026-05-28T14:00:00.000Z",
       "isoDate": "2026-05-28T14:00:00.000Z",
-      "excerpt": "May 12, 2026; Houston, Texas, USA; Seattle Mariners catcher Cal Raleigh (29) hits a single during the seventh inning against the Houston Astros at Daikin Park. Mandatory Credit: Troy Taormina-Imagn Images | Troy...",
+      "excerpt": "SACRAMENTO, CALIFORNIA - MAY 27: The Seattle Mariners celebrate defeating the Athletics 9-1 at Sutter Health Park on May 27, 2026 in Sacramento, California. (Photo by Thearon W. Henderson/Getty Images) | Getty Images...",
       "source": "Lookout Landing",
       "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "Seahawks’ Byron Murphy II looking to build on breakthrough season",
-      "link": "https://www.seattletimes.com/sports/seahawks/seahawks-byron-murphy-ii-looking-to-build-on-breakthrough-season/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Thu, 28 May 2026 06:00:00 -0700",
-      "isoDate": "2026-05-28T13:00:00.000Z",
-      "excerpt": "Seahawks defensive lineman Byron Murphy II capped a momentous year with a wedding in March. He's looking for things to be even better in the upcoming season.",
-      "source": "Seattle Times Sports",
-      "team": "general",
       "priority": 1
     },
     {
@@ -115,56 +130,6 @@
       "priority": 3
     },
     {
-      "title": "Everett Silvertips advance to Memorial Cup semifinals",
-      "link": "https://sports.mynorthwest.com/seattle-sports-pit/everett-silvertips-advance-to-memorial-cup-semifinals",
-      "pubDate": "Thu, 28 May 2026 04:55:21 +0000",
-      "isoDate": "2026-05-28T04:55:21.000Z",
-      "excerpt": "The Silvertips beat host Kelowna 4-0 on Wednesday to set up a Friday showdown between league champions with Chicoutimi.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "Report: Seahawks could have new owner by start of season",
-      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/report-seattle-seahawks-could-have-new-owner-by-start-of-season",
-      "pubDate": "Thu, 28 May 2026 04:33:09 +0000",
-      "isoDate": "2026-05-28T04:33:09.000Z",
-      "excerpt": "NFL Network's Ian Rapoport told \"The Pat McAfee Show\" he wouldn't be surprised if a vote on new ownership happens in August.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "Seattle Storm’s rematch vs. Washington Mystics results in 78-64 loss",
-      "link": "https://www.seattletimes.com/sports/storm/seattle-storms-rematch-vs-washington-mystics-results-in-78-64-loss/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 27 May 2026 21:22:25 -0700",
-      "isoDate": "2026-05-28T04:22:25.000Z",
-      "excerpt": "The Storm's promising four-game homestand, which included a couple blowout wins and a last-second loss, ended with an uninspiring 78-64 loss to the Washington Mystics.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Photos: Seattle Storm fall to Washington Mystics, 78-64",
-      "link": "https://www.seattletimes.com/sports/storm/photos-seattle-storm-take-on-washington-mystics/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 27 May 2026 20:28:18 -0700",
-      "isoDate": "2026-05-28T03:28:18.000Z",
-      "excerpt": "",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Victor Robles’ defense highlights Mariners’ strong defensive day",
-      "link": "https://www.seattletimes.com/sports/mariners/victor-robles-defense-highlights-mariners-strong-defensive-day/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 27 May 2026 18:30:35 -0700",
-      "isoDate": "2026-05-28T01:30:35.000Z",
-      "excerpt": "Mariners right fielder Victor Robles, fresh off a six-week IL stint, beat the Statcast odds with two diving catches during Wednesday's series sweep over the A's.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "Seahawks trade for New York Jets special teams gunner Irv Charles",
       "link": "https://www.fieldgulls.com/seattle-seahawks-news/168885/nfl-news-seahawks-trade-new-york-jets-special-teams-gunner-irv-charles",
       "pubDate": "2026-05-28T01:24:40.000Z",
@@ -173,26 +138,6 @@
       "source": "Field Gulls",
       "team": "seahawks",
       "priority": 1
-    },
-    {
-      "title": "Ex-Cougs QB Minshew emerges as starting option for Cardinals",
-      "link": "https://sports.mynorthwest.com/ncaa/wsu/ex-wsu-cougars-qb-minshew-emerges-as-starting-option-for-cardinals",
-      "pubDate": "Thu, 28 May 2026 01:10:33 +0000",
-      "isoDate": "2026-05-28T01:10:33.000Z",
-      "excerpt": "Gardner Minshew will be competing with Jacoby Brissett, Kedon Slovis and third-round pick Carson Beck for the starting job.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "MLB players make 1st proposal in collective bargaining negotiations",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/mlb-players-make-1st-proposal-collective-bargaining-negotiations",
-      "pubDate": "Thu, 28 May 2026 00:50:05 +0000",
-      "isoDate": "2026-05-28T00:50:05.000Z",
-      "excerpt": "MLB players are asking for expanded free agency, salary arbitration rights and more.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
     },
     {
       "title": "Mariners accept challenge, trounce A’s en route to series sweep",
@@ -225,16 +170,6 @@
       "priority": 6
     },
     {
-      "title": "Sunday Apple Cup headlines WSU 2026 kickoff times, TV designations",
-      "link": "https://www.seattletimes.com/sports/wsu-cougar-football/sunday-apple-cup-headlines-wsu-2026-kickoff-times-tv-designations/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 27 May 2026 15:47:42 -0700",
-      "isoDate": "2026-05-27T22:47:42.000Z",
-      "excerpt": "The Cougars announced their 2026 football kickoff times and TV assignments on Wednesday. Here's a look at the full schedule.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "28-29: Chart",
       "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/144012/28-29-chart",
       "pubDate": "2026-05-27T21:51:53.000Z",
@@ -242,16 +177,6 @@
       "excerpt": "May 27, 2026; West Sacramento, California, USA; Seattle Mariners third baseman Colt Emerson (4) is congratulated by third base coach Carlos Cardoza (57) after hitting a two-run triple against the Athletics in the fourth...",
       "source": "Lookout Landing",
       "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "Mariners take over first place in AL West with huge road sweep of A’s",
-      "link": "https://www.seattletimes.com/sports/mariners/mariners-take-over-first-place-in-al-west-with-huge-road-sweep-of-as/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 27 May 2026 14:50:01 -0700",
-      "isoDate": "2026-05-27T21:50:01.000Z",
-      "excerpt": "The Mariners dominated a three-game series against the Athletics and ripped away sole possession of first place in the AL West for the first time this season.",
-      "source": "Seattle Times Sports",
-      "team": "general",
       "priority": 1
     },
     {
