@@ -1,14 +1,39 @@
 {
-  "generatedAt": "2026-05-28T15:44:16.086Z",
+  "generatedAt": "2026-05-28T18:34:24.219Z",
   "sourceCount": 7,
-  "successfulSources": 6,
-  "failedSources": [
-    {
-      "source": "Seattle Times Sports",
-      "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
-    }
-  ],
+  "successfulSources": 7,
+  "failedSources": [],
   "items": [
+    {
+      "title": "Market for Seahawks sale is ‘robust,’ report says. Here’s latest timeline",
+      "link": "https://www.seattletimes.com/sports/seahawks/market-for-seahawks-sale-is-robust-report-says-heres-the-latest-timeline/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Thu, 28 May 2026 10:04:33 -0700",
+      "isoDate": "2026-05-28T17:04:33.000Z",
+      "excerpt": "The market for buying the Seahawks has reportedly been “robust” and has “picked up steam.” Here's when the team could sell, and how high the price could get.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Washington Huskies women rowing into NCAA championships",
+      "link": "https://www.seattletimes.com/sports/uw-huskies/washington-huskies-women-rowing-into-ncaa-championships/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Thu, 28 May 2026 10:00:00 -0700",
+      "isoDate": "2026-05-28T17:00:00.000Z",
+      "excerpt": "Rower Mira Calder, whose dad was also a standout at UW, will be in the No. 5 seat at the NCAA championships, where the Huskies can rely on her \"mysterious\" abilities.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Huard: How new OC Brian Fleury impressed Seahawks",
+      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/huard-how-new-offensive-coordinator-brian-fleury-impressed-seattle-seahawks",
+      "pubDate": "Thu, 28 May 2026 16:37:12 +0000",
+      "isoDate": "2026-05-28T16:37:12.000Z",
+      "excerpt": "\"He crushed the whiteboard,\" Brock Huard said of new Seahawks offensive coordinator Brian Fleury.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
     {
       "title": "Seahawks’ Love explains how Super Bowl champs continue to fuel themselves",
       "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/seattle-seahawks-julian-love-explains-how-super-bowl-champs-continue-to-fuel-themselves",
@@ -60,6 +85,16 @@
       "priority": 1
     },
     {
+      "title": "Seahawks’ Byron Murphy II looking to build on breakthrough season",
+      "link": "https://www.seattletimes.com/sports/seahawks/seahawks-byron-murphy-ii-looking-to-build-on-breakthrough-season/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Thu, 28 May 2026 06:00:00 -0700",
+      "isoDate": "2026-05-28T13:00:00.000Z",
+      "excerpt": "Seahawks defensive lineman Byron Murphy II capped a momentous year with a wedding in March. He's looking for things to be even better in the upcoming season.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
       "title": "First-place Seattle Mariners better off than other AL rivals",
       "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/first-place-seattle-mariners-better-off-al-rivals",
       "pubDate": "Thu, 28 May 2026 07:23:57 +0000",
@@ -100,6 +135,36 @@
       "priority": 3
     },
     {
+      "title": "Seattle Storm’s rematch vs. Washington Mystics results in 78-64 loss",
+      "link": "https://www.seattletimes.com/sports/storm/seattle-storms-rematch-vs-washington-mystics-results-in-78-64-loss/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Wed, 27 May 2026 21:22:25 -0700",
+      "isoDate": "2026-05-28T04:22:25.000Z",
+      "excerpt": "The Storm's promising four-game homestand, which included a couple blowout wins and a last-second loss, ended with an uninspiring 78-64 loss to the Washington Mystics.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Photos: Seattle Storm fall to Washington Mystics, 78-64",
+      "link": "https://www.seattletimes.com/sports/storm/photos-seattle-storm-take-on-washington-mystics/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Wed, 27 May 2026 20:28:18 -0700",
+      "isoDate": "2026-05-28T03:28:18.000Z",
+      "excerpt": "",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Victor Robles’ defense highlights Mariners’ strong defensive day",
+      "link": "https://www.seattletimes.com/sports/mariners/victor-robles-defense-highlights-mariners-strong-defensive-day/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Wed, 27 May 2026 18:30:35 -0700",
+      "isoDate": "2026-05-28T01:30:35.000Z",
+      "excerpt": "Mariners right fielder Victor Robles, fresh off a six-week IL stint, beat the Statcast odds with two diving catches during Wednesday's series sweep over the A's.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
       "title": "Seahawks trade for New York Jets special teams gunner Irv Charles",
       "link": "https://www.fieldgulls.com/seattle-seahawks-news/168885/nfl-news-seahawks-trade-new-york-jets-special-teams-gunner-irv-charles",
       "pubDate": "2026-05-28T01:24:40.000Z",
@@ -125,16 +190,6 @@
       "pubDate": "Thu, 28 May 2026 00:50:05 +0000",
       "isoDate": "2026-05-28T00:50:05.000Z",
       "excerpt": "MLB players are asking for expanded free agency, salary arbitration rights and more.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "Kickoff times announced for 11 of 12 WSU Cougars football games",
-      "link": "https://sports.mynorthwest.com/ncaa/wsu/kickoff-times-announced-wsu-cougars-football-2026",
-      "pubDate": "Thu, 28 May 2026 00:06:31 +0000",
-      "isoDate": "2026-05-28T00:06:31.000Z",
-      "excerpt": "WSU Cougars football fans can begin making plans for their fall weekends.",
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
@@ -170,6 +225,16 @@
       "priority": 6
     },
     {
+      "title": "Sunday Apple Cup headlines WSU 2026 kickoff times, TV designations",
+      "link": "https://www.seattletimes.com/sports/wsu-cougar-football/sunday-apple-cup-headlines-wsu-2026-kickoff-times-tv-designations/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Wed, 27 May 2026 15:47:42 -0700",
+      "isoDate": "2026-05-27T22:47:42.000Z",
+      "excerpt": "The Cougars announced their 2026 football kickoff times and TV assignments on Wednesday. Here's a look at the full schedule.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
       "title": "28-29: Chart",
       "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/144012/28-29-chart",
       "pubDate": "2026-05-27T21:51:53.000Z",
@@ -177,6 +242,16 @@
       "excerpt": "May 27, 2026; West Sacramento, California, USA; Seattle Mariners third baseman Colt Emerson (4) is congratulated by third base coach Carlos Cardoza (57) after hitting a two-run triple against the Athletics in the fourth...",
       "source": "Lookout Landing",
       "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Mariners take over first place in AL West with huge road sweep of A’s",
+      "link": "https://www.seattletimes.com/sports/mariners/mariners-take-over-first-place-in-al-west-with-huge-road-sweep-of-as/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Wed, 27 May 2026 14:50:01 -0700",
+      "isoDate": "2026-05-27T21:50:01.000Z",
+      "excerpt": "The Mariners dominated a three-game series against the Athletics and ripped away sole possession of first place in the AL West for the first time this season.",
+      "source": "Seattle Times Sports",
+      "team": "general",
       "priority": 1
     },
     {
