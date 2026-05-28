@@ -1,28 +1,113 @@
 {
-  "generatedAt": "2026-05-27T23:14:50.195Z",
+  "generatedAt": "2026-05-28T02:49:41.413Z",
   "sourceCount": 7,
-  "successfulSources": 7,
-  "failedSources": [],
+  "successfulSources": 6,
+  "failedSources": [
+    {
+      "source": "Seattle Times Sports",
+      "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
+    }
+  ],
   "items": [
     {
-      "title": "Sunday Apple Cup headlines WSU 2026 kickoff times, TV designations",
-      "link": "https://www.seattletimes.com/sports/wsu-cougar-football/sunday-apple-cup-headlines-wsu-2026-kickoff-times-tv-designations/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 27 May 2026 15:47:42 -0700",
-      "isoDate": "2026-05-27T22:47:42.000Z",
-      "excerpt": "The Cougars announced their 2026 football kickoff times and TV assignments on Wednesday. Here's a look at the full schedule.",
-      "source": "Seattle Times Sports",
-      "team": "general",
+      "title": "Seahawks trade for New York Jets special teams gunner Irv Charles",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-news/168885/nfl-news-seahawks-trade-new-york-jets-special-teams-gunner-irv-charles",
+      "pubDate": "2026-05-28T01:24:40.000Z",
+      "isoDate": "2026-05-28T01:24:40.000Z",
+      "excerpt": "FOXBOROUGH, MA - OCTOBER 27: New York Jets wide receiver Irvin Charles (19) carries in warm up before a game between the New England Patriots and the New York Jets on October 27, 2024, at Gillette Stadium in Foxborough,...",
+      "source": "Field Gulls",
+      "team": "seahawks",
       "priority": 1
     },
     {
-      "title": "Mariners sweep A's, move into first place in AL West",
+      "title": "Ex-Cougs QB Minshew emerges as starting option for Cardinals",
+      "link": "https://sports.mynorthwest.com/ncaa/wsu/ex-wsu-cougars-qb-minshew-emerges-as-starting-option-for-cardinals",
+      "pubDate": "Thu, 28 May 2026 01:10:33 +0000",
+      "isoDate": "2026-05-28T01:10:33.000Z",
+      "excerpt": "Gardner Minshew will be competing with Jacoby Brissett, Kedon Slovis and third-round pick Carson Beck for the starting job.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "MLB players make 1st proposal in collective bargaining negotiations",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/mlb-players-make-1st-proposal-collective-bargaining-negotiations",
+      "pubDate": "Thu, 28 May 2026 00:50:05 +0000",
+      "isoDate": "2026-05-28T00:50:05.000Z",
+      "excerpt": "MLB players are asking for expanded free agency, salary arbitration rights and more.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Kickoff times announced for 11 of 12 WSU Cougars football games",
+      "link": "https://sports.mynorthwest.com/ncaa/wsu/kickoff-times-announced-wsu-cougars-football-2026",
+      "pubDate": "Thu, 28 May 2026 00:06:31 +0000",
+      "isoDate": "2026-05-28T00:06:31.000Z",
+      "excerpt": "WSU Cougars football fans can begin making plans for their fall weekends.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Mariners accept challenge, trounce A’s en route to series sweep",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/144030/mariners-accept-challenge-trounce-as-en-route-to-series-sweep",
+      "pubDate": "2026-05-27T23:55:15.000Z",
+      "isoDate": "2026-05-27T23:55:15.000Z",
+      "excerpt": "May 27, 2026; West Sacramento, California, USA; Seattle Mariners left fielder Rob Refsnyder (30) is congratulated by teammates after hitting a three-run home run against the Athletics in the first inning at Sutter...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Two good signs, one bad from first-place Mariners’ winning road trip",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/two-good-signs-one-bad-from-first-place-seattle-mariners-winning-road-trip",
+      "pubDate": "Wed, 27 May 2026 23:26:09 +0000",
+      "isoDate": "2026-05-27T23:26:09.000Z",
+      "excerpt": "Three things that stand out from the Mariners' 4-2 road swing.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Mariners cap dominant sweep of A's, move into first place in AL West",
       "link": "https://www.mlb.com/mariners/news/mariners-sweep-a-s-to-move-into-first-place-in-al-west",
-      "pubDate": "Wed, 27 May 2026 21:57:09 GMT",
-      "isoDate": "2026-05-27T21:57:09.000Z",
+      "pubDate": "Wed, 27 May 2026 23:26:00 GMT",
+      "isoDate": "2026-05-27T23:26:00.000Z",
       "excerpt": "",
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
+    },
+    {
+      "title": "Five years later, looking at each team's best 2021 Draft pick",
+      "link": "https://www.mlb.com/mariners/news/best-2021-mlb-draft-picks",
+      "pubDate": "Wed, 27 May 2026 23:05:00 GMT",
+      "isoDate": "2026-05-27T23:05:00.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "AL West Check-In: Texas Rangers DFA former MVP McCutchen",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/al-west-check-in-texas-rangers-dfa-andrew-mccutchen",
+      "pubDate": "Wed, 27 May 2026 22:46:33 +0000",
+      "isoDate": "2026-05-27T22:46:33.000Z",
+      "excerpt": "Former NL MVP outfielder Andrew McCutchen hit .192 in his 37 games for the Rangers.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "28-29: Chart",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/144012/28-29-chart",
+      "pubDate": "2026-05-27T21:51:53.000Z",
+      "isoDate": "2026-05-27T21:51:53.000Z",
+      "excerpt": "May 27, 2026; West Sacramento, California, USA; Seattle Mariners third baseman Colt Emerson (4) is congratulated by third base coach Carlos Cardoza (57) after hitting a two-run triple against the Athletics in the fourth...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
     },
     {
       "title": "Mariners take 1st place after another strong road start from Gilbert",
@@ -33,26 +118,6 @@
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
-    },
-    {
-      "title": "Mariners take over first place in AL West with huge road sweep of A’s",
-      "link": "https://www.seattletimes.com/sports/mariners/mariners-take-over-first-place-in-al-west-with-huge-road-sweep-of-as/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 27 May 2026 14:50:01 -0700",
-      "isoDate": "2026-05-27T21:50:01.000Z",
-      "excerpt": "The Mariners dominated a three-game series against the Athletics and ripped away sole possession of first place in the AL West for the first time this season.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Washington Huskies flip NFL legacy DT, Joseph Peko, from Colorado",
-      "link": "https://www.seattletimes.com/sports/washington-huskies-football/washington-huskies-flip-nfl-legacy-dt-joseph-peko-from-colorado/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 27 May 2026 14:22:49 -0700",
-      "isoDate": "2026-05-27T21:22:49.000Z",
-      "excerpt": "Joseph Peko, a defensive tackle and son of 14-year NFL veteran, announced he will flip his commitment from Colorado to Washington",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
     },
     {
       "title": "‘Run it forward’: How Seahawks are turning page to 2026",
@@ -85,36 +150,6 @@
       "priority": 6
     },
     {
-      "title": "Mariners’ Rob Refsynder strikes for big HR vs A’s lefty",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-rob-refsynder-big-hr-athletics-lefty",
-      "pubDate": "Wed, 27 May 2026 19:50:53 +0000",
-      "isoDate": "2026-05-27T19:50:53.000Z",
-      "excerpt": "Rob Refsnyder did what the Mariners signed him to do in the first inning of a huge game Wednesday.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "Pac-12 football 2026 kickoff times and TV networks are (mostly) set",
-      "link": "https://www.seattletimes.com/sports/wsu-cougar-football/pac-12-football-2026-kickoff-times-and-tv-networks-are-mostly-set/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 27 May 2026 12:30:55 -0700",
-      "isoDate": "2026-05-27T19:30:55.000Z",
-      "excerpt": "The final piece in the buildup to the new Pac-12's inaugural season fell into place with the reveal of the kickoff times and TV networks for home games.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "UW Husky football early game times announced, including change to Apple Cup",
-      "link": "https://www.seattletimes.com/sports/washington-huskies-football/uw-husky-football-early-game-times-announced-including-change-to-apple-cup/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 27 May 2026 12:04:32 -0700",
-      "isoDate": "2026-05-27T19:04:32.000Z",
-      "excerpt": "UW football announced game times for their first three games of the season, including a change to the Apple Cup. Here's what you need to know.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "Mariners Game #57 Preview and Discussion: SEA at ATH, 5/27",
       "link": "https://www.lookoutlanding.com/seattle-mariners-game-information/144009/mariners-game-57-preview-and-discussion-sea-at-ath-5-27",
       "pubDate": "2026-05-27T18:30:25.000Z",
@@ -125,91 +160,11 @@
       "priority": 1
     },
     {
-      "title": "WA’s Cantwell, Texas’ Cruz look to break college sports logjam in Congress",
-      "link": "https://sports.mynorthwest.com/ncaa/maria-cantwell-ted-cruz-congress-college-sports-logjam-ncaa",
-      "pubDate": "Wed, 27 May 2026 18:30:07 +0000",
-      "isoDate": "2026-05-27T18:30:07.000Z",
-      "excerpt": "Two key senators involved in a long-simmering debate over fixing college sports will introduce a bipartisan bill designed to break a congressional logjam.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "Reign see three players called up for international duty",
-      "link": "https://www.seattletimes.com/sports/reign/reign-see-three-players-called-up-for-international-duty/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 27 May 2026 10:59:35 -0700",
-      "isoDate": "2026-05-27T17:59:35.000Z",
-      "excerpt": "With the NWSL about to go on break for the FIFA Men’s World Cup, three players will play in international friendlies next month.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Climbers meet in Nepal to discuss the challenges of scaling Mount Everest",
-      "link": "https://www.seattletimes.com/nation-world/climbers-meet-in-nepal-to-discuss-the-challenges-of-scaling-mount-everest/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 27 May 2026 10:39:19 -0700",
-      "isoDate": "2026-05-27T17:39:19.000Z",
-      "excerpt": "Climbers and officials have met in Kathmandu to discuss the risks of scaling Mount Everest.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Macdonald: Seahawks hoping to do joint practice with Titans",
-      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/macdonald-seattle-seahawks-hoping-joint-practice-titans",
-      "pubDate": "Wed, 27 May 2026 17:26:32 +0000",
-      "isoDate": "2026-05-27T17:26:32.000Z",
-      "excerpt": "\"I wouldn't say it's a done deal yet, but we're just trying to finalize some details,\" Seahawks coach Mike Macdonald said.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
       "title": "How much it cost the Seahawks to sign veteran pass rusher Dante Fowler Jr",
       "link": "https://www.fieldgulls.com/seattle-seahawks-nfl-salary-cap/168865/how-much-it-cost-seattle-seahawks-sign-dante-fowler-nfl-news",
       "pubDate": "2026-05-27T17:00:00.000Z",
       "isoDate": "2026-05-27T17:00:00.000Z",
       "excerpt": "ARLINGTON, TX - DECEMBER 21: Dante Fowler Jr. #13 of the Dallas Cowboys rushes the passer during an NFL football game against the Los Angeles Chargers at AT&T Stadium on December 21, 2025 in Arlington, Texas. (Photo by...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "Key Sens. Cruz, Cantwell look to break college sports logjam in Congress with a bipartisan bill",
-      "link": "https://www.seattletimes.com/sports/college/key-sens-cruz-cantwell-look-to-break-college-sports-logjam-in-congress-with-a-bipartisan-bill/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 27 May 2026 09:49:22 -0700",
-      "isoDate": "2026-05-27T16:49:22.000Z",
-      "excerpt": "The senators trying to fix college sports will introduce a bipartisan bill designed to break a congressional logjam that would regulate payments to players, and put limits on player and coach movement.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Lineups for M’s-A’s series finale with 1st place on the line",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/lineup-seattle-mariners-athletics-al-west-lead",
-      "pubDate": "Wed, 27 May 2026 16:39:23 +0000",
-      "isoDate": "2026-05-27T16:39:23.000Z",
-      "excerpt": "The Mariners have a chance to complete a series sweep and take the AL West lead Wednesday.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "Report: Seahawks trading for Jets special teams standout",
-      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/report-seattle-seahawks-trade-for-jets-special-teams-standout-irvin-charles",
-      "pubDate": "Wed, 27 May 2026 16:11:33 +0000",
-      "isoDate": "2026-05-27T16:11:33.000Z",
-      "excerpt": "Seattle reportedly is acquiring special teamer Irvin Charles, who was a standout gunner for the Jets.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "Seahawks trade for New York Jets special teams gunner Irv Charles",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-news/168885/nfl-news-seahawks-trade-new-york-jets-special-teams-gunner-irv-charles",
-      "pubDate": "2026-05-27T15:53:25.000Z",
-      "isoDate": "2026-05-27T15:53:25.000Z",
-      "excerpt": "FOXBOROUGH, MA - OCTOBER 27: New York Jets wide receiver Irvin Charles (19) carries in warm up before a game between the New England Patriots and the New York Jets on October 27, 2024, at Gillette Stadium in Foxborough,...",
       "source": "Field Gulls",
       "team": "seahawks",
       "priority": 1
@@ -355,16 +310,6 @@
       "priority": 1
     },
     {
-      "title": "The 2026 Seattle Mariners as Breaking Bad characters",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-discussion/143968/the-2026-seattle-mariners-as-breaking-bad-characters",
-      "pubDate": "2026-05-26T22:04:44.000Z",
-      "isoDate": "2026-05-26T22:04:44.000Z",
-      "excerpt": "KANSAS CITY, MO - MAY 23: Julio Rodríguez (44) of the Seattle Mariners reacts after diving back to first base safely during an MLB game against the Kansas City Royals on May 23, 2026 at Kauffman Stadium in Kansas City,...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
       "title": "Mariners activate Speier from IL, option Davila to Triple-A",
       "link": "https://www.mlb.com/mariners/news/mariners-activate-gabe-speier-from-15-day-injured-list",
       "pubDate": "Tue, 26 May 2026 20:15:03 GMT",
@@ -385,16 +330,6 @@
       "priority": 6
     },
     {
-      "title": "Mariners News: Luis Castillo, Tatsuya Imai, and Jarred Kelenic",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-news/143950/mariners-news-luis-castillo-tatsuya-imai-and-jarred-kelenic",
-      "pubDate": "2026-05-26T17:50:06.000Z",
-      "isoDate": "2026-05-26T17:50:06.000Z",
-      "excerpt": "May 23, 2026; San Francisco, California, USA; Chicago White Sox right fielder Jarred Kelenic (24) hits a double against the San Francisco Giants during the fifth inning at Oracle Park. Mandatory Credit: Darren...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
       "title": "Seahawks 2026 rookie predictions: Julian Neal is a swing for 2027 and beyond",
       "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/168821/seahawks-2026-rookie-predictions-julian-neal-is-a-swing-2027-beyond",
       "pubDate": "2026-05-26T15:00:00.000Z",
@@ -413,16 +348,6 @@
       "source": "Field Gulls",
       "team": "seahawks",
       "priority": 1
-    },
-    {
-      "title": "Raleigh resumes baseball activity for first time since oblique injury",
-      "link": "https://www.mlb.com/mariners/news/cal-raleigh-plays-catch-for-first-time-since-injury",
-      "pubDate": "Tue, 26 May 2026 01:35:06 GMT",
-      "isoDate": "2026-05-26T01:35:06.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
     },
     {
       "title": "Seahawks Hang Another Super Bowl Champions Banner",
