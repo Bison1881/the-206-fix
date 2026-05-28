@@ -1,9 +1,24 @@
 {
-  "generatedAt": "2026-05-28T07:54:52.955Z",
+  "generatedAt": "2026-05-28T11:36:24.626Z",
   "sourceCount": 7,
-  "successfulSources": 7,
-  "failedSources": [],
+  "successfulSources": 6,
+  "failedSources": [
+    {
+      "source": "Seattle Times Sports",
+      "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
+    }
+  ],
   "items": [
+    {
+      "title": "First-place Seattle Mariners better off than other AL rivals",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/first-place-seattle-mariners-better-off-al-rivals",
+      "pubDate": "Thu, 28 May 2026 07:23:57 +0000",
+      "isoDate": "2026-05-28T07:23:57.000Z",
+      "excerpt": "The Mariners aren't the only team with big expectations to have a rough start in 2026, but they're looking much better now.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
     {
       "title": "Austin’s 18 points lead Mystics over Storm 78-64",
       "link": "https://sports.mynorthwest.com/wnba/seattle-storm/austins-18-points-lead-mystics-over-storm-78-64",
@@ -33,36 +48,6 @@
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
-    },
-    {
-      "title": "Seattle Storm’s rematch vs. Washington Mystics results in 78-64 loss",
-      "link": "https://www.seattletimes.com/sports/storm/seattle-storms-rematch-vs-washington-mystics-results-in-78-64-loss/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 27 May 2026 21:22:25 -0700",
-      "isoDate": "2026-05-28T04:22:25.000Z",
-      "excerpt": "The Storm's promising four-game homestand, which included a couple blowout wins and a last-second loss, ended with an uninspiring 78-64 loss to the Washington Mystics.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Photos: Seattle Storm fall to Washington Mystics, 78-64",
-      "link": "https://www.seattletimes.com/sports/storm/photos-seattle-storm-take-on-washington-mystics/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 27 May 2026 20:28:18 -0700",
-      "isoDate": "2026-05-28T03:28:18.000Z",
-      "excerpt": "",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Victor Robles’ defense highlights Mariners’ strong defensive day",
-      "link": "https://www.seattletimes.com/sports/mariners/victor-robles-defense-highlights-mariners-strong-defensive-day/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 27 May 2026 18:30:35 -0700",
-      "isoDate": "2026-05-28T01:30:35.000Z",
-      "excerpt": "Mariners right fielder Victor Robles, fresh off a six-week IL stint, beat the Statcast odds with two diving catches during Wednesday's series sweep over the A's.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
     },
     {
       "title": "Seahawks trade for New York Jets special teams gunner Irv Charles",
@@ -145,26 +130,6 @@
       "priority": 6
     },
     {
-      "title": "Sunday Apple Cup headlines WSU 2026 kickoff times, TV designations",
-      "link": "https://www.seattletimes.com/sports/wsu-cougar-football/sunday-apple-cup-headlines-wsu-2026-kickoff-times-tv-designations/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 27 May 2026 15:47:42 -0700",
-      "isoDate": "2026-05-27T22:47:42.000Z",
-      "excerpt": "The Cougars announced their 2026 football kickoff times and TV assignments on Wednesday. Here's a look at the full schedule.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "AL West Check-In: Texas Rangers DFA former MVP McCutchen",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/al-west-check-in-texas-rangers-dfa-andrew-mccutchen",
-      "pubDate": "Wed, 27 May 2026 22:46:33 +0000",
-      "isoDate": "2026-05-27T22:46:33.000Z",
-      "excerpt": "Former NL MVP outfielder Andrew McCutchen hit .192 in his 37 games for the Rangers.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
       "title": "28-29: Chart",
       "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/144012/28-29-chart",
       "pubDate": "2026-05-27T21:51:53.000Z",
@@ -172,26 +137,6 @@
       "excerpt": "May 27, 2026; West Sacramento, California, USA; Seattle Mariners third baseman Colt Emerson (4) is congratulated by third base coach Carlos Cardoza (57) after hitting a two-run triple against the Athletics in the fourth...",
       "source": "Lookout Landing",
       "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "Mariners take over first place in AL West with huge road sweep of A’s",
-      "link": "https://www.seattletimes.com/sports/mariners/mariners-take-over-first-place-in-al-west-with-huge-road-sweep-of-as/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 27 May 2026 14:50:01 -0700",
-      "isoDate": "2026-05-27T21:50:01.000Z",
-      "excerpt": "The Mariners dominated a three-game series against the Athletics and ripped away sole possession of first place in the AL West for the first time this season.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Washington Huskies flip NFL legacy DT, Joseph Peko, from Colorado",
-      "link": "https://www.seattletimes.com/sports/washington-huskies-football/washington-huskies-flip-nfl-legacy-dt-joseph-peko-from-colorado/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 27 May 2026 14:22:49 -0700",
-      "isoDate": "2026-05-27T21:22:49.000Z",
-      "excerpt": "Joseph Peko, a defensive tackle and son of 14-year NFL veteran, announced he will flip his commitment from Colorado to Washington",
-      "source": "Seattle Times Sports",
-      "team": "general",
       "priority": 1
     },
     {
@@ -203,26 +148,6 @@
       "source": "Seahawks.com",
       "team": "seahawks",
       "priority": 6
-    },
-    {
-      "title": "Pac-12 football 2026 kickoff times and TV networks are (mostly) set",
-      "link": "https://www.seattletimes.com/sports/wsu-cougar-football/pac-12-football-2026-kickoff-times-and-tv-networks-are-mostly-set/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 27 May 2026 12:30:55 -0700",
-      "isoDate": "2026-05-27T19:30:55.000Z",
-      "excerpt": "The final piece in the buildup to the new Pac-12's inaugural season fell into place with the reveal of the kickoff times and TV networks for home games.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "UW Husky football early game times announced, including change to Apple Cup",
-      "link": "https://www.seattletimes.com/sports/washington-huskies-football/uw-husky-football-early-game-times-announced-including-change-to-apple-cup/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 27 May 2026 12:04:32 -0700",
-      "isoDate": "2026-05-27T19:04:32.000Z",
-      "excerpt": "UW football announced game times for their first three games of the season, including a change to the Apple Cup. Here's what you need to know.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
     },
     {
       "title": "Mariners Game #57 Preview and Discussion: SEA at ATH, 5/27",
