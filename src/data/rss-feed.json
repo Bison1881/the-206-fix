@@ -1,17 +1,52 @@
 {
-  "generatedAt": "2026-05-29T21:50:50.426Z",
+  "generatedAt": "2026-05-29T23:09:38.557Z",
   "sourceCount": 7,
-  "successfulSources": 7,
-  "failedSources": [],
+  "successfulSources": 6,
+  "failedSources": [
+    {
+      "source": "Seattle Times Sports",
+      "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
+    }
+  ],
   "items": [
     {
-      "title": "Seahawks sign first-round draft pick Jadarian Price",
-      "link": "https://www.seattletimes.com/sports/seahawks/seahawks-sign-first-round-draft-pick-jadarian-price/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Fri, 29 May 2026 14:13:56 -0700",
-      "isoDate": "2026-05-29T21:13:56.000Z",
-      "excerpt": "The Seahawks agreed to terms with first-round draft Jadarian Price, a running back from Notre Dame taken 32nd overall in the NFL draft last month.",
-      "source": "Seattle Times Sports",
+      "title": "Seahawks Sign First-Round Pick Jadarian Price",
+      "link": "https://www.seahawks.com/news/seahawks-sign-first-round-pick-jadarian-price",
+      "pubDate": "Fri, 29 May 2026 23:05:14 GMT",
+      "isoDate": "2026-05-29T23:05:14.000Z",
+      "excerpt": "The Seahawks signed first-round pick Jadarian Price on Friday, meaning their entire 2026 draft class is now under contract.",
+      "source": "Seahawks.com",
+      "team": "seahawks",
+      "priority": 6
+    },
+    {
+      "title": "Seahawks Mailbag: Super Bowl Memories, Running It Forward, D-Law & More",
+      "link": "https://www.seahawks.com/news/seahawks-mailbag-super-bowl-memories-running-it-forward-d-law-more",
+      "pubDate": "Fri, 29 May 2026 22:04:50 GMT",
+      "isoDate": "2026-05-29T22:04:50.000Z",
+      "excerpt": "You had Seahawks questions; we have answers.",
+      "source": "Seahawks.com",
+      "team": "seahawks",
+      "priority": 6
+    },
+    {
+      "title": "MVP Stafford says he understands why Rams drafted QB",
+      "link": "https://sports.mynorthwest.com/nfl/matthew-stafford-understands-rams-drafted-qb-ty-simpson",
+      "pubDate": "Fri, 29 May 2026 21:41:52 +0000",
+      "isoDate": "2026-05-29T21:41:52.000Z",
+      "excerpt": "Matthew Stafford says he understands why the Los Angeles Rams drafted Ty Simpson last month, even though they happen to have got the NFL’s reigning MVP quarterback under contract for at least the next two years.",
+      "source": "710 Seattle Sports",
       "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Seahawks agree to terms with Jadarian Price, 2026 draft class all now under contract",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-news/168966/seahawks-agree-to-terms-jadarian-price-2026-draft-class-all-now-under-contract",
+      "pubDate": "2026-05-29T21:24:47.000Z",
+      "isoDate": "2026-05-29T21:24:47.000Z",
+      "excerpt": "Running back Jadarian Price during Notre Dame football's Pro Day at Irish Athletic Center on Tuesday, March 24, 2026, in South Bend. | MICHAEL CLUBB/SOUTH BEND TRIBUNE / USA TODAY NETWORK via Imagn Images Well that was...",
+      "source": "Field Gulls",
+      "team": "seahawks",
       "priority": 1
     },
     {
@@ -85,36 +120,6 @@
       "priority": 3
     },
     {
-      "title": "Rams star Puka Nacua opens up on seeking help, legal troubles and stalled mega deal",
-      "link": "https://www.seattletimes.com/sports/nfl/rams-star-puka-nacua-opens-up-on-seeking-help-legal-troubles-and-stalled-mega-deal/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Fri, 29 May 2026 10:02:44 -0700",
-      "isoDate": "2026-05-29T17:02:44.000Z",
-      "excerpt": "Rams star receiver Puka Nacua on Thursday addressed reporters for the first time since checking into a Malibu rehab facility in March.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Walk-on playing key role in Washington men’s rowing threepeat hopes",
-      "link": "https://www.seattletimes.com/sports/uw-huskies/walk-on-playing-key-role-in-washington-mens-rowing-threepeat-hopes/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Fri, 29 May 2026 10:00:00 -0700",
-      "isoDate": "2026-05-29T17:00:00.000Z",
-      "excerpt": "Lyle Donovan has gone from walk-on to playing a key role for the Washington men as they try for a third straight national title.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Could Seattle become hub for blind soccer? There’s a push underway",
-      "link": "https://www.seattletimes.com/seattle-news/world-cup-seattle/could-seattle-become-hub-for-blind-soccer-theres-a-push-underway/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Fri, 29 May 2026 10:00:00 -0700",
-      "isoDate": "2026-05-29T17:00:00.000Z",
-      "excerpt": "With its visibility with the FIFA Men's World Cup coming to town next month, there's a push to make Seattle the Northwest hub for blind soccer.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "Series Preview: Mariners (28-29) vs. Diamondbacks (31-24)",
       "link": "https://www.lookoutlanding.com/seattle-mariners-game-information/144076/series-preview-seattle-mariners-vs-arizona-diamondbacks-may-2026",
       "pubDate": "2026-05-29T17:00:00.000Z",
@@ -133,36 +138,6 @@
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
-    },
-    {
-      "title": "Bump: With latest trade, Seahawks ‘don’t leave any stone unturned’",
-      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/bump-irv-charles-trade-seattle-seahawks-dont-leave-any-stone-unturned",
-      "pubDate": "Fri, 29 May 2026 16:28:39 +0000",
-      "isoDate": "2026-05-29T16:28:39.000Z",
-      "excerpt": "With the trade for Irv Charles, Seattle once again demonstrated how it values special teams.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "Seattle Reign head out on road before FIFA Men’s World Cup break",
-      "link": "https://www.seattletimes.com/sports/reign/seattle-reign-head-out-on-road-before-fifa-mens-world-cup-break/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Fri, 29 May 2026 09:19:50 -0700",
-      "isoDate": "2026-05-29T16:19:50.000Z",
-      "excerpt": "The Reign head out on the road to play the Spirit, their last game before the break because of the FIFA Men's World Cup.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Storm signed Stefanie Dolson to be mentor. She’s been key contributor",
-      "link": "https://www.seattletimes.com/sports/storm/storm-signed-stefanie-dolson-to-be-mentor-shes-been-key-contributor/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Fri, 29 May 2026 08:44:30 -0700",
-      "isoDate": "2026-05-29T15:44:30.000Z",
-      "excerpt": "With two young centers on the roster, the Storm signed veteran Stefanie Dolson to be a mentor. They've needed her to be a key contributor in the post.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
     },
     {
       "title": "Mariners return home with bullpen back to full strength",
@@ -202,26 +177,6 @@
       "excerpt": "Aug 23, 2025; Green Bay, Wisconsin, USA; Seattle Seahawks linebacker Jared Ivey (51) tackles Green Bay Packers quarterback Taylor Elgersma (19) during the fourth quarter at Lambeau Field. Mandatory Credit: Jeff...",
       "source": "Field Gulls",
       "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "Gonzaga women’s basketball signs Denver transfer Medina",
-      "link": "https://www.seattletimes.com/sports/gonzaga-bulldogs/gonzaga-womens-basketball-signs-denver-transfer-medina/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Thu, 28 May 2026 21:52:15 -0700",
-      "isoDate": "2026-05-29T04:52:15.000Z",
-      "excerpt": "The Gonzaga women’s basketball team added its second transfer of the offseason in guard Jocelyn Medina on Thursday.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Wembanyama, Spurs send the West finals back to Oklahoma City for Game 7, routing the Thunder 118-91",
-      "link": "https://www.seattletimes.com/sports/wembanyama-spurs-send-west-finals-back-to-oklahoma-city-for-game-7/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Thu, 28 May 2026 20:46:14 -0700",
-      "isoDate": "2026-05-29T03:46:14.000Z",
-      "excerpt": "Victor Wembanyama had 28 points, 10 rebounds and three blocks and the San Antonio Spurs sent the Western Conference finals back to Oklahoma City for Game 7, routing the Thunder 118-91 on Thursday night.",
-      "source": "Seattle Times Sports",
-      "team": "general",
       "priority": 1
     },
     {
@@ -375,16 +330,6 @@
       "priority": 1
     },
     {
-      "title": "How much it cost the Seahawks to sign veteran pass rusher Dante Fowler Jr",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-nfl-salary-cap/168865/how-much-it-cost-seattle-seahawks-sign-dante-fowler-nfl-news",
-      "pubDate": "2026-05-27T17:00:00.000Z",
-      "isoDate": "2026-05-27T17:00:00.000Z",
-      "excerpt": "ARLINGTON, TX - DECEMBER 21: Dante Fowler Jr. #13 of the Dallas Cowboys rushes the passer during an NFL football game against the Los Angeles Chargers at AT&T Stadium on December 21, 2025 in Arlington, Texas. (Photo by...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
-    },
-    {
       "title": "Mariners News: Cal Raleigh, Bob Horner, and Travis Kelce",
       "link": "https://www.lookoutlanding.com/seattle-mariners-news/143993/mariners-news-cal-raleigh-bob-horner-and-travis-kelce",
       "pubDate": "2026-05-27T14:00:00.000Z",
@@ -440,26 +385,6 @@
       "pubDate": "Tue, 26 May 2026 18:49:01 GMT",
       "isoDate": "2026-05-26T18:49:01.000Z",
       "excerpt": "Storylines to watch as the Seahawks begin voluntary organized team activities.",
-      "source": "Seahawks.com",
-      "team": "seahawks",
-      "priority": 6
-    },
-    {
-      "title": "Seahawks Hang Another Super Bowl Champions Banner",
-      "link": "https://www.seahawks.com/news/seahawks-hang-another-super-bowl-champions-banner",
-      "pubDate": "Sat, 23 May 2026 01:02:11 GMT",
-      "isoDate": "2026-05-23T01:02:11.000Z",
-      "excerpt": "The banner celebrating the Seahawks’ Super Bowl LX victory over the Patriots went up Friday in the Virginia Mason Athletic Center.",
-      "source": "Seahawks.com",
-      "team": "seahawks",
-      "priority": 6
-    },
-    {
-      "title": "For Seahawks, Chasing Edges Includes Comprehensive Sleep Program",
-      "link": "https://www.seahawks.com/news/for-seahawks-chasing-edges-includes-comprehensive-sleep-program",
-      "pubDate": "Thu, 21 May 2026 16:59:35 GMT",
-      "isoDate": "2026-05-21T16:59:35.000Z",
-      "excerpt": "Seahawks rookies met with sleep physician and performance expert Dr. Cheri D. Mah as part of the organization’s continued commitment to player performance.",
       "source": "Seahawks.com",
       "team": "seahawks",
       "priority": 6
