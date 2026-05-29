@@ -1,14 +1,39 @@
 {
-  "generatedAt": "2026-05-28T23:13:16.083Z",
+  "generatedAt": "2026-05-29T02:53:43.678Z",
   "sourceCount": 7,
-  "successfulSources": 6,
-  "failedSources": [
-    {
-      "source": "Seattle Times Sports",
-      "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
-    }
-  ],
+  "successfulSources": 7,
+  "failedSources": [],
   "items": [
+    {
+      "title": "Seahawks QB Sam Darnold details what helped ‘unlock’ career",
+      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/seattle-seahawks-sam-darnold-what-helped-unlock-career",
+      "pubDate": "Fri, 29 May 2026 01:24:24 +0000",
+      "isoDate": "2026-05-29T01:24:24.000Z",
+      "excerpt": "Sam Darnold said a conversation with a sports psychologist helped \"unlock\" his career.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Salk: Why the Mariners finally seem headed in right direction",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/mike-salk-seattle-mariners-seem-right-direction",
+      "pubDate": "Fri, 29 May 2026 00:38:06 +0000",
+      "isoDate": "2026-05-29T00:38:06.000Z",
+      "excerpt": "The Seattle Mariners surged into first place with a sweep over the A's. So what's changed?",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "US trains for World Cup at new $250 million, 200-acre, 19-field complex south of Atlanta",
+      "link": "https://www.seattletimes.com/nation-world/nation/us-trains-for-world-cup-at-new-250-million-200-acre-19-field-complex-south-of-atlanta/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Thu, 28 May 2026 16:05:15 -0700",
+      "isoDate": "2026-05-28T23:05:15.000Z",
+      "excerpt": "Jozy Altidore says the U.S. Soccer National Training Center is far different from where he trained with the national team a decade ago.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
     {
       "title": "Back With Seahawks For OTAs, DeMarcus Lawrence Looking Forward To 2026: 'I Still Have More To Give'",
       "link": "https://www.seahawks.com/news/back-with-seahawks-for-otas-demarcus-lawrence-looking-forward-to-2026-i-still-have-more-to-give",
@@ -50,6 +75,16 @@
       "priority": 6
     },
     {
+      "title": "10 college football storylines to watch with 100 days until kickoff",
+      "link": "https://www.seattletimes.com/sports/washington-huskies-football/10-college-football-storylines-to-watch-with-100-days-until-kickoff/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Thu, 28 May 2026 14:24:07 -0700",
+      "isoDate": "2026-05-28T21:24:07.000Z",
+      "excerpt": "The college football regular season is slowly becoming visible on the horizon as it's 100 days until the first full Saturday of games. Here are 10 storylines to watch.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
       "title": "M’s have highest-rated prospect trio in Keith Law’s latest rankings",
       "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-have-highest-rated-prospect-trio-in-keith-laws-latest-rankings",
       "pubDate": "Thu, 28 May 2026 21:14:09 +0000",
@@ -68,6 +103,16 @@
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
+    },
+    {
+      "title": "Colt Emerson, Mariners’ rookie phenom, stayed prepared. Now, it’s paying off.",
+      "link": "https://www.seattletimes.com/sports/mariners/colt-emerson-mariners-rookie-phenom-stayed-prepared-now-its-paying-off/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Thu, 28 May 2026 12:52:03 -0700",
+      "isoDate": "2026-05-28T19:52:03.000Z",
+      "excerpt": "Colt Emerson, the Mariners' 20-year-old rookie phenom, is off and running in his big-league career. He couldn't be having any more fun either. \"Every day is a highlight.\"",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
     },
     {
       "title": "Which Seattle Mariners will be All-Stars? A look at 4 top candidates",
@@ -100,6 +145,16 @@
       "priority": 1
     },
     {
+      "title": "MLB owners propose a salary cap for the first time since baseball’s 1994-95 strike",
+      "link": "https://www.seattletimes.com/sports/mariners/mlb-owners-have-proposed-a-salary-cap-for-the-first-time-since-baseballs-1994-95-strike/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Thu, 28 May 2026 12:17:03 -0700",
+      "isoDate": "2026-05-28T19:17:03.000Z",
+      "excerpt": "Major League Baseball owners made their expected salary cap proposal to the players’ association on Thursday, a system the union has vowed never to accept.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
       "title": "Wyman: OL Mason Richman stood out at Seahawks OTA practice",
       "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/wyman-mason-richman-stood-out-seattle-seahawks-ota",
       "pubDate": "Thu, 28 May 2026 18:43:15 +0000",
@@ -110,24 +165,24 @@
       "priority": 3
     },
     {
-      "title": "Former M’s closer Paul Sewald reaches 100 career saves against the odds",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/paul-sewald-ex-seattle-mariners-100-saves-arizona-diamondbacks",
-      "pubDate": "Thu, 28 May 2026 17:40:17 +0000",
-      "isoDate": "2026-05-28T17:40:17.000Z",
-      "excerpt": "Last year, Paul Sewald doubted his future in MLB. This season, he has locked down the ninth inning and reached a milestone for the Diamondbacks.",
-      "source": "710 Seattle Sports",
+      "title": "Market for Seahawks sale is ‘robust,’ report says. Here’s latest timeline",
+      "link": "https://www.seattletimes.com/sports/seahawks/market-for-seahawks-sale-is-robust-report-says-heres-the-latest-timeline/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Thu, 28 May 2026 10:04:33 -0700",
+      "isoDate": "2026-05-28T17:04:33.000Z",
+      "excerpt": "The market for buying the Seahawks has reportedly “picked up steam.” Here's when the team could sell, and how high the price could get.",
+      "source": "Seattle Times Sports",
       "team": "general",
-      "priority": 3
+      "priority": 1
     },
     {
-      "title": "Huard: How new OC Brian Fleury impressed Seahawks",
-      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/huard-how-new-offensive-coordinator-brian-fleury-impressed-seattle-seahawks",
-      "pubDate": "Thu, 28 May 2026 16:37:12 +0000",
-      "isoDate": "2026-05-28T16:37:12.000Z",
-      "excerpt": "\"He crushed the whiteboard,\" Brock Huard said of new Seahawks offensive coordinator Brian Fleury.",
-      "source": "710 Seattle Sports",
+      "title": "Washington Huskies women rowing into NCAA championships",
+      "link": "https://www.seattletimes.com/sports/uw-huskies/washington-huskies-women-rowing-into-ncaa-championships/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Thu, 28 May 2026 10:00:00 -0700",
+      "isoDate": "2026-05-28T17:00:00.000Z",
+      "excerpt": "Rower Mira Calder, whose dad was also a standout at UW, will be in the No. 5 seat at the NCAA championships, where the Huskies can rely on her \"mysterious\" abilities.",
+      "source": "Seattle Times Sports",
       "team": "general",
-      "priority": 3
+      "priority": 1
     },
     {
       "title": "Mariners Draft Profile: RHP Cade Townsend",
@@ -167,6 +222,26 @@
       "excerpt": "SACRAMENTO, CALIFORNIA - MAY 27: The Seattle Mariners celebrate defeating the Athletics 9-1 at Sutter Health Park on May 27, 2026 in Sacramento, California. (Photo by Thearon W. Henderson/Getty Images) | Getty Images...",
       "source": "Lookout Landing",
       "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Seahawks’ Byron Murphy II looking to build on breakthrough season",
+      "link": "https://www.seattletimes.com/sports/seahawks/seahawks-byron-murphy-ii-looking-to-build-on-breakthrough-season/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Thu, 28 May 2026 06:00:00 -0700",
+      "isoDate": "2026-05-28T13:00:00.000Z",
+      "excerpt": "Seahawks defensive lineman Byron Murphy II capped a momentous year with a wedding in March. He's looking for things to be even better in the upcoming season.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Seattle Storm’s rematch vs. Washington Mystics results in 78-64 loss",
+      "link": "https://www.seattletimes.com/sports/storm/seattle-storms-rematch-vs-washington-mystics-results-in-78-64-loss/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Wed, 27 May 2026 21:22:25 -0700",
+      "isoDate": "2026-05-28T04:22:25.000Z",
+      "excerpt": "The Storm's promising four-game homestand, which included a couple blowout wins and a last-second loss, ended with an uninspiring 78-64 loss to the Washington Mystics.",
+      "source": "Seattle Times Sports",
+      "team": "general",
       "priority": 1
     },
     {
