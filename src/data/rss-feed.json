@@ -1,9 +1,19 @@
 {
-  "generatedAt": "2026-05-29T11:25:37.134Z",
+  "generatedAt": "2026-05-29T14:59:45.422Z",
   "sourceCount": 7,
   "successfulSources": 7,
   "failedSources": [],
   "items": [
+    {
+      "title": "Mariners News: Colt Emerson, Kenley Jansen, and James Wood",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-news/144074/mariners-news-colt-emerson-kenley-jansen-and-james-wood",
+      "pubDate": "2026-05-29T14:00:00.000Z",
+      "isoDate": "2026-05-29T14:00:00.000Z",
+      "excerpt": "May 17, 2026; Seattle, Washington, USA; Seattle Mariners third baseman Colt Emerson (4) celebrates after scoring a run against the San Diego Padres during the sixth inning at T-Mobile Park. Mandatory Credit: Steven...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
     {
       "title": "Gonzaga women’s basketball signs Denver transfer Medina",
       "link": "https://www.seattletimes.com/sports/gonzaga-bulldogs/gonzaga-womens-basketball-signs-denver-transfer-medina/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
@@ -370,16 +380,6 @@
       "pubDate": "2026-05-27T04:28:22.000Z",
       "isoDate": "2026-05-27T04:28:22.000Z",
       "excerpt": "SACRAMENTO, CALIFORNIA - MAY 26: Mitch Garver #18 of the Seattle Mariners reacts after hitting an RBI double during the second inning against the Athletics at Sutter Health Park on May 26, 2026 in Sacramento,...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "27-29: Chart",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/143997/27-29-chart",
-      "pubDate": "2026-05-27T04:13:48.000Z",
-      "isoDate": "2026-05-27T04:13:48.000Z",
-      "excerpt": "SACRAMENTO, CALIFORNIA - MAY 26: Victor Robles #10 of the Seattle Mariners reacts after hitting a double during the fourth inning against the Athletics at Sutter Health Park on May 26, 2026 in Sacramento, California....",
       "source": "Lookout Landing",
       "team": "mariners",
       "priority": 1
