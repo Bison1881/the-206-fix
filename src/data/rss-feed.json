@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-30T16:59:51.783Z",
+  "generatedAt": "2026-05-30T19:07:48.321Z",
   "sourceCount": 7,
   "successfulSources": 6,
   "failedSources": [
@@ -9,6 +9,36 @@
     }
   ],
   "items": [
+    {
+      "title": "Report: Vikings to hire Seahawks assistant GM Nolan Teasley",
+      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/report-vikings-to-hire-seahawks-assistant-gm-nolan-teasley",
+      "pubDate": "Sat, 30 May 2026 18:10:40 +0000",
+      "isoDate": "2026-05-30T18:10:40.000Z",
+      "excerpt": "Nolan Teasley has spent the past 13 seasons with the Seahawks, including three in his current role.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Watch Sloan, Montes play at Double-A for FREE tonight",
+      "link": "https://www.mlb.com/mariners/news/watch-minor-league-baseball-games-for-free-2026",
+      "pubDate": "Sat, 30 May 2026 18:00:00 GMT",
+      "isoDate": "2026-05-30T18:00:00.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "US national team names captain for World Cup",
+      "link": "https://sports.mynorthwest.com/seattle-sports-staff/us-national-team-names-captain-for-world-cup",
+      "pubDate": "Sat, 30 May 2026 17:04:12 +0000",
+      "isoDate": "2026-05-30T17:04:12.000Z",
+      "excerpt": "Tim Ream didn't know he was receiving the honor until it was announced during a press conference.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
     {
       "title": "Seahawks News 5/30: Seahawks finally sign top pick Jadarian Price",
       "link": "https://www.fieldgulls.com/seattle-seahawks-news/168993/seahawks-news-5-30-seahawks-finally-sign-top-pick-jadarian-price",
@@ -108,16 +138,6 @@
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
-    },
-    {
-      "title": "Watch Sloan, Montes play at Double-A for FREE tonight",
-      "link": "https://www.mlb.com/mariners/news/watch-minor-league-baseball-games-for-free-2026",
-      "pubDate": "Sat, 30 May 2026 04:22:00 GMT",
-      "isoDate": "2026-05-30T04:22:00.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
     },
     {
       "title": "Mariners Game #58: Open Game Thread",
@@ -240,16 +260,6 @@
       "priority": 6
     },
     {
-      "title": "MVP Stafford says he understands why Rams drafted QB",
-      "link": "https://sports.mynorthwest.com/nfl/matthew-stafford-understands-rams-drafted-qb-ty-simpson",
-      "pubDate": "Fri, 29 May 2026 21:41:52 +0000",
-      "isoDate": "2026-05-29T21:41:52.000Z",
-      "excerpt": "Matthew Stafford says he understands why the Los Angeles Rams drafted Ty Simpson last month, even though they happen to have got the NFL’s reigning MVP quarterback under contract for at least the next two years.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
       "title": "Seahawks agree to terms with Jadarian Price, 2026 draft class all now under contract",
       "link": "https://www.fieldgulls.com/seattle-seahawks-news/168966/seahawks-agree-to-terms-jadarian-price-2026-draft-class-all-now-under-contract",
       "pubDate": "2026-05-29T21:24:47.000Z",
@@ -258,16 +268,6 @@
       "source": "Field Gulls",
       "team": "seahawks",
       "priority": 1
-    },
-    {
-      "title": "Seahawks sign Jadarian Price to complete draft class",
-      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/seattle-seahawks-agree-jadarian-price-draft-class-signed",
-      "pubDate": "Fri, 29 May 2026 21:00:06 +0000",
-      "isoDate": "2026-05-29T21:00:06.000Z",
-      "excerpt": "NFL Network insider Tom Pelissero reported Friday afternoon that the Seahawks and their first-round pick are in agreement.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
     },
     {
       "title": "An Eventful Year 2 For Byron Murphy II Means Bigger Goals For Year 3",
