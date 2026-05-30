@@ -1,8 +1,13 @@
 {
-  "generatedAt": "2026-05-30T11:22:47.373Z",
+  "generatedAt": "2026-05-30T13:22:40.494Z",
   "sourceCount": 7,
-  "successfulSources": 7,
-  "failedSources": [],
+  "successfulSources": 6,
+  "failedSources": [
+    {
+      "source": "Seattle Times Sports",
+      "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
+    }
+  ],
   "items": [
     {
       "title": "Mariners walk tightrope, then walk it off to climb back to .500",
@@ -33,16 +38,6 @@
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
-    },
-    {
-      "title": "Randy Arozarena’s walkoff hit in 10th lifts Mariners over Diamondbacks",
-      "link": "https://www.seattletimes.com/sports/mariners/randy-arozarenas-walkoff-single-in-10th-lifts-mariners-over-diamondbacks/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Fri, 29 May 2026 22:29:57 -0700",
-      "isoDate": "2026-05-30T05:29:57.000Z",
-      "excerpt": "Randy Arozarena's walkoff hit in the 10th inning backed a two-homer night from J.P. Crawford as the Mariners rallied after a blown save from Andres Muñoz to beat the Diamondbacks 7-6.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
     },
     {
       "title": "29-29: Chart",
@@ -95,16 +90,6 @@
       "priority": 6
     },
     {
-      "title": "Photos: Seattle Mariners defeat Arizona Diamondbacks, 7-6",
-      "link": "https://www.seattletimes.com/sports/mariners/photos-seattle-mariners-take-on-arizona-diamondbacks-3/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Fri, 29 May 2026 20:04:52 -0700",
-      "isoDate": "2026-05-30T03:04:52.000Z",
-      "excerpt": "",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "Mariners prospect Kade Anderson turns in another gem",
       "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-prospect-kade-anderson-turns-in-another-gem",
       "pubDate": "Sat, 30 May 2026 03:01:16 +0000",
@@ -113,16 +98,6 @@
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
-    },
-    {
-      "title": "Mariners to stick with a ‘piggyback’ pitching plan, with a twist. Here’s why.",
-      "link": "https://www.seattletimes.com/sports/mariners/mariners-to-stick-with-a-piggyback-pitching-plan-with-a-twist-heres-why/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Fri, 29 May 2026 18:53:29 -0700",
-      "isoDate": "2026-05-30T01:53:29.000Z",
-      "excerpt": "Here’s what we know about how the Mariners are trying to ease frustrations over their piggyback plan and how they'll move forward with the starting rotation.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
     },
     {
       "title": "Raleigh swings bat, Donovan runs as injured Mariners take steps forward",
@@ -185,16 +160,6 @@
       "priority": 3
     },
     {
-      "title": "WSU baseball stuns No. 7 Oregon State in NCAA tournament opener",
-      "link": "https://www.seattletimes.com/sports/wsu-cougars/wsu-baseball-wins-ncaa-tournament-opener-vs-oregon-state/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Fri, 29 May 2026 16:38:32 -0700",
-      "isoDate": "2026-05-29T23:38:32.000Z",
-      "excerpt": "Nick Lewis tossed a complete-game gem, and Washington State upset No. 7 Oregon State 3-2 to advance to the semifinals of the NCAA tournament Eugene Regional.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "Ace Nick Lewis leads WSU to upset over No. 8 Oregon St in regionals",
       "link": "https://sports.mynorthwest.com/ncaa/wsu/wsu-cougars-baseball-nick-lewis-regionals-oregon-state",
       "pubDate": "Fri, 29 May 2026 23:15:59 +0000",
@@ -213,26 +178,6 @@
       "source": "Seahawks.com",
       "team": "seahawks",
       "priority": 6
-    },
-    {
-      "title": "Mariners’ Cal Raleigh takes first swings since going on IL",
-      "link": "https://www.seattletimes.com/sports/mariners/mariners-cal-raleigh-takes-first-swings-since-going-on-il/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Fri, 29 May 2026 16:02:48 -0700",
-      "isoDate": "2026-05-29T23:02:48.000Z",
-      "excerpt": "The next step in the slow progression for Mariners catcher Cal Raleigh to return to the lineup from his oblique injury has started.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Here’s who Huskies are hosting during big UW football recruiting weekend",
-      "link": "https://www.seattletimes.com/sports/washington-huskies-football/heres-who-the-huskies-are-hosting-during-big-uw-football-recruiting-weekend/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Fri, 29 May 2026 15:13:28 -0700",
-      "isoDate": "2026-05-29T22:13:28.000Z",
-      "excerpt": "With three uncommitted prospects visiting, this weekend represents one of UW's first major recruiting opportunities to bolster its 2027 class.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
     },
     {
       "title": "Seahawks Mailbag: Super Bowl Memories, Running It Forward, D-Law & More",
@@ -265,16 +210,6 @@
       "priority": 1
     },
     {
-      "title": "Seahawks sign first-round draft pick Jadarian Price",
-      "link": "https://www.seattletimes.com/sports/seahawks/seahawks-sign-first-round-draft-pick-jadarian-price/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Fri, 29 May 2026 14:13:56 -0700",
-      "isoDate": "2026-05-29T21:13:56.000Z",
-      "excerpt": "The Seahawks agreed to terms with first-round draft Jadarian Price, a running back from Notre Dame taken 32nd overall in the NFL draft last month.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "Seahawks sign Jadarian Price to complete draft class",
       "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/seattle-seahawks-agree-jadarian-price-draft-class-signed",
       "pubDate": "Fri, 29 May 2026 21:00:06 +0000",
@@ -303,16 +238,6 @@
       "source": "Seahawks.com",
       "team": "seahawks",
       "priority": 6
-    },
-    {
-      "title": "Rams star Puka Nacua opens up on seeking help, legal troubles and stalled mega deal",
-      "link": "https://www.seattletimes.com/sports/nfl/rams-star-puka-nacua-opens-up-on-seeking-help-legal-troubles-and-stalled-mega-deal/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Fri, 29 May 2026 10:02:44 -0700",
-      "isoDate": "2026-05-29T17:02:44.000Z",
-      "excerpt": "Rams star receiver Puka Nacua on Thursday addressed reporters for the first time since checking into a Malibu rehab facility in March.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
     },
     {
       "title": "Series Preview: Mariners (28-29) vs. Diamondbacks (31-24)",
