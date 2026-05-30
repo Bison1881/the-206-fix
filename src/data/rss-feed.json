@@ -1,9 +1,54 @@
 {
-  "generatedAt": "2026-05-30T15:03:55.643Z",
+  "generatedAt": "2026-05-30T16:59:51.783Z",
   "sourceCount": 7,
-  "successfulSources": 7,
-  "failedSources": [],
+  "successfulSources": 6,
+  "failedSources": [
+    {
+      "source": "Seattle Times Sports",
+      "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
+    }
+  ],
   "items": [
+    {
+      "title": "Seahawks News 5/30: Seahawks finally sign top pick Jadarian Price",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-news/168993/seahawks-news-5-30-seahawks-finally-sign-top-pick-jadarian-price",
+      "pubDate": "2026-05-30T16:28:05.000Z",
+      "isoDate": "2026-05-30T16:28:05.000Z",
+      "excerpt": "In Today’s Links: a look at some of the Seattle Seahawks who might become our favorite players this season, a big mailbag from John Boyle, the Coach Macdonald message resonates, a look back at the ‘Hawks offseason, and...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
+    {
+      "title": "Mariners Injury Update: Latest on Carlos Vargas and more",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/mariners-injury-update-latest-on-carlos-vargas-and-more",
+      "pubDate": "Sat, 30 May 2026 16:19:20 +0000",
+      "isoDate": "2026-05-30T16:19:20.000Z",
+      "excerpt": "Where a trio of injured Mariners stand, plus updates on two minor leaguers.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "DeMarcus Lawrence says he still has ‘more to give’ to Seahawks in 2026",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-news/168974/demarcus-lawrence-more-to-give-seattle-seahawks-2026-nfl-news",
+      "pubDate": "2026-05-30T15:00:00.000Z",
+      "isoDate": "2026-05-30T15:00:00.000Z",
+      "excerpt": "A growing number of Seattle Seahawks fans were concerned that star edge rusher DeMarcus Lawrence was going to retire after Seattle won the Super Bowl. Survey says: that was incorrect. Lawrence returned to the Seahawks’...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
+    {
+      "title": "Seahawks roster cutdown day will come earlier than usual this year",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-news/168972/seahawks-roster-cutdown-day-deadline-earlier-than-usual-nfl-news",
+      "pubDate": "2026-05-30T14:00:00.000Z",
+      "isoDate": "2026-05-30T14:00:00.000Z",
+      "excerpt": "Green Bay Packers guard Lecitus Smith (68) blocks Seattle Seahawks defensive tackle Quinton Bohanna (92) during the first quarter of their preseason game Saturday, August 23, 2025 at Lambeau Field in Green Bay,...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
     {
       "title": "Mariners News: Luis Severino, Eury Pérez, and Brandon Marsh",
       "link": "https://www.lookoutlanding.com/seattle-mariners-news/24480524/mariners-news-luis-severino-eury-perez-and-brandon-marsh",
@@ -12,26 +57,6 @@
       "excerpt": "May 21, 2026; Anaheim, California, USA; Athletics pitcher Luis Severino (40) delivers during the first inning against the Los Angeles Angels at Angel Stadium. Mandatory Credit: William Liang-Imagn Images | William...",
       "source": "Lookout Landing",
       "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "The U.S. likely won’t contend at FIFA Men’s World Cup. Here’s why",
-      "link": "https://www.seattletimes.com/sports/world-cup/the-u-s-likely-wont-contend-at-fifa-mens-world-cup-heres-why/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sat, 30 May 2026 06:00:00 -0700",
-      "isoDate": "2026-05-30T13:00:00.000Z",
-      "excerpt": "Since 1990, the best the U.S. men have done at the World Cup is to make the quarterfinals. Here's why that'll be harder this time and why Team USA isn't a contender.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "‘He’s a Seattle guy’: Diamondbacks’ Corbin Carroll returns home to face Mariners",
-      "link": "https://www.seattletimes.com/sports/mariners/hes-a-seattle-guy-diamondbacks-corbin-carroll-returns-home-to-face-mariners/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sat, 30 May 2026 06:00:00 -0700",
-      "isoDate": "2026-05-30T13:00:00.000Z",
-      "excerpt": "Lakeside School alum and Diamondbacks star Corbin Carroll is back in Seattle to face the Mariners this weekend. Here's what he's most excited about.",
-      "source": "Seattle Times Sports",
-      "team": "general",
       "priority": 1
     },
     {
@@ -63,16 +88,6 @@
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
-    },
-    {
-      "title": "Randy Arozarena’s walkoff hit in 10th lifts Mariners over Diamondbacks",
-      "link": "https://www.seattletimes.com/sports/mariners/randy-arozarenas-walkoff-single-in-10th-lifts-mariners-over-diamondbacks/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Fri, 29 May 2026 22:29:57 -0700",
-      "isoDate": "2026-05-30T05:29:57.000Z",
-      "excerpt": "Randy Arozarena's walkoff hit in the 10th inning backed a two-homer night from J.P. Crawford as the Mariners rallied after a blown save from Andres Muñoz to beat the Diamondbacks 7-6.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
     },
     {
       "title": "29-29: Chart",
@@ -125,16 +140,6 @@
       "priority": 6
     },
     {
-      "title": "Photos: Seattle Mariners defeat Arizona Diamondbacks, 7-6",
-      "link": "https://www.seattletimes.com/sports/mariners/photos-seattle-mariners-take-on-arizona-diamondbacks-3/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Fri, 29 May 2026 20:04:52 -0700",
-      "isoDate": "2026-05-30T03:04:52.000Z",
-      "excerpt": "",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "Mariners prospect Kade Anderson turns in another gem",
       "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-prospect-kade-anderson-turns-in-another-gem",
       "pubDate": "Sat, 30 May 2026 03:01:16 +0000",
@@ -143,16 +148,6 @@
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
-    },
-    {
-      "title": "Mariners to stick with a ‘piggyback’ pitching plan, with a twist. Here’s why.",
-      "link": "https://www.seattletimes.com/sports/mariners/mariners-to-stick-with-a-piggyback-pitching-plan-with-a-twist-heres-why/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Fri, 29 May 2026 18:53:29 -0700",
-      "isoDate": "2026-05-30T01:53:29.000Z",
-      "excerpt": "Here’s what we know about how the Mariners are trying to ease frustrations over their piggyback plan and how they'll move forward with the starting rotation.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
     },
     {
       "title": "Raleigh swings bat, Donovan runs as injured Mariners take steps forward",
@@ -215,16 +210,6 @@
       "priority": 3
     },
     {
-      "title": "WSU baseball stuns No. 7 Oregon State in NCAA tournament opener",
-      "link": "https://www.seattletimes.com/sports/wsu-cougars/wsu-baseball-wins-ncaa-tournament-opener-vs-oregon-state/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Fri, 29 May 2026 16:38:32 -0700",
-      "isoDate": "2026-05-29T23:38:32.000Z",
-      "excerpt": "Nick Lewis tossed a complete-game gem, and Washington State upset No. 7 Oregon State 3-2 to advance to the semifinals of the NCAA tournament Eugene Regional.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "Ace Nick Lewis leads WSU to upset over No. 8 Oregon St in regionals",
       "link": "https://sports.mynorthwest.com/ncaa/wsu/wsu-cougars-baseball-nick-lewis-regionals-oregon-state",
       "pubDate": "Fri, 29 May 2026 23:15:59 +0000",
@@ -243,26 +228,6 @@
       "source": "Seahawks.com",
       "team": "seahawks",
       "priority": 6
-    },
-    {
-      "title": "Mariners’ Cal Raleigh takes first swings since going on IL",
-      "link": "https://www.seattletimes.com/sports/mariners/mariners-cal-raleigh-takes-first-swings-since-going-on-il/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Fri, 29 May 2026 16:02:48 -0700",
-      "isoDate": "2026-05-29T23:02:48.000Z",
-      "excerpt": "The next step in the slow progression for Mariners catcher Cal Raleigh to return to the lineup from his oblique injury has started.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Here’s who Huskies are hosting during big UW football recruiting weekend",
-      "link": "https://www.seattletimes.com/sports/washington-huskies-football/heres-who-the-huskies-are-hosting-during-big-uw-football-recruiting-weekend/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Fri, 29 May 2026 15:13:28 -0700",
-      "isoDate": "2026-05-29T22:13:28.000Z",
-      "excerpt": "With three uncommitted prospects visiting, this weekend represents one of UW's first major recruiting opportunities to bolster its 2027 class.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
     },
     {
       "title": "Seahawks Mailbag: Super Bowl Memories, Running It Forward, D-Law & More",
@@ -300,16 +265,6 @@
       "pubDate": "Fri, 29 May 2026 21:00:06 +0000",
       "isoDate": "2026-05-29T21:00:06.000Z",
       "excerpt": "NFL Network insider Tom Pelissero reported Friday afternoon that the Seahawks and their first-round pick are in agreement.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "Seahawks’ D-Law says chances he would retire were ‘very slim’",
-      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/seattle-seahawks-d-law-demarcus-lawrence-retirement-very-slim",
-      "pubDate": "Fri, 29 May 2026 20:32:36 +0000",
-      "isoDate": "2026-05-29T20:32:36.000Z",
-      "excerpt": "\"Knowing what I'd be leaving behind, the chances (of retirement) were very slim,\" DeMarcus Lawrence told Seahawks.com.",
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
@@ -390,36 +345,6 @@
       "pubDate": "2026-05-28T19:38:42.000Z",
       "isoDate": "2026-05-28T19:38:42.000Z",
       "excerpt": "Jody Allen, chair of the Seattle Seahawks, waves to fans during the Seattle Seahawks' Superbowl LX victory parade in Seattle, Washington, on February 11, 2026. (Photo by Jason Redmond / AFP via Getty Images) | AFP via...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "Seahawks News 5/28: Sale of our Seahawks seems imminent",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-news/168916/seahawks-news-5-28-sale-of-our-seahawks-seems-imminent",
-      "pubDate": "2026-05-28T14:01:03.000Z",
-      "isoDate": "2026-05-28T14:01:03.000Z",
-      "excerpt": "Feb 8, 2026; Santa Clara, CA, USA; Seattle Seahawks chairman Jody Allen celebrates with the Vince Lombardi trophy on the podium after defeating the New England Patriots in Super Bowl LX at Levi's Stadium. Mandatory...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "Reviewing Emmanuel Henderson and his fit with the Seahawks",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/168893/reviewing-emmanuel-henderson-draft-fit-seattle-seahawks-nfl-analysis",
-      "pubDate": "2026-05-28T14:00:00.000Z",
-      "isoDate": "2026-05-28T14:00:00.000Z",
-      "excerpt": "In the theme of reconnecting former teammates, the Seattle Seahawks drafted Jalen Milroe’s former Alabama teammate Emmanuel Henderson with their sixth-round pick. They have done this before, reuniting Grey Zabel and...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "Seahawks trade for New York Jets special teams gunner Irv Charles",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-news/168885/nfl-news-seahawks-trade-new-york-jets-special-teams-gunner-irv-charles",
-      "pubDate": "2026-05-28T01:24:40.000Z",
-      "isoDate": "2026-05-28T01:24:40.000Z",
-      "excerpt": "FOXBOROUGH, MA - OCTOBER 27: New York Jets wide receiver Irvin Charles (19) carries in warm up before a game between the New England Patriots and the New York Jets on October 27, 2024, at Gillette Stadium in Foxborough,...",
       "source": "Field Gulls",
       "team": "seahawks",
       "priority": 1
