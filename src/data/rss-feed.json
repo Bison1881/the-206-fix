@@ -1,14 +1,119 @@
 {
-  "generatedAt": "2026-05-30T02:46:59.023Z",
+  "generatedAt": "2026-05-30T06:43:33.831Z",
   "sourceCount": 7,
-  "successfulSources": 6,
-  "failedSources": [
-    {
-      "source": "Seattle Times Sports",
-      "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
-    }
-  ],
+  "successfulSources": 7,
+  "failedSources": [],
   "items": [
+    {
+      "title": "Mariners beat Diamondbacks 7-6 on Arozarena’s walkoff in 10th",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-beat-diamondbacks-7-6-on-arozarenas-walkoff-in-10th",
+      "pubDate": "Sat, 30 May 2026 05:50:26 +0000",
+      "isoDate": "2026-05-30T05:50:26.000Z",
+      "excerpt": "J.P. Crawford also had his first career two-homer game to help the Mariners get back to .500.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "On night of homers, Arozarena's double walks it off for Mariners",
+      "link": "https://www.mlb.com/mariners/news/randy-arozarena-mariners-walk-off-d-backs-in-10",
+      "pubDate": "Sat, 30 May 2026 05:38:17 GMT",
+      "isoDate": "2026-05-30T05:38:17.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Randy Arozarena’s walkoff hit in 10th lifts Mariners over Diamondbacks",
+      "link": "https://www.seattletimes.com/sports/mariners/randy-arozarenas-walkoff-single-in-10th-lifts-mariners-over-diamondbacks/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Fri, 29 May 2026 22:29:57 -0700",
+      "isoDate": "2026-05-30T05:29:57.000Z",
+      "excerpt": "Randy Arozarena's walkoff hit in the 10th inning backed a two-homer night from J.P. Crawford as the Mariners rallied after a blown save from Andres Muñoz to beat the Diamondbacks 7-6.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "29-29: Chart",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/144100/29-29-chart",
+      "pubDate": "2026-05-30T05:28:40.000Z",
+      "isoDate": "2026-05-30T05:28:40.000Z",
+      "excerpt": "SEATTLE, WASHINGTON - MAY 29: Cole Young #2 of the Seattle Mariners throws to first base to complete the double play during the first inning against the Arizona Diamondbacks at T-Mobile Park on May 29, 2026 in Seattle,...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Everett Silvertips beat Chicoutimi 6-1, advance to Memorial Cup final",
+      "link": "https://sports.mynorthwest.com/seattle-sports-pit/everett-silvertips-beat-chicoutimi-6-1-advance-to-memorial-cup-final",
+      "pubDate": "Sat, 30 May 2026 04:37:07 +0000",
+      "isoDate": "2026-05-30T04:37:07.000Z",
+      "excerpt": "Landon DuPont scored twice to help Everett clinch its first Memorial Cup championship game appearance.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Watch Sloan, Montes play at Double-A for FREE tonight",
+      "link": "https://www.mlb.com/mariners/news/watch-minor-league-baseball-games-for-free-2026",
+      "pubDate": "Sat, 30 May 2026 04:22:00 GMT",
+      "isoDate": "2026-05-30T04:22:00.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Mariners Game #58: Open Game Thread",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-discussion/144097/mariners-game-58-open-game-thread",
+      "pubDate": "2026-05-30T03:51:51.000Z",
+      "isoDate": "2026-05-30T03:51:51.000Z",
+      "excerpt": "May 29, 2026; Seattle, Washington, USA; Seattle Mariners center fielder Julio Rodriguez (44) celebrates after hitting a 2-run home run against the Arizona Diamondbacks during the third inning at T-Mobile Park. Mandatory...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Mariners moving to six-man rotation after Sunday piggyback (source)",
+      "link": "https://www.mlb.com/mariners/news/mariners-to-move-to-6-man-rotation-with-luis-castillo-bryce-miller",
+      "pubDate": "Sat, 30 May 2026 03:34:31 GMT",
+      "isoDate": "2026-05-30T03:34:31.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Photos: Seattle Mariners defeat Arizona Diamondbacks, 7-6",
+      "link": "https://www.seattletimes.com/sports/mariners/photos-seattle-mariners-take-on-arizona-diamondbacks-3/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Fri, 29 May 2026 20:04:52 -0700",
+      "isoDate": "2026-05-30T03:04:52.000Z",
+      "excerpt": "",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Mariners prospect Kade Anderson turns in another gem",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-prospect-kade-anderson-turns-in-another-gem",
+      "pubDate": "Sat, 30 May 2026 03:01:16 +0000",
+      "isoDate": "2026-05-30T03:01:16.000Z",
+      "excerpt": "The left-hander turned in the sixth scoreless start of his first pro season.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Mariners to stick with a ‘piggyback’ pitching plan, with a twist. Here’s why.",
+      "link": "https://www.seattletimes.com/sports/mariners/mariners-to-stick-with-a-piggyback-pitching-plan-with-a-twist-heres-why/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Fri, 29 May 2026 18:53:29 -0700",
+      "isoDate": "2026-05-30T01:53:29.000Z",
+      "excerpt": "Here’s what we know about how the Mariners are trying to ease frustrations over their piggyback plan and how they'll move forward with the starting rotation.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
     {
       "title": "Raleigh swings bat, Donovan runs as injured Mariners take steps forward",
       "link": "https://www.mlb.com/mariners/news/cal-raleigh-brendan-donovan-making-progress-in-injury-recovery",
@@ -28,6 +133,16 @@
       "source": "Lookout Landing",
       "team": "mariners",
       "priority": 1
+    },
+    {
+      "title": "Strikeouts and goose eggs: Seattle's Anderson continues remarkable run",
+      "link": "https://www.mlb.com/mariners/news/mariners-prospect-kade-anderson-scoreless-double-a-nine-strikeouts",
+      "pubDate": "Sat, 30 May 2026 00:59:00 GMT",
+      "isoDate": "2026-05-30T00:59:00.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
     },
     {
       "title": "Mariners provide injury updates on Cal Raleigh, Brendan Donovan",
@@ -60,6 +175,16 @@
       "priority": 3
     },
     {
+      "title": "WSU baseball stuns No. 7 Oregon State in NCAA tournament opener",
+      "link": "https://www.seattletimes.com/sports/wsu-cougars/wsu-baseball-wins-ncaa-tournament-opener-vs-oregon-state/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Fri, 29 May 2026 16:38:32 -0700",
+      "isoDate": "2026-05-29T23:38:32.000Z",
+      "excerpt": "Nick Lewis tossed a complete-game gem, and Washington State upset No. 7 Oregon State 3-2 to advance to the semifinals of the NCAA tournament Eugene Regional.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
       "title": "Ace Nick Lewis leads WSU to upset over No. 8 Oregon St in regionals",
       "link": "https://sports.mynorthwest.com/ncaa/wsu/wsu-cougars-baseball-nick-lewis-regionals-oregon-state",
       "pubDate": "Fri, 29 May 2026 23:15:59 +0000",
@@ -78,6 +203,26 @@
       "source": "Seahawks.com",
       "team": "seahawks",
       "priority": 6
+    },
+    {
+      "title": "Mariners’ Cal Raleigh takes first swings since going on IL",
+      "link": "https://www.seattletimes.com/sports/mariners/mariners-cal-raleigh-takes-first-swings-since-going-on-il/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Fri, 29 May 2026 16:02:48 -0700",
+      "isoDate": "2026-05-29T23:02:48.000Z",
+      "excerpt": "The next step in the slow progression for Mariners catcher Cal Raleigh to return to the lineup from his oblique injury has started.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Here’s who Huskies are hosting during big UW football recruiting weekend",
+      "link": "https://www.seattletimes.com/sports/washington-huskies-football/heres-who-the-huskies-are-hosting-during-big-uw-football-recruiting-weekend/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Fri, 29 May 2026 15:13:28 -0700",
+      "isoDate": "2026-05-29T22:13:28.000Z",
+      "excerpt": "With three uncommitted prospects visiting, this weekend represents one of UW's first major recruiting opportunities to bolster its 2027 class.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
     },
     {
       "title": "Seahawks Mailbag: Super Bowl Memories, Running It Forward, D-Law & More",
@@ -107,6 +252,16 @@
       "excerpt": "Running back Jadarian Price during Notre Dame football's Pro Day at Irish Athletic Center on Tuesday, March 24, 2026, in South Bend. | MICHAEL CLUBB/SOUTH BEND TRIBUNE / USA TODAY NETWORK via Imagn Images Well that was...",
       "source": "Field Gulls",
       "team": "seahawks",
+      "priority": 1
+    },
+    {
+      "title": "Seahawks sign first-round draft pick Jadarian Price",
+      "link": "https://www.seattletimes.com/sports/seahawks/seahawks-sign-first-round-draft-pick-jadarian-price/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Fri, 29 May 2026 14:13:56 -0700",
+      "isoDate": "2026-05-29T21:13:56.000Z",
+      "excerpt": "The Seahawks agreed to terms with first-round draft Jadarian Price, a running back from Notre Dame taken 32nd overall in the NFL draft last month.",
+      "source": "Seattle Times Sports",
+      "team": "general",
       "priority": 1
     },
     {
@@ -140,34 +295,14 @@
       "priority": 6
     },
     {
-      "title": "Salk: The forgotten Seahawks conversation about Jalen Milroe",
-      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/seattle-seahawks-mike-salk-forgotten-jalen-milroe",
-      "pubDate": "Fri, 29 May 2026 19:45:19 +0000",
-      "isoDate": "2026-05-29T19:45:19.000Z",
-      "excerpt": "Jalen Milroe was a big part of the Seahawks' offseason last year. But what does his future look like now?",
-      "source": "710 Seattle Sports",
+      "title": "Rams star Puka Nacua opens up on seeking help, legal troubles and stalled mega deal",
+      "link": "https://www.seattletimes.com/sports/nfl/rams-star-puka-nacua-opens-up-on-seeking-help-legal-troubles-and-stalled-mega-deal/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Fri, 29 May 2026 10:02:44 -0700",
+      "isoDate": "2026-05-29T17:02:44.000Z",
+      "excerpt": "Rams star receiver Puka Nacua on Thursday addressed reporters for the first time since checking into a Malibu rehab facility in March.",
+      "source": "Seattle Times Sports",
       "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "UCLA WR dodges football restrictions, enters transfer portal for track",
-      "link": "https://sports.mynorthwest.com/ncaa/ucla-wr-football-restrictions-transfer-portal-track",
-      "pubDate": "Fri, 29 May 2026 18:17:16 +0000",
-      "isoDate": "2026-05-29T18:17:16.000Z",
-      "excerpt": "UCLA’s Karson Gordon entered the NCAA transfer portal as a track and field athlete with plans to play football, he confirmed on social media Friday.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "Morosi: Why no AL West rivals stack up to 1st-place Mariners",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/jon-morosi-why-seattle-mariners-are-still-clear-al-west-favorites",
-      "pubDate": "Fri, 29 May 2026 17:47:07 +0000",
-      "isoDate": "2026-05-29T17:47:07.000Z",
-      "excerpt": "The club's pitching depth separates it from the rest of the pack, according to MLB Network insider.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
+      "priority": 1
     },
     {
       "title": "Series Preview: Mariners (28-29) vs. Diamondbacks (31-24)",
@@ -178,16 +313,6 @@
       "source": "Lookout Landing",
       "team": "mariners",
       "priority": 1
-    },
-    {
-      "title": "Mariners return home with bullpen back to full strength",
-      "link": "https://www.mlb.com/mariners/news/gabe-speier-matt-brash-return-to-mariners-bullpen",
-      "pubDate": "Fri, 29 May 2026 14:56:00 GMT",
-      "isoDate": "2026-05-29T14:56:00.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
     },
     {
       "title": "Seahawks legend Shaun Alexander makes a big Jadarian Price prediction",
@@ -238,16 +363,6 @@
       "source": "Field Gulls",
       "team": "seahawks",
       "priority": 1
-    },
-    {
-      "title": "NEW Top 200 Draft Prospects list! Here are 7 key takeaways",
-      "link": "https://www.mlb.com/mariners/news/top-200-draft-prospects-for-2026",
-      "pubDate": "Thu, 28 May 2026 21:43:16 GMT",
-      "isoDate": "2026-05-28T21:43:16.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
     },
     {
       "title": "‘Robust’ market to buy Seahawks could result in sale by August",
@@ -310,36 +425,6 @@
       "priority": 1
     },
     {
-      "title": "Mariners accept challenge, trounce A’s en route to series sweep",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/144030/mariners-accept-challenge-trounce-as-en-route-to-series-sweep",
-      "pubDate": "2026-05-27T23:55:15.000Z",
-      "isoDate": "2026-05-27T23:55:15.000Z",
-      "excerpt": "May 27, 2026; West Sacramento, California, USA; Seattle Mariners left fielder Rob Refsnyder (30) is congratulated by teammates after hitting a three-run home run against the Athletics in the first inning at Sutter...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "Mariners cap dominant sweep of A's, move into first place in AL West",
-      "link": "https://www.mlb.com/mariners/news/mariners-sweep-a-s-to-move-into-first-place-in-al-west",
-      "pubDate": "Wed, 27 May 2026 23:26:00 GMT",
-      "isoDate": "2026-05-27T23:26:00.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
-    },
-    {
-      "title": "28-29: Chart",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/144012/28-29-chart",
-      "pubDate": "2026-05-27T21:51:53.000Z",
-      "isoDate": "2026-05-27T21:51:53.000Z",
-      "excerpt": "May 27, 2026; West Sacramento, California, USA; Seattle Mariners third baseman Colt Emerson (4) is congratulated by third base coach Carlos Cardoza (57) after hitting a two-run triple against the Athletics in the fourth...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
       "title": "Seahawks Acquire WR Irvin Charles In Trade With Jets",
       "link": "https://www.seahawks.com/news/seahawks-acquire-wr-irvin-charles-in-trade-with-jets",
       "pubDate": "Wed, 27 May 2026 20:00:00 GMT",
@@ -347,16 +432,6 @@
       "excerpt": "The Seahawks added receiver and special teams standout Irvin Charles in a trade with the Jets.",
       "source": "Seahawks.com",
       "team": "seahawks",
-      "priority": 6
-    },
-    {
-      "title": "Mariners address communication gap over piggyback plan with Castillo, Miller",
-      "link": "https://www.mlb.com/mariners/news/mariners-clarify-piggyback-plan-with-luis-castillo-bryce-miller",
-      "pubDate": "Wed, 27 May 2026 04:11:19 GMT",
-      "isoDate": "2026-05-27T04:11:19.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
       "priority": 6
     },
     {
