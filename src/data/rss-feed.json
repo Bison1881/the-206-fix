@@ -1,43 +1,63 @@
 {
-  "generatedAt": "2026-05-30T19:07:48.321Z",
+  "generatedAt": "2026-05-30T20:52:47.931Z",
   "sourceCount": 7,
   "successfulSources": 6,
   "failedSources": [
     {
-      "source": "Seattle Times Sports",
-      "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
+      "source": "710 Seattle Sports",
+      "error": "Request timed out after 10000ms (lenient retry: The operation was aborted due to timeout)"
     }
   ],
   "items": [
     {
-      "title": "Report: Vikings to hire Seahawks assistant GM Nolan Teasley",
-      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/report-vikings-to-hire-seahawks-assistant-gm-nolan-teasley",
-      "pubDate": "Sat, 30 May 2026 18:10:40 +0000",
-      "isoDate": "2026-05-30T18:10:40.000Z",
-      "excerpt": "Nolan Teasley has spent the past 13 seasons with the Seahawks, including three in his current role.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
+      "title": "Seahawks lose assistant GM Nolan Teasley to the Minnesota Vikings, gain two draft picks",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-news/168998/nfl-news-seahawks-lose-assistant-gm-nolan-teasley-minnesota-vikings-gain-two-draft-picks",
+      "pubDate": "2026-05-30T20:26:34.000Z",
+      "isoDate": "2026-05-30T20:26:34.000Z",
+      "excerpt": "Dec 8, 2024; Glendale, Arizona, USA; Detailed view of a Seattle Seahawks helmet at State Farm Stadium. Mandatory Credit: Mark J. Rebilas-Imagn Images | Mark J. Rebilas-Imagn Images Often when a team wins a Super Bowl,...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
     },
     {
       "title": "Watch Sloan, Montes play at Double-A for FREE tonight",
       "link": "https://www.mlb.com/mariners/news/watch-minor-league-baseball-games-for-free-2026",
-      "pubDate": "Sat, 30 May 2026 18:00:00 GMT",
-      "isoDate": "2026-05-30T18:00:00.000Z",
+      "pubDate": "Sat, 30 May 2026 20:17:00 GMT",
+      "isoDate": "2026-05-30T20:17:00.000Z",
       "excerpt": "",
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
     },
     {
-      "title": "US national team names captain for World Cup",
-      "link": "https://sports.mynorthwest.com/seattle-sports-staff/us-national-team-names-captain-for-world-cup",
-      "pubDate": "Sat, 30 May 2026 17:04:12 +0000",
-      "isoDate": "2026-05-30T17:04:12.000Z",
-      "excerpt": "Tim Ream didn't know he was receiving the honor until it was announced during a press conference.",
-      "source": "710 Seattle Sports",
+      "title": "Storm lose another road game as Tempo pull away late in third quarter",
+      "link": "https://www.seattletimes.com/sports/storm/storm-lose-another-road-game-as-tempo-pull-away-late-in-third-quarter/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Sat, 30 May 2026 12:19:53 -0700",
+      "isoDate": "2026-05-30T19:19:53.000Z",
+      "excerpt": "The Storm lost their third straight road game, falling 93-72 to the Toronto Tempo after surrendering a decisive spurt at the end of the third quarter.",
+      "source": "Seattle Times Sports",
       "team": "general",
-      "priority": 3
+      "priority": 1
+    },
+    {
+      "title": "Seahawks assistant GM Nolan Teasley hired by Vikings as GM, reports say",
+      "link": "https://www.seattletimes.com/sports/seahawks/seahawks-assistant-gm-nolan-teasley-hired-by-vikings-as-gm-reports-say/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Sat, 30 May 2026 11:10:38 -0700",
+      "isoDate": "2026-05-30T18:10:38.000Z",
+      "excerpt": "The Minnesota Vikings are reportedly hiring Seahawks assistant general manager Nolan Teasley as their new general manager.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Here are 4 questions Mariners face after reaching top of AL West | Analysis",
+      "link": "https://www.seattletimes.com/sports/mariners/here-are-4-questions-mariners-face-after-reaching-top-of-al-west-analysis/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Sat, 30 May 2026 10:00:00 -0700",
+      "isoDate": "2026-05-30T17:00:00.000Z",
+      "excerpt": "In a roller-coaster of a season so far, the Mariners found themselves in first place in the AL West entering the weekend. Here are four questions they face moving forward.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
     },
     {
       "title": "Seahawks News 5/30: Seahawks finally sign top pick Jadarian Price",
@@ -48,16 +68,6 @@
       "source": "Field Gulls",
       "team": "seahawks",
       "priority": 1
-    },
-    {
-      "title": "Mariners Injury Update: Latest on Carlos Vargas and more",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/mariners-injury-update-latest-on-carlos-vargas-and-more",
-      "pubDate": "Sat, 30 May 2026 16:19:20 +0000",
-      "isoDate": "2026-05-30T16:19:20.000Z",
-      "excerpt": "Where a trio of injured Mariners stand, plus updates on two minor leaguers.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
     },
     {
       "title": "DeMarcus Lawrence says he still has ‘more to give’ to Seahawks in 2026",
@@ -90,6 +100,26 @@
       "priority": 1
     },
     {
+      "title": "The U.S. likely won’t contend at FIFA Men’s World Cup. Here’s why",
+      "link": "https://www.seattletimes.com/sports/world-cup/the-u-s-likely-wont-contend-at-fifa-mens-world-cup-heres-why/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Sat, 30 May 2026 06:00:00 -0700",
+      "isoDate": "2026-05-30T13:00:00.000Z",
+      "excerpt": "Since 1990, the best the U.S. men have done at the World Cup is to make the quarterfinals. Here's why that'll be harder this time and why Team USA isn't a contender.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "‘He’s a Seattle guy’: Diamondbacks’ Corbin Carroll returns home to face Mariners",
+      "link": "https://www.seattletimes.com/sports/mariners/hes-a-seattle-guy-diamondbacks-corbin-carroll-returns-home-to-face-mariners/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Sat, 30 May 2026 06:00:00 -0700",
+      "isoDate": "2026-05-30T13:00:00.000Z",
+      "excerpt": "Lakeside School alum and Diamondbacks star Corbin Carroll is back in Seattle to face the Mariners this weekend. Here's what he's most excited about.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
       "title": "Mariners walk tightrope, then walk it off to climb back to .500",
       "link": "https://www.mlb.com/mariners/news/randy-arozarena-mariners-walk-off-d-backs-in-10",
       "pubDate": "Sat, 30 May 2026 07:14:00 GMT",
@@ -110,14 +140,14 @@
       "priority": 1
     },
     {
-      "title": "Mariners beat Diamondbacks 7-6 on Arozarena’s walkoff in 10th",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-beat-diamondbacks-7-6-on-arozarenas-walkoff-in-10th",
-      "pubDate": "Sat, 30 May 2026 05:50:26 +0000",
-      "isoDate": "2026-05-30T05:50:26.000Z",
-      "excerpt": "J.P. Crawford also had his first career two-homer game to help the Mariners get back to .500.",
-      "source": "710 Seattle Sports",
+      "title": "Randy Arozarena’s walkoff hit in 10th lifts Mariners over Diamondbacks",
+      "link": "https://www.seattletimes.com/sports/mariners/randy-arozarenas-walkoff-single-in-10th-lifts-mariners-over-diamondbacks/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Fri, 29 May 2026 22:29:57 -0700",
+      "isoDate": "2026-05-30T05:29:57.000Z",
+      "excerpt": "Randy Arozarena's walkoff hit in the 10th inning backed a two-homer night from J.P. Crawford as the Mariners rallied after a blown save from Andres Muñoz to beat the Diamondbacks 7-6.",
+      "source": "Seattle Times Sports",
       "team": "general",
-      "priority": 3
+      "priority": 1
     },
     {
       "title": "29-29: Chart",
@@ -128,16 +158,6 @@
       "source": "Lookout Landing",
       "team": "mariners",
       "priority": 1
-    },
-    {
-      "title": "Everett Silvertips beat Chicoutimi 6-1, advance to Memorial Cup final",
-      "link": "https://sports.mynorthwest.com/seattle-sports-pit/everett-silvertips-beat-chicoutimi-6-1-advance-to-memorial-cup-final",
-      "pubDate": "Sat, 30 May 2026 04:37:07 +0000",
-      "isoDate": "2026-05-30T04:37:07.000Z",
-      "excerpt": "Landon DuPont scored twice to help Everett clinch its first Memorial Cup championship game appearance.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
     },
     {
       "title": "Mariners Game #58: Open Game Thread",
@@ -160,14 +180,24 @@
       "priority": 6
     },
     {
-      "title": "Mariners prospect Kade Anderson turns in another gem",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-prospect-kade-anderson-turns-in-another-gem",
-      "pubDate": "Sat, 30 May 2026 03:01:16 +0000",
-      "isoDate": "2026-05-30T03:01:16.000Z",
-      "excerpt": "The left-hander turned in the sixth scoreless start of his first pro season.",
-      "source": "710 Seattle Sports",
+      "title": "Photos: Seattle Mariners defeat Arizona Diamondbacks, 7-6",
+      "link": "https://www.seattletimes.com/sports/mariners/photos-seattle-mariners-take-on-arizona-diamondbacks-3/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Fri, 29 May 2026 20:04:52 -0700",
+      "isoDate": "2026-05-30T03:04:52.000Z",
+      "excerpt": "",
+      "source": "Seattle Times Sports",
       "team": "general",
-      "priority": 3
+      "priority": 1
+    },
+    {
+      "title": "Mariners to stick with a ‘piggyback’ pitching plan, with a twist. Here’s why.",
+      "link": "https://www.seattletimes.com/sports/mariners/mariners-to-stick-with-a-piggyback-pitching-plan-with-a-twist-heres-why/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Fri, 29 May 2026 18:53:29 -0700",
+      "isoDate": "2026-05-30T01:53:29.000Z",
+      "excerpt": "Here’s what we know about how the Mariners are trying to ease frustrations over their piggyback plan and how they'll move forward with the starting rotation.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
     },
     {
       "title": "Raleigh swings bat, Donovan runs as injured Mariners take steps forward",
@@ -218,26 +248,6 @@
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
-    },
-    {
-      "title": "Mariners GM updates Cal Raleigh, Brendan Donovan injuries",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-gm-shares-update-on-injuries-to-raleigh-donovan",
-      "pubDate": "Fri, 29 May 2026 23:41:35 +0000",
-      "isoDate": "2026-05-29T23:41:35.000Z",
-      "excerpt": "Both players are progressing well, but their timelines to return are unclear.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "Ace Nick Lewis leads WSU to upset over No. 8 Oregon St in regionals",
-      "link": "https://sports.mynorthwest.com/ncaa/wsu/wsu-cougars-baseball-nick-lewis-regionals-oregon-state",
-      "pubDate": "Fri, 29 May 2026 23:15:59 +0000",
-      "isoDate": "2026-05-29T23:15:59.000Z",
-      "excerpt": "Mountain West Conference Pitcher of the Year Nick Lewis threw a complete game in a huge win for WSU.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
     },
     {
       "title": "Seahawks Sign First-Round Pick Jadarian Price",
@@ -335,16 +345,6 @@
       "pubDate": "2026-05-28T22:38:12.000Z",
       "isoDate": "2026-05-28T22:38:12.000Z",
       "excerpt": "CHARLOTTE, NORTH CAROLINA - DECEMBER 28: Demarcus Lawrence #0 of the Seattle Seahawks reacts after a fourth quarter sack against the Carolina Panthers at Bank of America Stadium on December 28, 2025 in Charlotte, North...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "‘Robust’ market to buy Seahawks could result in sale by August",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-news/168923/robust-market-by-seattle-seahawks-could-result-in-sale-august-nfl-news",
-      "pubDate": "2026-05-28T19:38:42.000Z",
-      "isoDate": "2026-05-28T19:38:42.000Z",
-      "excerpt": "Jody Allen, chair of the Seattle Seahawks, waves to fans during the Seattle Seahawks' Superbowl LX victory parade in Seattle, Washington, on February 11, 2026. (Photo by Jason Redmond / AFP via Getty Images) | AFP via...",
       "source": "Field Gulls",
       "team": "seahawks",
       "priority": 1
