@@ -1,14 +1,39 @@
 {
-  "generatedAt": "2026-05-30T13:22:40.494Z",
+  "generatedAt": "2026-05-30T15:03:55.643Z",
   "sourceCount": 7,
-  "successfulSources": 6,
-  "failedSources": [
-    {
-      "source": "Seattle Times Sports",
-      "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
-    }
-  ],
+  "successfulSources": 7,
+  "failedSources": [],
   "items": [
+    {
+      "title": "Mariners News: Luis Severino, Eury Pérez, and Brandon Marsh",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-news/24480524/mariners-news-luis-severino-eury-perez-and-brandon-marsh",
+      "pubDate": "2026-05-30T14:00:00.000Z",
+      "isoDate": "2026-05-30T14:00:00.000Z",
+      "excerpt": "May 21, 2026; Anaheim, California, USA; Athletics pitcher Luis Severino (40) delivers during the first inning against the Los Angeles Angels at Angel Stadium. Mandatory Credit: William Liang-Imagn Images | William...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "The U.S. likely won’t contend at FIFA Men’s World Cup. Here’s why",
+      "link": "https://www.seattletimes.com/sports/world-cup/the-u-s-likely-wont-contend-at-fifa-mens-world-cup-heres-why/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Sat, 30 May 2026 06:00:00 -0700",
+      "isoDate": "2026-05-30T13:00:00.000Z",
+      "excerpt": "Since 1990, the best the U.S. men have done at the World Cup is to make the quarterfinals. Here's why that'll be harder this time and why Team USA isn't a contender.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "‘He’s a Seattle guy’: Diamondbacks’ Corbin Carroll returns home to face Mariners",
+      "link": "https://www.seattletimes.com/sports/mariners/hes-a-seattle-guy-diamondbacks-corbin-carroll-returns-home-to-face-mariners/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Sat, 30 May 2026 06:00:00 -0700",
+      "isoDate": "2026-05-30T13:00:00.000Z",
+      "excerpt": "Lakeside School alum and Diamondbacks star Corbin Carroll is back in Seattle to face the Mariners this weekend. Here's what he's most excited about.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
     {
       "title": "Mariners walk tightrope, then walk it off to climb back to .500",
       "link": "https://www.mlb.com/mariners/news/randy-arozarena-mariners-walk-off-d-backs-in-10",
@@ -38,6 +63,16 @@
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
+    },
+    {
+      "title": "Randy Arozarena’s walkoff hit in 10th lifts Mariners over Diamondbacks",
+      "link": "https://www.seattletimes.com/sports/mariners/randy-arozarenas-walkoff-single-in-10th-lifts-mariners-over-diamondbacks/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Fri, 29 May 2026 22:29:57 -0700",
+      "isoDate": "2026-05-30T05:29:57.000Z",
+      "excerpt": "Randy Arozarena's walkoff hit in the 10th inning backed a two-homer night from J.P. Crawford as the Mariners rallied after a blown save from Andres Muñoz to beat the Diamondbacks 7-6.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
     },
     {
       "title": "29-29: Chart",
@@ -90,6 +125,16 @@
       "priority": 6
     },
     {
+      "title": "Photos: Seattle Mariners defeat Arizona Diamondbacks, 7-6",
+      "link": "https://www.seattletimes.com/sports/mariners/photos-seattle-mariners-take-on-arizona-diamondbacks-3/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Fri, 29 May 2026 20:04:52 -0700",
+      "isoDate": "2026-05-30T03:04:52.000Z",
+      "excerpt": "",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
       "title": "Mariners prospect Kade Anderson turns in another gem",
       "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-prospect-kade-anderson-turns-in-another-gem",
       "pubDate": "Sat, 30 May 2026 03:01:16 +0000",
@@ -98,6 +143,16 @@
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
+    },
+    {
+      "title": "Mariners to stick with a ‘piggyback’ pitching plan, with a twist. Here’s why.",
+      "link": "https://www.seattletimes.com/sports/mariners/mariners-to-stick-with-a-piggyback-pitching-plan-with-a-twist-heres-why/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Fri, 29 May 2026 18:53:29 -0700",
+      "isoDate": "2026-05-30T01:53:29.000Z",
+      "excerpt": "Here’s what we know about how the Mariners are trying to ease frustrations over their piggyback plan and how they'll move forward with the starting rotation.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
     },
     {
       "title": "Raleigh swings bat, Donovan runs as injured Mariners take steps forward",
@@ -160,6 +215,16 @@
       "priority": 3
     },
     {
+      "title": "WSU baseball stuns No. 7 Oregon State in NCAA tournament opener",
+      "link": "https://www.seattletimes.com/sports/wsu-cougars/wsu-baseball-wins-ncaa-tournament-opener-vs-oregon-state/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Fri, 29 May 2026 16:38:32 -0700",
+      "isoDate": "2026-05-29T23:38:32.000Z",
+      "excerpt": "Nick Lewis tossed a complete-game gem, and Washington State upset No. 7 Oregon State 3-2 to advance to the semifinals of the NCAA tournament Eugene Regional.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
       "title": "Ace Nick Lewis leads WSU to upset over No. 8 Oregon St in regionals",
       "link": "https://sports.mynorthwest.com/ncaa/wsu/wsu-cougars-baseball-nick-lewis-regionals-oregon-state",
       "pubDate": "Fri, 29 May 2026 23:15:59 +0000",
@@ -178,6 +243,26 @@
       "source": "Seahawks.com",
       "team": "seahawks",
       "priority": 6
+    },
+    {
+      "title": "Mariners’ Cal Raleigh takes first swings since going on IL",
+      "link": "https://www.seattletimes.com/sports/mariners/mariners-cal-raleigh-takes-first-swings-since-going-on-il/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Fri, 29 May 2026 16:02:48 -0700",
+      "isoDate": "2026-05-29T23:02:48.000Z",
+      "excerpt": "The next step in the slow progression for Mariners catcher Cal Raleigh to return to the lineup from his oblique injury has started.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Here’s who Huskies are hosting during big UW football recruiting weekend",
+      "link": "https://www.seattletimes.com/sports/washington-huskies-football/heres-who-the-huskies-are-hosting-during-big-uw-football-recruiting-weekend/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Fri, 29 May 2026 15:13:28 -0700",
+      "isoDate": "2026-05-29T22:13:28.000Z",
+      "excerpt": "With three uncommitted prospects visiting, this weekend represents one of UW's first major recruiting opportunities to bolster its 2027 class.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
     },
     {
       "title": "Seahawks Mailbag: Super Bowl Memories, Running It Forward, D-Law & More",
@@ -307,16 +392,6 @@
       "excerpt": "Jody Allen, chair of the Seattle Seahawks, waves to fans during the Seattle Seahawks' Superbowl LX victory parade in Seattle, Washington, on February 11, 2026. (Photo by Jason Redmond / AFP via Getty Images) | AFP via...",
       "source": "Field Gulls",
       "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "Mariners Draft Profile: RHP Cade Townsend",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-mlb-draft/144058/mariners-draft-profile-rhp-cade-townsend",
-      "pubDate": "2026-05-28T15:00:00.000Z",
-      "isoDate": "2026-05-28T15:00:00.000Z",
-      "excerpt": "HOOVER, AL - MAY 24: Ole Miss pitcher Cade Townsend (10) pitches the ball during the SEC Baseball Tournament Semifinals game between Ole Miss Rebels and LSU Tigers on May 24, 2025, at Hoover Metropolitan Stadium in...",
-      "source": "Lookout Landing",
-      "team": "mariners",
       "priority": 1
     },
     {
