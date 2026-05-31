@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-31T03:30:11.408Z",
+  "generatedAt": "2026-05-31T07:42:51.126Z",
   "sourceCount": 7,
   "successfulSources": 6,
   "failedSources": [
@@ -10,14 +10,54 @@
   ],
   "items": [
     {
-      "title": "Mariners Game #59 Preview and Discussion, 5/30/26: SEA vs. ARI",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-discussion/144119/mariners-game-59-preview-and-discussion-5-30-26-sea-vs-ari",
-      "pubDate": "2026-05-31T01:45:00.000Z",
-      "isoDate": "2026-05-31T01:45:00.000Z",
-      "excerpt": "May 24, 2026; Kansas City, Missouri, USA; Seattle Mariners pitcher Bryan Woo (22) pitches during the first inning against the Kansas City Royals at Kauffman Stadium. Mandatory Credit: Jay Biggerstaff-Imagn Images | Jay...",
-      "source": "Lookout Landing",
+      "title": "Woo's electric fastball outmatches D-backs as Mariners run win streak to 5",
+      "link": "https://www.mlb.com/mariners/news/bryan-woo-throws-7-scoreless-innings-as-mariners-climb-above-500",
+      "pubDate": "Sun, 31 May 2026 06:26:00 GMT",
+      "isoDate": "2026-05-31T06:26:00.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
       "team": "mariners",
-      "priority": 1
+      "priority": 6
+    },
+    {
+      "title": "Mariners beat D-backs 5-1 for season-high 5th straight win",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-beat-d-backs-5-1-win-season-high-5th-straight",
+      "pubDate": "Sun, 31 May 2026 04:59:11 +0000",
+      "isoDate": "2026-05-31T04:59:11.000Z",
+      "excerpt": "Bryan Woo pitched seven shutout innings and the M's hit four homers.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "With mom cheering him on, MLB's No. 21 prospect spins 6 perfect frames, K's 11",
+      "link": "https://www.mlb.com/mariners/news/mariners-ryan-sloan-six-perfect-frames-11-strikeouts-double-a",
+      "pubDate": "Sun, 31 May 2026 04:34:00 GMT",
+      "isoDate": "2026-05-31T04:34:00.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Spurs advance to NBA Finals, send Thunder packing in Game 7",
+      "link": "https://sports.mynorthwest.com/seattle-sports-pit/spurs-advance-to-nba-finals-send-thunder-packing-in-game-7-win",
+      "pubDate": "Sun, 31 May 2026 03:41:33 +0000",
+      "isoDate": "2026-05-31T03:41:33.000Z",
+      "excerpt": "Victor Wembanyama scored 22 points and Julian Champagnie had 18 to lead the Spurs.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Watch: M’s slug 4 early homers, including Emerson’s 2nd career blast",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-slug-4-early-homers-including-emersons-2nd-career-blast",
+      "pubDate": "Sun, 31 May 2026 03:17:50 +0000",
+      "isoDate": "2026-05-31T03:17:50.000Z",
+      "excerpt": "The M's needed just three innings to match their season high for homers in one game.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
     },
     {
       "title": "AL West: 2nd-place Athletics put RHP Severino on IL",
@@ -50,16 +90,6 @@
       "priority": 3
     },
     {
-      "title": "Seahawks lose assistant GM Nolan Teasley to the Minnesota Vikings, gain two draft picks",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-news/168998/nfl-news-seahawks-lose-assistant-gm-nolan-teasley-minnesota-vikings-gain-two-draft-picks",
-      "pubDate": "2026-05-30T20:26:34.000Z",
-      "isoDate": "2026-05-30T20:26:34.000Z",
-      "excerpt": "Dec 8, 2024; Glendale, Arizona, USA; Detailed view of a Seattle Seahawks helmet at State Farm Stadium. Mandatory Credit: Mark J. Rebilas-Imagn Images | Mark J. Rebilas-Imagn Images Often when a team wins a Super Bowl,...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
-    },
-    {
       "title": "Tempo set WNBA free-throw record in 93-72 win over Storm",
       "link": "https://sports.mynorthwest.com/wnba/seattle-storm/tempo-make-first-31-ft-attempts-in-93-72-win-over-seattle-storm",
       "pubDate": "Sat, 30 May 2026 19:40:34 +0000",
@@ -80,16 +110,6 @@
       "priority": 3
     },
     {
-      "title": "US national team names captain for World Cup",
-      "link": "https://sports.mynorthwest.com/seattle-sports-staff/us-national-team-names-captain-for-world-cup",
-      "pubDate": "Sat, 30 May 2026 17:04:12 +0000",
-      "isoDate": "2026-05-30T17:04:12.000Z",
-      "excerpt": "Tim Ream didn't know he was receiving the honor until it was announced during a press conference.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
       "title": "Seahawks News 5/30: Seahawks finally sign top pick Jadarian Price",
       "link": "https://www.fieldgulls.com/seattle-seahawks-news/168993/seahawks-news-5-30-seahawks-finally-sign-top-pick-jadarian-price",
       "pubDate": "2026-05-30T16:28:05.000Z",
@@ -98,16 +118,6 @@
       "source": "Field Gulls",
       "team": "seahawks",
       "priority": 1
-    },
-    {
-      "title": "Mariners Injury Update: Latest on Carlos Vargas and more",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/mariners-injury-update-latest-on-carlos-vargas-and-more",
-      "pubDate": "Sat, 30 May 2026 16:19:20 +0000",
-      "isoDate": "2026-05-30T16:19:20.000Z",
-      "excerpt": "Where a trio of injured Mariners stand, plus updates on two minor leaguers.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
     },
     {
       "title": "DeMarcus Lawrence says he still has ‘more to give’ to Seahawks in 2026",
@@ -130,16 +140,6 @@
       "priority": 1
     },
     {
-      "title": "Mariners News: Luis Severino, Eury Pérez, and Brandon Marsh",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-news/24480524/mariners-news-luis-severino-eury-perez-and-brandon-marsh",
-      "pubDate": "2026-05-30T14:00:00.000Z",
-      "isoDate": "2026-05-30T14:00:00.000Z",
-      "excerpt": "May 21, 2026; Anaheim, California, USA; Athletics pitcher Luis Severino (40) delivers during the first inning against the Los Angeles Angels at Angel Stadium. Mandatory Credit: William Liang-Imagn Images | William...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
       "title": "Mariners walk tightrope, then walk it off to climb back to .500",
       "link": "https://www.mlb.com/mariners/news/randy-arozarena-mariners-walk-off-d-backs-in-10",
       "pubDate": "Sat, 30 May 2026 07:14:00 GMT",
@@ -158,16 +158,6 @@
       "source": "Lookout Landing",
       "team": "mariners",
       "priority": 1
-    },
-    {
-      "title": "Mariners beat Diamondbacks 7-6 on Arozarena’s walkoff in 10th",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-beat-diamondbacks-7-6-on-arozarenas-walkoff-in-10th",
-      "pubDate": "Sat, 30 May 2026 05:50:26 +0000",
-      "isoDate": "2026-05-30T05:50:26.000Z",
-      "excerpt": "J.P. Crawford also had his first career two-homer game to help the Mariners get back to .500.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
     },
     {
       "title": "29-29: Chart",
@@ -218,16 +208,6 @@
       "source": "Lookout Landing",
       "team": "mariners",
       "priority": 1
-    },
-    {
-      "title": "Strikeouts and goose eggs: Seattle's Anderson continues remarkable run",
-      "link": "https://www.mlb.com/mariners/news/mariners-prospect-kade-anderson-scoreless-double-a-nine-strikeouts",
-      "pubDate": "Sat, 30 May 2026 00:59:00 GMT",
-      "isoDate": "2026-05-30T00:59:00.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
     },
     {
       "title": "Mariners provide injury updates on Cal Raleigh, Brendan Donovan",
@@ -300,16 +280,6 @@
       "priority": 1
     },
     {
-      "title": "Mariners return home with bullpen back to full strength",
-      "link": "https://www.mlb.com/mariners/news/gabe-speier-matt-brash-return-to-mariners-bullpen",
-      "pubDate": "Fri, 29 May 2026 14:56:00 GMT",
-      "isoDate": "2026-05-29T14:56:00.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
-    },
-    {
       "title": "Seahawks legend Shaun Alexander makes a big Jadarian Price prediction",
       "link": "https://www.fieldgulls.com/seattle-seahawks-news/168940/seahawks-legend-shaun-alexander-big-jadarian-price-prediction-nfl-news",
       "pubDate": "2026-05-29T14:00:00.000Z",
@@ -317,6 +287,16 @@
       "excerpt": "NEW ORLEANS, LOUISIANA - FEBRUARY 05: Shaun Alexander speaks on SiriusXM at Super Bowl LIX on February 05, 2025 in New Orleans, Louisiana. (Photo by Cindy Ord/Getty Images for SiriusXM) | Getty Images for SiriusXM A man...",
       "source": "Field Gulls",
       "team": "seahawks",
+      "priority": 1
+    },
+    {
+      "title": "Mariners News: Colt Emerson, Kenley Jansen, and James Wood",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-news/144074/mariners-news-colt-emerson-kenley-jansen-and-james-wood",
+      "pubDate": "2026-05-29T14:00:00.000Z",
+      "isoDate": "2026-05-29T14:00:00.000Z",
+      "excerpt": "May 17, 2026; Seattle, Washington, USA; Seattle Mariners third baseman Colt Emerson (4) celebrates after scoring a run against the San Diego Padres during the sixth inning at T-Mobile Park. Mandatory Credit: Steven...",
+      "source": "Lookout Landing",
+      "team": "mariners",
       "priority": 1
     },
     {
@@ -347,6 +327,26 @@
       "excerpt": "CHARLOTTE, NORTH CAROLINA - DECEMBER 28: Demarcus Lawrence #0 of the Seattle Seahawks reacts after a fourth quarter sack against the Carolina Panthers at Bank of America Stadium on December 28, 2025 in Charlotte, North...",
       "source": "Field Gulls",
       "team": "seahawks",
+      "priority": 1
+    },
+    {
+      "title": "‘Robust’ market to buy Seahawks could result in sale by August",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-news/168923/robust-market-by-seattle-seahawks-could-result-in-sale-august-nfl-news",
+      "pubDate": "2026-05-28T19:38:42.000Z",
+      "isoDate": "2026-05-28T19:38:42.000Z",
+      "excerpt": "Jody Allen, chair of the Seattle Seahawks, waves to fans during the Seattle Seahawks' Superbowl LX victory parade in Seattle, Washington, on February 11, 2026. (Photo by Jason Redmond / AFP via Getty Images) | AFP via...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
+    {
+      "title": "Mariners Draft Profile: RHP Cade Townsend",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-mlb-draft/144058/mariners-draft-profile-rhp-cade-townsend",
+      "pubDate": "2026-05-28T15:00:00.000Z",
+      "isoDate": "2026-05-28T15:00:00.000Z",
+      "excerpt": "HOOVER, AL - MAY 24: Ole Miss pitcher Cade Townsend (10) pitches the ball during the SEC Baseball Tournament Semifinals game between Ole Miss Rebels and LSU Tigers on May 24, 2025, at Hoover Metropolitan Stadium in...",
+      "source": "Lookout Landing",
+      "team": "mariners",
       "priority": 1
     },
     {
