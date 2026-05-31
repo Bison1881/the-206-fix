@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-31T19:12:31.253Z",
+  "generatedAt": "2026-05-31T20:56:11.429Z",
   "sourceCount": 7,
   "successfulSources": 6,
   "failedSources": [
@@ -9,6 +9,56 @@
     }
   ],
   "items": [
+    {
+      "title": "After surprising teammates, Raleigh hopes to finish rehab in Seattle",
+      "link": "https://www.mlb.com/mariners/news/cal-raleigh-surprises-mariners-teammates-in-dugout",
+      "pubDate": "Sun, 31 May 2026 20:49:31 GMT",
+      "isoDate": "2026-05-31T20:49:31.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Geno Smith: Jets return a chance to write ‘superhero movie’ story",
+      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/geno-smith-jets-return-chance-to-write-superhero-movie-story",
+      "pubDate": "Sun, 31 May 2026 20:10:22 +0000",
+      "isoDate": "2026-05-31T20:10:22.000Z",
+      "excerpt": "Back where his career began, the former Seahawks QB is looking to turn around the Jets' franchise.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "A’s fall on wrong end of apparent ABS glitch against Yankees",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/athletics-wrong-end-apparent-abs-glitch-yankees",
+      "pubDate": "Sun, 31 May 2026 19:35:53 +0000",
+      "isoDate": "2026-05-31T19:35:53.000Z",
+      "excerpt": "MLB's new Automated Ball-Strike challenge system appeared to hit a rare glitch during the A's-Yankees game.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Latest Mariners injuries and transactions",
+      "link": "https://www.mlb.com/mariners/news/mariners-injuries-and-roster-moves",
+      "pubDate": "Sun, 31 May 2026 19:21:00 GMT",
+      "isoDate": "2026-05-31T19:21:00.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Touted M’s prospect Ryan Sloan spins 6 perfect innings in Arkansas",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/highly-touted-seattle-mariners-prospect-ryan-sloan-6-perfect-innings",
+      "pubDate": "Sun, 31 May 2026 19:01:47 +0000",
+      "isoDate": "2026-05-31T19:01:47.000Z",
+      "excerpt": "Not to be outdone by Kade Anderson, fellow top M's pitching prospect Ryan Sloan tossed six perfect innings in Arkansas.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
     {
       "title": "Mariners prospect Celesten rejoins MLB Pipeline’s top 100",
       "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-prospect-felnin-celesten-rejoins-mlb-pipelines-top-100",
@@ -27,16 +77,6 @@
       "excerpt": "SEATTLE, WASHINGTON - MARCH 30: Luis Castillo #58 of the Seattle Mariners celebrates his 1,500th career strikeout during the sixth inning against the New York Yankees at T-Mobile Park on March 30, 2026 in Seattle,...",
       "source": "Lookout Landing",
       "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "ESPN analyst: Seahawks worst offseason move is ‘not doing more to upgrade the offensive line’",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/168980/espn-analyst-seahawks-worst-offseason-move-is-not-doing-more-upgrade-offensive-line",
-      "pubDate": "2026-05-31T14:00:00.000Z",
-      "isoDate": "2026-05-31T14:00:00.000Z",
-      "excerpt": "Sep 25, 2025; Glendale, Arizona, USA; Seattle Seahawks tackle Abraham Lucas (72) and guard Anthony Bradford (75) against the Arizona Cardinals at State Farm Stadium. Mandatory Credit: Mark J. Rebilas-Imagn Images | Mark...",
-      "source": "Field Gulls",
-      "team": "seahawks",
       "priority": 1
     },
     {
@@ -140,26 +180,6 @@
       "priority": 3
     },
     {
-      "title": "Three Mariners having career power months in May",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/three-seattle-mariners-having-career-power-months-in-may",
-      "pubDate": "Sat, 30 May 2026 20:52:44 +0000",
-      "isoDate": "2026-05-30T20:52:44.000Z",
-      "excerpt": "Julio Rodríguez, J.P. Crawford and Luke Raley have tied or set new personal bests for home runs in a month.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "White Sox place AL home run leader Murakami on IL",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/white-sox-place-al-home-run-leader-murakami-on-il",
-      "pubDate": "Sat, 30 May 2026 20:45:11 +0000",
-      "isoDate": "2026-05-30T20:45:11.000Z",
-      "excerpt": "The surprising White Sox expect their slugging first baseman to miss four to six weeks with a Grade 2 hamstring strain.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
       "title": "Seahawks lose assistant GM Nolan Teasley to the Minnesota Vikings, gain two draft picks",
       "link": "https://www.fieldgulls.com/seattle-seahawks-news/168998/nfl-news-seahawks-lose-assistant-gm-nolan-teasley-minnesota-vikings-gain-two-draft-picks",
       "pubDate": "2026-05-30T20:26:34.000Z",
@@ -168,16 +188,6 @@
       "source": "Field Gulls",
       "team": "seahawks",
       "priority": 1
-    },
-    {
-      "title": "Tempo set WNBA free-throw record in 93-72 win over Storm",
-      "link": "https://sports.mynorthwest.com/wnba/seattle-storm/tempo-make-first-31-ft-attempts-in-93-72-win-over-seattle-storm",
-      "pubDate": "Sat, 30 May 2026 19:40:34 +0000",
-      "isoDate": "2026-05-30T19:40:34.000Z",
-      "excerpt": "Marina Mabrey scored 18 point and Kiki Rice netted 13 of her 17 in the second half for Toronto.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
     },
     {
       "title": "Seahawks News 5/30: Seahawks finally sign top pick Jadarian Price",
@@ -250,30 +260,10 @@
       "priority": 1
     },
     {
-      "title": "Mariners moving to six-man rotation after Sunday piggyback (source)",
-      "link": "https://www.mlb.com/mariners/news/mariners-to-move-to-6-man-rotation-with-luis-castillo-bryce-miller",
-      "pubDate": "Sat, 30 May 2026 03:34:31 GMT",
-      "isoDate": "2026-05-30T03:34:31.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
-    },
-    {
       "title": "Raleigh swings bat, Donovan runs as injured Mariners take steps forward",
       "link": "https://www.mlb.com/mariners/news/cal-raleigh-brendan-donovan-making-progress-in-injury-recovery",
       "pubDate": "Sat, 30 May 2026 01:26:36 GMT",
       "isoDate": "2026-05-30T01:26:36.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
-    },
-    {
-      "title": "Latest Mariners injuries and transactions",
-      "link": "https://www.mlb.com/mariners/news/mariners-injuries-and-roster-moves",
-      "pubDate": "Sat, 30 May 2026 00:06:00 GMT",
-      "isoDate": "2026-05-30T00:06:00.000Z",
       "excerpt": "",
       "source": "Mariners.com",
       "team": "mariners",
@@ -348,6 +338,16 @@
       "source": "Seahawks.com",
       "team": "seahawks",
       "priority": 6
+    },
+    {
+      "title": "He’s back! DeMarcus Lawrence arrives at Seahawks OTAs",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-news/168930/nfl-news-demarcus-lawrence-arrives-seattle-seahawks-otas",
+      "pubDate": "2026-05-28T22:38:12.000Z",
+      "isoDate": "2026-05-28T22:38:12.000Z",
+      "excerpt": "CHARLOTTE, NORTH CAROLINA - DECEMBER 28: Demarcus Lawrence #0 of the Seattle Seahawks reacts after a fourth quarter sack against the Carolina Panthers at Bank of America Stadium on December 28, 2025 in Charlotte, North...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
     },
     {
       "title": "Seahawks Acquire WR Irvin Charles In Trade With Jets",
