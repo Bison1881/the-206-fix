@@ -1,39 +1,14 @@
 {
-  "generatedAt": "2026-05-31T15:16:24.105Z",
+  "generatedAt": "2026-05-31T17:03:15.780Z",
   "sourceCount": 7,
-  "successfulSources": 7,
-  "failedSources": [],
+  "successfulSources": 6,
+  "failedSources": [
+    {
+      "source": "Seattle Times Sports",
+      "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
+    }
+  ],
   "items": [
-    {
-      "title": "Washington Huskies women finish in top 10 at NCAA rowing championships",
-      "link": "https://www.seattletimes.com/sports/uw-huskies/washington-huskies-women-finish-in-top-10-at-ncaa-rowing-championships/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sun, 31 May 2026 08:10:17 -0700",
-      "isoDate": "2026-05-31T15:10:17.000Z",
-      "excerpt": "The Washington women's rowing team continued its streak of top-10 finishes at the NCAA championships by finishing in a tie for sixth.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "On shake &#8216;n bake",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-analysis/144141/on-shake-n-bake",
-      "pubDate": "2026-05-31T14:30:00.000Z",
-      "isoDate": "2026-05-31T14:30:00.000Z",
-      "excerpt": "SEATTLE, WASHINGTON - MARCH 30: Luis Castillo #58 of the Seattle Mariners celebrates his 1,500th career strikeout during the sixth inning against the New York Yankees at T-Mobile Park on March 30, 2026 in Seattle,...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "What I learned about loss while skateboarding at Costco",
-      "link": "https://www.seattletimes.com/life/what-i-learned-about-loss-while-skateboarding-at-costco/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sun, 31 May 2026 07:00:02 -0700",
-      "isoDate": "2026-05-31T14:00:02.000Z",
-      "excerpt": "We’re all going to die. But first — just one more trick.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
     {
       "title": "ESPN analyst: Seahawks worst offseason move is ‘not doing more to upgrade the offensive line’",
       "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/168980/espn-analyst-seahawks-worst-offseason-move-is-not-doing-more-upgrade-offensive-line",
@@ -42,26 +17,6 @@
       "excerpt": "Sep 25, 2025; Glendale, Arizona, USA; Seattle Seahawks tackle Abraham Lucas (72) and guard Anthony Bradford (75) against the Arizona Cardinals at State Farm Stadium. Mandatory Credit: Mark J. Rebilas-Imagn Images | Mark...",
       "source": "Field Gulls",
       "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "Mariners News: Bryan Woo, Bryce Miller, and Munetaka Murakami",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-news/144136/bryan-woo-bryce-miller-munetaka-murakami-luis-severino-roman-anthony",
-      "pubDate": "2026-05-31T14:00:00.000Z",
-      "isoDate": "2026-05-31T14:00:00.000Z",
-      "excerpt": "Good morning! The Mariners are looking for a series sweep of the Arizona Diamondbacks after another dominant win last night. Bryan Woo’s seven innings of two-hit ball with nine strikeouts were complimented by four home...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "College Football Playoff, NCAA tournament expansions have officially gone too far",
-      "link": "https://www.seattletimes.com/sports/washington-huskies-football/college-football-playoff-ncaa-tournament-expansions-have-officially-gone-too-far/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sun, 31 May 2026 06:00:00 -0700",
-      "isoDate": "2026-05-31T13:00:00.000Z",
-      "excerpt": "Change can be good. But there are limits. And right now such changes to college sports' two most watched postseasons have officially gone too far.",
-      "source": "Seattle Times Sports",
-      "team": "general",
       "priority": 1
     },
     {
@@ -85,26 +40,6 @@
       "priority": 1
     },
     {
-      "title": "Top-ranked UW men’s rowing team to race for national title",
-      "link": "https://www.seattletimes.com/sports/top-ranked-uw-mens-rowing-team-to-race-for-national-title/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sat, 30 May 2026 22:19:19 -0700",
-      "isoDate": "2026-05-31T05:19:19.000Z",
-      "excerpt": "All three UW eights advanced to grand finals after Saturday’s racing on Lake Natoma in Gold River, Calif.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Kentlake baseball rallies past Eastside Catholic in Class 3A title game | State roundup",
-      "link": "https://www.seattletimes.com/sports/high-school/kentlake-baseball-rallies-past-eastside-catholic-in-class-3a-title-game-state-roundup/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sat, 30 May 2026 22:13:00 -0700",
-      "isoDate": "2026-05-31T05:13:00.000Z",
-      "excerpt": "Kentlake scored four times to force extra innings, and Matthew Ledbetter's RBI single in the eighth lifted the Falcons to the Class 3A state baseball championship.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "Mariners beat D-backs 5-1 for season-high 5th straight win",
       "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-beat-d-backs-5-1-win-season-high-5th-straight",
       "pubDate": "Sun, 31 May 2026 04:59:11 +0000",
@@ -125,26 +60,6 @@
       "priority": 1
     },
     {
-      "title": "Bryan Woo dazzles, Mariners club 4 homers to beat Diamondbacks",
-      "link": "https://www.seattletimes.com/sports/mariners/bryan-woo-dazzles-mariners-club-4-homers-to-beat-diamondbacks/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sat, 30 May 2026 21:47:05 -0700",
-      "isoDate": "2026-05-31T04:47:05.000Z",
-      "excerpt": "Bryan Woo remained unbeaten in another stellar start at home, Julio Rodríguez and Luke Raley continued to clobber baseballs, and the Mariners won their fifth straight.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "WSU in loser-out baseball game after bats go silent in loss to Ducks",
-      "link": "https://www.seattletimes.com/sports/wsu-in-loser-out-baseball-game-after-bats-go-silent-in-loss-to-ducks/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sat, 30 May 2026 21:44:03 -0700",
-      "isoDate": "2026-05-31T04:44:03.000Z",
-      "excerpt": "The Cougars strike out 19 times in the defeat against Oregon, and will face Oregon State in a loser-out game Sunday in the Eugene Regional.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "With mom cheering him on, MLB's No. 21 prospect spins 6 perfect frames, K's 11",
       "link": "https://www.mlb.com/mariners/news/mariners-ryan-sloan-six-perfect-frames-11-strikeouts-double-a",
       "pubDate": "Sun, 31 May 2026 04:34:00 GMT",
@@ -153,16 +68,6 @@
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
-    },
-    {
-      "title": "Wembanyama, Spurs win the West, topple Thunder 111-103 in Game 7 to head to NBA Finals",
-      "link": "https://www.seattletimes.com/sports/wembanyama-spurs-win-the-west-topple-thunder-111-103-in-game-7-to-head-to-nba-finals/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sat, 30 May 2026 20:42:28 -0700",
-      "isoDate": "2026-05-31T03:42:28.000Z",
-      "excerpt": "Victor Wembanyama and the San Antonio Spurs started the Western Conference finals with a win in Oklahoma City, then ended the series the same way.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
     },
     {
       "title": "Spurs advance to NBA Finals, send Thunder packing in Game 7",
@@ -325,6 +230,16 @@
       "priority": 1
     },
     {
+      "title": "Mariners Game #58: Open Game Thread",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-discussion/144097/mariners-game-58-open-game-thread",
+      "pubDate": "2026-05-30T03:51:51.000Z",
+      "isoDate": "2026-05-30T03:51:51.000Z",
+      "excerpt": "May 29, 2026; Seattle, Washington, USA; Seattle Mariners center fielder Julio Rodriguez (44) celebrates after hitting a 2-run home run against the Arizona Diamondbacks during the third inning at T-Mobile Park. Mandatory...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
       "title": "Mariners moving to six-man rotation after Sunday piggyback (source)",
       "link": "https://www.mlb.com/mariners/news/mariners-to-move-to-6-man-rotation-with-luis-castillo-bryce-miller",
       "pubDate": "Sat, 30 May 2026 03:34:31 GMT",
@@ -343,6 +258,16 @@
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
+    },
+    {
+      "title": "Mariners Game #58 Preview and Discussion: SEA vs ARI, 5/28",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-game-information/144091/mariners-game-58-preview-and-discussion-sea-vs-ari-5-28",
+      "pubDate": "2026-05-30T01:25:12.000Z",
+      "isoDate": "2026-05-30T01:25:12.000Z",
+      "excerpt": "SEATTLE, WASHINGTON - MAY 29: Ketel Marte #4 of the Arizona Diamondbacks throws the ball before the game against the Seattle Mariners at T-Mobile Park on May 29, 2026 in Seattle, Washington. (Photo by Jack Compton/Getty...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
     },
     {
       "title": "Latest Mariners injuries and transactions",
