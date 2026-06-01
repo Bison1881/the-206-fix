@@ -1,18 +1,74 @@
 {
-  "generatedAt": "2026-06-01T09:23:45.064Z",
+  "generatedAt": "2026-06-01T15:54:01.469Z",
   "sourceCount": 7,
-  "successfulSources": 5,
+  "successfulSources": 6,
   "failedSources": [
     {
       "source": "Seattle Times Sports",
       "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
-    },
-    {
-      "source": "Davy Jones' Locker Room",
-      "error": "Status code 415 (lenient retry: Status code 415)"
     }
   ],
   "items": [
+    {
+      "title": "How rare level of continuity can benefit Seahawks’ O-line",
+      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/big-ray-rare-continuity-can-benefit-seattle-seahawks-o-line",
+      "pubDate": "Mon, 01 Jun 2026 15:33:40 +0000",
+      "isoDate": "2026-06-01T15:33:40.000Z",
+      "excerpt": "The Seahawks returned all 11 offensive linemen who took snaps in 2025.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Why the Seahawks took a chance on Lance Mason despite a crowded tight end room",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/169010/nfl-udfa-why-seahawks-took-chance-on-lance-mason-despite-crowded-tight-end-room",
+      "pubDate": "2026-06-01T15:00:00.000Z",
+      "isoDate": "2026-06-01T15:00:00.000Z",
+      "excerpt": "MADISON, WI - NOVEMBER 22: Wisconsin Badgers tight end Lance Mason (86) gets ready to attempt a leap over Illinois Fighting Illini defensive back Miles Scott (10) during a pass attempt in a college football game between...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
+    {
+      "title": "Surging Mariners finally playing up to lofty expectations",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/surging-seattle-mariners-finally-playing-up-to-lofty-expectations",
+      "pubDate": "Mon, 01 Jun 2026 14:14:42 +0000",
+      "isoDate": "2026-06-01T14:14:42.000Z",
+      "excerpt": "\"I feel like everything's coming together now,\" Julio Rodríguez said of Seattle's six-game win streak.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Seahawks fan discussion: When is the last time you missed a Seahawks game live?",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/168987/seahawks-fan-discussion-when-is-the-last-time-you-missed-seahawks-game-live",
+      "pubDate": "2026-06-01T14:00:00.000Z",
+      "isoDate": "2026-06-01T14:00:00.000Z",
+      "excerpt": "Dec 16, 2012; Toronto, Ontario, Canada; Seattle Seahawks free safety Earl Thomas (29) runs after an interception against the Buffalo Bills during the second half at the Rogers Centre. Seahawks beat the Bills 50-17....",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
+    {
+      "title": "Mariners News: Victor Robles, Cal Raleigh, and Elly De La Cruz",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-news/144198/victor-robles-cal-raleigh-elly-de-la-cruz-konnor-griffin",
+      "pubDate": "2026-06-01T14:00:00.000Z",
+      "isoDate": "2026-06-01T14:00:00.000Z",
+      "excerpt": "May 31, 2026; Seattle, Washington, USA; Seattle Mariners right fielder Victor Robles (10), center, celebrates his walk-off, infield single against the Arizona Diamondbacks during the tenth inning at T-Mobile Park....",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Seahawks News 6/1: Should the Seahawks try to acquire Myles Garrett?",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169019/seahawks-news-6-1-should-the-seahawks-acquire-myles-garrett",
+      "pubDate": "2026-06-01T13:00:00.000Z",
+      "isoDate": "2026-06-01T13:00:00.000Z",
+      "excerpt": "Oct 29, 2023; Seattle, Washington, USA; Cleveland Browns defensive end Myles Garrett (95) during warmups prior to the game against the Seattle Seahawks at Lumen Field. Mandatory Credit: Steven Bisig-Imagn Images In...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
     {
       "title": "Piggyback system exits on high note as Miller, Castillo set up walk-off win",
       "link": "https://www.mlb.com/mariners/news/bryce-miller-luis-castillo-piggyback-sets-up-mariners-walk-off-win",
@@ -134,16 +190,6 @@
       "priority": 1
     },
     {
-      "title": "A’s fall on wrong end of apparent ABS glitch against Yankees",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/athletics-wrong-end-apparent-abs-glitch-yankees",
-      "pubDate": "Sun, 31 May 2026 19:35:53 +0000",
-      "isoDate": "2026-05-31T19:35:53.000Z",
-      "excerpt": "MLB's new Automated Ball-Strike challenge system appeared to hit a rare glitch during the A's-Yankees game.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
       "title": "Latest Mariners injuries and transactions",
       "link": "https://www.mlb.com/mariners/news/mariners-injuries-and-roster-moves",
       "pubDate": "Sun, 31 May 2026 19:21:00 GMT",
@@ -152,16 +198,6 @@
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
-    },
-    {
-      "title": "Touted M’s prospect Ryan Sloan spins 6 perfect innings in Arkansas",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/highly-touted-seattle-mariners-prospect-ryan-sloan-6-perfect-innings",
-      "pubDate": "Sun, 31 May 2026 19:01:47 +0000",
-      "isoDate": "2026-05-31T19:01:47.000Z",
-      "excerpt": "Not to be outdone by Kade Anderson, fellow top M's pitching prospect Ryan Sloan tossed six perfect innings in Arkansas.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
     },
     {
       "title": "Mariners Game #60 Preview and Discussion, 5/31/26: SEA vs. ARI",
@@ -219,16 +255,6 @@
       "pubDate": "2026-05-31T06:19:08.000Z",
       "isoDate": "2026-05-31T06:19:08.000Z",
       "excerpt": "May 30, 2026; Seattle, Washington, USA; Seattle Mariners starting pitcher Bryan Woo (22) throws against the Arizona Diamondbacks during the fifth inning at T-Mobile Park. Mandatory Credit: Joe Nicholson-Imagn Images |...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "30-29: Chart",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/144128/30-29-chart",
-      "pubDate": "2026-05-31T04:53:43.000Z",
-      "isoDate": "2026-05-31T04:53:43.000Z",
-      "excerpt": "May 30, 2026; Seattle, Washington, USA; Seattle Mariners designated hitter Dominic Canzone (8) reacts towards the dugout after hitting a double against the Arizona Diamondbacks during the sixth inning at T-Mobile Park....",
       "source": "Lookout Landing",
       "team": "mariners",
       "priority": 1
@@ -304,16 +330,6 @@
       "priority": 6
     },
     {
-      "title": "Seahawks agree to terms with Jadarian Price, 2026 draft class all now under contract",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-news/168966/seahawks-agree-to-terms-jadarian-price-2026-draft-class-all-now-under-contract",
-      "pubDate": "2026-05-29T21:24:47.000Z",
-      "isoDate": "2026-05-29T21:24:47.000Z",
-      "excerpt": "Running back Jadarian Price during Notre Dame football's Pro Day at Irish Athletic Center on Tuesday, March 24, 2026, in South Bend. | MICHAEL CLUBB/SOUTH BEND TRIBUNE / USA TODAY NETWORK via Imagn Images Well that was...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
-    },
-    {
       "title": "An Eventful Year 2 For Byron Murphy II Means Bigger Goals For Year 3",
       "link": "https://www.seahawks.com/news/an-eventful-year-2-for-byron-murphy-ii-means-bigger-goals-for-year-3",
       "pubDate": "Fri, 29 May 2026 20:19:48 GMT",
@@ -322,26 +338,6 @@
       "source": "Seahawks.com",
       "team": "seahawks",
       "priority": 6
-    },
-    {
-      "title": "Seahawks legend Shaun Alexander makes a big Jadarian Price prediction",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-news/168940/seahawks-legend-shaun-alexander-big-jadarian-price-prediction-nfl-news",
-      "pubDate": "2026-05-29T14:00:00.000Z",
-      "isoDate": "2026-05-29T14:00:00.000Z",
-      "excerpt": "NEW ORLEANS, LOUISIANA - FEBRUARY 05: Shaun Alexander speaks on SiriusXM at Super Bowl LIX on February 05, 2025 in New Orleans, Louisiana. (Photo by Cindy Ord/Getty Images for SiriusXM) | Getty Images for SiriusXM A man...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "Seahawks News 5/29: Jared Ivey is waiting to be discovered",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-news/168950/seahawks-news-5-29-jared-ivey-is-waiting-to-be-discovered",
-      "pubDate": "2026-05-29T13:00:00.000Z",
-      "isoDate": "2026-05-29T13:00:00.000Z",
-      "excerpt": "Aug 23, 2025; Green Bay, Wisconsin, USA; Seattle Seahawks linebacker Jared Ivey (51) tackles Green Bay Packers quarterback Taylor Elgersma (19) during the fourth quarter at Lambeau Field. Mandatory Credit: Jeff...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
     },
     {
       "title": "Back With Seahawks For OTAs, DeMarcus Lawrence Looking Forward To 2026: 'I Still Have More To Give'",
@@ -394,6 +390,56 @@
       "priority": 6
     },
     {
+      "title": "Firebirds season ends in 4 games in AHL Pacific Division Final",
+      "link": "https://www.davyjoneslockerroom.com/firebirds-season-ends-in-4-games-in-ahl-pacific-division-final/",
+      "pubDate": "Thu, 21 May 2026 14:00:00 +0000",
+      "isoDate": "2026-05-21T14:00:00.000Z",
+      "excerpt": "Just not to be. The Coachella Valley Firebirds faced Colorado in Game 4 last night, and unfortunately, with their season on the line, couldn’t stymie the advance of the Eagles in the AHL Postseason, losing a...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
+      "title": "Four Options for the Kraken at Pick 7",
+      "link": "https://www.davyjoneslockerroom.com/four-options-for-the-kraken-at-pick-7/",
+      "pubDate": "Tue, 19 May 2026 15:00:00 +0000",
+      "isoDate": "2026-05-19T15:00:00.000Z",
+      "excerpt": "The NHL Draft Lottery has come and gone, and luck continues to not be on the Seattle Kraken’s side. The Hockey Gods are clearly prepared to drag this team – and fanbase – through years of developing instead of having...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
+      "title": "Firebirds Round 3 Playoffs SO FAR: BIRDFIGHT…2!",
+      "link": "https://www.davyjoneslockerroom.com/firebirds-round-3-playoffs-so-far-birdfight-2/",
+      "pubDate": "Sun, 17 May 2026 14:00:00 +0000",
+      "isoDate": "2026-05-17T14:00:00.000Z",
+      "excerpt": "The Need to Knows The Times for remaining games: Game 3: May 17 – 5:05pm PDT Game 4: May 20 – 7:05pm PDT Game 5: May 22- 7:05pm PDT The Place: All remaining games in this series will be conducted in Blue Federal Credit...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
+      "title": "Who is Sportsology?: Seattle Kraken Hire Audit Firm",
+      "link": "https://www.davyjoneslockerroom.com/who-is-sportsology-seattle-kraken-hire-audit-firm/",
+      "pubDate": "Wed, 13 May 2026 14:00:00 +0000",
+      "isoDate": "2026-05-13T14:00:00.000Z",
+      "excerpt": "The Kraken announced Tuesday they have hired Sportsology Group to conduct the external audit of hockey operations that Tod Leiweke first mentioned on April 9, the day after Ron Francis’s departure as president of hockey...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
+      "title": "Firebirds Series RECAP: Coachella goes the distance, wins series against Ontario in double overtime!",
+      "link": "https://www.davyjoneslockerroom.com/firebirds-series-recap-coachella-goes-the-distance-wins-series-against-ontario-in-double-overtime/",
+      "pubDate": "Mon, 11 May 2026 13:45:00 +0000",
+      "isoDate": "2026-05-11T13:45:00.000Z",
+      "excerpt": "The Firebirds punched their ticket to the Pacific Division finals last night with a double OT spectacular, where forward JR Avon, who has absolutely exploded through these last few games, broke through the Reign’s...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
       "title": "Stream Mariners games on Mariners.TV; get a free trial",
       "link": "https://www.mlb.com/mariners/news/mariners-tv-is-here-for-2026-season",
       "pubDate": "Thu, 07 May 2026 16:06:00 GMT",
@@ -402,6 +448,36 @@
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
+    },
+    {
+      "title": "2k26 NHL Draft Lottery RECAP: Kraken will pick 7th in 2026 NHL Draft",
+      "link": "https://www.davyjoneslockerroom.com/2k26-nhl-draft-lottery-recap-kraken-will-pick-7th-in-2026-nhl-draft/",
+      "pubDate": "Wed, 06 May 2026 11:00:00 +0000",
+      "isoDate": "2026-05-06T11:00:00.000Z",
+      "excerpt": "Well. Not only was it anticlimactic, we ended up watching a put-upon, small organization with like a quarter of Seattle’s resources finally get what’s coming to them Isn’t that nice. Excuse me, I need to wipe the blood...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
+      "title": "2k26 NHL Draft Lottery LIVETHREAD",
+      "link": "https://www.davyjoneslockerroom.com/2k26-nhl-draft-lottery-livethread/",
+      "pubDate": "Tue, 05 May 2026 14:00:00 +0000",
+      "isoDate": "2026-05-05T14:00:00.000Z",
+      "excerpt": "The Need to Knows The Time: 4pm PT The Place: NHL Studios in Seacaucus, NY Place to Watch: ESPN, SportsNet, TVA-S The Odds, as they stand The Kraken have at least a solid shot at a Top 10 pick; with a pretty solid...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
+      "title": "2025-26 Seattle Kraken Postmortem: How they lost it, and how they can steer out of it",
+      "link": "https://www.davyjoneslockerroom.com/2025-26-seattle-kraken-postmortem-how-they-lost-it-and-how-they-can-steer-out-of-it/",
+      "pubDate": "Mon, 04 May 2026 14:00:00 +0000",
+      "isoDate": "2026-05-04T14:00:00.000Z",
+      "excerpt": "The Kraken ended 2026 in an absolute cloud of misery. They did not make the playoffs, they did not even challenge much down the stretch, even if their fate was to be thrown into the torment nexus known as the Colorado...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
     },
     {
       "title": "Solve today's Mariners trivia puzzle",
