@@ -1,18 +1,64 @@
 {
-  "generatedAt": "2026-06-01T20:15:12.163Z",
+  "generatedAt": "2026-06-01T23:25:26.192Z",
   "sourceCount": 7,
-  "successfulSources": 5,
+  "successfulSources": 6,
   "failedSources": [
     {
       "source": "Seattle Times Sports",
       "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
-    },
-    {
-      "source": "710 Seattle Sports",
-      "error": "Request timed out after 10000ms (lenient retry: The operation was aborted due to timeout)"
     }
   ],
   "items": [
+    {
+      "title": "Schatz: Rams’ win-now approach makes their draft strategy baffling",
+      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/schatz-rams-win-now-approach-makes-draft-strategy-baffling-myles-garrett-ty-simpson",
+      "pubDate": "Mon, 01 Jun 2026 22:52:47 +0000",
+      "isoDate": "2026-06-01T22:52:47.000Z",
+      "excerpt": "FTN Fantasy's Aaron Schatz doesn't think the Rams' first-round draft pick aligns with their other offseason moves.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Mariners-Mets Series Preview: Probables, Game 1 lineups and more",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-mets-series-preview-lineups",
+      "pubDate": "Mon, 01 Jun 2026 22:19:56 +0000",
+      "isoDate": "2026-06-01T22:19:56.000Z",
+      "excerpt": "The Mariners, who have won six straight to take over the AL West lead, are set for three games against a Mets team that has won four in a row.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "A.J Brown traded to Patriots, adding more intrigue to Seahawks’ season opener",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169105/aj-brown-traded-new-england-patriots-adding-more-intrigue-seattle-seahawks-season-opener",
+      "pubDate": "2026-06-01T22:14:30.000Z",
+      "isoDate": "2026-06-01T22:14:30.000Z",
+      "excerpt": "FOXBOROUGH, MASSACHUSETTS - SEPTEMBER 10: Christian Gonzalez #6 of the New England Patriots tackles A.J. Brown #11 of the Philadelphia Eagles during the fourth quarter at Gillette Stadium on September 10, 2023 in...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
+    {
+      "title": "Two prospects from same rotation -- Anderson, Sloan -- lead Team of the Week",
+      "link": "https://www.mlb.com/mariners/news/prospect-team-of-the-week-june-1-2026",
+      "pubDate": "Mon, 01 Jun 2026 21:32:13 GMT",
+      "isoDate": "2026-06-01T21:32:13.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "No doubt: Julio gives red-hot Mariners what they need",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/julio-rodriguez-seattle-mariners-what-they-need",
+      "pubDate": "Mon, 01 Jun 2026 20:46:44 +0000",
+      "isoDate": "2026-06-01T20:46:44.000Z",
+      "excerpt": "Julio Rodríguez has delivered with his bat, but he also brings an important attitude for the Mariners.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
     {
       "title": "Russell Wilson joins NFL on CBS team as analyst",
       "link": "https://www.fieldgulls.com/seattle-seahawks-news/169070/former-seahawks-russell-wilson-joins-nfl-on-cbs-team-analyst",
@@ -22,6 +68,36 @@
       "source": "Field Gulls",
       "team": "seahawks",
       "priority": 1
+    },
+    {
+      "title": "Instant Reaction: How Rams’ blockbuster Myles Garrett trade impacts Seahawks",
+      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/instant-reaction-rams-trade-myles-garrett-seattle-seahawks",
+      "pubDate": "Mon, 01 Jun 2026 18:38:45 +0000",
+      "isoDate": "2026-06-01T18:38:45.000Z",
+      "excerpt": "\"The West just got that much tougher,\" Michael Bumpus said of the Rams' stunning move.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "LA Rams reportedly swing blockbuster trade for Myles Garrett",
+      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/la-rams-blockbuster-trade-myles-garrett",
+      "pubDate": "Mon, 01 Jun 2026 18:31:32 +0000",
+      "isoDate": "2026-06-01T18:31:32.000Z",
+      "excerpt": "Cleveland will acquire pass rusher and linebacker Jared Verse — the 2024 AP NFL Defensive Rookie of the Year — a 2027 first-round selection and other draft picks that are still being worked out.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Amid push for NBA, Kraken ownership adds Melinda French Gates",
+      "link": "https://sports.mynorthwest.com/nhl/seattle-kraken/seattle-kraken-ownership-melinda-french-gates-nba-seattle-sonics-expansion",
+      "pubDate": "Mon, 01 Jun 2026 18:14:40 +0000",
+      "isoDate": "2026-06-01T18:14:40.000Z",
+      "excerpt": "The Seattle Kraken are adding Melinda French Gates as a minority investor, per ESPN, at the same time the team's umbrella brand is preparing a bid for an expansion NBA Seattle Sonics franchise.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
     },
     {
       "title": "DJ Julio mixes up bangers in the clubhouse and lasers in the batter's box",
@@ -44,6 +120,16 @@
       "priority": 1
     },
     {
+      "title": "MLB Spotlight: Mariners use pitching, power to top AL West",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/mlb-spotlight-seattle-mariners-pitching-power-top-al-west",
+      "pubDate": "Mon, 01 Jun 2026 17:39:31 +0000",
+      "isoDate": "2026-06-01T17:39:31.000Z",
+      "excerpt": "The AL West may have missed its chance to leave the Seattle Mariners behind.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
       "title": "How ya like them apples?: Mets vs. Mariners Series Preview",
       "link": "https://www.lookoutlanding.com/seattle-mariners-game-information/144219/how-ya-like-them-apples-mets-vs-mariners-series-preview",
       "pubDate": "2026-06-01T17:39:00.000Z",
@@ -62,6 +148,16 @@
       "source": "Lookout Landing",
       "team": "mariners",
       "priority": 1
+    },
+    {
+      "title": "Report: Russell Wilson finalizing deal to be CBS Sports analyst",
+      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/report-russell-wilson-finalizing-deal-cbs-sports-analyst-seattle-seahawks",
+      "pubDate": "Mon, 01 Jun 2026 16:34:32 +0000",
+      "isoDate": "2026-06-01T16:34:32.000Z",
+      "excerpt": "The former Seahawks star QB is reportedly hanging up his cleats and entering the broadcast booth.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
     },
     {
       "title": "Stream Mariners games on Mariners.TV for NEW low price of $74.99",
@@ -214,31 +310,11 @@
       "priority": 1
     },
     {
-      "title": "Woo's electric fastball outmatches D-backs as Mariners run win streak to 5",
-      "link": "https://www.mlb.com/mariners/news/bryan-woo-throws-7-scoreless-innings-as-mariners-climb-above-500",
-      "pubDate": "Sun, 31 May 2026 06:26:00 GMT",
-      "isoDate": "2026-05-31T06:26:00.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
-    },
-    {
       "title": "Seahawks lose assistant GM Nolan Teasley to the Minnesota Vikings, gain two draft picks",
       "link": "https://www.fieldgulls.com/seattle-seahawks-news/168998/nfl-news-seahawks-lose-assistant-gm-nolan-teasley-minnesota-vikings-gain-two-draft-picks",
       "pubDate": "2026-05-30T20:26:34.000Z",
       "isoDate": "2026-05-30T20:26:34.000Z",
       "excerpt": "Dec 8, 2024; Glendale, Arizona, USA; Detailed view of a Seattle Seahawks helmet at State Farm Stadium. Mandatory Credit: Mark J. Rebilas-Imagn Images | Mark J. Rebilas-Imagn Images Often when a team wins a Super Bowl,...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "Seahawks News 5/30: Seahawks finally sign top pick Jadarian Price",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-news/168993/seahawks-news-5-30-seahawks-finally-sign-top-pick-jadarian-price",
-      "pubDate": "2026-05-30T16:28:05.000Z",
-      "isoDate": "2026-05-30T16:28:05.000Z",
-      "excerpt": "In Today’s Links: a look at some of the Seattle Seahawks who might become our favorite players this season, a big mailbag from John Boyle, the Coach Macdonald message resonates, a look back at the ‘Hawks offseason, and...",
       "source": "Field Gulls",
       "team": "seahawks",
       "priority": 1
