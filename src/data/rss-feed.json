@@ -1,11 +1,15 @@
 {
-  "generatedAt": "2026-06-01T03:42:12.538Z",
+  "generatedAt": "2026-06-01T09:23:45.064Z",
   "sourceCount": 7,
-  "successfulSources": 6,
+  "successfulSources": 5,
   "failedSources": [
     {
       "source": "Seattle Times Sports",
       "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
+    },
+    {
+      "source": "Davy Jones' Locker Room",
+      "error": "Status code 415 (lenient retry: Status code 415)"
     }
   ],
   "items": [
@@ -390,56 +394,6 @@
       "priority": 6
     },
     {
-      "title": "Firebirds season ends in 4 games in AHL Pacific Division Final",
-      "link": "https://www.davyjoneslockerroom.com/firebirds-season-ends-in-4-games-in-ahl-pacific-division-final/",
-      "pubDate": "Thu, 21 May 2026 14:00:00 +0000",
-      "isoDate": "2026-05-21T14:00:00.000Z",
-      "excerpt": "Just not to be. The Coachella Valley Firebirds faced Colorado in Game 4 last night, and unfortunately, with their season on the line, couldn’t stymie the advance of the Eagles in the AHL Postseason, losing a...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
-    },
-    {
-      "title": "Four Options for the Kraken at Pick 7",
-      "link": "https://www.davyjoneslockerroom.com/four-options-for-the-kraken-at-pick-7/",
-      "pubDate": "Tue, 19 May 2026 15:00:00 +0000",
-      "isoDate": "2026-05-19T15:00:00.000Z",
-      "excerpt": "The NHL Draft Lottery has come and gone, and luck continues to not be on the Seattle Kraken’s side. The Hockey Gods are clearly prepared to drag this team – and fanbase – through years of developing instead of having...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
-    },
-    {
-      "title": "Firebirds Round 3 Playoffs SO FAR: BIRDFIGHT…2!",
-      "link": "https://www.davyjoneslockerroom.com/firebirds-round-3-playoffs-so-far-birdfight-2/",
-      "pubDate": "Sun, 17 May 2026 14:00:00 +0000",
-      "isoDate": "2026-05-17T14:00:00.000Z",
-      "excerpt": "The Need to Knows The Times for remaining games: Game 3: May 17 – 5:05pm PDT Game 4: May 20 – 7:05pm PDT Game 5: May 22- 7:05pm PDT The Place: All remaining games in this series will be conducted in Blue Federal Credit...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
-    },
-    {
-      "title": "Who is Sportsology?: Seattle Kraken Hire Audit Firm",
-      "link": "https://www.davyjoneslockerroom.com/who-is-sportsology-seattle-kraken-hire-audit-firm/",
-      "pubDate": "Wed, 13 May 2026 14:00:00 +0000",
-      "isoDate": "2026-05-13T14:00:00.000Z",
-      "excerpt": "The Kraken announced Tuesday they have hired Sportsology Group to conduct the external audit of hockey operations that Tod Leiweke first mentioned on April 9, the day after Ron Francis’s departure as president of hockey...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
-    },
-    {
-      "title": "Firebirds Series RECAP: Coachella goes the distance, wins series against Ontario in double overtime!",
-      "link": "https://www.davyjoneslockerroom.com/firebirds-series-recap-coachella-goes-the-distance-wins-series-against-ontario-in-double-overtime/",
-      "pubDate": "Mon, 11 May 2026 13:45:00 +0000",
-      "isoDate": "2026-05-11T13:45:00.000Z",
-      "excerpt": "The Firebirds punched their ticket to the Pacific Division finals last night with a double OT spectacular, where forward JR Avon, who has absolutely exploded through these last few games, broke through the Reign’s...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
-    },
-    {
       "title": "Stream Mariners games on Mariners.TV; get a free trial",
       "link": "https://www.mlb.com/mariners/news/mariners-tv-is-here-for-2026-season",
       "pubDate": "Thu, 07 May 2026 16:06:00 GMT",
@@ -448,36 +402,6 @@
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
-    },
-    {
-      "title": "2k26 NHL Draft Lottery RECAP: Kraken will pick 7th in 2026 NHL Draft",
-      "link": "https://www.davyjoneslockerroom.com/2k26-nhl-draft-lottery-recap-kraken-will-pick-7th-in-2026-nhl-draft/",
-      "pubDate": "Wed, 06 May 2026 11:00:00 +0000",
-      "isoDate": "2026-05-06T11:00:00.000Z",
-      "excerpt": "Well. Not only was it anticlimactic, we ended up watching a put-upon, small organization with like a quarter of Seattle’s resources finally get what’s coming to them Isn’t that nice. Excuse me, I need to wipe the blood...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
-    },
-    {
-      "title": "2k26 NHL Draft Lottery LIVETHREAD",
-      "link": "https://www.davyjoneslockerroom.com/2k26-nhl-draft-lottery-livethread/",
-      "pubDate": "Tue, 05 May 2026 14:00:00 +0000",
-      "isoDate": "2026-05-05T14:00:00.000Z",
-      "excerpt": "The Need to Knows The Time: 4pm PT The Place: NHL Studios in Seacaucus, NY Place to Watch: ESPN, SportsNet, TVA-S The Odds, as they stand The Kraken have at least a solid shot at a Top 10 pick; with a pretty solid...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
-    },
-    {
-      "title": "2025-26 Seattle Kraken Postmortem: How they lost it, and how they can steer out of it",
-      "link": "https://www.davyjoneslockerroom.com/2025-26-seattle-kraken-postmortem-how-they-lost-it-and-how-they-can-steer-out-of-it/",
-      "pubDate": "Mon, 04 May 2026 14:00:00 +0000",
-      "isoDate": "2026-05-04T14:00:00.000Z",
-      "excerpt": "The Kraken ended 2026 in an absolute cloud of misery. They did not make the playoffs, they did not even challenge much down the stretch, even if their fate was to be thrown into the torment nexus known as the Colorado...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
     },
     {
       "title": "Solve today's Mariners trivia puzzle",
