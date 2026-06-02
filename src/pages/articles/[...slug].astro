@@ -30,7 +30,7 @@ const publishedString = entry.data.publishDate.toLocaleDateString('en-US', {
 <BaseLayout title={`${entry.data.title} — The 206 Fix`} description={entry.data.deck} activeNav="columns">
   <article class="container-fix py-12 max-w-[800px]">
     <div class="kicker mb-3">{entry.data.tag}</div>
-    <h1 class="font-display font-black text-[48px] leading-[1.05] mb-4 text-ink max-md:text-[34px]">
+    <h1 class="font-display text-[38px] leading-[1.1] tracking-[0.01em] mb-4 text-ink max-md:text-[28px]">
       {entry.data.title}
     </h1>
     {entry.data.deck && (
@@ -60,7 +60,7 @@ const publishedString = entry.data.publishDate.toLocaleDateString('en-US', {
     margin-bottom: 1.2em;
   }
   .prose-article h2 {
-    font-family: 'Jersey 10', sans-serif;
+    font-family: 'Bitcount Grid Single', system-ui, sans-serif;
     font-weight: 800;
     font-size: 30px;
     margin-top: 2em;
@@ -68,7 +68,7 @@ const publishedString = entry.data.publishDate.toLocaleDateString('en-US', {
     color: var(--forest);
   }
   .prose-article h3 {
-    font-family: 'Jersey 10', sans-serif;
+    font-family: 'Bitcount Grid Single', system-ui, sans-serif;
     font-weight: 700;
     font-size: 22px;
     margin-top: 1.5em;

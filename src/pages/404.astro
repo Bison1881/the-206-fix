@@ -1,0 +1,42 @@
+---
+// src/pages/404.astro
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="404 — Page Not Found — The 206 Fix" activeNav="">
+  <section class="container-fix py-20 text-center max-w-[760px]">
+    <div class="font-mast text-[10px] text-rust tracking-[0.15em] mb-6">STOP THE PRESSES</div>
+
+    <div class="font-mast text-[72px] leading-none text-forest pixel-shadow mb-8 max-md:text-[48px]">
+      404
+    </div>
+
+    <h1 class="font-display text-[34px] leading-[1.15] tracking-[0.01em] text-ink mb-5 max-md:text-[26px]">
+      This One Got Relocated to Oklahoma City
+    </h1>
+
+    <p class="font-caslon italic text-[20px] text-slate mb-3 max-w-[560px] mx-auto">
+      The page you were looking for isn't here. Maybe it was never here, maybe it moved, or maybe it just packed up in the night without telling anyone.
+    </p>
+
+    <p class="font-body text-[17px] text-slate mb-10 max-w-[520px] mx-auto">
+      We know how that feels around these parts. Let's get you back to something that's still in town.
+    </p>
+
+    <div class="flex flex-wrap gap-5 justify-center">
+      <a href="/" class="font-pixel text-[18px] bg-rust text-cream px-6 py-3 hover:bg-forest transition-colors">
+        Back to the Front Page
+      </a>
+      <a href="/columns" class="font-pixel text-[18px] border-2 border-ink text-ink px-6 py-3 hover:bg-ink hover:text-cream transition-colors">
+        Read the Columns
+      </a>
+      <a href="/retro" class="font-pixel text-[18px] border-2 border-ink text-ink px-6 py-3 hover:bg-ink hover:text-cream transition-colors">
+        Hit the Arcade
+      </a>
+    </div>
+
+    <div class="mt-16 pt-8 border-t border-ink">
+      <div class="meta-line">The 206 Fix &middot; Seattle, Washington</div>
+    </div>
+  </section>
+</BaseLayout>

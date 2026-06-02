@@ -24,7 +24,7 @@ const years = [...byYear.keys()].sort((a, b) => b - a);
   <section class="border-b-4 border-double border-ink py-10">
     <div class="container-fix">
       <div class="kicker mb-2">The Archive</div>
-      <h1 class="font-display font-black text-[64px] leading-none tracking-[-0.02em] text-ink max-md:text-[44px]">
+      <h1 class="font-display text-[46px] leading-[1.05] tracking-[0.01em] text-ink max-md:text-[32px]">
         Columns
       </h1>
       <p class="font-caslon italic text-[20px] text-slate mt-3 max-w-[640px]">
@@ -51,7 +51,7 @@ const years = [...byYear.keys()].sort((a, b) => b - a);
                   <div class="meta-line pt-1">{formatDate(article.data.publishDate)}</div>
                   <div>
                     <div class="kicker mb-1">{article.data.tag}</div>
-                    <h3 class="font-display font-extrabold text-[28px] leading-[1.1] mb-2 text-ink max-md:text-[22px]">
+                    <h3 class="font-display text-[22px] leading-[1.15] tracking-[0.01em] mb-2 text-ink max-md:text-[19px]">
                       <a href={`/articles/${article.slug}`} class="hover:text-rust">{article.data.title}</a>
                     </h3>
                     {article.data.deck && (

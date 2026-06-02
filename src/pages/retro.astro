@@ -23,7 +23,7 @@ const featuredYoutube = featured?.data.youtubeId
   <section class="border-b-4 border-double border-ink py-10">
     <div class="container-fix">
       <div class="font-mast text-[10px] text-rust tracking-[0.05em] mb-3">&#9658; THE ARCADE</div>
-      <h1 class="font-pixel text-[56px] leading-none text-ink max-md:text-[40px]">Retro</h1>
+      <h1 class="font-display text-[44px] leading-[1.05] tracking-[0.01em] text-ink max-md:text-[32px]">Retro</h1>
       <p class="font-caslon italic text-[20px] text-slate mt-3 max-w-[640px]">
         Companion to the channel. No-commentary retro sports gameplay and the history behind the games we grew up on.
       </p>
@@ -36,7 +36,7 @@ const featuredYoutube = featured?.data.youtubeId
         <div class="bg-ink text-cream p-8 relative">
           <div class="absolute inset-2 border-2 border-dashed border-fog pointer-events-none"></div>
           <div class="font-mast text-[10px] text-rust mb-4 tracking-[0.05em] relative">&#9658; NOW PLAYING</div>
-          <h2 class="font-pixel text-[40px] leading-[1.05] mb-3 text-cream relative max-md:text-[28px]">
+          <h2 class="font-display text-[32px] leading-[1.1] tracking-[0.01em] mb-3 text-cream relative max-md:text-[24px]">
             <a href={`/retro/${featured.slug}`} class="hover:text-fog">{featured.data.title}</a>
           </h2>
           {featured.data.deck && (
@@ -71,7 +71,7 @@ const featuredYoutube = featured?.data.youtubeId
                 <div class="font-mast text-[9px] text-rust tracking-[0.05em] mb-2">
                   {piece.data.episodeNumber ? `EP ${String(piece.data.episodeNumber).padStart(3, '0')}` : piece.data.series ?? 'ARCADE'}
                 </div>
-                <h3 class="font-pixel text-[24px] leading-[1.1] mb-2 text-ink">
+                <h3 class="font-display text-[20px] leading-[1.2] tracking-[0.01em] mb-2 text-ink">
                   <a href={`/retro/${piece.slug}`} class="hover:text-rust">{piece.data.title}</a>
                 </h3>
                 {piece.data.deck && (

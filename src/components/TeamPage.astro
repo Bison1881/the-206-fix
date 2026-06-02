@@ -50,7 +50,7 @@ function formatDate(date: Date): string {
     <div class="flex items-baseline justify-between gap-6 max-md:flex-col max-md:items-start max-md:gap-3 pb-6 border-b border-ink">
       <div>
         <div class="kicker mb-2">Section &middot; {sport}</div>
-        <h1 class="font-display font-black text-[64px] leading-none tracking-[-0.02em] text-ink max-md:text-[44px]">
+        <h1 class="font-display text-[46px] leading-[1.05] tracking-[0.01em] text-ink max-md:text-[32px]">
           {teamName}
         </h1>
       </div>
@@ -80,7 +80,7 @@ function formatDate(date: Date): string {
             {articles.map((article) => (
               <article class="pb-8 border-b border-black/15 last:border-b-0">
                 <div class="kicker mb-2">{article.tag}</div>
-                <h3 class="font-display font-extrabold text-[32px] leading-[1.1] mb-3 text-ink max-md:text-[24px]">
+                <h3 class="font-display text-[24px] leading-[1.15] tracking-[0.01em] mb-3 text-ink max-md:text-[20px]">
                   <a href={`/articles/${article.slug}`} class="hover:text-rust">{article.title}</a>
                 </h3>
                 {article.deck && (

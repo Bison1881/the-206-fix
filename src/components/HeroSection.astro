@@ -41,7 +41,7 @@ const sidebarItems = rssData.items.slice(0, 6);
         {lead ? (
           <>
             <div class="kicker mb-3">Lead Story &middot; {lead.tag}</div>
-            <h1 class="font-display font-black text-[56px] leading-[1.02] tracking-[-0.015em] mb-4 text-ink max-md:text-[38px]">
+            <h1 class="font-display text-[40px] leading-[1.1] tracking-[0.01em] mb-4 text-ink max-md:text-[30px]">
               <a href={`/articles/${lead.slug}`} class="hover:text-rust">{lead.title}</a>
             </h1>
             {lead.deck && (
@@ -58,7 +58,7 @@ const sidebarItems = rssData.items.slice(0, 6);
         ) : (
           <>
             <div class="kicker mb-3">Lead Story</div>
-            <h1 class="font-display font-black text-[56px] leading-[1.02] tracking-[-0.015em] mb-4 text-ink max-md:text-[38px]">
+            <h1 class="font-display text-[40px] leading-[1.1] tracking-[0.01em] mb-4 text-ink max-md:text-[30px]">
               The Front Page Will Print Here
             </h1>
             <p class="font-caslon italic text-[22px] text-slate mb-5 pb-4 border-b border-ink">
