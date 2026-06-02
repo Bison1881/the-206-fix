@@ -1,9 +1,34 @@
 {
-  "generatedAt": "2026-06-02T08:26:45.090Z",
-  "sourceCount": 7,
-  "successfulSources": 7,
-  "failedSources": [],
+  "generatedAt": "2026-06-02T14:00:01.360Z",
+  "sourceCount": 10,
+  "successfulSources": 9,
+  "failedSources": [
+    {
+      "source": "Seattle Times Sports",
+      "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
+    }
+  ],
   "items": [
+    {
+      "title": "Rating takes on the Mariners pitching rotation and the controversial “piggyback” approach",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-discussion/144273/rating-takes-on-the-mariners-pitching-rotation-and-the-controversial-piggyback-approach",
+      "pubDate": "2026-06-02T13:30:00.000Z",
+      "isoDate": "2026-06-02T13:30:00.000Z",
+      "excerpt": "ok, now kiss | Getty Images The hottest topic in Mariners-ville the last two weeks has been the decision by the Mariners front office to combine the starts of Luis Castillo and Bryce Miller into a “piggyback” start....",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Seahawks News 5/2: The Seahawks are still better than the Rams",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169126/seahawks-news-5-2-the-seahawks-are-still-better-than-the-rams",
+      "pubDate": "2026-06-02T13:00:00.000Z",
+      "isoDate": "2026-06-02T13:00:00.000Z",
+      "excerpt": "SEATTLE, WASHINGTON - JANUARY 25: Jaxon Smith-Njigba #11 of the Seattle Seahawks catches the ball against Roger McCreary #25 of the Los Angeles Rams in the NFC Championship game at Lumen Field on January 25, 2026 in...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
     {
       "title": "Podcast: Streaking Mariners win their 7th in a row",
       "link": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-06/02/58d861a7-64ec8af7-d28c2ff0-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
@@ -75,16 +100,6 @@
       "priority": 1
     },
     {
-      "title": "Cole Young’s walkoff hit in 10th lifts Mariners past Mets for 7th straight win",
-      "link": "https://www.seattletimes.com/sports/mariners/cole-youngs-walkoff-single-in-10th-lifts-mariners-past-mets-to-7th-straight-win/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Mon, 01 Jun 2026 21:22:00 -0700",
-      "isoDate": "2026-06-02T04:22:00.000Z",
-      "excerpt": "After Gabe Speier's dominant effort in the top of the inning, Cole Young hit a walkoff single in the bottom of the 10th to lift the Mariners past the Mets 3-2 for their seventh straight victory.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "Mariners Game #61: Child of Game Thread",
       "link": "https://www.lookoutlanding.com/seattle-mariners-discussion/144268/mariners-game-61-child-of-game-thread",
       "pubDate": "2026-06-02T03:56:22.000Z",
@@ -92,16 +107,6 @@
       "excerpt": "Jun 1, 2026; Seattle, Washington, USA; Seattle Mariners third baseman Colt Emerson (4) runs the bases after hitting a solo-home run against the New York Mets during the third inning at T-Mobile Park. Mandatory Credit:...",
       "source": "Lookout Landing",
       "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "Photos: Mets at Mariners",
-      "link": "https://www.seattletimes.com/photo-video/photography/photos-mets-at-mariners-2/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Mon, 01 Jun 2026 19:54:19 -0700",
-      "isoDate": "2026-06-02T02:54:19.000Z",
-      "excerpt": "",
-      "source": "Seattle Times Sports",
-      "team": "general",
       "priority": 1
     },
     {
@@ -125,16 +130,6 @@
       "priority": 3
     },
     {
-      "title": "Seattle Storm’s struggling offense hits new low in loss to Wings",
-      "link": "https://www.seattletimes.com/sports/storm/seattle-storms-struggling-offense-hits-new-low-in-loss-to-wings/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Mon, 01 Jun 2026 19:19:26 -0700",
-      "isoDate": "2026-06-02T02:19:26.000Z",
-      "excerpt": "The Storm once again couldn’t get their offense on track and lost their third straight — a 79-56 road defeat to the Wings on Monday.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "AL West: Athletics pitchers struggle in temporary home ballpark",
       "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/al-west-athletics-pitchers-struggle-in-temporary-home-ballpark",
       "pubDate": "Tue, 02 Jun 2026 02:16:01 +0000",
@@ -143,16 +138,6 @@
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
-    },
-    {
-      "title": "Cal Raleigh takes positive next step in rehab for Seattle Mariners",
-      "link": "https://www.seattletimes.com/sports/mariners/cal-raleigh-takes-positive-next-step-in-rehab-for-seattle-mariners/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Mon, 01 Jun 2026 19:11:00 -0700",
-      "isoDate": "2026-06-02T02:11:00.000Z",
-      "excerpt": "Cal Raleigh was clearly in good spirits on Monday before the Mariners faced the Mets and offered another encouraging update in his recovery from a right oblique strain.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
     },
     {
       "title": "Mike Leach heads College Football Hall of Fame ballot",
@@ -175,16 +160,6 @@
       "priority": 1
     },
     {
-      "title": "Rams boost Super Bowl hopes with Myles Garrett trade, and Seahawks shouldn’t care",
-      "link": "https://www.seattletimes.com/sports/seahawks/rams-boost-super-bowl-hopes-with-myles-garrett-trade-and-seahawks-shouldnt-care/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Mon, 01 Jun 2026 17:37:48 -0700",
-      "isoDate": "2026-06-02T00:37:48.000Z",
-      "excerpt": "After trading for NFL Defensive Player of the Year Myles Garrett, the Rams are clear Super Bowl favorites. But judging by history, the Seahawks shouldn't care.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "Schatz: Rams’ win-now approach makes their draft strategy baffling",
       "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/schatz-rams-win-now-approach-makes-draft-strategy-baffling-myles-garrett-ty-simpson",
       "pubDate": "Mon, 01 Jun 2026 22:52:47 +0000",
@@ -193,16 +168,6 @@
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
-    },
-    {
-      "title": "Former WSU coach Mike Leach lands on 2027 NFF Hall of Fame ballot",
-      "link": "https://www.seattletimes.com/sports/wsu-cougar-football/former-wsu-coach-mike-leach-lands-on-2027-nff-hall-of-fame-ballot/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Mon, 01 Jun 2026 15:22:01 -0700",
-      "isoDate": "2026-06-01T22:22:01.000Z",
-      "excerpt": "For the first time, former WSU coach Mike Leach is on the ballot for the National Football Foundation College Football Hall of Fame.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
     },
     {
       "title": "Mariners-Mets Series Preview: Probables, Game 1 lineups and more",
@@ -215,23 +180,23 @@
       "priority": 3
     },
     {
-      "title": "On Sonics’ NBA title anniversary, fans can root for expansion — and Seattle’s Mitch Johnson",
-      "link": "https://www.seattletimes.com/sports/sonics/on-anniversary-of-sonics-nba-title-heres-an-update-on-expansion-talks/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Mon, 01 Jun 2026 13:49:29 -0700",
-      "isoDate": "2026-06-01T20:49:29.000Z",
-      "excerpt": "It's the 47th anniversary of the Sonics' 1979 championship. So let's revisit where things stand on a possible return and a Seattle connection in this year's NBA Finals.",
-      "source": "Seattle Times Sports",
-      "team": "general",
+      "title": "A.J Brown traded to Patriots, adding more intrigue to Seahawks’ season opener",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169105/aj-brown-traded-new-england-patriots-adding-more-intrigue-seattle-seahawks-season-opener",
+      "pubDate": "2026-06-01T22:14:30.000Z",
+      "isoDate": "2026-06-01T22:14:30.000Z",
+      "excerpt": "FOXBOROUGH, MASSACHUSETTS - SEPTEMBER 10: Christian Gonzalez #6 of the New England Patriots tackles A.J. Brown #11 of the Philadelphia Eagles during the fourth quarter at Gillette Stadium on September 10, 2023 in...",
+      "source": "Field Gulls",
+      "team": "seahawks",
       "priority": 1
     },
     {
-      "title": "Russell Wilson’s polarizing personality doesn’t negate Seahawks achievements",
-      "link": "https://www.seattletimes.com/sports/seahawks/russell-wilsons-polarizing-personality-doesnt-negate-seahawks-achievements/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Mon, 01 Jun 2026 13:33:15 -0700",
-      "isoDate": "2026-06-01T20:33:15.000Z",
-      "excerpt": "QB Russell Wilson reportedly is set to join CBS Sports, and he should be remembered as an all-time great Seahawk worthy of the Pro Football Hall of Fame.",
-      "source": "Seattle Times Sports",
-      "team": "general",
+      "title": "Russell Wilson joins NFL on CBS team as analyst",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169070/former-seahawks-russell-wilson-joins-nfl-on-cbs-team-analyst",
+      "pubDate": "2026-06-01T19:27:14.000Z",
+      "isoDate": "2026-06-01T19:27:14.000Z",
+      "excerpt": "SEATTLE, WA - JANUARY 18: Russell Wilson #3 of the Seattle Seahawks speaks to the media after defeating the Green Bay Packers 28-22 in the 2015 NFC Championship game at CenturyLink Field on January 18, 2015 in Seattle,...",
+      "source": "Field Gulls",
+      "team": "seahawks",
       "priority": 1
     },
     {
@@ -243,6 +208,16 @@
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
+    },
+    {
+      "title": "LA Rams acquire Myles Garrett from Cleveland Browns in seismic trade",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169079/nfl-news-los-angeles-rams-trade-myles-garrett-cleveland-browns-nfc-west-seahawks",
+      "pubDate": "2026-06-01T17:46:27.000Z",
+      "isoDate": "2026-06-01T17:46:27.000Z",
+      "excerpt": "SEATTLE, WASHINGTON - OCTOBER 29: Myles Garrett #95 of the Cleveland Browns looks on during the second quarter Seahawks at Lumen Field on October 29, 2023 in Seattle, Washington. (Photo by Steph Chambers/Getty Images) |...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
     },
     {
       "title": "How ya like them apples?: Mets vs. Mariners Series Preview",
@@ -305,16 +280,6 @@
       "priority": 1
     },
     {
-      "title": "Mariners News: Victor Robles, Cal Raleigh, and Elly De La Cruz",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-news/144198/victor-robles-cal-raleigh-elly-de-la-cruz-konnor-griffin",
-      "pubDate": "2026-06-01T14:00:00.000Z",
-      "isoDate": "2026-06-01T14:00:00.000Z",
-      "excerpt": "May 31, 2026; Seattle, Washington, USA; Seattle Mariners right fielder Victor Robles (10), center, celebrates his walk-off, infield single against the Arizona Diamondbacks during the tenth inning at T-Mobile Park....",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
       "title": "Seahawks News 6/1: Should the Seahawks try to acquire Myles Garrett?",
       "link": "https://www.fieldgulls.com/seattle-seahawks-news/169019/seahawks-news-6-1-should-the-seahawks-acquire-myles-garrett",
       "pubDate": "2026-06-01T13:00:00.000Z",
@@ -323,6 +288,16 @@
       "source": "Field Gulls",
       "team": "seahawks",
       "priority": 1
+    },
+    {
+      "title": "Seahawks, Dante Fowler Agree To Deal",
+      "link": "https://www.profootballrumors.com/2026/05/seahawks-dante-fowler-agree-to-deal",
+      "pubDate": "Mon, 01 Jun 2026 03:55:05 +0000",
+      "isoDate": "2026-06-01T03:55:05.000Z",
+      "excerpt": "MAY 31: Fowler’s deal with the Seahawks has a base value of $2.5MM with just $500k guaranteed via a signing bonus, per ESPN’s Brady Henderson, the lowest of his career. He is also set to earn a $1.32MM salary and $680k...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
+      "priority": 2
     },
     {
       "title": "Piggyback system exits on high note as Miller, Castillo set up walk-off win",
@@ -355,44 +330,24 @@
       "priority": 1
     },
     {
-      "title": "Seahawks lose assistant GM Nolan Teasley to the Minnesota Vikings, gain two draft picks",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-news/168998/nfl-news-seahawks-lose-assistant-gm-nolan-teasley-minnesota-vikings-gain-two-draft-picks",
-      "pubDate": "2026-05-30T20:26:34.000Z",
-      "isoDate": "2026-05-30T20:26:34.000Z",
-      "excerpt": "Dec 8, 2024; Glendale, Arizona, USA; Detailed view of a Seattle Seahawks helmet at State Farm Stadium. Mandatory Credit: Mark J. Rebilas-Imagn Images | Mark J. Rebilas-Imagn Images Often when a team wins a Super Bowl,...",
-      "source": "Field Gulls",
+      "title": "Vikings Hire Nolan Teasley As GM; Rob Brzezinski Staying On As EVP",
+      "link": "https://www.profootballrumors.com/2026/05/vikings-to-hire-nolan-teasly-as-general-manager",
+      "pubDate": "Sun, 31 May 2026 04:20:11 +0000",
+      "isoDate": "2026-05-31T04:20:11.000Z",
+      "excerpt": "The Vikings have landed on their next general manager. Seahawks assistant GM Nolan Teasley will be taking over the front office in Minnesota, per NFL Network’s Tom Pelissero. The news is now official. Teasley is coming...",
+      "source": "Pro Football Rumors",
       "team": "seahawks",
-      "priority": 1
+      "priority": 2
     },
     {
-      "title": "Seahawks News 5/30: Seahawks finally sign top pick Jadarian Price",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-news/168993/seahawks-news-5-30-seahawks-finally-sign-top-pick-jadarian-price",
-      "pubDate": "2026-05-30T16:28:05.000Z",
-      "isoDate": "2026-05-30T16:28:05.000Z",
-      "excerpt": "In Today’s Links: a look at some of the Seattle Seahawks who might become our favorite players this season, a big mailbag from John Boyle, the Coach Macdonald message resonates, a look back at the ‘Hawks offseason, and...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "DeMarcus Lawrence says he still has ‘more to give’ to Seahawks in 2026",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-news/168974/demarcus-lawrence-more-to-give-seattle-seahawks-2026-nfl-news",
-      "pubDate": "2026-05-30T15:00:00.000Z",
-      "isoDate": "2026-05-30T15:00:00.000Z",
-      "excerpt": "A growing number of Seattle Seahawks fans were concerned that star edge rusher DeMarcus Lawrence was going to retire after Seattle won the Super Bowl. Survey says: that was incorrect. Lawrence returned to the Seahawks’...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "Seahawks roster cutdown day will come earlier than usual this year",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-news/168972/seahawks-roster-cutdown-day-deadline-earlier-than-usual-nfl-news",
-      "pubDate": "2026-05-30T14:00:00.000Z",
-      "isoDate": "2026-05-30T14:00:00.000Z",
-      "excerpt": "Green Bay Packers guard Lecitus Smith (68) blocks Seattle Seahawks defensive tackle Quinton Bohanna (92) during the first quarter of their preseason game Saturday, August 23, 2025 at Lambeau Field in Green Bay,...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
+      "title": "AL West Notes: Miller, Castillo, Langford, Rangers, Moore",
+      "link": "https://www.mlbtraderumors.com/2026/05/al-west-notes-miller-castillo-langford-rangers-moore.html",
+      "pubDate": "Sat, 30 May 2026 15:52:30 +0000",
+      "isoDate": "2026-05-30T15:52:30.000Z",
+      "excerpt": "Bryce Miller will start and Luis Castillo will again be the piggyback pitcher for the Mariners on Sunday, but the team will then adopt a six-man rotation, the Seattle Times’ Adam Jude writes. Friday’s game with the...",
+      "source": "MLB Trade Rumors",
+      "team": "mariners",
+      "priority": 2
     },
     {
       "title": "Seahawks Sign First-Round Pick Jadarian Price",
@@ -415,6 +370,16 @@
       "priority": 6
     },
     {
+      "title": "Seahawks To Sign First-Round RB Jadarian Price, Wrap Draft Class Deals",
+      "link": "https://www.profootballrumors.com/2026/05/seahawks-to-sign-first-round-rb-jadarian-price-wrap-draft-class-deals",
+      "pubDate": "Fri, 29 May 2026 21:17:24 +0000",
+      "isoDate": "2026-05-29T21:17:24.000Z",
+      "excerpt": "The Seahawks have agreed to a deal with first-round running back Jadarian Price, Tom Pelissero of NFL Network reports. Price went 32nd overall, which carries a total value of approximately $16.78MM over four years. He...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
+      "priority": 2
+    },
+    {
       "title": "An Eventful Year 2 For Byron Murphy II Means Bigger Goals For Year 3",
       "link": "https://www.seahawks.com/news/an-eventful-year-2-for-byron-murphy-ii-means-bigger-goals-for-year-3",
       "pubDate": "Fri, 29 May 2026 20:19:48 GMT",
@@ -425,6 +390,16 @@
       "priority": 6
     },
     {
+      "title": "Seahawks Sale Could Be Completed By August, Could Eclipse $10B",
+      "link": "https://www.profootballrumors.com/2026/05/seahawks-sale-could-be-completed-by-august-could-eclipse-10b",
+      "pubDate": "Fri, 29 May 2026 02:29:40 +0000",
+      "isoDate": "2026-05-29T02:29:40.000Z",
+      "excerpt": "Roger Goodell recently pushed back on the narrative that there’s a “soft” market for the Seahawks franchise, with the commissioner stating that there was in fact “tremendous interest” among prospective buyers. Days...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
+      "priority": 2
+    },
+    {
       "title": "Back With Seahawks For OTAs, DeMarcus Lawrence Looking Forward To 2026: 'I Still Have More To Give'",
       "link": "https://www.seahawks.com/news/back-with-seahawks-for-otas-demarcus-lawrence-looking-forward-to-2026-i-still-have-more-to-give",
       "pubDate": "Thu, 28 May 2026 22:57:04 GMT",
@@ -433,6 +408,36 @@
       "source": "Seahawks.com",
       "team": "seahawks",
       "priority": 6
+    },
+    {
+      "title": "Vikings Complete Second Interviews With Five GM Candidates",
+      "link": "https://www.profootballrumors.com/2026/05/vikings-request-second-interviews-with-5-gm-candidates",
+      "pubDate": "Thu, 28 May 2026 20:40:15 +0000",
+      "isoDate": "2026-05-28T20:40:15.000Z",
+      "excerpt": "MAY 28: Minnesota has completed its second round of GM interviews, The Athletic’s Alec Lewis tweets. Those wrapped Thursday afternoon. A decision should be expected by early June at the latest, Lewis adds. MAY 20: The...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
+      "priority": 2
+    },
+    {
+      "title": "Seahawks Acquire WR Irvin Charles From Jets",
+      "link": "https://www.profootballrumors.com/2026/05/seahawks-to-acquire-wr-irvin-charles-from-jets",
+      "pubDate": "Thu, 28 May 2026 04:27:06 +0000",
+      "isoDate": "2026-05-28T04:27:06.000Z",
+      "excerpt": "The Seahawks and Jets have agreed to a minor trade. New York is sending wide receiver Irvin Charles to Seattle for a conditional seventh-round selection, Zack Rosenblatt of The Athletic reports. It’s a 2028 pick, per...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
+      "priority": 2
+    },
+    {
+      "title": "Minor NFL Transactions: 5/27/26",
+      "link": "https://www.profootballrumors.com/2026/05/minor-nfl-transactions-5-27-26",
+      "pubDate": "Wed, 27 May 2026 23:36:13 +0000",
+      "isoDate": "2026-05-27T23:36:13.000Z",
+      "excerpt": "Wednesday’s minor NFL transactions: Buffalo Bills Waived: TE Max Tomczak Cleveland Browns Reverted to IR: CB DeCarlos Nicholson New Orleans Saints Signed: LB Jackson Sirmon Waived: CB Jeremiah McClendon New York Giants...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
+      "priority": 2
     },
     {
       "title": "Seahawks Acquire WR Irvin Charles In Trade With Jets",
@@ -475,6 +480,26 @@
       "priority": 6
     },
     {
+      "title": "Roger Goodell Claims ‘Tremendous Interest’ In Seattle Franchise",
+      "link": "https://www.profootballrumors.com/2026/05/roger-goodell-claims-tremendous-interest-in-seattle-franchise",
+      "pubDate": "Mon, 25 May 2026 22:12:48 +0000",
+      "isoDate": "2026-05-25T22:12:48.000Z",
+      "excerpt": "MAY 25: The expectation exists that the Seahawks’ new owner(s) will not immediately show interest in a stadium project, as detailed by Paul Roberts of the Seattle Times. The finances required for a stadium are of course...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
+      "priority": 2
+    },
+    {
+      "title": "Mariners Notes: Crawford, Rotation, Castillo",
+      "link": "https://www.mlbtraderumors.com/2026/05/mariners-notes-crawford-rotation-castillo.html",
+      "pubDate": "Sun, 24 May 2026 04:22:37 +0000",
+      "isoDate": "2026-05-24T04:22:37.000Z",
+      "excerpt": "J.P. Crawford has been a key part of the Mariners’ lineup since joining the club in 2019. In over 3,800 plate appearances with Seattle, Crawford has batted .248/.341/.369 with a 107 wRC+ while providing serviceable...",
+      "source": "MLB Trade Rumors",
+      "team": "mariners",
+      "priority": 2
+    },
+    {
       "title": "Firebirds season ends in 4 games in AHL Pacific Division Final",
       "link": "https://www.davyjoneslockerroom.com/firebirds-season-ends-in-4-games-in-ahl-pacific-division-final/",
       "pubDate": "Thu, 21 May 2026 14:00:00 +0000",
@@ -483,6 +508,36 @@
       "source": "Davy Jones' Locker Room",
       "team": "kraken",
       "priority": 1
+    },
+    {
+      "title": "MLBTR Podcast: Colt Emerson Debuts, Blue Jays’ Rotation Issues, And What To Make Of The Mets And Astros",
+      "link": "https://www.mlbtraderumors.com/2026/05/mlbtr-podcast-colt-emerson-debuts-blue-jays-rotation-issues-and-what-to-make-of-the-mets-and-astros.html",
+      "pubDate": "Thu, 21 May 2026 04:00:16 +0000",
+      "isoDate": "2026-05-21T04:00:16.000Z",
+      "excerpt": "The latest episode of the MLB Trade Rumors Podcast is now live on Spotify, Apple Podcasts, and wherever you get your podcasts! Make sure you subscribe as well! You can also use the player at this link to listen, if you...",
+      "source": "MLB Trade Rumors",
+      "team": "mariners",
+      "priority": 2
+    },
+    {
+      "title": "J.P. Crawford Getting Work At Third Base",
+      "link": "https://www.mlbtraderumors.com/2026/05/mariners-rumors-j-p-crawford-third-base-colt-emerson-shortstop.html",
+      "pubDate": "Thu, 21 May 2026 00:11:52 +0000",
+      "isoDate": "2026-05-21T00:11:52.000Z",
+      "excerpt": "Mariners shortstop J.P. Crawford has been getting work at the hot corner and was taking grounders there prior to today’s game. Daniel Kramer of MLB.com was among those to report that the idea was actually brought up by...",
+      "source": "MLB Trade Rumors",
+      "team": "mariners",
+      "priority": 2
+    },
+    {
+      "title": "Kraken Sign Alexis Bernier To Entry-Level Contract",
+      "link": "https://www.prohockeyrumors.com/2026/05/kraken-sign-defenseman-alexis-bernier-to-entry-level-contract.html",
+      "pubDate": "Tue, 19 May 2026 17:30:30 +0000",
+      "isoDate": "2026-05-19T17:30:30.000Z",
+      "excerpt": "The Seattle Kraken have locked up one of their promising young blue-line prospects, signing defenseman Alexis Bernier to a three-year, entry-level contract. According to the team, the deal will carry an average annual...",
+      "source": "Pro Hockey Rumors",
+      "team": "kraken",
+      "priority": 2
     },
     {
       "title": "Four Options for the Kraken at Pick 7",
@@ -495,6 +550,26 @@
       "priority": 1
     },
     {
+      "title": "Mariners Recall Robinson Ortiz, Select Brennen Davis",
+      "link": "https://www.mlbtraderumors.com/2026/05/mariners-recall-robinson-ortiz-select-brennen-davis.html",
+      "pubDate": "Mon, 18 May 2026 22:10:38 +0000",
+      "isoDate": "2026-05-18T22:10:38.000Z",
+      "excerpt": "The Mariners announced several roster moves today. Infielder Patrick Wisdom has been reinstated from the 10-day injured list and left-hander Robinson Ortiz has been recalled from Triple-A. The lefty will be making his...",
+      "source": "MLB Trade Rumors",
+      "team": "mariners",
+      "priority": 2
+    },
+    {
+      "title": "Mariners Promote Colt Emerson, Place Brendan Donovan On IL",
+      "link": "https://www.mlbtraderumors.com/2026/05/mariners-to-promote-colt-emerson.html",
+      "pubDate": "Mon, 18 May 2026 03:59:10 +0000",
+      "isoDate": "2026-05-18T03:59:10.000Z",
+      "excerpt": "The Mariners are adding top prospect Colt Emerson to the big-league squad, first reported by Ryan Divish of the Seattle Times. The 20-year-old shortstop is among the highest-ranked young players in the sport. The team...",
+      "source": "MLB Trade Rumors",
+      "team": "mariners",
+      "priority": 2
+    },
+    {
       "title": "Firebirds Round 3 Playoffs SO FAR: BIRDFIGHT…2!",
       "link": "https://www.davyjoneslockerroom.com/firebirds-round-3-playoffs-so-far-birdfight-2/",
       "pubDate": "Sun, 17 May 2026 14:00:00 +0000",
@@ -505,6 +580,26 @@
       "priority": 1
     },
     {
+      "title": "AL Injury Notes: O’Hoppe, Raleigh, Madden",
+      "link": "https://www.mlbtraderumors.com/2026/05/al-injury-notes-ohoppe-raleigh-madden.html",
+      "pubDate": "Sat, 16 May 2026 05:23:25 +0000",
+      "isoDate": "2026-05-16T05:23:25.000Z",
+      "excerpt": "Angels catcher Logan O’Hoppe left last night’s game against the Dodgers with left wrist irritation, according to a team announcement. O’Hoppe sustained the injury in the top of the fourth inning on a pitch in the dirt...",
+      "source": "MLB Trade Rumors",
+      "team": "mariners",
+      "priority": 2
+    },
+    {
+      "title": "Brennen Davis Has Assignment Clause In Deal With Mariners",
+      "link": "https://www.mlbtraderumors.com/2026/05/brennen-davis-has-assignment-clause-in-deal-with-mariners.html",
+      "pubDate": "Fri, 15 May 2026 19:45:36 +0000",
+      "isoDate": "2026-05-15T19:45:36.000Z",
+      "excerpt": "Outfielder Brennen Davis is with the Mariners on a minor league deal. As part of that deal, he has an assignment clause today, per Ryan Divish of The Seattle Times. If he triggers the clause, he will be offered up to...",
+      "source": "MLB Trade Rumors",
+      "team": "mariners",
+      "priority": 2
+    },
+    {
       "title": "Who is Sportsology?: Seattle Kraken Hire Audit Firm",
       "link": "https://www.davyjoneslockerroom.com/who-is-sportsology-seattle-kraken-hire-audit-firm/",
       "pubDate": "Wed, 13 May 2026 14:00:00 +0000",
@@ -513,56 +608,6 @@
       "source": "Davy Jones' Locker Room",
       "team": "kraken",
       "priority": 1
-    },
-    {
-      "title": "Firebirds Series RECAP: Coachella goes the distance, wins series against Ontario in double overtime!",
-      "link": "https://www.davyjoneslockerroom.com/firebirds-series-recap-coachella-goes-the-distance-wins-series-against-ontario-in-double-overtime/",
-      "pubDate": "Mon, 11 May 2026 13:45:00 +0000",
-      "isoDate": "2026-05-11T13:45:00.000Z",
-      "excerpt": "The Firebirds punched their ticket to the Pacific Division finals last night with a double OT spectacular, where forward JR Avon, who has absolutely exploded through these last few games, broke through the Reign’s...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
-    },
-    {
-      "title": "2k26 NHL Draft Lottery RECAP: Kraken will pick 7th in 2026 NHL Draft",
-      "link": "https://www.davyjoneslockerroom.com/2k26-nhl-draft-lottery-recap-kraken-will-pick-7th-in-2026-nhl-draft/",
-      "pubDate": "Wed, 06 May 2026 11:00:00 +0000",
-      "isoDate": "2026-05-06T11:00:00.000Z",
-      "excerpt": "Well. Not only was it anticlimactic, we ended up watching a put-upon, small organization with like a quarter of Seattle’s resources finally get what’s coming to them Isn’t that nice. Excuse me, I need to wipe the blood...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
-    },
-    {
-      "title": "2k26 NHL Draft Lottery LIVETHREAD",
-      "link": "https://www.davyjoneslockerroom.com/2k26-nhl-draft-lottery-livethread/",
-      "pubDate": "Tue, 05 May 2026 14:00:00 +0000",
-      "isoDate": "2026-05-05T14:00:00.000Z",
-      "excerpt": "The Need to Knows The Time: 4pm PT The Place: NHL Studios in Seacaucus, NY Place to Watch: ESPN, SportsNet, TVA-S The Odds, as they stand The Kraken have at least a solid shot at a Top 10 pick; with a pretty solid...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
-    },
-    {
-      "title": "2025-26 Seattle Kraken Postmortem: How they lost it, and how they can steer out of it",
-      "link": "https://www.davyjoneslockerroom.com/2025-26-seattle-kraken-postmortem-how-they-lost-it-and-how-they-can-steer-out-of-it/",
-      "pubDate": "Mon, 04 May 2026 14:00:00 +0000",
-      "isoDate": "2026-05-04T14:00:00.000Z",
-      "excerpt": "The Kraken ended 2026 in an absolute cloud of misery. They did not make the playoffs, they did not even challenge much down the stretch, even if their fate was to be thrown into the torment nexus known as the Colorado...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
-    },
-    {
-      "title": "Solve today's Mariners trivia puzzle",
-      "link": "https://www.mlb.com/app/atbat/mariners/daily-walkoff",
-      "pubDate": "Tue, 03 Feb 2026 16:05:55 GMT",
-      "isoDate": "2026-02-03T16:05:55.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
     }
   ]
 }
