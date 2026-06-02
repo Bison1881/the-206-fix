@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-02T14:00:01.360Z",
+  "generatedAt": "2026-06-02T18:09:43.391Z",
   "sourceCount": 10,
   "successfulSources": 9,
   "failedSources": [
@@ -10,13 +10,113 @@
   ],
   "items": [
     {
-      "title": "Rating takes on the Mariners pitching rotation and the controversial “piggyback” approach",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-discussion/144273/rating-takes-on-the-mariners-pitching-rotation-and-the-controversial-piggyback-approach",
-      "pubDate": "2026-06-02T13:30:00.000Z",
-      "isoDate": "2026-06-02T13:30:00.000Z",
-      "excerpt": "ok, now kiss | Getty Images The hottest topic in Mariners-ville the last two weeks has been the decision by the Mariners front office to combine the starts of Luis Castillo and Bryce Miller into a “piggyback” start....",
-      "source": "Lookout Landing",
-      "team": "mariners",
+      "title": "Vancouver Canucks hire Manny Malhotra as head coach",
+      "link": "https://sports.mynorthwest.com/nhl/seattle-kraken/vancouver-canucks-hire-manny-malhotra-head-coach",
+      "pubDate": "Tue, 02 Jun 2026 17:09:55 +0000",
+      "isoDate": "2026-06-02T17:09:55.000Z",
+      "excerpt": "The former Canucks forward takes over for Adam Foote, fired last month after Vancouver finished last in the NHL during his only season behind the bench.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Ex-M’s OF Jarred Kelenic signs minors deal with AL West rival",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/ex-ms-of-jarred-kelenic-signs-minors-deal-with-al-west-rival",
+      "pubDate": "Tue, 02 Jun 2026 16:44:34 +0000",
+      "isoDate": "2026-06-02T16:44:34.000Z",
+      "excerpt": "Former top Mariners prospect Jarred Kelenic, who Seattle traded before the 2024 season, has landed with his fifth MLB franchise.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Seahawks Visit Sap Sap Lao Deli & Cafe For AANHPI Month",
+      "link": "https://www.seahawks.com/news/seahawks-visit-sap-sap-lao-deli-cafe-for-aanhpi-month",
+      "pubDate": "Tue, 02 Jun 2026 16:30:52 GMT",
+      "isoDate": "2026-06-02T16:30:52.000Z",
+      "excerpt": "Seahawks visited Sap Sap Lao Deli & Cafe for Asian American, Native Hawaiian and Pacific Islander month.",
+      "source": "Seahawks.com",
+      "team": "seahawks",
+      "priority": 6
+    },
+    {
+      "title": "Seahawks sign pass rusher Derick Hall to $42 million contract extension",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169152/nfl-news-seattle-seahawks-derick-hall-extension-42-million",
+      "pubDate": "2026-06-02T16:19:40.000Z",
+      "isoDate": "2026-06-02T16:19:40.000Z",
+      "excerpt": "SANTA CLARA, CALIFORNIA - FEBRUARY 08: Derick Hall #58 of the Seattle Seahawks reacts after sacking Drake Maye #10 of the New England Patriots during the first quarter of Super Bowl LX at Levi's Stadium on February 08,...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
+    {
+      "title": "Seahawks, Derick Hall Agree To Extension",
+      "link": "https://www.profootballrumors.com/2026/06/seahawks-derick-hall-agree-to-extension",
+      "pubDate": "Tue, 02 Jun 2026 16:11:15 +0000",
+      "isoDate": "2026-06-02T16:11:15.000Z",
+      "excerpt": "The Seahawks have managed to take care of another extension priority well before training camp. Edge rusher Derick Hall has a new deal in place. ESPN’s Adam Schefter reports team and player have finalized a three-year...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
+      "priority": 2
+    },
+    {
+      "title": "Report: Seahawks sign Derick Hall to 3-year extension",
+      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/report-seattle-seahawks-sign-derick-hall-3-year-extension",
+      "pubDate": "Tue, 02 Jun 2026 16:09:54 +0000",
+      "isoDate": "2026-06-02T16:09:54.000Z",
+      "excerpt": "The deal keeps Hall under contract with Seattle through 2029.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Seahawks 2026 rookie predictions: Beau Stephens won’t unseat Anthony Bradford",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/169109/seahawks-2026-rookie-predictions-beau-stephens-wont-unseat-anthony-bradford",
+      "pubDate": "2026-06-02T15:00:00.000Z",
+      "isoDate": "2026-06-02T15:00:00.000Z",
+      "excerpt": "PASADENA, CALIFORNIA - NOVEMBER 8: Beau Stephens #70 of the Iowa Hawkeyes in an offensive stance during the second half game against UCLA Bruins at Rose Bowl Stadium on November 8, 2024 in Pasadena, California. (Photo...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
+    {
+      "title": "Mariners’ Josh Naylor day to day after exiting with back spasms",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-josh-naylor-day-to-day-back-spasms",
+      "pubDate": "Tue, 02 Jun 2026 14:56:14 +0000",
+      "isoDate": "2026-06-02T14:56:14.000Z",
+      "excerpt": "Josh Naylor exited Monday night's game with back spasms after hitting a game-tying home run.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Do Seahawks need to counter Rams’ blockbuster move?",
+      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/do-seattle-seahawks-need-to-counter-rams-blockbuster-move-myles-garrett",
+      "pubDate": "Tue, 02 Jun 2026 14:22:35 +0000",
+      "isoDate": "2026-06-02T14:22:35.000Z",
+      "excerpt": "Michael Bumpus weighs in on whether Seattle should make a big move in the wake of the Rams' trade for Myles Garrett.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Irv Charles trade shows how the Seahawks value special teams differently",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/169006/irv-charles-trade-shows-how-seattle-seahawks-value-special-teams-differently",
+      "pubDate": "2026-06-02T14:00:00.000Z",
+      "isoDate": "2026-06-02T14:00:00.000Z",
+      "excerpt": "EAST RUTHERFORD, NEW JERSEY - DECEMBER 1: Wide receiver Irvin Charles #19 of the New York Jets gets set during the second half of an NFL football game against the Seattle Seahawks, at MetLife Stadium on December 1, 2024...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
+    {
+      "title": "Melinda French Gates Becomes Minority Owner of the Seattle Kraken",
+      "link": "https://www.davyjoneslockerroom.com/melinda-french-gates-becomes-minority-owner-of-the-seattle-kraken/",
+      "pubDate": "Tue, 02 Jun 2026 14:00:00 +0000",
+      "isoDate": "2026-06-02T14:00:00.000Z",
+      "excerpt": "Melinda French Gates is becoming a minority owner of the Seattle Kraken, the team’s parent company said Monday, pending approval from the NHL. The size of her stake and the terms were not disclosed. French Gates, 61,...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
       "priority": 1
     },
     {
@@ -38,16 +138,6 @@
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
-    },
-    {
-      "title": "Mariners use youth movement to get past Mets for seventh straight win",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/144263/mariners-use-youth-movement-to-get-past-mets-for-seventh-straight-win",
-      "pubDate": "2026-06-02T05:52:28.000Z",
-      "isoDate": "2026-06-02T05:52:28.000Z",
-      "excerpt": "Jun 1, 2026; Seattle, Washington, USA; Seattle Mariners second baseman Cole Young (2) reacts after hitting a walk-off RBI-single against the New York Mets during the tenth inning at T-Mobile Park. Mandatory Credit: Joe...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
     },
     {
       "title": "Latest Mariners injuries and transactions",
@@ -90,91 +180,11 @@
       "priority": 3
     },
     {
-      "title": "32-29: Chart",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/144267/32-29-chart",
-      "pubDate": "2026-06-02T04:25:55.000Z",
-      "isoDate": "2026-06-02T04:25:55.000Z",
-      "excerpt": "SEATTLE, WASHINGTON - JUNE 01: Cole Young #2 of the Seattle Mariners is doused with water after his walk-off single during the tenth inning against the New York Mets at T-Mobile Park on June 01, 2026 in Seattle,...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "Mariners Game #61: Child of Game Thread",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-discussion/144268/mariners-game-61-child-of-game-thread",
-      "pubDate": "2026-06-02T03:56:22.000Z",
-      "isoDate": "2026-06-02T03:56:22.000Z",
-      "excerpt": "Jun 1, 2026; Seattle, Washington, USA; Seattle Mariners third baseman Colt Emerson (4) runs the bases after hitting a solo-home run against the New York Mets during the third inning at T-Mobile Park. Mandatory Credit:...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
       "title": "Aziaha James scores 18 off bench as Wings beat Storm 79-56",
       "link": "https://sports.mynorthwest.com/wnba/seattle-storm/aziaha-james-18-off-bench-dallas-wings-seattle-storm-79-56",
       "pubDate": "Tue, 02 Jun 2026 02:53:35 +0000",
       "isoDate": "2026-06-02T02:53:35.000Z",
       "excerpt": "Aziaha James scored 18 points off the bench, Paige Bueckers had 10 points, nine rebounds and seven assists and the Dallas Wings beat the Seattle Storm 79-56 on Monday night.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "Hall of Fame NBA coach Rick Adelman dies at 79",
-      "link": "https://sports.mynorthwest.com/seattle-sports-pit/hall-of-fame-nba-coach-rick-adelman-dies-at-79",
-      "pubDate": "Tue, 02 Jun 2026 02:36:09 +0000",
-      "isoDate": "2026-06-02T02:36:09.000Z",
-      "excerpt": "The Basketball Hall of Fame inductee played for seven NBA seasons before becoming one of the game’s all-time winningest coaches.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "AL West: Athletics pitchers struggle in temporary home ballpark",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/al-west-athletics-pitchers-struggle-in-temporary-home-ballpark",
-      "pubDate": "Tue, 02 Jun 2026 02:16:01 +0000",
-      "isoDate": "2026-06-02T02:16:01.000Z",
-      "excerpt": "The A’s went 1-5 on their most recent homestand, allowing 47 runs against the Mariners and Yankees in what has become a pattern in the team’s waystation before moving to Las Vegas.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "Mike Leach heads College Football Hall of Fame ballot",
-      "link": "https://sports.mynorthwest.com/ncaa/wsu/mike-leach-heads-college-football-hall-of-fame-ballot",
-      "pubDate": "Tue, 02 Jun 2026 01:54:22 +0000",
-      "isoDate": "2026-06-02T01:54:22.000Z",
-      "excerpt": "The eccentric and revolutionary offensive savant whose teams set dozens of scoring and passing records over his 21-year head coaching career.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "Mariners Game #61 Preview and Discussion: 6/1/26, NYM at SEA",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-game-information/144254/mariners-game-61-preview-and-discussion-6-1-26-nym-at-sea",
-      "pubDate": "2026-06-02T01:30:20.000Z",
-      "isoDate": "2026-06-02T01:30:20.000Z",
-      "excerpt": "May 20, 2026; Seattle, Washington, USA; Seattle Mariners starter Emerson Hancock (26) delivers a pitch during the second inning against the Chicago White Sox at T-Mobile Park. Mandatory Credit: Stephen Brashear-Imagn...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "Schatz: Rams’ win-now approach makes their draft strategy baffling",
-      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/schatz-rams-win-now-approach-makes-draft-strategy-baffling-myles-garrett-ty-simpson",
-      "pubDate": "Mon, 01 Jun 2026 22:52:47 +0000",
-      "isoDate": "2026-06-01T22:52:47.000Z",
-      "excerpt": "FTN Fantasy's Aaron Schatz doesn't think the Rams' first-round draft pick aligns with their other offseason moves.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "Mariners-Mets Series Preview: Probables, Game 1 lineups and more",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-mets-series-preview-lineups",
-      "pubDate": "Mon, 01 Jun 2026 22:19:56 +0000",
-      "isoDate": "2026-06-01T22:19:56.000Z",
-      "excerpt": "The Mariners, who have won six straight to take over the AL West lead, are set for three games against a Mets team that has won four in a row.",
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
@@ -220,26 +230,6 @@
       "priority": 1
     },
     {
-      "title": "How ya like them apples?: Mets vs. Mariners Series Preview",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-game-information/144219/how-ya-like-them-apples-mets-vs-mariners-series-preview",
-      "pubDate": "2026-06-01T17:39:00.000Z",
-      "isoDate": "2026-06-01T17:39:00.000Z",
-      "excerpt": "NEW YORK, NEW YORK - APRIL 29: The New York Mets Home Run Apple is seen after the New York Mets defeated the Arizona Diamondbacks 8-3 in the game at Citi Field on April 29, 2025 in the Flushing neighborhood of the...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "May: Chart",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/144216/may-chart",
-      "pubDate": "2026-06-01T17:06:23.000Z",
-      "isoDate": "2026-06-01T17:06:23.000Z",
-      "excerpt": "May 29, 2026; Seattle, Washington, USA; Seattle Mariners center fielder Julio Rodriguez (44) and shortstop J.P. Crawford (3) celebrate after Crawford hit a home run against the Arizona Diamondbacks during the first...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
       "title": "Stream Mariners games on Mariners.TV for NEW low price of $74.99",
       "link": "https://www.mlb.com/mariners/news/mariners-tv-is-here-for-2026-season",
       "pubDate": "Mon, 01 Jun 2026 16:18:00 GMT",
@@ -250,41 +240,11 @@
       "priority": 6
     },
     {
-      "title": "Seattle Mariners Minor League Roundup &#8211; Week Ten",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-prospects/144207/seattle-mariners-minor-league-roundup-week-ten",
-      "pubDate": "2026-06-01T16:00:00.000Z",
-      "isoDate": "2026-06-01T16:00:00.000Z",
-      "excerpt": "PHOENIX, ARIZONA - MARCH 20, 2026: Ryan Sloan #97 of the Seattle Mariners throws a pitch during the third inning of a spring training Spring Breakout game against the Milwaukee Brewers at American Family Fields of...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
       "title": "Why the Seahawks took a chance on Lance Mason despite a crowded tight end room",
       "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/169010/nfl-udfa-why-seahawks-took-chance-on-lance-mason-despite-crowded-tight-end-room",
       "pubDate": "2026-06-01T15:00:00.000Z",
       "isoDate": "2026-06-01T15:00:00.000Z",
       "excerpt": "MADISON, WI - NOVEMBER 22: Wisconsin Badgers tight end Lance Mason (86) gets ready to attempt a leap over Illinois Fighting Illini defensive back Miles Scott (10) during a pass attempt in a college football game between...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "Seahawks fan discussion: When is the last time you missed a Seahawks game live?",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/168987/seahawks-fan-discussion-when-is-the-last-time-you-missed-seahawks-game-live",
-      "pubDate": "2026-06-01T14:00:00.000Z",
-      "isoDate": "2026-06-01T14:00:00.000Z",
-      "excerpt": "Dec 16, 2012; Toronto, Ontario, Canada; Seattle Seahawks free safety Earl Thomas (29) runs after an interception against the Buffalo Bills during the second half at the Rogers Centre. Seahawks beat the Bills 50-17....",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "Seahawks News 6/1: Should the Seahawks try to acquire Myles Garrett?",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169019/seahawks-news-6-1-should-the-seahawks-acquire-myles-garrett",
-      "pubDate": "2026-06-01T13:00:00.000Z",
-      "isoDate": "2026-06-01T13:00:00.000Z",
-      "excerpt": "Oct 29, 2023; Seattle, Washington, USA; Cleveland Browns defensive end Myles Garrett (95) during warmups prior to the game against the Seattle Seahawks at Lumen Field. Mandatory Credit: Steven Bisig-Imagn Images In...",
       "source": "Field Gulls",
       "team": "seahawks",
       "priority": 1
@@ -310,6 +270,26 @@
       "priority": 6
     },
     {
+      "title": "Piggybacks > Diamondbacks, Mariners walk it off in extras, sweep Arizona",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/144185/piggybacks-diamondbacks-mariners-walk-it-off-in-extras-sweep-arizona",
+      "pubDate": "2026-06-01T01:02:12.000Z",
+      "isoDate": "2026-06-01T01:02:12.000Z",
+      "excerpt": "May 31, 2026; Seattle, Washington, USA; Seattle Mariners center fielder Julio Rodríguez (44), right, jumps on Seattle Mariners right fielder Victor Robles (10) after Robles hit a walk-off, infield single during the...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "31-29: Chart",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/144186/31-29-chart",
+      "pubDate": "2026-05-31T23:11:22.000Z",
+      "isoDate": "2026-05-31T23:11:22.000Z",
+      "excerpt": "May 31, 2026; Seattle, Washington, USA; Seattle Mariners second baseman Cole Young (2) rounds the bases on his solo home off Arizona Diamondbacks starting pitcher Merrill Kelly (29) during the second inning at T-Mobile...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
       "title": "After surprising teammates, Raleigh hopes to finish rehab in Seattle",
       "link": "https://www.mlb.com/mariners/news/cal-raleigh-surprises-mariners-teammates-in-dugout",
       "pubDate": "Sun, 31 May 2026 20:49:31 GMT",
@@ -320,13 +300,63 @@
       "priority": 6
     },
     {
-      "title": "ESPN analyst: Seahawks worst offseason move is ‘not doing more to upgrade the offensive line’",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/168980/espn-analyst-seahawks-worst-offseason-move-is-not-doing-more-upgrade-offensive-line",
+      "title": "For Cal Raleigh, injury presents a new perspective on the Mariners",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-injuries/144176/for-cal-raleigh-injury-presents-a-new-perspective-on-the-mariners",
+      "pubDate": "2026-05-31T19:51:26.000Z",
+      "isoDate": "2026-05-31T19:51:26.000Z",
+      "excerpt": "May 30, 2026; Seattle, Washington, USA; Seattle Mariners catcher Cal Raleigh (29) stands in the dugout during the eighth inning against the Arizona Diamondbacks at T-Mobile Park. Mandatory Credit: Joe Nicholson-Imagn...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Mariners Game #60 Preview and Discussion, 5/31/26: SEA vs. ARI",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-discussion/144171/mariners-game-60-preview-and-discussion-5-31-26-sea-vs-ari",
+      "pubDate": "2026-05-31T18:53:39.000Z",
+      "isoDate": "2026-05-31T18:53:39.000Z",
+      "excerpt": "SEATTLE, WASHINGTON - JUNE 14: Luis Castillo #58 and Bryce Miller #50 of the Seattle Mariners react during the game against the Texas Rangers at T-Mobile Park on June 14, 2024 in Seattle, Washington. (Photo by Steph...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "On shake &#8216;n bake",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-analysis/144141/on-shake-n-bake",
+      "pubDate": "2026-05-31T14:30:00.000Z",
+      "isoDate": "2026-05-31T14:30:00.000Z",
+      "excerpt": "SEATTLE, WASHINGTON - MARCH 30: Luis Castillo #58 of the Seattle Mariners celebrates his 1,500th career strikeout during the sixth inning against the New York Yankees at T-Mobile Park on March 30, 2026 in Seattle,...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Mariners News: Bryan Woo, Bryce Miller, and Munetaka Murakami",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-news/144136/bryan-woo-bryce-miller-munetaka-murakami-luis-severino-roman-anthony",
       "pubDate": "2026-05-31T14:00:00.000Z",
       "isoDate": "2026-05-31T14:00:00.000Z",
-      "excerpt": "Sep 25, 2025; Glendale, Arizona, USA; Seattle Seahawks tackle Abraham Lucas (72) and guard Anthony Bradford (75) against the Arizona Cardinals at State Farm Stadium. Mandatory Credit: Mark J. Rebilas-Imagn Images | Mark...",
-      "source": "Field Gulls",
-      "team": "seahawks",
+      "excerpt": "Good morning! The Mariners are looking for a series sweep of the Arizona Diamondbacks after another dominant win last night. Bryan Woo’s seven innings of two-hit ball with nine strikeouts were complimented by four home...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Bryan Woo dazzles, Mariners bash quartet of solo shots to breach .500",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/144134/bryan-woo-dazzles-mariners-bash-quartet-of-solo-shots-to-breach-500",
+      "pubDate": "2026-05-31T06:19:08.000Z",
+      "isoDate": "2026-05-31T06:19:08.000Z",
+      "excerpt": "May 30, 2026; Seattle, Washington, USA; Seattle Mariners starting pitcher Bryan Woo (22) throws against the Arizona Diamondbacks during the fifth inning at T-Mobile Park. Mandatory Credit: Joe Nicholson-Imagn Images |...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "30-29: Chart",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/144128/30-29-chart",
+      "pubDate": "2026-05-31T04:53:43.000Z",
+      "isoDate": "2026-05-31T04:53:43.000Z",
+      "excerpt": "May 30, 2026; Seattle, Washington, USA; Seattle Mariners designated hitter Dominic Canzone (8) reacts towards the dugout after hitting a double against the Arizona Diamondbacks during the sixth inning at T-Mobile Park....",
+      "source": "Lookout Landing",
+      "team": "mariners",
       "priority": 1
     },
     {
@@ -470,26 +500,6 @@
       "priority": 6
     },
     {
-      "title": "Five Things To Watch As The Seahawks Kick Off 2026 OTAs",
-      "link": "https://www.seahawks.com/news/five-things-to-watch-as-the-seahawks-kick-off-2026-otas",
-      "pubDate": "Tue, 26 May 2026 18:49:01 GMT",
-      "isoDate": "2026-05-26T18:49:01.000Z",
-      "excerpt": "Storylines to watch as the Seahawks begin voluntary organized team activities.",
-      "source": "Seahawks.com",
-      "team": "seahawks",
-      "priority": 6
-    },
-    {
-      "title": "Roger Goodell Claims ‘Tremendous Interest’ In Seattle Franchise",
-      "link": "https://www.profootballrumors.com/2026/05/roger-goodell-claims-tremendous-interest-in-seattle-franchise",
-      "pubDate": "Mon, 25 May 2026 22:12:48 +0000",
-      "isoDate": "2026-05-25T22:12:48.000Z",
-      "excerpt": "MAY 25: The expectation exists that the Seahawks’ new owner(s) will not immediately show interest in a stadium project, as detailed by Paul Roberts of the Seattle Times. The finances required for a stadium are of course...",
-      "source": "Pro Football Rumors",
-      "team": "seahawks",
-      "priority": 2
-    },
-    {
       "title": "Mariners Notes: Crawford, Rotation, Castillo",
       "link": "https://www.mlbtraderumors.com/2026/05/mariners-notes-crawford-rotation-castillo.html",
       "pubDate": "Sun, 24 May 2026 04:22:37 +0000",
@@ -598,16 +608,6 @@
       "source": "MLB Trade Rumors",
       "team": "mariners",
       "priority": 2
-    },
-    {
-      "title": "Who is Sportsology?: Seattle Kraken Hire Audit Firm",
-      "link": "https://www.davyjoneslockerroom.com/who-is-sportsology-seattle-kraken-hire-audit-firm/",
-      "pubDate": "Wed, 13 May 2026 14:00:00 +0000",
-      "isoDate": "2026-05-13T14:00:00.000Z",
-      "excerpt": "The Kraken announced Tuesday they have hired Sportsology Group to conduct the external audit of hockey operations that Tod Leiweke first mentioned on April 9, the day after Ron Francis’s departure as president of hockey...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
     }
   ]
 }
