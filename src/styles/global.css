@@ -71,11 +71,11 @@
   }
 
   .kicker {
-    @apply font-ui text-[11px] uppercase tracking-[0.2em] text-rust font-bold;
+    @apply font-mast text-[8px] uppercase tracking-[0.1em] text-rust;
   }
 
   .meta-line {
-    @apply font-ui text-[11px] uppercase tracking-[0.15em] text-slate;
+    @apply font-mast text-[7px] uppercase tracking-[0.08em] text-slate;
   }
 
   .dropcap::first-letter {

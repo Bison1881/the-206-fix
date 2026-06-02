@@ -78,15 +78,15 @@ const sidebarItems = rssData.items.slice(0, 6);
         <div>
           {sidebarItems.map((item) => (
             <div class="dashed-border border-x-0 border-t-0 py-3 last:border-b-0">
-              <div class="font-ui text-[10px] uppercase tracking-[0.12em] text-rust font-bold mb-1">
+              <div class="font-mast text-[7px] uppercase tracking-[0.08em] text-rust mb-2">
                 {item.source}
               </div>
-              <div class="font-caslon text-[16px] leading-[1.25] font-bold">
+              <div class="font-mast text-[11px] leading-[1.5] tracking-[0.02em]">
                 <a href={item.link} target="_blank" rel="noopener noreferrer" class="hover:text-rust">
                   {item.title}
                 </a>
               </div>
-              <div class="font-ui text-[10px] text-slate mt-1 tracking-[0.05em]">
+              <div class="font-mast text-[7px] text-slate mt-2 tracking-[0.05em] uppercase">
                 {timeAgo(item.isoDate)}
               </div>
             </div>

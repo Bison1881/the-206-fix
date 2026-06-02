@@ -1,20 +1,45 @@
 ---
 // src/components/TopStrip.astro
-interface Props {
-  volume?: string;
-  issue?: string;
+// Volume = years since launch (2026 = Volume I).
+// No. = day-of-year (Jan 1 = 001), zero-padded to 3 digits.
+
+const LAUNCH_YEAR = 2026;
+
+function toRoman(num: number): string {
+  const map: [number, string][] = [
+    [1000, 'M'], [900, 'CM'], [500, 'D'], [400, 'CD'],
+    [100, 'C'], [90, 'XC'], [50, 'L'], [40, 'XL'],
+    [10, 'X'], [9, 'IX'], [5, 'V'], [4, 'IV'], [1, 'I'],
+  ];
+  let result = '';
+  for (const [value, numeral] of map) {
+    while (num >= value) {
+      result += numeral;
+      num -= value;
+    }
+  }
+  return result || 'I';
 }
-const { volume = 'I', issue = '001' } = Astro.props;
+
+function dayOfYear(date: Date): number {
+  const start = new Date(date.getFullYear(), 0, 0);
+  const diff = date.getTime() - start.getTime();
+  return Math.floor(diff / (1000 * 60 * 60 * 24));
+}
+
+const now = new Date();
+const volume = toRoman(now.getFullYear() - LAUNCH_YEAR + 1);
+const issue = String(dayOfYear(now)).padStart(3, '0');
 ---
 
-<div class="bg-ink text-cream font-ui text-[11px] tracking-[0.12em] uppercase py-2">
+<div class="bg-ink text-cream font-mast text-[8px] tracking-[0.08em] uppercase py-[10px]">
   <div class="container-fix flex justify-between items-center">
     <span>Volume {volume} &middot; No. {issue}</span>
-    <span class="flex gap-[18px]">
+    <span class="flex gap-[14px] max-md:gap-[10px]">
+      <a href="/about" class="hover:text-fog">About</a>
       <a href="https://www.youtube.com/@the206fix" class="hover:text-fog">YouTube</a>
       <a href="/rss.xml" class="hover:text-fog">RSS</a>
-      <a href="/newsletter" class="hover:text-fog">Newsletter</a>
-      <a href="/archive" class="hover:text-fog">Archive</a>
+      <a href="/columns" class="hover:text-fog">Archive</a>
     </span>
   </div>
 </div>

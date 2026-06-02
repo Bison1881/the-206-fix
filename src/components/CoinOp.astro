@@ -1,0 +1,182 @@
+---
+// src/components/CoinOp.astro
+// The "Press Start to Continue" footer link triggers an arcade coin-op
+// sequence: INSERT COIN -> coin drop -> PRESS START -> redirect to YouTube.
+import { YOUTUBE_URL } from '../config';
+---
+
+<button id="coin-op-trigger" class="coin-op-link font-mast">
+  Press Start to continue
+</button>
+
+<div id="coin-op-overlay" class="coin-op-overlay" aria-hidden="true">
+  <div class="coin-op-screen">
+    <div class="coin-op-scanlines"></div>
+    <div id="coin-op-stage" class="coin-op-stage">
+      <div class="coin-op-coin" id="coin-op-coin">&#9679;</div>
+      <div class="coin-op-text" id="coin-op-text"></div>
+      <div class="coin-op-sub font-mast" id="coin-op-sub"></div>
+    </div>
+  </div>
+</div>
+
+<style>
+  .coin-op-link {
+    background: none;
+    border: none;
+    color: var(--fog);
+    cursor: pointer;
+    font-size: inherit;
+    letter-spacing: inherit;
+    text-transform: inherit;
+    padding: 0;
+    transition: color 0.15s;
+  }
+  .coin-op-link:hover { color: var(--rust); }
+
+  .coin-op-overlay {
+    position: fixed;
+    inset: 0;
+    background: #000;
+    z-index: 9999;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  .coin-op-overlay.active { display: flex; }
+
+  .coin-op-screen {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* CRT scanline overlay */
+  .coin-op-scanlines {
+    position: absolute;
+    inset: 0;
+    background: repeating-linear-gradient(
+      to bottom,
+      rgba(0,0,0,0) 0,
+      rgba(0,0,0,0) 2px,
+      rgba(0,0,0,0.35) 3px,
+      rgba(0,0,0,0) 4px
+    );
+    pointer-events: none;
+    animation: crt-flicker 0.15s steps(2) infinite;
+  }
+  @keyframes crt-flicker {
+    0% { opacity: 0.9; }
+    100% { opacity: 1; }
+  }
+
+  .coin-op-stage {
+    text-align: center;
+    position: relative;
+    z-index: 2;
+  }
+
+  .coin-op-coin {
+    font-size: 40px;
+    color: #FFD23F;
+    opacity: 0;
+    margin-bottom: 24px;
+  }
+  .coin-op-coin.drop {
+    animation: coin-drop 0.7s cubic-bezier(0.5, 0, 0.7, 1) forwards;
+  }
+  @keyframes coin-drop {
+    0%   { opacity: 1; transform: translateY(-220px) rotate(0deg) scaleX(1); }
+    70%  { opacity: 1; transform: translateY(0) rotate(720deg) scaleX(0.4); }
+    80%  { transform: translateY(-30px) rotate(800deg) scaleX(1); }
+    100% { opacity: 1; transform: translateY(0) rotate(900deg) scaleX(0.4); }
+  }
+
+  .coin-op-text {
+    font-family: 'Bitcount Grid Single', monospace;
+    font-size: 64px;
+    color: #5BE12C;
+    letter-spacing: 0.05em;
+    min-height: 72px;
+    text-shadow: 0 0 12px rgba(91, 225, 44, 0.6);
+  }
+  .coin-op-text.blink { animation: text-blink 0.5s steps(2) infinite; }
+  @keyframes text-blink {
+    0% { opacity: 1; }
+    50% { opacity: 0.2; }
+    100% { opacity: 1; }
+  }
+
+  .coin-op-sub {
+    font-size: 10px;
+    color: var(--fog);
+    margin-top: 28px;
+    letter-spacing: 0.15em;
+    opacity: 0;
+  }
+  .coin-op-sub.show { opacity: 1; }
+
+  @media (max-width: 700px) {
+    .coin-op-text { font-size: 38px; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .coin-op-scanlines, .coin-op-coin.drop { animation: none; }
+  }
+</style>
+
+<script define:vars={{ youtubeUrl: YOUTUBE_URL }}>
+  const trigger = document.getElementById('coin-op-trigger');
+  const overlay = document.getElementById('coin-op-overlay');
+  const coin = document.getElementById('coin-op-coin');
+  const text = document.getElementById('coin-op-text');
+  const sub = document.getElementById('coin-op-sub');
+
+  function wait(ms) { return new Promise((r) => setTimeout(r, ms)); }
+
+  async function playSequence() {
+    overlay.classList.add('active');
+    overlay.setAttribute('aria-hidden', 'false');
+    text.textContent = '';
+    sub.textContent = '';
+    sub.classList.remove('show');
+    coin.classList.remove('drop');
+
+    // 1. INSERT COIN
+    text.classList.remove('blink');
+    text.textContent = 'INSERT COIN';
+    text.classList.add('blink');
+    sub.textContent = 'THE 206 FIX';
+    sub.classList.add('show');
+    await wait(1100);
+
+    // 2. Coin drops
+    text.classList.remove('blink');
+    text.style.fontSize = '';
+    void coin.offsetWidth; // reflow so the animation restarts
+    coin.classList.add('drop');
+    await wait(750);
+
+    // 3. CREDIT 1
+    text.textContent = 'CREDIT  1';
+    await wait(700);
+
+    // 4. PRESS START
+    text.textContent = 'PRESS START';
+    text.classList.add('blink');
+    sub.textContent = 'CONTINUE TO THE CHANNEL';
+    await wait(1300);
+
+    // 5. Redirect
+    window.location.href = youtubeUrl;
+  }
+
+  trigger.addEventListener('click', (e) => {
+    e.preventDefault();
+    playSequence();
+  });
+</script>
