@@ -1,0 +1,77 @@
+---
+// src/pages/columns.astro
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const articles = (await getCollection('articles', ({ data }) => !data.draft))
+  .sort((a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf());
+
+function formatDate(date: Date): string {
+  return date.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
+}
+
+// Group by year for the archive feel.
+const byYear = new Map<number, typeof articles>();
+for (const a of articles) {
+  const year = a.data.publishDate.getFullYear();
+  if (!byYear.has(year)) byYear.set(year, []);
+  byYear.get(year)!.push(a);
+}
+const years = [...byYear.keys()].sort((a, b) => b - a);
+---
+
+<BaseLayout title="Columns — The 206 Fix" description="Original sports writing from The 206 Fix. Long-view reflection, faith and sports, and retro history." activeNav="columns">
+  <section class="border-b-4 border-double border-ink py-10">
+    <div class="container-fix">
+      <div class="kicker mb-2">The Archive</div>
+      <h1 class="font-display font-black text-[64px] leading-none tracking-[-0.02em] text-ink max-md:text-[44px]">
+        Columns
+      </h1>
+      <p class="font-caslon italic text-[20px] text-slate mt-3 max-w-[640px]">
+        Original writing. Long-view reflection, faith and sports, and the retro history that ties the channel to the page.
+      </p>
+    </div>
+  </section>
+
+  <section class="py-10">
+    <div class="container-fix">
+      {articles.length === 0 ? (
+        <p class="font-body text-slate italic py-8">No columns published yet.</p>
+      ) : (
+        years.map((year) => (
+          <div class="mb-12 last:mb-0">
+            <div class="flex items-center gap-4 mb-6">
+              <h2 class="font-mast text-[16px] text-forest">{year}</h2>
+              <div class="flex-1 h-px bg-ink"></div>
+            </div>
+
+            <div class="space-y-7">
+              {byYear.get(year)!.map((article) => (
+                <article class="grid grid-cols-[140px_1fr] gap-6 pb-7 border-b border-black/15 last:border-b-0 max-md:grid-cols-1 max-md:gap-1">
+                  <div class="meta-line pt-1">{formatDate(article.data.publishDate)}</div>
+                  <div>
+                    <div class="kicker mb-1">{article.data.tag}</div>
+                    <h3 class="font-display font-extrabold text-[28px] leading-[1.1] mb-2 text-ink max-md:text-[22px]">
+                      <a href={`/articles/${article.slug}`} class="hover:text-rust">{article.data.title}</a>
+                    </h3>
+                    {article.data.deck && (
+                      <p class="font-caslon italic text-[17px] text-slate mb-2 leading-snug">{article.data.deck}</p>
+                    )}
+                    <div class="meta-line">
+                      By <strong class="text-ink">{article.data.author}</strong>
+                      {article.data.readMinutes && <> &middot; {article.data.readMinutes} min read</>}
+                    </div>
+                  </div>
+                </article>
+              ))}
+            </div>
+          </div>
+        ))
+      )}
+
+      <div class="mt-10 text-center">
+        <a href="/" class="font-pixel text-rust text-[18px] hover:text-forest">&laquo; Back to Front Page</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
