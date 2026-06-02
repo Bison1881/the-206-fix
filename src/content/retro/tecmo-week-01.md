@@ -1,7 +1,6 @@
 ---
 title: "Tecmo Super Bowl 2026: Seahawks Season, Week 1 at San Francisco"
 deck: "No talking. No tutorials. Just one team, one season, sixteen weeks, and a quiet camera on the 8-bit field."
-author: "Mike Thunder"
 publishDate: 2026-05-23
 episodeNumber: 1
 youtubeId: ""

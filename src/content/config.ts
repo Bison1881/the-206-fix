@@ -1,11 +1,12 @@
 import { defineCollection, z } from 'astro:content';
+import { DEFAULT_AUTHOR } from '../config';
 
 const articles = defineCollection({
   type: 'content',
   schema: z.object({
     title: z.string(),
     deck: z.string().optional(),
-    author: z.string().default('Mike Thunder'),
+    author: z.string().default(DEFAULT_AUTHOR),
     publishDate: z.coerce.date(),
     updatedDate: z.coerce.date().optional(),
     tag: z.enum([
@@ -32,7 +33,7 @@ const retro = defineCollection({
   schema: z.object({
     title: z.string(),
     deck: z.string().optional(),
-    author: z.string().default('Mike Thunder'),
+    author: z.string().default(DEFAULT_AUTHOR),
     publishDate: z.coerce.date(),
     episodeNumber: z.number().optional(),
     youtubeId: z.string().optional(),

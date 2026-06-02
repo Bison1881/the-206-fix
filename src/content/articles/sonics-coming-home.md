@@ -1,7 +1,6 @@
 ---
 title: "The Sonics Are Coming Home, and Seattle Is Already Different"
 deck: "Two-and-a-half years out from the first tip-off at Climate Pledge, the city is rehearsing a homecoming that has been written in green and gold for nearly two decades."
-author: "Mike Thunder"
 publishDate: 2026-05-26
 tag: "Long View"
 team: "sonics"

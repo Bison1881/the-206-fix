@@ -1,7 +1,6 @@
 ---
 title: "A Short Defense of No-Commentary Gameplay Videos"
 deck: "The genre exists because something was lost. This is what it was and why some of us are trying to recover it."
-author: "Mike Thunder"
 publishDate: 2026-05-20
 game: "General"
 series: "Editor's Note"
