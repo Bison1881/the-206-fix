@@ -32,6 +32,12 @@ const SOURCES = [
   { name: 'Lookout Landing',       url: 'https://www.lookoutlanding.com/rss/current.xml',           team: 'mariners', priority: 1 },
   { name: "Davy Jones' Locker Room", url: 'https://www.davyjoneslockerroom.com/feed/',              team: 'kraken',   priority: 1 },
 
+  // Trade & free-agent rumor desks (the MLBTR network + Pro Football/Hockey Rumors).
+  // All are WordPress, so the per-team page + /feed/ gives a clean team-scoped feed.
+  { name: 'MLB Trade Rumors',      url: 'https://www.mlbtraderumors.com/seattle-mariners/feed/',     team: 'mariners', priority: 2 },
+  { name: 'Pro Football Rumors',   url: 'https://www.profootballrumors.com/seattle-seahawks-news-rumors/feed/', team: 'seahawks', priority: 2 },
+  { name: 'Pro Hockey Rumors',     url: 'https://www.prohockeyrumors.com/seattle-kraken/feed/',      team: 'kraken',   priority: 2 },
+
   // Official team feeds
   { name: 'Seahawks.com',          url: 'https://www.seahawks.com/rss/news',                        team: 'seahawks', priority: 6 },
   { name: 'Mariners.com',          url: 'https://www.mlb.com/mariners/feeds/news/rss.xml',          team: 'mariners', priority: 6 },
@@ -41,6 +47,11 @@ const SOURCES = [
 // - The Athletic Seattle (theathletic.com/team/seattle/rss/) returns 404; feeds are subscriber-only since the NYT migration.
 // - KOMO Sports (komonews.com/sports.rss) returns 403; Sinclair sites block non-browser user agents and frequently rotate paths.
 //   If a KOMO feed is needed later, fetch via a browser UA or scrape the sports landing page on a separate schedule.
+// - Sonics Rising (sonicsrising.com) abandoned since 2020; feed endpoint dead (ECONNRESET). No live Sonics blog exists yet.
+// - Rain City Rebound (raincityrebound.com) is an active Sonics-return site but exposes no public RSS feed.
+// - Seattle NBA Fans (seattlenbafans.com) is a Webflow advocacy site that links out rather than publishing its own feed.
+//   No fetchable Sonics article feed exists right now. Sonics Watch wires stay empty until one appears; revisit when
+//   an expansion franchise is announced and dedicated coverage with a feed spins up.
 
 // ---------------------------------------------------------------------------
 // Per-fetch timeout. We don't want one slow source to stall the whole build.

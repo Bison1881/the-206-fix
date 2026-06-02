@@ -1,7 +1,12 @@
 {
   "permissions": {
     "allow": [
-      "Bash(npx plugins *)"
+      "Bash(npx plugins *)",
+      "Bash(npm run *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git reset *)",
+      "Bash(Select-String -Pattern \"rss\\\\]\")"
     ]
   }
 }
