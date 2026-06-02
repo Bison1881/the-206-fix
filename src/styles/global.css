@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Pixelify+Sans:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Pixelify+Sans:wght@400..700&family=Jersey+10&family=Bitcount+Grid+Single&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&family=Inter:wght@400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -27,9 +27,9 @@
   body {
     background-color: var(--cream);
     color: var(--ink);
-    font-family: 'Source Serif 4', Georgia, serif;
-    font-size: 17px;
-    line-height: 1.55;
+    font-family: 'Jersey 10', 'Source Serif 4', Georgia, serif;
+    font-size: 20px;
+    line-height: 1.4;
     background-image:
       radial-gradient(circle at 25% 30%, rgba(0, 0, 0, 0.025) 0%, transparent 50%),
       radial-gradient(circle at 75% 70%, rgba(0, 0, 0, 0.03) 0%, transparent 50%),
@@ -79,12 +79,12 @@
   }
 
   .dropcap::first-letter {
-    font-family: 'Playfair Display', serif;
-    font-weight: 900;
-    font-size: 68px;
+    font-family: 'Jersey 10', sans-serif;
+    font-weight: 400;
+    font-size: 78px;
     float: left;
-    line-height: 0.85;
-    padding: 6px 8px 0 0;
+    line-height: 0.7;
+    padding: 8px 10px 0 0;
     color: var(--forest);
   }
 

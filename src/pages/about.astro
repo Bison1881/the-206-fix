@@ -1,0 +1,89 @@
+---
+// src/pages/about.astro
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { YOUTUBE_URL } from '../config';
+---
+
+<BaseLayout
+  title="About — The 206 Fix"
+  description="What The 206 Fix is: a Seattle sports paper and retro gaming channel, built for the long view and the games we grew up on."
+  activeNav=""
+>
+  <section class="border-b-4 border-double border-ink py-10">
+    <div class="container-fix">
+      <div class="kicker mb-2">The Masthead</div>
+      <h1 class="font-display font-black text-[64px] leading-none tracking-[-0.02em] text-ink max-md:text-[44px]">
+        About The 206 Fix
+      </h1>
+      <p class="font-caslon italic text-[22px] text-slate mt-4 max-w-[680px]">
+        A Seattle sports paper with a pixel heart. A companion to the games we play and the games we grew up on.
+      </p>
+    </div>
+  </section>
+
+  <section class="py-12">
+    <div class="container-fix max-w-[760px]">
+      <div class="prose-about font-body text-[18px] leading-[1.7]">
+        <p class="dropcap">
+          The 206 Fix started as two things that turned out to be one thing. A YouTube channel running quiet, no-commentary retro sports games. And the itch to write about Seattle sports again, the way the old blogs used to, before everything became a hot take with a countdown clock.
+        </p>
+
+        <p>
+          This site is the paper. The channel is the broadcast. They point at each other on purpose.
+        </p>
+
+        <h2>What you'll find here</h2>
+
+        <p>
+          Three layers, stacked like a real front page. There's the wire: aggregated Seattle sports news pulled from the best local writers and rumor desks, refreshed through the day so the front page is never stale. There's the desk: original columns, written slowly and deliberately, taking the long view on the Seahawks, Mariners, Kraken, and the Sonics we are still waiting on. And there's the arcade: retro gaming coverage that ties back to the channel, where the point is to watch the game the way we used to, with the score in the corner and nobody talking over it.
+        </p>
+
+        <h2>Why no commentary</h2>
+
+        <p>
+          Because something got lost. Sports broadcasts keep getting louder, faster, and more processed than they need to be. The channel is a small argument that you can just watch. One team, one season, the eight-bit field, and the quiet. The writing here is the other half of that argument, made in words instead of silence.
+        </p>
+
+        <h2>Why Seattle</h2>
+
+        <p>
+          Because it is a sports town that has been told more than once that it isn't, and has been right every time. The Sonics left in 2008 and the love went underground rather than away. Now the green and gold are being written back into the calendar for 2028-29, and a city is rehearsing a homecoming. We intend to be here for it, and established by the time it arrives.
+        </p>
+
+        <h2>Who writes this</h2>
+
+        <p>
+          For now, the byline is the area code. The writing matters more than the name attached to it, and the name can come later. What you need to know is the posture: long view over hot take, the game over the noise, and a Pacific Northwest stubbornness about all of it.
+        </p>
+      </div>
+
+      <div class="mt-12 pt-8 border-t border-ink flex flex-wrap gap-5 justify-between items-center">
+        <a href="/" class="font-pixel text-rust text-[18px] hover:text-forest">&laquo; Front Page</a>
+        <a href={YOUTUBE_URL} target="_blank" rel="noopener noreferrer" class="font-pixel text-[18px] bg-rust text-cream px-6 py-3 hover:bg-forest transition-colors">
+          Watch on YouTube &#9654;
+        </a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style is:global>
+  .prose-about p { margin-bottom: 1.3em; }
+  .prose-about h2 {
+    font-family: 'Jersey 10', sans-serif;
+    font-weight: 800;
+    font-size: 28px;
+    margin-top: 1.8em;
+    margin-bottom: 0.5em;
+    color: var(--forest);
+  }
+  .prose-about .dropcap::first-letter {
+    font-family: 'Jersey 10', sans-serif;
+    font-weight: 900;
+    font-size: 64px;
+    float: left;
+    line-height: 0.85;
+    padding: 6px 8px 0 0;
+    color: var(--forest);
+  }
+</style>

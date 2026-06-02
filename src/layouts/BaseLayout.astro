@@ -4,6 +4,7 @@ import '../styles/global.css';
 import TopStrip from '../components/TopStrip.astro';
 import Masthead from '../components/Masthead.astro';
 import Nav from '../components/Nav.astro';
+import Ticker from '../components/Ticker.astro';
 import Footer from '../components/Footer.astro';
 
 interface Props {
@@ -36,6 +37,7 @@ const {
     <TopStrip />
     <Masthead />
     <Nav active={activeNav} />
+    <Ticker />
     <main>
       <slot />
     </main>

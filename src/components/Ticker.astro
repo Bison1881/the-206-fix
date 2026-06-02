@@ -1,0 +1,119 @@
+---
+// src/components/Ticker.astro
+import { TICKER_ITEMS } from '../data/ticker';
+
+const labelFor = {
+  score: 'SCORE',
+  headline: 'LATEST',
+  note: '\u25B6',
+};
+
+const colorFor = {
+  score: 'text-fog',
+  headline: 'text-rust',
+  note: 'text-cream/60',
+};
+
+// Duplicate the list so the marquee loops seamlessly.
+const loop = [...TICKER_ITEMS, ...TICKER_ITEMS];
+---
+
+<div class="ticker" aria-label="Latest scores and headlines">
+  <div class="ticker-tag font-mast">THE WIRE</div>
+  <div class="ticker-viewport">
+    <div class="ticker-track">
+      {loop.map((item) => (
+        <span class="ticker-item">
+          <span class:list={['ticker-label font-mast', colorFor[item.kind]]}>{labelFor[item.kind]}</span>
+          <span class="ticker-text font-ticker">{item.text}</span>
+          <span class="ticker-sep">&#9670;</span>
+        </span>
+      ))}
+    </div>
+  </div>
+</div>
+
+<style>
+  .ticker {
+    background: var(--ink);
+    border-bottom: 2px solid var(--rust);
+    display: flex;
+    align-items: stretch;
+    overflow: hidden;
+  }
+
+  .ticker-tag {
+    background: var(--rust);
+    color: var(--cream);
+    font-size: 9px;
+    letter-spacing: 0.05em;
+    display: flex;
+    align-items: center;
+    padding: 0 14px;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  .ticker-viewport {
+    overflow: hidden;
+    flex: 1;
+    position: relative;
+  }
+
+  .ticker-track {
+    display: inline-flex;
+    align-items: center;
+    white-space: nowrap;
+    will-change: transform;
+    animation: ticker-scroll 60s linear infinite;
+    padding: 7px 0;
+  }
+
+  .ticker-viewport:hover .ticker-track {
+    animation-play-state: paused;
+  }
+
+  .ticker-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0 4px;
+  }
+
+  .ticker-label {
+    font-size: 8px;
+    letter-spacing: 0.05em;
+    padding: 2px 0;
+  }
+
+  .ticker-text {
+    color: var(--cream);
+    font-size: 22px;
+    line-height: 1;
+    letter-spacing: 0.02em;
+  }
+
+  .ticker-sep {
+    color: var(--rust);
+    font-size: 9px;
+    padding: 0 14px;
+  }
+
+  @keyframes ticker-scroll {
+    from { transform: translateX(0); }
+    to   { transform: translateX(-50%); }
+  }
+
+  /* Accessibility: stop motion for users who prefer reduced motion */
+  @media (prefers-reduced-motion: reduce) {
+    .ticker-track {
+      animation: none;
+      transform: translateX(0);
+      /* Let them scroll it manually instead of autoplaying */
+      overflow-x: auto;
+    }
+    .ticker-viewport {
+      overflow-x: auto;
+    }
+  }
+</style>
