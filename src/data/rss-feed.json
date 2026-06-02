@@ -1,14 +1,99 @@
 {
-  "generatedAt": "2026-06-01T23:25:26.192Z",
+  "generatedAt": "2026-06-02T03:38:22.996Z",
   "sourceCount": 7,
-  "successfulSources": 6,
-  "failedSources": [
-    {
-      "source": "Seattle Times Sports",
-      "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
-    }
-  ],
+  "successfulSources": 7,
+  "failedSources": [],
   "items": [
+    {
+      "title": "Photos: Mets at Mariners",
+      "link": "https://www.seattletimes.com/photo-video/photography/photos-mets-at-mariners-2/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Mon, 01 Jun 2026 19:54:19 -0700",
+      "isoDate": "2026-06-02T02:54:19.000Z",
+      "excerpt": "",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Aziaha James scores 18 off bench as Wings beat Storm 79-56",
+      "link": "https://sports.mynorthwest.com/wnba/seattle-storm/aziaha-james-18-off-bench-dallas-wings-seattle-storm-79-56",
+      "pubDate": "Tue, 02 Jun 2026 02:53:35 +0000",
+      "isoDate": "2026-06-02T02:53:35.000Z",
+      "excerpt": "Aziaha James scored 18 points off the bench, Paige Bueckers had 10 points, nine rebounds and seven assists and the Dallas Wings beat the Seattle Storm 79-56 on Monday night.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Hall of Fame NBA coach Rick Adelman dies at 79",
+      "link": "https://sports.mynorthwest.com/seattle-sports-pit/hall-of-fame-nba-coach-rick-adelman-dies-at-79",
+      "pubDate": "Tue, 02 Jun 2026 02:36:09 +0000",
+      "isoDate": "2026-06-02T02:36:09.000Z",
+      "excerpt": "The Basketball Hall of Fame inductee played for seven NBA seasons before becoming one of the game’s all-time winningest coaches.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Seattle Storm’s struggling offense hits new low in loss to Wings",
+      "link": "https://www.seattletimes.com/sports/storm/seattle-storms-struggling-offense-hits-new-low-in-loss-to-wings/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Mon, 01 Jun 2026 19:19:26 -0700",
+      "isoDate": "2026-06-02T02:19:26.000Z",
+      "excerpt": "The Storm once again couldn’t get their offense on track and lost their third straight — a 79-56 road defeat to the Wings on Monday.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "AL West: Athletics pitchers struggle in temporary home ballpark",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/al-west-athletics-pitchers-struggle-in-temporary-home-ballpark",
+      "pubDate": "Tue, 02 Jun 2026 02:16:01 +0000",
+      "isoDate": "2026-06-02T02:16:01.000Z",
+      "excerpt": "The A’s went 1-5 on their most recent homestand, allowing 47 runs against the Mariners and Yankees in what has become a pattern in the team’s waystation before moving to Las Vegas.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Cal Raleigh takes positive next step in rehab for Seattle Mariners",
+      "link": "https://www.seattletimes.com/sports/mariners/cal-raleigh-takes-positive-next-step-in-rehab-for-seattle-mariners/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Mon, 01 Jun 2026 19:11:00 -0700",
+      "isoDate": "2026-06-02T02:11:00.000Z",
+      "excerpt": "Cal Raleigh was clearly in good spirits on Monday before the Mariners faced the Mets and offered another encouraging update in his recovery from a right oblique strain.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Mike Leach heads College Football Hall of Fame ballot",
+      "link": "https://sports.mynorthwest.com/ncaa/wsu/mike-leach-heads-college-football-hall-of-fame-ballot",
+      "pubDate": "Tue, 02 Jun 2026 01:54:22 +0000",
+      "isoDate": "2026-06-02T01:54:22.000Z",
+      "excerpt": "The eccentric and revolutionary offensive savant whose teams set dozens of scoring and passing records over his 21-year head coaching career.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Mariners Game #61 Preview and Discussion: 6/1/26, NYM at SEA",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-game-information/144254/mariners-game-61-preview-and-discussion-6-1-26-nym-at-sea",
+      "pubDate": "2026-06-02T01:30:20.000Z",
+      "isoDate": "2026-06-02T01:30:20.000Z",
+      "excerpt": "May 20, 2026; Seattle, Washington, USA; Seattle Mariners starter Emerson Hancock (26) delivers a pitch during the second inning against the Chicago White Sox at T-Mobile Park. Mandatory Credit: Stephen Brashear-Imagn...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Rams boost Super Bowl hopes with Myles Garrett trade, and Seahawks shouldn’t care",
+      "link": "https://www.seattletimes.com/sports/seahawks/rams-boost-super-bowl-hopes-with-myles-garrett-trade-and-seahawks-shouldnt-care/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Mon, 01 Jun 2026 17:37:48 -0700",
+      "isoDate": "2026-06-02T00:37:48.000Z",
+      "excerpt": "After trading for NFL Defensive Player of the Year Myles Garrett, the Rams are clear Super Bowl favorites. But judging by history, the Seahawks shouldn't care.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
     {
       "title": "Schatz: Rams’ win-now approach makes their draft strategy baffling",
       "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/schatz-rams-win-now-approach-makes-draft-strategy-baffling-myles-garrett-ty-simpson",
@@ -18,6 +103,16 @@
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
+    },
+    {
+      "title": "Former WSU coach Mike Leach lands on 2027 NFF Hall of Fame ballot",
+      "link": "https://www.seattletimes.com/sports/wsu-cougar-football/former-wsu-coach-mike-leach-lands-on-2027-nff-hall-of-fame-ballot/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Mon, 01 Jun 2026 15:22:01 -0700",
+      "isoDate": "2026-06-01T22:22:01.000Z",
+      "excerpt": "For the first time, former WSU coach Mike Leach is on the ballot for the National Football Foundation College Football Hall of Fame.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
     },
     {
       "title": "Mariners-Mets Series Preview: Probables, Game 1 lineups and more",
@@ -50,6 +145,16 @@
       "priority": 6
     },
     {
+      "title": "On Sonics’ NBA title anniversary, fans can root for expansion — and Seattle’s Mitch Johnson",
+      "link": "https://www.seattletimes.com/sports/sonics/on-anniversary-of-sonics-nba-title-heres-an-update-on-expansion-talks/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Mon, 01 Jun 2026 13:49:29 -0700",
+      "isoDate": "2026-06-01T20:49:29.000Z",
+      "excerpt": "It's the 47th anniversary of the Sonics' 1979 championship. So let's revisit where things stand on a possible return and a Seattle connection in this year's NBA Finals.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
       "title": "No doubt: Julio gives red-hot Mariners what they need",
       "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/julio-rodriguez-seattle-mariners-what-they-need",
       "pubDate": "Mon, 01 Jun 2026 20:46:44 +0000",
@@ -58,6 +163,26 @@
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
+    },
+    {
+      "title": "Russell Wilson’s polarizing personality doesn’t negate Seahawks achievements",
+      "link": "https://www.seattletimes.com/sports/seahawks/russell-wilsons-polarizing-personality-doesnt-negate-seahawks-achievements/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Mon, 01 Jun 2026 13:33:15 -0700",
+      "isoDate": "2026-06-01T20:33:15.000Z",
+      "excerpt": "QB Russell Wilson reportedly is set to join CBS Sports, and he should be remembered as an all-time great Seahawk worthy of the Pro Football Hall of Fame.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Washington Husky baseball team loses top player Jackson Hotchkiss to transfer portal",
+      "link": "https://www.seattletimes.com/sports/uw-huskies/washington-husky-baseball-team-loses-top-player-jackson-hotchkiss-to-transfer-portal/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Mon, 01 Jun 2026 13:15:11 -0700",
+      "isoDate": "2026-06-01T20:15:11.000Z",
+      "excerpt": "UW outfielder and first-team All-Big Ten selection Jackson Hotchkiss is reportedly entering the transfer portal.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
     },
     {
       "title": "Russell Wilson joins NFL on CBS team as analyst",
@@ -75,26 +200,6 @@
       "pubDate": "Mon, 01 Jun 2026 18:38:45 +0000",
       "isoDate": "2026-06-01T18:38:45.000Z",
       "excerpt": "\"The West just got that much tougher,\" Michael Bumpus said of the Rams' stunning move.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "LA Rams reportedly swing blockbuster trade for Myles Garrett",
-      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/la-rams-blockbuster-trade-myles-garrett",
-      "pubDate": "Mon, 01 Jun 2026 18:31:32 +0000",
-      "isoDate": "2026-06-01T18:31:32.000Z",
-      "excerpt": "Cleveland will acquire pass rusher and linebacker Jared Verse — the 2024 AP NFL Defensive Rookie of the Year — a 2027 first-round selection and other draft picks that are still being worked out.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "Amid push for NBA, Kraken ownership adds Melinda French Gates",
-      "link": "https://sports.mynorthwest.com/nhl/seattle-kraken/seattle-kraken-ownership-melinda-french-gates-nba-seattle-sonics-expansion",
-      "pubDate": "Mon, 01 Jun 2026 18:14:40 +0000",
-      "isoDate": "2026-06-01T18:14:40.000Z",
-      "excerpt": "The Seattle Kraken are adding Melinda French Gates as a minority investor, per ESPN, at the same time the team's umbrella brand is preparing a bid for an expansion NBA Seattle Sonics franchise.",
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
@@ -120,16 +225,6 @@
       "priority": 1
     },
     {
-      "title": "MLB Spotlight: Mariners use pitching, power to top AL West",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/mlb-spotlight-seattle-mariners-pitching-power-top-al-west",
-      "pubDate": "Mon, 01 Jun 2026 17:39:31 +0000",
-      "isoDate": "2026-06-01T17:39:31.000Z",
-      "excerpt": "The AL West may have missed its chance to leave the Seattle Mariners behind.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
       "title": "How ya like them apples?: Mets vs. Mariners Series Preview",
       "link": "https://www.lookoutlanding.com/seattle-mariners-game-information/144219/how-ya-like-them-apples-mets-vs-mariners-series-preview",
       "pubDate": "2026-06-01T17:39:00.000Z",
@@ -148,16 +243,6 @@
       "source": "Lookout Landing",
       "team": "mariners",
       "priority": 1
-    },
-    {
-      "title": "Report: Russell Wilson finalizing deal to be CBS Sports analyst",
-      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/report-russell-wilson-finalizing-deal-cbs-sports-analyst-seattle-seahawks",
-      "pubDate": "Mon, 01 Jun 2026 16:34:32 +0000",
-      "isoDate": "2026-06-01T16:34:32.000Z",
-      "excerpt": "The former Seahawks star QB is reportedly hanging up his cleats and entering the broadcast booth.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
     },
     {
       "title": "Stream Mariners games on Mariners.TV for NEW low price of $74.99",
@@ -288,16 +373,6 @@
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
-    },
-    {
-      "title": "Mariners Game #60 Preview and Discussion, 5/31/26: SEA vs. ARI",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-discussion/144171/mariners-game-60-preview-and-discussion-5-31-26-sea-vs-ari",
-      "pubDate": "2026-05-31T18:53:39.000Z",
-      "isoDate": "2026-05-31T18:53:39.000Z",
-      "excerpt": "SEATTLE, WASHINGTON - JUNE 14: Luis Castillo #58 and Bryce Miller #50 of the Seattle Mariners react during the game against the Texas Rangers at T-Mobile Park on June 14, 2024 in Seattle, Washington. (Photo by Steph...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
     },
     {
       "title": "ESPN analyst: Seahawks worst offseason move is ‘not doing more to upgrade the offensive line’",
