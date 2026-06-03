@@ -1,9 +1,29 @@
 {
-  "generatedAt": "2026-06-03T08:52:36.148Z",
+  "generatedAt": "2026-06-03T14:26:14.126Z",
   "sourceCount": 10,
   "successfulSources": 10,
   "failedSources": [],
   "items": [
+    {
+      "title": "Seattle Torrent Sign Alex Carpenter, Protect Her From Expansion Thieves",
+      "link": "https://www.davyjoneslockerroom.com/seattle-torrent-sign-alex-carpenter-protect-her-from-expansion-thieves/",
+      "pubDate": "Wed, 03 Jun 2026 14:00:00 +0000",
+      "isoDate": "2026-06-03T14:00:00.000Z",
+      "excerpt": "The Seattle Torrent re-signed forward Alex Carpenter to a 3-year PWHL Standard Player Agreement on June 2, keeping one of the franchise’s foundational pieces through 2028-29 and committing one of the team’s 3 protection...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
+      "title": "Will Russell Wilson succeed as an NFL analyst? Brock Huard has some advice",
+      "link": "https://www.seattletimes.com/sports/seahawks/will-russell-wilson-succeed-as-an-nfl-analyst-brock-huard-has-some-advice/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Wed, 03 Jun 2026 06:00:00 -0700",
+      "isoDate": "2026-06-03T13:00:00.000Z",
+      "excerpt": "Russell Wilson is pivoting to the broadcast booth. Brock Huard, who has succeeded as an analyst, has some advice for the former Seahawks QB.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
     {
       "title": "Red-hot Mariners ride offense to eighth consecutive win",
       "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/144311/red-hot-mariners-ride-offense-to-eighth-consecutive-win",
@@ -85,7 +105,7 @@
       "priority": 2
     },
     {
-      "title": "Artist sues FIFA over destruction of whale mural before World Cup",
+      "title": "Artist suing FIFA over destruction of Dallas whale mural before World Cup",
       "link": "https://www.seattletimes.com/nation-world/nation/artist-sues-fifa-over-destruction-of-whale-mural-before-world-cup/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
       "pubDate": "Tue, 02 Jun 2026 21:06:10 -0700",
       "isoDate": "2026-06-03T04:06:10.000Z",
@@ -250,16 +270,6 @@
       "pubDate": "Tue, 02 Jun 2026 10:49:08 -0700",
       "isoDate": "2026-06-02T17:49:08.000Z",
       "excerpt": "The Torrent re-signed their leading goal scorer, announcing they had inked forward Alex Carpenter to a three-year deal.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Have you traveled to past World Cups? Tell us about it",
-      "link": "https://www.seattletimes.com/seattle-news/have-you-traveled-to-past-world-cups-tell-us-about-it/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Tue, 02 Jun 2026 10:20:44 -0700",
-      "isoDate": "2026-06-02T17:20:44.000Z",
-      "excerpt": "We'd like to hear from people in the Seattle area who have traveled to previous World Cups.",
       "source": "Seattle Times Sports",
       "team": "general",
       "priority": 1
@@ -593,16 +603,6 @@
       "source": "Davy Jones' Locker Room",
       "team": "kraken",
       "priority": 1
-    },
-    {
-      "title": "MLBTR Podcast: Colt Emerson Debuts, Blue Jays’ Rotation Issues, And What To Make Of The Mets And Astros",
-      "link": "https://www.mlbtraderumors.com/2026/05/mlbtr-podcast-colt-emerson-debuts-blue-jays-rotation-issues-and-what-to-make-of-the-mets-and-astros.html",
-      "pubDate": "Thu, 21 May 2026 04:00:16 +0000",
-      "isoDate": "2026-05-21T04:00:16.000Z",
-      "excerpt": "The latest episode of the MLB Trade Rumors Podcast is now live on Spotify, Apple Podcasts, and wherever you get your podcasts! Make sure you subscribe as well! You can also use the player at this link to listen, if you...",
-      "source": "MLB Trade Rumors",
-      "team": "mariners",
-      "priority": 2
     }
   ]
 }
