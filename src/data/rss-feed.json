@@ -1,14 +1,84 @@
 {
-  "generatedAt": "2026-06-04T16:52:35.252Z",
+  "generatedAt": "2026-06-04T20:01:54.392Z",
   "sourceCount": 10,
   "successfulSources": 9,
   "failedSources": [
     {
       "source": "Seattle Times Sports",
-      "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
+      "error": "Status code 403 (lenient retry: Status code 403)"
     }
   ],
   "items": [
+    {
+      "title": "Mariners announce Alumni Home Run Derby for August 7th",
+      "link": "https://www.lookoutlanding.com/general/144410/mariners-announce-alumni-home-run-derby-for-august-7th",
+      "pubDate": "2026-06-04T19:46:48.000Z",
+      "isoDate": "2026-06-04T19:46:48.000Z",
+      "excerpt": "OAKLAND - JULY 28: Bucky Jacobsen #33 of the Seattle Mariners poses prior to the MLB game against the Oakland A's at the Network Associates Coliseum on July 28, 2004. The Athletics defeated the Mariners 3-2. (Photo by...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Ichiro, Cameron lead group of participants for Mariners Alumni Home Run Derby",
+      "link": "https://www.mlb.com/mariners/news/ichiro-suzuki-mike-cameron-to-compete-in-mariners-alumni-home-run-derby",
+      "pubDate": "Thu, 04 Jun 2026 19:07:30 GMT",
+      "isoDate": "2026-06-04T19:07:30.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Seahawks OTAs news: Anthony Bradford leaves practice early with minor knee injury",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-injury-report/169272/anthony-bradford-leaves-seahawks-otas-early-minor-knee-injury-nfl-news",
+      "pubDate": "2026-06-04T18:34:23.000Z",
+      "isoDate": "2026-06-04T18:34:23.000Z",
+      "excerpt": "SEATTLE, WA - JANUARY 25: Anthony Bradford #75 of the Seattle Seahawks blocks during the NFC Championship game against the Los Angeles Rams on January 25, 2026 at Lumen Field in Seattle, Washington. (Photo by Joe...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
+    {
+      "title": "It&#8217;s getting crowded at T-Mobile Park",
+      "link": "https://www.lookoutlanding.com/t-mobile-park/144397/its-getting-crowded-at-t-mobile-park",
+      "pubDate": "2026-06-04T18:20:27.000Z",
+      "isoDate": "2026-06-04T18:20:27.000Z",
+      "excerpt": "Oct 4, 2025; Seattle, Washington, USA; Former Seattle Sonics Gary Payton hypes up the crowd before the game between the Seattle Mariners and the Detroit Tigers during game one of the ALDS round for the 2025 MLB playoffs...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Ichiro to headline Mariners Alumni Home Run Derby at T-Mobile Park",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-alumni-home-run-derby",
+      "pubDate": "Thu, 04 Jun 2026 18:01:21 +0000",
+      "isoDate": "2026-06-04T18:01:21.000Z",
+      "excerpt": "Ken Griffey Jr. will serve as the Mariners Alumni Derby commissioner, while Nelson Cruz and Jay Buhner will captain the two teams.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Emerson earning A+ for effort early in rookie season",
+      "link": "https://www.mlb.com/mariners/news/colt-emerson-hustle-effort-impressing-mariners",
+      "pubDate": "Thu, 04 Jun 2026 17:44:00 GMT",
+      "isoDate": "2026-06-04T17:44:00.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Mike Macdonald’s reaction to Seahawks on Hard Knocks: ‘Good’",
+      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/mike-macdonald-seattle-seahawks-hard-knocks-good",
+      "pubDate": "Thu, 04 Jun 2026 17:28:58 +0000",
+      "isoDate": "2026-06-04T17:28:58.000Z",
+      "excerpt": "\"Let's just focus on being us. I think it's that simple,\" Mike Macdonald said of the Seahawks being featured on the documentary series.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
     {
       "title": "The Mariners’ top AL West competition is changing",
       "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-texas-rangers-al-west-competition",
@@ -48,16 +118,6 @@
       "source": "Davy Jones' Locker Room",
       "team": "kraken",
       "priority": 1
-    },
-    {
-      "title": "Emerson earning A+ for effort early in rookie season",
-      "link": "https://www.mlb.com/mariners/news/colt-emerson-hustle-effort-impressing-mariners",
-      "pubDate": "Thu, 04 Jun 2026 15:18:27 GMT",
-      "isoDate": "2026-06-04T15:18:27.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
     },
     {
       "title": "The undrafted rookie trying to crack the Seahawks’ deepest position group",
@@ -110,16 +170,6 @@
       "priority": 3
     },
     {
-      "title": "Can J-Rod earn his first All-Star Game start?",
-      "link": "https://www.mlb.com/mariners/news/mlb-all-star-ballot-2026-storylines",
-      "pubDate": "Thu, 04 Jun 2026 04:51:08 GMT",
-      "isoDate": "2026-06-04T04:51:08.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
-    },
-    {
       "title": "Phoenix Mercury hold off Seattle Storm 72-68 to end 7-game skid",
       "link": "https://sports.mynorthwest.com/wnba/seattle-storm/phoenix-mercury-hold-off-seattle-storm-72-68-to-end-7-game-skid",
       "pubDate": "Thu, 04 Jun 2026 04:40:53 +0000",
@@ -170,7 +220,7 @@
       "priority": 6
     },
     {
-      "title": "Thank You, Russell Wilson",
+      "title": "Russell Wilson Says Thank You To Football, Announces Move To Television",
       "link": "https://www.seahawks.com/news/seattle-seahawks-russell-wilson-retirement-tribute",
       "pubDate": "Thu, 04 Jun 2026 00:10:25 GMT",
       "isoDate": "2026-06-04T00:10:25.000Z",
@@ -220,16 +270,6 @@
       "priority": 3
     },
     {
-      "title": "MLB Commissioner worries salary cap proposal could lead to strike",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/mlb-commissioner-worries-salary-cap-proposal-could-lead-to-strike",
-      "pubDate": "Wed, 03 Jun 2026 22:39:30 +0000",
-      "isoDate": "2026-06-03T22:39:30.000Z",
-      "excerpt": "Owners last week made their first cap proposal since 1994, when a 7 1/2-month strike caused the cancellation of the World Series for the first time in 90 years.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
       "title": "33-30: Chart",
       "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/144384/33-30-chart",
       "pubDate": "2026-06-03T22:17:52.000Z",
@@ -238,16 +278,6 @@
       "source": "Lookout Landing",
       "team": "mariners",
       "priority": 1
-    },
-    {
-      "title": "Two sons of former Seattle Sonics square off in NBA Finals",
-      "link": "https://sports.mynorthwest.com/seattle-sports-pit/nba-finals-sons-seattle-sonics-jalen-brunson-mitch-johnson",
-      "pubDate": "Wed, 03 Jun 2026 20:23:11 +0000",
-      "isoDate": "2026-06-03T20:23:11.000Z",
-      "excerpt": "San Antonio Spurs head coach and O'Dea product Mitch Johnson isn't the only key figure in the NBA Finals with Seattle Sonics ties.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
     },
     {
       "title": "Latest Mariners injuries and transactions",
@@ -337,36 +367,6 @@
       "excerpt": "The Seattle Torrent re-signed forward Alex Carpenter to a 3-year PWHL Standard Player Agreement on June 2, keeping one of the franchise’s foundational pieces through 2028-29 and committing one of the team’s 3 protection...",
       "source": "Davy Jones' Locker Room",
       "team": "kraken",
-      "priority": 1
-    },
-    {
-      "title": "Seahawks News 6/3: Seahawks fortify future with signing of Derick Hall",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169184/seahawks-news-6-3-seahawks-fortify-future-with-signing-of-derick-hall",
-      "pubDate": "2026-06-03T13:00:00.000Z",
-      "isoDate": "2026-06-03T13:00:00.000Z",
-      "excerpt": "SANTA CLARA, CALIFORNIA - FEBRUARY 08: Derick Hall #58 of the Seattle Seahawks reacts after a sack against the New England Patriots during the first quarter Super Bowl LX at Levi's Stadium on February 08, 2026 in Santa...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "Red-hot Mariners ride offense to eighth consecutive win",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/144311/red-hot-mariners-ride-offense-to-eighth-consecutive-win",
-      "pubDate": "2026-06-03T06:28:05.000Z",
-      "isoDate": "2026-06-03T06:28:05.000Z",
-      "excerpt": "Jun 2, 2026; Seattle, Washington, USA; Seattle Mariners catcher Jhonny Pereda (5) hits a 3-run home run against the New York Mets during the fifth inning at T-Mobile Park. Mandatory Credit: Steven Bisig-Imagn Images |...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "33-29: Chart",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/144309/33-29-chart",
-      "pubDate": "2026-06-03T04:29:22.000Z",
-      "isoDate": "2026-06-03T04:29:22.000Z",
-      "excerpt": "Jun 2, 2026; Seattle, Washington, USA; Seattle Mariners catcher Jhonny Pereda (5) runs the bases after hitting a 3-run home run against the New York Mets during the fifth inning at T-Mobile Park. Mandatory Credit:...",
-      "source": "Lookout Landing",
-      "team": "mariners",
       "priority": 1
     },
     {
