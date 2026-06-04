@@ -1,9 +1,79 @@
 {
-  "generatedAt": "2026-06-04T03:40:44.060Z",
+  "generatedAt": "2026-06-04T08:18:12.577Z",
   "sourceCount": 10,
   "successfulSources": 10,
   "failedSources": [],
   "items": [
+    {
+      "title": "Brock & Salk: 2 ways Seahawks can combat Rams’ bold additions",
+      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/2-ways-seattle-seahawks-can-combat-rams-bold-additions",
+      "pubDate": "Thu, 04 Jun 2026 07:12:09 +0000",
+      "isoDate": "2026-06-04T07:12:09.000Z",
+      "excerpt": "Brock and Salk view continuity and depth as Seattle's path to countering the Rams.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Can J-Rod earn his first All-Star Game start?",
+      "link": "https://www.mlb.com/mariners/news/mlb-all-star-ballot-2026-storylines",
+      "pubDate": "Thu, 04 Jun 2026 04:51:08 GMT",
+      "isoDate": "2026-06-04T04:51:08.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Phoenix Mercury hold off Seattle Storm 72-68 to end 7-game skid",
+      "link": "https://sports.mynorthwest.com/wnba/seattle-storm/phoenix-mercury-hold-off-seattle-storm-72-68-to-end-7-game-skid",
+      "pubDate": "Thu, 04 Jun 2026 04:40:53 +0000",
+      "isoDate": "2026-06-04T04:40:53.000Z",
+      "excerpt": "Natasha Mack scored a career-high 16 points to go with 10 rebounds, and Kahleah Copper also had 16 points.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Russell Wilson Announces Retirement",
+      "link": "https://www.profootballrumors.com/2026/06/russell-wilson-announces-retirement",
+      "pubDate": "Thu, 04 Jun 2026 04:30:09 +0000",
+      "isoDate": "2026-06-04T04:30:09.000Z",
+      "excerpt": "On Monday, it was reported Russell Wilson would spend the 2026 season as an analyst for CBS. That news obviously suggested his playing days were over, and that has now been confirmed. On Wednesday, Wilson posted a video...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
+      "priority": 2
+    },
+    {
+      "title": "Awa Fam dazzles in first WNBA start, but Seattle Storm fall to Phoenix Mercury",
+      "link": "https://www.seattletimes.com/sports/storm/awa-fam-dazzles-in-first-wnba-start-but-seattle-storm-fall-to-phoenix-mercury/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Wed, 03 Jun 2026 21:26:10 -0700",
+      "isoDate": "2026-06-04T04:26:10.000Z",
+      "excerpt": "No. 3 overall pick Awa Fam made her first WNBA start Wednesday and shined with a game-high 18 points in the Storm's 72-68 loss to the Mercury.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Next Mariner up: Club's No. 5 prospect the latest to notch 2-HR game at Double-A",
+      "link": "https://www.mlb.com/mariners/news/mariners-michael-arroyo-two-homers-five-rbi-double-a",
+      "pubDate": "Thu, 04 Jun 2026 04:23:00 GMT",
+      "isoDate": "2026-06-04T04:23:00.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Photos: Seattle Storm lose to Phoenix Mercury, 72-68",
+      "link": "https://www.seattletimes.com/sports/storm/photos-seattle-storm-take-on-phoenix-mercury-2/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Wed, 03 Jun 2026 20:59:26 -0700",
+      "isoDate": "2026-06-04T03:59:26.000Z",
+      "excerpt": "",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
     {
       "title": "Derick Hall Signed Contract Extension Wednesday: 'This Place Is Really Special To Me'",
       "link": "https://www.seahawks.com/news/derick-hall-signed-contract-extension-wednesday-this-place-is-really-special-to-me",
@@ -95,34 +165,14 @@
       "priority": 1
     },
     {
-      "title": "George Kirby buried by the ground, Mariners lose first game in a while",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/144390/george-kirby-buried-by-the-ground-mariners-lose-first-game-in-a-while",
-      "pubDate": "2026-06-03T23:45:43.000Z",
-      "isoDate": "2026-06-03T23:45:43.000Z",
-      "excerpt": "SEATTLE, WASHINGTON - JUNE 03: George Kirby #68 of the Seattle Mariners looks on after Juan Soto #22 of the New York Mets stole second base during the fourth inning at T-Mobile Park on June 03, 2026 in Seattle,...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "Russell Wilson Announces Retirement",
-      "link": "https://www.profootballrumors.com/2026/06/russell-wilson-announces-retirement",
-      "pubDate": "Wed, 03 Jun 2026 23:42:09 +0000",
-      "isoDate": "2026-06-03T23:42:09.000Z",
-      "excerpt": "On Monday, it was reported Russell Wilson would spend the 2026 season as an analyst for CBS. That news obviously suggested his playing days were over, and that has now been confirmed. On Wednesday, Wilson posted a video...",
-      "source": "Pro Football Rumors",
+      "title": "‘Thank you, Football’ &#8211; Russell Wilson announces his retirement",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169231/thank-you-football-ex-seahawks-quarterback-russell-wilson-retires-nfl-new",
+      "pubDate": "2026-06-03T23:07:38.000Z",
+      "isoDate": "2026-06-03T23:07:38.000Z",
+      "excerpt": "EAST RUTHERFORD, NJ - FEBRUARY 02: Russell Wilson #3 of the Seattle Seahawks celebrates with the Vince Lombardi trophy after defeating the Denver Broncos 43-8 in Super Bowl XLVIII at MetLife Stadium on February 2, 2014...",
+      "source": "Field Gulls",
       "team": "seahawks",
-      "priority": 2
-    },
-    {
-      "title": "These are the hottest hitting prospects right now -- one for each team",
-      "link": "https://www.mlb.com/mariners/news/each-club-s-hottest-hitting-prospect-may-2026",
-      "pubDate": "Wed, 03 Jun 2026 23:08:00 GMT",
-      "isoDate": "2026-06-03T23:08:00.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
+      "priority": 1
     },
     {
       "title": "Storm’s Dominique Malonga takes big step in return from concussion",
@@ -175,36 +225,6 @@
       "priority": 3
     },
     {
-      "title": "Mariners’ winning streak ends in a sloppy loss to Mets",
-      "link": "https://www.seattletimes.com/sports/mariners/mariners-winning-streaks-ends-in-a-sloppy-loss-to-mets/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 03 Jun 2026 15:25:10 -0700",
-      "isoDate": "2026-06-03T22:25:10.000Z",
-      "excerpt": "The Mariners' thrilling eight-game winning streak ended with a dispirited, sloppy loss to the Mets on Wednesday.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "33-30: Chart",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/144384/33-30-chart",
-      "pubDate": "2026-06-03T22:17:52.000Z",
-      "isoDate": "2026-06-03T22:17:52.000Z",
-      "excerpt": "SEATTLE, WASHINGTON - JUNE 03: Manager Dan Wilson #6 of the Seattle Mariners argues a pitch clock violation with umpire Adam Beck #38 which resulted in a strikeout by Jhonny Pereda #5 during the fourth inning against...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "Photos: Mets at Mariners",
-      "link": "https://www.seattletimes.com/photo-video/photography/photos-mets-at-mariners-4/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 03 Jun 2026 14:45:32 -0700",
-      "isoDate": "2026-06-03T21:45:32.000Z",
-      "excerpt": "",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "Two sons of former Seattle Sonics square off in NBA Finals",
       "link": "https://sports.mynorthwest.com/seattle-sports-pit/nba-finals-sons-seattle-sonics-jalen-brunson-mitch-johnson",
       "pubDate": "Wed, 03 Jun 2026 20:23:11 +0000",
@@ -225,16 +245,6 @@
       "priority": 3
     },
     {
-      "title": "Mariners slugger Cal Raleigh set for rehab assignment",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-slugger-cal-raleigh-set-for-rehab-assignment",
-      "pubDate": "Wed, 03 Jun 2026 19:23:42 +0000",
-      "isoDate": "2026-06-03T19:23:42.000Z",
-      "excerpt": "Cal Raleigh will play with High-A Everett on Sunday before joining Triple-A Tacoma next week, per Shannon Drayer.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
       "title": "Latest Mariners injuries and transactions",
       "link": "https://www.mlb.com/mariners/news/mariners-injuries-and-roster-moves",
       "pubDate": "Wed, 03 Jun 2026 19:18:00 GMT",
@@ -245,16 +255,6 @@
       "priority": 6
     },
     {
-      "title": "Mariners Game #63 Preview and Discussion: NYM at SEA, 6/3",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-game-information/144375/mariners-game-63-preview-and-discussion-nym-at-sea-6-3",
-      "pubDate": "2026-06-03T19:00:00.000Z",
-      "isoDate": "2026-06-03T19:00:00.000Z",
-      "excerpt": "SEATTLE, WASHINGTON - JUNE 02: Julio Rodríguez #44 of the Seattle Mariners leads off first base against the New York Mets during the first inning at T-Mobile Park on June 02, 2026 in Seattle, Washington. (Photo by Steph...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
       "title": "VOTE NOW! Help make Mariners All-Star Game starters",
       "link": "https://www.mlb.com/all-star/ballot?affiliateID=asballot_sea_digital_2026",
       "pubDate": "Wed, 03 Jun 2026 18:13:55 GMT",
@@ -263,16 +263,6 @@
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
-    },
-    {
-      "title": "Mariners Lineup: Josh Naylor returns for series finale",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/mariners-lineup-josh-naylor-returns-for-series-finale",
-      "pubDate": "Wed, 03 Jun 2026 18:02:29 +0000",
-      "isoDate": "2026-06-03T18:02:29.000Z",
-      "excerpt": "Seattle will face one of its former pitching prospects in Wednesday's series finale with the Mets.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
     },
     {
       "title": "Colt Emerson, Ryan Sloan, and Kade Anderson headline five Mariners on Baseball America’s Top 100 prospect list",
@@ -355,16 +345,6 @@
       "priority": 1
     },
     {
-      "title": "Surge in Seattle as prodigious power sparking 8-game win streak",
-      "link": "https://www.mlb.com/mariners/news/mariners-homer-three-times-to-push-win-streak-to-eight",
-      "pubDate": "Wed, 03 Jun 2026 05:55:00 GMT",
-      "isoDate": "2026-06-03T05:55:00.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
-    },
-    {
       "title": "33-29: Chart",
       "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/144309/33-29-chart",
       "pubDate": "2026-06-03T04:29:22.000Z",
@@ -400,6 +380,16 @@
       "pubDate": "2026-06-03T01:01:05.000Z",
       "isoDate": "2026-06-03T01:01:05.000Z",
       "excerpt": "The Mariners are searching for their eighth consecutive victory, plus another series win. Logan Gilbert gets the ball for the penultimate game of the homestand. Over his last two starts, he has pitched a combined 11.2...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Emerson Hancock is sweeping and cutting his way to unpredictability",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-analysis/144249/emerson-hancock-is-sweeping-and-cutting-his-way-to-unpredictability",
+      "pubDate": "2026-06-02T18:49:03.000Z",
+      "isoDate": "2026-06-02T18:49:03.000Z",
+      "excerpt": "SEATTLE, WASHINGTON - JUNE 01: Emerson Hancock #26 of the Seattle Mariners pitches during the first inning against the New York Mets at T-Mobile Park on June 01, 2026 in Seattle, Washington. (Photo by Steph...",
       "source": "Lookout Landing",
       "team": "mariners",
       "priority": 1
@@ -445,6 +435,16 @@
       "priority": 1
     },
     {
+      "title": "Mariners News: Cole Young, Bailey Ober, and Pavin Smith",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-news/144264/cole-young-bailey-ober-pavin-smith-cal-raleigh-elly-de-la-cruz",
+      "pubDate": "2026-06-02T14:00:00.000Z",
+      "isoDate": "2026-06-02T14:00:00.000Z",
+      "excerpt": "Jun 1, 2026; Seattle, Washington, USA; Seattle Mariners second baseman Cole Young (2) receives a sports drink shower from shortstop J.P. Crawford (3) following a walk-off RBI-single against the New York Mets during the...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
       "title": "Melinda French Gates Becomes Minority Owner of the Seattle Kraken",
       "link": "https://www.davyjoneslockerroom.com/melinda-french-gates-becomes-minority-owner-of-the-seattle-kraken/",
       "pubDate": "Tue, 02 Jun 2026 14:00:00 +0000",
@@ -455,13 +455,13 @@
       "priority": 1
     },
     {
-      "title": "Seahawks News 6/2: The Seahawks are still better than the Rams",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169126/seahawks-news-5-2-the-seahawks-are-still-better-than-the-rams",
-      "pubDate": "2026-06-02T13:00:00.000Z",
-      "isoDate": "2026-06-02T13:00:00.000Z",
-      "excerpt": "SEATTLE, WASHINGTON - JANUARY 25: Jaxon Smith-Njigba #11 of the Seattle Seahawks catches the ball against Roger McCreary #25 of the Los Angeles Rams in the NFC Championship game at Lumen Field on January 25, 2026 in...",
-      "source": "Field Gulls",
-      "team": "seahawks",
+      "title": "Rating takes on the Mariners pitching rotation and the controversial “piggyback” approach",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-discussion/144273/rating-takes-on-the-mariners-pitching-rotation-and-the-controversial-piggyback-approach",
+      "pubDate": "2026-06-02T13:30:00.000Z",
+      "isoDate": "2026-06-02T13:30:00.000Z",
+      "excerpt": "ok, now kiss | Getty Images The hottest topic in Mariners-ville the last two weeks has been the decision by the Mariners front office to combine the starts of Luis Castillo and Bryce Miller into a “piggyback” start....",
+      "source": "Lookout Landing",
+      "team": "mariners",
       "priority": 1
     },
     {
