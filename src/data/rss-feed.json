@@ -1,14 +1,79 @@
 {
-  "generatedAt": "2026-06-04T20:01:54.392Z",
+  "generatedAt": "2026-06-04T23:06:56.370Z",
   "sourceCount": 10,
-  "successfulSources": 9,
-  "failedSources": [
-    {
-      "source": "Seattle Times Sports",
-      "error": "Status code 403 (lenient retry: Status code 403)"
-    }
-  ],
+  "successfulSources": 10,
+  "failedSources": [],
   "items": [
+    {
+      "title": "Jarran Reed reacts to champion Seahawks’ offseason disrespect",
+      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/jarran-reed-seattle-seahawks-disrespect-rams",
+      "pubDate": "Thu, 04 Jun 2026 22:05:42 +0000",
+      "isoDate": "2026-06-04T22:05:42.000Z",
+      "excerpt": "\"I just think that we should be respected more,\" the Seahawks' veteran defensive tackle told Bump and Stacy.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "With the SEC and Big Ten in opposition, the Protect College Sports Act creates unexpected alignment",
+      "link": "https://www.seattletimes.com/sports/washington-huskies-football/with-the-sec-and-big-ten-in-opposition-the-protect-college-sports-act-creates-unexpected-alignment/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Thu, 04 Jun 2026 14:33:40 -0700",
+      "isoDate": "2026-06-04T21:33:40.000Z",
+      "excerpt": "The Protect College Sports Act has created increasingly divergent paths between the Big Ten/SEC, the ACC/Big 12 and the Pac-12/Group of Six.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "WR Malachi Garlington commits to WSU football in big 2027 recruiting win",
+      "link": "https://www.seattletimes.com/sports/wsu-cougar-football/wr-malachi-garlington-commits-to-wsu-football-in-big-2027-recruiting-win/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Thu, 04 Jun 2026 13:36:35 -0700",
+      "isoDate": "2026-06-04T20:36:35.000Z",
+      "excerpt": "WSU landed a commitment from three-star receiver Malachi Garlington, whose size and speed made him a hot commodity in the Northwest recruiting market.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "New Vikings GM Nolan Teasley found his calling with Seahawks",
+      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/new-vikings-gm-nolan-teasley-calling-seattle-seahawks",
+      "pubDate": "Thu, 04 Jun 2026 20:26:17 +0000",
+      "isoDate": "2026-06-04T20:26:17.000Z",
+      "excerpt": "The Ellensburg native and CWU alum landed a dream job in the NFL after 13 years with his home state team.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Seahawks QB Sam Darnold Sees 'Incredible' Command From New Offensive Coordinator Brian Fleury",
+      "link": "https://www.seahawks.com/news/seahawks-qb-sam-darnold-sees-incredible-command-from-new-offensive-coordinator-brian-fleury",
+      "pubDate": "Thu, 04 Jun 2026 20:21:37 GMT",
+      "isoDate": "2026-06-04T20:21:37.000Z",
+      "excerpt": "Seahawks quarterback Sam Darnold has been encouraged by what he has seen out of new offensive coordinator Brian Fleury during offseason workouts.",
+      "source": "Seahawks.com",
+      "team": "seahawks",
+      "priority": 6
+    },
+    {
+      "title": "Nolan Teasley starts Vikings tenure by signing recently waived Seahawks",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169291/nolan-teasley-starts-vikings-tenure-signing-recently-waived-seahawks-nfl-news",
+      "pubDate": "2026-06-04T20:16:12.000Z",
+      "isoDate": "2026-06-04T20:16:12.000Z",
+      "excerpt": "EAGAN, MN. - JUNE 2026: Minnesota Vikings new General Manger Nolan Teasley left, and Vikings President/Owner Mark Wilf, Wednesday, June 2, 2026 in Eagan, Minn. The Vikings officially announced Teasley’s hiring Monday...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
+    {
+      "title": "Seahawks avoid the so-called ‘Madden curse’",
+      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/seattle-seahawks-avoid-so-called-madden-curse",
+      "pubDate": "Thu, 04 Jun 2026 19:59:23 +0000",
+      "isoDate": "2026-06-04T19:59:23.000Z",
+      "excerpt": "Chicago Bears QB Caleb Williams was announced as video game's cover athlete.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
     {
       "title": "Mariners announce Alumni Home Run Derby for August 7th",
       "link": "https://www.lookoutlanding.com/general/144410/mariners-announce-alumni-home-run-derby-for-august-7th",
@@ -17,6 +82,16 @@
       "excerpt": "OAKLAND - JULY 28: Bucky Jacobsen #33 of the Seattle Mariners poses prior to the MLB game against the Oakland A's at the Network Associates Coliseum on July 28, 2004. The Athletics defeated the Mariners 3-2. (Photo by...",
       "source": "Lookout Landing",
       "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Mariners pitching prospects Ryan Sloan and Kade Anderson forming special bond",
+      "link": "https://www.seattletimes.com/sports/mariners/mariners-pitching-prospects-ryan-sloan-and-kade-anderson-forming-special-bond/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Thu, 04 Jun 2026 12:20:53 -0700",
+      "isoDate": "2026-06-04T19:20:53.000Z",
+      "excerpt": "The Mariners have two of baseball's best pitching prospects in Kade Anderson and Ryan Sloan. Here's how they're bonding and feeding off each other in the minor leagues.",
+      "source": "Seattle Times Sports",
+      "team": "general",
       "priority": 1
     },
     {
@@ -30,6 +105,26 @@
       "priority": 6
     },
     {
+      "title": "Sherpa guide missing for a week on Mount Everest rescued while crawling to base camp",
+      "link": "https://www.seattletimes.com/nation-world/sherpa-guide-missing-for-a-week-on-mount-everest-rescued-while-crawling-to-base-camp/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Thu, 04 Jun 2026 12:04:15 -0700",
+      "isoDate": "2026-06-04T19:04:15.000Z",
+      "excerpt": "A Sherpa guide was found crawling to base camp on Mount Everest a week after he went missing.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Tarik Skubal is Mariners’ top trade fit, ESPN’s Passan says",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/jeff-passan-seattle-mariners-trade-deadline-fit-tarik-skubal",
+      "pubDate": "Thu, 04 Jun 2026 18:57:54 +0000",
+      "isoDate": "2026-06-04T18:57:54.000Z",
+      "excerpt": "There is sound reasoning from the MLB insider behind a potential Mariners trade for the Cy Young Award winner.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
       "title": "Seahawks OTAs news: Anthony Bradford leaves practice early with minor knee injury",
       "link": "https://www.fieldgulls.com/seattle-seahawks-injury-report/169272/anthony-bradford-leaves-seahawks-otas-early-minor-knee-injury-nfl-news",
       "pubDate": "2026-06-04T18:34:23.000Z",
@@ -37,6 +132,16 @@
       "excerpt": "SEATTLE, WA - JANUARY 25: Anthony Bradford #75 of the Seattle Seahawks blocks during the NFC Championship game against the Los Angeles Rams on January 25, 2026 at Lumen Field in Seattle, Washington. (Photo by Joe...",
       "source": "Field Gulls",
       "team": "seahawks",
+      "priority": 1
+    },
+    {
+      "title": "FIFA prohibits fans from bringing refillable water bottles into World Cup stadiums",
+      "link": "https://www.seattletimes.com/sports/world-cup/fifa-prohibits-fans-from-bringing-refillable-water-bottles-into-world-cup-stadiums/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Thu, 04 Jun 2026 11:31:29 -0700",
+      "isoDate": "2026-06-04T18:31:29.000Z",
+      "excerpt": "FIFA has made a late change of policy to bar World Cup fans from bringing refillable water bottles into the tournament's 16 stadiums across North America.",
+      "source": "Seattle Times Sports",
+      "team": "general",
       "priority": 1
     },
     {
@@ -50,6 +155,16 @@
       "priority": 1
     },
     {
+      "title": "Mariners announce alumni home run derby headlined by Ichiro",
+      "link": "https://www.seattletimes.com/sports/mariners/mariners-announce-alumni-home-run-derby-headlined-by-ichiro/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Thu, 04 Jun 2026 11:03:17 -0700",
+      "isoDate": "2026-06-04T18:03:17.000Z",
+      "excerpt": "The Mariners announced they will be holding their first ever alumni home run derby as part of their 50-year anniversary celebration weekend and Ichiro will compete.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
       "title": "Ichiro to headline Mariners Alumni Home Run Derby at T-Mobile Park",
       "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-alumni-home-run-derby",
       "pubDate": "Thu, 04 Jun 2026 18:01:21 +0000",
@@ -60,6 +175,16 @@
       "priority": 3
     },
     {
+      "title": "Seattle Reign announce kids under 12 attend matches for free",
+      "link": "https://www.seattletimes.com/sports/reign/seattle-reign-announce-kids-under-12-attend-match-for-free/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Thu, 04 Jun 2026 10:45:54 -0700",
+      "isoDate": "2026-06-04T17:45:54.000Z",
+      "excerpt": "The Reign announced that kids younger than 12 can attend matches at Lumen Field for free for the final six matches of the season.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
       "title": "Emerson earning A+ for effort early in rookie season",
       "link": "https://www.mlb.com/mariners/news/colt-emerson-hustle-effort-impressing-mariners",
       "pubDate": "Thu, 04 Jun 2026 17:44:00 GMT",
@@ -68,6 +193,16 @@
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
+    },
+    {
+      "title": "Sounders’ Cristian Roldan gets World Cup pizza at Seattle’s Pagliacci",
+      "link": "https://www.seattletimes.com/sports/sounders/sounders-cristian-roldan-gets-world-cup-pizza-at-seattles-pagliacci/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Thu, 04 Jun 2026 10:31:58 -0700",
+      "isoDate": "2026-06-04T17:31:58.000Z",
+      "excerpt": "As he gears up to play for Team USA in the World Cup, Sounders star Cristian Roldan is getting his own pizza by a popular Seattle chain.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
     },
     {
       "title": "Mike Macdonald’s reaction to Seahawks on Hard Knocks: ‘Good’",
@@ -170,16 +305,6 @@
       "priority": 3
     },
     {
-      "title": "Phoenix Mercury hold off Seattle Storm 72-68 to end 7-game skid",
-      "link": "https://sports.mynorthwest.com/wnba/seattle-storm/phoenix-mercury-hold-off-seattle-storm-72-68-to-end-7-game-skid",
-      "pubDate": "Thu, 04 Jun 2026 04:40:53 +0000",
-      "isoDate": "2026-06-04T04:40:53.000Z",
-      "excerpt": "Natasha Mack scored a career-high 16 points to go with 10 rebounds, and Kahleah Copper also had 16 points.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
       "title": "Russell Wilson Announces Retirement",
       "link": "https://www.profootballrumors.com/2026/06/russell-wilson-announces-retirement",
       "pubDate": "Thu, 04 Jun 2026 04:30:09 +0000",
@@ -198,16 +323,6 @@
       "source": "Seahawks.com",
       "team": "seahawks",
       "priority": 6
-    },
-    {
-      "title": "Seahawks LB Derick Hall had no interest in testing market",
-      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/seattle-seahawks-derick-hall-no-interest-testing-market",
-      "pubDate": "Thu, 04 Jun 2026 01:52:58 +0000",
-      "isoDate": "2026-06-04T01:52:58.000Z",
-      "excerpt": "Although he is entering the final year of his rookie deal, Hall has so thoroughly enjoyed his time in Seattle that he opted to forgo free agency.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
     },
     {
       "title": "Kirby's high-contact grind continues as Mariners' win streak ends at 8",
@@ -248,26 +363,6 @@
       "source": "Field Gulls",
       "team": "seahawks",
       "priority": 1
-    },
-    {
-      "title": "Ex-Seahawks QB Russell Wilson announces retirement from NFL",
-      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/ex-seattle-seahawks-qb-russell-wilson-announces-retirement-from-nfl",
-      "pubDate": "Wed, 03 Jun 2026 22:47:13 +0000",
-      "isoDate": "2026-06-03T22:47:13.000Z",
-      "excerpt": "The 10-time Pro Bowl QB posted a video announcing his retirement as he moves to the broadcast booth.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "Mariners’ 8-game win streak snapped in 7-1 loss to Mets",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-8-game-win-streak-snapped-new-york-mets",
-      "pubDate": "Wed, 03 Jun 2026 22:40:05 +0000",
-      "isoDate": "2026-06-03T22:40:05.000Z",
-      "excerpt": "Bo Bichette had four hits and Freddy Peralta threw six strong innings for the Mets in the series finale.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
     },
     {
       "title": "33-30: Chart",
@@ -335,16 +430,6 @@
       "pubDate": "2026-06-03T15:00:00.000Z",
       "isoDate": "2026-06-03T15:00:00.000Z",
       "excerpt": "NORMAN, OKLAHOMA - SEPTEMBER 20: Defensive end Marvin Jones Jr. #97 of the Oklahoma Sooners sacks quarterback Jackson Arnold #11 of the Auburn Tigers for a one-yard loss but gets called for a 15-yard horse collar...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "Seahawks Reacts Survey: Does Myles Garrett to the Rams hurt your confidence in a Super Bowl repeat?",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/169150/seahawks-reacts-survey-does-myles-garrett-trade-la-rams-hurt-your-confidence-super-bowl-repeat",
-      "pubDate": "2026-06-03T14:00:00.000Z",
-      "isoDate": "2026-06-03T14:00:00.000Z",
-      "excerpt": "CINCINNATI, OH - JANUARY 04: Defensive end Myles Garrett #95 of the Cleveland Browns sacks Quarterback Joe Burrow #9 of the Cincinnati Bengals to set the NFL's single-season sack record in a game between the Cleveland...",
       "source": "Field Gulls",
       "team": "seahawks",
       "priority": 1
@@ -490,16 +575,6 @@
       "priority": 2
     },
     {
-      "title": "Back With Seahawks For OTAs, DeMarcus Lawrence Looking Forward To 2026: 'I Still Have More To Give'",
-      "link": "https://www.seahawks.com/news/back-with-seahawks-for-otas-demarcus-lawrence-looking-forward-to-2026-i-still-have-more-to-give",
-      "pubDate": "Thu, 28 May 2026 22:57:04 GMT",
-      "isoDate": "2026-05-28T22:57:04.000Z",
-      "excerpt": "After working out at home in Texas for the earlier stages of the offseason workout program, veteran outside linebacker DeMarcus Lawrence was back with the Seahawks on Thursday.",
-      "source": "Seahawks.com",
-      "team": "seahawks",
-      "priority": 6
-    },
-    {
       "title": "Vikings Complete Second Interviews With Five GM Candidates",
       "link": "https://www.profootballrumors.com/2026/05/vikings-request-second-interviews-with-5-gm-candidates",
       "pubDate": "Thu, 28 May 2026 20:40:15 +0000",
@@ -528,86 +603,6 @@
       "source": "MLB Trade Rumors",
       "team": "mariners",
       "priority": 2
-    },
-    {
-      "title": "Firebirds season ends in 4 games in AHL Pacific Division Final",
-      "link": "https://www.davyjoneslockerroom.com/firebirds-season-ends-in-4-games-in-ahl-pacific-division-final/",
-      "pubDate": "Thu, 21 May 2026 14:00:00 +0000",
-      "isoDate": "2026-05-21T14:00:00.000Z",
-      "excerpt": "Just not to be. The Coachella Valley Firebirds faced Colorado in Game 4 last night, and unfortunately, with their season on the line, couldn’t stymie the advance of the Eagles in the AHL Postseason, losing a...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
-    },
-    {
-      "title": "MLBTR Podcast: Colt Emerson Debuts, Blue Jays’ Rotation Issues, And What To Make Of The Mets And Astros",
-      "link": "https://www.mlbtraderumors.com/2026/05/mlbtr-podcast-colt-emerson-debuts-blue-jays-rotation-issues-and-what-to-make-of-the-mets-and-astros.html",
-      "pubDate": "Thu, 21 May 2026 04:00:16 +0000",
-      "isoDate": "2026-05-21T04:00:16.000Z",
-      "excerpt": "The latest episode of the MLB Trade Rumors Podcast is now live on Spotify, Apple Podcasts, and wherever you get your podcasts! Make sure you subscribe as well! You can also use the player at this link to listen, if you...",
-      "source": "MLB Trade Rumors",
-      "team": "mariners",
-      "priority": 2
-    },
-    {
-      "title": "J.P. Crawford Getting Work At Third Base",
-      "link": "https://www.mlbtraderumors.com/2026/05/mariners-rumors-j-p-crawford-third-base-colt-emerson-shortstop.html",
-      "pubDate": "Thu, 21 May 2026 00:11:52 +0000",
-      "isoDate": "2026-05-21T00:11:52.000Z",
-      "excerpt": "Mariners shortstop J.P. Crawford has been getting work at the hot corner and was taking grounders there prior to today’s game. Daniel Kramer of MLB.com was among those to report that the idea was actually brought up by...",
-      "source": "MLB Trade Rumors",
-      "team": "mariners",
-      "priority": 2
-    },
-    {
-      "title": "Kraken Sign Alexis Bernier To Entry-Level Contract",
-      "link": "https://www.prohockeyrumors.com/2026/05/kraken-sign-defenseman-alexis-bernier-to-entry-level-contract.html",
-      "pubDate": "Tue, 19 May 2026 17:30:30 +0000",
-      "isoDate": "2026-05-19T17:30:30.000Z",
-      "excerpt": "The Seattle Kraken have locked up one of their promising young blue-line prospects, signing defenseman Alexis Bernier to a three-year, entry-level contract. According to the team, the deal will carry an average annual...",
-      "source": "Pro Hockey Rumors",
-      "team": "kraken",
-      "priority": 2
-    },
-    {
-      "title": "Four Options for the Kraken at Pick 7",
-      "link": "https://www.davyjoneslockerroom.com/four-options-for-the-kraken-at-pick-7/",
-      "pubDate": "Tue, 19 May 2026 15:00:00 +0000",
-      "isoDate": "2026-05-19T15:00:00.000Z",
-      "excerpt": "The NHL Draft Lottery has come and gone, and luck continues to not be on the Seattle Kraken’s side. The Hockey Gods are clearly prepared to drag this team – and fanbase – through years of developing instead of having...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
-    },
-    {
-      "title": "Mariners Recall Robinson Ortiz, Select Brennen Davis",
-      "link": "https://www.mlbtraderumors.com/2026/05/mariners-recall-robinson-ortiz-select-brennen-davis.html",
-      "pubDate": "Mon, 18 May 2026 22:10:38 +0000",
-      "isoDate": "2026-05-18T22:10:38.000Z",
-      "excerpt": "The Mariners announced several roster moves today. Infielder Patrick Wisdom has been reinstated from the 10-day injured list and left-hander Robinson Ortiz has been recalled from Triple-A. The lefty will be making his...",
-      "source": "MLB Trade Rumors",
-      "team": "mariners",
-      "priority": 2
-    },
-    {
-      "title": "Mariners Promote Colt Emerson, Place Brendan Donovan On IL",
-      "link": "https://www.mlbtraderumors.com/2026/05/mariners-to-promote-colt-emerson.html",
-      "pubDate": "Mon, 18 May 2026 03:59:10 +0000",
-      "isoDate": "2026-05-18T03:59:10.000Z",
-      "excerpt": "The Mariners are adding top prospect Colt Emerson to the big-league squad, first reported by Ryan Divish of the Seattle Times. The 20-year-old shortstop is among the highest-ranked young players in the sport. The team...",
-      "source": "MLB Trade Rumors",
-      "team": "mariners",
-      "priority": 2
-    },
-    {
-      "title": "Firebirds Round 3 Playoffs SO FAR: BIRDFIGHT…2!",
-      "link": "https://www.davyjoneslockerroom.com/firebirds-round-3-playoffs-so-far-birdfight-2/",
-      "pubDate": "Sun, 17 May 2026 14:00:00 +0000",
-      "isoDate": "2026-05-17T14:00:00.000Z",
-      "excerpt": "The Need to Knows The Times for remaining games: Game 3: May 17 – 5:05pm PDT Game 4: May 20 – 7:05pm PDT Game 5: May 22- 7:05pm PDT The Place: All remaining games in this series will be conducted in Blue Federal Credit...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
     }
   ]
 }
