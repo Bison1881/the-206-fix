@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-04T12:43:06.050Z",
+  "generatedAt": "2026-06-04T16:52:35.252Z",
   "sourceCount": 10,
   "successfulSources": 9,
   "failedSources": [
@@ -9,6 +9,96 @@
     }
   ],
   "items": [
+    {
+      "title": "The Mariners’ top AL West competition is changing",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-texas-rangers-al-west-competition",
+      "pubDate": "Thu, 04 Jun 2026 16:16:20 +0000",
+      "isoDate": "2026-06-04T16:16:20.000Z",
+      "excerpt": "It was the Athletics who the Mariners passed for the AL West lead, but now they also need to worry about Texas.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Celesten's 1st grand slam powers win for High-A Everett",
+      "link": "https://www.mlb.com/mariners/news/felnin-celesten-hits-first-career-grand-slam",
+      "pubDate": "Thu, 04 Jun 2026 16:01:16 GMT",
+      "isoDate": "2026-06-04T16:01:16.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Why it made sense for Seahawks to extend EDGE Derick Hall",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/169226/why-it-made-sense-seattle-seahawks-extend-edge-derick-hall",
+      "pubDate": "2026-06-04T16:00:00.000Z",
+      "isoDate": "2026-06-04T16:00:00.000Z",
+      "excerpt": "GLENDALE, AZ - SEPTEMBER 25: Derick Hall #58 of the Seattle Seahawks rushes the passer during an NFL football game against the Arizona Cardinals at State Farm Stadium on September 25, 2025 in Glendale, Arizona. (Photo...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
+    {
+      "title": "Seattle Torrent Protect Wilgren, Murphy, Carpenter in Expansion Draft",
+      "link": "https://www.davyjoneslockerroom.com/seattle-torrent-protect-wilgren-murphy-carpenter-in-expansion-draft/",
+      "pubDate": "Thu, 04 Jun 2026 16:00:00 +0000",
+      "isoDate": "2026-06-04T16:00:00.000Z",
+      "excerpt": "The Torrent have made some interesting choices in the upcoming expansion process by choosing to protect Anna Wilgren, Hannah Murphy, and Alex Carpenter. Not exactly an expansion draft, the PWHL’s Expansion Roster...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
+      "title": "Emerson earning A+ for effort early in rookie season",
+      "link": "https://www.mlb.com/mariners/news/colt-emerson-hustle-effort-impressing-mariners",
+      "pubDate": "Thu, 04 Jun 2026 15:18:27 GMT",
+      "isoDate": "2026-06-04T15:18:27.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "The undrafted rookie trying to crack the Seahawks’ deepest position group",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/169179/uso-seumalo-undrafted-rookie-trying-to-crack-seahawks-deepest-position-group",
+      "pubDate": "2026-06-04T15:00:00.000Z",
+      "isoDate": "2026-06-04T15:00:00.000Z",
+      "excerpt": "MANHATTAN, KS - SEPTEMBER 27: Kansas State Wildcats defensive tackle Uso Seumalo (99) in a three-point stance in the first quarter of a Big 12 football game between the UCF Knights and Kansas State Wildcats on September...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
+    {
+      "title": "3 Legion of Boom-era Seahawks named to College Football Hall of Fame ballot",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169220/3-legion-of-boom-era-seahawks-college-football-hall-of-fame-ballot-harvin-lynch-okung",
+      "pubDate": "2026-06-04T14:00:00.000Z",
+      "isoDate": "2026-06-04T14:00:00.000Z",
+      "excerpt": "SEATTLE, WA - DECEMBER 23: (L-R) Russell Okung #76 and Marshawn Lynch #24 of the Seattle Seahawks celebrate after Lynch scored a 24-yard rushing touchdown in the first quarter against the San Francisco 49ers at Qwest...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
+    {
+      "title": "Mariners News: Ryan Sloan, Corbin Burnes, and Nick Castellanos",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-news/144383/mariners-news-ryan-sloan-corbin-burnes-and-nick-castellanos",
+      "pubDate": "2026-06-04T14:00:00.000Z",
+      "isoDate": "2026-06-04T14:00:00.000Z",
+      "excerpt": "Arizona Diamondbacks' Corbin Burnes (39) pitches against the Washington Nationals at Chase Field in Phoenix on June 1, 2025. | Joe Rondone/The Republic / USA TODAY NETWORK via Imagn Images Good morning friends! Happy...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Seahawks News 6/4: Seahawks legend Russell Wilson retires from NFL",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169249/seahawks-news-6-4-seahawks-legend-russell-wilson-retires-from-nfl",
+      "pubDate": "2026-06-04T13:02:39.000Z",
+      "isoDate": "2026-06-04T13:02:39.000Z",
+      "excerpt": "Nov 14, 2021; Green Bay, Wisconsin, USA; Seattle Seahawks quarterback Russell Wilson (3) runs off the field after the Seahawks were defeated by the Green Bay Packers at Lambeau Field. Mandatory Credit: Benny Sieu-Imagn...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
     {
       "title": "Brock & Salk: 2 ways Seahawks can combat Rams’ bold additions",
       "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/2-ways-seattle-seahawks-can-combat-rams-bold-additions",
@@ -50,16 +140,6 @@
       "priority": 2
     },
     {
-      "title": "Next Mariner up: Club's No. 5 prospect the latest to notch 2-HR game at Double-A",
-      "link": "https://www.mlb.com/mariners/news/mariners-michael-arroyo-two-homers-five-rbi-double-a",
-      "pubDate": "Thu, 04 Jun 2026 04:23:00 GMT",
-      "isoDate": "2026-06-04T04:23:00.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
-    },
-    {
       "title": "Derick Hall Signed Contract Extension Wednesday: 'This Place Is Really Special To Me'",
       "link": "https://www.seahawks.com/news/derick-hall-signed-contract-extension-wednesday-this-place-is-really-special-to-me",
       "pubDate": "Thu, 04 Jun 2026 02:57:07 GMT",
@@ -80,16 +160,6 @@
       "priority": 3
     },
     {
-      "title": "Raleigh (oblique) to begin rehab assignment Sunday",
-      "link": "https://www.mlb.com/mariners/news/cal-raleigh-to-begin-rehab-assignment-for-oblique-injury",
-      "pubDate": "Thu, 04 Jun 2026 00:44:00 GMT",
-      "isoDate": "2026-06-04T00:44:00.000Z",
-      "excerpt": "Naylor (back spasms) returns to lineup",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
-    },
-    {
       "title": "Kirby's high-contact grind continues as Mariners' win streak ends at 8",
       "link": "https://www.mlb.com/mariners/news/george-kirby-allows-5-runs-in-4-innings-mariners-lose-vs-mets",
       "pubDate": "Thu, 04 Jun 2026 00:33:59 GMT",
@@ -108,6 +178,26 @@
       "source": "Seahawks.com",
       "team": "seahawks",
       "priority": 6
+    },
+    {
+      "title": "George Kirby buried by the ground, Mariners lose first game in a while",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/144390/george-kirby-buried-by-the-ground-mariners-lose-first-game-in-a-while",
+      "pubDate": "2026-06-03T23:45:43.000Z",
+      "isoDate": "2026-06-03T23:45:43.000Z",
+      "excerpt": "SEATTLE, WASHINGTON - JUNE 03: George Kirby #68 of the Seattle Mariners looks on after Juan Soto #22 of the New York Mets stole second base during the fourth inning at T-Mobile Park on June 03, 2026 in Seattle,...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "‘Thank you, Football’ &#8211; Russell Wilson announces his retirement",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169231/thank-you-football-ex-seahawks-quarterback-russell-wilson-retires-nfl-new",
+      "pubDate": "2026-06-03T23:07:38.000Z",
+      "isoDate": "2026-06-03T23:07:38.000Z",
+      "excerpt": "EAST RUTHERFORD, NJ - FEBRUARY 02: Russell Wilson #3 of the Seattle Seahawks celebrates with the Vince Lombardi trophy after defeating the Denver Broncos 43-8 in Super Bowl XLVIII at MetLife Stadium on February 2, 2014...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
     },
     {
       "title": "Ex-Seahawks QB Russell Wilson announces retirement from NFL",
@@ -155,16 +245,6 @@
       "pubDate": "Wed, 03 Jun 2026 20:23:11 +0000",
       "isoDate": "2026-06-03T20:23:11.000Z",
       "excerpt": "San Antonio Spurs head coach and O'Dea product Mitch Johnson isn't the only key figure in the NBA Finals with Seattle Sonics ties.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "NFC West: Arrest warrant issued for 49ers receiver Brandon Aiyuk",
-      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/nfc-west-arrest-warrant-issued-for-49ers-receiver-brandon-aiyuk",
-      "pubDate": "Wed, 03 Jun 2026 20:14:01 +0000",
-      "isoDate": "2026-06-03T20:14:01.000Z",
-      "excerpt": "The San Francisco wide receiver is wanted on a misdemeanor charge of exhibition of speeding.",
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
@@ -300,36 +380,6 @@
       "priority": 2
     },
     {
-      "title": "Seahawks nemesis Aaron Donald ‘flirting with the idea’ of returning to Rams",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169170/seahawks-nemesis-aaron-donald-flirting-with-idea-returning-la-rams-nfl-news",
-      "pubDate": "2026-06-03T01:19:57.000Z",
-      "isoDate": "2026-06-03T01:19:57.000Z",
-      "excerpt": "When the Myles Garrett to the Los Angeles Rams trade was announced, a collective groan from NFC West rivals could be heard because the thought of the Rams having the best defensive lineman in the sport conjured up...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "Mariners Game #62 Preview and Discussion: NYM at SEA, 6/2",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-game-information/144304/mariners-game-62-preview-and-discussion-nym-at-sea-6-2",
-      "pubDate": "2026-06-03T01:01:05.000Z",
-      "isoDate": "2026-06-03T01:01:05.000Z",
-      "excerpt": "The Mariners are searching for their eighth consecutive victory, plus another series win. Logan Gilbert gets the ball for the penultimate game of the homestand. Over his last two starts, he has pitched a combined 11.2...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "Emerson Hancock is sweeping and cutting his way to unpredictability",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-analysis/144249/emerson-hancock-is-sweeping-and-cutting-his-way-to-unpredictability",
-      "pubDate": "2026-06-02T18:49:03.000Z",
-      "isoDate": "2026-06-02T18:49:03.000Z",
-      "excerpt": "SEATTLE, WASHINGTON - JUNE 01: Emerson Hancock #26 of the Seattle Mariners pitches during the first inning against the New York Mets at T-Mobile Park on June 01, 2026 in Seattle, Washington. (Photo by Steph...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
       "title": "Seahawks Visit Sap Sap Lao Deli & Cafe For AANHPI Month",
       "link": "https://www.seahawks.com/news/seahawks-visit-sap-sap-lao-deli-cafe-for-aanhpi-month",
       "pubDate": "Tue, 02 Jun 2026 16:30:52 GMT",
@@ -340,36 +390,6 @@
       "priority": 6
     },
     {
-      "title": "Seahawks sign pass rusher Derick Hall to $42 million contract extension",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169152/nfl-news-seattle-seahawks-derick-hall-extension-42-million",
-      "pubDate": "2026-06-02T16:19:40.000Z",
-      "isoDate": "2026-06-02T16:19:40.000Z",
-      "excerpt": "SANTA CLARA, CALIFORNIA - FEBRUARY 08: Derick Hall #58 of the Seattle Seahawks reacts after sacking Drake Maye #10 of the New England Patriots during the first quarter of Super Bowl LX at Levi's Stadium on February 08,...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "Seahawks 2026 rookie predictions: Beau Stephens won’t unseat Anthony Bradford",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/169109/seahawks-2026-rookie-predictions-beau-stephens-wont-unseat-anthony-bradford",
-      "pubDate": "2026-06-02T15:00:00.000Z",
-      "isoDate": "2026-06-02T15:00:00.000Z",
-      "excerpt": "PASADENA, CALIFORNIA - NOVEMBER 8: Beau Stephens #70 of the Iowa Hawkeyes in an offensive stance during the second half game against UCLA Bruins at Rose Bowl Stadium on November 8, 2024 in Pasadena, California. (Photo...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "Irv Charles trade shows how the Seahawks value special teams differently",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/169006/irv-charles-trade-shows-how-seattle-seahawks-value-special-teams-differently",
-      "pubDate": "2026-06-02T14:00:00.000Z",
-      "isoDate": "2026-06-02T14:00:00.000Z",
-      "excerpt": "EAST RUTHERFORD, NEW JERSEY - DECEMBER 1: Wide receiver Irvin Charles #19 of the New York Jets gets set during the second half of an NFL football game against the Seattle Seahawks, at MetLife Stadium on December 1, 2024...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
-    },
-    {
       "title": "Melinda French Gates Becomes Minority Owner of the Seattle Kraken",
       "link": "https://www.davyjoneslockerroom.com/melinda-french-gates-becomes-minority-owner-of-the-seattle-kraken/",
       "pubDate": "Tue, 02 Jun 2026 14:00:00 +0000",
@@ -377,16 +397,6 @@
       "excerpt": "Melinda French Gates is becoming a minority owner of the Seattle Kraken, the team’s parent company said Monday, pending approval from the NHL. The size of her stake and the terms were not disclosed. French Gates, 61,...",
       "source": "Davy Jones' Locker Room",
       "team": "kraken",
-      "priority": 1
-    },
-    {
-      "title": "Seahawks News 6/2: The Seahawks are still better than the Rams",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169126/seahawks-news-5-2-the-seahawks-are-still-better-than-the-rams",
-      "pubDate": "2026-06-02T13:00:00.000Z",
-      "isoDate": "2026-06-02T13:00:00.000Z",
-      "excerpt": "SEATTLE, WASHINGTON - JANUARY 25: Jaxon Smith-Njigba #11 of the Seattle Seahawks catches the ball against Roger McCreary #25 of the Los Angeles Rams in the NFC Championship game at Lumen Field on January 25, 2026 in...",
-      "source": "Field Gulls",
-      "team": "seahawks",
       "priority": 1
     },
     {
@@ -598,16 +608,6 @@
       "source": "Davy Jones' Locker Room",
       "team": "kraken",
       "priority": 1
-    },
-    {
-      "title": "AL Injury Notes: O’Hoppe, Raleigh, Madden",
-      "link": "https://www.mlbtraderumors.com/2026/05/al-injury-notes-ohoppe-raleigh-madden.html",
-      "pubDate": "Sat, 16 May 2026 05:23:25 +0000",
-      "isoDate": "2026-05-16T05:23:25.000Z",
-      "excerpt": "Angels catcher Logan O’Hoppe left last night’s game against the Dodgers with left wrist irritation, according to a team announcement. O’Hoppe sustained the injury in the top of the fourth inning on a pitch in the dirt...",
-      "source": "MLB Trade Rumors",
-      "team": "mariners",
-      "priority": 2
     }
   ]
 }
