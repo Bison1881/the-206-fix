@@ -1,8 +1,13 @@
 {
-  "generatedAt": "2026-06-04T08:18:12.577Z",
+  "generatedAt": "2026-06-04T12:43:06.050Z",
   "sourceCount": 10,
-  "successfulSources": 10,
-  "failedSources": [],
+  "successfulSources": 9,
+  "failedSources": [
+    {
+      "source": "Seattle Times Sports",
+      "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
+    }
+  ],
   "items": [
     {
       "title": "Brock & Salk: 2 ways Seahawks can combat Rams’ bold additions",
@@ -45,16 +50,6 @@
       "priority": 2
     },
     {
-      "title": "Awa Fam dazzles in first WNBA start, but Seattle Storm fall to Phoenix Mercury",
-      "link": "https://www.seattletimes.com/sports/storm/awa-fam-dazzles-in-first-wnba-start-but-seattle-storm-fall-to-phoenix-mercury/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 03 Jun 2026 21:26:10 -0700",
-      "isoDate": "2026-06-04T04:26:10.000Z",
-      "excerpt": "No. 3 overall pick Awa Fam made her first WNBA start Wednesday and shined with a game-high 18 points in the Storm's 72-68 loss to the Mercury.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "Next Mariner up: Club's No. 5 prospect the latest to notch 2-HR game at Double-A",
       "link": "https://www.mlb.com/mariners/news/mariners-michael-arroyo-two-homers-five-rbi-double-a",
       "pubDate": "Thu, 04 Jun 2026 04:23:00 GMT",
@@ -63,16 +58,6 @@
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
-    },
-    {
-      "title": "Photos: Seattle Storm lose to Phoenix Mercury, 72-68",
-      "link": "https://www.seattletimes.com/sports/storm/photos-seattle-storm-take-on-phoenix-mercury-2/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 03 Jun 2026 20:59:26 -0700",
-      "isoDate": "2026-06-04T03:59:26.000Z",
-      "excerpt": "",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
     },
     {
       "title": "Derick Hall Signed Contract Extension Wednesday: 'This Place Is Really Special To Me'",
@@ -85,16 +70,6 @@
       "priority": 6
     },
     {
-      "title": "Sam Darnold on Seahawks’ new offensive coordinator: ‘Fleury has been great’ | Notebook",
-      "link": "https://www.seattletimes.com/sports/seahawks/sam-darnold-on-seahawks-new-offensive-coordinator-fleury-has-been-great-notebook/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 03 Jun 2026 18:58:00 -0700",
-      "isoDate": "2026-06-04T01:58:00.000Z",
-      "excerpt": "Sam Darnold is working with his seventh different offensive coordinator since 2020, but the Seahawks quarterback has gotten pretty good at adapting.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "Seahawks LB Derick Hall had no interest in testing market",
       "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/seattle-seahawks-derick-hall-no-interest-testing-market",
       "pubDate": "Thu, 04 Jun 2026 01:52:58 +0000",
@@ -103,16 +78,6 @@
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
-    },
-    {
-      "title": "Seahawks’ Derick Hall takes sure thing to stay in ‘special’ place",
-      "link": "https://www.seattletimes.com/sports/seahawks/seahawks-derick-hall-takes-sure-thing-to-stay-in-special-place/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 03 Jun 2026 18:05:14 -0700",
-      "isoDate": "2026-06-04T01:05:14.000Z",
-      "excerpt": "Seahawks linebacker Derick Hall could have gambled and tried to get a bigger contract next year, but he signed a sure thing to remain in a \"really special\" place.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
     },
     {
       "title": "Raleigh (oblique) to begin rehab assignment Sunday",
@@ -135,16 +100,6 @@
       "priority": 6
     },
     {
-      "title": "Commissioner Adam Silver on NBA expansion: ‘discussions are ongoing’",
-      "link": "https://www.seattletimes.com/sports/sonics/commissioner-adam-silver-on-nba-expansion-discussions-are-ongoing/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 03 Jun 2026 17:29:21 -0700",
-      "isoDate": "2026-06-04T00:29:21.000Z",
-      "excerpt": "Adam Silver’s message about possible expansion and the possible return of the Sonics at the NBA Finals: everything is status quo.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "Thank You, Russell Wilson",
       "link": "https://www.seahawks.com/news/seattle-seahawks-russell-wilson-retirement-tribute",
       "pubDate": "Thu, 04 Jun 2026 00:10:25 GMT",
@@ -153,46 +108,6 @@
       "source": "Seahawks.com",
       "team": "seahawks",
       "priority": 6
-    },
-    {
-      "title": "Torrent don’t protect captain Hilary Knight from expansion teams",
-      "link": "https://www.seattletimes.com/sports/torrent/torrent-dont-protect-captain-hilary-knight-from-expansion-teams/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 03 Jun 2026 16:58:31 -0700",
-      "isoDate": "2026-06-03T23:58:31.000Z",
-      "excerpt": "The Torrent blocked three players from being taken by an expansion team, and one of them was not team captain and Olympic hero Hilary Knight.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "‘Thank you, Football’ &#8211; Russell Wilson announces his retirement",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169231/thank-you-football-ex-seahawks-quarterback-russell-wilson-retires-nfl-new",
-      "pubDate": "2026-06-03T23:07:38.000Z",
-      "isoDate": "2026-06-03T23:07:38.000Z",
-      "excerpt": "EAST RUTHERFORD, NJ - FEBRUARY 02: Russell Wilson #3 of the Seattle Seahawks celebrates with the Vince Lombardi trophy after defeating the Denver Broncos 43-8 in Super Bowl XLVIII at MetLife Stadium on February 2, 2014...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "Storm’s Dominique Malonga takes big step in return from concussion",
-      "link": "https://www.seattletimes.com/sports/storm/storms-dominique-malonga-takes-big-step-in-return-from-concussion/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 03 Jun 2026 15:55:30 -0700",
-      "isoDate": "2026-06-03T22:55:30.000Z",
-      "excerpt": "The timetable remains unclear, but Dominique Malonga took a major step in resuming her highly anticipated second season with the Storm as she joined a shoot-around.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Russell Wilson announces move to CBS in apparent retirement video",
-      "link": "https://www.seattletimes.com/sports/seahawks/russell-wilson-announces-move-to-cbs-in-apparent-retirement-video/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 03 Jun 2026 15:49:17 -0700",
-      "isoDate": "2026-06-03T22:49:17.000Z",
-      "excerpt": "Former Seahawks QB Russell Wilson made it official that he is joining CBS Sports to serve as an analyst in a video that marked his apparent retirement.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
     },
     {
       "title": "Ex-Seahawks QB Russell Wilson announces retirement from NFL",
@@ -225,6 +140,16 @@
       "priority": 3
     },
     {
+      "title": "33-30: Chart",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/144384/33-30-chart",
+      "pubDate": "2026-06-03T22:17:52.000Z",
+      "isoDate": "2026-06-03T22:17:52.000Z",
+      "excerpt": "SEATTLE, WASHINGTON - JUNE 03: Manager Dan Wilson #6 of the Seattle Mariners argues a pitch clock violation with umpire Adam Beck #38 which resulted in a strikeout by Jhonny Pereda #5 during the fourth inning against...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
       "title": "Two sons of former Seattle Sonics square off in NBA Finals",
       "link": "https://sports.mynorthwest.com/seattle-sports-pit/nba-finals-sons-seattle-sonics-jalen-brunson-mitch-johnson",
       "pubDate": "Wed, 03 Jun 2026 20:23:11 +0000",
@@ -253,6 +178,16 @@
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
+    },
+    {
+      "title": "Mariners Game #63 Preview and Discussion: NYM at SEA, 6/3",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-game-information/144375/mariners-game-63-preview-and-discussion-nym-at-sea-6-3",
+      "pubDate": "2026-06-03T19:00:00.000Z",
+      "isoDate": "2026-06-03T19:00:00.000Z",
+      "excerpt": "SEATTLE, WASHINGTON - JUNE 02: Julio Rodríguez #44 of the Seattle Mariners leads off first base against the New York Mets during the first inning at T-Mobile Park on June 02, 2026 in Seattle, Washington. (Photo by Steph...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
     },
     {
       "title": "VOTE NOW! Help make Mariners All-Star Game starters",
@@ -435,16 +370,6 @@
       "priority": 1
     },
     {
-      "title": "Mariners News: Cole Young, Bailey Ober, and Pavin Smith",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-news/144264/cole-young-bailey-ober-pavin-smith-cal-raleigh-elly-de-la-cruz",
-      "pubDate": "2026-06-02T14:00:00.000Z",
-      "isoDate": "2026-06-02T14:00:00.000Z",
-      "excerpt": "Jun 1, 2026; Seattle, Washington, USA; Seattle Mariners second baseman Cole Young (2) receives a sports drink shower from shortstop J.P. Crawford (3) following a walk-off RBI-single against the New York Mets during the...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
       "title": "Melinda French Gates Becomes Minority Owner of the Seattle Kraken",
       "link": "https://www.davyjoneslockerroom.com/melinda-french-gates-becomes-minority-owner-of-the-seattle-kraken/",
       "pubDate": "Tue, 02 Jun 2026 14:00:00 +0000",
@@ -455,13 +380,13 @@
       "priority": 1
     },
     {
-      "title": "Rating takes on the Mariners pitching rotation and the controversial “piggyback” approach",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-discussion/144273/rating-takes-on-the-mariners-pitching-rotation-and-the-controversial-piggyback-approach",
-      "pubDate": "2026-06-02T13:30:00.000Z",
-      "isoDate": "2026-06-02T13:30:00.000Z",
-      "excerpt": "ok, now kiss | Getty Images The hottest topic in Mariners-ville the last two weeks has been the decision by the Mariners front office to combine the starts of Luis Castillo and Bryce Miller into a “piggyback” start....",
-      "source": "Lookout Landing",
-      "team": "mariners",
+      "title": "Seahawks News 6/2: The Seahawks are still better than the Rams",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169126/seahawks-news-5-2-the-seahawks-are-still-better-than-the-rams",
+      "pubDate": "2026-06-02T13:00:00.000Z",
+      "isoDate": "2026-06-02T13:00:00.000Z",
+      "excerpt": "SEATTLE, WASHINGTON - JANUARY 25: Jaxon Smith-Njigba #11 of the Seattle Seahawks catches the ball against Roger McCreary #25 of the Los Angeles Rams in the NFC Championship game at Lumen Field on January 25, 2026 in...",
+      "source": "Field Gulls",
+      "team": "seahawks",
       "priority": 1
     },
     {
@@ -603,6 +528,86 @@
       "source": "Davy Jones' Locker Room",
       "team": "kraken",
       "priority": 1
+    },
+    {
+      "title": "MLBTR Podcast: Colt Emerson Debuts, Blue Jays’ Rotation Issues, And What To Make Of The Mets And Astros",
+      "link": "https://www.mlbtraderumors.com/2026/05/mlbtr-podcast-colt-emerson-debuts-blue-jays-rotation-issues-and-what-to-make-of-the-mets-and-astros.html",
+      "pubDate": "Thu, 21 May 2026 04:00:16 +0000",
+      "isoDate": "2026-05-21T04:00:16.000Z",
+      "excerpt": "The latest episode of the MLB Trade Rumors Podcast is now live on Spotify, Apple Podcasts, and wherever you get your podcasts! Make sure you subscribe as well! You can also use the player at this link to listen, if you...",
+      "source": "MLB Trade Rumors",
+      "team": "mariners",
+      "priority": 2
+    },
+    {
+      "title": "J.P. Crawford Getting Work At Third Base",
+      "link": "https://www.mlbtraderumors.com/2026/05/mariners-rumors-j-p-crawford-third-base-colt-emerson-shortstop.html",
+      "pubDate": "Thu, 21 May 2026 00:11:52 +0000",
+      "isoDate": "2026-05-21T00:11:52.000Z",
+      "excerpt": "Mariners shortstop J.P. Crawford has been getting work at the hot corner and was taking grounders there prior to today’s game. Daniel Kramer of MLB.com was among those to report that the idea was actually brought up by...",
+      "source": "MLB Trade Rumors",
+      "team": "mariners",
+      "priority": 2
+    },
+    {
+      "title": "Kraken Sign Alexis Bernier To Entry-Level Contract",
+      "link": "https://www.prohockeyrumors.com/2026/05/kraken-sign-defenseman-alexis-bernier-to-entry-level-contract.html",
+      "pubDate": "Tue, 19 May 2026 17:30:30 +0000",
+      "isoDate": "2026-05-19T17:30:30.000Z",
+      "excerpt": "The Seattle Kraken have locked up one of their promising young blue-line prospects, signing defenseman Alexis Bernier to a three-year, entry-level contract. According to the team, the deal will carry an average annual...",
+      "source": "Pro Hockey Rumors",
+      "team": "kraken",
+      "priority": 2
+    },
+    {
+      "title": "Four Options for the Kraken at Pick 7",
+      "link": "https://www.davyjoneslockerroom.com/four-options-for-the-kraken-at-pick-7/",
+      "pubDate": "Tue, 19 May 2026 15:00:00 +0000",
+      "isoDate": "2026-05-19T15:00:00.000Z",
+      "excerpt": "The NHL Draft Lottery has come and gone, and luck continues to not be on the Seattle Kraken’s side. The Hockey Gods are clearly prepared to drag this team – and fanbase – through years of developing instead of having...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
+      "title": "Mariners Recall Robinson Ortiz, Select Brennen Davis",
+      "link": "https://www.mlbtraderumors.com/2026/05/mariners-recall-robinson-ortiz-select-brennen-davis.html",
+      "pubDate": "Mon, 18 May 2026 22:10:38 +0000",
+      "isoDate": "2026-05-18T22:10:38.000Z",
+      "excerpt": "The Mariners announced several roster moves today. Infielder Patrick Wisdom has been reinstated from the 10-day injured list and left-hander Robinson Ortiz has been recalled from Triple-A. The lefty will be making his...",
+      "source": "MLB Trade Rumors",
+      "team": "mariners",
+      "priority": 2
+    },
+    {
+      "title": "Mariners Promote Colt Emerson, Place Brendan Donovan On IL",
+      "link": "https://www.mlbtraderumors.com/2026/05/mariners-to-promote-colt-emerson.html",
+      "pubDate": "Mon, 18 May 2026 03:59:10 +0000",
+      "isoDate": "2026-05-18T03:59:10.000Z",
+      "excerpt": "The Mariners are adding top prospect Colt Emerson to the big-league squad, first reported by Ryan Divish of the Seattle Times. The 20-year-old shortstop is among the highest-ranked young players in the sport. The team...",
+      "source": "MLB Trade Rumors",
+      "team": "mariners",
+      "priority": 2
+    },
+    {
+      "title": "Firebirds Round 3 Playoffs SO FAR: BIRDFIGHT…2!",
+      "link": "https://www.davyjoneslockerroom.com/firebirds-round-3-playoffs-so-far-birdfight-2/",
+      "pubDate": "Sun, 17 May 2026 14:00:00 +0000",
+      "isoDate": "2026-05-17T14:00:00.000Z",
+      "excerpt": "The Need to Knows The Times for remaining games: Game 3: May 17 – 5:05pm PDT Game 4: May 20 – 7:05pm PDT Game 5: May 22- 7:05pm PDT The Place: All remaining games in this series will be conducted in Blue Federal Credit...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
+      "title": "AL Injury Notes: O’Hoppe, Raleigh, Madden",
+      "link": "https://www.mlbtraderumors.com/2026/05/al-injury-notes-ohoppe-raleigh-madden.html",
+      "pubDate": "Sat, 16 May 2026 05:23:25 +0000",
+      "isoDate": "2026-05-16T05:23:25.000Z",
+      "excerpt": "Angels catcher Logan O’Hoppe left last night’s game against the Dodgers with left wrist irritation, according to a team announcement. O’Hoppe sustained the injury in the top of the fourth inning on a pitch in the dirt...",
+      "source": "MLB Trade Rumors",
+      "team": "mariners",
+      "priority": 2
     }
   ]
 }
