@@ -1,18 +1,74 @@
 {
-  "generatedAt": "2026-06-05T12:34:23.170Z",
+  "generatedAt": "2026-06-05T16:28:53.173Z",
   "sourceCount": 10,
-  "successfulSources": 8,
+  "successfulSources": 9,
   "failedSources": [
     {
       "source": "Seattle Times Sports",
-      "error": "Status code 403 (lenient retry: Status code 403)"
-    },
-    {
-      "source": "Davy Jones' Locker Room",
-      "error": "Status code 415 (lenient retry: Status code 415)"
+      "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
     }
   ],
   "items": [
+    {
+      "title": "Bryce Miller has dominated to begin his '26 campaign. Here's how",
+      "link": "https://www.mlb.com/mariners/news/bryce-miller-june-2026-analysis",
+      "pubDate": "Fri, 05 Jun 2026 15:02:00 GMT",
+      "isoDate": "2026-06-05T15:02:00.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Which trade targets make the most sense for the Seahawks?",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/169173/which-trade-targets-make-most-sense-seattle-seahawks-nfl-opinion",
+      "pubDate": "2026-06-05T15:00:00.000Z",
+      "isoDate": "2026-06-05T15:00:00.000Z",
+      "excerpt": "INDIANAPOLIS, INDIANA - DECEMBER 22: Quenton Nelson #56 of the Indianapolis Colts walks across the field before the game against the San Francisco 49ers at Lucas Oil Stadium on December 22, 2025 in Indianapolis,...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
+    {
+      "title": "Julio Rodríguez Is an All-Star… Going Forward",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-analysis/144422/julio-rodriguez-is-an-all-star-going-forward",
+      "pubDate": "2026-06-05T14:30:00.000Z",
+      "isoDate": "2026-06-05T14:30:00.000Z",
+      "excerpt": "SEATTLE, WA - MAY 30: Julio Rodríguez #44 of the Seattle Mariners signs autographs for fans prior to the game between the Arizona Diamondbacks and the Seattle Mariners at T-Mobile Park on Saturday, May 30, 2026 in...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Reviewing Andre Fuller and his fit with the Seattle Seahawks",
+      "link": "https://www.fieldgulls.com/general/169275/nfl-draft-reviewing-andre-fuller-fit-seattle-seahawks",
+      "pubDate": "2026-06-05T14:00:00.000Z",
+      "isoDate": "2026-06-05T14:00:00.000Z",
+      "excerpt": "The Seattle Seahawks sure seem to like their big defensive backs. Nick Emmanwori, Kam Chancellor, Julian Neal, Brandon Browner, Riq Woolen, just to name a handful. With the 20th pick of the seventh round, the Seahawks...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
+    {
+      "title": "Mariners News: Cal Raleigh, Aaron Judge, and Brayan Bello",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-news/144420/mariners-news-cal-raleigh-aaron-judge-and-brayan-bello",
+      "pubDate": "2026-06-05T14:00:00.000Z",
+      "isoDate": "2026-06-05T14:00:00.000Z",
+      "excerpt": "May 30, 2026; West Sacramento, California, USA; New York Yankees right fielder Aaron Judge (99) prepares to go back out for the bottom half of the sixth inning against the Athletics at Sutter Health Park. Mandatory...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Seahawks News 6/5: Jarran Reed thinks Seahawks deserve more respect",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169310/seahawks-news-6-5-jarran-reed-thinks-seahawks-deserve-more-respect",
+      "pubDate": "2026-06-05T13:00:00.000Z",
+      "isoDate": "2026-06-05T13:00:00.000Z",
+      "excerpt": "Feb 5, 2026; San Jose, CA, USA; Seattle Seahawks defensive tackle Jarran Reed (90) talks to media members at the San Jose Marriott. Mandatory Credit: Darren Yamashita-Imagn Images | Darren Yamashita-Imagn Images In...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
     {
       "title": "A Tarik Skubal trade would give Mariners one key thing",
       "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-tarik-skubal-trade-one-key-thing",
@@ -204,16 +260,6 @@
       "priority": 6
     },
     {
-      "title": "Celesten's 1st grand slam powers win for High-A Everett",
-      "link": "https://www.mlb.com/mariners/news/felnin-celesten-hits-first-career-grand-slam",
-      "pubDate": "Thu, 04 Jun 2026 16:01:16 GMT",
-      "isoDate": "2026-06-04T16:01:16.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
-    },
-    {
       "title": "Why it made sense for Seahawks to extend EDGE Derick Hall",
       "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/169226/why-it-made-sense-seattle-seahawks-extend-edge-derick-hall",
       "pubDate": "2026-06-04T16:00:00.000Z",
@@ -221,6 +267,16 @@
       "excerpt": "GLENDALE, AZ - SEPTEMBER 25: Derick Hall #58 of the Seattle Seahawks rushes the passer during an NFL football game against the Arizona Cardinals at State Farm Stadium on September 25, 2025 in Glendale, Arizona. (Photo...",
       "source": "Field Gulls",
       "team": "seahawks",
+      "priority": 1
+    },
+    {
+      "title": "Seattle Torrent Protect Wilgren, Murphy, Carpenter in Expansion Draft",
+      "link": "https://www.davyjoneslockerroom.com/seattle-torrent-protect-wilgren-murphy-carpenter-in-expansion-draft/",
+      "pubDate": "Thu, 04 Jun 2026 16:00:00 +0000",
+      "isoDate": "2026-06-04T16:00:00.000Z",
+      "excerpt": "The Torrent have made some interesting choices in the upcoming expansion process by choosing to protect Anna Wilgren, Hannah Murphy, and Alex Carpenter. Not exactly an expansion draft, the PWHL’s Expansion Roster...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
       "priority": 1
     },
     {
@@ -234,16 +290,6 @@
       "priority": 1
     },
     {
-      "title": "3 Legion of Boom-era Seahawks named to College Football Hall of Fame ballot",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169220/3-legion-of-boom-era-seahawks-college-football-hall-of-fame-ballot-harvin-lynch-okung",
-      "pubDate": "2026-06-04T14:00:00.000Z",
-      "isoDate": "2026-06-04T14:00:00.000Z",
-      "excerpt": "SEATTLE, WA - DECEMBER 23: (L-R) Russell Okung #76 and Marshawn Lynch #24 of the Seattle Seahawks celebrate after Lynch scored a 24-yard rushing touchdown in the first quarter against the San Francisco 49ers at Qwest...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
-    },
-    {
       "title": "Mariners News: Ryan Sloan, Corbin Burnes, and Nick Castellanos",
       "link": "https://www.lookoutlanding.com/seattle-mariners-news/144383/mariners-news-ryan-sloan-corbin-burnes-and-nick-castellanos",
       "pubDate": "2026-06-04T14:00:00.000Z",
@@ -251,16 +297,6 @@
       "excerpt": "Arizona Diamondbacks' Corbin Burnes (39) pitches against the Washington Nationals at Chase Field in Phoenix on June 1, 2025. | Joe Rondone/The Republic / USA TODAY NETWORK via Imagn Images Good morning friends! Happy...",
       "source": "Lookout Landing",
       "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "Seahawks News 6/4: Seahawks legend Russell Wilson retires from NFL",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169249/seahawks-news-6-4-seahawks-legend-russell-wilson-retires-from-nfl",
-      "pubDate": "2026-06-04T13:02:39.000Z",
-      "isoDate": "2026-06-04T13:02:39.000Z",
-      "excerpt": "Nov 14, 2021; Green Bay, Wisconsin, USA; Seattle Seahawks quarterback Russell Wilson (3) runs off the field after the Seahawks were defeated by the Green Bay Packers at Lambeau Field. Mandatory Credit: Benny Sieu-Imagn...",
-      "source": "Field Gulls",
-      "team": "seahawks",
       "priority": 1
     },
     {
@@ -304,16 +340,6 @@
       "priority": 1
     },
     {
-      "title": "‘Thank you, Football’ &#8211; Russell Wilson announces his retirement",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169231/thank-you-football-ex-seahawks-quarterback-russell-wilson-retires-nfl-new",
-      "pubDate": "2026-06-03T23:07:38.000Z",
-      "isoDate": "2026-06-03T23:07:38.000Z",
-      "excerpt": "EAST RUTHERFORD, NJ - FEBRUARY 02: Russell Wilson #3 of the Seattle Seahawks celebrates with the Vince Lombardi trophy after defeating the Denver Broncos 43-8 in Super Bowl XLVIII at MetLife Stadium on February 2, 2014...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
-    },
-    {
       "title": "33-30: Chart",
       "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/144384/33-30-chart",
       "pubDate": "2026-06-03T22:17:52.000Z",
@@ -354,16 +380,6 @@
       "priority": 6
     },
     {
-      "title": "Colt Emerson, Ryan Sloan, and Kade Anderson headline five Mariners on Baseball America’s Top 100 prospect list",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-prospects/144365/colt-emerson-ryan-sloan-and-kade-anderson-headline-five-mariners-on-baseball-americas-prospect-list",
-      "pubDate": "2026-06-03T17:33:50.000Z",
-      "isoDate": "2026-06-03T17:33:50.000Z",
-      "excerpt": "SURPRISE, ARIZONA - MARCH 6: Kade Anderson #13 of the Seattle Mariners throws a pitch during a Spring Training game against the Texas Rangers at Surprise Stadium on March 6, 2026 in Surprise, Arizona. (Photo by Brandon...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
       "title": "Seahawks Sign Outside Linebacker Derick Hall To Three-Year Extension",
       "link": "https://www.seahawks.com/news/seahawks-sign-outside-linebacker-derick-hall-to-three-year-extension",
       "pubDate": "Wed, 03 Jun 2026 16:29:23 GMT",
@@ -374,13 +390,13 @@
       "priority": 6
     },
     {
-      "title": "Mariners News: Julio Rodríguez, Josh Hader, and Gleyber Torres",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-news/24480530/mariners-news-julio-rodriguez-josh-hader-and-gleyber-torres",
-      "pubDate": "2026-06-03T14:00:00.000Z",
+      "title": "Seattle Torrent Sign Alex Carpenter, Protect Her From Expansion Thieves",
+      "link": "https://www.davyjoneslockerroom.com/seattle-torrent-sign-alex-carpenter-protect-her-from-expansion-thieves/",
+      "pubDate": "Wed, 03 Jun 2026 14:00:00 +0000",
       "isoDate": "2026-06-03T14:00:00.000Z",
-      "excerpt": "Jul 29, 2025; Houston, Texas, USA; Houston Astros relief pitcher Josh Hader (71) delivers a pitch during the ninth inning against the Washington Nationals at Daikin Park. Mandatory Credit: Troy Taormina-Imagn Images |...",
-      "source": "Lookout Landing",
-      "team": "mariners",
+      "excerpt": "The Seattle Torrent re-signed forward Alex Carpenter to a 3-year PWHL Standard Player Agreement on June 2, keeping one of the franchise’s foundational pieces through 2028-29 and committing one of the team’s 3 protection...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
       "priority": 1
     },
     {
@@ -402,6 +418,16 @@
       "source": "Seahawks.com",
       "team": "seahawks",
       "priority": 6
+    },
+    {
+      "title": "Melinda French Gates Becomes Minority Owner of the Seattle Kraken",
+      "link": "https://www.davyjoneslockerroom.com/melinda-french-gates-becomes-minority-owner-of-the-seattle-kraken/",
+      "pubDate": "Tue, 02 Jun 2026 14:00:00 +0000",
+      "isoDate": "2026-06-02T14:00:00.000Z",
+      "excerpt": "Melinda French Gates is becoming a minority owner of the Seattle Kraken, the team’s parent company said Monday, pending approval from the NHL. The size of her stake and the terms were not disclosed. French Gates, 61,...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
     },
     {
       "title": "Stream Mariners games on Mariners.TV for NEW low price of $74.99",
@@ -504,6 +530,16 @@
       "priority": 2
     },
     {
+      "title": "Firebirds season ends in 4 games in AHL Pacific Division Final",
+      "link": "https://www.davyjoneslockerroom.com/firebirds-season-ends-in-4-games-in-ahl-pacific-division-final/",
+      "pubDate": "Thu, 21 May 2026 14:00:00 +0000",
+      "isoDate": "2026-05-21T14:00:00.000Z",
+      "excerpt": "Just not to be. The Coachella Valley Firebirds faced Colorado in Game 4 last night, and unfortunately, with their season on the line, couldn’t stymie the advance of the Eagles in the AHL Postseason, losing a...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
       "title": "MLBTR Podcast: Colt Emerson Debuts, Blue Jays’ Rotation Issues, And What To Make Of The Mets And Astros",
       "link": "https://www.mlbtraderumors.com/2026/05/mlbtr-podcast-colt-emerson-debuts-blue-jays-rotation-issues-and-what-to-make-of-the-mets-and-astros.html",
       "pubDate": "Thu, 21 May 2026 04:00:16 +0000",
@@ -534,6 +570,16 @@
       "priority": 2
     },
     {
+      "title": "Four Options for the Kraken at Pick 7",
+      "link": "https://www.davyjoneslockerroom.com/four-options-for-the-kraken-at-pick-7/",
+      "pubDate": "Tue, 19 May 2026 15:00:00 +0000",
+      "isoDate": "2026-05-19T15:00:00.000Z",
+      "excerpt": "The NHL Draft Lottery has come and gone, and luck continues to not be on the Seattle Kraken’s side. The Hockey Gods are clearly prepared to drag this team – and fanbase – through years of developing instead of having...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
       "title": "Mariners Recall Robinson Ortiz, Select Brennen Davis",
       "link": "https://www.mlbtraderumors.com/2026/05/mariners-recall-robinson-ortiz-select-brennen-davis.html",
       "pubDate": "Mon, 18 May 2026 22:10:38 +0000",
@@ -554,64 +600,14 @@
       "priority": 2
     },
     {
-      "title": "AL Injury Notes: O’Hoppe, Raleigh, Madden",
-      "link": "https://www.mlbtraderumors.com/2026/05/al-injury-notes-ohoppe-raleigh-madden.html",
-      "pubDate": "Sat, 16 May 2026 05:23:25 +0000",
-      "isoDate": "2026-05-16T05:23:25.000Z",
-      "excerpt": "Angels catcher Logan O’Hoppe left last night’s game against the Dodgers with left wrist irritation, according to a team announcement. O’Hoppe sustained the injury in the top of the fourth inning on a pitch in the dirt...",
-      "source": "MLB Trade Rumors",
-      "team": "mariners",
-      "priority": 2
-    },
-    {
-      "title": "Brennen Davis Has Assignment Clause In Deal With Mariners",
-      "link": "https://www.mlbtraderumors.com/2026/05/brennen-davis-has-assignment-clause-in-deal-with-mariners.html",
-      "pubDate": "Fri, 15 May 2026 19:45:36 +0000",
-      "isoDate": "2026-05-15T19:45:36.000Z",
-      "excerpt": "Outfielder Brennen Davis is with the Mariners on a minor league deal. As part of that deal, he has an assignment clause today, per Ryan Divish of The Seattle Times. If he triggers the clause, he will be offered up to...",
-      "source": "MLB Trade Rumors",
-      "team": "mariners",
-      "priority": 2
-    },
-    {
-      "title": "Evening Notes: Kraken, Manson, Sabres",
-      "link": "https://www.prohockeyrumors.com/2026/05/evening-notes-kraken-manson-sabres.html",
-      "pubDate": "Tue, 12 May 2026 23:06:29 +0000",
-      "isoDate": "2026-05-12T23:06:29.000Z",
-      "excerpt": "The Seattle Kraken have partnered with sports advisory firm Sportsology to perform an assessment of their hockey operations department after parting ways with general manager Ron Francis, per Fox 13 Seattle. The firm...",
-      "source": "Pro Hockey Rumors",
+      "title": "Firebirds Round 3 Playoffs SO FAR: BIRDFIGHT…2!",
+      "link": "https://www.davyjoneslockerroom.com/firebirds-round-3-playoffs-so-far-birdfight-2/",
+      "pubDate": "Sun, 17 May 2026 14:00:00 +0000",
+      "isoDate": "2026-05-17T14:00:00.000Z",
+      "excerpt": "The Need to Knows The Times for remaining games: Game 3: May 17 – 5:05pm PDT Game 4: May 20 – 7:05pm PDT Game 5: May 22- 7:05pm PDT The Place: All remaining games in this series will be conducted in Blue Federal Credit...",
+      "source": "Davy Jones' Locker Room",
       "team": "kraken",
-      "priority": 2
-    },
-    {
-      "title": "Offseason Checklist: Seattle Kraken",
-      "link": "https://www.prohockeyrumors.com/2026/05/offseason-checklist-seattle-kraken-5.html",
-      "pubDate": "Fri, 08 May 2026 03:00:35 +0000",
-      "isoDate": "2026-05-08T03:00:35.000Z",
-      "excerpt": "A look at what the Seattle Kraken should be looking to do this offseason.",
-      "source": "Pro Hockey Rumors",
-      "team": "kraken",
-      "priority": 2
-    },
-    {
-      "title": "Poll: Which Active Players Will Become An NHL GM?",
-      "link": "https://www.prohockeyrumors.com/2026/05/poll-which-active-players-will-become-an-nhl-gm.html",
-      "pubDate": "Thu, 07 May 2026 21:36:29 +0000",
-      "isoDate": "2026-05-07T21:36:29.000Z",
-      "excerpt": "The connection between NHL playing careers and front office roles has existed for nearly as long as the league itself. Some of the most highly-regarded executives – from Glen Sather in the 1980s to Jim Nill today –...",
-      "source": "Pro Hockey Rumors",
-      "team": "kraken",
-      "priority": 2
-    },
-    {
-      "title": "Seattle Kraken Assign Jake O’Brien To AHL",
-      "link": "https://www.prohockeyrumors.com/2026/05/seattle-kraken-assign-jake-obrien-to-ahl.html",
-      "pubDate": "Wed, 06 May 2026 21:30:16 +0000",
-      "isoDate": "2026-05-06T21:30:16.000Z",
-      "excerpt": "The Seattle Kraken are continuing the trend of moving prospects in the Canadian major junior system to the American Hockey League for the Calder Cup playoffs. According to the AHL transaction log, the Kraken have...",
-      "source": "Pro Hockey Rumors",
-      "team": "kraken",
-      "priority": 2
+      "priority": 1
     }
   ]
 }
