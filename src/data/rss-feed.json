@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-06-05T03:28:24.203Z",
+  "generatedAt": "2026-06-05T08:04:04.632Z",
   "sourceCount": 10,
   "successfulSources": 9,
   "failedSources": [
     {
       "source": "Seattle Times Sports",
-      "error": "Status code 403 (lenient retry: Status code 403)"
+      "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
     }
   ],
   "items": [
@@ -28,6 +28,16 @@
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
+    },
+    {
+      "title": "Should John Schneider counter the Myles Garrett trade with his own big move?",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/169299/should-seahawks-john-schneider-counter-the-myles-garrett-trade-with-own-big-move",
+      "pubDate": "2026-06-04T23:37:19.000Z",
+      "isoDate": "2026-06-04T23:37:19.000Z",
+      "excerpt": "SANTA CLARA, CALIFORNIA - FEBRUARY 08: John Schneider, General manager of the Seattle Seahawks, celebrates with the Vince Lombardi Trophy after winning Super Bowl LX against the New England Patriots at Levi's Stadium on...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
     },
     {
       "title": "Seahawks DE Rylie Mills Feels 'Fully Back' To Who He Was Before ACL Injury",
@@ -98,6 +108,16 @@
       "source": "Seahawks.com",
       "team": "seahawks",
       "priority": 6
+    },
+    {
+      "title": "Nolan Teasley starts Vikings tenure by signing recently waived Seahawks",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169291/nolan-teasley-starts-vikings-tenure-signing-recently-waived-seahawks-nfl-news",
+      "pubDate": "2026-06-04T20:16:12.000Z",
+      "isoDate": "2026-06-04T20:16:12.000Z",
+      "excerpt": "EAGAN, MN. - JUNE 2026: Minnesota Vikings new General Manger Nolan Teasley left, and Vikings President/Owner Mark Wilf, Wednesday, June 2, 2026 in Eagan, Minn. The Vikings officially announced Teasley’s hiring Monday...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
     },
     {
       "title": "Seahawks avoid the so-called ‘Madden curse’",
@@ -358,26 +378,6 @@
       "source": "Seahawks.com",
       "team": "seahawks",
       "priority": 6
-    },
-    {
-      "title": "Seahawks UDFA Marvin Jones Jr. arrives with questions — and intriguing traits",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/169186/seahawks-udfa-marvin-jones-jr-arrives-with-questions-intriguing-traits",
-      "pubDate": "2026-06-03T15:00:00.000Z",
-      "isoDate": "2026-06-03T15:00:00.000Z",
-      "excerpt": "NORMAN, OKLAHOMA - SEPTEMBER 20: Defensive end Marvin Jones Jr. #97 of the Oklahoma Sooners sacks quarterback Jackson Arnold #11 of the Auburn Tigers for a one-yard loss but gets called for a 15-yard horse collar...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "Seahawks Reacts Survey: Does Myles Garrett to the Rams hurt your confidence in a Super Bowl repeat?",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/169150/seahawks-reacts-survey-does-myles-garrett-trade-la-rams-hurt-your-confidence-super-bowl-repeat",
-      "pubDate": "2026-06-03T14:00:00.000Z",
-      "isoDate": "2026-06-03T14:00:00.000Z",
-      "excerpt": "CINCINNATI, OH - JANUARY 04: Defensive end Myles Garrett #95 of the Cleveland Browns sacks Quarterback Joe Burrow #9 of the Cincinnati Bengals to set the NFL's single-season sack record in a game between the Cleveland...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
     },
     {
       "title": "Mariners News: Julio Rodríguez, Josh Hader, and Gleyber Torres",
