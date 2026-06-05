@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-05T19:50:27.573Z",
+  "generatedAt": "2026-06-05T21:23:05.490Z",
   "sourceCount": 10,
   "successfulSources": 9,
   "failedSources": [
@@ -9,6 +9,46 @@
     }
   ],
   "items": [
+    {
+      "title": "Latest Mariners injuries and transactions",
+      "link": "https://www.mlb.com/mariners/news/mariners-injuries-and-roster-moves",
+      "pubDate": "Fri, 05 Jun 2026 20:52:00 GMT",
+      "isoDate": "2026-06-05T20:52:00.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Mariners-Tigers Series Preview: Weather, Game 1 lineup and more",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-detroit-tigers-series-preview-weather-more",
+      "pubDate": "Fri, 05 Jun 2026 20:23:48 +0000",
+      "isoDate": "2026-06-05T20:23:48.000Z",
+      "excerpt": "Weather could be a problem again for the Mariners as they return to Detroit for the first time since their 2025 ALDS win.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "AL Check-In: Yankees put reigning MVP Aaron Judge on IL",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/al-check-in-aaron-judge-new-york-yankees-injury",
+      "pubDate": "Fri, 05 Jun 2026 19:36:39 +0000",
+      "isoDate": "2026-06-05T19:36:39.000Z",
+      "excerpt": "New York Yankees outfielder Aaron Judge was placed on the 10-day injured list Friday, a day after the team announced he will be sidelined indefinitely with a stress fracture of one of his ribs.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Mariners rookie Colt Emerson shares 2 things behind his good start",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-colt-emerson-wyman-bob-good-start",
+      "pubDate": "Fri, 05 Jun 2026 19:12:37 +0000",
+      "isoDate": "2026-06-05T19:12:37.000Z",
+      "excerpt": "Colt Emerson told Wyman and Bob how he has hit the ground running for the first-place Mariners.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
     {
       "title": "The details of Seahawks edge rusher Derick Hall’s contract extension",
       "link": "https://www.fieldgulls.com/seattle-seahawks-nfl-salary-cap/169323/details-seahawks-edge-rusher-derick-hall-contract-extension",
@@ -180,36 +220,6 @@
       "priority": 6
     },
     {
-      "title": "AL West Check-In: Struggling Houston Astros shake up roster",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/al-west-check-in-struggling-houston-astros-shake-up-roster",
-      "pubDate": "Thu, 04 Jun 2026 22:20:11 +0000",
-      "isoDate": "2026-06-04T22:20:11.000Z",
-      "excerpt": "The Houston Astros signed outfielder LaMonte Wade Jr. and promoted catcher Collin Price to the major league roster Thursday.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "Jarran Reed reacts to champion Seahawks’ offseason disrespect",
-      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/jarran-reed-seattle-seahawks-disrespect-rams",
-      "pubDate": "Thu, 04 Jun 2026 22:05:42 +0000",
-      "isoDate": "2026-06-04T22:05:42.000Z",
-      "excerpt": "\"I just think that we should be respected more,\" the Seahawks' veteran defensive tackle told Bump and Stacy.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "New Vikings GM Nolan Teasley found his calling with Seahawks",
-      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/new-vikings-gm-nolan-teasley-calling-seattle-seahawks",
-      "pubDate": "Thu, 04 Jun 2026 20:26:17 +0000",
-      "isoDate": "2026-06-04T20:26:17.000Z",
-      "excerpt": "The Ellensburg native and CWU alum landed a dream job in the NFL after 13 years with his home state team.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
       "title": "Seahawks QB Sam Darnold Sees 'Incredible' Command From New Offensive Coordinator Brian Fleury",
       "link": "https://www.seahawks.com/news/seahawks-qb-sam-darnold-sees-incredible-command-from-new-offensive-coordinator-brian-fleury",
       "pubDate": "Thu, 04 Jun 2026 20:21:37 GMT",
@@ -358,16 +368,6 @@
       "source": "Lookout Landing",
       "team": "mariners",
       "priority": 1
-    },
-    {
-      "title": "Latest Mariners injuries and transactions",
-      "link": "https://www.mlb.com/mariners/news/mariners-injuries-and-roster-moves",
-      "pubDate": "Wed, 03 Jun 2026 19:18:00 GMT",
-      "isoDate": "2026-06-03T19:18:00.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
     },
     {
       "title": "VOTE NOW! Help make Mariners All-Star Game starters",
