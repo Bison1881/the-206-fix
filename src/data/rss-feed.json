@@ -1,14 +1,28 @@
 {
-  "generatedAt": "2026-06-05T08:04:04.632Z",
+  "generatedAt": "2026-06-05T12:34:23.170Z",
   "sourceCount": 10,
-  "successfulSources": 9,
+  "successfulSources": 8,
   "failedSources": [
     {
       "source": "Seattle Times Sports",
-      "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
+      "error": "Status code 403 (lenient retry: Status code 403)"
+    },
+    {
+      "source": "Davy Jones' Locker Room",
+      "error": "Status code 415 (lenient retry: Status code 415)"
     }
   ],
   "items": [
+    {
+      "title": "A Tarik Skubal trade would give Mariners one key thing",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-tarik-skubal-trade-one-key-thing",
+      "pubDate": "Fri, 05 Jun 2026 07:10:27 +0000",
+      "isoDate": "2026-06-05T07:10:27.000Z",
+      "excerpt": "The Mariners have six MLB-quality starting pitchers and two prime pitching prospects, but none are what Tarik Skubal is.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
     {
       "title": "Revisiting Mariners’ Luis Castillo trade as it enters a new chapter",
       "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/new-chapter-seattle-mariners-luis-castillo-trade-reds",
@@ -180,16 +194,6 @@
       "priority": 1
     },
     {
-      "title": "Ichiro to headline Mariners Alumni Home Run Derby at T-Mobile Park",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-alumni-home-run-derby",
-      "pubDate": "Thu, 04 Jun 2026 18:01:21 +0000",
-      "isoDate": "2026-06-04T18:01:21.000Z",
-      "excerpt": "Ken Griffey Jr. will serve as the Mariners Alumni Derby commissioner, while Nelson Cruz and Jay Buhner will captain the two teams.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
       "title": "Emerson earning A+ for effort early in rookie season",
       "link": "https://www.mlb.com/mariners/news/colt-emerson-hustle-effort-impressing-mariners",
       "pubDate": "Thu, 04 Jun 2026 17:44:00 GMT",
@@ -217,16 +221,6 @@
       "excerpt": "GLENDALE, AZ - SEPTEMBER 25: Derick Hall #58 of the Seattle Seahawks rushes the passer during an NFL football game against the Arizona Cardinals at State Farm Stadium on September 25, 2025 in Glendale, Arizona. (Photo...",
       "source": "Field Gulls",
       "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "Seattle Torrent Protect Wilgren, Murphy, Carpenter in Expansion Draft",
-      "link": "https://www.davyjoneslockerroom.com/seattle-torrent-protect-wilgren-murphy-carpenter-in-expansion-draft/",
-      "pubDate": "Thu, 04 Jun 2026 16:00:00 +0000",
-      "isoDate": "2026-06-04T16:00:00.000Z",
-      "excerpt": "The Torrent have made some interesting choices in the upcoming expansion process by choosing to protect Anna Wilgren, Hannah Murphy, and Alex Carpenter. Not exactly an expansion draft, the PWHL’s Expansion Roster...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
       "priority": 1
     },
     {
@@ -390,16 +384,6 @@
       "priority": 1
     },
     {
-      "title": "Seattle Torrent Sign Alex Carpenter, Protect Her From Expansion Thieves",
-      "link": "https://www.davyjoneslockerroom.com/seattle-torrent-sign-alex-carpenter-protect-her-from-expansion-thieves/",
-      "pubDate": "Wed, 03 Jun 2026 14:00:00 +0000",
-      "isoDate": "2026-06-03T14:00:00.000Z",
-      "excerpt": "The Seattle Torrent re-signed forward Alex Carpenter to a 3-year PWHL Standard Player Agreement on June 2, keeping one of the franchise’s foundational pieces through 2028-29 and committing one of the team’s 3 protection...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
-    },
-    {
       "title": "Seahawks, Derick Hall Agree To Extension",
       "link": "https://www.profootballrumors.com/2026/06/seahawks-derick-hall-agree-to-extension",
       "pubDate": "Wed, 03 Jun 2026 04:14:15 +0000",
@@ -418,16 +402,6 @@
       "source": "Seahawks.com",
       "team": "seahawks",
       "priority": 6
-    },
-    {
-      "title": "Melinda French Gates Becomes Minority Owner of the Seattle Kraken",
-      "link": "https://www.davyjoneslockerroom.com/melinda-french-gates-becomes-minority-owner-of-the-seattle-kraken/",
-      "pubDate": "Tue, 02 Jun 2026 14:00:00 +0000",
-      "isoDate": "2026-06-02T14:00:00.000Z",
-      "excerpt": "Melinda French Gates is becoming a minority owner of the Seattle Kraken, the team’s parent company said Monday, pending approval from the NHL. The size of her stake and the terms were not disclosed. French Gates, 61,...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
     },
     {
       "title": "Stream Mariners games on Mariners.TV for NEW low price of $74.99",
@@ -530,16 +504,6 @@
       "priority": 2
     },
     {
-      "title": "Firebirds season ends in 4 games in AHL Pacific Division Final",
-      "link": "https://www.davyjoneslockerroom.com/firebirds-season-ends-in-4-games-in-ahl-pacific-division-final/",
-      "pubDate": "Thu, 21 May 2026 14:00:00 +0000",
-      "isoDate": "2026-05-21T14:00:00.000Z",
-      "excerpt": "Just not to be. The Coachella Valley Firebirds faced Colorado in Game 4 last night, and unfortunately, with their season on the line, couldn’t stymie the advance of the Eagles in the AHL Postseason, losing a...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
-    },
-    {
       "title": "MLBTR Podcast: Colt Emerson Debuts, Blue Jays’ Rotation Issues, And What To Make Of The Mets And Astros",
       "link": "https://www.mlbtraderumors.com/2026/05/mlbtr-podcast-colt-emerson-debuts-blue-jays-rotation-issues-and-what-to-make-of-the-mets-and-astros.html",
       "pubDate": "Thu, 21 May 2026 04:00:16 +0000",
@@ -570,16 +534,6 @@
       "priority": 2
     },
     {
-      "title": "Four Options for the Kraken at Pick 7",
-      "link": "https://www.davyjoneslockerroom.com/four-options-for-the-kraken-at-pick-7/",
-      "pubDate": "Tue, 19 May 2026 15:00:00 +0000",
-      "isoDate": "2026-05-19T15:00:00.000Z",
-      "excerpt": "The NHL Draft Lottery has come and gone, and luck continues to not be on the Seattle Kraken’s side. The Hockey Gods are clearly prepared to drag this team – and fanbase – through years of developing instead of having...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
-    },
-    {
       "title": "Mariners Recall Robinson Ortiz, Select Brennen Davis",
       "link": "https://www.mlbtraderumors.com/2026/05/mariners-recall-robinson-ortiz-select-brennen-davis.html",
       "pubDate": "Mon, 18 May 2026 22:10:38 +0000",
@@ -600,14 +554,64 @@
       "priority": 2
     },
     {
-      "title": "Firebirds Round 3 Playoffs SO FAR: BIRDFIGHT…2!",
-      "link": "https://www.davyjoneslockerroom.com/firebirds-round-3-playoffs-so-far-birdfight-2/",
-      "pubDate": "Sun, 17 May 2026 14:00:00 +0000",
-      "isoDate": "2026-05-17T14:00:00.000Z",
-      "excerpt": "The Need to Knows The Times for remaining games: Game 3: May 17 – 5:05pm PDT Game 4: May 20 – 7:05pm PDT Game 5: May 22- 7:05pm PDT The Place: All remaining games in this series will be conducted in Blue Federal Credit...",
-      "source": "Davy Jones' Locker Room",
+      "title": "AL Injury Notes: O’Hoppe, Raleigh, Madden",
+      "link": "https://www.mlbtraderumors.com/2026/05/al-injury-notes-ohoppe-raleigh-madden.html",
+      "pubDate": "Sat, 16 May 2026 05:23:25 +0000",
+      "isoDate": "2026-05-16T05:23:25.000Z",
+      "excerpt": "Angels catcher Logan O’Hoppe left last night’s game against the Dodgers with left wrist irritation, according to a team announcement. O’Hoppe sustained the injury in the top of the fourth inning on a pitch in the dirt...",
+      "source": "MLB Trade Rumors",
+      "team": "mariners",
+      "priority": 2
+    },
+    {
+      "title": "Brennen Davis Has Assignment Clause In Deal With Mariners",
+      "link": "https://www.mlbtraderumors.com/2026/05/brennen-davis-has-assignment-clause-in-deal-with-mariners.html",
+      "pubDate": "Fri, 15 May 2026 19:45:36 +0000",
+      "isoDate": "2026-05-15T19:45:36.000Z",
+      "excerpt": "Outfielder Brennen Davis is with the Mariners on a minor league deal. As part of that deal, he has an assignment clause today, per Ryan Divish of The Seattle Times. If he triggers the clause, he will be offered up to...",
+      "source": "MLB Trade Rumors",
+      "team": "mariners",
+      "priority": 2
+    },
+    {
+      "title": "Evening Notes: Kraken, Manson, Sabres",
+      "link": "https://www.prohockeyrumors.com/2026/05/evening-notes-kraken-manson-sabres.html",
+      "pubDate": "Tue, 12 May 2026 23:06:29 +0000",
+      "isoDate": "2026-05-12T23:06:29.000Z",
+      "excerpt": "The Seattle Kraken have partnered with sports advisory firm Sportsology to perform an assessment of their hockey operations department after parting ways with general manager Ron Francis, per Fox 13 Seattle. The firm...",
+      "source": "Pro Hockey Rumors",
       "team": "kraken",
-      "priority": 1
+      "priority": 2
+    },
+    {
+      "title": "Offseason Checklist: Seattle Kraken",
+      "link": "https://www.prohockeyrumors.com/2026/05/offseason-checklist-seattle-kraken-5.html",
+      "pubDate": "Fri, 08 May 2026 03:00:35 +0000",
+      "isoDate": "2026-05-08T03:00:35.000Z",
+      "excerpt": "A look at what the Seattle Kraken should be looking to do this offseason.",
+      "source": "Pro Hockey Rumors",
+      "team": "kraken",
+      "priority": 2
+    },
+    {
+      "title": "Poll: Which Active Players Will Become An NHL GM?",
+      "link": "https://www.prohockeyrumors.com/2026/05/poll-which-active-players-will-become-an-nhl-gm.html",
+      "pubDate": "Thu, 07 May 2026 21:36:29 +0000",
+      "isoDate": "2026-05-07T21:36:29.000Z",
+      "excerpt": "The connection between NHL playing careers and front office roles has existed for nearly as long as the league itself. Some of the most highly-regarded executives – from Glen Sather in the 1980s to Jim Nill today –...",
+      "source": "Pro Hockey Rumors",
+      "team": "kraken",
+      "priority": 2
+    },
+    {
+      "title": "Seattle Kraken Assign Jake O’Brien To AHL",
+      "link": "https://www.prohockeyrumors.com/2026/05/seattle-kraken-assign-jake-obrien-to-ahl.html",
+      "pubDate": "Wed, 06 May 2026 21:30:16 +0000",
+      "isoDate": "2026-05-06T21:30:16.000Z",
+      "excerpt": "The Seattle Kraken are continuing the trend of moving prospects in the Canadian major junior system to the American Hockey League for the Calder Cup playoffs. According to the AHL transaction log, the Kraken have...",
+      "source": "Pro Hockey Rumors",
+      "team": "kraken",
+      "priority": 2
     }
   ]
 }
