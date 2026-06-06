@@ -1,14 +1,44 @@
 {
-  "generatedAt": "2026-06-06T13:25:08.465Z",
+  "generatedAt": "2026-06-06T15:12:33.811Z",
   "sourceCount": 10,
   "successfulSources": 9,
   "failedSources": [
     {
       "source": "Seattle Times Sports",
-      "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
+      "error": "Status code 403 (lenient retry: Status code 403)"
     }
   ],
   "items": [
+    {
+      "title": "Seahawks News 6/6: Rylie Mills is ready to earn a bigger role with Seahawks",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169335/seahawks-news-6-6-rylie-mills-is-ready-to-earn-a-bigger-role-with-seahawks",
+      "pubDate": "2026-06-06T14:39:07.000Z",
+      "isoDate": "2026-06-06T14:39:07.000Z",
+      "excerpt": "Feb 8, 2026; Santa Clara, CA, USA; Seattle Seahawks defensive tackle Rylie Mills (98) reacts after a sack against the New England Patriots during the second quarter in Super Bowl LX at Levi's Stadium. Mandatory Credit:...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
+    {
+      "title": "The 11 former Seahawks who now play in the CFL",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169288/11-former-seattle-seahawks-who-now-play-in-canadian-football-league",
+      "pubDate": "2026-06-06T14:00:00.000Z",
+      "isoDate": "2026-06-06T14:00:00.000Z",
+      "excerpt": "SEATTLE, WASHINGTON - AUGUST 10: Linebacker Levi Bell #98 of the Seattle Seahawks celebrates a sack during the fourth quarter of a preseason game against the Minnesota Vikings at Lumen Field on August 10, 2023 in...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
+    {
+      "title": "Mariners News: Bryce Miller, Corey Seager, and Ramón Laureano",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-news/144484/mariners-news-bryce-miller-corey-seager-and-ramon-laureano",
+      "pubDate": "2026-06-06T14:00:00.000Z",
+      "isoDate": "2026-06-06T14:00:00.000Z",
+      "excerpt": "ARLINGTON, TEXAS - JUNE 05: Corey Seager #5 of the Texas Rangers high fives Wyatt Langford #36 after Seager hit a home run during the sixth inning of a game against the Cleveland Guardians at Globe Life Field on June...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
     {
       "title": "Crawford (hand) appears to avoid serious injury after HBP",
       "link": "https://www.mlb.com/mariners/news/j-p-crawford-exits-hand-injury",
@@ -307,36 +337,6 @@
       "excerpt": "OAKLAND - JULY 28: Bucky Jacobsen #33 of the Seattle Mariners poses prior to the MLB game against the Oakland A's at the Network Associates Coliseum on July 28, 2004. The Athletics defeated the Mariners 3-2. (Photo by...",
       "source": "Lookout Landing",
       "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "Seahawks OTAs news: Anthony Bradford leaves practice early with minor knee injury",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-injury-report/169272/anthony-bradford-leaves-seahawks-otas-early-minor-knee-injury-nfl-news",
-      "pubDate": "2026-06-04T18:34:23.000Z",
-      "isoDate": "2026-06-04T18:34:23.000Z",
-      "excerpt": "SEATTLE, WA - JANUARY 25: Anthony Bradford #75 of the Seattle Seahawks blocks during the NFC Championship game against the Los Angeles Rams on January 25, 2026 at Lumen Field in Seattle, Washington. (Photo by Joe...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "It&#8217;s getting crowded at T-Mobile Park",
-      "link": "https://www.lookoutlanding.com/t-mobile-park/144397/its-getting-crowded-at-t-mobile-park",
-      "pubDate": "2026-06-04T18:20:27.000Z",
-      "isoDate": "2026-06-04T18:20:27.000Z",
-      "excerpt": "Oct 4, 2025; Seattle, Washington, USA; Former Seattle Sonics Gary Payton hypes up the crowd before the game between the Seattle Mariners and the Detroit Tigers during game one of the ALDS round for the 2025 MLB playoffs...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "Why it made sense for Seahawks to extend EDGE Derick Hall",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/169226/why-it-made-sense-seattle-seahawks-extend-edge-derick-hall",
-      "pubDate": "2026-06-04T16:00:00.000Z",
-      "isoDate": "2026-06-04T16:00:00.000Z",
-      "excerpt": "GLENDALE, AZ - SEPTEMBER 25: Derick Hall #58 of the Seattle Seahawks rushes the passer during an NFL football game against the Arizona Cardinals at State Farm Stadium on September 25, 2025 in Glendale, Arizona. (Photo...",
-      "source": "Field Gulls",
-      "team": "seahawks",
       "priority": 1
     },
     {
