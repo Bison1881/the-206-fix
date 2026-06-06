@@ -1,28 +1,33 @@
 {
-  "generatedAt": "2026-06-05T23:05:26.135Z",
+  "generatedAt": "2026-06-06T02:50:05.988Z",
   "sourceCount": 10,
-  "successfulSources": 10,
-  "failedSources": [],
+  "successfulSources": 9,
+  "failedSources": [
+    {
+      "source": "Seattle Times Sports",
+      "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
+    }
+  ],
   "items": [
     {
-      "title": "Torrent lose Olympians Cayla Barnes, Hannah Bilka to expansion Detroit",
-      "link": "https://www.seattletimes.com/sports/torrent/torrent-lose-olympians-cayla-barnes-hannah-bilka-to-expansion-detroit/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Fri, 05 Jun 2026 16:00:30 -0700",
-      "isoDate": "2026-06-05T23:00:30.000Z",
-      "excerpt": "The Torrent are losing two of their Olympians as expansion Detroit announced they signed defender Cayla Barnes and forward Hannah Bilka.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
+      "title": "Latest Mariners injuries and transactions",
+      "link": "https://www.mlb.com/mariners/news/mariners-injuries-and-roster-moves",
+      "pubDate": "Sat, 06 Jun 2026 01:45:00 GMT",
+      "isoDate": "2026-06-06T01:45:00.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
     },
     {
-      "title": "Iran’s World Cup team approved for visas to play games in the US, officials say",
-      "link": "https://www.seattletimes.com/sports/world-cup/irans-world-cup-team-approved-for-visas-to-play-in-us-officials-say/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Fri, 05 Jun 2026 14:59:51 -0700",
-      "isoDate": "2026-06-05T21:59:51.000Z",
-      "excerpt": "Members of the Iranian World Cup soccer team have been granted U.S. visas, clearing them to enter the country before their first two matches.",
-      "source": "Seattle Times Sports",
+      "title": "Mariners’ J.P. Crawford exits after Framber Valdez hits him",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-jp-crawford-exits-hit-framber-valdez",
+      "pubDate": "Sat, 06 Jun 2026 00:01:17 +0000",
+      "isoDate": "2026-06-06T00:01:17.000Z",
+      "excerpt": "J.P. Crawford was hit on the hand by a 96 mph sinker from Framber Valdez, a former Astros pitcher notorious for hitting batters.",
+      "source": "710 Seattle Sports",
       "team": "general",
-      "priority": 1
+      "priority": 3
     },
     {
       "title": "Mariners Game #64 Preview and Discussion: SEA at DET, 6/5",
@@ -45,16 +50,6 @@
       "priority": 3
     },
     {
-      "title": "Latest Mariners injuries and transactions",
-      "link": "https://www.mlb.com/mariners/news/mariners-injuries-and-roster-moves",
-      "pubDate": "Fri, 05 Jun 2026 20:52:00 GMT",
-      "isoDate": "2026-06-05T20:52:00.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
-    },
-    {
       "title": "AL West Check-In: Texas Rangers get 2 key players back",
       "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/al-west-texas-rangers-2-key-players-back",
       "pubDate": "Fri, 05 Jun 2026 20:48:19 +0000",
@@ -75,16 +70,6 @@
       "priority": 3
     },
     {
-      "title": "Bears say they are moving forward with Northwest Indiana location for new stadium",
-      "link": "https://www.seattletimes.com/sports/nfl/bears-say-they-are-moving-forward-with-northwest-indiana-location-for-new-stadium/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Fri, 05 Jun 2026 12:47:11 -0700",
-      "isoDate": "2026-06-05T19:47:11.000Z",
-      "excerpt": "The Chicago Bears are looking to build a stadium in Northwest Indiana after a proposal to provide financial incentives for the NFL team to build its new home in Illinois stalled in the state legislature.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "AL Check-In: Yankees put reigning MVP Aaron Judge on IL",
       "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/al-check-in-aaron-judge-new-york-yankees-injury",
       "pubDate": "Fri, 05 Jun 2026 19:36:39 +0000",
@@ -93,16 +78,6 @@
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
-    },
-    {
-      "title": "How Seahawks’ salary-cap picture looks after signing Derick Hall",
-      "link": "https://www.seattletimes.com/sports/seahawks/how-seahawks-salary-cap-picture-looks-after-signing-derick-hall/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Fri, 05 Jun 2026 12:27:37 -0700",
-      "isoDate": "2026-06-05T19:27:37.000Z",
-      "excerpt": "Even after paying rush end Derick Hall this week, the Seahawks are still sitting in a strong spot in terms of the salary cap — both this season and the future.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
     },
     {
       "title": "Mariners rookie Colt Emerson shares 2 things behind his good start",
@@ -135,16 +110,6 @@
       "priority": 1
     },
     {
-      "title": "Trading for Tarik Skubal doesn’t make sense for Mariners. Here’s a move that does.",
-      "link": "https://www.seattletimes.com/sports/mariners/trading-for-tarik-skubal-doesnt-make-sense-for-mariners-heres-a-move-that-does/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Fri, 05 Jun 2026 11:33:36 -0700",
-      "isoDate": "2026-06-05T18:33:36.000Z",
-      "excerpt": "Trading for Tarik Skubal would be too risky and too unrealistic for the Mariners now. But there's another trade that could make much more sense.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "Cooper Kupp on Seahawks’ Aaron Donald problem: ‘I nipped it in the bud’",
       "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/cooper-kupp-seattle-seahawks-aaron-donald-los-angeles-rams",
       "pubDate": "Fri, 05 Jun 2026 17:25:22 +0000",
@@ -165,16 +130,6 @@
       "priority": 1
     },
     {
-      "title": "Why World Cup is a dream come true for Seattle’s African diaspora",
-      "link": "https://www.seattletimes.com/seattle-news/world-cup-seattle/why-world-cup-is-a-dream-come-true-for-seattles-african-diaspora/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Fri, 05 Jun 2026 10:00:02 -0700",
-      "isoDate": "2026-06-05T17:00:02.000Z",
-      "excerpt": "For many Seattle-area residents from Africa, the tournament’s arrival is about more than soccer. It is about seeing their childhood passion come to the city they now call home.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "Stacy: What the Russell Wilson HOF debate should be focused on",
       "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/seattle-seahawks-russell-wilson-hall-of-fame-debate",
       "pubDate": "Fri, 05 Jun 2026 16:26:28 +0000",
@@ -183,16 +138,6 @@
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
-    },
-    {
-      "title": "Yankees star Aaron Judge sidelined indefinitely with a rib stress fracture",
-      "link": "https://www.seattletimes.com/sports/mlb/yankees-star-aaron-judge-sidelined-indefinitely-with-a-rib-stress-fracture/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Fri, 05 Jun 2026 09:06:19 -0700",
-      "isoDate": "2026-06-05T16:06:19.000Z",
-      "excerpt": "New York Yankees outfielder Aaron Judge will be sidelined indefinitely with a stress fracture of one of his ribs, the team announced Thursday night.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
     },
     {
       "title": "Bryce Miller has dominated to begin his '26 campaign. Here's how",
@@ -245,16 +190,6 @@
       "priority": 1
     },
     {
-      "title": "Fully healthy, Seahawks’ Rylie Mills eager to build on his Super Bowl sack | Notebook",
-      "link": "https://www.seattletimes.com/sports/seahawks/fully-healthy-seahawks-rylie-mills-eager-to-build-on-his-super-bowl-sack-notebook/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Fri, 05 Jun 2026 06:00:00 -0700",
-      "isoDate": "2026-06-05T13:00:00.000Z",
-      "excerpt": "Rylie Mills made one of the Super Bowl's signature plays after missing most of his rookie season with a knee injury. Now healthy, Mills is ready for the next chapter to start.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "Seahawks News 6/5: Jarran Reed thinks Seahawks deserve more respect",
       "link": "https://www.fieldgulls.com/seattle-seahawks-news/169310/seahawks-news-6-5-jarran-reed-thinks-seahawks-deserve-more-respect",
       "pubDate": "2026-06-05T13:00:00.000Z",
@@ -263,16 +198,6 @@
       "source": "Field Gulls",
       "team": "seahawks",
       "priority": 1
-    },
-    {
-      "title": "A Tarik Skubal trade would give Mariners one key thing",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-tarik-skubal-trade-one-key-thing",
-      "pubDate": "Fri, 05 Jun 2026 07:10:27 +0000",
-      "isoDate": "2026-06-05T07:10:27.000Z",
-      "excerpt": "The Mariners have six MLB-quality starting pitchers and two prime pitching prospects, but none are what Tarik Skubal is.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
     },
     {
       "title": "Should John Schneider counter the Myles Garrett trade with his own big move?",
@@ -603,6 +528,86 @@
       "source": "MLB Trade Rumors",
       "team": "mariners",
       "priority": 2
+    },
+    {
+      "title": "Firebirds season ends in 4 games in AHL Pacific Division Final",
+      "link": "https://www.davyjoneslockerroom.com/firebirds-season-ends-in-4-games-in-ahl-pacific-division-final/",
+      "pubDate": "Thu, 21 May 2026 14:00:00 +0000",
+      "isoDate": "2026-05-21T14:00:00.000Z",
+      "excerpt": "Just not to be. The Coachella Valley Firebirds faced Colorado in Game 4 last night, and unfortunately, with their season on the line, couldn’t stymie the advance of the Eagles in the AHL Postseason, losing a...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
+      "title": "MLBTR Podcast: Colt Emerson Debuts, Blue Jays’ Rotation Issues, And What To Make Of The Mets And Astros",
+      "link": "https://www.mlbtraderumors.com/2026/05/mlbtr-podcast-colt-emerson-debuts-blue-jays-rotation-issues-and-what-to-make-of-the-mets-and-astros.html",
+      "pubDate": "Thu, 21 May 2026 04:00:16 +0000",
+      "isoDate": "2026-05-21T04:00:16.000Z",
+      "excerpt": "The latest episode of the MLB Trade Rumors Podcast is now live on Spotify, Apple Podcasts, and wherever you get your podcasts! Make sure you subscribe as well! You can also use the player at this link to listen, if you...",
+      "source": "MLB Trade Rumors",
+      "team": "mariners",
+      "priority": 2
+    },
+    {
+      "title": "J.P. Crawford Getting Work At Third Base",
+      "link": "https://www.mlbtraderumors.com/2026/05/mariners-rumors-j-p-crawford-third-base-colt-emerson-shortstop.html",
+      "pubDate": "Thu, 21 May 2026 00:11:52 +0000",
+      "isoDate": "2026-05-21T00:11:52.000Z",
+      "excerpt": "Mariners shortstop J.P. Crawford has been getting work at the hot corner and was taking grounders there prior to today’s game. Daniel Kramer of MLB.com was among those to report that the idea was actually brought up by...",
+      "source": "MLB Trade Rumors",
+      "team": "mariners",
+      "priority": 2
+    },
+    {
+      "title": "Kraken Sign Alexis Bernier To Entry-Level Contract",
+      "link": "https://www.prohockeyrumors.com/2026/05/kraken-sign-defenseman-alexis-bernier-to-entry-level-contract.html",
+      "pubDate": "Tue, 19 May 2026 17:30:30 +0000",
+      "isoDate": "2026-05-19T17:30:30.000Z",
+      "excerpt": "The Seattle Kraken have locked up one of their promising young blue-line prospects, signing defenseman Alexis Bernier to a three-year, entry-level contract. According to the team, the deal will carry an average annual...",
+      "source": "Pro Hockey Rumors",
+      "team": "kraken",
+      "priority": 2
+    },
+    {
+      "title": "Four Options for the Kraken at Pick 7",
+      "link": "https://www.davyjoneslockerroom.com/four-options-for-the-kraken-at-pick-7/",
+      "pubDate": "Tue, 19 May 2026 15:00:00 +0000",
+      "isoDate": "2026-05-19T15:00:00.000Z",
+      "excerpt": "The NHL Draft Lottery has come and gone, and luck continues to not be on the Seattle Kraken’s side. The Hockey Gods are clearly prepared to drag this team – and fanbase – through years of developing instead of having...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
+      "title": "Mariners Recall Robinson Ortiz, Select Brennen Davis",
+      "link": "https://www.mlbtraderumors.com/2026/05/mariners-recall-robinson-ortiz-select-brennen-davis.html",
+      "pubDate": "Mon, 18 May 2026 22:10:38 +0000",
+      "isoDate": "2026-05-18T22:10:38.000Z",
+      "excerpt": "The Mariners announced several roster moves today. Infielder Patrick Wisdom has been reinstated from the 10-day injured list and left-hander Robinson Ortiz has been recalled from Triple-A. The lefty will be making his...",
+      "source": "MLB Trade Rumors",
+      "team": "mariners",
+      "priority": 2
+    },
+    {
+      "title": "Mariners Promote Colt Emerson, Place Brendan Donovan On IL",
+      "link": "https://www.mlbtraderumors.com/2026/05/mariners-to-promote-colt-emerson.html",
+      "pubDate": "Mon, 18 May 2026 03:59:10 +0000",
+      "isoDate": "2026-05-18T03:59:10.000Z",
+      "excerpt": "The Mariners are adding top prospect Colt Emerson to the big-league squad, first reported by Ryan Divish of the Seattle Times. The 20-year-old shortstop is among the highest-ranked young players in the sport. The team...",
+      "source": "MLB Trade Rumors",
+      "team": "mariners",
+      "priority": 2
+    },
+    {
+      "title": "Firebirds Round 3 Playoffs SO FAR: BIRDFIGHT…2!",
+      "link": "https://www.davyjoneslockerroom.com/firebirds-round-3-playoffs-so-far-birdfight-2/",
+      "pubDate": "Sun, 17 May 2026 14:00:00 +0000",
+      "isoDate": "2026-05-17T14:00:00.000Z",
+      "excerpt": "The Need to Knows The Times for remaining games: Game 3: May 17 – 5:05pm PDT Game 4: May 20 – 7:05pm PDT Game 5: May 22- 7:05pm PDT The Place: All remaining games in this series will be conducted in Blue Federal Credit...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
     }
   ]
 }
