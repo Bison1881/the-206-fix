@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-06-06T10:01:18.519Z",
+  "generatedAt": "2026-06-06T13:25:08.465Z",
   "sourceCount": 10,
   "successfulSources": 9,
   "failedSources": [
     {
       "source": "Seattle Times Sports",
-      "error": "Status code 403 (lenient retry: Status code 403)"
+      "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
     }
   ],
   "items": [
