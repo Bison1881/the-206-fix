@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-06T02:50:05.988Z",
+  "generatedAt": "2026-06-06T06:50:14.530Z",
   "sourceCount": 10,
   "successfulSources": 9,
   "failedSources": [
@@ -10,10 +10,70 @@
   ],
   "items": [
     {
+      "title": "Crawford (hand) appears to avoid serious injury after HBP",
+      "link": "https://www.mlb.com/mariners/news/j-p-crawford-exits-hand-injury",
+      "pubDate": "Sat, 06 Jun 2026 04:54:00 GMT",
+      "isoDate": "2026-06-06T04:54:00.000Z",
+      "excerpt": "Mariners shortstop plunked by 95.6 mph fastball in third inning, but X-rays negative",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Kade Anderson ties for MiLB K lead, sits atop Double-A in nearly every category",
+      "link": "https://www.mlb.com/mariners/news/mariners-prospect-kade-anderson-ties-minors-strikeout-lead",
+      "pubDate": "Sat, 06 Jun 2026 03:49:00 GMT",
+      "isoDate": "2026-06-06T03:49:00.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
       "title": "Latest Mariners injuries and transactions",
       "link": "https://www.mlb.com/mariners/news/mariners-injuries-and-roster-moves",
-      "pubDate": "Sat, 06 Jun 2026 01:45:00 GMT",
-      "isoDate": "2026-06-06T01:45:00.000Z",
+      "pubDate": "Sat, 06 Jun 2026 03:16:00 GMT",
+      "isoDate": "2026-06-06T03:16:00.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Mariners drop first game of road trip 7-3",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/144475/mariners-drop-first-game-of-road-trip-7-3",
+      "pubDate": "2026-06-06T02:44:55.000Z",
+      "isoDate": "2026-06-06T02:44:55.000Z",
+      "excerpt": "DETROIT, MICHIGAN - JUNE 05: J.P. Crawford #3 of the Seattle Mariners reacts after being hit by the ball against the Detroit Tigers during the top of the third inning at Comerica Park on June 05, 2026 in Detroit,...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Kerry Carpenter homers as Tigers beat Mariners 7-3",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/kerry-carpenter-homers-detroit-tigers-seattle-mariners-7-3",
+      "pubDate": "Sat, 06 Jun 2026 02:05:10 +0000",
+      "isoDate": "2026-06-06T02:05:10.000Z",
+      "excerpt": "Kerry Carpenter and Spencer Torkelson homered for Detroit, which is 4-0 in June after going 9-22 in May.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "33-31: Chart",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/144465/33-31-chart",
+      "pubDate": "2026-06-06T01:27:53.000Z",
+      "isoDate": "2026-06-06T01:27:53.000Z",
+      "excerpt": "DETROIT, MICHIGAN - JUNE 05: Kevin McGonigle #7 of the Detroit Tigers grounds out to Josh Naylor #12 of the Seattle Mariners during the bottom of the fifth inning at Comerica Park on June 05, 2026 in Detroit, Michigan....",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Watch Top 100 prospects Farmelo, Celesten at High-A for FREE tonight",
+      "link": "https://www.mlb.com/mariners/news/watch-minor-league-baseball-games-for-free-2026",
+      "pubDate": "Sat, 06 Jun 2026 01:08:00 GMT",
+      "isoDate": "2026-06-06T01:08:00.000Z",
       "excerpt": "",
       "source": "Mariners.com",
       "team": "mariners",
@@ -130,16 +190,6 @@
       "priority": 1
     },
     {
-      "title": "Stacy: What the Russell Wilson HOF debate should be focused on",
-      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/seattle-seahawks-russell-wilson-hall-of-fame-debate",
-      "pubDate": "Fri, 05 Jun 2026 16:26:28 +0000",
-      "isoDate": "2026-06-05T16:26:28.000Z",
-      "excerpt": "Russell Wilson may have won a Super Bowl because of the Legion of Boom. But that's the wrong thing to focus on when debating if he should be in the Hall of Fame.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
       "title": "Bryce Miller has dominated to begin his '26 campaign. Here's how",
       "link": "https://www.mlb.com/mariners/news/bryce-miller-june-2026-analysis",
       "pubDate": "Fri, 05 Jun 2026 15:02:00 GMT",
@@ -230,16 +280,6 @@
       "priority": 6
     },
     {
-      "title": "The Draft is just over 5 weeks away! Here's the latest mock",
-      "link": "https://www.mlb.com/mariners/news/mlb-pipeline-2026-mock-draft-june-4",
-      "pubDate": "Thu, 04 Jun 2026 22:26:00 GMT",
-      "isoDate": "2026-06-04T22:26:00.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
-    },
-    {
       "title": "Seahawks QB Sam Darnold Sees 'Incredible' Command From New Offensive Coordinator Brian Fleury",
       "link": "https://www.seahawks.com/news/seahawks-qb-sam-darnold-sees-incredible-command-from-new-offensive-coordinator-brian-fleury",
       "pubDate": "Thu, 04 Jun 2026 20:21:37 GMT",
@@ -270,16 +310,6 @@
       "priority": 1
     },
     {
-      "title": "Ichiro, Cameron lead group of participants for Mariners Alumni Home Run Derby",
-      "link": "https://www.mlb.com/mariners/news/ichiro-suzuki-mike-cameron-to-compete-in-mariners-alumni-home-run-derby",
-      "pubDate": "Thu, 04 Jun 2026 19:07:30 GMT",
-      "isoDate": "2026-06-04T19:07:30.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
-    },
-    {
       "title": "Seahawks OTAs news: Anthony Bradford leaves practice early with minor knee injury",
       "link": "https://www.fieldgulls.com/seattle-seahawks-injury-report/169272/anthony-bradford-leaves-seahawks-otas-early-minor-knee-injury-nfl-news",
       "pubDate": "2026-06-04T18:34:23.000Z",
@@ -300,16 +330,6 @@
       "priority": 1
     },
     {
-      "title": "Emerson earning A+ for effort early in rookie season",
-      "link": "https://www.mlb.com/mariners/news/colt-emerson-hustle-effort-impressing-mariners",
-      "pubDate": "Thu, 04 Jun 2026 17:44:00 GMT",
-      "isoDate": "2026-06-04T17:44:00.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
-    },
-    {
       "title": "Why it made sense for Seahawks to extend EDGE Derick Hall",
       "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/169226/why-it-made-sense-seattle-seahawks-extend-edge-derick-hall",
       "pubDate": "2026-06-04T16:00:00.000Z",
@@ -327,16 +347,6 @@
       "excerpt": "The Torrent have made some interesting choices in the upcoming expansion process by choosing to protect Anna Wilgren, Hannah Murphy, and Alex Carpenter. Not exactly an expansion draft, the PWHL’s Expansion Roster...",
       "source": "Davy Jones' Locker Room",
       "team": "kraken",
-      "priority": 1
-    },
-    {
-      "title": "Mariners News: Ryan Sloan, Corbin Burnes, and Nick Castellanos",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-news/144383/mariners-news-ryan-sloan-corbin-burnes-and-nick-castellanos",
-      "pubDate": "2026-06-04T14:00:00.000Z",
-      "isoDate": "2026-06-04T14:00:00.000Z",
-      "excerpt": "Arizona Diamondbacks' Corbin Burnes (39) pitches against the Washington Nationals at Chase Field in Phoenix on June 1, 2025. | Joe Rondone/The Republic / USA TODAY NETWORK via Imagn Images Good morning friends! Happy...",
-      "source": "Lookout Landing",
-      "team": "mariners",
       "priority": 1
     },
     {
@@ -368,16 +378,6 @@
       "source": "Seahawks.com",
       "team": "seahawks",
       "priority": 6
-    },
-    {
-      "title": "George Kirby buried by the ground, Mariners lose first game in a while",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/144390/george-kirby-buried-by-the-ground-mariners-lose-first-game-in-a-while",
-      "pubDate": "2026-06-03T23:45:43.000Z",
-      "isoDate": "2026-06-03T23:45:43.000Z",
-      "excerpt": "SEATTLE, WASHINGTON - JUNE 03: George Kirby #68 of the Seattle Mariners looks on after Juan Soto #22 of the New York Mets stole second base during the fourth inning at T-Mobile Park on June 03, 2026 in Seattle,...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
     },
     {
       "title": "VOTE NOW! Help make Mariners All-Star Game starters",
