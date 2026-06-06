@@ -1,14 +1,29 @@
 {
-  "generatedAt": "2026-06-06T15:12:33.811Z",
+  "generatedAt": "2026-06-06T17:08:47.092Z",
   "sourceCount": 10,
-  "successfulSources": 9,
-  "failedSources": [
-    {
-      "source": "Seattle Times Sports",
-      "error": "Status code 403 (lenient retry: Status code 403)"
-    }
-  ],
+  "successfulSources": 10,
+  "failedSources": [],
   "items": [
+    {
+      "title": "Mariners Game #65 Preview and Discussion, 6/6/26: SEA at DET",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-discussion/144489/mariners-game-65-preview-and-discussion-6-6-26-sea-at-det",
+      "pubDate": "2026-06-06T16:40:00.000Z",
+      "isoDate": "2026-06-06T16:40:00.000Z",
+      "excerpt": "May 31, 2026; Seattle, Washington, USA; Seattle Mariners starting pitcher Bryce Miller (50) walks off the field after the final out of the fourth inning against the Arizona Diamondbacks at T-Mobile Park. Mandatory...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Latest Mariners injuries and transactions",
+      "link": "https://www.mlb.com/mariners/news/mariners-injuries-and-roster-moves",
+      "pubDate": "Sat, 06 Jun 2026 16:00:00 GMT",
+      "isoDate": "2026-06-06T16:00:00.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
     {
       "title": "Seahawks News 6/6: Rylie Mills is ready to earn a bigger role with Seahawks",
       "link": "https://www.fieldgulls.com/seattle-seahawks-news/169335/seahawks-news-6-6-rylie-mills-is-ready-to-earn-a-bigger-role-with-seahawks",
@@ -40,6 +55,36 @@
       "priority": 1
     },
     {
+      "title": "Colombia’s soccer jersey isn’t just about sports. It’s become a symbol of political division",
+      "link": "https://www.seattletimes.com/sports/colombias-soccer-jersey-isnt-just-about-sports-its-become-a-symbol-of-political-division/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Sat, 06 Jun 2026 06:30:01 -0700",
+      "isoDate": "2026-06-06T13:30:01.000Z",
+      "excerpt": "Colombia’s national soccer jersey has become the subject of controversy during the country's bitterly disputed presidential election.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Where rebuilding Storm sit after a quarter of WNBA season | Analysis",
+      "link": "https://www.seattletimes.com/sports/storm/where-rebuilding-storm-sit-at-quarter-pole-of-wnba-season-analysis/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Sat, 06 Jun 2026 06:00:00 -0700",
+      "isoDate": "2026-06-06T13:00:00.000Z",
+      "excerpt": "Here are five observations of the Storm, whose resiliency will be challenged during a year that’s brought several challenges, at the quarter pole of the WNBA season.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "FIFA Men’s World Cup fulfills stadium promise Paul Allen made 30 years ago",
+      "link": "https://www.seattletimes.com/sports/world-cup/fifa-mens-world-cup-fulfills-stadium-promise-paul-allen-made-30-years-ago/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Sat, 06 Jun 2026 06:00:00 -0700",
+      "isoDate": "2026-06-06T13:00:00.000Z",
+      "excerpt": "Nearly 30 years ago, Paul Allen asked Washington to pay for a stadium if he bought the Seahawks. A chance to host World Cup games was used to sweeten the deal.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
       "title": "Crawford (hand) appears to avoid serious injury after HBP",
       "link": "https://www.mlb.com/mariners/news/j-p-crawford-exits-hand-injury",
       "pubDate": "Sat, 06 Jun 2026 04:54:00 GMT",
@@ -50,20 +95,30 @@
       "priority": 6
     },
     {
+      "title": "Start time for Sounders-Whitecaps match pushed back",
+      "link": "https://www.seattletimes.com/sports/sounders/start-time-for-sounders-whitecaps-match-pushed-back/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Fri, 05 Jun 2026 21:51:03 -0700",
+      "isoDate": "2026-06-06T04:51:03.000Z",
+      "excerpt": "The Sounders’ home match against the Vancouver Whitecaps on Sunday, Aug. 16 will now kick off at 7:30 p.m. PT at Lumen Field and feature as part of Apple TV’s “Sunday Night Soccer.”",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "FIFA to allow factory-sealed, disposable water bottles into World Cup stadiums",
+      "link": "https://www.seattletimes.com/sports/world-cup/fifa-to-allow-factory-sealed-disposable-water-bottles-into-world-cup-stadiums/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Fri, 05 Jun 2026 20:55:46 -0700",
+      "isoDate": "2026-06-06T03:55:46.000Z",
+      "excerpt": "FIFA announced Friday that it will now allow fans to bring their own water bottles to some stadiums during the World Cup.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
       "title": "Kade Anderson ties for MiLB K lead, sits atop Double-A in nearly every category",
       "link": "https://www.mlb.com/mariners/news/mariners-prospect-kade-anderson-ties-minors-strikeout-lead",
       "pubDate": "Sat, 06 Jun 2026 03:49:00 GMT",
       "isoDate": "2026-06-06T03:49:00.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
-    },
-    {
-      "title": "Latest Mariners injuries and transactions",
-      "link": "https://www.mlb.com/mariners/news/mariners-injuries-and-roster-moves",
-      "pubDate": "Sat, 06 Jun 2026 03:16:00 GMT",
-      "isoDate": "2026-06-06T03:16:00.000Z",
       "excerpt": "",
       "source": "Mariners.com",
       "team": "mariners",
@@ -80,6 +135,16 @@
       "priority": 1
     },
     {
+      "title": "Washington Huskies football lands commitment from Dontay Tyson Jr.",
+      "link": "https://www.seattletimes.com/sports/washington-huskies-football/washington-huskies-football-lands-commitment-from-dontay-tyson-jr/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Fri, 05 Jun 2026 19:12:54 -0700",
+      "isoDate": "2026-06-06T02:12:54.000Z",
+      "excerpt": "Washington landed its second blue-chip wide receiver in the past week after Peoria, Ariz., native Dontay Tyson Jr. announced his pledge to the Huskies Friday evening.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
       "title": "Kerry Carpenter homers as Tigers beat Mariners 7-3",
       "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/kerry-carpenter-homers-detroit-tigers-seattle-mariners-7-3",
       "pubDate": "Sat, 06 Jun 2026 02:05:10 +0000",
@@ -88,6 +153,26 @@
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
+    },
+    {
+      "title": "Washington Huskies football host 14 prospects for official visits this weekend",
+      "link": "https://www.seattletimes.com/sports/washington-huskies-football/washington-huskies-football-host-14-prospects-for-official-visits-this-weekend/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Fri, 05 Jun 2026 18:56:22 -0700",
+      "isoDate": "2026-06-06T01:56:22.000Z",
+      "excerpt": "Recruiting season is in full swing, and Washington is hosting 14 players for official visits this weekend, including six uncommitted prospects.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Seattle hotel workers authorize strike ahead of the FIFA World Cup",
+      "link": "https://www.seattletimes.com/business/local-business/seattle-hotel-workers-authorize-strike-ahead-of-the-fifa-world-cup/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Fri, 05 Jun 2026 18:44:33 -0700",
+      "isoDate": "2026-06-06T01:44:33.000Z",
+      "excerpt": "Seattle's unionized hotel workers in Pioneer Square green lit a strike before the FIFA World Cup kicks off at Lumen Field.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
     },
     {
       "title": "33-31: Chart",
@@ -330,16 +415,6 @@
       "priority": 1
     },
     {
-      "title": "Mariners announce Alumni Home Run Derby for August 7th",
-      "link": "https://www.lookoutlanding.com/general/144410/mariners-announce-alumni-home-run-derby-for-august-7th",
-      "pubDate": "2026-06-04T19:46:48.000Z",
-      "isoDate": "2026-06-04T19:46:48.000Z",
-      "excerpt": "OAKLAND - JULY 28: Bucky Jacobsen #33 of the Seattle Mariners poses prior to the MLB game against the Oakland A's at the Network Associates Coliseum on July 28, 2004. The Athletics defeated the Mariners 3-2. (Photo by...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
       "title": "Seattle Torrent Protect Wilgren, Murphy, Carpenter in Expansion Draft",
       "link": "https://www.davyjoneslockerroom.com/seattle-torrent-protect-wilgren-murphy-carpenter-in-expansion-draft/",
       "pubDate": "Thu, 04 Jun 2026 16:00:00 +0000",
@@ -528,86 +603,6 @@
       "source": "MLB Trade Rumors",
       "team": "mariners",
       "priority": 2
-    },
-    {
-      "title": "Firebirds season ends in 4 games in AHL Pacific Division Final",
-      "link": "https://www.davyjoneslockerroom.com/firebirds-season-ends-in-4-games-in-ahl-pacific-division-final/",
-      "pubDate": "Thu, 21 May 2026 14:00:00 +0000",
-      "isoDate": "2026-05-21T14:00:00.000Z",
-      "excerpt": "Just not to be. The Coachella Valley Firebirds faced Colorado in Game 4 last night, and unfortunately, with their season on the line, couldn’t stymie the advance of the Eagles in the AHL Postseason, losing a...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
-    },
-    {
-      "title": "MLBTR Podcast: Colt Emerson Debuts, Blue Jays’ Rotation Issues, And What To Make Of The Mets And Astros",
-      "link": "https://www.mlbtraderumors.com/2026/05/mlbtr-podcast-colt-emerson-debuts-blue-jays-rotation-issues-and-what-to-make-of-the-mets-and-astros.html",
-      "pubDate": "Thu, 21 May 2026 04:00:16 +0000",
-      "isoDate": "2026-05-21T04:00:16.000Z",
-      "excerpt": "The latest episode of the MLB Trade Rumors Podcast is now live on Spotify, Apple Podcasts, and wherever you get your podcasts! Make sure you subscribe as well! You can also use the player at this link to listen, if you...",
-      "source": "MLB Trade Rumors",
-      "team": "mariners",
-      "priority": 2
-    },
-    {
-      "title": "J.P. Crawford Getting Work At Third Base",
-      "link": "https://www.mlbtraderumors.com/2026/05/mariners-rumors-j-p-crawford-third-base-colt-emerson-shortstop.html",
-      "pubDate": "Thu, 21 May 2026 00:11:52 +0000",
-      "isoDate": "2026-05-21T00:11:52.000Z",
-      "excerpt": "Mariners shortstop J.P. Crawford has been getting work at the hot corner and was taking grounders there prior to today’s game. Daniel Kramer of MLB.com was among those to report that the idea was actually brought up by...",
-      "source": "MLB Trade Rumors",
-      "team": "mariners",
-      "priority": 2
-    },
-    {
-      "title": "Kraken Sign Alexis Bernier To Entry-Level Contract",
-      "link": "https://www.prohockeyrumors.com/2026/05/kraken-sign-defenseman-alexis-bernier-to-entry-level-contract.html",
-      "pubDate": "Tue, 19 May 2026 17:30:30 +0000",
-      "isoDate": "2026-05-19T17:30:30.000Z",
-      "excerpt": "The Seattle Kraken have locked up one of their promising young blue-line prospects, signing defenseman Alexis Bernier to a three-year, entry-level contract. According to the team, the deal will carry an average annual...",
-      "source": "Pro Hockey Rumors",
-      "team": "kraken",
-      "priority": 2
-    },
-    {
-      "title": "Four Options for the Kraken at Pick 7",
-      "link": "https://www.davyjoneslockerroom.com/four-options-for-the-kraken-at-pick-7/",
-      "pubDate": "Tue, 19 May 2026 15:00:00 +0000",
-      "isoDate": "2026-05-19T15:00:00.000Z",
-      "excerpt": "The NHL Draft Lottery has come and gone, and luck continues to not be on the Seattle Kraken’s side. The Hockey Gods are clearly prepared to drag this team – and fanbase – through years of developing instead of having...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
-    },
-    {
-      "title": "Mariners Recall Robinson Ortiz, Select Brennen Davis",
-      "link": "https://www.mlbtraderumors.com/2026/05/mariners-recall-robinson-ortiz-select-brennen-davis.html",
-      "pubDate": "Mon, 18 May 2026 22:10:38 +0000",
-      "isoDate": "2026-05-18T22:10:38.000Z",
-      "excerpt": "The Mariners announced several roster moves today. Infielder Patrick Wisdom has been reinstated from the 10-day injured list and left-hander Robinson Ortiz has been recalled from Triple-A. The lefty will be making his...",
-      "source": "MLB Trade Rumors",
-      "team": "mariners",
-      "priority": 2
-    },
-    {
-      "title": "Mariners Promote Colt Emerson, Place Brendan Donovan On IL",
-      "link": "https://www.mlbtraderumors.com/2026/05/mariners-to-promote-colt-emerson.html",
-      "pubDate": "Mon, 18 May 2026 03:59:10 +0000",
-      "isoDate": "2026-05-18T03:59:10.000Z",
-      "excerpt": "The Mariners are adding top prospect Colt Emerson to the big-league squad, first reported by Ryan Divish of the Seattle Times. The 20-year-old shortstop is among the highest-ranked young players in the sport. The team...",
-      "source": "MLB Trade Rumors",
-      "team": "mariners",
-      "priority": 2
-    },
-    {
-      "title": "Firebirds Round 3 Playoffs SO FAR: BIRDFIGHT…2!",
-      "link": "https://www.davyjoneslockerroom.com/firebirds-round-3-playoffs-so-far-birdfight-2/",
-      "pubDate": "Sun, 17 May 2026 14:00:00 +0000",
-      "isoDate": "2026-05-17T14:00:00.000Z",
-      "excerpt": "The Need to Knows The Times for remaining games: Game 3: May 17 – 5:05pm PDT Game 4: May 20 – 7:05pm PDT Game 5: May 22- 7:05pm PDT The Place: All remaining games in this series will be conducted in Blue Federal Credit...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
     }
   ]
 }
