@@ -1,14 +1,79 @@
 {
-  "generatedAt": "2026-06-06T19:17:20.092Z",
+  "generatedAt": "2026-06-06T21:01:32.919Z",
   "sourceCount": 10,
-  "successfulSources": 9,
-  "failedSources": [
-    {
-      "source": "Seattle Times Sports",
-      "error": "Status code 403 (lenient retry: Status code 403)"
-    }
-  ],
+  "successfulSources": 10,
+  "failedSources": [],
   "items": [
+    {
+      "title": "Iran’s soccer team leaves for World Cup as some officials still await US visas",
+      "link": "https://www.seattletimes.com/sports/world-cup/irans-soccer-team-leaves-for-world-cup-as-some-officials-still-await-us-visas/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Sat, 06 Jun 2026 13:40:59 -0700",
+      "isoDate": "2026-06-06T20:40:59.000Z",
+      "excerpt": "Iran’s World Cup soccer team set off from Turkey for their training base in Mexico on Saturday, with some members of their entourage reportedly still without U.S. visas.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Bryce Miller dazzles again as Mariners blank Tigers 4-0",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/bryce-miller-dazzles-again-seattle-mariners-blank-tigers-4-0",
+      "pubDate": "Sat, 06 Jun 2026 20:04:14 +0000",
+      "isoDate": "2026-06-06T20:04:14.000Z",
+      "excerpt": "Bryce Miller tossed six scoreless innings of one-hit ball and lowered his ERA to 1.33.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "2nd time's the charm! After near-miss, Canzone crushes longest HR of his career",
+      "link": "https://www.mlb.com/mariners/news/dominic-canzone-hits-homer-mariners-win-vs-tigers",
+      "pubDate": "Sat, 06 Jun 2026 20:01:28 GMT",
+      "isoDate": "2026-06-06T20:01:28.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Mariners’ Bryce Miller stumps Tigers with six shutout innings",
+      "link": "https://www.seattletimes.com/sports/mariners/mariners-bryce-miller-stumps-tigers-with-six-shutout-innings/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Sat, 06 Jun 2026 13:00:38 -0700",
+      "isoDate": "2026-06-06T20:00:38.000Z",
+      "excerpt": "Bryce Miller struck out nine and allowed just one hit over six shutout innings as the Mariners beat the Tigers 4-0 Saturday.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Seahawks fan discussion: What are your favorite Russell Wilson plays of all time?",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/169342/seahawks-fan-discussion-what-are-your-favorite-russell-wilson-plays",
+      "pubDate": "2026-06-06T19:48:36.000Z",
+      "isoDate": "2026-06-06T19:48:36.000Z",
+      "excerpt": "EAST RUTHERFORD, NJ - FEBRUARY 02: Quarterback Russell Wilson #3 of the Seattle Seahawks scrambles against the Denver Broncos during Super Bowl XLVIII at MetLife Stadium on February 2, 2014 in East Rutherford, New...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
+    {
+      "title": "Seattle Storm’s Awa Fam, Dominique Malonga see first action together during loss",
+      "link": "https://www.seattletimes.com/sports/storm/seattle-storms-awa-fam-dominique-malonga-see-first-action-together-during-loss/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Sat, 06 Jun 2026 12:19:02 -0700",
+      "isoDate": "2026-06-06T19:19:02.000Z",
+      "excerpt": "Storm youngsters Dominique Malonga and Fam shared the court for the first time – albeit briefly – Saturday to comprise the youngest frontcourt pairing in WNBA history.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Canzone blasts longest home run of Mariners’ season",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/canzone-blasts-longest-home-run-seattle-mariners-season",
+      "pubDate": "Sat, 06 Jun 2026 19:14:50 +0000",
+      "isoDate": "2026-06-06T19:14:50.000Z",
+      "excerpt": "Dominic Canzone's 451-foot shot was the fourth homer of his career to travel 440-plus feet.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
     {
       "title": "Mariners Unlikely To Trade From Top Five In Rotation",
       "link": "https://www.mlbtraderumors.com/2026/06/mariners-unlikely-to-trade-from-top-five-in-rotation.html",
@@ -90,6 +155,36 @@
       "priority": 1
     },
     {
+      "title": "Colombia’s soccer jersey isn’t just about sports. It’s become a symbol of political division",
+      "link": "https://www.seattletimes.com/sports/colombias-soccer-jersey-isnt-just-about-sports-its-become-a-symbol-of-political-division/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Sat, 06 Jun 2026 06:30:01 -0700",
+      "isoDate": "2026-06-06T13:30:01.000Z",
+      "excerpt": "Colombia’s national soccer jersey has become the subject of controversy during the country's bitterly disputed presidential election.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Where rebuilding Storm sit after a quarter of WNBA season | Analysis",
+      "link": "https://www.seattletimes.com/sports/storm/where-rebuilding-storm-sit-at-quarter-pole-of-wnba-season-analysis/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Sat, 06 Jun 2026 06:00:00 -0700",
+      "isoDate": "2026-06-06T13:00:00.000Z",
+      "excerpt": "Here are five observations of the Storm, whose resiliency will be challenged during a year that’s brought several challenges, at the quarter pole of the WNBA season.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "FIFA Men’s World Cup fulfills stadium promise Paul Allen made 30 years ago",
+      "link": "https://www.seattletimes.com/sports/world-cup/fifa-mens-world-cup-fulfills-stadium-promise-paul-allen-made-30-years-ago/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Sat, 06 Jun 2026 06:00:00 -0700",
+      "isoDate": "2026-06-06T13:00:00.000Z",
+      "excerpt": "Nearly 30 years ago, Paul Allen asked Washington to pay for a stadium if he bought the Seahawks. A chance to host World Cup games was used to sweeten the deal.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
       "title": "Crawford (hand) appears to avoid serious injury after HBP",
       "link": "https://www.mlb.com/mariners/news/j-p-crawford-exits-hand-injury",
       "pubDate": "Sat, 06 Jun 2026 04:54:00 GMT",
@@ -98,6 +193,26 @@
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
+    },
+    {
+      "title": "Start time for Sounders-Whitecaps match pushed back",
+      "link": "https://www.seattletimes.com/sports/sounders/start-time-for-sounders-whitecaps-match-pushed-back/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Fri, 05 Jun 2026 21:51:03 -0700",
+      "isoDate": "2026-06-06T04:51:03.000Z",
+      "excerpt": "The Sounders’ home match against the Vancouver Whitecaps on Sunday, Aug. 16 will now kick off at 7:30 p.m. PT at Lumen Field and feature as part of Apple TV’s “Sunday Night Soccer.”",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "FIFA to allow factory-sealed, disposable water bottles into World Cup stadiums",
+      "link": "https://www.seattletimes.com/sports/world-cup/fifa-to-allow-factory-sealed-disposable-water-bottles-into-world-cup-stadiums/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Fri, 05 Jun 2026 20:55:46 -0700",
+      "isoDate": "2026-06-06T03:55:46.000Z",
+      "excerpt": "FIFA announced Friday that it will now allow fans to bring their own water bottles to some stadiums during the World Cup.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
     },
     {
       "title": "Kade Anderson ties for MiLB K lead, sits atop Double-A in nearly every category",
@@ -140,16 +255,6 @@
       "priority": 1
     },
     {
-      "title": "Watch Top 100 prospects Farmelo, Celesten at High-A for FREE tonight",
-      "link": "https://www.mlb.com/mariners/news/watch-minor-league-baseball-games-for-free-2026",
-      "pubDate": "Sat, 06 Jun 2026 01:08:00 GMT",
-      "isoDate": "2026-06-06T01:08:00.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
-    },
-    {
       "title": "Mariners’ J.P. Crawford exits after Framber Valdez hits him",
       "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-jp-crawford-exits-hit-framber-valdez",
       "pubDate": "Sat, 06 Jun 2026 00:01:17 +0000",
@@ -185,26 +290,6 @@
       "pubDate": "Fri, 05 Jun 2026 20:48:19 +0000",
       "isoDate": "2026-06-05T20:48:19.000Z",
       "excerpt": "Corey Seager was activated from the injured list Friday after the slumping five-time All-Star shortstop missed 19 games for the Texas Rangers because of lower back inflammation.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "Mariners-Tigers Series Preview: Weather, Game 1 lineup and more",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-detroit-tigers-series-preview-weather-more",
-      "pubDate": "Fri, 05 Jun 2026 20:23:48 +0000",
-      "isoDate": "2026-06-05T20:23:48.000Z",
-      "excerpt": "Weather could be a problem again for the Mariners as they return to Detroit for the first time since their 2025 ALDS win.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "AL Check-In: Yankees put reigning MVP Aaron Judge on IL",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/al-check-in-aaron-judge-new-york-yankees-injury",
-      "pubDate": "Fri, 05 Jun 2026 19:36:39 +0000",
-      "isoDate": "2026-06-05T19:36:39.000Z",
-      "excerpt": "New York Yankees outfielder Aaron Judge was placed on the 10-day injured list Friday, a day after the team announced he will be sidelined indefinitely with a stress fracture of one of his ribs.",
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
@@ -338,16 +423,6 @@
       "source": "Seahawks.com",
       "team": "seahawks",
       "priority": 6
-    },
-    {
-      "title": "Nolan Teasley starts Vikings tenure by signing recently waived Seahawks",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169291/nolan-teasley-starts-vikings-tenure-signing-recently-waived-seahawks-nfl-news",
-      "pubDate": "2026-06-04T20:16:12.000Z",
-      "isoDate": "2026-06-04T20:16:12.000Z",
-      "excerpt": "EAGAN, MN. - JUNE 2026: Minnesota Vikings new General Manger Nolan Teasley left, and Vikings President/Owner Mark Wilf, Wednesday, June 2, 2026 in Eagan, Minn. The Vikings officially announced Teasley’s hiring Monday...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
     },
     {
       "title": "Seattle Torrent Protect Wilgren, Murphy, Carpenter in Expansion Draft",
@@ -527,86 +602,6 @@
       "excerpt": "The Seahawks and Jets have agreed to a minor trade. New York is sending wide receiver Irvin Charles to Seattle for a conditional seventh-round selection, Zack Rosenblatt of The Athletic reports. It’s a 2028 pick, per...",
       "source": "Pro Football Rumors",
       "team": "seahawks",
-      "priority": 2
-    },
-    {
-      "title": "Mariners Notes: Crawford, Rotation, Castillo",
-      "link": "https://www.mlbtraderumors.com/2026/05/mariners-notes-crawford-rotation-castillo.html",
-      "pubDate": "Sun, 24 May 2026 04:22:37 +0000",
-      "isoDate": "2026-05-24T04:22:37.000Z",
-      "excerpt": "J.P. Crawford has been a key part of the Mariners’ lineup since joining the club in 2019. In over 3,800 plate appearances with Seattle, Crawford has batted .248/.341/.369 with a 107 wRC+ while providing serviceable...",
-      "source": "MLB Trade Rumors",
-      "team": "mariners",
-      "priority": 2
-    },
-    {
-      "title": "Firebirds season ends in 4 games in AHL Pacific Division Final",
-      "link": "https://www.davyjoneslockerroom.com/firebirds-season-ends-in-4-games-in-ahl-pacific-division-final/",
-      "pubDate": "Thu, 21 May 2026 14:00:00 +0000",
-      "isoDate": "2026-05-21T14:00:00.000Z",
-      "excerpt": "Just not to be. The Coachella Valley Firebirds faced Colorado in Game 4 last night, and unfortunately, with their season on the line, couldn’t stymie the advance of the Eagles in the AHL Postseason, losing a...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
-    },
-    {
-      "title": "MLBTR Podcast: Colt Emerson Debuts, Blue Jays’ Rotation Issues, And What To Make Of The Mets And Astros",
-      "link": "https://www.mlbtraderumors.com/2026/05/mlbtr-podcast-colt-emerson-debuts-blue-jays-rotation-issues-and-what-to-make-of-the-mets-and-astros.html",
-      "pubDate": "Thu, 21 May 2026 04:00:16 +0000",
-      "isoDate": "2026-05-21T04:00:16.000Z",
-      "excerpt": "The latest episode of the MLB Trade Rumors Podcast is now live on Spotify, Apple Podcasts, and wherever you get your podcasts! Make sure you subscribe as well! You can also use the player at this link to listen, if you...",
-      "source": "MLB Trade Rumors",
-      "team": "mariners",
-      "priority": 2
-    },
-    {
-      "title": "J.P. Crawford Getting Work At Third Base",
-      "link": "https://www.mlbtraderumors.com/2026/05/mariners-rumors-j-p-crawford-third-base-colt-emerson-shortstop.html",
-      "pubDate": "Thu, 21 May 2026 00:11:52 +0000",
-      "isoDate": "2026-05-21T00:11:52.000Z",
-      "excerpt": "Mariners shortstop J.P. Crawford has been getting work at the hot corner and was taking grounders there prior to today’s game. Daniel Kramer of MLB.com was among those to report that the idea was actually brought up by...",
-      "source": "MLB Trade Rumors",
-      "team": "mariners",
-      "priority": 2
-    },
-    {
-      "title": "Kraken Sign Alexis Bernier To Entry-Level Contract",
-      "link": "https://www.prohockeyrumors.com/2026/05/kraken-sign-defenseman-alexis-bernier-to-entry-level-contract.html",
-      "pubDate": "Tue, 19 May 2026 17:30:30 +0000",
-      "isoDate": "2026-05-19T17:30:30.000Z",
-      "excerpt": "The Seattle Kraken have locked up one of their promising young blue-line prospects, signing defenseman Alexis Bernier to a three-year, entry-level contract. According to the team, the deal will carry an average annual...",
-      "source": "Pro Hockey Rumors",
-      "team": "kraken",
-      "priority": 2
-    },
-    {
-      "title": "Four Options for the Kraken at Pick 7",
-      "link": "https://www.davyjoneslockerroom.com/four-options-for-the-kraken-at-pick-7/",
-      "pubDate": "Tue, 19 May 2026 15:00:00 +0000",
-      "isoDate": "2026-05-19T15:00:00.000Z",
-      "excerpt": "The NHL Draft Lottery has come and gone, and luck continues to not be on the Seattle Kraken’s side. The Hockey Gods are clearly prepared to drag this team – and fanbase – through years of developing instead of having...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
-    },
-    {
-      "title": "Mariners Recall Robinson Ortiz, Select Brennen Davis",
-      "link": "https://www.mlbtraderumors.com/2026/05/mariners-recall-robinson-ortiz-select-brennen-davis.html",
-      "pubDate": "Mon, 18 May 2026 22:10:38 +0000",
-      "isoDate": "2026-05-18T22:10:38.000Z",
-      "excerpt": "The Mariners announced several roster moves today. Infielder Patrick Wisdom has been reinstated from the 10-day injured list and left-hander Robinson Ortiz has been recalled from Triple-A. The lefty will be making his...",
-      "source": "MLB Trade Rumors",
-      "team": "mariners",
-      "priority": 2
-    },
-    {
-      "title": "Mariners Promote Colt Emerson, Place Brendan Donovan On IL",
-      "link": "https://www.mlbtraderumors.com/2026/05/mariners-to-promote-colt-emerson.html",
-      "pubDate": "Mon, 18 May 2026 03:59:10 +0000",
-      "isoDate": "2026-05-18T03:59:10.000Z",
-      "excerpt": "The Mariners are adding top prospect Colt Emerson to the big-league squad, first reported by Ryan Divish of the Seattle Times. The 20-year-old shortstop is among the highest-ranked young players in the sport. The team...",
-      "source": "MLB Trade Rumors",
-      "team": "mariners",
       "priority": 2
     }
   ]
