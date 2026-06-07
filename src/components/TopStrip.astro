@@ -4,6 +4,7 @@
 // No. = day-of-year (Jan 1 = 001), zero-padded to 3 digits.
 
 const LAUNCH_YEAR = 2026;
+const TZ = 'America/Los_Angeles';
 
 function toRoman(num: number): string {
   const map: [number, string][] = [
@@ -21,15 +22,19 @@ function toRoman(num: number): string {
   return result || 'I';
 }
 
-function dayOfYear(date: Date): number {
-  const start = new Date(date.getFullYear(), 0, 0);
-  const diff = date.getTime() - start.getTime();
-  return Math.floor(diff / (1000 * 60 * 60 * 24));
-}
+// Read the Seattle-local Y/M/D, then compute day-of-year from those parts
+// so the issue number doesn't jump a day due to the UTC build server.
+const parts = new Intl.DateTimeFormat('en-CA', {
+  year: 'numeric', month: '2-digit', day: '2-digit', timeZone: TZ,
+}).format(new Date()); // yields "YYYY-MM-DD"
+const [sYear, sMonth, sDay] = parts.split('-').map(Number);
 
-const now = new Date();
-const volume = toRoman(now.getFullYear() - LAUNCH_YEAR + 1);
-const issue = String(dayOfYear(now)).padStart(3, '0');
+const startOfYear = Date.UTC(sYear, 0, 0);
+const todayUTC = Date.UTC(sYear, sMonth - 1, sDay);
+const dayNum = Math.floor((todayUTC - startOfYear) / 86400000);
+
+const volume = toRoman(sYear - LAUNCH_YEAR + 1);
+const issue = String(dayNum).padStart(3, '0');
 ---
 
 <div class="bg-ink text-cream font-mast text-[8px] tracking-[0.08em] uppercase py-[10px]">

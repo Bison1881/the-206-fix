@@ -1,0 +1,122 @@
+---
+// src/pages/author/[slug].astro
+// One page per author, listing everything they've written (articles + retro).
+// Auto-generates from the bylines in your content — no manual upkeep.
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { DEFAULT_AUTHOR, DEFAULT_AUTHOR_SLUG, DEFAULT_AUTHOR_BIO } from '../../config';
+
+function slugify(name: string): string {
+  return name.toLowerCase().trim().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+}
+
+// Optional per-author bios. Add entries keyed by slug as you add writers.
+const BIOS: Record<string, string> = {
+  [DEFAULT_AUTHOR_SLUG]: DEFAULT_AUTHOR_BIO,
+};
+
+export async function getStaticPaths() {
+  const articles = (await getCollection('articles')).filter((a) => !a.data.draft);
+  const retro = (await getCollection('retro')).filter((r) => !r.data.draft);
+
+  // Collect every distinct author across both collections.
+  const authors = new Set<string>();
+  articles.forEach((a) => authors.add(a.data.author || DEFAULT_AUTHOR));
+  retro.forEach((r) => authors.add(r.data.author || DEFAULT_AUTHOR));
+  authors.add(DEFAULT_AUTHOR); // always build the default author's page
+
+  function slugifyLocal(name: string): string {
+    return name.toLowerCase().trim().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+  }
+
+  return [...authors].map((author) => {
+    const slug = slugifyLocal(author);
+
+    const theirArticles = articles
+      .filter((a) => (a.data.author || DEFAULT_AUTHOR) === author)
+      .map((a) => ({
+        title: a.data.title,
+        href: `/articles/${a.slug}`,
+        date: a.data.publishDate,
+        kicker: a.data.tag,
+        deck: a.data.deck,
+        readMinutes: a.data.readMinutes,
+      }));
+
+    const theirRetro = retro
+      .filter((r) => (r.data.author || DEFAULT_AUTHOR) === author)
+      .map((r) => ({
+        title: r.data.title,
+        href: `/retro/${r.slug}`,
+        date: r.data.publishDate,
+        kicker: r.data.series || r.data.game || 'Retro',
+        deck: r.data.deck,
+        readMinutes: r.data.readMinutes,
+      }));
+
+    const posts = [...theirArticles, ...theirRetro].sort(
+      (a, b) => b.date.valueOf() - a.date.valueOf()
+    );
+
+    return { params: { slug }, props: { author, posts } };
+  });
+}
+
+const { author, posts } = Astro.props;
+const bio = BIOS[Astro.params.slug] ?? '';
+
+function formatDate(date: Date): string {
+  return date.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
+}
+---
+
+<BaseLayout
+  title={`${author} — The 206 Fix`}
+  description={`Everything written by ${author} for The 206 Fix.`}
+  activeNav=""
+>
+  <section class="border-b-4 border-double border-ink py-10">
+    <div class="container-fix">
+      <div class="kicker mb-2">The Byline</div>
+      <h1 class="font-display text-[46px] leading-[1.05] tracking-[0.01em] text-ink max-md:text-[32px]">
+        {author}
+      </h1>
+      {bio && (
+        <p class="font-caslon italic text-[20px] text-slate mt-3 max-w-[640px]">{bio}</p>
+      )}
+      <div class="meta-line mt-4">{posts.length} {posts.length === 1 ? 'piece' : 'pieces'} published</div>
+    </div>
+  </section>
+
+  <section class="py-10">
+    <div class="container-fix">
+      {posts.length === 0 ? (
+        <p class="font-body text-slate italic py-8">Nothing published under this byline yet.</p>
+      ) : (
+        <div class="space-y-7">
+          {posts.map((post) => (
+            <article class="grid grid-cols-[140px_1fr] gap-6 pb-7 border-b border-black/15 last:border-b-0 max-md:grid-cols-1 max-md:gap-1">
+              <div class="meta-line pt-1">{formatDate(post.date)}</div>
+              <div>
+                <div class="kicker mb-1">{post.kicker}</div>
+                <h3 class="font-display text-[22px] leading-[1.15] tracking-[0.01em] mb-2 text-ink max-md:text-[19px]">
+                  <a href={post.href} class="hover:text-rust">{post.title}</a>
+                </h3>
+                {post.deck && (
+                  <p class="font-caslon italic text-[17px] text-slate mb-2 leading-snug">{post.deck}</p>
+                )}
+                {post.readMinutes && (
+                  <div class="meta-line">{post.readMinutes} min read</div>
+                )}
+              </div>
+            </article>
+          ))}
+        </div>
+      )}
+
+      <div class="mt-10 text-center">
+        <a href="/" class="font-pixel text-rust text-[18px] hover:text-forest">&laquo; Back to Front Page</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

@@ -3,6 +3,7 @@
 // Shared layout for team pages: hero band, team articles, team wires.
 
 import rssData from '../data/rss-feed.json';
+import { authorHref } from '../config';
 
 interface ArticleSummary {
   slug: string;
@@ -89,7 +90,7 @@ function formatDate(date: Date): string {
                   </p>
                 )}
                 <div class="meta-line">
-                  By <strong class="text-ink">{article.author}</strong>
+                  By <a href={authorHref(article.author)} class="text-ink font-bold hover:text-rust">{article.author}</a>
                   &middot; {formatDate(article.publishDate)}
                   {article.readMinutes && <> &middot; {article.readMinutes} min read</>}
                 </div>

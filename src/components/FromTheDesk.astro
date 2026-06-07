@@ -1,5 +1,6 @@
 ---
 // src/components/FromTheDesk.astro
+import { authorHref } from '../config';
 interface Story {
   slug: string;
   title: string;
@@ -41,7 +42,7 @@ const { stories } = Astro.props;
             </h3>
             <p class="font-body text-[15px] leading-[1.5] text-slate mb-3">{story.excerpt}</p>
             <div class="meta-line">
-              By <strong class="text-ink">{story.author}</strong>
+              By <a href={authorHref(story.author)} class="text-ink font-bold hover:text-rust">{story.author}</a>
               {story.readMinutes && <> &middot; {story.readMinutes} min read</>}
             </div>
           </article>

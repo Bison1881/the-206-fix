@@ -3,6 +3,7 @@
 import { getCollection } from 'astro:content';
 import type { CollectionEntry } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import { authorHref } from '../../config';
 
 export async function getStaticPaths() {
   const retro = await getCollection('retro', ({ data }) => !data.draft);
@@ -47,7 +48,7 @@ const hasVideo = entry.data.youtubeId && entry.data.youtubeId.trim().length > 0;
     )}
 
     <div class="meta-line mb-10 flex flex-wrap gap-x-4 gap-y-2">
-      <span>By <strong class="text-ink">{entry.data.author}</strong></span>
+      <span>By <a href={authorHref(entry.data.author)} class="text-ink font-bold hover:text-rust">{entry.data.author}</a></span>
       <span>{publishedString}</span>
       <span>{entry.data.game}</span>
       {entry.data.readMinutes && <span>{entry.data.readMinutes} min read</span>}

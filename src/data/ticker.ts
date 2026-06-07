@@ -1,25 +1,37 @@
-// src/data/ticker.ts
-// The scrolling ticker contents. Edit this file to update the ticker.
-// Each item has a `kind` that controls its little colored label:
-//   'score'    -> a result from a game played on the YouTube channel
-//   'headline' -> a pointer to a post/column (or any news blurb)
-//   'note'     -> a one-off quip, status, or fun aside
+// =============================================================================
+// THE 206 FIX  —  TICKER (manual items)
+// =============================================================================
+// This is the ONLY ticker file you edit. Put your scores and one-liners here.
+// Your latest POSTS are added automatically by the ticker (you don't list them
+// here) — see the headline auto-pull in src/components/Ticker.astro.
 //
-// `text` is what scrolls. Keep score lines short and scoreboard-like.
-// Items display in array order, looping continuously.
+// Each item has:
+//   kind : 'score'  -> a result from a game on the channel  (label: SCORE)
+//          'note'   -> a quip, status line, or fun aside     (label: a little >)
+//   text : what scrolls across. Keep it short and punchy.
+//   href : OPTIONAL. A link the item points to. Leave it out for no link.
+//          - internal page:  '/retro/tecmo-week-04'  or  '/columns'
+//          - YouTube etc.:   'https://www.youtube.com/@the206fix'
+//
+// Tips:
+//   - \u00B7 prints a middot ( · ). Handy for score lines.
+//   - Items show in the order listed, looping forever.
+//   - Delete the examples and add your own. This file is yours to have fun with.
+// =============================================================================
 
-export interface TickerItem {
-  kind: 'score' | 'headline' | 'note';
+export interface ManualTickerItem {
+  kind: 'score' | 'note';
   text: string;
+  href?: string;
 }
 
-export const TICKER_ITEMS: TickerItem[] = [
-  { kind: 'score',    text: 'TECMO S1 W1 \u00B7 SEA 24  SF 17 \u00B7 FINAL' },
-  { kind: 'headline', text: 'NEW: The Sonics Are Coming Home, and Seattle Is Already Different' },
-  { kind: 'score',    text: 'TECMO S1 W2 \u00B7 SEA 31  NO 28 \u00B7 FINAL/OT' },
-  { kind: 'note',     text: 'Still no commentary. Still no apologies.' },
-  { kind: 'headline', text: 'FROM THE DESK: The Quiet Math of a Mariners Rebuild Worth Trusting' },
-  { kind: 'score',    text: 'TECMO S1 W3 \u00B7 SEA 14  LAR 20 \u00B7 FINAL' },
-  { kind: 'note',     text: 'Sonics Watch: 880-ish days and counting.' },
-  { kind: 'headline', text: 'THE ARCADE: Tecmo Super Bowl, Twenty Years Late, Still Knows Seattle' },
+export const MANUAL_TICKER_ITEMS: ManualTickerItem[] = [
+  // ---- SCORES (from your gameplay) -----------------------------------------
+  { kind: 'score', text: 'TECMO S1 W1 \u00B7 SEA 24  SF 17 \u00B7 FINAL', href: '/retro' },
+  { kind: 'score', text: 'TECMO S1 W2 \u00B7 SEA 31  NO 28 \u00B7 FINAL/OT', href: '/retro' },
+  { kind: 'score', text: 'TECMO S1 W3 \u00B7 SEA 14  LAR 20 \u00B7 FINAL', href: '/retro' },
+
+  // ---- NOTES (your voice — jokes, status, asides) --------------------------
+  { kind: 'note', text: 'Still no commentary. Still no apologies.' },
+  { kind: 'note', text: 'Sonics Watch: the clock is running.', href: '/teams/sonics' },
 ];

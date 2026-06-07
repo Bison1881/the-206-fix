@@ -1,19 +1,32 @@
 ---
 // src/components/Masthead.astro
-const today = new Date();
-const dateString = today.toLocaleDateString('en-US', {
+// Date and edition are computed at BUILD time, pinned to Seattle time
+// (America/Los_Angeles) so they don't drift with the UTC build server.
+// The site rebuilds every ~2 hours via the RSS bot, so these stay fresh.
+
+const TZ = 'America/Los_Angeles';
+const now = new Date();
+
+// Full weekday + date, in Seattle time.
+const dateString = now.toLocaleDateString('en-US', {
   weekday: 'long',
   year: 'numeric',
   month: 'long',
   day: 'numeric',
+  timeZone: TZ,
 });
 
-function getEdition(date: Date): string {
-  const hour = date.getHours();
-  if (hour < 12) return 'Morning Edition';
-  if (hour < 17) return 'Afternoon Edition';
-  return 'Evening Edition';
-}
+// Seattle hour (0-23), read via Intl so it respects the timezone.
+const seattleHour = Number(
+  new Intl.DateTimeFormat('en-US', {
+    hour: 'numeric',
+    hour12: false,
+    timeZone: TZ,
+  }).format(now)
+);
+
+// Two-way AM/PM split: before noon = Morning, noon onward = Evening.
+const edition = seattleHour < 12 ? 'Morning Edition' : 'Evening Edition';
 ---
 
 <header class="border-b-4 border-double border-ink pt-8 pb-5 text-center relative">
@@ -36,7 +49,7 @@ function getEdition(date: Date): string {
       <span class="text-rust">&#9632;</span>
       <span>{dateString}</span>
       <span class="text-rust">&#9632;</span>
-      <span>{getEdition(today)}</span>
+      <span>{edition}</span>
     </div>
   </div>
 </header>

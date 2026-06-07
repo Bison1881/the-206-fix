@@ -1,6 +1,7 @@
 ---
 // src/components/HeroSection.astro
 import rssData from '../data/rss-feed.json';
+import { authorHref } from '../config';
 
 interface LeadArticle {
   title: string;
@@ -50,7 +51,7 @@ const sidebarItems = rssData.items.slice(0, 6);
               </p>
             )}
             <div class="meta-line mb-5">
-              By <strong class="text-ink">{lead.author}</strong>
+              By <a href={authorHref(lead.author)} class="text-ink font-bold hover:text-rust">{lead.author}</a>
               {lead.readMinutes && <> &middot; {lead.readMinutes} min read</>}
             </div>
             <div class="lead-body font-body text-[17px]" set:html={lead.bodyHtml} />

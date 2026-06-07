@@ -2,6 +2,7 @@
 // src/pages/columns.astro
 import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { authorHref } from '../config';
 
 const articles = (await getCollection('articles', ({ data }) => !data.draft))
   .sort((a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf());
@@ -58,7 +59,7 @@ const years = [...byYear.keys()].sort((a, b) => b - a);
                       <p class="font-caslon italic text-[17px] text-slate mb-2 leading-snug">{article.data.deck}</p>
                     )}
                     <div class="meta-line">
-                      By <strong class="text-ink">{article.data.author}</strong>
+                      By <a href={authorHref(article.data.author)} class="text-ink font-bold hover:text-rust">{article.data.author}</a>
                       {article.data.readMinutes && <> &middot; {article.data.readMinutes} min read</>}
                     </div>
                   </div>

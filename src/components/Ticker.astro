@@ -1,21 +1,63 @@
 ---
 // src/components/Ticker.astro
-import { TICKER_ITEMS } from '../data/ticker';
+import { getCollection } from 'astro:content';
+import { MANUAL_TICKER_ITEMS } from '../data/ticker';
 
-const labelFor = {
+type TickerKind = 'score' | 'headline' | 'note';
+interface Item { kind: TickerKind; text: string; href?: string; }
+
+// --- AUTO: latest posts become linked headline items ----------------------
+// Pull articles + retro posts, newest first, take a handful, link each to
+// its page. You never list these by hand; publishing a post adds it here.
+const articles = (await getCollection('articles')).filter((a) => !a.data.draft);
+const retro = (await getCollection('retro')).filter((r) => !r.data.draft);
+
+const articleItems: Item[] = articles.map((a) => ({
+  kind: 'headline',
+  text: a.data.title,
+  href: `/articles/${a.slug}`,
+  _date: a.data.publishDate,
+})) as any;
+
+const retroItems: Item[] = retro.map((r) => ({
+  kind: 'headline',
+  text: r.data.title,
+  href: `/retro/${r.slug}`,
+  _date: r.data.publishDate,
+})) as any;
+
+const headlineItems: Item[] = [...articleItems, ...retroItems]
+  .sort((a: any, b: any) => b._date.valueOf() - a._date.valueOf())
+  .slice(0, 6); // newest 6 posts
+
+// --- MERGE: weave headlines through the manual scores/notes ----------------
+// Alternating so the ticker reads: score, headline, note, headline, ...
+const manual: Item[] = MANUAL_TICKER_ITEMS;
+const merged: Item[] = [];
+const maxLen = Math.max(manual.length, headlineItems.length);
+for (let i = 0; i < maxLen; i++) {
+  if (manual[i]) merged.push(manual[i]);
+  if (headlineItems[i]) merged.push(headlineItems[i]);
+}
+
+// Fallback so the ticker is never empty on a brand-new site.
+const items: Item[] = merged.length ? merged : [
+  { kind: 'note', text: 'Welcome to The 206 Fix. Press Start.' },
+];
+
+const labelFor: Record<TickerKind, string> = {
   score: 'SCORE',
   headline: 'LATEST',
   note: '\u25B6',
 };
-
-const colorFor = {
+const colorFor: Record<TickerKind, string> = {
   score: 'text-fog',
   headline: 'text-rust',
   note: 'text-cream/60',
 };
 
 // Duplicate the list so the marquee loops seamlessly.
-const loop = [...TICKER_ITEMS, ...TICKER_ITEMS];
+const loop = [...items, ...items];
 ---
 
 <div class="ticker" aria-label="Latest scores and headlines">
@@ -25,13 +67,18 @@ const loop = [...TICKER_ITEMS, ...TICKER_ITEMS];
       {loop.map((item) => (
         <span class="ticker-item">
           <span class:list={['ticker-label font-mast', colorFor[item.kind]]}>{labelFor[item.kind]}</span>
-          <span class="ticker-text font-ticker">{item.text}</span>
+          {item.href ? (
+            <a href={item.href} class="ticker-text font-ticker ticker-link">{item.text}</a>
+          ) : (
+            <span class="ticker-text font-ticker">{item.text}</span>
+          )}
           <span class="ticker-sep">&#9670;</span>
         </span>
       ))}
     </div>
   </div>
 </div>
+
 
 <style>
   .ticker {
@@ -91,6 +138,14 @@ const loop = [...TICKER_ITEMS, ...TICKER_ITEMS];
     font-size: 22px;
     line-height: 1;
     letter-spacing: 0.02em;
+  }
+
+  .ticker-link {
+    text-decoration: none;
+    transition: color 0.15s;
+  }
+  .ticker-link:hover {
+    color: var(--rust);
   }
 
   .ticker-sep {
