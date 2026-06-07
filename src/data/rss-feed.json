@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-07T10:26:33.469Z",
+  "generatedAt": "2026-06-07T13:46:12.234Z",
   "sourceCount": 10,
   "successfulSources": 9,
   "failedSources": [
@@ -9,6 +9,16 @@
     }
   ],
   "items": [
+    {
+      "title": "Seahawks News 6/7: What will the Seahawks’ O-line look like in 2026?",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169361/seahawks-news-6-7-what-will-the-seahawks-o-line-look-like-in-2026",
+      "pubDate": "2026-06-07T13:00:00.000Z",
+      "isoDate": "2026-06-07T13:00:00.000Z",
+      "excerpt": "SEATTLE, WASHINGTON - SEPTEMBER 07: Bryce Cabeldue #77 of the Seattle Seahawks warms up prior to the game against the San Francisco 49ers during the game at Lumen Field on September 07, 2025 in Seattle, Washington....",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
     {
       "title": "‘No drop-off’: Intensity stood out to Wyman at Seahawks OTAs",
       "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/wyman-intensity-stood-out-seattle-seahawks-ota-practices",
@@ -305,16 +315,6 @@
       "pubDate": "2026-06-05T13:00:00.000Z",
       "isoDate": "2026-06-05T13:00:00.000Z",
       "excerpt": "Feb 5, 2026; San Jose, CA, USA; Seattle Seahawks defensive tackle Jarran Reed (90) talks to media members at the San Jose Marriott. Mandatory Credit: Darren Yamashita-Imagn Images | Darren Yamashita-Imagn Images In...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "Should John Schneider counter the Myles Garrett trade with his own big move?",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/169299/should-seahawks-john-schneider-counter-the-myles-garrett-trade-with-own-big-move",
-      "pubDate": "2026-06-04T23:37:19.000Z",
-      "isoDate": "2026-06-04T23:37:19.000Z",
-      "excerpt": "SANTA CLARA, CALIFORNIA - FEBRUARY 08: John Schneider, General manager of the Seattle Seahawks, celebrates with the Vince Lombardi Trophy after winning Super Bowl LX against the New England Patriots at Levi's Stadium on...",
       "source": "Field Gulls",
       "team": "seahawks",
       "priority": 1
