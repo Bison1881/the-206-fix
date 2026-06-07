@@ -1,18 +1,44 @@
 {
-  "generatedAt": "2026-06-07T15:22:22.680Z",
+  "generatedAt": "2026-06-07T17:13:28.127Z",
   "sourceCount": 10,
-  "successfulSources": 8,
+  "successfulSources": 9,
   "failedSources": [
     {
       "source": "Seattle Times Sports",
       "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
-    },
-    {
-      "source": "Davy Jones' Locker Room",
-      "error": "Status code 415 (lenient retry: Status code 415)"
     }
   ],
   "items": [
+    {
+      "title": "Lineup: Mariners’ J.P. Crawford out for 2nd straight day",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/lineup-seattle-mariners-j-p-crawford-out-2nd-straight-day",
+      "pubDate": "Sun, 07 Jun 2026 16:34:30 +0000",
+      "isoDate": "2026-06-07T16:34:30.000Z",
+      "excerpt": "J.P. Crawford has been out since taking a 96 mph pitch off his hand on Friday.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Latest Mariners injuries and transactions",
+      "link": "https://www.mlb.com/mariners/news/mariners-injuries-and-roster-moves",
+      "pubDate": "Sun, 07 Jun 2026 16:00:00 GMT",
+      "isoDate": "2026-06-07T16:00:00.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "On the latest",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-analysis/144509/on-the-latest",
+      "pubDate": "2026-06-07T14:30:00.000Z",
+      "isoDate": "2026-06-07T14:30:00.000Z",
+      "excerpt": "SEATTLE, WA - JUNE 02: Jhonny Pereda #5 of the Seattle Mariners hits a three run home run in the fifth inning during the game between the New York Mets and the Seattle Mariners at T-Mobile Park on Tuesday, June 2, 2026...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
     {
       "title": "SBNation Reacts results: Seahawks fans weigh in on Super Bowl chances after Rams get Myles Garrett",
       "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/169355/sbnation-reacts-results-seahawks-fans-weigh-in-on-super-bowl-chances-rams-myles-trade",
@@ -21,6 +47,16 @@
       "excerpt": "WOODLAND HILLS, CA - JUNE 02, 2026: Myles Garrett of the Los Angeles Rams pose for a photo during a press conference at Rams training facility on Tuesday, June 2, 2026 in Woodland Hills, CA (Ric Tapia / Los Angeles...",
       "source": "Field Gulls",
       "team": "seahawks",
+      "priority": 1
+    },
+    {
+      "title": "Mariners News: Josh Naylor, Jorge Polanco, and Royce Lewis",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-news/144495/mariners-news-josh-naylor-jorge-polanco-and-royce-lewis",
+      "pubDate": "2026-06-07T14:00:00.000Z",
+      "isoDate": "2026-06-07T14:00:00.000Z",
+      "excerpt": "Jun 6, 2026; Detroit, Michigan, USA; Seattle Mariners first baseman Josh Naylor (12) dives in safe at home ahead of the tag by Detroit Tigers catcher Dillon Dingler (13) in the third inning at Comerica Park. Mandatory...",
+      "source": "Lookout Landing",
+      "team": "mariners",
       "priority": 1
     },
     {
@@ -84,6 +120,16 @@
       "priority": 6
     },
     {
+      "title": "Mariners and Bryce Miller shut out Tigers to get back in win column",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/144503/mariners-and-bryce-miller-shut-out-tigers-to-get-back-in-win-column",
+      "pubDate": "2026-06-06T21:17:06.000Z",
+      "isoDate": "2026-06-06T21:17:06.000Z",
+      "excerpt": "Jun 6, 2026; Detroit, Michigan, USA; Seattle Mariners pitcher Bryce Miller (50) pitches in the first inning against the Detroit Tigers at Comerica Park. Mandatory Credit: Rick Osentoski-Imagn Images | Rick...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
       "title": "Recap: Miller, Canzone lead Mariners past Tigers 4-0",
       "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/recap-miller-canzone-lead-seattle-mariners-past-tigers-4-0",
       "pubDate": "Sat, 06 Jun 2026 20:39:02 +0000",
@@ -102,6 +148,16 @@
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
+    },
+    {
+      "title": "34-31: Chart",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/144498/34-31-chart",
+      "pubDate": "2026-06-06T19:58:05.000Z",
+      "isoDate": "2026-06-06T19:58:05.000Z",
+      "excerpt": "Jun 6, 2026; Detroit, Michigan, USA; Seattle Mariners designated hitter Dominic Canzone (8) receives congratulations from teammates after he hits a home run in the fourth inning against the Detroit Tigers at Comerica...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
     },
     {
       "title": "Seahawks fan discussion: What are your favorite Russell Wilson plays of all time?",
@@ -144,24 +200,14 @@
       "priority": 3
     },
     {
-      "title": "J.P. Crawford out of Mariners’ lineup after HBP",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/j-p-crawford-out-of-seattle-mariners-lineup-after-hbp",
-      "pubDate": "Sat, 06 Jun 2026 17:00:25 +0000",
-      "isoDate": "2026-06-06T17:00:25.000Z",
-      "excerpt": "\"He just needs another day,\" manager Dan Wilson said of Seattle's veteran shortstop.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "Latest Mariners injuries and transactions",
-      "link": "https://www.mlb.com/mariners/news/mariners-injuries-and-roster-moves",
-      "pubDate": "Sat, 06 Jun 2026 16:00:00 GMT",
-      "isoDate": "2026-06-06T16:00:00.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
+      "title": "Mariners Game #65 Preview and Discussion, 6/6/26: SEA at DET",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-discussion/144489/mariners-game-65-preview-and-discussion-6-6-26-sea-at-det",
+      "pubDate": "2026-06-06T16:40:00.000Z",
+      "isoDate": "2026-06-06T16:40:00.000Z",
+      "excerpt": "May 31, 2026; Seattle, Washington, USA; Seattle Mariners starting pitcher Bryce Miller (50) walks off the field after the final out of the fourth inning against the Arizona Diamondbacks at T-Mobile Park. Mandatory...",
+      "source": "Lookout Landing",
       "team": "mariners",
-      "priority": 6
+      "priority": 1
     },
     {
       "title": "Seahawks News 6/6: Rylie Mills is ready to earn a bigger role with Seahawks",
@@ -184,6 +230,16 @@
       "priority": 1
     },
     {
+      "title": "Mariners News: Bryce Miller, Corey Seager, and Ramón Laureano",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-news/144484/mariners-news-bryce-miller-corey-seager-and-ramon-laureano",
+      "pubDate": "2026-06-06T14:00:00.000Z",
+      "isoDate": "2026-06-06T14:00:00.000Z",
+      "excerpt": "ARLINGTON, TEXAS - JUNE 05: Corey Seager #5 of the Texas Rangers high fives Wyatt Langford #36 after Seager hit a home run during the sixth inning of a game against the Cleveland Guardians at Globe Life Field on June...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
       "title": "Crawford (hand) appears to avoid serious injury after HBP",
       "link": "https://www.mlb.com/mariners/news/j-p-crawford-exits-hand-injury",
       "pubDate": "Sat, 06 Jun 2026 04:54:00 GMT",
@@ -192,6 +248,26 @@
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
+    },
+    {
+      "title": "Mariners drop first game of road trip 7-3",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/144475/mariners-drop-first-game-of-road-trip-7-3",
+      "pubDate": "2026-06-06T02:44:55.000Z",
+      "isoDate": "2026-06-06T02:44:55.000Z",
+      "excerpt": "DETROIT, MICHIGAN - JUNE 05: J.P. Crawford #3 of the Seattle Mariners reacts after being hit by the ball against the Detroit Tigers during the top of the third inning at Comerica Park on June 05, 2026 in Detroit,...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "33-31: Chart",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/144465/33-31-chart",
+      "pubDate": "2026-06-06T01:27:53.000Z",
+      "isoDate": "2026-06-06T01:27:53.000Z",
+      "excerpt": "DETROIT, MICHIGAN - JUNE 05: Kevin McGonigle #7 of the Detroit Tigers grounds out to Josh Naylor #12 of the Seattle Mariners during the bottom of the fifth inning at Comerica Park on June 05, 2026 in Detroit, Michigan....",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
     },
     {
       "title": "Seahawks, Derick Hall Agree To Extension",
@@ -244,16 +320,6 @@
       "priority": 1
     },
     {
-      "title": "Mariners News: Cal Raleigh, Aaron Judge, and Brayan Bello",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-news/144420/mariners-news-cal-raleigh-aaron-judge-and-brayan-bello",
-      "pubDate": "2026-06-05T14:00:00.000Z",
-      "isoDate": "2026-06-05T14:00:00.000Z",
-      "excerpt": "May 30, 2026; West Sacramento, California, USA; New York Yankees right fielder Aaron Judge (99) prepares to go back out for the bottom half of the sixth inning against the Athletics at Sutter Health Park. Mandatory...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
       "title": "Seahawks DE Rylie Mills Feels 'Fully Back' To Who He Was Before ACL Injury",
       "link": "https://www.seahawks.com/news/seahawks-de-rylie-mills-feels-fully-back-to-who-he-was-before-acl-injury",
       "pubDate": "Thu, 04 Jun 2026 23:26:30 GMT",
@@ -284,33 +350,13 @@
       "priority": 6
     },
     {
-      "title": "Mariners announce Alumni Home Run Derby for August 7th",
-      "link": "https://www.lookoutlanding.com/general/144410/mariners-announce-alumni-home-run-derby-for-august-7th",
-      "pubDate": "2026-06-04T19:46:48.000Z",
-      "isoDate": "2026-06-04T19:46:48.000Z",
-      "excerpt": "OAKLAND - JULY 28: Bucky Jacobsen #33 of the Seattle Mariners poses prior to the MLB game against the Oakland A's at the Network Associates Coliseum on July 28, 2004. The Athletics defeated the Mariners 3-2. (Photo by...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "It&#8217;s getting crowded at T-Mobile Park",
-      "link": "https://www.lookoutlanding.com/t-mobile-park/144397/its-getting-crowded-at-t-mobile-park",
-      "pubDate": "2026-06-04T18:20:27.000Z",
-      "isoDate": "2026-06-04T18:20:27.000Z",
-      "excerpt": "Oct 4, 2025; Seattle, Washington, USA; Former Seattle Sonics Gary Payton hypes up the crowd before the game between the Seattle Mariners and the Detroit Tigers during game one of the ALDS round for the 2025 MLB playoffs...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "Mariners News: Ryan Sloan, Corbin Burnes, and Nick Castellanos",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-news/144383/mariners-news-ryan-sloan-corbin-burnes-and-nick-castellanos",
-      "pubDate": "2026-06-04T14:00:00.000Z",
-      "isoDate": "2026-06-04T14:00:00.000Z",
-      "excerpt": "Arizona Diamondbacks' Corbin Burnes (39) pitches against the Washington Nationals at Chase Field in Phoenix on June 1, 2025. | Joe Rondone/The Republic / USA TODAY NETWORK via Imagn Images Good morning friends! Happy...",
-      "source": "Lookout Landing",
-      "team": "mariners",
+      "title": "Seattle Torrent Protect Wilgren, Murphy, Carpenter in Expansion Draft",
+      "link": "https://www.davyjoneslockerroom.com/seattle-torrent-protect-wilgren-murphy-carpenter-in-expansion-draft/",
+      "pubDate": "Thu, 04 Jun 2026 16:00:00 +0000",
+      "isoDate": "2026-06-04T16:00:00.000Z",
+      "excerpt": "The Torrent have made some interesting choices in the upcoming expansion process by choosing to protect Anna Wilgren, Hannah Murphy, and Alex Carpenter. Not exactly an expansion draft, the PWHL’s Expansion Roster...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
       "priority": 1
     },
     {
@@ -344,36 +390,6 @@
       "priority": 6
     },
     {
-      "title": "George Kirby buried by the ground, Mariners lose first game in a while",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/144390/george-kirby-buried-by-the-ground-mariners-lose-first-game-in-a-while",
-      "pubDate": "2026-06-03T23:45:43.000Z",
-      "isoDate": "2026-06-03T23:45:43.000Z",
-      "excerpt": "SEATTLE, WASHINGTON - JUNE 03: George Kirby #68 of the Seattle Mariners looks on after Juan Soto #22 of the New York Mets stole second base during the fourth inning at T-Mobile Park on June 03, 2026 in Seattle,...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "33-30: Chart",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/144384/33-30-chart",
-      "pubDate": "2026-06-03T22:17:52.000Z",
-      "isoDate": "2026-06-03T22:17:52.000Z",
-      "excerpt": "SEATTLE, WASHINGTON - JUNE 03: Manager Dan Wilson #6 of the Seattle Mariners argues a pitch clock violation with umpire Adam Beck #38 which resulted in a strikeout by Jhonny Pereda #5 during the fourth inning against...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "Mariners Game #63 Preview and Discussion: NYM at SEA, 6/3",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-game-information/144375/mariners-game-63-preview-and-discussion-nym-at-sea-6-3",
-      "pubDate": "2026-06-03T19:00:00.000Z",
-      "isoDate": "2026-06-03T19:00:00.000Z",
-      "excerpt": "SEATTLE, WASHINGTON - JUNE 02: Julio Rodríguez #44 of the Seattle Mariners leads off first base against the New York Mets during the first inning at T-Mobile Park on June 02, 2026 in Seattle, Washington. (Photo by Steph...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
       "title": "VOTE NOW! Help make Mariners All-Star Game starters",
       "link": "https://www.mlb.com/all-star/ballot?affiliateID=asballot_sea_digital_2026",
       "pubDate": "Wed, 03 Jun 2026 18:13:55 GMT",
@@ -382,16 +398,6 @@
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
-    },
-    {
-      "title": "Colt Emerson, Ryan Sloan, and Kade Anderson headline five Mariners on Baseball America’s Top 100 prospect list",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-prospects/144365/colt-emerson-ryan-sloan-and-kade-anderson-headline-five-mariners-on-baseball-americas-prospect-list",
-      "pubDate": "2026-06-03T17:33:50.000Z",
-      "isoDate": "2026-06-03T17:33:50.000Z",
-      "excerpt": "SURPRISE, ARIZONA - MARCH 6: Kade Anderson #13 of the Seattle Mariners throws a pitch during a Spring Training game against the Texas Rangers at Surprise Stadium on March 6, 2026 in Surprise, Arizona. (Photo by Brandon...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
     },
     {
       "title": "Seahawks Sign Outside Linebacker Derick Hall To Three-Year Extension",
@@ -404,6 +410,16 @@
       "priority": 6
     },
     {
+      "title": "Seattle Torrent Sign Alex Carpenter, Protect Her From Expansion Thieves",
+      "link": "https://www.davyjoneslockerroom.com/seattle-torrent-sign-alex-carpenter-protect-her-from-expansion-thieves/",
+      "pubDate": "Wed, 03 Jun 2026 14:00:00 +0000",
+      "isoDate": "2026-06-03T14:00:00.000Z",
+      "excerpt": "The Seattle Torrent re-signed forward Alex Carpenter to a 3-year PWHL Standard Player Agreement on June 2, keeping one of the franchise’s foundational pieces through 2028-29 and committing one of the team’s 3 protection...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
       "title": "Seahawks Visit Sap Sap Lao Deli & Cafe For AANHPI Month",
       "link": "https://www.seahawks.com/news/seahawks-visit-sap-sap-lao-deli-cafe-for-aanhpi-month",
       "pubDate": "Tue, 02 Jun 2026 16:30:52 GMT",
@@ -412,6 +428,16 @@
       "source": "Seahawks.com",
       "team": "seahawks",
       "priority": 6
+    },
+    {
+      "title": "Melinda French Gates Becomes Minority Owner of the Seattle Kraken",
+      "link": "https://www.davyjoneslockerroom.com/melinda-french-gates-becomes-minority-owner-of-the-seattle-kraken/",
+      "pubDate": "Tue, 02 Jun 2026 14:00:00 +0000",
+      "isoDate": "2026-06-02T14:00:00.000Z",
+      "excerpt": "Melinda French Gates is becoming a minority owner of the Seattle Kraken, the team’s parent company said Monday, pending approval from the NHL. The size of her stake and the terms were not disclosed. French Gates, 61,...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
     },
     {
       "title": "Stream Mariners games on Mariners.TV for NEW low price of $74.99",
@@ -514,6 +540,16 @@
       "priority": 2
     },
     {
+      "title": "Firebirds season ends in 4 games in AHL Pacific Division Final",
+      "link": "https://www.davyjoneslockerroom.com/firebirds-season-ends-in-4-games-in-ahl-pacific-division-final/",
+      "pubDate": "Thu, 21 May 2026 14:00:00 +0000",
+      "isoDate": "2026-05-21T14:00:00.000Z",
+      "excerpt": "Just not to be. The Coachella Valley Firebirds faced Colorado in Game 4 last night, and unfortunately, with their season on the line, couldn’t stymie the advance of the Eagles in the AHL Postseason, losing a...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
       "title": "MLBTR Podcast: Colt Emerson Debuts, Blue Jays’ Rotation Issues, And What To Make Of The Mets And Astros",
       "link": "https://www.mlbtraderumors.com/2026/05/mlbtr-podcast-colt-emerson-debuts-blue-jays-rotation-issues-and-what-to-make-of-the-mets-and-astros.html",
       "pubDate": "Thu, 21 May 2026 04:00:16 +0000",
@@ -544,6 +580,16 @@
       "priority": 2
     },
     {
+      "title": "Four Options for the Kraken at Pick 7",
+      "link": "https://www.davyjoneslockerroom.com/four-options-for-the-kraken-at-pick-7/",
+      "pubDate": "Tue, 19 May 2026 15:00:00 +0000",
+      "isoDate": "2026-05-19T15:00:00.000Z",
+      "excerpt": "The NHL Draft Lottery has come and gone, and luck continues to not be on the Seattle Kraken’s side. The Hockey Gods are clearly prepared to drag this team – and fanbase – through years of developing instead of having...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
       "title": "Mariners Recall Robinson Ortiz, Select Brennen Davis",
       "link": "https://www.mlbtraderumors.com/2026/05/mariners-recall-robinson-ortiz-select-brennen-davis.html",
       "pubDate": "Mon, 18 May 2026 22:10:38 +0000",
@@ -561,56 +607,6 @@
       "excerpt": "The Mariners are adding top prospect Colt Emerson to the big-league squad, first reported by Ryan Divish of the Seattle Times. The 20-year-old shortstop is among the highest-ranked young players in the sport. The team...",
       "source": "MLB Trade Rumors",
       "team": "mariners",
-      "priority": 2
-    },
-    {
-      "title": "AL Injury Notes: O’Hoppe, Raleigh, Madden",
-      "link": "https://www.mlbtraderumors.com/2026/05/al-injury-notes-ohoppe-raleigh-madden.html",
-      "pubDate": "Sat, 16 May 2026 05:23:25 +0000",
-      "isoDate": "2026-05-16T05:23:25.000Z",
-      "excerpt": "Angels catcher Logan O’Hoppe left last night’s game against the Dodgers with left wrist irritation, according to a team announcement. O’Hoppe sustained the injury in the top of the fourth inning on a pitch in the dirt...",
-      "source": "MLB Trade Rumors",
-      "team": "mariners",
-      "priority": 2
-    },
-    {
-      "title": "Evening Notes: Kraken, Manson, Sabres",
-      "link": "https://www.prohockeyrumors.com/2026/05/evening-notes-kraken-manson-sabres.html",
-      "pubDate": "Tue, 12 May 2026 23:06:29 +0000",
-      "isoDate": "2026-05-12T23:06:29.000Z",
-      "excerpt": "The Seattle Kraken have partnered with sports advisory firm Sportsology to perform an assessment of their hockey operations department after parting ways with general manager Ron Francis, per Fox 13 Seattle. The firm...",
-      "source": "Pro Hockey Rumors",
-      "team": "kraken",
-      "priority": 2
-    },
-    {
-      "title": "Offseason Checklist: Seattle Kraken",
-      "link": "https://www.prohockeyrumors.com/2026/05/offseason-checklist-seattle-kraken-5.html",
-      "pubDate": "Fri, 08 May 2026 03:00:35 +0000",
-      "isoDate": "2026-05-08T03:00:35.000Z",
-      "excerpt": "A look at what the Seattle Kraken should be looking to do this offseason.",
-      "source": "Pro Hockey Rumors",
-      "team": "kraken",
-      "priority": 2
-    },
-    {
-      "title": "Poll: Which Active Players Will Become An NHL GM?",
-      "link": "https://www.prohockeyrumors.com/2026/05/poll-which-active-players-will-become-an-nhl-gm.html",
-      "pubDate": "Thu, 07 May 2026 21:36:29 +0000",
-      "isoDate": "2026-05-07T21:36:29.000Z",
-      "excerpt": "The connection between NHL playing careers and front office roles has existed for nearly as long as the league itself. Some of the most highly-regarded executives – from Glen Sather in the 1980s to Jim Nill today –...",
-      "source": "Pro Hockey Rumors",
-      "team": "kraken",
-      "priority": 2
-    },
-    {
-      "title": "Seattle Kraken Assign Jake O’Brien To AHL",
-      "link": "https://www.prohockeyrumors.com/2026/05/seattle-kraken-assign-jake-obrien-to-ahl.html",
-      "pubDate": "Wed, 06 May 2026 21:30:16 +0000",
-      "isoDate": "2026-05-06T21:30:16.000Z",
-      "excerpt": "The Seattle Kraken are continuing the trend of moving prospects in the Canadian major junior system to the American Hockey League for the Calder Cup playoffs. According to the AHL transaction log, the Kraken have...",
-      "source": "Pro Hockey Rumors",
-      "team": "kraken",
       "priority": 2
     }
   ]
