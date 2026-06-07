@@ -1,8 +1,12 @@
 {
-  "generatedAt": "2026-06-07T03:33:48.728Z",
+  "generatedAt": "2026-06-07T07:52:02.140Z",
   "sourceCount": 10,
-  "successfulSources": 9,
+  "successfulSources": 8,
   "failedSources": [
+    {
+      "source": "Seattle Times Sports",
+      "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
+    },
     {
       "source": "Davy Jones' Locker Room",
       "error": "Status code 415 (lenient retry: Status code 415)"
@@ -10,34 +14,24 @@
   ],
   "items": [
     {
-      "title": "Watch LIVE: Top 100 prospects Farmelo, Celesten dig in at High-A",
-      "link": "https://www.mlb.com/mariners/news/watch-minor-league-baseball-games-for-free-2026",
-      "pubDate": "Sun, 07 Jun 2026 01:54:00 GMT",
-      "isoDate": "2026-06-07T01:54:00.000Z",
+      "title": "‘No drop-off’: Intensity stood out to Wyman at Seahawks OTAs",
+      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/wyman-intensity-stood-out-seattle-seahawks-ota-practices",
+      "pubDate": "Sun, 07 Jun 2026 06:11:59 +0000",
+      "isoDate": "2026-06-07T06:11:59.000Z",
+      "excerpt": "Dave Wyman didn't see any signs of a Super Bowl hangover during Seattle's OTA practices.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Catch of the year?! Minor Leaguer scales wall for must-see grab",
+      "link": "https://www.mlb.com/mariners/news/mariners-prospect-luis-suisbel-incredible-catch-high-a-everett",
+      "pubDate": "Sun, 07 Jun 2026 04:08:00 GMT",
+      "isoDate": "2026-06-07T04:08:00.000Z",
       "excerpt": "",
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
-    },
-    {
-      "title": "Golden Tempo wins the 158th running of the Belmont Stakes after winning the Kentucky Derby",
-      "link": "https://www.seattletimes.com/sports/golden-tempo-wins-the-158th-running-of-the-belmont-stakes-after-winning-the-kentucky-derby/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sat, 06 Jun 2026 17:08:40 -0700",
-      "isoDate": "2026-06-07T00:08:40.000Z",
-      "excerpt": "Golden Tempo won the Belmont Stakes five weeks after winning the Kentucky Derby.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Lazaro Montes heating up for Double-A Arkansas | Mariners extra",
-      "link": "https://www.seattletimes.com/sports/mariners/lazaro-montes-heating-up-for-double-a-arkansas-mariners-extra/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sat, 06 Jun 2026 16:58:56 -0700",
-      "isoDate": "2026-06-06T23:58:56.000Z",
-      "excerpt": "Mariners prospect Lazaro Montes belted four homers in his first four games in June, and he ranks second in the Texas League with 16 home runs at Double-A Arkansas.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
     },
     {
       "title": "United States falls to Germany 2-1 in final World Cup tuneup",
@@ -48,26 +42,6 @@
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
-    },
-    {
-      "title": "Tigers drill Mariners’ Josh Naylor with fastball: ‘I knew it was on purpose’ | Notebook",
-      "link": "https://www.seattletimes.com/sports/mariners/tigers-drill-mariners-josh-naylor-with-fastball-i-knew-it-was-on-purpose-notebook/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sat, 06 Jun 2026 15:12:29 -0700",
-      "isoDate": "2026-06-06T22:12:29.000Z",
-      "excerpt": "Mariners first baseman Josh Naylor found himself drawing the ire of the Tigers and took a 96 mph fastball to his upper shoulder and back during Saturday's game.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Pope Leo XIV acknowledges stiff competition with Bad Bunny in Spain and weighs in on soccer rivalry",
-      "link": "https://www.seattletimes.com/nation-world/pope-leo-xiv-acknowledges-stiff-competition-with-bad-bunny-in-spain-and-weighs-in-on-soccer-rivalry/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sat, 06 Jun 2026 15:10:12 -0700",
-      "isoDate": "2026-06-06T22:10:12.000Z",
-      "excerpt": "Pope Leo XIV acknowledges that he's competing with another VIP in Madrid this weekend.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
     },
     {
       "title": "Storm fall to WNBA-leading Lynx 88-68 for 5th straight loss",
@@ -90,36 +64,6 @@
       "priority": 6
     },
     {
-      "title": "Hulk Hogan death investigation concludes with release of files",
-      "link": "https://www.seattletimes.com/nation-world/hulk-hogan-death-investigation-concludes-with-release-of-files/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sat, 06 Jun 2026 14:35:13 -0700",
-      "isoDate": "2026-06-06T21:35:13.000Z",
-      "excerpt": "The Clearwater Police Department released more than 70 pages of files detailing interviews with Hogan’s family members, doctors and first responders.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Mariners and Bryce Miller shut out Tigers to get back in win column",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/144503/mariners-and-bryce-miller-shut-out-tigers-to-get-back-in-win-column",
-      "pubDate": "2026-06-06T21:17:06.000Z",
-      "isoDate": "2026-06-06T21:17:06.000Z",
-      "excerpt": "Jun 6, 2026; Detroit, Michigan, USA; Seattle Mariners pitcher Bryce Miller (50) pitches in the first inning against the Detroit Tigers at Comerica Park. Mandatory Credit: Rick Osentoski-Imagn Images | Rick...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "Iran’s soccer team leaves for World Cup as some officials still await US visas",
-      "link": "https://www.seattletimes.com/sports/world-cup/irans-soccer-team-leaves-for-world-cup-as-some-officials-still-await-us-visas/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sat, 06 Jun 2026 13:40:59 -0700",
-      "isoDate": "2026-06-06T20:40:59.000Z",
-      "excerpt": "Iran’s World Cup soccer team set off from Turkey for their training base in Mexico on Saturday, with some members of their entourage reportedly still without U.S. visas.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "Recap: Miller, Canzone lead Mariners past Tigers 4-0",
       "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/recap-miller-canzone-lead-seattle-mariners-past-tigers-4-0",
       "pubDate": "Sat, 06 Jun 2026 20:39:02 +0000",
@@ -140,16 +84,6 @@
       "priority": 3
     },
     {
-      "title": "Mariners’ Bryce Miller stumps Tigers with six shutout innings",
-      "link": "https://www.seattletimes.com/sports/mariners/mariners-bryce-miller-stumps-tigers-with-six-shutout-innings/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sat, 06 Jun 2026 13:00:38 -0700",
-      "isoDate": "2026-06-06T20:00:38.000Z",
-      "excerpt": "In his first solo start since September, Bryce Miller struck out nine and allowed just one hit over six shutout innings as the Mariners beat the Tigers 4-0 Saturday.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "34-31: Chart",
       "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/144498/34-31-chart",
       "pubDate": "2026-06-06T19:58:05.000Z",
@@ -167,16 +101,6 @@
       "excerpt": "EAST RUTHERFORD, NJ - FEBRUARY 02: Quarterback Russell Wilson #3 of the Seattle Seahawks scrambles against the Denver Broncos during Super Bowl XLVIII at MetLife Stadium on February 2, 2014 in East Rutherford, New...",
       "source": "Field Gulls",
       "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "Seattle Storm’s Awa Fam, Dominique Malonga see first action together during loss",
-      "link": "https://www.seattletimes.com/sports/storm/seattle-storms-awa-fam-dominique-malonga-see-first-action-together-during-loss/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sat, 06 Jun 2026 12:19:02 -0700",
-      "isoDate": "2026-06-06T19:19:02.000Z",
-      "excerpt": "Storm youngsters Dominique Malonga and Fam shared the court for the first time – albeit briefly – Saturday to comprise the youngest frontcourt pairing in WNBA history.",
-      "source": "Seattle Times Sports",
-      "team": "general",
       "priority": 1
     },
     {
@@ -290,16 +214,6 @@
       "priority": 1
     },
     {
-      "title": "Kerry Carpenter homers as Tigers beat Mariners 7-3",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/kerry-carpenter-homers-detroit-tigers-seattle-mariners-7-3",
-      "pubDate": "Sat, 06 Jun 2026 02:05:10 +0000",
-      "isoDate": "2026-06-06T02:05:10.000Z",
-      "excerpt": "Kerry Carpenter and Spencer Torkelson homered for Detroit, which is 4-0 in June after going 9-22 in May.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
       "title": "33-31: Chart",
       "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/144465/33-31-chart",
       "pubDate": "2026-06-06T01:27:53.000Z",
@@ -367,6 +281,16 @@
       "excerpt": "INDIANAPOLIS, INDIANA - DECEMBER 22: Quenton Nelson #56 of the Indianapolis Colts walks across the field before the game against the San Francisco 49ers at Lucas Oil Stadium on December 22, 2025 in Indianapolis,...",
       "source": "Field Gulls",
       "team": "seahawks",
+      "priority": 1
+    },
+    {
+      "title": "Julio Rodríguez Is an All-Star… Going Forward",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-analysis/144422/julio-rodriguez-is-an-all-star-going-forward",
+      "pubDate": "2026-06-05T14:30:00.000Z",
+      "isoDate": "2026-06-05T14:30:00.000Z",
+      "excerpt": "SEATTLE, WA - MAY 30: Julio Rodríguez #44 of the Seattle Mariners signs autographs for fans prior to the game between the Arizona Diamondbacks and the Seattle Mariners at T-Mobile Park on Saturday, May 30, 2026 in...",
+      "source": "Lookout Landing",
+      "team": "mariners",
       "priority": 1
     },
     {
@@ -607,6 +531,86 @@
       "excerpt": "Mariners shortstop J.P. Crawford has been getting work at the hot corner and was taking grounders there prior to today’s game. Daniel Kramer of MLB.com was among those to report that the idea was actually brought up by...",
       "source": "MLB Trade Rumors",
       "team": "mariners",
+      "priority": 2
+    },
+    {
+      "title": "Kraken Sign Alexis Bernier To Entry-Level Contract",
+      "link": "https://www.prohockeyrumors.com/2026/05/kraken-sign-defenseman-alexis-bernier-to-entry-level-contract.html",
+      "pubDate": "Tue, 19 May 2026 17:30:30 +0000",
+      "isoDate": "2026-05-19T17:30:30.000Z",
+      "excerpt": "The Seattle Kraken have locked up one of their promising young blue-line prospects, signing defenseman Alexis Bernier to a three-year, entry-level contract. According to the team, the deal will carry an average annual...",
+      "source": "Pro Hockey Rumors",
+      "team": "kraken",
+      "priority": 2
+    },
+    {
+      "title": "Mariners Recall Robinson Ortiz, Select Brennen Davis",
+      "link": "https://www.mlbtraderumors.com/2026/05/mariners-recall-robinson-ortiz-select-brennen-davis.html",
+      "pubDate": "Mon, 18 May 2026 22:10:38 +0000",
+      "isoDate": "2026-05-18T22:10:38.000Z",
+      "excerpt": "The Mariners announced several roster moves today. Infielder Patrick Wisdom has been reinstated from the 10-day injured list and left-hander Robinson Ortiz has been recalled from Triple-A. The lefty will be making his...",
+      "source": "MLB Trade Rumors",
+      "team": "mariners",
+      "priority": 2
+    },
+    {
+      "title": "Mariners Promote Colt Emerson, Place Brendan Donovan On IL",
+      "link": "https://www.mlbtraderumors.com/2026/05/mariners-to-promote-colt-emerson.html",
+      "pubDate": "Mon, 18 May 2026 03:59:10 +0000",
+      "isoDate": "2026-05-18T03:59:10.000Z",
+      "excerpt": "The Mariners are adding top prospect Colt Emerson to the big-league squad, first reported by Ryan Divish of the Seattle Times. The 20-year-old shortstop is among the highest-ranked young players in the sport. The team...",
+      "source": "MLB Trade Rumors",
+      "team": "mariners",
+      "priority": 2
+    },
+    {
+      "title": "AL Injury Notes: O’Hoppe, Raleigh, Madden",
+      "link": "https://www.mlbtraderumors.com/2026/05/al-injury-notes-ohoppe-raleigh-madden.html",
+      "pubDate": "Sat, 16 May 2026 05:23:25 +0000",
+      "isoDate": "2026-05-16T05:23:25.000Z",
+      "excerpt": "Angels catcher Logan O’Hoppe left last night’s game against the Dodgers with left wrist irritation, according to a team announcement. O’Hoppe sustained the injury in the top of the fourth inning on a pitch in the dirt...",
+      "source": "MLB Trade Rumors",
+      "team": "mariners",
+      "priority": 2
+    },
+    {
+      "title": "Evening Notes: Kraken, Manson, Sabres",
+      "link": "https://www.prohockeyrumors.com/2026/05/evening-notes-kraken-manson-sabres.html",
+      "pubDate": "Tue, 12 May 2026 23:06:29 +0000",
+      "isoDate": "2026-05-12T23:06:29.000Z",
+      "excerpt": "The Seattle Kraken have partnered with sports advisory firm Sportsology to perform an assessment of their hockey operations department after parting ways with general manager Ron Francis, per Fox 13 Seattle. The firm...",
+      "source": "Pro Hockey Rumors",
+      "team": "kraken",
+      "priority": 2
+    },
+    {
+      "title": "Offseason Checklist: Seattle Kraken",
+      "link": "https://www.prohockeyrumors.com/2026/05/offseason-checklist-seattle-kraken-5.html",
+      "pubDate": "Fri, 08 May 2026 03:00:35 +0000",
+      "isoDate": "2026-05-08T03:00:35.000Z",
+      "excerpt": "A look at what the Seattle Kraken should be looking to do this offseason.",
+      "source": "Pro Hockey Rumors",
+      "team": "kraken",
+      "priority": 2
+    },
+    {
+      "title": "Poll: Which Active Players Will Become An NHL GM?",
+      "link": "https://www.prohockeyrumors.com/2026/05/poll-which-active-players-will-become-an-nhl-gm.html",
+      "pubDate": "Thu, 07 May 2026 21:36:29 +0000",
+      "isoDate": "2026-05-07T21:36:29.000Z",
+      "excerpt": "The connection between NHL playing careers and front office roles has existed for nearly as long as the league itself. Some of the most highly-regarded executives – from Glen Sather in the 1980s to Jim Nill today –...",
+      "source": "Pro Hockey Rumors",
+      "team": "kraken",
+      "priority": 2
+    },
+    {
+      "title": "Seattle Kraken Assign Jake O’Brien To AHL",
+      "link": "https://www.prohockeyrumors.com/2026/05/seattle-kraken-assign-jake-obrien-to-ahl.html",
+      "pubDate": "Wed, 06 May 2026 21:30:16 +0000",
+      "isoDate": "2026-05-06T21:30:16.000Z",
+      "excerpt": "The Seattle Kraken are continuing the trend of moving prospects in the Canadian major junior system to the American Hockey League for the Calder Cup playoffs. According to the AHL transaction log, the Kraken have...",
+      "source": "Pro Hockey Rumors",
+      "team": "kraken",
       "priority": 2
     }
   ]
