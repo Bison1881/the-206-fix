@@ -1,9 +1,54 @@
 {
-  "generatedAt": "2026-06-06T22:59:57.562Z",
+  "generatedAt": "2026-06-07T03:33:48.728Z",
   "sourceCount": 10,
-  "successfulSources": 10,
-  "failedSources": [],
+  "successfulSources": 9,
+  "failedSources": [
+    {
+      "source": "Davy Jones' Locker Room",
+      "error": "Status code 415 (lenient retry: Status code 415)"
+    }
+  ],
   "items": [
+    {
+      "title": "Watch LIVE: Top 100 prospects Farmelo, Celesten dig in at High-A",
+      "link": "https://www.mlb.com/mariners/news/watch-minor-league-baseball-games-for-free-2026",
+      "pubDate": "Sun, 07 Jun 2026 01:54:00 GMT",
+      "isoDate": "2026-06-07T01:54:00.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Golden Tempo wins the 158th running of the Belmont Stakes after winning the Kentucky Derby",
+      "link": "https://www.seattletimes.com/sports/golden-tempo-wins-the-158th-running-of-the-belmont-stakes-after-winning-the-kentucky-derby/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Sat, 06 Jun 2026 17:08:40 -0700",
+      "isoDate": "2026-06-07T00:08:40.000Z",
+      "excerpt": "Golden Tempo won the Belmont Stakes five weeks after winning the Kentucky Derby.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Lazaro Montes heating up for Double-A Arkansas | Mariners extra",
+      "link": "https://www.seattletimes.com/sports/mariners/lazaro-montes-heating-up-for-double-a-arkansas-mariners-extra/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Sat, 06 Jun 2026 16:58:56 -0700",
+      "isoDate": "2026-06-06T23:58:56.000Z",
+      "excerpt": "Mariners prospect Lazaro Montes belted four homers in his first four games in June, and he ranks second in the Texas League with 16 home runs at Double-A Arkansas.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "United States falls to Germany 2-1 in final World Cup tuneup",
+      "link": "https://sports.mynorthwest.com/seattle-sports-pit/united-states-falls-germany-2-1-final-world-cup-tuneup",
+      "pubDate": "Sat, 06 Jun 2026 23:31:33 +0000",
+      "isoDate": "2026-06-06T23:31:33.000Z",
+      "excerpt": "The United States' opener at the World Cup is against Paraguay next Friday.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
     {
       "title": "Tigers drill Mariners’ Josh Naylor with fastball: ‘I knew it was on purpose’ | Notebook",
       "link": "https://www.seattletimes.com/sports/mariners/tigers-drill-mariners-josh-naylor-with-fastball-i-knew-it-was-on-purpose-notebook/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
@@ -225,41 +270,11 @@
       "priority": 1
     },
     {
-      "title": "Colombia’s soccer jersey isn’t just about sports. It’s become a symbol of political division",
-      "link": "https://www.seattletimes.com/sports/colombias-soccer-jersey-isnt-just-about-sports-its-become-a-symbol-of-political-division/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sat, 06 Jun 2026 06:30:01 -0700",
-      "isoDate": "2026-06-06T13:30:01.000Z",
-      "excerpt": "Colombia’s national soccer jersey has become the subject of controversy during the country's bitterly disputed presidential election.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Where rebuilding Storm sit after a quarter of WNBA season | Analysis",
-      "link": "https://www.seattletimes.com/sports/storm/where-rebuilding-storm-sit-at-quarter-pole-of-wnba-season-analysis/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sat, 06 Jun 2026 06:00:00 -0700",
-      "isoDate": "2026-06-06T13:00:00.000Z",
-      "excerpt": "Here are five observations of the Storm, whose resiliency will be challenged during a year that’s brought several challenges, at the quarter pole of the WNBA season.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "Crawford (hand) appears to avoid serious injury after HBP",
       "link": "https://www.mlb.com/mariners/news/j-p-crawford-exits-hand-injury",
       "pubDate": "Sat, 06 Jun 2026 04:54:00 GMT",
       "isoDate": "2026-06-06T04:54:00.000Z",
       "excerpt": "Mariners shortstop plunked by 95.6 mph fastball in third inning, but X-rays negative",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
-    },
-    {
-      "title": "Kade Anderson ties for MiLB K lead, sits atop Double-A in nearly every category",
-      "link": "https://www.mlb.com/mariners/news/mariners-prospect-kade-anderson-ties-minors-strikeout-lead",
-      "pubDate": "Sat, 06 Jun 2026 03:49:00 GMT",
-      "isoDate": "2026-06-06T03:49:00.000Z",
-      "excerpt": "",
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
@@ -293,16 +308,6 @@
       "source": "Lookout Landing",
       "team": "mariners",
       "priority": 1
-    },
-    {
-      "title": "Mariners’ J.P. Crawford exits after Framber Valdez hits him",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-jp-crawford-exits-hit-framber-valdez",
-      "pubDate": "Sat, 06 Jun 2026 00:01:17 +0000",
-      "isoDate": "2026-06-06T00:01:17.000Z",
-      "excerpt": "J.P. Crawford was hit on the hand by a 96 mph sinker from Framber Valdez, a former Astros pitcher notorious for hitting batters.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
     },
     {
       "title": "Mariners Game #64 Preview and Discussion: SEA at DET, 6/5",
@@ -425,16 +430,6 @@
       "priority": 6
     },
     {
-      "title": "Seattle Torrent Protect Wilgren, Murphy, Carpenter in Expansion Draft",
-      "link": "https://www.davyjoneslockerroom.com/seattle-torrent-protect-wilgren-murphy-carpenter-in-expansion-draft/",
-      "pubDate": "Thu, 04 Jun 2026 16:00:00 +0000",
-      "isoDate": "2026-06-04T16:00:00.000Z",
-      "excerpt": "The Torrent have made some interesting choices in the upcoming expansion process by choosing to protect Anna Wilgren, Hannah Murphy, and Alex Carpenter. Not exactly an expansion draft, the PWHL’s Expansion Roster...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
-    },
-    {
       "title": "Russell Wilson Announces Retirement",
       "link": "https://www.profootballrumors.com/2026/06/russell-wilson-announces-retirement",
       "pubDate": "Thu, 04 Jun 2026 04:30:09 +0000",
@@ -485,16 +480,6 @@
       "priority": 6
     },
     {
-      "title": "Seattle Torrent Sign Alex Carpenter, Protect Her From Expansion Thieves",
-      "link": "https://www.davyjoneslockerroom.com/seattle-torrent-sign-alex-carpenter-protect-her-from-expansion-thieves/",
-      "pubDate": "Wed, 03 Jun 2026 14:00:00 +0000",
-      "isoDate": "2026-06-03T14:00:00.000Z",
-      "excerpt": "The Seattle Torrent re-signed forward Alex Carpenter to a 3-year PWHL Standard Player Agreement on June 2, keeping one of the franchise’s foundational pieces through 2028-29 and committing one of the team’s 3 protection...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
-    },
-    {
       "title": "Seahawks Visit Sap Sap Lao Deli & Cafe For AANHPI Month",
       "link": "https://www.seahawks.com/news/seahawks-visit-sap-sap-lao-deli-cafe-for-aanhpi-month",
       "pubDate": "Tue, 02 Jun 2026 16:30:52 GMT",
@@ -503,16 +488,6 @@
       "source": "Seahawks.com",
       "team": "seahawks",
       "priority": 6
-    },
-    {
-      "title": "Melinda French Gates Becomes Minority Owner of the Seattle Kraken",
-      "link": "https://www.davyjoneslockerroom.com/melinda-french-gates-becomes-minority-owner-of-the-seattle-kraken/",
-      "pubDate": "Tue, 02 Jun 2026 14:00:00 +0000",
-      "isoDate": "2026-06-02T14:00:00.000Z",
-      "excerpt": "Melinda French Gates is becoming a minority owner of the Seattle Kraken, the team’s parent company said Monday, pending approval from the NHL. The size of her stake and the terms were not disclosed. French Gates, 61,...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
     },
     {
       "title": "Stream Mariners games on Mariners.TV for NEW low price of $74.99",
@@ -602,6 +577,36 @@
       "excerpt": "The Seahawks and Jets have agreed to a minor trade. New York is sending wide receiver Irvin Charles to Seattle for a conditional seventh-round selection, Zack Rosenblatt of The Athletic reports. It’s a 2028 pick, per...",
       "source": "Pro Football Rumors",
       "team": "seahawks",
+      "priority": 2
+    },
+    {
+      "title": "Mariners Notes: Crawford, Rotation, Castillo",
+      "link": "https://www.mlbtraderumors.com/2026/05/mariners-notes-crawford-rotation-castillo.html",
+      "pubDate": "Sun, 24 May 2026 04:22:37 +0000",
+      "isoDate": "2026-05-24T04:22:37.000Z",
+      "excerpt": "J.P. Crawford has been a key part of the Mariners’ lineup since joining the club in 2019. In over 3,800 plate appearances with Seattle, Crawford has batted .248/.341/.369 with a 107 wRC+ while providing serviceable...",
+      "source": "MLB Trade Rumors",
+      "team": "mariners",
+      "priority": 2
+    },
+    {
+      "title": "MLBTR Podcast: Colt Emerson Debuts, Blue Jays’ Rotation Issues, And What To Make Of The Mets And Astros",
+      "link": "https://www.mlbtraderumors.com/2026/05/mlbtr-podcast-colt-emerson-debuts-blue-jays-rotation-issues-and-what-to-make-of-the-mets-and-astros.html",
+      "pubDate": "Thu, 21 May 2026 04:00:16 +0000",
+      "isoDate": "2026-05-21T04:00:16.000Z",
+      "excerpt": "The latest episode of the MLB Trade Rumors Podcast is now live on Spotify, Apple Podcasts, and wherever you get your podcasts! Make sure you subscribe as well! You can also use the player at this link to listen, if you...",
+      "source": "MLB Trade Rumors",
+      "team": "mariners",
+      "priority": 2
+    },
+    {
+      "title": "J.P. Crawford Getting Work At Third Base",
+      "link": "https://www.mlbtraderumors.com/2026/05/mariners-rumors-j-p-crawford-third-base-colt-emerson-shortstop.html",
+      "pubDate": "Thu, 21 May 2026 00:11:52 +0000",
+      "isoDate": "2026-05-21T00:11:52.000Z",
+      "excerpt": "Mariners shortstop J.P. Crawford has been getting work at the hot corner and was taking grounders there prior to today’s game. Daniel Kramer of MLB.com was among those to report that the idea was actually brought up by...",
+      "source": "MLB Trade Rumors",
+      "team": "mariners",
       "priority": 2
     }
   ]
