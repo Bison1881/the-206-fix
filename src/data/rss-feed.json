@@ -1,14 +1,64 @@
 {
-  "generatedAt": "2026-06-07T23:02:07.302Z",
+  "generatedAt": "2026-06-08T03:39:26.573Z",
   "sourceCount": 10,
   "successfulSources": 9,
   "failedSources": [
     {
-      "source": "Davy Jones' Locker Room",
-      "error": "Status code 415 (lenient retry: Status code 415)"
+      "source": "Seattle Times Sports",
+      "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
     }
   ],
   "items": [
+    {
+      "title": "Latest Mariners injuries and transactions",
+      "link": "https://www.mlb.com/mariners/news/mariners-injuries-and-roster-moves",
+      "pubDate": "Mon, 08 Jun 2026 01:52:00 GMT",
+      "isoDate": "2026-06-08T01:52:00.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Raleigh (oblique) takes next step back to Mariners, begins 1st career rehab assignment",
+      "link": "https://www.mlb.com/mariners/news/cal-raleigh-begins-rehab-assignment-with-high-a-everett",
+      "pubDate": "Mon, 08 Jun 2026 01:48:44 GMT",
+      "isoDate": "2026-06-08T01:48:44.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "How Mariners star Cal Raleigh fared in 1st rehab game",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/how-seattle-mariners-star-cal-raleigh-fared-1st-rehab-game",
+      "pubDate": "Mon, 08 Jun 2026 01:18:21 +0000",
+      "isoDate": "2026-06-08T01:18:21.000Z",
+      "excerpt": "Cal Raleigh began his rehab stint by going 1 for 3 with a single at High-A Everett.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Tarik Skubal works 5 scoreless innings in 1st rehab appearance",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/tarik-skubal-works-5-scoreless-innings-1st-rehab-appearance",
+      "pubDate": "Sun, 07 Jun 2026 23:31:48 +0000",
+      "isoDate": "2026-06-07T23:31:48.000Z",
+      "excerpt": "The Detroit Tigers ace and former Seattle U star underwent elbow surgery in May.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Luis Castillo continues recent turnaround with strong outing",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-luis-castillo-continues-recent-turnaround",
+      "pubDate": "Sun, 07 Jun 2026 23:02:21 +0000",
+      "isoDate": "2026-06-07T23:02:21.000Z",
+      "excerpt": "After a rocky start to the season, Castillo has logged a 2.12 ERA over his past four outings.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
     {
       "title": "Castillo's turnaround continues to gain steam in Detroit",
       "link": "https://www.mlb.com/mariners/news/luis-castillo-resurgence-mariners-tigers",
@@ -20,6 +70,16 @@
       "priority": 6
     },
     {
+      "title": "Mariners blow late lead as Tigers rally for 5-4 walkoff win",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-blow-late-lead-tigers-rally-5-4-walkoff-win",
+      "pubDate": "Sun, 07 Jun 2026 22:07:58 +0000",
+      "isoDate": "2026-06-07T22:07:58.000Z",
+      "excerpt": "Kevin McGonigle hit a two-run, walkoff single as Detroit rallied to take the series rubber match.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
       "title": "Tigers walk off Mariners thanks to sloppy play, 5-4",
       "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/144531/tigers-walk-off-mariners-thanks-to-sloppy-play-5-4",
       "pubDate": "2026-06-07T21:15:04.000Z",
@@ -27,16 +87,6 @@
       "excerpt": "DETROIT, MI - JUNE 7: Josh Naylor #12 of the Seattle Mariners celebrates his double that drove in Julio Rodriguez against the Detroit Tigers during the sixth inning at Comerica Park on June 7, 2026 in Detroit, Michigan....",
       "source": "Lookout Landing",
       "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "Andrés Muñoz blows save, Mariners fall in Detroit on walkoff hit",
-      "link": "https://www.seattletimes.com/sports/mariners/andres-munoz-blows-save-mariners-fall-in-detroit-on-walkoff-hit/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sun, 07 Jun 2026 14:04:12 -0700",
-      "isoDate": "2026-06-07T21:04:12.000Z",
-      "excerpt": "What looked for much of Sunday to be a comfortable Mariners victory became a late-inning meltdown as Andrés Muñoz blew the save and Kevin McGonigle's walkoff won it for Detroit.",
-      "source": "Seattle Times Sports",
-      "team": "general",
       "priority": 1
     },
     {
@@ -80,26 +130,6 @@
       "priority": 3
     },
     {
-      "title": "Stacey King, longtime Bulls broadcaster who played on three NBA championship teams, dies at 59",
-      "link": "https://www.seattletimes.com/sports/nba/bulls-broadcaster-stacey-king-3-time-nba-champ-in-chicago-dies-at-59/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sun, 07 Jun 2026 11:30:59 -0700",
-      "isoDate": "2026-06-07T18:30:59.000Z",
-      "excerpt": "Stacey King, who played on three consecutive NBA championship teams with the Chicago Bulls from 1991-93 before returning to the organization as an Emmy-winning broadcaster, has died. He was 59.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Alexander Zverev wins French Open for his 1st Grand Slam tennis title",
-      "link": "https://www.seattletimes.com/sports/alexander-zverev-wins-french-open-for-his-1st-grand-slam-tennis-title/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sun, 07 Jun 2026 11:09:51 -0700",
-      "isoDate": "2026-06-07T18:09:51.000Z",
-      "excerpt": "Alexander Zverev is finally a Grand Slam champion. In his fourth major final, Zverev beat Flavio Cobolli for the French Open title on Sunday.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "Mets halt ex-Mariners slugger Jorge Polanco’s rehab assignment",
       "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/mets-halt-ex-seattle-mariners-jorge-polanco-rehab-assignment",
       "pubDate": "Sun, 07 Jun 2026 17:56:45 +0000",
@@ -128,26 +158,6 @@
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
-    },
-    {
-      "title": "Latest Mariners injuries and transactions",
-      "link": "https://www.mlb.com/mariners/news/mariners-injuries-and-roster-moves",
-      "pubDate": "Sun, 07 Jun 2026 16:00:00 GMT",
-      "isoDate": "2026-06-07T16:00:00.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
-    },
-    {
-      "title": "Iran’s soccer team arrives in Mexico for training ahead of the World Cup",
-      "link": "https://www.seattletimes.com/sports/irans-soccer-team-arrives-in-mexico-for-training-ahead-of-the-world-cup/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sun, 07 Jun 2026 07:48:04 -0700",
-      "isoDate": "2026-06-07T14:48:04.000Z",
-      "excerpt": "Iran’s soccer team has arrived in Mexico for training ahead of the World Cup, before three group matches in the United States later this month.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
     },
     {
       "title": "On the latest",
@@ -180,46 +190,6 @@
       "priority": 1
     },
     {
-      "title": "World Cup Seattle 2026: Everything you need to know off the field",
-      "link": "https://www.seattletimes.com/life/culture/world-cup-seattle-2026-everything-you-need-to-know-off-the-field/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sun, 07 Jun 2026 06:01:03 -0700",
-      "isoDate": "2026-06-07T13:01:03.000Z",
-      "excerpt": "Seattle has prepared to host the FIFA World Cup 2026 for months. Here's everything you need to know as FIFA fever hits the city.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Seattle’s World Cup will play out in Brian Schmetzer’s soccer city",
-      "link": "https://www.seattletimes.com/sports/world-cup/seattles-world-cup-will-play-out-in-brian-schmetzers-soccer-city/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sun, 07 Jun 2026 06:00:00 -0700",
-      "isoDate": "2026-06-07T13:00:00.000Z",
-      "excerpt": "You can trace Seattle's soccer story through Brian Schmetzer's career, from patchy fields in Lake City to matchups with the world's most illustrious clubs.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Seahawks’ AJ Barner ready to show what he can do now that he’s healthy",
-      "link": "https://www.seattletimes.com/sports/seahawks/seahawks-aj-barner-ready-to-show-what-he-can-do-now-that-hes-healthy/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sun, 07 Jun 2026 06:00:00 -0700",
-      "isoDate": "2026-06-07T13:00:00.000Z",
-      "excerpt": "Seahawks tight end AJ Barner had two surgeries after the Super Bowl as he dealt with several injuries. He's ready to show what he can do now that he's healthy.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Melinda French Gates strengthens One Roof Sports’ bid to revive Sonics",
-      "link": "https://www.seattletimes.com/sports/sonics/melinda-french-gates-strengthens-one-roof-sports-bid-to-revive-sonics/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sun, 07 Jun 2026 06:00:00 -0700",
-      "isoDate": "2026-06-07T13:00:00.000Z",
-      "excerpt": "Melinda French Gates joining the Kraken's parent company as a minority investor has grabbed Seattle's attention, but it's not hockey nets that people are thinking about.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "Seahawks News 6/7: What will the Seahawks’ O-line look like in 2026?",
       "link": "https://www.fieldgulls.com/seattle-seahawks-news/169361/seahawks-news-6-7-what-will-the-seahawks-o-line-look-like-in-2026",
       "pubDate": "2026-06-07T13:00:00.000Z",
@@ -228,46 +198,6 @@
       "source": "Field Gulls",
       "team": "seahawks",
       "priority": 1
-    },
-    {
-      "title": "‘No drop-off’: Intensity stood out to Wyman at Seahawks OTAs",
-      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/wyman-intensity-stood-out-seattle-seahawks-ota-practices",
-      "pubDate": "Sun, 07 Jun 2026 06:11:59 +0000",
-      "isoDate": "2026-06-07T06:11:59.000Z",
-      "excerpt": "Dave Wyman didn't see any signs of a Super Bowl hangover during Seattle's OTA practices.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "Catch of the year?! Minor Leaguer scales wall for must-see grab",
-      "link": "https://www.mlb.com/mariners/news/mariners-prospect-luis-suisbel-incredible-catch-high-a-everett",
-      "pubDate": "Sun, 07 Jun 2026 04:08:00 GMT",
-      "isoDate": "2026-06-07T04:08:00.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
-    },
-    {
-      "title": "United States falls to Germany 2-1 in final World Cup tuneup",
-      "link": "https://sports.mynorthwest.com/seattle-sports-pit/united-states-falls-germany-2-1-final-world-cup-tuneup",
-      "pubDate": "Sat, 06 Jun 2026 23:31:33 +0000",
-      "isoDate": "2026-06-06T23:31:33.000Z",
-      "excerpt": "The United States' opener at the World Cup is against Paraguay next Friday.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "Storm fall to WNBA-leading Lynx 88-68 for 5th straight loss",
-      "link": "https://sports.mynorthwest.com/wnba/seattle-storm/seattle-storm-fall-wnba-leading-lynx-88-68-5th-straight-loss",
-      "pubDate": "Sat, 06 Jun 2026 21:36:26 +0000",
-      "isoDate": "2026-06-06T21:36:26.000Z",
-      "excerpt": "Seattle committed a season-high 21 turnovers in the loss.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
     },
     {
       "title": "2nd time's the charm! After near-miss, Canzone crushes longest HR of his career",
@@ -288,16 +218,6 @@
       "source": "Lookout Landing",
       "team": "mariners",
       "priority": 1
-    },
-    {
-      "title": "Recap: Miller, Canzone lead Mariners past Tigers 4-0",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/recap-miller-canzone-lead-seattle-mariners-past-tigers-4-0",
-      "pubDate": "Sat, 06 Jun 2026 20:39:02 +0000",
-      "isoDate": "2026-06-06T20:39:02.000Z",
-      "excerpt": "Bryce Miller allowed one hit in six scoreless innings and Dominic Canzone blasted a 451-foot homer.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
     },
     {
       "title": "34-31: Chart",
@@ -430,6 +350,16 @@
       "priority": 6
     },
     {
+      "title": "Seattle Torrent Protect Wilgren, Murphy, Carpenter in Expansion Draft",
+      "link": "https://www.davyjoneslockerroom.com/seattle-torrent-protect-wilgren-murphy-carpenter-in-expansion-draft/",
+      "pubDate": "Thu, 04 Jun 2026 16:00:00 +0000",
+      "isoDate": "2026-06-04T16:00:00.000Z",
+      "excerpt": "The Torrent have made some interesting choices in the upcoming expansion process by choosing to protect Anna Wilgren, Hannah Murphy, and Alex Carpenter. Not exactly an expansion draft, the PWHL’s Expansion Roster...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
       "title": "Russell Wilson Announces Retirement",
       "link": "https://www.profootballrumors.com/2026/06/russell-wilson-announces-retirement",
       "pubDate": "Thu, 04 Jun 2026 04:30:09 +0000",
@@ -480,6 +410,16 @@
       "priority": 6
     },
     {
+      "title": "Seattle Torrent Sign Alex Carpenter, Protect Her From Expansion Thieves",
+      "link": "https://www.davyjoneslockerroom.com/seattle-torrent-sign-alex-carpenter-protect-her-from-expansion-thieves/",
+      "pubDate": "Wed, 03 Jun 2026 14:00:00 +0000",
+      "isoDate": "2026-06-03T14:00:00.000Z",
+      "excerpt": "The Seattle Torrent re-signed forward Alex Carpenter to a 3-year PWHL Standard Player Agreement on June 2, keeping one of the franchise’s foundational pieces through 2028-29 and committing one of the team’s 3 protection...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
       "title": "Seahawks Visit Sap Sap Lao Deli & Cafe For AANHPI Month",
       "link": "https://www.seahawks.com/news/seahawks-visit-sap-sap-lao-deli-cafe-for-aanhpi-month",
       "pubDate": "Tue, 02 Jun 2026 16:30:52 GMT",
@@ -488,6 +428,16 @@
       "source": "Seahawks.com",
       "team": "seahawks",
       "priority": 6
+    },
+    {
+      "title": "Melinda French Gates Becomes Minority Owner of the Seattle Kraken",
+      "link": "https://www.davyjoneslockerroom.com/melinda-french-gates-becomes-minority-owner-of-the-seattle-kraken/",
+      "pubDate": "Tue, 02 Jun 2026 14:00:00 +0000",
+      "isoDate": "2026-06-02T14:00:00.000Z",
+      "excerpt": "Melinda French Gates is becoming a minority owner of the Seattle Kraken, the team’s parent company said Monday, pending approval from the NHL. The size of her stake and the terms were not disclosed. French Gates, 61,...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
     },
     {
       "title": "Stream Mariners games on Mariners.TV for NEW low price of $74.99",
@@ -590,6 +540,16 @@
       "priority": 2
     },
     {
+      "title": "Firebirds season ends in 4 games in AHL Pacific Division Final",
+      "link": "https://www.davyjoneslockerroom.com/firebirds-season-ends-in-4-games-in-ahl-pacific-division-final/",
+      "pubDate": "Thu, 21 May 2026 14:00:00 +0000",
+      "isoDate": "2026-05-21T14:00:00.000Z",
+      "excerpt": "Just not to be. The Coachella Valley Firebirds faced Colorado in Game 4 last night, and unfortunately, with their season on the line, couldn’t stymie the advance of the Eagles in the AHL Postseason, losing a...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
       "title": "MLBTR Podcast: Colt Emerson Debuts, Blue Jays’ Rotation Issues, And What To Make Of The Mets And Astros",
       "link": "https://www.mlbtraderumors.com/2026/05/mlbtr-podcast-colt-emerson-debuts-blue-jays-rotation-issues-and-what-to-make-of-the-mets-and-astros.html",
       "pubDate": "Thu, 21 May 2026 04:00:16 +0000",
@@ -605,6 +565,46 @@
       "pubDate": "Thu, 21 May 2026 00:11:52 +0000",
       "isoDate": "2026-05-21T00:11:52.000Z",
       "excerpt": "Mariners shortstop J.P. Crawford has been getting work at the hot corner and was taking grounders there prior to today’s game. Daniel Kramer of MLB.com was among those to report that the idea was actually brought up by...",
+      "source": "MLB Trade Rumors",
+      "team": "mariners",
+      "priority": 2
+    },
+    {
+      "title": "Kraken Sign Alexis Bernier To Entry-Level Contract",
+      "link": "https://www.prohockeyrumors.com/2026/05/kraken-sign-defenseman-alexis-bernier-to-entry-level-contract.html",
+      "pubDate": "Tue, 19 May 2026 17:30:30 +0000",
+      "isoDate": "2026-05-19T17:30:30.000Z",
+      "excerpt": "The Seattle Kraken have locked up one of their promising young blue-line prospects, signing defenseman Alexis Bernier to a three-year, entry-level contract. According to the team, the deal will carry an average annual...",
+      "source": "Pro Hockey Rumors",
+      "team": "kraken",
+      "priority": 2
+    },
+    {
+      "title": "Four Options for the Kraken at Pick 7",
+      "link": "https://www.davyjoneslockerroom.com/four-options-for-the-kraken-at-pick-7/",
+      "pubDate": "Tue, 19 May 2026 15:00:00 +0000",
+      "isoDate": "2026-05-19T15:00:00.000Z",
+      "excerpt": "The NHL Draft Lottery has come and gone, and luck continues to not be on the Seattle Kraken’s side. The Hockey Gods are clearly prepared to drag this team – and fanbase – through years of developing instead of having...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
+      "title": "Mariners Recall Robinson Ortiz, Select Brennen Davis",
+      "link": "https://www.mlbtraderumors.com/2026/05/mariners-recall-robinson-ortiz-select-brennen-davis.html",
+      "pubDate": "Mon, 18 May 2026 22:10:38 +0000",
+      "isoDate": "2026-05-18T22:10:38.000Z",
+      "excerpt": "The Mariners announced several roster moves today. Infielder Patrick Wisdom has been reinstated from the 10-day injured list and left-hander Robinson Ortiz has been recalled from Triple-A. The lefty will be making his...",
+      "source": "MLB Trade Rumors",
+      "team": "mariners",
+      "priority": 2
+    },
+    {
+      "title": "Mariners Promote Colt Emerson, Place Brendan Donovan On IL",
+      "link": "https://www.mlbtraderumors.com/2026/05/mariners-to-promote-colt-emerson.html",
+      "pubDate": "Mon, 18 May 2026 03:59:10 +0000",
+      "isoDate": "2026-05-18T03:59:10.000Z",
+      "excerpt": "The Mariners are adding top prospect Colt Emerson to the big-league squad, first reported by Ryan Divish of the Seattle Times. The 20-year-old shortstop is among the highest-ranked young players in the sport. The team...",
       "source": "MLB Trade Rumors",
       "team": "mariners",
       "priority": 2
