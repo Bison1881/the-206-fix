@@ -1,14 +1,29 @@
 {
-  "generatedAt": "2026-06-08T08:51:45.715Z",
+  "generatedAt": "2026-06-08T14:04:40.545Z",
   "sourceCount": 10,
-  "successfulSources": 9,
-  "failedSources": [
-    {
-      "source": "Seattle Times Sports",
-      "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
-    }
-  ],
+  "successfulSources": 10,
+  "failedSources": [],
   "items": [
+    {
+      "title": "Donald Trump, Knicks fan, heads back to New York to root on his team",
+      "link": "https://www.seattletimes.com/nation-world/nation/donald-trump-knicks-fan-heads-back-to-new-york-to-root-on-his-team/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Mon, 08 Jun 2026 05:29:22 -0700",
+      "isoDate": "2026-06-08T12:29:22.000Z",
+      "excerpt": "Donald Trump plans to be at Madison Square Garden in New York on Monday to watch Game 3 of the NBA Finals between the Knicks and the San Antonio Spurs.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Mariners’ Cal Raleigh ‘pretty happy’ after first rehab game in Everett",
+      "link": "https://www.seattletimes.com/sports/mariners/mariners-cal-raleigh-pretty-happy-after-first-rehab-game-in-everett/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Sun, 07 Jun 2026 19:50:59 -0700",
+      "isoDate": "2026-06-08T02:50:59.000Z",
+      "excerpt": "Injured Mariners star Cal Raleigh played the first game of his rehab assignment Sunday in Everett. Here's how he fared and what he had to say afterward.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
     {
       "title": "Latest Mariners injuries and transactions",
       "link": "https://www.mlb.com/mariners/news/mariners-injuries-and-roster-moves",
@@ -40,6 +55,16 @@
       "priority": 3
     },
     {
+      "title": "Nelly Korda wins U.S. Women’s Open title with perilous final putt, claiming her 2nd straight major",
+      "link": "https://www.seattletimes.com/sports/golf/nelly-korda-wins-u-s-womens-open-title-with-perilous-final-putt-claiming-her-2nd-straight-major/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Sun, 07 Jun 2026 17:48:37 -0700",
+      "isoDate": "2026-06-08T00:48:37.000Z",
+      "excerpt": "Nelly Korda won the 81st U.S. Women's Open on Sunday for her second consecutive major victory when her final 2 1/2-foot par putt curled perilously around the cup and dropped in.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
       "title": "Tarik Skubal works 5 scoreless innings in 1st rehab appearance",
       "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/tarik-skubal-works-5-scoreless-innings-1st-rehab-appearance",
       "pubDate": "Sun, 07 Jun 2026 23:31:48 +0000",
@@ -48,6 +73,16 @@
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
+    },
+    {
+      "title": "As J.P. Crawford still nurses hand injury, Ryan Bliss joins Mariners",
+      "link": "https://www.seattletimes.com/sports/mariners/as-j-p-crawford-still-nurses-hand-injury-ryan-bliss-joins-mariners/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Sun, 07 Jun 2026 16:16:01 -0700",
+      "isoDate": "2026-06-07T23:16:01.000Z",
+      "excerpt": "With Mariners shortstop J.P. Crawford still nursing a hand injury, infielder Ryan Bliss joined the team in Detroit in a \"precautionary\" move.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
     },
     {
       "title": "Luis Castillo continues recent turnaround with strong outing",
@@ -80,33 +115,13 @@
       "priority": 3
     },
     {
-      "title": "Tigers walk off Mariners thanks to sloppy play, 5-4",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/144531/tigers-walk-off-mariners-thanks-to-sloppy-play-5-4",
-      "pubDate": "2026-06-07T21:15:04.000Z",
-      "isoDate": "2026-06-07T21:15:04.000Z",
-      "excerpt": "DETROIT, MI - JUNE 7: Josh Naylor #12 of the Seattle Mariners celebrates his double that drove in Julio Rodriguez against the Detroit Tigers during the sixth inning at Comerica Park on June 7, 2026 in Detroit, Michigan....",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "34-32: Chart",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/144535/34-32-chart",
-      "pubDate": "2026-06-07T20:55:00.000Z",
-      "isoDate": "2026-06-07T20:55:00.000Z",
-      "excerpt": "Jun 7, 2026; Detroit, Michigan, USA; Seattle Mariners third baseman Patrick Wisdom (35) makes a throw to first in the fourth inning against the Detroit Tigers at Comerica Park. Mandatory Credit: Rick Osentoski-Imagn...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "Mariners Game #66: Game Thread Two",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-discussion/144532/mariners-game-66-game-thread-two",
-      "pubDate": "2026-06-07T20:14:43.000Z",
-      "isoDate": "2026-06-07T20:14:43.000Z",
-      "excerpt": "Jun 7, 2026; Detroit, Michigan, USA; Seattle Mariners third baseman Colt Emerson (4) hits a double in the third inning against the Detroit Tigers at Comerica Park. Mandatory Credit: Rick Osentoski-Imagn Images | Rick...",
-      "source": "Lookout Landing",
-      "team": "mariners",
+      "title": "Andrés Muñoz blows save, Mariners fall in Detroit on walkoff hit",
+      "link": "https://www.seattletimes.com/sports/mariners/andres-munoz-blows-save-mariners-fall-in-detroit-on-walkoff-hit/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Sun, 07 Jun 2026 14:04:12 -0700",
+      "isoDate": "2026-06-07T21:04:12.000Z",
+      "excerpt": "What looked for much of Sunday to be a comfortable Mariners victory became a late-inning meltdown as Andrés Muñoz blew the save and Kevin McGonigle's walkoff won it for Detroit.",
+      "source": "Seattle Times Sports",
+      "team": "general",
       "priority": 1
     },
     {
@@ -130,6 +145,26 @@
       "priority": 3
     },
     {
+      "title": "Stacey King, longtime Bulls broadcaster who played on three NBA championship teams, dies at 59",
+      "link": "https://www.seattletimes.com/sports/nba/bulls-broadcaster-stacey-king-3-time-nba-champ-in-chicago-dies-at-59/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Sun, 07 Jun 2026 11:30:59 -0700",
+      "isoDate": "2026-06-07T18:30:59.000Z",
+      "excerpt": "Stacey King, who played on three consecutive NBA championship teams with the Chicago Bulls from 1991-93 before returning to the organization as an Emmy-winning broadcaster, has died. He was 59.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Alexander Zverev wins French Open for his 1st Grand Slam tennis title",
+      "link": "https://www.seattletimes.com/sports/alexander-zverev-wins-french-open-for-his-1st-grand-slam-tennis-title/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Sun, 07 Jun 2026 11:09:51 -0700",
+      "isoDate": "2026-06-07T18:09:51.000Z",
+      "excerpt": "Alexander Zverev is finally a Grand Slam champion. In his fourth major final, Zverev beat Flavio Cobolli for the French Open title on Sunday.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
       "title": "Mets halt ex-Mariners slugger Jorge Polanco’s rehab assignment",
       "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/mets-halt-ex-seattle-mariners-jorge-polanco-rehab-assignment",
       "pubDate": "Sun, 07 Jun 2026 17:56:45 +0000",
@@ -140,16 +175,6 @@
       "priority": 3
     },
     {
-      "title": "Mariners Game Preview #66, 6/7/26: SEA at DET",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-discussion/144525/mariners-game-preview-66-6-7-26-sea-at-det",
-      "pubDate": "2026-06-07T17:25:25.000Z",
-      "isoDate": "2026-06-07T17:25:25.000Z",
-      "excerpt": "May 31, 2026; Seattle, Washington, USA; Seattle Mariners pitcher Luis Castillo (58) reacts after the third out against the Arizona Diamondbacks during the tenth inning at T-Mobile Park. Mandatory Credit: John...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
       "title": "Lineup: Mariners’ J.P. Crawford out for 2nd straight day",
       "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/lineup-seattle-mariners-j-p-crawford-out-2nd-straight-day",
       "pubDate": "Sun, 07 Jun 2026 16:34:30 +0000",
@@ -158,6 +183,16 @@
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
+    },
+    {
+      "title": "Iran’s soccer team arrives in Mexico for training ahead of the World Cup",
+      "link": "https://www.seattletimes.com/sports/irans-soccer-team-arrives-in-mexico-for-training-ahead-of-the-world-cup/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Sun, 07 Jun 2026 07:48:04 -0700",
+      "isoDate": "2026-06-07T14:48:04.000Z",
+      "excerpt": "Iran’s soccer team has arrived in Mexico for training ahead of the World Cup, before three group matches in the United States later this month.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
     },
     {
       "title": "On the latest",
@@ -250,6 +285,16 @@
       "priority": 2
     },
     {
+      "title": "Mariners Game #65 Preview and Discussion, 6/6/26: SEA at DET",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-discussion/144489/mariners-game-65-preview-and-discussion-6-6-26-sea-at-det",
+      "pubDate": "2026-06-06T16:40:00.000Z",
+      "isoDate": "2026-06-06T16:40:00.000Z",
+      "excerpt": "May 31, 2026; Seattle, Washington, USA; Seattle Mariners starting pitcher Bryce Miller (50) walks off the field after the final out of the fourth inning against the Arizona Diamondbacks at T-Mobile Park. Mandatory...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
       "title": "Seahawks News 6/6: Rylie Mills is ready to earn a bigger role with Seahawks",
       "link": "https://www.fieldgulls.com/seattle-seahawks-news/169335/seahawks-news-6-6-rylie-mills-is-ready-to-earn-a-bigger-role-with-seahawks",
       "pubDate": "2026-06-06T14:39:07.000Z",
@@ -270,6 +315,16 @@
       "priority": 1
     },
     {
+      "title": "Mariners News: Bryce Miller, Corey Seager, and Ramón Laureano",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-news/144484/mariners-news-bryce-miller-corey-seager-and-ramon-laureano",
+      "pubDate": "2026-06-06T14:00:00.000Z",
+      "isoDate": "2026-06-06T14:00:00.000Z",
+      "excerpt": "ARLINGTON, TEXAS - JUNE 05: Corey Seager #5 of the Texas Rangers high fives Wyatt Langford #36 after Seager hit a home run during the sixth inning of a game against the Cleveland Guardians at Globe Life Field on June...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
       "title": "Crawford (hand) appears to avoid serious injury after HBP",
       "link": "https://www.mlb.com/mariners/news/j-p-crawford-exits-hand-injury",
       "pubDate": "Sat, 06 Jun 2026 04:54:00 GMT",
@@ -278,6 +333,26 @@
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
+    },
+    {
+      "title": "Mariners drop first game of road trip 7-3",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/144475/mariners-drop-first-game-of-road-trip-7-3",
+      "pubDate": "2026-06-06T02:44:55.000Z",
+      "isoDate": "2026-06-06T02:44:55.000Z",
+      "excerpt": "DETROIT, MICHIGAN - JUNE 05: J.P. Crawford #3 of the Seattle Mariners reacts after being hit by the ball against the Detroit Tigers during the top of the third inning at Comerica Park on June 05, 2026 in Detroit,...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "33-31: Chart",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/144465/33-31-chart",
+      "pubDate": "2026-06-06T01:27:53.000Z",
+      "isoDate": "2026-06-06T01:27:53.000Z",
+      "excerpt": "DETROIT, MICHIGAN - JUNE 05: Kevin McGonigle #7 of the Detroit Tigers grounds out to Josh Naylor #12 of the Seattle Mariners during the bottom of the fifth inning at Comerica Park on June 05, 2026 in Detroit, Michigan....",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
     },
     {
       "title": "Seahawks, Derick Hall Agree To Extension",
@@ -527,86 +602,6 @@
       "excerpt": "The Seahawks and Jets have agreed to a minor trade. New York is sending wide receiver Irvin Charles to Seattle for a conditional seventh-round selection, Zack Rosenblatt of The Athletic reports. It’s a 2028 pick, per...",
       "source": "Pro Football Rumors",
       "team": "seahawks",
-      "priority": 2
-    },
-    {
-      "title": "Mariners Notes: Crawford, Rotation, Castillo",
-      "link": "https://www.mlbtraderumors.com/2026/05/mariners-notes-crawford-rotation-castillo.html",
-      "pubDate": "Sun, 24 May 2026 04:22:37 +0000",
-      "isoDate": "2026-05-24T04:22:37.000Z",
-      "excerpt": "J.P. Crawford has been a key part of the Mariners’ lineup since joining the club in 2019. In over 3,800 plate appearances with Seattle, Crawford has batted .248/.341/.369 with a 107 wRC+ while providing serviceable...",
-      "source": "MLB Trade Rumors",
-      "team": "mariners",
-      "priority": 2
-    },
-    {
-      "title": "Firebirds season ends in 4 games in AHL Pacific Division Final",
-      "link": "https://www.davyjoneslockerroom.com/firebirds-season-ends-in-4-games-in-ahl-pacific-division-final/",
-      "pubDate": "Thu, 21 May 2026 14:00:00 +0000",
-      "isoDate": "2026-05-21T14:00:00.000Z",
-      "excerpt": "Just not to be. The Coachella Valley Firebirds faced Colorado in Game 4 last night, and unfortunately, with their season on the line, couldn’t stymie the advance of the Eagles in the AHL Postseason, losing a...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
-    },
-    {
-      "title": "MLBTR Podcast: Colt Emerson Debuts, Blue Jays’ Rotation Issues, And What To Make Of The Mets And Astros",
-      "link": "https://www.mlbtraderumors.com/2026/05/mlbtr-podcast-colt-emerson-debuts-blue-jays-rotation-issues-and-what-to-make-of-the-mets-and-astros.html",
-      "pubDate": "Thu, 21 May 2026 04:00:16 +0000",
-      "isoDate": "2026-05-21T04:00:16.000Z",
-      "excerpt": "The latest episode of the MLB Trade Rumors Podcast is now live on Spotify, Apple Podcasts, and wherever you get your podcasts! Make sure you subscribe as well! You can also use the player at this link to listen, if you...",
-      "source": "MLB Trade Rumors",
-      "team": "mariners",
-      "priority": 2
-    },
-    {
-      "title": "J.P. Crawford Getting Work At Third Base",
-      "link": "https://www.mlbtraderumors.com/2026/05/mariners-rumors-j-p-crawford-third-base-colt-emerson-shortstop.html",
-      "pubDate": "Thu, 21 May 2026 00:11:52 +0000",
-      "isoDate": "2026-05-21T00:11:52.000Z",
-      "excerpt": "Mariners shortstop J.P. Crawford has been getting work at the hot corner and was taking grounders there prior to today’s game. Daniel Kramer of MLB.com was among those to report that the idea was actually brought up by...",
-      "source": "MLB Trade Rumors",
-      "team": "mariners",
-      "priority": 2
-    },
-    {
-      "title": "Kraken Sign Alexis Bernier To Entry-Level Contract",
-      "link": "https://www.prohockeyrumors.com/2026/05/kraken-sign-defenseman-alexis-bernier-to-entry-level-contract.html",
-      "pubDate": "Tue, 19 May 2026 17:30:30 +0000",
-      "isoDate": "2026-05-19T17:30:30.000Z",
-      "excerpt": "The Seattle Kraken have locked up one of their promising young blue-line prospects, signing defenseman Alexis Bernier to a three-year, entry-level contract. According to the team, the deal will carry an average annual...",
-      "source": "Pro Hockey Rumors",
-      "team": "kraken",
-      "priority": 2
-    },
-    {
-      "title": "Four Options for the Kraken at Pick 7",
-      "link": "https://www.davyjoneslockerroom.com/four-options-for-the-kraken-at-pick-7/",
-      "pubDate": "Tue, 19 May 2026 15:00:00 +0000",
-      "isoDate": "2026-05-19T15:00:00.000Z",
-      "excerpt": "The NHL Draft Lottery has come and gone, and luck continues to not be on the Seattle Kraken’s side. The Hockey Gods are clearly prepared to drag this team – and fanbase – through years of developing instead of having...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
-    },
-    {
-      "title": "Mariners Recall Robinson Ortiz, Select Brennen Davis",
-      "link": "https://www.mlbtraderumors.com/2026/05/mariners-recall-robinson-ortiz-select-brennen-davis.html",
-      "pubDate": "Mon, 18 May 2026 22:10:38 +0000",
-      "isoDate": "2026-05-18T22:10:38.000Z",
-      "excerpt": "The Mariners announced several roster moves today. Infielder Patrick Wisdom has been reinstated from the 10-day injured list and left-hander Robinson Ortiz has been recalled from Triple-A. The lefty will be making his...",
-      "source": "MLB Trade Rumors",
-      "team": "mariners",
-      "priority": 2
-    },
-    {
-      "title": "Mariners Promote Colt Emerson, Place Brendan Donovan On IL",
-      "link": "https://www.mlbtraderumors.com/2026/05/mariners-to-promote-colt-emerson.html",
-      "pubDate": "Mon, 18 May 2026 03:59:10 +0000",
-      "isoDate": "2026-05-18T03:59:10.000Z",
-      "excerpt": "The Mariners are adding top prospect Colt Emerson to the big-league squad, first reported by Ryan Divish of the Seattle Times. The 20-year-old shortstop is among the highest-ranked young players in the sport. The team...",
-      "source": "MLB Trade Rumors",
-      "team": "mariners",
       "priority": 2
     }
   ]
