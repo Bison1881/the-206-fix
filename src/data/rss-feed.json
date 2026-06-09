@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-09T14:43:18.255Z",
+  "generatedAt": "2026-06-09T17:59:59.337Z",
   "sourceCount": 10,
   "successfulSources": 9,
   "failedSources": [
@@ -9,6 +9,66 @@
     }
   ],
   "items": [
+    {
+      "title": "Seahawks star JSN makes TIME magazine’s top-100 list for sports",
+      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/seattle-seahawks-jsn-time-magazine-top-100-sports",
+      "pubDate": "Tue, 09 Jun 2026 17:33:12 +0000",
+      "isoDate": "2026-06-09T17:33:12.000Z",
+      "excerpt": "Jaxon Smith-Njigba received another big honor in the wake of his historic season.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Rating your takes: What is Colt Emerson’s ceiling? What is his floor?",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-discussion/144594/rating-your-takes-what-is-colt-emersons-ceiling-what-is-his-floor",
+      "pubDate": "2026-06-09T16:30:00.000Z",
+      "isoDate": "2026-06-09T16:30:00.000Z",
+      "excerpt": "SEATTLE, WASHINGTON - JUNE 02: Colt Emerson #4 of the Seattle Mariners makes a catch for the final out against the New York Mets during the ninth inning at T-Mobile Park on June 02, 2026 in Seattle, Washington. (Photo...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Iran soccer body claims fans’ World Cup tickets in US have been revoked",
+      "link": "https://sports.mynorthwest.com/seattle-sports-pit/iran-soccer-world-cup-tickets-us-revoked",
+      "pubDate": "Tue, 09 Jun 2026 16:27:19 +0000",
+      "isoDate": "2026-06-09T16:27:19.000Z",
+      "excerpt": "FIFA has revoked the ticket allocation for Iran fans at the team’s three World Cup games in the United States, the national soccer federation claimed Tuesday.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "AL West Check-In: Rangers building momentum and getting healthy",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/al-west-check-in-rangers-building-momentum-getting-healthy",
+      "pubDate": "Tue, 09 Jun 2026 16:19:00 +0000",
+      "isoDate": "2026-06-09T16:19:00.000Z",
+      "excerpt": "With its recent surge, Texas is sitting two games behind Seattle in the AL West.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Report: Seahawks host former Lions, Dolphins safety for workout",
+      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/seattle-seahawks-work-out-former-lions-dolphins-safety-melifonwu",
+      "pubDate": "Tue, 09 Jun 2026 15:52:47 +0000",
+      "isoDate": "2026-06-09T15:52:47.000Z",
+      "excerpt": "Ifeatu Melifonwu has made 22 starts over his five-year NFL career.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Wyman: Another area where Seahawks coach Mike Macdonald excels",
+      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/wyman-another-area-seattle-seahawks-coach-mike-macdonald-excels",
+      "pubDate": "Tue, 09 Jun 2026 14:19:56 +0000",
+      "isoDate": "2026-06-09T14:19:56.000Z",
+      "excerpt": "Dave Wyman highlighted Macdonald's ability to get improvement from his players over the course of a season.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
     {
       "title": "Seahawks 2026 rookie predictions: Is Emmanuel Henderson Jr the new special teams ace?",
       "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/169397/seahawks-2026-rookie-predictions-is-emmanuel-henderson-jr-new-special-teams-ace",
@@ -120,16 +180,6 @@
       "priority": 3
     },
     {
-      "title": "Recap: Mariners beat Orioles 6-3 for 10th win in last 13 games",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-recap-win-6-3-orioles",
-      "pubDate": "Tue, 09 Jun 2026 01:55:24 +0000",
-      "isoDate": "2026-06-09T01:55:24.000Z",
-      "excerpt": "Josh Naylor hit a grand slam and Randy Arozarena had three hits for the AL West-leading Mariners.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
       "title": "35-32: Chart",
       "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/144585/35-32-chart",
       "pubDate": "2026-06-09T01:31:44.000Z",
@@ -138,16 +188,6 @@
       "source": "Lookout Landing",
       "team": "mariners",
       "priority": 1
-    },
-    {
-      "title": "Surging Josh Naylor slams Mariners past Orioles",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/josh-naylor-grand-slam-seattle-mariners-orioles",
-      "pubDate": "Tue, 09 Jun 2026 01:22:29 +0000",
-      "isoDate": "2026-06-09T01:22:29.000Z",
-      "excerpt": "A grand slam in the fifth inning from Naylor lifted the Mariners to a win and continued his strong performance of late.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
     },
     {
       "title": "Minor NFL Transactions: 6/8/26",
@@ -170,16 +210,6 @@
       "priority": 1
     },
     {
-      "title": "Seahawks sign veteran O-lineman with starting experience",
-      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/seahawks-sign-veteran-o-lineman-with-starting-experience",
-      "pubDate": "Mon, 08 Jun 2026 23:05:10 +0000",
-      "isoDate": "2026-06-08T23:05:10.000Z",
-      "excerpt": "Bobby Hart, who has started 75 games over his NFL career, has joined the Seahawks' 90-man roster.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
       "title": "Mariners Game Preview #67, 6/8/26: SEA at BAL",
       "link": "https://www.lookoutlanding.com/seattle-mariners-discussion/144576/mariners-game-preview-67-6-8-26-sea-at-bal",
       "pubDate": "2026-06-08T22:05:03.000Z",
@@ -200,16 +230,6 @@
       "priority": 2
     },
     {
-      "title": "Mariners down another SS as Colt Emerson scratched",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-colt-emerson-scratched",
-      "pubDate": "Mon, 08 Jun 2026 21:56:55 +0000",
-      "isoDate": "2026-06-08T21:56:55.000Z",
-      "excerpt": "Rookie standout Colt Emerson was removed from the Seattle Mariners' lineup about an hour before first pitch Monday in Baltimore.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
       "title": "Seahawks Sign OT Bobby Hart",
       "link": "https://www.seahawks.com/news/seahawks-sign-ot-bobby-hart",
       "pubDate": "Mon, 08 Jun 2026 21:34:04 GMT",
@@ -218,16 +238,6 @@
       "source": "Seahawks.com",
       "team": "seahawks",
       "priority": 6
-    },
-    {
-      "title": "Seattle Sports This Week: TV and radio (June 8-14)",
-      "link": "https://sports.mynorthwest.com/seattle-sports-pit/seattle-sports-week-tv-radio-june-8-14-world-cup",
-      "pubDate": "Mon, 08 Jun 2026 21:30:37 +0000",
-      "isoDate": "2026-06-08T21:30:37.000Z",
-      "excerpt": "Here's a look at the broadcast schedule for April 13-19 on Seattle Sports 710 AM and the Seattle Sports app, as well as local teams and the World Cup on TV.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
     },
     {
       "title": "Randy Dobnak Has Upward Mobility Clause In Mariners Deal",
@@ -298,16 +308,6 @@
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
-    },
-    {
-      "title": "Tigers walk off Mariners thanks to sloppy play, 5-4",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/144531/tigers-walk-off-mariners-thanks-to-sloppy-play-5-4",
-      "pubDate": "2026-06-07T21:15:04.000Z",
-      "isoDate": "2026-06-07T21:15:04.000Z",
-      "excerpt": "DETROIT, MI - JUNE 7: Josh Naylor #12 of the Seattle Mariners celebrates his double that drove in Julio Rodriguez against the Detroit Tigers during the sixth inning at Comerica Park on June 7, 2026 in Detroit, Michigan....",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
     },
     {
       "title": "SBNation Reacts results: Seahawks fans weigh in on Super Bowl chances after Rams get Myles Garrett",
