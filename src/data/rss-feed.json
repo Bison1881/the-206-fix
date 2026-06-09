@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-09T17:59:59.337Z",
+  "generatedAt": "2026-06-09T20:18:56.059Z",
   "sourceCount": 10,
   "successfulSources": 9,
   "failedSources": [
@@ -10,6 +10,46 @@
   ],
   "items": [
     {
+      "title": "Mariners’ Cal Raleigh homers in first AB with Tacoma",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-cal-raleigh-homers-in-first-ab-with-tacoma",
+      "pubDate": "Tue, 09 Jun 2026 19:28:17 +0000",
+      "isoDate": "2026-06-09T19:28:17.000Z",
+      "excerpt": "Cal Raleigh homered on the first pitch he saw in Tacoma.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Potential Seattle Seahawks ownership bidder reportedly emerges",
+      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/potential-seattle-seahawks-ownership-bidder-reportedly-emerges",
+      "pubDate": "Tue, 09 Jun 2026 19:02:17 +0000",
+      "isoDate": "2026-06-09T19:02:17.000Z",
+      "excerpt": "Billionaire financier Todd Boehly is \"weighing a bid\" for the Seahawks, according to a report Tuesday by Semafor.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Watch LIVE: Raleigh makes first Triple-A rehab outing",
+      "link": "https://www.mlb.com/mariners/news/watch-minor-league-baseball-games-for-free-2026",
+      "pubDate": "Tue, 09 Jun 2026 18:20:00 GMT",
+      "isoDate": "2026-06-09T18:20:00.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Mariners’ depth could mean a different kind of trade deadline",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-jeff-passan-depth-trade-deadline",
+      "pubDate": "Tue, 09 Jun 2026 18:15:15 +0000",
+      "isoDate": "2026-06-09T18:15:15.000Z",
+      "excerpt": "\"This could be a slow deadline for the Mariners,\" ESPN MLB insider Jeff Passan said to Brock and Salk.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
       "title": "Seahawks star JSN makes TIME magazine’s top-100 list for sports",
       "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/seattle-seahawks-jsn-time-magazine-top-100-sports",
       "pubDate": "Tue, 09 Jun 2026 17:33:12 +0000",
@@ -18,16 +58,6 @@
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
-    },
-    {
-      "title": "Rating your takes: What is Colt Emerson’s ceiling? What is his floor?",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-discussion/144594/rating-your-takes-what-is-colt-emersons-ceiling-what-is-his-floor",
-      "pubDate": "2026-06-09T16:30:00.000Z",
-      "isoDate": "2026-06-09T16:30:00.000Z",
-      "excerpt": "SEATTLE, WASHINGTON - JUNE 02: Colt Emerson #4 of the Seattle Mariners makes a catch for the final out against the New York Mets during the ninth inning at T-Mobile Park on June 02, 2026 in Seattle, Washington. (Photo...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
     },
     {
       "title": "Iran soccer body claims fans’ World Cup tickets in US have been revoked",
@@ -70,16 +100,6 @@
       "priority": 3
     },
     {
-      "title": "Seahawks 2026 rookie predictions: Is Emmanuel Henderson Jr the new special teams ace?",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/169397/seahawks-2026-rookie-predictions-is-emmanuel-henderson-jr-new-special-teams-ace",
-      "pubDate": "2026-06-09T14:00:00.000Z",
-      "isoDate": "2026-06-09T14:00:00.000Z",
-      "excerpt": "LAWRENCE, KS - AUGUST 29: Kansas Jayhawks wide receiver Emmanuel Henderson Jr. (1) signals first down after a catch in the second quarter of a college football game between the Wagner Seahawks and Kansas Jayhawks on...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
-    },
-    {
       "title": "Mariners News: Josh Naylor, J.P. Crawford, and Chris Bassitt",
       "link": "https://www.lookoutlanding.com/seattle-mariners-news/144600/osh-naylor-j-p-crawford-chris-bassitt-yordan-alvarez",
       "pubDate": "2026-06-09T14:00:00.000Z",
@@ -90,26 +110,6 @@
       "priority": 1
     },
     {
-      "title": "Seahawks News 6/9: Seahawks that have something to prove in 2026",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169421/seahawks-news-6-9-seahawks-that-have-something-to-prove-in-2026",
-      "pubDate": "2026-06-09T13:10:33.000Z",
-      "isoDate": "2026-06-09T13:10:33.000Z",
-      "excerpt": "GREEN BAY, WISCONSIN - AUGUST 23: Emanuel Wilson #31 of the Green Bay Packers runs with the ball in the second quarter during the NFL Preseason 2025 game between Seattle Seahawks and Green Bay Packers at Lambeau Field...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "Watch Raleigh's first Triple-A rehab outing for FREE today",
-      "link": "https://www.mlb.com/mariners/news/watch-minor-league-baseball-games-for-free-2026",
-      "pubDate": "Tue, 09 Jun 2026 05:46:00 GMT",
-      "isoDate": "2026-06-09T05:46:00.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
-    },
-    {
       "title": "Forget the grand slam -- 2 key challenges lead Mariners to victory",
       "link": "https://www.mlb.com/mariners/news/mariners-win-over-orioles-behind-key-abs-challenges",
       "pubDate": "Tue, 09 Jun 2026 05:12:00 GMT",
@@ -118,16 +118,6 @@
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
-    },
-    {
-      "title": "A’ja Wilson scores 34 as Las Vegas Aces top Seattle Storm 101-91",
-      "link": "https://sports.mynorthwest.com/wnba/seattle-storm/aja-wilson-34-las-vegas-aces-top-seattle-storm",
-      "pubDate": "Tue, 09 Jun 2026 04:51:00 +0000",
-      "isoDate": "2026-06-09T04:51:00.000Z",
-      "excerpt": "Wilson became the fastest player in WNBA history to reach 6,000 career points, doing so in 278 games to top Diana Taurasi’s mark of 291.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
     },
     {
       "title": "Latest Mariners injuries and transactions",
@@ -160,26 +150,6 @@
       "priority": 1
     },
     {
-      "title": "Hilary Knight leaving Seattle Torrent for expansion Detroit team",
-      "link": "https://sports.mynorthwest.com/seattle-sports-pit/hilary-knight-leaving-seattle-torrent-for-expansion-detroit-team",
-      "pubDate": "Tue, 09 Jun 2026 02:08:51 +0000",
-      "isoDate": "2026-06-09T02:08:51.000Z",
-      "excerpt": "Knight is heading to the PWHL’s expansion team in Detroit as part of a sign-and-trade deal involving one of women’s hockey’s most recognized stars.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "NFL analyst says Russell Wilson is a ‘no-doubt’ Hall of Famer",
-      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/ex-seattle-seahawks-star-russell-wilson-no-doubt-hall-of-famer-zierlein",
-      "pubDate": "Tue, 09 Jun 2026 02:02:49 +0000",
-      "isoDate": "2026-06-09T02:02:49.000Z",
-      "excerpt": "NFL.com's Lance Zierlein doesn't think there's any question that Wilson deserves to be in the Hall of Fame.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
       "title": "35-32: Chart",
       "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/144585/35-32-chart",
       "pubDate": "2026-06-09T01:31:44.000Z",
@@ -198,16 +168,6 @@
       "source": "Pro Football Rumors",
       "team": "seahawks",
       "priority": 2
-    },
-    {
-      "title": "Seahawks sign veteran offensive tackle Bobby Hart ahead of mandatory minicamp",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169391/seahawks-sign-veteran-offensive-tackle-bobby-hart-mandatory-minicamp-nfl-news",
-      "pubDate": "2026-06-08T23:17:52.000Z",
-      "isoDate": "2026-06-08T23:17:52.000Z",
-      "excerpt": "ARLINGTON, TX - DECEMBER 21: Bobby Hart #66 of the Los Angeles Chargers drops back to block during an NFL football game against the Dallas Cowboys at AT&T Stadium on December 21, 2025 in Arlington, Texas. (Photo by...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
     },
     {
       "title": "Mariners Game Preview #67, 6/8/26: SEA at BAL",
@@ -310,6 +270,16 @@
       "priority": 6
     },
     {
+      "title": "Tigers walk off Mariners thanks to sloppy play, 5-4",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/144531/tigers-walk-off-mariners-thanks-to-sloppy-play-5-4",
+      "pubDate": "2026-06-07T21:15:04.000Z",
+      "isoDate": "2026-06-07T21:15:04.000Z",
+      "excerpt": "DETROIT, MI - JUNE 7: Josh Naylor #12 of the Seattle Mariners celebrates his double that drove in Julio Rodriguez against the Detroit Tigers during the sixth inning at Comerica Park on June 7, 2026 in Detroit, Michigan....",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
       "title": "SBNation Reacts results: Seahawks fans weigh in on Super Bowl chances after Rams get Myles Garrett",
       "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/169355/sbnation-reacts-results-seahawks-fans-weigh-in-on-super-bowl-chances-rams-myles-trade",
       "pubDate": "2026-06-07T14:00:00.000Z",
@@ -360,6 +330,16 @@
       "priority": 1
     },
     {
+      "title": "The 11 former Seahawks who now play in the CFL",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169288/11-former-seattle-seahawks-who-now-play-in-canadian-football-league",
+      "pubDate": "2026-06-06T14:00:00.000Z",
+      "isoDate": "2026-06-06T14:00:00.000Z",
+      "excerpt": "SEATTLE, WASHINGTON - AUGUST 10: Linebacker Levi Bell #98 of the Seattle Seahawks celebrates a sack during the fourth quarter of a preseason game against the Minnesota Vikings at Lumen Field on August 10, 2023 in...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
+    {
       "title": "Seahawks, Derick Hall Agree To Extension",
       "link": "https://www.profootballrumors.com/2026/06/seahawks-derick-hall-agree-to-extension",
       "pubDate": "Fri, 05 Jun 2026 19:00:15 +0000",
@@ -368,6 +348,26 @@
       "source": "Pro Football Rumors",
       "team": "seahawks",
       "priority": 2
+    },
+    {
+      "title": "The details of Seahawks edge rusher Derick Hall’s contract extension",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-nfl-salary-cap/169323/details-seahawks-edge-rusher-derick-hall-contract-extension",
+      "pubDate": "2026-06-05T18:48:33.000Z",
+      "isoDate": "2026-06-05T18:48:33.000Z",
+      "excerpt": "SANTA CLARA, CALIFORNIA - FEBRUARY 08: Derick Hall #58 of the Seattle Seahawks reacts after a sack against the New England Patriots during the first quarter Super Bowl LX at Levi's Stadium on February 08, 2026 in Santa...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
+    {
+      "title": "Which trade targets make the most sense for the Seahawks?",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/169173/which-trade-targets-make-most-sense-seattle-seahawks-nfl-opinion",
+      "pubDate": "2026-06-05T15:00:00.000Z",
+      "isoDate": "2026-06-05T15:00:00.000Z",
+      "excerpt": "INDIANAPOLIS, INDIANA - DECEMBER 22: Quenton Nelson #56 of the Indianapolis Colts walks across the field before the game against the San Francisco 49ers at Lucas Oil Stadium on December 22, 2025 in Indianapolis,...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
     },
     {
       "title": "Seahawks DE Rylie Mills Feels 'Fully Back' To Who He Was Before ACL Injury",
