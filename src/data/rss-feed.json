@@ -1,18 +1,19 @@
 {
-  "generatedAt": "2026-06-09T07:43:45.972Z",
+  "generatedAt": "2026-06-09T10:57:59.219Z",
   "sourceCount": 10,
-  "successfulSources": 8,
-  "failedSources": [
-    {
-      "source": "Seattle Times Sports",
-      "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
-    },
-    {
-      "source": "Davy Jones' Locker Room",
-      "error": "Status code 415 (lenient retry: Status code 415)"
-    }
-  ],
+  "successfulSources": 10,
+  "failedSources": [],
   "items": [
+    {
+      "title": "It’s bigger. Is it better? A look at the differences between the 1994 and 2026 World Cups",
+      "link": "https://www.seattletimes.com/nation-world/its-bigger-is-it-better-a-look-at-the-differences-between-the-1994-and-2026-world-cups/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Tue, 09 Jun 2026 03:11:07 -0700",
+      "isoDate": "2026-06-09T10:11:07.000Z",
+      "excerpt": "A look at differences between the 1994 World Cup, the first in the United States, and the 2026 tournament, to be played in the U.S., Mexico and Canada.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
     {
       "title": "Watch Raleigh's first Triple-A rehab outing for FREE today",
       "link": "https://www.mlb.com/mariners/news/watch-minor-league-baseball-games-for-free-2026",
@@ -42,6 +43,16 @@
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
+    },
+    {
+      "title": "Seattle Storm’s young frontcourt can’t stop Aces star A’ja Wilson in loss",
+      "link": "https://www.seattletimes.com/sports/storm/seattle-storms-young-frontcourt-cant-stop-aces-star-aja-wilson-in-loss/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Mon, 08 Jun 2026 21:24:08 -0700",
+      "isoDate": "2026-06-09T04:24:08.000Z",
+      "excerpt": "The Storm's young frontcourt of Dominique Malonga and Awa Fam had their moments, but Aces four-time MVP A’ja Wilson tallied 34 points, 12 rebounds and nine assists to hand Seattle its sixth straight loss — a 101-91...",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
     },
     {
       "title": "Latest Mariners injuries and transactions",
@@ -114,6 +125,16 @@
       "priority": 1
     },
     {
+      "title": "Josh Naylor’s go-ahead grand slam propels Seattle Mariners past Orioles",
+      "link": "https://www.seattletimes.com/sports/mariners/josh-naylors-go-ahead-grand-slam-propels-seattle-mariners-past-orioles/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Mon, 08 Jun 2026 18:27:08 -0700",
+      "isoDate": "2026-06-09T01:27:08.000Z",
+      "excerpt": "Josh Naylor launched a go-ahead grand slam in the fifth inning to lift the Mariners to a 6-3 victory over the Orioles in the opener of their four-game series Monday at Camden Yards.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
       "title": "Surging Josh Naylor slams Mariners past Orioles",
       "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/josh-naylor-grand-slam-seattle-mariners-orioles",
       "pubDate": "Tue, 09 Jun 2026 01:22:29 +0000",
@@ -124,6 +145,16 @@
       "priority": 3
     },
     {
+      "title": "Photos: Mariners open four game series at Camden Yards",
+      "link": "https://www.seattletimes.com/photo-video/photography/photos-mariners-open-four-game-series-at-camden-yards/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Mon, 08 Jun 2026 17:49:25 -0700",
+      "isoDate": "2026-06-09T00:49:25.000Z",
+      "excerpt": "",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
       "title": "Minor NFL Transactions: 6/8/26",
       "link": "https://www.profootballrumors.com/2026/06/minor-nfl-transactions-6-8-26",
       "pubDate": "Tue, 09 Jun 2026 00:01:55 +0000",
@@ -132,6 +163,56 @@
       "source": "Pro Football Rumors",
       "team": "seahawks",
       "priority": 2
+    },
+    {
+      "title": "WSU football adds commitment from WR Tomas Dixon, loses WR Malachi Garlington",
+      "link": "https://www.seattletimes.com/sports/wsu-cougar-football/wsu-football-adds-commitment-from-wr-tomas-dixon-loses-wr-malachi-garlington/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Mon, 08 Jun 2026 16:44:49 -0700",
+      "isoDate": "2026-06-08T23:44:49.000Z",
+      "excerpt": "Washington State secured a commitment from WR Tomas Dixon, but lost three-star WR Malachi Garlington to Oregon after a four-day commitment to the Cougars.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Donald Trump booed by the crowd during the anthem prior to Game 3 of the NBA Finals",
+      "link": "https://www.seattletimes.com/sports/nba/nyc-imposes-stringent-security-as-trump-becomes-1st-sitting-u-s-president-to-attend-nba-finals-game/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Mon, 08 Jun 2026 16:38:35 -0700",
+      "isoDate": "2026-06-08T23:38:35.000Z",
+      "excerpt": "Donald Trump was booed loudly by fans inside Madison Square Garden when he was shown on video screens during the national anthem prior to Game 3 of the NBA Finals.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Mercer Island student Eliot Abramson dies from lacrosse accident",
+      "link": "https://www.seattletimes.com/sports/high-school/mercer-island-student-eliot-abramson-dies-from-lacrosse-accident/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Mon, 08 Jun 2026 16:33:24 -0700",
+      "isoDate": "2026-06-08T23:33:24.000Z",
+      "excerpt": "Eliot Abramson, a Mercer Island High School sophomore, died Sunday from injuries sustained during a lacrosse showcase event last week.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Seahawks sign veteran offensive tackle Bobby Hart ahead of mandatory minicamp",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169391/seahawks-sign-veteran-offensive-tackle-bobby-hart-mandatory-minicamp-nfl-news",
+      "pubDate": "2026-06-08T23:17:52.000Z",
+      "isoDate": "2026-06-08T23:17:52.000Z",
+      "excerpt": "ARLINGTON, TX - DECEMBER 21: Bobby Hart #66 of the Los Angeles Chargers drops back to block during an NFL football game against the Dallas Cowboys at AT&T Stadium on December 21, 2025 in Arlington, Texas. (Photo by...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
+    {
+      "title": "Seahawks add veteran O-lineman Bobby Hart | Notebook",
+      "link": "https://www.seattletimes.com/sports/seahawks/seahawks-add-veteran-o-lineman-bobby-hart-notebook/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Mon, 08 Jun 2026 16:06:49 -0700",
+      "isoDate": "2026-06-08T23:06:49.000Z",
+      "excerpt": "The Seahawks made their first veteran addition to the offensive line of the off-season, signing well-traveled free agent tackle Bobby Hart.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
     },
     {
       "title": "Seahawks sign veteran O-lineman with starting experience",
@@ -364,16 +445,6 @@
       "priority": 1
     },
     {
-      "title": "Which trade targets make the most sense for the Seahawks?",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/169173/which-trade-targets-make-most-sense-seattle-seahawks-nfl-opinion",
-      "pubDate": "2026-06-05T15:00:00.000Z",
-      "isoDate": "2026-06-05T15:00:00.000Z",
-      "excerpt": "INDIANAPOLIS, INDIANA - DECEMBER 22: Quenton Nelson #56 of the Indianapolis Colts walks across the field before the game against the San Francisco 49ers at Lucas Oil Stadium on December 22, 2025 in Indianapolis,...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
-    },
-    {
       "title": "Seahawks DE Rylie Mills Feels 'Fully Back' To Who He Was Before ACL Injury",
       "link": "https://www.seahawks.com/news/seahawks-de-rylie-mills-feels-fully-back-to-who-he-was-before-acl-injury",
       "pubDate": "Thu, 04 Jun 2026 23:26:30 GMT",
@@ -402,6 +473,16 @@
       "source": "Seahawks.com",
       "team": "seahawks",
       "priority": 6
+    },
+    {
+      "title": "Seattle Torrent Protect Wilgren, Murphy, Carpenter in Expansion Draft",
+      "link": "https://www.davyjoneslockerroom.com/seattle-torrent-protect-wilgren-murphy-carpenter-in-expansion-draft/",
+      "pubDate": "Thu, 04 Jun 2026 16:00:00 +0000",
+      "isoDate": "2026-06-04T16:00:00.000Z",
+      "excerpt": "The Torrent have made some interesting choices in the upcoming expansion process by choosing to protect Anna Wilgren, Hannah Murphy, and Alex Carpenter. Not exactly an expansion draft, the PWHL’s Expansion Roster...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
     },
     {
       "title": "Russell Wilson Announces Retirement",
@@ -454,6 +535,16 @@
       "priority": 6
     },
     {
+      "title": "Seattle Torrent Sign Alex Carpenter, Protect Her From Expansion Thieves",
+      "link": "https://www.davyjoneslockerroom.com/seattle-torrent-sign-alex-carpenter-protect-her-from-expansion-thieves/",
+      "pubDate": "Wed, 03 Jun 2026 14:00:00 +0000",
+      "isoDate": "2026-06-03T14:00:00.000Z",
+      "excerpt": "The Seattle Torrent re-signed forward Alex Carpenter to a 3-year PWHL Standard Player Agreement on June 2, keeping one of the franchise’s foundational pieces through 2028-29 and committing one of the team’s 3 protection...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
       "title": "Seahawks Visit Sap Sap Lao Deli & Cafe For AANHPI Month",
       "link": "https://www.seahawks.com/news/seahawks-visit-sap-sap-lao-deli-cafe-for-aanhpi-month",
       "pubDate": "Tue, 02 Jun 2026 16:30:52 GMT",
@@ -462,6 +553,16 @@
       "source": "Seahawks.com",
       "team": "seahawks",
       "priority": 6
+    },
+    {
+      "title": "Melinda French Gates Becomes Minority Owner of the Seattle Kraken",
+      "link": "https://www.davyjoneslockerroom.com/melinda-french-gates-becomes-minority-owner-of-the-seattle-kraken/",
+      "pubDate": "Tue, 02 Jun 2026 14:00:00 +0000",
+      "isoDate": "2026-06-02T14:00:00.000Z",
+      "excerpt": "Melinda French Gates is becoming a minority owner of the Seattle Kraken, the team’s parent company said Monday, pending approval from the NHL. The size of her stake and the terms were not disclosed. French Gates, 61,...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
     },
     {
       "title": "Stream Mariners games on Mariners.TV for NEW low price of $74.99",
@@ -501,116 +602,6 @@
       "excerpt": "Bryce Miller will start and Luis Castillo will again be the piggyback pitcher for the Mariners on Sunday, but the team will then adopt a six-man rotation, the Seattle Times’ Adam Jude writes. Friday’s game with the...",
       "source": "MLB Trade Rumors",
       "team": "mariners",
-      "priority": 2
-    },
-    {
-      "title": "Seahawks To Sign First-Round RB Jadarian Price, Wrap Draft Class Deals",
-      "link": "https://www.profootballrumors.com/2026/05/seahawks-to-sign-first-round-rb-jadarian-price-wrap-draft-class-deals",
-      "pubDate": "Fri, 29 May 2026 21:17:24 +0000",
-      "isoDate": "2026-05-29T21:17:24.000Z",
-      "excerpt": "The Seahawks have agreed to a deal with first-round running back Jadarian Price, Tom Pelissero of NFL Network reports. Price went 32nd overall, which carries a total value of approximately $16.78MM over four years. He...",
-      "source": "Pro Football Rumors",
-      "team": "seahawks",
-      "priority": 2
-    },
-    {
-      "title": "Seahawks Sale Could Be Completed By August, Could Eclipse $10B",
-      "link": "https://www.profootballrumors.com/2026/05/seahawks-sale-could-be-completed-by-august-could-eclipse-10b",
-      "pubDate": "Fri, 29 May 2026 02:29:40 +0000",
-      "isoDate": "2026-05-29T02:29:40.000Z",
-      "excerpt": "Roger Goodell recently pushed back on the narrative that there’s a “soft” market for the Seahawks franchise, with the commissioner stating that there was in fact “tremendous interest” among prospective buyers. Days...",
-      "source": "Pro Football Rumors",
-      "team": "seahawks",
-      "priority": 2
-    },
-    {
-      "title": "Mariners Notes: Crawford, Rotation, Castillo",
-      "link": "https://www.mlbtraderumors.com/2026/05/mariners-notes-crawford-rotation-castillo.html",
-      "pubDate": "Sun, 24 May 2026 04:22:37 +0000",
-      "isoDate": "2026-05-24T04:22:37.000Z",
-      "excerpt": "J.P. Crawford has been a key part of the Mariners’ lineup since joining the club in 2019. In over 3,800 plate appearances with Seattle, Crawford has batted .248/.341/.369 with a 107 wRC+ while providing serviceable...",
-      "source": "MLB Trade Rumors",
-      "team": "mariners",
-      "priority": 2
-    },
-    {
-      "title": "MLBTR Podcast: Colt Emerson Debuts, Blue Jays’ Rotation Issues, And What To Make Of The Mets And Astros",
-      "link": "https://www.mlbtraderumors.com/2026/05/mlbtr-podcast-colt-emerson-debuts-blue-jays-rotation-issues-and-what-to-make-of-the-mets-and-astros.html",
-      "pubDate": "Thu, 21 May 2026 04:00:16 +0000",
-      "isoDate": "2026-05-21T04:00:16.000Z",
-      "excerpt": "The latest episode of the MLB Trade Rumors Podcast is now live on Spotify, Apple Podcasts, and wherever you get your podcasts! Make sure you subscribe as well! You can also use the player at this link to listen, if you...",
-      "source": "MLB Trade Rumors",
-      "team": "mariners",
-      "priority": 2
-    },
-    {
-      "title": "J.P. Crawford Getting Work At Third Base",
-      "link": "https://www.mlbtraderumors.com/2026/05/mariners-rumors-j-p-crawford-third-base-colt-emerson-shortstop.html",
-      "pubDate": "Thu, 21 May 2026 00:11:52 +0000",
-      "isoDate": "2026-05-21T00:11:52.000Z",
-      "excerpt": "Mariners shortstop J.P. Crawford has been getting work at the hot corner and was taking grounders there prior to today’s game. Daniel Kramer of MLB.com was among those to report that the idea was actually brought up by...",
-      "source": "MLB Trade Rumors",
-      "team": "mariners",
-      "priority": 2
-    },
-    {
-      "title": "Kraken Sign Alexis Bernier To Entry-Level Contract",
-      "link": "https://www.prohockeyrumors.com/2026/05/kraken-sign-defenseman-alexis-bernier-to-entry-level-contract.html",
-      "pubDate": "Tue, 19 May 2026 17:30:30 +0000",
-      "isoDate": "2026-05-19T17:30:30.000Z",
-      "excerpt": "The Seattle Kraken have locked up one of their promising young blue-line prospects, signing defenseman Alexis Bernier to a three-year, entry-level contract. According to the team, the deal will carry an average annual...",
-      "source": "Pro Hockey Rumors",
-      "team": "kraken",
-      "priority": 2
-    },
-    {
-      "title": "Mariners Recall Robinson Ortiz, Select Brennen Davis",
-      "link": "https://www.mlbtraderumors.com/2026/05/mariners-recall-robinson-ortiz-select-brennen-davis.html",
-      "pubDate": "Mon, 18 May 2026 22:10:38 +0000",
-      "isoDate": "2026-05-18T22:10:38.000Z",
-      "excerpt": "The Mariners announced several roster moves today. Infielder Patrick Wisdom has been reinstated from the 10-day injured list and left-hander Robinson Ortiz has been recalled from Triple-A. The lefty will be making his...",
-      "source": "MLB Trade Rumors",
-      "team": "mariners",
-      "priority": 2
-    },
-    {
-      "title": "Evening Notes: Kraken, Manson, Sabres",
-      "link": "https://www.prohockeyrumors.com/2026/05/evening-notes-kraken-manson-sabres.html",
-      "pubDate": "Tue, 12 May 2026 23:06:29 +0000",
-      "isoDate": "2026-05-12T23:06:29.000Z",
-      "excerpt": "The Seattle Kraken have partnered with sports advisory firm Sportsology to perform an assessment of their hockey operations department after parting ways with general manager Ron Francis, per Fox 13 Seattle. The firm...",
-      "source": "Pro Hockey Rumors",
-      "team": "kraken",
-      "priority": 2
-    },
-    {
-      "title": "Offseason Checklist: Seattle Kraken",
-      "link": "https://www.prohockeyrumors.com/2026/05/offseason-checklist-seattle-kraken-5.html",
-      "pubDate": "Fri, 08 May 2026 03:00:35 +0000",
-      "isoDate": "2026-05-08T03:00:35.000Z",
-      "excerpt": "A look at what the Seattle Kraken should be looking to do this offseason.",
-      "source": "Pro Hockey Rumors",
-      "team": "kraken",
-      "priority": 2
-    },
-    {
-      "title": "Poll: Which Active Players Will Become An NHL GM?",
-      "link": "https://www.prohockeyrumors.com/2026/05/poll-which-active-players-will-become-an-nhl-gm.html",
-      "pubDate": "Thu, 07 May 2026 21:36:29 +0000",
-      "isoDate": "2026-05-07T21:36:29.000Z",
-      "excerpt": "The connection between NHL playing careers and front office roles has existed for nearly as long as the league itself. Some of the most highly-regarded executives – from Glen Sather in the 1980s to Jim Nill today –...",
-      "source": "Pro Hockey Rumors",
-      "team": "kraken",
-      "priority": 2
-    },
-    {
-      "title": "Seattle Kraken Assign Jake O’Brien To AHL",
-      "link": "https://www.prohockeyrumors.com/2026/05/seattle-kraken-assign-jake-obrien-to-ahl.html",
-      "pubDate": "Wed, 06 May 2026 21:30:16 +0000",
-      "isoDate": "2026-05-06T21:30:16.000Z",
-      "excerpt": "The Seattle Kraken are continuing the trend of moving prospects in the Canadian major junior system to the American Hockey League for the Calder Cup playoffs. According to the AHL transaction log, the Kraken have...",
-      "source": "Pro Hockey Rumors",
-      "team": "kraken",
       "priority": 2
     }
   ]
