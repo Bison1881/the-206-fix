@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-09T23:16:05.763Z",
+  "generatedAt": "2026-06-10T03:25:18.988Z",
   "sourceCount": 10,
   "successfulSources": 9,
   "failedSources": [
@@ -9,6 +9,116 @@
     }
   ],
   "items": [
+    {
+      "title": "Raise -- no, strum the trident! Arozarena blasts game-winning 2-run homer",
+      "link": "https://www.mlb.com/mariners/news/randy-arozarena-leads-mariners-to-win-over-orioles-in-extra-innings",
+      "pubDate": "Wed, 10 Jun 2026 02:39:00 GMT",
+      "isoDate": "2026-06-10T02:39:00.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Recap: Mariners outlast Orioles 6-5 in 10 innings",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/recap-seattle-mariners-outlast-orioles-6-5-in-10-innings",
+      "pubDate": "Wed, 10 Jun 2026 02:19:26 +0000",
+      "isoDate": "2026-06-10T02:19:26.000Z",
+      "excerpt": "Randy Arozarena hit a two-run homer in the 10th after Seattle blew a two-run lead in the ninth.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "US team arrives at World Cup training base in a ‘good place’",
+      "link": "https://sports.mynorthwest.com/seattle-sports-pit/us-team-arrives-world-cup-training-base-in-good-place",
+      "pubDate": "Wed, 10 Jun 2026 02:08:42 +0000",
+      "isoDate": "2026-06-10T02:08:42.000Z",
+      "excerpt": "The Americans projected confidence and excitement as they settled into their training base in Southern California.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Seahawks Safety Nick Emmanwori 'Trying To Evolve My Game' Heading Into Year 2",
+      "link": "https://www.seahawks.com/news/seahawks-safety-nick-emmanwori-trying-to-evolve-my-game-heading-into-year-2",
+      "pubDate": "Wed, 10 Jun 2026 02:05:47 GMT",
+      "isoDate": "2026-06-10T02:05:47.000Z",
+      "excerpt": "After a standout rookie season, Nick Emmanwori is looking to take his game to another level in his second season.",
+      "source": "Seahawks.com",
+      "team": "seahawks",
+      "priority": 6
+    },
+    {
+      "title": "Seahawks Receiver Jaxon Smith-Njigba Reflects On An Accolade-Filled Six Months",
+      "link": "https://www.seahawks.com/news/seahawks-receiver-jaxon-smith-njigba-reflects-on-an-accolade-filled-six-months",
+      "pubDate": "Wed, 10 Jun 2026 02:04:54 GMT",
+      "isoDate": "2026-06-10T02:04:54.000Z",
+      "excerpt": "Seahawks receiver Jaxon Smith-Njigba, coming off a very accomplished season, is still striving to grow and learn as a player.",
+      "source": "Seahawks.com",
+      "team": "seahawks",
+      "priority": 6
+    },
+    {
+      "title": "Randy Arozarena’s HR in 10th gives Mariners extra-innings win",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/randy-arozarenas-hr-in-10th-gives-seattle-mariners-extra-innings-win",
+      "pubDate": "Wed, 10 Jun 2026 01:57:45 +0000",
+      "isoDate": "2026-06-10T01:57:45.000Z",
+      "excerpt": "Randy Arozarena led off the 10th inning with a two-run home run after Seattle blew a two-run lead in the ninth.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "36-32: Chart",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/144635/36-32-chart",
+      "pubDate": "2026-06-10T01:51:54.000Z",
+      "isoDate": "2026-06-10T01:51:54.000Z",
+      "excerpt": "BALTIMORE, MARYLAND - JUNE 09: Mitch Garver #18 of the Seattle Mariners celebrates with Cole Young #2 after hitting a three-run home run in the fourth inning against the Baltimore Orioles at Oriole Park at Camden Yards...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Latest Mariners injuries and transactions",
+      "link": "https://www.mlb.com/mariners/news/mariners-injuries-and-roster-moves",
+      "pubDate": "Wed, 10 Jun 2026 00:03:00 GMT",
+      "isoDate": "2026-06-10T00:03:00.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Ex-UW Huskies star Michael Penix Jr. progressing in ACL rehab",
+      "link": "https://sports.mynorthwest.com/ncaa/uw/ex-uw-huskies-star-michael-penix-jr-progressing-acl-rehab-falcons",
+      "pubDate": "Tue, 09 Jun 2026 23:55:39 +0000",
+      "isoDate": "2026-06-09T23:55:39.000Z",
+      "excerpt": "Penix is \"hitting every milestone\" in his post-ACL surgery rehab, Atlanta Falcons coach Kevin Stefanski said.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Raleigh crushes 2 homers at Triple-A; Emerson 'seems to be better'",
+      "link": "https://www.mlb.com/mariners/news/cal-raleigh-hits-two-home-runs-at-triple-a-tacoma",
+      "pubDate": "Tue, 09 Jun 2026 23:16:13 GMT",
+      "isoDate": "2026-06-09T23:16:13.000Z",
+      "excerpt": "Criswell (right shoulder strain) placed on IL; Davila recalled",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Mariners make bullpen moves, including a reported trade",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-make-bullpen-moves-including-a-reported-trade",
+      "pubDate": "Tue, 09 Jun 2026 22:36:01 +0000",
+      "isoDate": "2026-06-09T22:36:01.000Z",
+      "excerpt": "In addition to the reported trade, Cooper Criswell was placed on the IL and Nick Davila was recalled from Triple-A.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
     {
       "title": "Mariners place RHP Cooper Criswell on 15-day injured list, recall Nick Davila, acquire RHP Carson Fulmer for depth",
       "link": "https://www.lookoutlanding.com/seattle-mariners-injuries/144623/mariners-place-rhp-cooper-criswell-on-15-day-injured-list-recall-nick-davila-acquire-rhp-carson-fulmer-for-depth",
@@ -28,6 +138,16 @@
       "source": "Lookout Landing",
       "team": "mariners",
       "priority": 1
+    },
+    {
+      "title": "Mariners add IF option to taxi squad with Colt Emerson out again",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-texi-squad-miles-mastrobuoni-colt-emerson-out",
+      "pubDate": "Tue, 09 Jun 2026 21:55:39 +0000",
+      "isoDate": "2026-06-09T21:55:39.000Z",
+      "excerpt": "The Seattle Mariners appear to have a backup plan in case Colt Emerson needs to go on the injured list.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
     },
     {
       "title": "Cal Raleigh homers twice in rehab start with Tacoma",
@@ -80,36 +200,6 @@
       "priority": 3
     },
     {
-      "title": "Mariners’ Cal Raleigh slugs 2 HRs in 1st rehab game with Tacoma",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-cal-raleigh-homers-in-first-ab-with-tacoma",
-      "pubDate": "Tue, 09 Jun 2026 19:28:17 +0000",
-      "isoDate": "2026-06-09T19:28:17.000Z",
-      "excerpt": "Cal Raleigh homered on the first pitch he saw in Tacoma and belted a grand slam in his third at-bat.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "Potential Seattle Seahawks ownership bidder reportedly emerges",
-      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/potential-seattle-seahawks-ownership-bidder-reportedly-emerges",
-      "pubDate": "Tue, 09 Jun 2026 19:02:17 +0000",
-      "isoDate": "2026-06-09T19:02:17.000Z",
-      "excerpt": "Billionaire financier Todd Boehly is \"weighing a bid\" for the Seahawks, according to a report Tuesday by Semafor.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "Mariners’ depth could mean a different kind of trade deadline",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-jeff-passan-depth-trade-deadline",
-      "pubDate": "Tue, 09 Jun 2026 18:15:15 +0000",
-      "isoDate": "2026-06-09T18:15:15.000Z",
-      "excerpt": "\"This could be a slow deadline for the Mariners,\" ESPN MLB insider Jeff Passan said to Brock and Salk.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
       "title": "Todd Boehly, part owner of Lakers, Dodgers, considering Seahawks ownership bid",
       "link": "https://www.fieldgulls.com/seattle-seahawks-news/169430/nfl-news-report-todd-boehly-part-owner-lakers-dodgers-considering-seahawks-ownership-bid",
       "pubDate": "2026-06-09T17:48:59.000Z",
@@ -120,16 +210,6 @@
       "priority": 1
     },
     {
-      "title": "Seahawks star JSN makes TIME magazine’s top-100 list for sports",
-      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/seattle-seahawks-jsn-time-magazine-top-100-sports",
-      "pubDate": "Tue, 09 Jun 2026 17:33:12 +0000",
-      "isoDate": "2026-06-09T17:33:12.000Z",
-      "excerpt": "Jaxon Smith-Njigba received another big honor in the wake of his historic season.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
       "title": "Rating your takes: What is Colt Emerson’s ceiling? What is his floor?",
       "link": "https://www.lookoutlanding.com/seattle-mariners-discussion/144594/rating-your-takes-what-is-colt-emersons-ceiling-what-is-his-floor",
       "pubDate": "2026-06-09T16:30:00.000Z",
@@ -138,26 +218,6 @@
       "source": "Lookout Landing",
       "team": "mariners",
       "priority": 1
-    },
-    {
-      "title": "Iran soccer body claims fans’ World Cup tickets in US have been revoked",
-      "link": "https://sports.mynorthwest.com/seattle-sports-pit/iran-soccer-world-cup-tickets-us-revoked",
-      "pubDate": "Tue, 09 Jun 2026 16:27:19 +0000",
-      "isoDate": "2026-06-09T16:27:19.000Z",
-      "excerpt": "FIFA has revoked the ticket allocation for Iran fans at the team’s three World Cup games in the United States, the national soccer federation claimed Tuesday.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "AL West Check-In: Rangers building momentum and getting healthy",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/al-west-check-in-rangers-building-momentum-getting-healthy",
-      "pubDate": "Tue, 09 Jun 2026 16:19:00 +0000",
-      "isoDate": "2026-06-09T16:19:00.000Z",
-      "excerpt": "With its recent surge, Texas is sitting two games behind Seattle in the AL West.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
     },
     {
       "title": "Seahawks 2026 rookie predictions: Is Emmanuel Henderson Jr the new special teams ace?",
@@ -194,16 +254,6 @@
       "link": "https://www.mlb.com/mariners/news/mariners-win-over-orioles-behind-key-abs-challenges",
       "pubDate": "Tue, 09 Jun 2026 05:12:00 GMT",
       "isoDate": "2026-06-09T05:12:00.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
-    },
-    {
-      "title": "Latest Mariners injuries and transactions",
-      "link": "https://www.mlb.com/mariners/news/mariners-injuries-and-roster-moves",
-      "pubDate": "Tue, 09 Jun 2026 03:23:00 GMT",
-      "isoDate": "2026-06-09T03:23:00.000Z",
       "excerpt": "",
       "source": "Mariners.com",
       "team": "mariners",
@@ -260,16 +310,6 @@
       "priority": 1
     },
     {
-      "title": "Mariners Game Preview #67, 6/8/26: SEA at BAL",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-discussion/144576/mariners-game-preview-67-6-8-26-sea-at-bal",
-      "pubDate": "2026-06-08T22:05:03.000Z",
-      "isoDate": "2026-06-08T22:05:03.000Z",
-      "excerpt": "Jun 1, 2026; Seattle, Washington, USA; Seattle Mariners starting pitcher Emerson Hancock (26) throws against the New York Mets during the fourth inning at T-Mobile Park. Mandatory Credit: Joe Nicholson-Imagn Images |...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
       "title": "Seahawks Work Out S Ifeatu Melifonwu",
       "link": "https://www.profootballrumors.com/2026/06/seahawks-work-out-s-ifeatu-melifonwu",
       "pubDate": "Mon, 08 Jun 2026 22:03:07 +0000",
@@ -318,26 +358,6 @@
       "source": "Field Gulls",
       "team": "seahawks",
       "priority": 1
-    },
-    {
-      "title": "Raleigh (oblique) takes next step back to Mariners, begins 1st career rehab assignment",
-      "link": "https://www.mlb.com/mariners/news/cal-raleigh-begins-rehab-assignment-with-high-a-everett",
-      "pubDate": "Mon, 08 Jun 2026 01:48:44 GMT",
-      "isoDate": "2026-06-08T01:48:44.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
-    },
-    {
-      "title": "1 trade chip for every team ahead of 2026 Deadline",
-      "link": "https://www.mlb.com/mariners/news/each-mlb-team-s-best-trade-chip-in-2026",
-      "pubDate": "Mon, 08 Jun 2026 01:44:50 GMT",
-      "isoDate": "2026-06-08T01:44:50.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
     },
     {
       "title": "SBNation Reacts results: Seahawks fans weigh in on Super Bowl chances after Rams get Myles Garrett",
@@ -460,16 +480,6 @@
       "priority": 6
     },
     {
-      "title": "Seahawks Sign Outside Linebacker Derick Hall To Three-Year Extension",
-      "link": "https://www.seahawks.com/news/seahawks-sign-outside-linebacker-derick-hall-to-three-year-extension",
-      "pubDate": "Wed, 03 Jun 2026 16:29:23 GMT",
-      "isoDate": "2026-06-03T16:29:23.000Z",
-      "excerpt": "Outside linebacker Derick Hall, a 2023 second-round pick, signed a three-year extension on Wednesday.",
-      "source": "Seahawks.com",
-      "team": "seahawks",
-      "priority": 6
-    },
-    {
       "title": "Seattle Torrent Sign Alex Carpenter, Protect Her From Expansion Thieves",
       "link": "https://www.davyjoneslockerroom.com/seattle-torrent-sign-alex-carpenter-protect-her-from-expansion-thieves/",
       "pubDate": "Wed, 03 Jun 2026 14:00:00 +0000",
@@ -478,16 +488,6 @@
       "source": "Davy Jones' Locker Room",
       "team": "kraken",
       "priority": 1
-    },
-    {
-      "title": "Seahawks Visit Sap Sap Lao Deli & Cafe For AANHPI Month",
-      "link": "https://www.seahawks.com/news/seahawks-visit-sap-sap-lao-deli-cafe-for-aanhpi-month",
-      "pubDate": "Tue, 02 Jun 2026 16:30:52 GMT",
-      "isoDate": "2026-06-02T16:30:52.000Z",
-      "excerpt": "Seahawks visited Sap Sap Lao Deli & Cafe for Asian American, Native Hawaiian and Pacific Islander month.",
-      "source": "Seahawks.com",
-      "team": "seahawks",
-      "priority": 6
     },
     {
       "title": "Melinda French Gates Becomes Minority Owner of the Seattle Kraken",
