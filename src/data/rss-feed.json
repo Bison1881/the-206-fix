@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-10T03:25:18.988Z",
+  "generatedAt": "2026-06-10T08:04:42.239Z",
   "sourceCount": 10,
   "successfulSources": 9,
   "failedSources": [
@@ -10,14 +10,44 @@
   ],
   "items": [
     {
-      "title": "Raise -- no, strum the trident! Arozarena blasts game-winning 2-run homer",
-      "link": "https://www.mlb.com/mariners/news/randy-arozarena-leads-mariners-to-win-over-orioles-in-extra-innings",
-      "pubDate": "Wed, 10 Jun 2026 02:39:00 GMT",
-      "isoDate": "2026-06-10T02:39:00.000Z",
+      "title": "Lazaro Montes enjoying homer barrage at Double-A -- and you have to see his latest",
+      "link": "https://www.mlb.com/mariners/news/mariners-prospect-lazaro-montes-hot-streak-double-a-june",
+      "pubDate": "Wed, 10 Jun 2026 04:56:00 GMT",
+      "isoDate": "2026-06-10T04:56:00.000Z",
       "excerpt": "",
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
+    },
+    {
+      "title": "Raise -- no, strum the trident! Arozarena blasts game-winning homer in 10th",
+      "link": "https://www.mlb.com/mariners/news/randy-arozarena-leads-mariners-to-win-over-orioles-in-extra-innings",
+      "pubDate": "Wed, 10 Jun 2026 04:26:00 GMT",
+      "isoDate": "2026-06-10T04:26:00.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Will monster May lead to career year for J-Rod?",
+      "link": "https://www.mlb.com/mariners/news/mariners-julio-rodriguez-off-to-best-start-of-career-in-2026",
+      "pubDate": "Wed, 10 Jun 2026 04:14:04 GMT",
+      "isoDate": "2026-06-10T04:14:04.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Mariners go down to Birdland",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/24480534/mariners-go-down-to-birdland",
+      "pubDate": "2026-06-10T03:24:36.000Z",
+      "isoDate": "2026-06-10T03:24:36.000Z",
+      "excerpt": "Jun 9, 2026; Baltimore, Maryland, USA; Seattle Mariners players celebrate a win against the Baltimore Orioles at Oriole Park at Camden Yards. Mandatory Credit: James A. Pittman-Imagn Images | James A. Pittman-Imagn...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
     },
     {
       "title": "Recap: Mariners outlast Orioles 6-5 in 10 innings",
@@ -250,41 +280,11 @@
       "priority": 1
     },
     {
-      "title": "Forget the grand slam -- 2 key challenges lead Mariners to victory",
-      "link": "https://www.mlb.com/mariners/news/mariners-win-over-orioles-behind-key-abs-challenges",
-      "pubDate": "Tue, 09 Jun 2026 05:12:00 GMT",
-      "isoDate": "2026-06-09T05:12:00.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
-    },
-    {
-      "title": "Mariners place Crawford on 10-day IL; Emerson day to day with back tightness",
-      "link": "https://www.mlb.com/mariners/news/jp-crawford-placed-on-10-day-injured-list-by-mariners",
-      "pubDate": "Tue, 09 Jun 2026 03:20:00 GMT",
-      "isoDate": "2026-06-09T03:20:00.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
-    },
-    {
       "title": "Mariners challenge their way to win over Orioles, 6-3",
       "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/144581/mariners-challenge-their-way-to-win-over-orioles-6-3",
       "pubDate": "2026-06-09T03:09:09.000Z",
       "isoDate": "2026-06-09T03:09:09.000Z",
       "excerpt": "Jun 8, 2026; Baltimore, Maryland, USA; Seattle Mariners first baseman Josh Naylor (12) celebrates with his teammates after hitting a grand slam during the fifth inning against the Baltimore Orioles at Oriole Park at...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "35-32: Chart",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/144585/35-32-chart",
-      "pubDate": "2026-06-09T01:31:44.000Z",
-      "isoDate": "2026-06-09T01:31:44.000Z",
-      "excerpt": "Jun 8, 2026; Baltimore, Maryland, USA; Seattle Mariners center fielder Julio Rodriguez (44) makes a catch for an out during the first inning against the Baltimore Orioles at Oriole Park at Camden Yards. Mandatory...",
       "source": "Lookout Landing",
       "team": "mariners",
       "priority": 1
