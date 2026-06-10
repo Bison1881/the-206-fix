@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-10T16:57:05.923Z",
+  "generatedAt": "2026-06-10T20:26:16.740Z",
   "sourceCount": 10,
   "successfulSources": 9,
   "failedSources": [
@@ -9,6 +9,76 @@
     }
   ],
   "items": [
+    {
+      "title": "Latest Mariners injuries and transactions",
+      "link": "https://www.mlb.com/mariners/news/mariners-injuries-and-roster-moves",
+      "pubDate": "Wed, 10 Jun 2026 20:19:00 GMT",
+      "isoDate": "2026-06-10T20:19:00.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Mariners Place Matt Brash On IL With Lat Strain",
+      "link": "https://www.mlbtraderumors.com/2026/06/mariners-place-matt-brash-on-il-with-lat-strain.html",
+      "pubDate": "Wed, 10 Jun 2026 20:06:21 +0000",
+      "isoDate": "2026-06-10T20:06:21.000Z",
+      "excerpt": "The Mariners announced a series of roster moves today. Infielder/outfielder Miles Mastrobuoni has been reinstated from the 60-day injured list and right-hander Domingo González has been recalled from Triple-A Tacoma. In...",
+      "source": "MLB Trade Rumors",
+      "team": "mariners",
+      "priority": 2
+    },
+    {
+      "title": "Seattle Seahawks announce 10 training camp public practices",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-preseason/169470/seattle-seahawks-2026-announce-10-public-training-camp-practice-schedule",
+      "pubDate": "2026-06-10T19:05:27.000Z",
+      "isoDate": "2026-06-10T19:05:27.000Z",
+      "excerpt": "Jul 27, 2024; Renton, WA, USA; Football fans watch Seattle Seahawk training camp at Virginia Mason Athletic Center. Mandatory Credit: Steven Bisig-Imagn Images The waiting is almost over, Seattle Seahawks fans! You’ll...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
+    {
+      "title": "Seahawks announce 2026 training camp schedule",
+      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/seattle-seahawks-announce-2026-training-camp-schedule",
+      "pubDate": "Wed, 10 Jun 2026 18:05:07 +0000",
+      "isoDate": "2026-06-10T18:05:07.000Z",
+      "excerpt": "The reigning Super Bowl champs will hold nine practices at the VMAC, along with their annual Football Fest at Lumen Field.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Seattle Storm banking on Dominique Malonga to get franchise on track",
+      "link": "https://sports.mynorthwest.com/wnba/seattle-storm/seattle-storm-dominique-malonga-to-get-on-track",
+      "pubDate": "Wed, 10 Jun 2026 17:06:23 +0000",
+      "isoDate": "2026-06-10T17:06:23.000Z",
+      "excerpt": "As the Storm embrace a youth movement, it will be the 20-year-old Malonga at the forefront.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Seahawks Announce Registration For Seahawks Training Camp, powered by Boeing",
+      "link": "https://www.seahawks.com/news/seahawks-announce-registration-for-seahawks-training-camp-powered-by-boeing",
+      "pubDate": "Wed, 10 Jun 2026 17:00:12 GMT",
+      "isoDate": "2026-06-10T17:00:12.000Z",
+      "excerpt": "Team will host nine public practices starting on July 25. Annual Football Fest will take place at Lumen Field on August 8",
+      "source": "Seahawks.com",
+      "team": "seahawks",
+      "priority": 6
+    },
+    {
+      "title": "Seahawks star Jaxon Smith-Njigba receives corrected OPOY trophy",
+      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/seattle-seahawks-star-smith-njigba-receives-corrected-opoy-trophy",
+      "pubDate": "Wed, 10 Jun 2026 16:40:50 +0000",
+      "isoDate": "2026-06-10T16:40:50.000Z",
+      "excerpt": "\"I had the whole team read it (to) make sure it was right,\" Smith-Njigba said.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
     {
       "title": "NFC West Check-In: Disgruntled WR Aiyuk calls 49ers ‘stupid’",
       "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/nfc-west-check-in-disgruntled-brandon-aiyuk-calls-49ers-stupid",
@@ -170,16 +240,6 @@
       "priority": 6
     },
     {
-      "title": "Randy Arozarena’s HR in 10th gives Mariners extra-innings win",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/randy-arozarenas-hr-in-10th-gives-seattle-mariners-extra-innings-win",
-      "pubDate": "Wed, 10 Jun 2026 01:57:45 +0000",
-      "isoDate": "2026-06-10T01:57:45.000Z",
-      "excerpt": "Randy Arozarena led off the 10th inning with a two-run home run after Seattle blew a two-run lead in the ninth.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
       "title": "36-32: Chart",
       "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/144635/36-32-chart",
       "pubDate": "2026-06-10T01:51:54.000Z",
@@ -190,26 +250,6 @@
       "priority": 1
     },
     {
-      "title": "Latest Mariners injuries and transactions",
-      "link": "https://www.mlb.com/mariners/news/mariners-injuries-and-roster-moves",
-      "pubDate": "Wed, 10 Jun 2026 00:03:00 GMT",
-      "isoDate": "2026-06-10T00:03:00.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
-    },
-    {
-      "title": "Ex-UW Huskies star Michael Penix Jr. progressing in ACL rehab",
-      "link": "https://sports.mynorthwest.com/ncaa/uw/ex-uw-huskies-star-michael-penix-jr-progressing-acl-rehab-falcons",
-      "pubDate": "Tue, 09 Jun 2026 23:55:39 +0000",
-      "isoDate": "2026-06-09T23:55:39.000Z",
-      "excerpt": "Penix is \"hitting every milestone\" in his post-ACL surgery rehab, Atlanta Falcons coach Kevin Stefanski said.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
       "title": "Raleigh crushes 2 homers at Triple-A; Emerson 'seems to be better'",
       "link": "https://www.mlb.com/mariners/news/cal-raleigh-hits-two-home-runs-at-triple-a-tacoma",
       "pubDate": "Tue, 09 Jun 2026 23:16:13 GMT",
@@ -218,16 +258,6 @@
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
-    },
-    {
-      "title": "Mariners make bullpen moves, including a reported trade",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-make-bullpen-moves-including-a-reported-trade",
-      "pubDate": "Tue, 09 Jun 2026 22:36:01 +0000",
-      "isoDate": "2026-06-09T22:36:01.000Z",
-      "excerpt": "In addition to the reported trade, Cooper Criswell was placed on the IL and Nick Davila was recalled from Triple-A.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
     },
     {
       "title": "Mariners place RHP Cooper Criswell on 15-day injured list, recall Nick Davila, acquire RHP Carson Fulmer for depth",
@@ -328,16 +358,6 @@
       "source": "Pro Football Rumors",
       "team": "seahawks",
       "priority": 2
-    },
-    {
-      "title": "Seahawks sign veteran offensive tackle Bobby Hart ahead of mandatory minicamp",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169391/seahawks-sign-veteran-offensive-tackle-bobby-hart-mandatory-minicamp-nfl-news",
-      "pubDate": "2026-06-08T23:17:52.000Z",
-      "isoDate": "2026-06-08T23:17:52.000Z",
-      "excerpt": "ARLINGTON, TX - DECEMBER 21: Bobby Hart #66 of the Los Angeles Chargers drops back to block during an NFL football game against the Dallas Cowboys at AT&T Stadium on December 21, 2025 in Arlington, Texas. (Photo by...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
     },
     {
       "title": "Seahawks Work Out S Ifeatu Melifonwu",
@@ -460,16 +480,6 @@
       "priority": 6
     },
     {
-      "title": "Russell Wilson Says Thank You To Football, Announces Move To Television",
-      "link": "https://www.seahawks.com/news/seattle-seahawks-russell-wilson-retirement-tribute",
-      "pubDate": "Thu, 04 Jun 2026 00:10:25 GMT",
-      "isoDate": "2026-06-04T00:10:25.000Z",
-      "excerpt": "Russell Wilson, the winningest quarterback in franchise history and a Super Bowl champion, made official his move from the field to a job in television.",
-      "source": "Seahawks.com",
-      "team": "seahawks",
-      "priority": 6
-    },
-    {
       "title": "VOTE NOW! Help make Mariners All-Star Game starters",
       "link": "https://www.mlb.com/all-star/ballot?affiliateID=asballot_sea_digital_2026",
       "pubDate": "Wed, 03 Jun 2026 18:13:55 GMT",
@@ -585,16 +595,6 @@
       "pubDate": "Thu, 21 May 2026 04:00:16 +0000",
       "isoDate": "2026-05-21T04:00:16.000Z",
       "excerpt": "The latest episode of the MLB Trade Rumors Podcast is now live on Spotify, Apple Podcasts, and wherever you get your podcasts! Make sure you subscribe as well! You can also use the player at this link to listen, if you...",
-      "source": "MLB Trade Rumors",
-      "team": "mariners",
-      "priority": 2
-    },
-    {
-      "title": "J.P. Crawford Getting Work At Third Base",
-      "link": "https://www.mlbtraderumors.com/2026/05/mariners-rumors-j-p-crawford-third-base-colt-emerson-shortstop.html",
-      "pubDate": "Thu, 21 May 2026 00:11:52 +0000",
-      "isoDate": "2026-05-21T00:11:52.000Z",
-      "excerpt": "Mariners shortstop J.P. Crawford has been getting work at the hot corner and was taking grounders there prior to today’s game. Daniel Kramer of MLB.com was among those to report that the idea was actually brought up by...",
       "source": "MLB Trade Rumors",
       "team": "mariners",
       "priority": 2
