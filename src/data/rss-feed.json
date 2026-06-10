@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-10T12:54:38.574Z",
+  "generatedAt": "2026-06-10T16:57:05.923Z",
   "sourceCount": 10,
   "successfulSources": 9,
   "failedSources": [
@@ -9,6 +9,86 @@
     }
   ],
   "items": [
+    {
+      "title": "NFC West Check-In: Disgruntled WR Aiyuk calls 49ers ‘stupid’",
+      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/nfc-west-check-in-disgruntled-brandon-aiyuk-calls-49ers-stupid",
+      "pubDate": "Wed, 10 Jun 2026 15:18:35 +0000",
+      "isoDate": "2026-06-10T15:18:35.000Z",
+      "excerpt": "Aiyuk has three years left on a four-year, $120 million extension, but hasn't played since October 2024.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Nick Davila accidentally became important at work",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/144662/nick-davila-accidentally-became-important-at-work",
+      "pubDate": "2026-06-10T15:12:00.000Z",
+      "isoDate": "2026-06-10T15:12:00.000Z",
+      "excerpt": "BALTIMORE, MD - JUNE 09: Nick Davila #82 of the Seattle Mariners celebrates after striking out Tyler O'Neill #9 of the Baltimore Orioles in the tenth inning to win the game between the Seattle Mariners and the Baltimore...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Seahawks Reacts Survey: Who’s the toughest opponent out of Seattle’s first five games?",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/169435/seahawks-reacts-survey-toughest-opponent-seahawks-first-five-games-season",
+      "pubDate": "2026-06-10T15:00:00.000Z",
+      "isoDate": "2026-06-10T15:00:00.000Z",
+      "excerpt": "SANTA CLARA, CALIFORNIA - FEBRUARY 08: Drake Maye #10 of the New England Patriots is sacked by Rylie Mills #98 of the Seattle Seahawks as Jared Wilson #58 of the New England Patriots tries to block during the second...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
+    {
+      "title": "Passan: Kade Anderson dominating minors at rare level",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/jeff-passan-seattle-mariners-kade-anderson-dominating-minors-at-rare-level",
+      "pubDate": "Wed, 10 Jun 2026 14:36:22 +0000",
+      "isoDate": "2026-06-10T14:36:22.000Z",
+      "excerpt": "Jeff Passan said the left-hander is showing signs of eventually being an All-Star-caliber pitcher in MLB.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Stacy Rost: Our 3 biggest Seahawks questions right now",
+      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/stacy-rost-3-seattle-seahawks-questions-right-now",
+      "pubDate": "Wed, 10 Jun 2026 14:22:42 +0000",
+      "isoDate": "2026-06-10T14:22:42.000Z",
+      "excerpt": "Seattle's new OC and its rookie class are among the storylines to watch in minicamp.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "NFLPA releases top 50 players sales list, Jaxon Smith-Njigba ranks near the top",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169442/nflpa-releases-top-50-players-sales-list-jaxon-smith-njigba-near-top-seahawks-news",
+      "pubDate": "2026-06-10T14:00:00.000Z",
+      "isoDate": "2026-06-10T14:00:00.000Z",
+      "excerpt": "SANTA CLARA, CALIFORNIA - FEBRUARY 8: Jaxon Smith-Njigba #11 of the Seattle Seahawks stands on the field prior to the NFL Super Bowl LX football game against the New England Patriots, at Levi's Stadium on February 8,...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
+    {
+      "title": "Mariners News: Nick Davila, Luis Lara, and Jack Kochanowicz",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-news/144607/mariners-news-nick-davila-luis-lara-and-jack-kochanowicz",
+      "pubDate": "2026-06-10T14:00:00.000Z",
+      "isoDate": "2026-06-10T14:00:00.000Z",
+      "excerpt": "Jun 9, 2026; Baltimore, Maryland, USA; Seattle Mariners pitcher Nick Davila (82) celebrates a win against the Baltimore Orioles with Seattle Mariners catcher Mitch Garver (18) at Oriole Park at Camden Yards. Mandatory...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Seahawks News 6/10: What expectations do the Seahawks have for Jalen Milroe?",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169455/seahawks-news-6-10-what-expectations-do-the-seahawks-have-for-jalen-milroe",
+      "pubDate": "2026-06-10T13:17:40.000Z",
+      "isoDate": "2026-06-10T13:17:40.000Z",
+      "excerpt": "RENTON, WASHINGTON - JUNE 04: Sam Darnold #14 and Jalen Milroe #6 of the Seattle Seahawks work out during practice at Virginia Mason Athletic Center on June 04, 2026 in Renton, Washington. (Photo by Steph Chambers/Getty...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
     {
       "title": "Lazaro Montes enjoying homer barrage at Double-A -- and you have to see his latest",
       "link": "https://www.mlb.com/mariners/news/mariners-prospect-lazaro-montes-hot-streak-double-a-june",
@@ -38,6 +118,16 @@
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
+    },
+    {
+      "title": "Mariners go down to Birdland",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/24480534/mariners-go-down-to-birdland",
+      "pubDate": "2026-06-10T03:24:36.000Z",
+      "isoDate": "2026-06-10T03:24:36.000Z",
+      "excerpt": "Jun 9, 2026; Baltimore, Maryland, USA; Seattle Mariners players celebrate a win against the Baltimore Orioles at Oriole Park at Camden Yards. Mandatory Credit: James A. Pittman-Imagn Images | James A. Pittman-Imagn...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
     },
     {
       "title": "Recap: Mariners outlast Orioles 6-5 in 10 innings",
@@ -90,6 +180,16 @@
       "priority": 3
     },
     {
+      "title": "36-32: Chart",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/144635/36-32-chart",
+      "pubDate": "2026-06-10T01:51:54.000Z",
+      "isoDate": "2026-06-10T01:51:54.000Z",
+      "excerpt": "BALTIMORE, MARYLAND - JUNE 09: Mitch Garver #18 of the Seattle Mariners celebrates with Cole Young #2 after hitting a three-run home run in the fourth inning against the Baltimore Orioles at Oriole Park at Camden Yards...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
       "title": "Latest Mariners injuries and transactions",
       "link": "https://www.mlb.com/mariners/news/mariners-injuries-and-roster-moves",
       "pubDate": "Wed, 10 Jun 2026 00:03:00 GMT",
@@ -130,14 +230,34 @@
       "priority": 3
     },
     {
-      "title": "Mariners add IF option to taxi squad with Colt Emerson out again",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-texi-squad-miles-mastrobuoni-colt-emerson-out",
-      "pubDate": "Tue, 09 Jun 2026 21:55:39 +0000",
-      "isoDate": "2026-06-09T21:55:39.000Z",
-      "excerpt": "The Seattle Mariners appear to have a backup plan in case Colt Emerson needs to go on the injured list.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
+      "title": "Mariners place RHP Cooper Criswell on 15-day injured list, recall Nick Davila, acquire RHP Carson Fulmer for depth",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-injuries/144623/mariners-place-rhp-cooper-criswell-on-15-day-injured-list-recall-nick-davila-acquire-rhp-carson-fulmer-for-depth",
+      "pubDate": "2026-06-09T22:12:46.000Z",
+      "isoDate": "2026-06-09T22:12:46.000Z",
+      "excerpt": "HOUSTON, TX - MAY 11: Cooper Criswell #88 of the Seattle Mariners pitches during the game between the Seattle Mariners and the Houston Astros at Daikin Park on Monday, May 11, 2026 in Houston, Texas. (Photo by Logan...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Mariners Game Preview #68, 6/9/26: SEA at BAL",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-discussion/144610/mariners-game-preview-68-6-9-26-sea-at-bal",
+      "pubDate": "2026-06-09T22:10:00.000Z",
+      "isoDate": "2026-06-09T22:10:00.000Z",
+      "excerpt": "SEATTLE, WASHINGTON - JUNE 02: Logan Gilbert #36 of the Seattle Mariners pauses for a moment before the game against the New York Mets at T-Mobile Park on June 02, 2026 in Seattle, Washington. (Photo by Steph...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Cal Raleigh homers twice in rehab start with Tacoma",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-injuries/144613/cal-raleigh-homers-twice-in-rehab-start-with-tacoma",
+      "pubDate": "2026-06-09T21:51:33.000Z",
+      "isoDate": "2026-06-09T21:51:33.000Z",
+      "excerpt": "EVERETT, WA - JUNE 07: Catcher Cal Raleigh of the Seattle Mariners on rehab assignment for the Everett AquaSox waits on deck during a game between the Eugene Emeralds and Everett AquaSox on June 7, 2026 at Funko Field...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
     },
     {
       "title": "Mariners Acquire Carson Fulmer",
@@ -150,16 +270,6 @@
       "priority": 2
     },
     {
-      "title": "Rams LT Alaric Jackson arrested on domestic violence charge",
-      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/rams-alaric-jackson-arrested-domestic-violence-charge",
-      "pubDate": "Tue, 09 Jun 2026 20:56:48 +0000",
-      "isoDate": "2026-06-09T20:56:48.000Z",
-      "excerpt": "Rams left tackle Alaric Jackson was arrested on suspicion of felony domestic violence.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
       "title": "Seahawks work out former Lions defensive back Ifeatu Melifonwu",
       "link": "https://www.fieldgulls.com/seattle-seahawks-news/169428/seahawks-safety-ifeatu-melifonwu-workout-nfl-news",
       "pubDate": "2026-06-09T20:51:24.000Z",
@@ -170,16 +280,6 @@
       "priority": 1
     },
     {
-      "title": "The ‘get-in’ price for every World Cup match in Seattle",
-      "link": "https://sports.mynorthwest.com/seattle-sports-pit/what-it-costs-to-attend-world-cup-seattle",
-      "pubDate": "Tue, 09 Jun 2026 20:07:28 +0000",
-      "isoDate": "2026-06-09T20:07:28.000Z",
-      "excerpt": "How much would it cost you to get into the stadium for each of the upcoming six World Cup matches in Seattle? We put it together.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
       "title": "Todd Boehly, part owner of Lakers, Dodgers, considering Seahawks ownership bid",
       "link": "https://www.fieldgulls.com/seattle-seahawks-news/169430/nfl-news-report-todd-boehly-part-owner-lakers-dodgers-considering-seahawks-ownership-bid",
       "pubDate": "2026-06-09T17:48:59.000Z",
@@ -187,6 +287,16 @@
       "excerpt": "LOS ANGELES, CALIFORNIA - JUNE 16: Todd Boehly attends Los Angeles Dodgers Foundation's annual Blue Diamond Gala at Dodger Stadium on June 16, 2022 in Los Angeles, California. (Photo by Kevin Winter/Getty Images) |...",
       "source": "Field Gulls",
       "team": "seahawks",
+      "priority": 1
+    },
+    {
+      "title": "Rating your takes: What is Colt Emerson’s ceiling? What is his floor?",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-discussion/144594/rating-your-takes-what-is-colt-emersons-ceiling-what-is-his-floor",
+      "pubDate": "2026-06-09T16:30:00.000Z",
+      "isoDate": "2026-06-09T16:30:00.000Z",
+      "excerpt": "SEATTLE, WASHINGTON - JUNE 02: Colt Emerson #4 of the Seattle Mariners makes a catch for the final out against the New York Mets during the ninth inning at T-Mobile Park on June 02, 2026 in Seattle, Washington. (Photo...",
+      "source": "Lookout Landing",
+      "team": "mariners",
       "priority": 1
     },
     {
@@ -230,16 +340,6 @@
       "priority": 1
     },
     {
-      "title": "Mariners Game Preview #67, 6/8/26: SEA at BAL",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-discussion/144576/mariners-game-preview-67-6-8-26-sea-at-bal",
-      "pubDate": "2026-06-08T22:05:03.000Z",
-      "isoDate": "2026-06-08T22:05:03.000Z",
-      "excerpt": "Jun 1, 2026; Seattle, Washington, USA; Seattle Mariners starting pitcher Emerson Hancock (26) throws against the New York Mets during the fourth inning at T-Mobile Park. Mandatory Credit: Joe Nicholson-Imagn Images |...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
       "title": "Seahawks Work Out S Ifeatu Melifonwu",
       "link": "https://www.profootballrumors.com/2026/06/seahawks-work-out-s-ifeatu-melifonwu",
       "pubDate": "Mon, 08 Jun 2026 22:03:07 +0000",
@@ -278,106 +378,6 @@
       "source": "MLB Trade Rumors",
       "team": "mariners",
       "priority": 2
-    },
-    {
-      "title": "Series Preview: Mariners (34-32) at Orioles (31-35)",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-game-information/144567/series-preview-seattle-mariners-at-baltimore-orioles-june-2026",
-      "pubDate": "2026-06-08T18:20:00.000Z",
-      "isoDate": "2026-06-08T18:20:00.000Z",
-      "excerpt": "TORONTO, CANADA - JUNE 5: Adley Rutschman #35 of the Baltimore Orioles celebrates with teammates following a win over the Toronto Blue Jays at the Rogers Centre on June 5, 2026 in Toronto, Ontario, Canada. (Photo by...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "Seattle Mariners Minor League Roundup &#8211; Week Eleven",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-prospects/144550/seattle-mariners-minor-league-roundup-week-eleven",
-      "pubDate": "2026-06-08T16:00:00.000Z",
-      "isoDate": "2026-06-08T16:00:00.000Z",
-      "excerpt": "NORTH LITTLE ROCK, AR - APRIL 22: Michael Arroyo #8 of the Arkansas Travelers prepares to bat during the game between the Corpus Christi Hooks and the Arkansas Travelers at Dickey-Stephens Park on Wednesday, April 22,...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "Seahawks News 6/8: Intensity high at Seahawks OTAs",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169373/seahawks-news-6-8-intensity-high-at-seahawks-otas",
-      "pubDate": "2026-06-08T14:08:14.000Z",
-      "isoDate": "2026-06-08T14:08:14.000Z",
-      "excerpt": "RENTON, WASHINGTON - JUNE 04: Charles Cross #67 of the Seattle Seahawks works out during practice at Virginia Mason Athletic Center on June 04, 2026 in Renton, Washington. (Photo by Steph Chambers/Getty Images) | Getty...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "Mariners News: Cal Raleigh, Max Kepler, and Jameson Taillon",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-news/144544/cal-raleigh-max-kepler-jameson-taillon-tarik-skubal",
-      "pubDate": "2026-06-08T14:00:00.000Z",
-      "isoDate": "2026-06-08T14:00:00.000Z",
-      "excerpt": "EVERETT, WA - JUNE 07: Catcher Cal Raleigh of the Seattle Mariners on rehab assignment for the Everett AquaSox waits on deck during a game between the Eugene Emeralds and Everett AquaSox on June 7, 2026 at Funko Field...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "Tigers walk off Mariners thanks to sloppy play, 5-4",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/144531/tigers-walk-off-mariners-thanks-to-sloppy-play-5-4",
-      "pubDate": "2026-06-07T21:15:04.000Z",
-      "isoDate": "2026-06-07T21:15:04.000Z",
-      "excerpt": "DETROIT, MI - JUNE 7: Josh Naylor #12 of the Seattle Mariners celebrates his double that drove in Julio Rodriguez against the Detroit Tigers during the sixth inning at Comerica Park on June 7, 2026 in Detroit, Michigan....",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "34-32: Chart",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/144535/34-32-chart",
-      "pubDate": "2026-06-07T20:55:00.000Z",
-      "isoDate": "2026-06-07T20:55:00.000Z",
-      "excerpt": "Jun 7, 2026; Detroit, Michigan, USA; Seattle Mariners third baseman Patrick Wisdom (35) makes a throw to first in the fourth inning against the Detroit Tigers at Comerica Park. Mandatory Credit: Rick Osentoski-Imagn...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "Mariners Game #66: Game Thread Two",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-discussion/144532/mariners-game-66-game-thread-two",
-      "pubDate": "2026-06-07T20:14:43.000Z",
-      "isoDate": "2026-06-07T20:14:43.000Z",
-      "excerpt": "Jun 7, 2026; Detroit, Michigan, USA; Seattle Mariners third baseman Colt Emerson (4) hits a double in the third inning against the Detroit Tigers at Comerica Park. Mandatory Credit: Rick Osentoski-Imagn Images | Rick...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "Mariners Game Preview #66, 6/7/26: SEA at DET",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-discussion/144525/mariners-game-preview-66-6-7-26-sea-at-det",
-      "pubDate": "2026-06-07T17:25:25.000Z",
-      "isoDate": "2026-06-07T17:25:25.000Z",
-      "excerpt": "May 31, 2026; Seattle, Washington, USA; Seattle Mariners pitcher Luis Castillo (58) reacts after the third out against the Arizona Diamondbacks during the tenth inning at T-Mobile Park. Mandatory Credit: John...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "SBNation Reacts results: Seahawks fans weigh in on Super Bowl chances after Rams get Myles Garrett",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/169355/sbnation-reacts-results-seahawks-fans-weigh-in-on-super-bowl-chances-rams-myles-trade",
-      "pubDate": "2026-06-07T14:00:00.000Z",
-      "isoDate": "2026-06-07T14:00:00.000Z",
-      "excerpt": "WOODLAND HILLS, CA - JUNE 02, 2026: Myles Garrett of the Los Angeles Rams pose for a photo during a press conference at Rams training facility on Tuesday, June 2, 2026 in Woodland Hills, CA (Ric Tapia / Los Angeles...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "Seahawks News 6/7: What will the Seahawks’ O-line look like in 2026?",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169361/seahawks-news-6-7-what-will-the-seahawks-o-line-look-like-in-2026",
-      "pubDate": "2026-06-07T13:00:00.000Z",
-      "isoDate": "2026-06-07T13:00:00.000Z",
-      "excerpt": "SEATTLE, WASHINGTON - SEPTEMBER 07: Bryce Cabeldue #77 of the Seattle Seahawks warms up prior to the game against the San Francisco 49ers during the game at Lumen Field on September 07, 2025 in Seattle, Washington....",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
     },
     {
       "title": "Mariners Unlikely To Trade From Top Five In Rotation",
