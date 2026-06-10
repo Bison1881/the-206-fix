@@ -1,33 +1,188 @@
 {
-  "generatedAt": "2026-06-10T20:26:16.740Z",
+  "generatedAt": "2026-06-10T23:23:29.021Z",
   "sourceCount": 10,
-  "successfulSources": 9,
-  "failedSources": [
-    {
-      "source": "Seattle Times Sports",
-      "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
-    }
-  ],
+  "successfulSources": 10,
+  "failedSources": [],
   "items": [
     {
-      "title": "Latest Mariners injuries and transactions",
-      "link": "https://www.mlb.com/mariners/news/mariners-injuries-and-roster-moves",
-      "pubDate": "Wed, 10 Jun 2026 20:19:00 GMT",
-      "isoDate": "2026-06-10T20:19:00.000Z",
+      "title": "As FIFA Men’s World Cup approaches, Seattle Stadium turf ‘ready to go’",
+      "link": "https://www.seattletimes.com/sports/world-cup/as-fifa-mens-world-cup-approaches-seattle-stadium-turf-ready-to-go/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Wed, 10 Jun 2026 16:05:13 -0700",
+      "isoDate": "2026-06-10T23:05:13.000Z",
+      "excerpt": "While much of Seattle Stadium is still in the final stages of preparations before the World Cup, there was confidence that the field itself is more than ready.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "A yearslong effort to woo Trump culminates with the World Cup",
+      "link": "https://www.seattletimes.com/nation-world/nation-politics/a-yearslong-effort-to-woo-trump-culminates-with-the-world-cup/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Wed, 10 Jun 2026 15:45:07 -0700",
+      "isoDate": "2026-06-10T22:45:07.000Z",
+      "excerpt": "Gianni Infantino, FIFA’s president, has unabashedly courted the president’s favor. Soccer officials privately ask, who really benefits?",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Emerson (back spasm) optimistic he will avoid IL, return to lineup soon",
+      "link": "https://www.mlb.com/mariners/news/colt-emerson-will-return-to-mariners-lineup-soon-after-back-spasm-scare",
+      "pubDate": "Wed, 10 Jun 2026 22:40:48 GMT",
+      "isoDate": "2026-06-10T22:40:48.000Z",
       "excerpt": "",
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
     },
     {
+      "title": "Seahawks ready for rings, nearly done with minicamp | Notebook",
+      "link": "https://www.seattletimes.com/sports/seahawks/seahawks-ready-for-rings-nearly-done-with-minicamp-notebook/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Wed, 10 Jun 2026 15:32:20 -0700",
+      "isoDate": "2026-06-10T22:32:20.000Z",
+      "excerpt": "The Seahawks have just a little bit more work to do before they can really get the party started as they'll soon get their Super Bowl rings.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Latest Mariners injuries and transactions",
+      "link": "https://www.mlb.com/mariners/news/mariners-injuries-and-roster-moves",
+      "pubDate": "Wed, 10 Jun 2026 22:24:00 GMT",
+      "isoDate": "2026-06-10T22:24:00.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Brash hits injured list with right lat strain for 2nd time this season",
+      "link": "https://www.mlb.com/mariners/news/mariners-matt-brash-injured-list-right-lat-strain",
+      "pubDate": "Wed, 10 Jun 2026 22:04:00 GMT",
+      "isoDate": "2026-06-10T22:04:00.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Mariners Game #69 Preview and Discussion: SEA at BAL, 6/10",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-game-information/144677/mariners-game-69-preview-and-discussion-sea-at-bal-6-10",
+      "pubDate": "2026-06-10T22:03:40.000Z",
+      "isoDate": "2026-06-10T22:03:40.000Z",
+      "excerpt": "May 23, 2026; Kansas City, Missouri, USA; Seattle Mariners starting pitcher George Kirby (68) throws a pitch in the first inning against the Seattle Mariners at Kauffman Stadium. Mandatory Credit: Peter Aiken-Imagn...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Max McCormick Announces Retirement",
+      "link": "https://www.prohockeyrumors.com/2026/06/max-mccormick-announces-retirement.html",
+      "pubDate": "Wed, 10 Jun 2026 22:01:06 +0000",
+      "isoDate": "2026-06-10T22:01:06.000Z",
+      "excerpt": "According to an announcement from the AHL’s Coachella Valley Firebirds, captain Max McCormick has retired from professional hockey. McCormick lost the entire 2025-26 campaign due to a hip injury, and that likely...",
+      "source": "Pro Hockey Rumors",
+      "team": "kraken",
+      "priority": 2
+    },
+    {
+      "title": "Seahawks Injury Updates: Charbonnet, Horton and more",
+      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/seattle-seahawks-injury-updates-charbonnet-horton-and-more",
+      "pubDate": "Wed, 10 Jun 2026 21:26:35 +0000",
+      "isoDate": "2026-06-10T21:26:35.000Z",
+      "excerpt": "Here's what Seahawks coach Mike Macdonald said regarding the statuses of several players.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Flurry of roster moves as Mariners place Matt Brash on 15-day IL, activate UTIL Miles Mastrobuoni",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-injuries/144681/flurry-of-roster-moves-as-mariners-place-matt-brash-on-15-day-il-activate-util-miles-mastrobuoni",
+      "pubDate": "2026-06-10T21:25:53.000Z",
+      "isoDate": "2026-06-10T21:25:53.000Z",
+      "excerpt": "HOUSTON, TEXAS - MARCH 08: Miles Mastrobuoni #2 of Italyreacts after hitting a double against Great Britain during the World baseball Classic - Pool B game at Daikin Park on March 08, 2026 in Houston, Texas. (Photo by...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "FIFA Men’s World Cup: Download and print your bracket",
+      "link": "https://www.seattletimes.com/sports/world-cup/fifa-mens-world-cup-download-and-print-your-bracket/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Wed, 10 Jun 2026 14:23:49 -0700",
+      "isoDate": "2026-06-10T21:23:49.000Z",
+      "excerpt": "The world's biggest sporting event is upon us. Fill out your bracket to see how well you know the beautiful game.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "4 teams Mariners could turn to for bullpen help at trade deadline",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/where-seattle-mariners-could-turn-for-bullpen-help-at-trade-deadline",
+      "pubDate": "Wed, 10 Jun 2026 20:55:47 +0000",
+      "isoDate": "2026-06-10T20:55:47.000Z",
+      "excerpt": "An early look at relievers the M's could target at the trade deadline.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
       "title": "Mariners Place Matt Brash On IL With Lat Strain",
       "link": "https://www.mlbtraderumors.com/2026/06/mariners-place-matt-brash-on-il-with-lat-strain.html",
-      "pubDate": "Wed, 10 Jun 2026 20:06:21 +0000",
-      "isoDate": "2026-06-10T20:06:21.000Z",
+      "pubDate": "Wed, 10 Jun 2026 20:50:21 +0000",
+      "isoDate": "2026-06-10T20:50:21.000Z",
       "excerpt": "The Mariners announced a series of roster moves today. Infielder/outfielder Miles Mastrobuoni has been reinstated from the 60-day injured list and right-hander Domingo González has been recalled from Triple-A Tacoma. In...",
       "source": "MLB Trade Rumors",
       "team": "mariners",
       "priority": 2
+    },
+    {
+      "title": "Mariners put Matt Brash on IL again amid flurry of 5 roster moves",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-matt-brash-miles-mastrobuoni-flurry-roster-moves",
+      "pubDate": "Wed, 10 Jun 2026 20:38:00 +0000",
+      "isoDate": "2026-06-10T20:38:00.000Z",
+      "excerpt": "The Seattle Mariners announced five roster moves prior to Wednesday's game in Baltimore.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "FIFA World Cup: Here are top moments for Sounders, Reign players",
+      "link": "https://www.seattletimes.com/sports/world-cup/fifa-world-cup-here-are-top-moments-for-sounders-reign-players/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Wed, 10 Jun 2026 13:00:00 -0700",
+      "isoDate": "2026-06-10T20:00:00.000Z",
+      "excerpt": "More than 60 players who have at one point in their career worn the Sounders or Reign badge have reached the FIFA World Cup. Here are few of the top moments.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Former Sounders star Obed Vargas earns World Cup chance with Mexico’s national team",
+      "link": "https://www.seattletimes.com/sports/world-cup/world-cup-obed-vargas-06-10/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Wed, 10 Jun 2026 13:00:00 -0700",
+      "isoDate": "2026-06-10T20:00:00.000Z",
+      "excerpt": "Able to see his dream play out for others, a path revealed itself and Obed Vargas followed to his ultimate destination — the World Cup roster for Mexico.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Mariners’ Colt Emerson out of lineup again; Matt Brash lands on injured list",
+      "link": "https://www.seattletimes.com/sports/mariners/mariners-colt-emerson-matt-brash-injury-update/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Wed, 10 Jun 2026 12:48:36 -0700",
+      "isoDate": "2026-06-10T19:48:36.000Z",
+      "excerpt": "Colt Emerson has made progress in his recovery and will avoid a stint on the injured list, but Matt Brash returns to the IL.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "FIFA’s Infantino defends World Cup ticket prices, says fans ‘should chill’ about ref denied US entry",
+      "link": "https://www.seattletimes.com/sports/world-cup/fifas-infantino-defends-world-cup-ticket-prices-says-fans-should-chill-about-ref-denied-us-entry/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Wed, 10 Jun 2026 12:43:39 -0700",
+      "isoDate": "2026-06-10T19:43:39.000Z",
+      "excerpt": "FIFA President Gianni Infantino has defended World Cup ticket prices by saying they align with North American sports.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
     },
     {
       "title": "Seattle Seahawks announce 10 training camp public practices",
@@ -120,16 +275,6 @@
       "priority": 3
     },
     {
-      "title": "Stacy Rost: Our 3 biggest Seahawks questions right now",
-      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/stacy-rost-3-seattle-seahawks-questions-right-now",
-      "pubDate": "Wed, 10 Jun 2026 14:22:42 +0000",
-      "isoDate": "2026-06-10T14:22:42.000Z",
-      "excerpt": "Seattle's new OC and its rookie class are among the storylines to watch in minicamp.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
       "title": "NFLPA releases top 50 players sales list, Jaxon Smith-Njigba ranks near the top",
       "link": "https://www.fieldgulls.com/seattle-seahawks-news/169442/nflpa-releases-top-50-players-sales-list-jaxon-smith-njigba-near-top-seahawks-news",
       "pubDate": "2026-06-10T14:00:00.000Z",
@@ -158,16 +303,6 @@
       "source": "Field Gulls",
       "team": "seahawks",
       "priority": 1
-    },
-    {
-      "title": "Lazaro Montes enjoying homer barrage at Double-A -- and you have to see his latest",
-      "link": "https://www.mlb.com/mariners/news/mariners-prospect-lazaro-montes-hot-streak-double-a-june",
-      "pubDate": "Wed, 10 Jun 2026 04:56:00 GMT",
-      "isoDate": "2026-06-10T04:56:00.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
     },
     {
       "title": "Raise -- no, strum the trident! Arozarena blasts game-winning homer in 10th",
@@ -200,26 +335,6 @@
       "priority": 1
     },
     {
-      "title": "Recap: Mariners outlast Orioles 6-5 in 10 innings",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/recap-seattle-mariners-outlast-orioles-6-5-in-10-innings",
-      "pubDate": "Wed, 10 Jun 2026 02:19:26 +0000",
-      "isoDate": "2026-06-10T02:19:26.000Z",
-      "excerpt": "Randy Arozarena hit a two-run homer in the 10th after Seattle blew a two-run lead in the ninth.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "US team arrives at World Cup training base in a ‘good place’",
-      "link": "https://sports.mynorthwest.com/seattle-sports-pit/us-team-arrives-world-cup-training-base-in-good-place",
-      "pubDate": "Wed, 10 Jun 2026 02:08:42 +0000",
-      "isoDate": "2026-06-10T02:08:42.000Z",
-      "excerpt": "The Americans projected confidence and excitement as they settled into their training base in Southern California.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
       "title": "Seahawks Safety Nick Emmanwori 'Trying To Evolve My Game' Heading Into Year 2",
       "link": "https://www.seahawks.com/news/seahawks-safety-nick-emmanwori-trying-to-evolve-my-game-heading-into-year-2",
       "pubDate": "Wed, 10 Jun 2026 02:05:47 GMT",
@@ -250,16 +365,6 @@
       "priority": 1
     },
     {
-      "title": "Raleigh crushes 2 homers at Triple-A; Emerson 'seems to be better'",
-      "link": "https://www.mlb.com/mariners/news/cal-raleigh-hits-two-home-runs-at-triple-a-tacoma",
-      "pubDate": "Tue, 09 Jun 2026 23:16:13 GMT",
-      "isoDate": "2026-06-09T23:16:13.000Z",
-      "excerpt": "Criswell (right shoulder strain) placed on IL; Davila recalled",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
-    },
-    {
       "title": "Mariners place RHP Cooper Criswell on 15-day injured list, recall Nick Davila, acquire RHP Carson Fulmer for depth",
       "link": "https://www.lookoutlanding.com/seattle-mariners-injuries/144623/mariners-place-rhp-cooper-criswell-on-15-day-injured-list-recall-nick-davila-acquire-rhp-carson-fulmer-for-depth",
       "pubDate": "2026-06-09T22:12:46.000Z",
@@ -275,16 +380,6 @@
       "pubDate": "2026-06-09T22:10:00.000Z",
       "isoDate": "2026-06-09T22:10:00.000Z",
       "excerpt": "SEATTLE, WASHINGTON - JUNE 02: Logan Gilbert #36 of the Seattle Mariners pauses for a moment before the game against the New York Mets at T-Mobile Park on June 02, 2026 in Seattle, Washington. (Photo by Steph...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "Cal Raleigh homers twice in rehab start with Tacoma",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-injuries/144613/cal-raleigh-homers-twice-in-rehab-start-with-tacoma",
-      "pubDate": "2026-06-09T21:51:33.000Z",
-      "isoDate": "2026-06-09T21:51:33.000Z",
-      "excerpt": "EVERETT, WA - JUNE 07: Catcher Cal Raleigh of the Seattle Mariners on rehab assignment for the Everett AquaSox waits on deck during a game between the Eugene Emeralds and Everett AquaSox on June 7, 2026 at Funko Field...",
       "source": "Lookout Landing",
       "team": "mariners",
       "priority": 1
@@ -317,16 +412,6 @@
       "excerpt": "LOS ANGELES, CALIFORNIA - JUNE 16: Todd Boehly attends Los Angeles Dodgers Foundation's annual Blue Diamond Gala at Dodger Stadium on June 16, 2022 in Los Angeles, California. (Photo by Kevin Winter/Getty Images) |...",
       "source": "Field Gulls",
       "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "Rating your takes: What is Colt Emerson’s ceiling? What is his floor?",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-discussion/144594/rating-your-takes-what-is-colt-emersons-ceiling-what-is-his-floor",
-      "pubDate": "2026-06-09T16:30:00.000Z",
-      "isoDate": "2026-06-09T16:30:00.000Z",
-      "excerpt": "SEATTLE, WASHINGTON - JUNE 02: Colt Emerson #4 of the Seattle Mariners makes a catch for the final out against the New York Mets during the ninth inning at T-Mobile Park on June 02, 2026 in Seattle, Washington. (Photo...",
-      "source": "Lookout Landing",
-      "team": "mariners",
       "priority": 1
     },
     {
@@ -518,96 +603,6 @@
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
-    },
-    {
-      "title": "Seahawks, Dante Fowler Agree To Deal",
-      "link": "https://www.profootballrumors.com/2026/05/seahawks-dante-fowler-agree-to-deal",
-      "pubDate": "Mon, 01 Jun 2026 03:55:05 +0000",
-      "isoDate": "2026-06-01T03:55:05.000Z",
-      "excerpt": "MAY 31: Fowler’s deal with the Seahawks has a base value of $2.5MM with just $500k guaranteed via a signing bonus, per ESPN’s Brady Henderson, the lowest of his career. He is also set to earn a $1.32MM salary and $680k...",
-      "source": "Pro Football Rumors",
-      "team": "seahawks",
-      "priority": 2
-    },
-    {
-      "title": "Vikings Hire Nolan Teasley As GM; Rob Brzezinski Staying On As EVP",
-      "link": "https://www.profootballrumors.com/2026/05/vikings-to-hire-nolan-teasly-as-general-manager",
-      "pubDate": "Sun, 31 May 2026 04:20:11 +0000",
-      "isoDate": "2026-05-31T04:20:11.000Z",
-      "excerpt": "The Vikings have landed on their next general manager. Seahawks assistant GM Nolan Teasley will be taking over the front office in Minnesota, per NFL Network’s Tom Pelissero. The news is now official. Teasley is coming...",
-      "source": "Pro Football Rumors",
-      "team": "seahawks",
-      "priority": 2
-    },
-    {
-      "title": "AL West Notes: Miller, Castillo, Langford, Rangers, Moore",
-      "link": "https://www.mlbtraderumors.com/2026/05/al-west-notes-miller-castillo-langford-rangers-moore.html",
-      "pubDate": "Sat, 30 May 2026 15:52:30 +0000",
-      "isoDate": "2026-05-30T15:52:30.000Z",
-      "excerpt": "Bryce Miller will start and Luis Castillo will again be the piggyback pitcher for the Mariners on Sunday, but the team will then adopt a six-man rotation, the Seattle Times’ Adam Jude writes. Friday’s game with the...",
-      "source": "MLB Trade Rumors",
-      "team": "mariners",
-      "priority": 2
-    },
-    {
-      "title": "Seahawks To Sign First-Round RB Jadarian Price, Wrap Draft Class Deals",
-      "link": "https://www.profootballrumors.com/2026/05/seahawks-to-sign-first-round-rb-jadarian-price-wrap-draft-class-deals",
-      "pubDate": "Fri, 29 May 2026 21:17:24 +0000",
-      "isoDate": "2026-05-29T21:17:24.000Z",
-      "excerpt": "The Seahawks have agreed to a deal with first-round running back Jadarian Price, Tom Pelissero of NFL Network reports. Price went 32nd overall, which carries a total value of approximately $16.78MM over four years. He...",
-      "source": "Pro Football Rumors",
-      "team": "seahawks",
-      "priority": 2
-    },
-    {
-      "title": "Seahawks Sale Could Be Completed By August, Could Eclipse $10B",
-      "link": "https://www.profootballrumors.com/2026/05/seahawks-sale-could-be-completed-by-august-could-eclipse-10b",
-      "pubDate": "Fri, 29 May 2026 02:29:40 +0000",
-      "isoDate": "2026-05-29T02:29:40.000Z",
-      "excerpt": "Roger Goodell recently pushed back on the narrative that there’s a “soft” market for the Seahawks franchise, with the commissioner stating that there was in fact “tremendous interest” among prospective buyers. Days...",
-      "source": "Pro Football Rumors",
-      "team": "seahawks",
-      "priority": 2
-    },
-    {
-      "title": "Mariners Notes: Crawford, Rotation, Castillo",
-      "link": "https://www.mlbtraderumors.com/2026/05/mariners-notes-crawford-rotation-castillo.html",
-      "pubDate": "Sun, 24 May 2026 04:22:37 +0000",
-      "isoDate": "2026-05-24T04:22:37.000Z",
-      "excerpt": "J.P. Crawford has been a key part of the Mariners’ lineup since joining the club in 2019. In over 3,800 plate appearances with Seattle, Crawford has batted .248/.341/.369 with a 107 wRC+ while providing serviceable...",
-      "source": "MLB Trade Rumors",
-      "team": "mariners",
-      "priority": 2
-    },
-    {
-      "title": "Firebirds season ends in 4 games in AHL Pacific Division Final",
-      "link": "https://www.davyjoneslockerroom.com/firebirds-season-ends-in-4-games-in-ahl-pacific-division-final/",
-      "pubDate": "Thu, 21 May 2026 14:00:00 +0000",
-      "isoDate": "2026-05-21T14:00:00.000Z",
-      "excerpt": "Just not to be. The Coachella Valley Firebirds faced Colorado in Game 4 last night, and unfortunately, with their season on the line, couldn’t stymie the advance of the Eagles in the AHL Postseason, losing a...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
-    },
-    {
-      "title": "MLBTR Podcast: Colt Emerson Debuts, Blue Jays’ Rotation Issues, And What To Make Of The Mets And Astros",
-      "link": "https://www.mlbtraderumors.com/2026/05/mlbtr-podcast-colt-emerson-debuts-blue-jays-rotation-issues-and-what-to-make-of-the-mets-and-astros.html",
-      "pubDate": "Thu, 21 May 2026 04:00:16 +0000",
-      "isoDate": "2026-05-21T04:00:16.000Z",
-      "excerpt": "The latest episode of the MLB Trade Rumors Podcast is now live on Spotify, Apple Podcasts, and wherever you get your podcasts! Make sure you subscribe as well! You can also use the player at this link to listen, if you...",
-      "source": "MLB Trade Rumors",
-      "team": "mariners",
-      "priority": 2
-    },
-    {
-      "title": "Kraken Sign Alexis Bernier To Entry-Level Contract",
-      "link": "https://www.prohockeyrumors.com/2026/05/kraken-sign-defenseman-alexis-bernier-to-entry-level-contract.html",
-      "pubDate": "Tue, 19 May 2026 17:30:30 +0000",
-      "isoDate": "2026-05-19T17:30:30.000Z",
-      "excerpt": "The Seattle Kraken have locked up one of their promising young blue-line prospects, signing defenseman Alexis Bernier to a three-year, entry-level contract. According to the team, the deal will carry an average annual...",
-      "source": "Pro Hockey Rumors",
-      "team": "kraken",
-      "priority": 2
     }
   ]
 }
