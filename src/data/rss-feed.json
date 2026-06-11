@@ -1,9 +1,94 @@
 {
-  "generatedAt": "2026-06-11T20:16:43.323Z",
+  "generatedAt": "2026-06-11T23:19:08.182Z",
   "sourceCount": 10,
-  "successfulSources": 10,
-  "failedSources": [],
+  "successfulSources": 9,
+  "failedSources": [
+    {
+      "source": "Seattle Times Sports",
+      "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
+    }
+  ],
   "items": [
+    {
+      "title": "Mariners add RHP Rucker to 'pen, designate Gonzalez",
+      "link": "https://www.mlb.com/mariners/news/michael-rucker-selected-to-mariners-roster",
+      "pubDate": "Thu, 11 Jun 2026 23:00:00 GMT",
+      "isoDate": "2026-06-11T23:00:00.000Z",
+      "excerpt": "Brash to be re-evaluated with lat strain",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Brock Huard’s 3 top takeaways from Seahawks minicamp",
+      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/seattle-seahawks-brock-huard-minicamp-takeaways",
+      "pubDate": "Thu, 11 Jun 2026 22:33:03 +0000",
+      "isoDate": "2026-06-11T22:33:03.000Z",
+      "excerpt": "Former NFL QB Brock Huard took in the Seahawks' last two practices during mandatory minicamp at team HQ in Renton.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Salk: How Mariners can fill concerning void left by Brash injury",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-concerning-void-bullpen-matt-brash",
+      "pubDate": "Thu, 11 Jun 2026 21:40:53 +0000",
+      "isoDate": "2026-06-11T21:40:53.000Z",
+      "excerpt": "The Mariners' injury troubles haven't really made Mike Salk panic this year, but the latest with Matt Brash does make him nervous for the bullpen.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Seahawks Finish Off Minicamp & Prepare For Super Bowl Ring Ceremony",
+      "link": "https://www.seahawks.com/news/seahawks-finish-off-minicamp-prepare-for-super-bowl-ring-ceremony",
+      "pubDate": "Thu, 11 Jun 2026 21:28:50 GMT",
+      "isoDate": "2026-06-11T21:28:50.000Z",
+      "excerpt": "The Seahawks finished their three-day minicamp and prepare for the Super Bowl ring ceremony as a way to closeout their 2025 chapter.",
+      "source": "Seahawks.com",
+      "team": "seahawks",
+      "priority": 6
+    },
+    {
+      "title": "World Cup opens with 2-0 Mexico win that has 3 red cards",
+      "link": "https://sports.mynorthwest.com/seattle-sports-pit/world-cup-2-0-mexico-win-south-africa-3-red-cards",
+      "pubDate": "Thu, 11 Jun 2026 21:20:18 +0000",
+      "isoDate": "2026-06-11T21:20:18.000Z",
+      "excerpt": "Julián Quiñones and Raúl Jiménez helped Mexico make an exuberant start to the World Cup on Thursday, scoring a goal each in a 2-0 win over South Africa in the opening match of the tournament.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "2-time Cy Young winner Tarik Skubal returning for Tigers on Saturday",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/tarik-skubal-returning-tigers-saturday",
+      "pubDate": "Thu, 11 Jun 2026 21:12:55 +0000",
+      "isoDate": "2026-06-11T21:12:55.000Z",
+      "excerpt": "Seattle U product Tarik Skubal, who could be the biggest name at the MLB trade deadline, has been out of action since late April.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Mariners Reacts Survey: Decisions, Decisions, Decisions",
+      "link": "https://www.lookoutlanding.com/general/144669/mariners-reacts-survey-decisions-decisions-decisions",
+      "pubDate": "2026-06-11T20:42:13.000Z",
+      "isoDate": "2026-06-11T20:42:13.000Z",
+      "excerpt": "Jun 6, 2026; Detroit, Michigan, USA; Seattle Mariners catcher Jhonny Pereda (5) and pitcher Gabe Speier (55) celebrate after defeating the Detroit Tigers at Comerica Park. Mandatory Credit: Rick Osentoski-Imagn Images |...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Mariners Lineup: Colt Emerson returns for game on ESPN",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-lineup-colt-emerson-returns-espn-game",
+      "pubDate": "Thu, 11 Jun 2026 20:08:42 +0000",
+      "isoDate": "2026-06-11T20:08:42.000Z",
+      "excerpt": "Colt Emerson is returning to action for Thursday's game on national TV after missing the previous three with a back issue.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
     {
       "title": "Mariners select Auburn Riverside HS product RHP Michael Rucker, DFA Domingo González",
       "link": "https://www.lookoutlanding.com/seattle-mariners-roster/144762/mariners-select-auburn-riverside-hs-product-rhp-michael-rucker-dfa-domingo-gonzalez",
@@ -15,34 +100,14 @@
       "priority": 1
     },
     {
-      "title": "Big Ten quarterback rankings: Where Washington Huskies stand",
-      "link": "https://www.seattletimes.com/sports/washington-huskies-football/big-ten-quarterback-rankings-where-washington-huskies-stand/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Thu, 11 Jun 2026 13:01:02 -0700",
-      "isoDate": "2026-06-11T20:01:02.000Z",
-      "excerpt": "Second-string QBs are the least important players on the team until they are the most important. So here's a ranking of the Big Ten's QBs, including backups.",
-      "source": "Seattle Times Sports",
+      "title": "Mariners call up local product Michael Rucker, DFA reliever",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-call-up-local-product-dfa-reliever",
+      "pubDate": "Thu, 11 Jun 2026 19:31:40 +0000",
+      "isoDate": "2026-06-11T19:31:40.000Z",
+      "excerpt": "Auburn Riverside High School grad Michael Rucker is joining the Mariners' short-handed bullpen.",
+      "source": "710 Seattle Sports",
       "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Mike Macdonald: Seahawks looking at early training camp return for Tory Horton",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169489/mike-macdonald-seahawks-looking-at-early-training-camp-return-tory-horton",
-      "pubDate": "2026-06-11T19:58:13.000Z",
-      "isoDate": "2026-06-11T19:58:13.000Z",
-      "excerpt": "Nov 2, 2025; Landover, Maryland, USA; Seattle Seahawks wide receiver Tory Horton (15) catches a touchdown pass as Washington Commanders cornerback Mike Sainristil (0) watches during the second quarter at Northwest...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "Report: Mickelson kicked out of San Diego club for inappropriate contact with female employee",
-      "link": "https://www.seattletimes.com/sports/report-mickelson-kicked-out-of-san-diego-club-for-inappropriate-contact-with-female-employee/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Thu, 11 Jun 2026 12:46:55 -0700",
-      "isoDate": "2026-06-11T19:46:55.000Z",
-      "excerpt": "Phil Mickelson has been kicked out of a San Diego golf club over allegations he made unwanted physical contact with a female employee, Golf Digest reported Thursday.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
+      "priority": 3
     },
     {
       "title": "Defensive End Cassius Marsh Retires A Seahawk",
@@ -63,26 +128,6 @@
       "source": "MLB Trade Rumors",
       "team": "mariners",
       "priority": 2
-    },
-    {
-      "title": "Mariners add RHP Rucker to 'pen, designate Gonzalez",
-      "link": "https://www.mlb.com/mariners/news/michael-rucker-selected-to-mariners-roster",
-      "pubDate": "Thu, 11 Jun 2026 19:01:15 GMT",
-      "isoDate": "2026-06-11T19:01:15.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
-    },
-    {
-      "title": "Kraken hire Patrik Allvin as vice president, assistant GM",
-      "link": "https://www.seattletimes.com/sports/kraken/kraken-hire-patrik-allvin-as-vice-president-assistant-gm/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Thu, 11 Jun 2026 11:57:27 -0700",
-      "isoDate": "2026-06-11T18:57:27.000Z",
-      "excerpt": "The Kraken made a front-office hire in former Canucks general manager Patrik Allvin, who is now vice president and assistant general manager in Seattle.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
     },
     {
       "title": "PWHL’s Seattle Torrent hire Christine Bumstead as head coach",
@@ -115,16 +160,6 @@
       "priority": 3
     },
     {
-      "title": "Torrent hire Christine Bumstead as second coach",
-      "link": "https://www.seattletimes.com/sports/torrent/torrent-hire-christine-bumstead-as-second-coach/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Thu, 11 Jun 2026 10:11:40 -0700",
-      "isoDate": "2026-06-11T17:11:40.000Z",
-      "excerpt": "The Torrent promoted assistant coach Christine Bumstead to head coach, replacing Steve O'Rourke was there for only one season.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "Afternoon Notes: Tuch, Andersson, Kraken Hires",
       "link": "https://www.prohockeyrumors.com/2026/06/afternoon-notes-tuch-andersson-kraken-hires.html",
       "pubDate": "Thu, 11 Jun 2026 17:07:59 +0000",
@@ -133,66 +168,6 @@
       "source": "Pro Hockey Rumors",
       "team": "kraken",
       "priority": 2
-    },
-    {
-      "title": "Seattle Kraken scoop up ex-Vancouver Canucks GM for front office",
-      "link": "https://sports.mynorthwest.com/nhl/seattle-kraken/seattle-kraken-former-vancouver-canucks-gm-patrik-allvin",
-      "pubDate": "Thu, 11 Jun 2026 17:01:33 +0000",
-      "isoDate": "2026-06-11T17:01:33.000Z",
-      "excerpt": "It's a reunion for Kraken GM Jason Botterill and his former Pittsburgh Penguins colleague Patrik Allvin, who was fired as general manager of the rival Vancouver Canucks less than two months ago.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "Puyallup Tribe to host first World Cup powwow",
-      "link": "https://www.seattletimes.com/seattle-news/world-cup-seattle/puyallup-tribe-to-host-first-world-cup-powwow/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Thu, 11 Jun 2026 10:00:00 -0700",
-      "isoDate": "2026-06-11T17:00:00.000Z",
-      "excerpt": "The Puyallup Tribe is the first Native American tribe to serve as an \"official legacy supporter\" of Seattle as a World Cup host city.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "FIFA Men’s World Cup: Seattle’s floating soccer venue takes it place at Pier 62",
-      "link": "https://www.seattletimes.com/seattle-news/world-cup-seattle/fifa-mens-world-cup-seattles-floating-soccer-venue-takes-it-place-at-pier-62/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Thu, 11 Jun 2026 10:00:00 -0700",
-      "isoDate": "2026-06-11T17:00:00.000Z",
-      "excerpt": "The “Seattle Soccer Celebration” barge arrived at Pier 62 Tuesday and was busy Wednesday preparing to host its first World Cup event Friday,",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Seahawks’ Nick Emmanwori gets a little help from DeMarcus Lawrence",
-      "link": "https://www.seattletimes.com/sports/seahawks/seahawks-nick-emmanwori-gets-a-little-help-from-demarcus-lawrence/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Thu, 11 Jun 2026 10:00:00 -0700",
-      "isoDate": "2026-06-11T17:00:00.000Z",
-      "excerpt": "Defensive back Nick Emmanwori had about as much impact as anyone on the Seahawks defense in 2025 thanks to his versatility. How good can he be in Year 2?",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Lights! Camera! Cage match! The White House lawn’s Octagon is ready for Trump’s 80th birthday bash",
-      "link": "https://www.seattletimes.com/entertainment/lights-camera-cage-match-white-house-lawns-octagon-is-ready-for-trumps-birthday/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Thu, 11 Jun 2026 09:03:24 -0700",
-      "isoDate": "2026-06-11T16:03:24.000Z",
-      "excerpt": "A massive UFC event is set to take over the White House's South Lawn.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "NFC West Check-In: 49ers vow to reduce star RB McCaffrey’s workload",
-      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/nfc-west-49ers-christian-mccaffrey-workload",
-      "pubDate": "Thu, 11 Jun 2026 15:43:47 +0000",
-      "isoDate": "2026-06-11T15:43:47.000Z",
-      "excerpt": "Christian McCaffrey racked up 450 touches across the 2025 regular season and playoffs.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
     },
     {
       "title": "Mariners Draft Profile: 3B Bo Lowrance",
@@ -205,36 +180,6 @@
       "priority": 1
     },
     {
-      "title": "Seahawks star JSN hopes to pick up where he left off",
-      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/seattle-seahawks-jaxon-smith-njigba-jsn-2026-camp",
-      "pubDate": "Thu, 11 Jun 2026 14:57:44 +0000",
-      "isoDate": "2026-06-11T14:57:44.000Z",
-      "excerpt": "The reigning Offensive Player of the Year is looking to build on his sensational 2025 campaign.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "What stands out most about Mariners’ Colt Emerson",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/what-stands-out-most-about-seattle-mariners-colt-emerson",
-      "pubDate": "Thu, 11 Jun 2026 14:30:33 +0000",
-      "isoDate": "2026-06-11T14:30:33.000Z",
-      "excerpt": "Baseball America's J.J. Cooper highlights why the top prospect doing what he's done at age 20 is so meaningful.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "Seahawks News 6/11: Seahawks further tweaking The Demon’s role",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169478/seahawks-news-6-11-seahawks-further-tweaking-the-demons-role",
-      "pubDate": "2026-06-11T13:00:00.000Z",
-      "isoDate": "2026-06-11T13:00:00.000Z",
-      "excerpt": "Jun 9, 2026; Renton, WA, USA; Seattle Seahawks safety Nick Emmanwori (3) speaks to the media after minicamp practice at Virginia Mason Athletic Center. Mandatory Credit: Steven Bisig-Imagn Images | Steven Bisig-Imagn...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
-    },
-    {
       "title": "Mariners News: Matt Brash, Max Scherzer, and OG Anunoby",
       "link": "https://www.lookoutlanding.com/seattle-mariners-news/144672/mariners-news-matt-brash-max-scherzer-and-og-anunoby",
       "pubDate": "2026-06-11T11:00:00.000Z",
@@ -243,16 +188,6 @@
       "source": "Lookout Landing",
       "team": "mariners",
       "priority": 1
-    },
-    {
-      "title": "Ogwumike scores 24 points, Sparks beat Storm 88-83",
-      "link": "https://sports.mynorthwest.com/wnba/seattle-storm/ogwumike-scores-24-points-sparks-beat-seattle-storm-88-83",
-      "pubDate": "Thu, 11 Jun 2026 04:49:03 +0000",
-      "isoDate": "2026-06-11T04:49:03.000Z",
-      "excerpt": "Kelsey Plum added 19 points and 11 assists for Los Angeles.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
     },
     {
       "title": "Julia Gosling Signs Two-Year Deal With the Torrent",
@@ -282,26 +217,6 @@
       "excerpt": "Jun 10, 2026; Baltimore, Maryland, USA; Baltimore Orioles second baseman Jackson Holliday (7) celebrates with his teammates after hitting a grand slam during the seventh inning against the Seattle Mariners at Oriole...",
       "source": "Lookout Landing",
       "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "Holliday’s grand slam helps Orioles beat Mariners 7-2",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/holidays-grand-slam-helps-orioles-beat-seattle-mariners-7-2",
-      "pubDate": "Thu, 11 Jun 2026 01:51:12 +0000",
-      "isoDate": "2026-06-11T01:51:12.000Z",
-      "excerpt": "Brandon Young pitched seven shutout innings to earn the win for Baltimore.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "‘That’s his responsibility’ &#8211; Mike Macdonald says Josh Jones ‘not ready to practice yet’",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169474/thats-his-responsibility-mike-macdonald-josh-jones-seahawks-not-ready-to-practice",
-      "pubDate": "2026-06-11T01:15:21.000Z",
-      "isoDate": "2026-06-11T01:15:21.000Z",
-      "excerpt": "Feb 11, 2026; Seattle, WA, USA; Seattle Seahawks fullback Brady Russell (38) and guard Josh Jones (74) during the Super Bowl LX trophy celebration at Lumen Field. Mandatory Credit: Kirby Lee-Imagn Images | Kirby...",
-      "source": "Field Gulls",
-      "team": "seahawks",
       "priority": 1
     },
     {
@@ -395,16 +310,6 @@
       "priority": 2
     },
     {
-      "title": "Seattle Seahawks announce 10 training camp public practices",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-preseason/169470/seattle-seahawks-2026-announce-10-public-training-camp-practice-schedule",
-      "pubDate": "2026-06-10T19:05:27.000Z",
-      "isoDate": "2026-06-10T19:05:27.000Z",
-      "excerpt": "Jul 27, 2024; Renton, WA, USA; Football fans watch Seattle Seahawk training camp at Virginia Mason Athletic Center. Mandatory Credit: Steven Bisig-Imagn Images The waiting is almost over, Seattle Seahawks fans! You’ll...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
-    },
-    {
       "title": "Seahawks Announce Registration For Seahawks Training Camp, powered by Boeing",
       "link": "https://www.seahawks.com/news/seahawks-announce-registration-for-seahawks-training-camp-powered-by-boeing",
       "pubDate": "Wed, 10 Jun 2026 17:00:12 GMT",
@@ -413,16 +318,6 @@
       "source": "Seahawks.com",
       "team": "seahawks",
       "priority": 6
-    },
-    {
-      "title": "Nick Davila accidentally became important at work",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/144662/nick-davila-accidentally-became-important-at-work",
-      "pubDate": "2026-06-10T15:12:00.000Z",
-      "isoDate": "2026-06-10T15:12:00.000Z",
-      "excerpt": "BALTIMORE, MD - JUNE 09: Nick Davila #82 of the Seattle Mariners celebrates after striking out Tyler O'Neill #9 of the Baltimore Orioles in the tenth inning to win the game between the Seattle Mariners and the Baltimore...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
     },
     {
       "title": "Seahawks Reacts Survey: Who’s the toughest opponent out of Seattle’s first five games?",
@@ -495,6 +390,36 @@
       "priority": 1
     },
     {
+      "title": "Todd Boehly, part owner of Lakers, Dodgers, considering Seahawks ownership bid",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169430/nfl-news-report-todd-boehly-part-owner-lakers-dodgers-considering-seahawks-ownership-bid",
+      "pubDate": "2026-06-09T17:48:59.000Z",
+      "isoDate": "2026-06-09T17:48:59.000Z",
+      "excerpt": "LOS ANGELES, CALIFORNIA - JUNE 16: Todd Boehly attends Los Angeles Dodgers Foundation's annual Blue Diamond Gala at Dodger Stadium on June 16, 2022 in Los Angeles, California. (Photo by Kevin Winter/Getty Images) |...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
+    {
+      "title": "Seahawks 2026 rookie predictions: Is Emmanuel Henderson Jr the new special teams ace?",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/169397/seahawks-2026-rookie-predictions-is-emmanuel-henderson-jr-new-special-teams-ace",
+      "pubDate": "2026-06-09T14:00:00.000Z",
+      "isoDate": "2026-06-09T14:00:00.000Z",
+      "excerpt": "LAWRENCE, KS - AUGUST 29: Kansas Jayhawks wide receiver Emmanuel Henderson Jr. (1) signals first down after a catch in the second quarter of a college football game between the Wagner Seahawks and Kansas Jayhawks on...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
+    {
+      "title": "Seahawks News 6/9: Seahawks that have something to prove in 2026",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169421/seahawks-news-6-9-seahawks-that-have-something-to-prove-in-2026",
+      "pubDate": "2026-06-09T13:10:33.000Z",
+      "isoDate": "2026-06-09T13:10:33.000Z",
+      "excerpt": "GREEN BAY, WISCONSIN - AUGUST 23: Emanuel Wilson #31 of the Green Bay Packers runs with the ball in the second quarter during the NFL Preseason 2025 game between Seattle Seahawks and Green Bay Packers at Lambeau Field...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
+    {
       "title": "Minor NFL Transactions: 6/8/26",
       "link": "https://www.profootballrumors.com/2026/06/minor-nfl-transactions-6-8-26",
       "pubDate": "Tue, 09 Jun 2026 00:01:55 +0000",
@@ -503,6 +428,16 @@
       "source": "Pro Football Rumors",
       "team": "seahawks",
       "priority": 2
+    },
+    {
+      "title": "Seahawks sign veteran offensive tackle Bobby Hart ahead of mandatory minicamp",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169391/seahawks-sign-veteran-offensive-tackle-bobby-hart-mandatory-minicamp-nfl-news",
+      "pubDate": "2026-06-08T23:17:52.000Z",
+      "isoDate": "2026-06-08T23:17:52.000Z",
+      "excerpt": "ARLINGTON, TX - DECEMBER 21: Bobby Hart #66 of the Los Angeles Chargers drops back to block during an NFL football game against the Dallas Cowboys at AT&T Stadium on December 21, 2025 in Arlington, Texas. (Photo by...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
     },
     {
       "title": "Seahawks Work Out S Ifeatu Melifonwu",
@@ -565,16 +500,6 @@
       "priority": 2
     },
     {
-      "title": "Seahawks DE Rylie Mills Feels 'Fully Back' To Who He Was Before ACL Injury",
-      "link": "https://www.seahawks.com/news/seahawks-de-rylie-mills-feels-fully-back-to-who-he-was-before-acl-injury",
-      "pubDate": "Thu, 04 Jun 2026 23:26:30 GMT",
-      "isoDate": "2026-06-04T23:26:30.000Z",
-      "excerpt": "Seattle’s second-year defensive end Rylie Mills is participating in his first offseason program after spending most of last season rehabbing an ACL injury.",
-      "source": "Seahawks.com",
-      "team": "seahawks",
-      "priority": 6
-    },
-    {
       "title": "Seattle Torrent Protect Wilgren, Murphy, Carpenter in Expansion Draft",
       "link": "https://www.davyjoneslockerroom.com/seattle-torrent-protect-wilgren-murphy-carpenter-in-expansion-draft/",
       "pubDate": "Thu, 04 Jun 2026 16:00:00 +0000",
@@ -603,6 +528,86 @@
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
+    },
+    {
+      "title": "Seattle Torrent Sign Alex Carpenter, Protect Her From Expansion Thieves",
+      "link": "https://www.davyjoneslockerroom.com/seattle-torrent-sign-alex-carpenter-protect-her-from-expansion-thieves/",
+      "pubDate": "Wed, 03 Jun 2026 14:00:00 +0000",
+      "isoDate": "2026-06-03T14:00:00.000Z",
+      "excerpt": "The Seattle Torrent re-signed forward Alex Carpenter to a 3-year PWHL Standard Player Agreement on June 2, keeping one of the franchise’s foundational pieces through 2028-29 and committing one of the team’s 3 protection...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
+      "title": "Melinda French Gates Becomes Minority Owner of the Seattle Kraken",
+      "link": "https://www.davyjoneslockerroom.com/melinda-french-gates-becomes-minority-owner-of-the-seattle-kraken/",
+      "pubDate": "Tue, 02 Jun 2026 14:00:00 +0000",
+      "isoDate": "2026-06-02T14:00:00.000Z",
+      "excerpt": "Melinda French Gates is becoming a minority owner of the Seattle Kraken, the team’s parent company said Monday, pending approval from the NHL. The size of her stake and the terms were not disclosed. French Gates, 61,...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
+      "title": "Stream Mariners games on Mariners.TV for NEW low price of $74.99",
+      "link": "https://www.mlb.com/mariners/news/mariners-tv-is-here-for-2026-season",
+      "pubDate": "Mon, 01 Jun 2026 16:18:00 GMT",
+      "isoDate": "2026-06-01T16:18:00.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Seahawks, Dante Fowler Agree To Deal",
+      "link": "https://www.profootballrumors.com/2026/05/seahawks-dante-fowler-agree-to-deal",
+      "pubDate": "Mon, 01 Jun 2026 03:55:05 +0000",
+      "isoDate": "2026-06-01T03:55:05.000Z",
+      "excerpt": "MAY 31: Fowler’s deal with the Seahawks has a base value of $2.5MM with just $500k guaranteed via a signing bonus, per ESPN’s Brady Henderson, the lowest of his career. He is also set to earn a $1.32MM salary and $680k...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
+      "priority": 2
+    },
+    {
+      "title": "Vikings Hire Nolan Teasley As GM; Rob Brzezinski Staying On As EVP",
+      "link": "https://www.profootballrumors.com/2026/05/vikings-to-hire-nolan-teasly-as-general-manager",
+      "pubDate": "Sun, 31 May 2026 04:20:11 +0000",
+      "isoDate": "2026-05-31T04:20:11.000Z",
+      "excerpt": "The Vikings have landed on their next general manager. Seahawks assistant GM Nolan Teasley will be taking over the front office in Minnesota, per NFL Network’s Tom Pelissero. The news is now official. Teasley is coming...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
+      "priority": 2
+    },
+    {
+      "title": "AL West Notes: Miller, Castillo, Langford, Rangers, Moore",
+      "link": "https://www.mlbtraderumors.com/2026/05/al-west-notes-miller-castillo-langford-rangers-moore.html",
+      "pubDate": "Sat, 30 May 2026 15:52:30 +0000",
+      "isoDate": "2026-05-30T15:52:30.000Z",
+      "excerpt": "Bryce Miller will start and Luis Castillo will again be the piggyback pitcher for the Mariners on Sunday, but the team will then adopt a six-man rotation, the Seattle Times’ Adam Jude writes. Friday’s game with the...",
+      "source": "MLB Trade Rumors",
+      "team": "mariners",
+      "priority": 2
+    },
+    {
+      "title": "Seahawks To Sign First-Round RB Jadarian Price, Wrap Draft Class Deals",
+      "link": "https://www.profootballrumors.com/2026/05/seahawks-to-sign-first-round-rb-jadarian-price-wrap-draft-class-deals",
+      "pubDate": "Fri, 29 May 2026 21:17:24 +0000",
+      "isoDate": "2026-05-29T21:17:24.000Z",
+      "excerpt": "The Seahawks have agreed to a deal with first-round running back Jadarian Price, Tom Pelissero of NFL Network reports. Price went 32nd overall, which carries a total value of approximately $16.78MM over four years. He...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
+      "priority": 2
+    },
+    {
+      "title": "Seahawks Sale Could Be Completed By August, Could Eclipse $10B",
+      "link": "https://www.profootballrumors.com/2026/05/seahawks-sale-could-be-completed-by-august-could-eclipse-10b",
+      "pubDate": "Fri, 29 May 2026 02:29:40 +0000",
+      "isoDate": "2026-05-29T02:29:40.000Z",
+      "excerpt": "Roger Goodell recently pushed back on the narrative that there’s a “soft” market for the Seahawks franchise, with the commissioner stating that there was in fact “tremendous interest” among prospective buyers. Days...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
+      "priority": 2
     }
   ]
 }
