@@ -1,8 +1,12 @@
 {
-  "generatedAt": "2026-06-11T03:37:26.660Z",
+  "generatedAt": "2026-06-11T08:43:03.482Z",
   "sourceCount": 10,
-  "successfulSources": 9,
+  "successfulSources": 8,
   "failedSources": [
+    {
+      "source": "Seattle Times Sports",
+      "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
+    },
     {
       "source": "Davy Jones' Locker Room",
       "error": "Status code 415 (lenient retry: Status code 415)"
@@ -10,14 +14,34 @@
   ],
   "items": [
     {
-      "title": "Photos: Seattle Storm take on Los Angeles Sparks",
-      "link": "https://www.seattletimes.com/sports/storm/photos-seattle-storm-take-on-los-angeles-sparks/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 10 Jun 2026 20:18:06 -0700",
-      "isoDate": "2026-06-11T03:18:06.000Z",
+      "title": "Woo, Bradish set for battle in Mariners-Orioles clash today (ESPN, 4 p.m. PT)",
+      "link": "https://www.mlb.com/mariners/news/mariners-orioles-series-finale-preview-for-june-11",
+      "pubDate": "Thu, 11 Jun 2026 05:42:00 GMT",
+      "isoDate": "2026-06-11T05:42:00.000Z",
       "excerpt": "",
-      "source": "Seattle Times Sports",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Ogwumike scores 24 points, Sparks beat Storm 88-83",
+      "link": "https://sports.mynorthwest.com/wnba/seattle-storm/ogwumike-scores-24-points-sparks-beat-seattle-storm-88-83",
+      "pubDate": "Thu, 11 Jun 2026 04:49:03 +0000",
+      "isoDate": "2026-06-11T04:49:03.000Z",
+      "excerpt": "Kelsey Plum added 19 points and 11 assists for Los Angeles.",
+      "source": "710 Seattle Sports",
       "team": "general",
-      "priority": 1
+      "priority": 3
+    },
+    {
+      "title": "Despite visible improvements, Kirby displeased with start vs. Orioles",
+      "link": "https://www.mlb.com/mariners/news/george-kirby-upset-with-outing-vs-orioles-despite-quality-start",
+      "pubDate": "Thu, 11 Jun 2026 03:47:33 GMT",
+      "isoDate": "2026-06-11T03:47:33.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
     },
     {
       "title": "Mariners fail to launch as bats go cold in loss to Orioles",
@@ -27,16 +51,6 @@
       "excerpt": "Jun 10, 2026; Baltimore, Maryland, USA; Baltimore Orioles second baseman Jackson Holliday (7) celebrates with his teammates after hitting a grand slam during the seventh inning against the Seattle Mariners at Oriole...",
       "source": "Lookout Landing",
       "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "FIFA Men’s World Cup: Mohamed Salah, Egypt teammates dazzle fans during Spokane training session",
-      "link": "https://www.seattletimes.com/sports/world-cup/fifa-mens-world-cup-mohamed-salah-egypt-teammates-dazzle-fans-during-spokane-training-session/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 10 Jun 2026 19:05:28 -0700",
-      "isoDate": "2026-06-11T02:05:28.000Z",
-      "excerpt": "The Egyptian national team held a two-hour training session Wednesday at Gonzaga with soccer icon Mohamed Salah drawing the attention of fans in attendance.",
-      "source": "Seattle Times Sports",
-      "team": "general",
       "priority": 1
     },
     {
@@ -50,36 +64,6 @@
       "priority": 3
     },
     {
-      "title": "Torrent protect forward Julie Gosling",
-      "link": "https://www.seattletimes.com/sports/torrent/torrent-protect-forward-gosling/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 10 Jun 2026 18:40:31 -0700",
-      "isoDate": "2026-06-11T01:40:31.000Z",
-      "excerpt": "Seattle signed the 25-year-old to a two-year standard player agreement, preventing four Professional Women’s Hockey League expansion teams from acquiring her.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Woo, Bradish set for battle in Mariners-Orioles clash Thursday (ESPN, 4 p.m. PT)",
-      "link": "https://www.mlb.com/mariners/news/mariners-orioles-series-finale-preview-for-june-11",
-      "pubDate": "Thu, 11 Jun 2026 01:31:33 GMT",
-      "isoDate": "2026-06-11T01:31:33.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
-    },
-    {
-      "title": "FIFA Men’s World Cup: Belgium making itself at home at Sounders HQ",
-      "link": "https://www.seattletimes.com/sports/world-cup/fifa-mens-world-cup-belgium-making-itself-at-home-at-sounders-hq/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 10 Jun 2026 18:23:41 -0700",
-      "isoDate": "2026-06-11T01:23:41.000Z",
-      "excerpt": "Belgium was impressed with the Sounders practice facility during its first media availability since arriving in the United States on Monday.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "‘That’s his responsibility’ &#8211; Mike Macdonald says Josh Jones ‘not ready to practice yet’",
       "link": "https://www.fieldgulls.com/seattle-seahawks-news/169474/thats-his-responsibility-mike-macdonald-josh-jones-seahawks-not-ready-to-practice",
       "pubDate": "2026-06-11T01:15:21.000Z",
@@ -87,16 +71,6 @@
       "excerpt": "Feb 11, 2026; Seattle, WA, USA; Seattle Seahawks fullback Brady Russell (38) and guard Josh Jones (74) during the Super Bowl LX trophy celebration at Lumen Field. Mandatory Credit: Kirby Lee-Imagn Images | Kirby...",
       "source": "Field Gulls",
       "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "George Kirby bounces back, but Mariners’ offense goes quiet in loss to Orioles",
-      "link": "https://www.seattletimes.com/sports/mariners/george-kirby-bounces-back-but-mariners-offense-goes-quiet-in-loss-to-orioles/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 10 Jun 2026 18:06:58 -0700",
-      "isoDate": "2026-06-11T01:06:58.000Z",
-      "excerpt": "George Kirby was sharp after four straight subpar outings, but the Mariners' thinned-out lineup managed just two hits off Orioles starter Brandon Young in a 7-2 loss.",
-      "source": "Seattle Times Sports",
-      "team": "general",
       "priority": 1
     },
     {
@@ -130,16 +104,6 @@
       "priority": 3
     },
     {
-      "title": "Seahawks spend minicamp working on ‘this year’s version’ of offense",
-      "link": "https://www.seattletimes.com/sports/seahawks/seahawks-spend-minicamp-working-on-this-years-version-of-offense/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 10 Jun 2026 17:25:03 -0700",
-      "isoDate": "2026-06-11T00:25:03.000Z",
-      "excerpt": "Seahawks coach Mike Macdonald said saying they have a \"new\" offense under a new coordinator is inaccurate. It's more \"this year's version of last year's offense.\"",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "The 'Kinda' New Offense, Injury Updates & Other Takeaways From Day 2 Of Seahawks Minicamp",
       "link": "https://www.seahawks.com/news/the-kinda-new-offense-injury-updates-other-takeaways-from-day-2-of-seahawks-minicamp",
       "pubDate": "Wed, 10 Jun 2026 23:42:42 GMT",
@@ -170,16 +134,6 @@
       "priority": 3
     },
     {
-      "title": "As FIFA Men’s World Cup approaches, Seattle Stadium turf ‘ready to go’",
-      "link": "https://www.seattletimes.com/sports/world-cup/as-fifa-mens-world-cup-approaches-seattle-stadium-turf-ready-to-go/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 10 Jun 2026 16:05:13 -0700",
-      "isoDate": "2026-06-10T23:05:13.000Z",
-      "excerpt": "While much of Seattle Stadium is still in the final stages of preparations before the World Cup, there was confidence that the field itself is more than ready.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "Macdonald explains why Seahawks signed OT Bobby Hart",
       "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/macdonald-explains-seattle-seahawks-signed-bobby-hart-josh-jones",
       "pubDate": "Wed, 10 Jun 2026 22:59:03 +0000",
@@ -188,16 +142,6 @@
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
-    },
-    {
-      "title": "A yearslong effort to woo Trump culminates with the World Cup",
-      "link": "https://www.seattletimes.com/nation-world/nation-politics/a-yearslong-effort-to-woo-trump-culminates-with-the-world-cup/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 10 Jun 2026 15:45:07 -0700",
-      "isoDate": "2026-06-10T22:45:07.000Z",
-      "excerpt": "Gianni Infantino, FIFA’s president, has unabashedly courted the president’s favor. Soccer officials privately ask, who really benefits?",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
     },
     {
       "title": "Emerson (back spasm) optimistic he will avoid IL, return to lineup soon",
@@ -290,16 +234,6 @@
       "priority": 2
     },
     {
-      "title": "Mariners put Matt Brash on IL again amid flurry of 5 roster moves",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-matt-brash-miles-mastrobuoni-flurry-roster-moves",
-      "pubDate": "Wed, 10 Jun 2026 20:38:00 +0000",
-      "isoDate": "2026-06-10T20:38:00.000Z",
-      "excerpt": "The Seattle Mariners announced five roster moves prior to Wednesday's game in Baltimore.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
       "title": "Seattle Seahawks announce 10 training camp public practices",
       "link": "https://www.fieldgulls.com/seattle-seahawks-preseason/169470/seattle-seahawks-2026-announce-10-public-training-camp-practice-schedule",
       "pubDate": "2026-06-10T19:05:27.000Z",
@@ -368,16 +302,6 @@
       "source": "Field Gulls",
       "team": "seahawks",
       "priority": 1
-    },
-    {
-      "title": "Raise -- no, strum the trident! Arozarena blasts game-winning homer in 10th",
-      "link": "https://www.mlb.com/mariners/news/randy-arozarena-leads-mariners-to-win-over-orioles-in-extra-innings",
-      "pubDate": "Wed, 10 Jun 2026 04:26:00 GMT",
-      "isoDate": "2026-06-10T04:26:00.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
     },
     {
       "title": "Mariners go down to Birdland",
@@ -607,6 +531,86 @@
       "excerpt": "Bryce Miller will start and Luis Castillo will again be the piggyback pitcher for the Mariners on Sunday, but the team will then adopt a six-man rotation, the Seattle Times’ Adam Jude writes. Friday’s game with the...",
       "source": "MLB Trade Rumors",
       "team": "mariners",
+      "priority": 2
+    },
+    {
+      "title": "Seahawks To Sign First-Round RB Jadarian Price, Wrap Draft Class Deals",
+      "link": "https://www.profootballrumors.com/2026/05/seahawks-to-sign-first-round-rb-jadarian-price-wrap-draft-class-deals",
+      "pubDate": "Fri, 29 May 2026 21:17:24 +0000",
+      "isoDate": "2026-05-29T21:17:24.000Z",
+      "excerpt": "The Seahawks have agreed to a deal with first-round running back Jadarian Price, Tom Pelissero of NFL Network reports. Price went 32nd overall, which carries a total value of approximately $16.78MM over four years. He...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
+      "priority": 2
+    },
+    {
+      "title": "Seahawks Sale Could Be Completed By August, Could Eclipse $10B",
+      "link": "https://www.profootballrumors.com/2026/05/seahawks-sale-could-be-completed-by-august-could-eclipse-10b",
+      "pubDate": "Fri, 29 May 2026 02:29:40 +0000",
+      "isoDate": "2026-05-29T02:29:40.000Z",
+      "excerpt": "Roger Goodell recently pushed back on the narrative that there’s a “soft” market for the Seahawks franchise, with the commissioner stating that there was in fact “tremendous interest” among prospective buyers. Days...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
+      "priority": 2
+    },
+    {
+      "title": "Mariners Notes: Crawford, Rotation, Castillo",
+      "link": "https://www.mlbtraderumors.com/2026/05/mariners-notes-crawford-rotation-castillo.html",
+      "pubDate": "Sun, 24 May 2026 04:22:37 +0000",
+      "isoDate": "2026-05-24T04:22:37.000Z",
+      "excerpt": "J.P. Crawford has been a key part of the Mariners’ lineup since joining the club in 2019. In over 3,800 plate appearances with Seattle, Crawford has batted .248/.341/.369 with a 107 wRC+ while providing serviceable...",
+      "source": "MLB Trade Rumors",
+      "team": "mariners",
+      "priority": 2
+    },
+    {
+      "title": "MLBTR Podcast: Colt Emerson Debuts, Blue Jays’ Rotation Issues, And What To Make Of The Mets And Astros",
+      "link": "https://www.mlbtraderumors.com/2026/05/mlbtr-podcast-colt-emerson-debuts-blue-jays-rotation-issues-and-what-to-make-of-the-mets-and-astros.html",
+      "pubDate": "Thu, 21 May 2026 04:00:16 +0000",
+      "isoDate": "2026-05-21T04:00:16.000Z",
+      "excerpt": "The latest episode of the MLB Trade Rumors Podcast is now live on Spotify, Apple Podcasts, and wherever you get your podcasts! Make sure you subscribe as well! You can also use the player at this link to listen, if you...",
+      "source": "MLB Trade Rumors",
+      "team": "mariners",
+      "priority": 2
+    },
+    {
+      "title": "Kraken Sign Alexis Bernier To Entry-Level Contract",
+      "link": "https://www.prohockeyrumors.com/2026/05/kraken-sign-defenseman-alexis-bernier-to-entry-level-contract.html",
+      "pubDate": "Tue, 19 May 2026 17:30:30 +0000",
+      "isoDate": "2026-05-19T17:30:30.000Z",
+      "excerpt": "The Seattle Kraken have locked up one of their promising young blue-line prospects, signing defenseman Alexis Bernier to a three-year, entry-level contract. According to the team, the deal will carry an average annual...",
+      "source": "Pro Hockey Rumors",
+      "team": "kraken",
+      "priority": 2
+    },
+    {
+      "title": "Evening Notes: Kraken, Manson, Sabres",
+      "link": "https://www.prohockeyrumors.com/2026/05/evening-notes-kraken-manson-sabres.html",
+      "pubDate": "Tue, 12 May 2026 23:06:29 +0000",
+      "isoDate": "2026-05-12T23:06:29.000Z",
+      "excerpt": "The Seattle Kraken have partnered with sports advisory firm Sportsology to perform an assessment of their hockey operations department after parting ways with general manager Ron Francis, per Fox 13 Seattle. The firm...",
+      "source": "Pro Hockey Rumors",
+      "team": "kraken",
+      "priority": 2
+    },
+    {
+      "title": "Offseason Checklist: Seattle Kraken",
+      "link": "https://www.prohockeyrumors.com/2026/05/offseason-checklist-seattle-kraken-5.html",
+      "pubDate": "Fri, 08 May 2026 03:00:35 +0000",
+      "isoDate": "2026-05-08T03:00:35.000Z",
+      "excerpt": "A look at what the Seattle Kraken should be looking to do this offseason.",
+      "source": "Pro Hockey Rumors",
+      "team": "kraken",
+      "priority": 2
+    },
+    {
+      "title": "Poll: Which Active Players Will Become An NHL GM?",
+      "link": "https://www.prohockeyrumors.com/2026/05/poll-which-active-players-will-become-an-nhl-gm.html",
+      "pubDate": "Thu, 07 May 2026 21:36:29 +0000",
+      "isoDate": "2026-05-07T21:36:29.000Z",
+      "excerpt": "The connection between NHL playing careers and front office roles has existed for nearly as long as the league itself. Some of the most highly-regarded executives – from Glen Sather in the 1980s to Jim Nill today –...",
+      "source": "Pro Hockey Rumors",
+      "team": "kraken",
       "priority": 2
     }
   ]
