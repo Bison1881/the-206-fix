@@ -1,18 +1,34 @@
 {
-  "generatedAt": "2026-06-11T08:43:03.482Z",
+  "generatedAt": "2026-06-11T13:56:55.166Z",
   "sourceCount": 10,
-  "successfulSources": 8,
+  "successfulSources": 9,
   "failedSources": [
     {
       "source": "Seattle Times Sports",
       "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
-    },
-    {
-      "source": "Davy Jones' Locker Room",
-      "error": "Status code 415 (lenient retry: Status code 415)"
     }
   ],
   "items": [
+    {
+      "title": "Seahawks News 6/11: Seahawks further tweaking The Demon’s role",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169478/seahawks-news-6-11-seahawks-further-tweaking-the-demons-role",
+      "pubDate": "2026-06-11T13:00:00.000Z",
+      "isoDate": "2026-06-11T13:00:00.000Z",
+      "excerpt": "Jun 9, 2026; Renton, WA, USA; Seattle Seahawks safety Nick Emmanwori (3) speaks to the media after minicamp practice at Virginia Mason Athletic Center. Mandatory Credit: Steven Bisig-Imagn Images | Steven Bisig-Imagn...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
+    {
+      "title": "Mariners News: Matt Brash, Max Scherzer, and OG Anunoby",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-news/144672/mariners-news-matt-brash-max-scherzer-and-og-anunoby",
+      "pubDate": "2026-06-11T11:00:00.000Z",
+      "isoDate": "2026-06-11T11:00:00.000Z",
+      "excerpt": "Jun 10, 2026; Toronto, Ontario, CAN; Toronto Blue Jays pitcher Max Scherzer (31) celebrates his career 3500th strike out against the Philadelphia Phillies during the first inning at Rogers Centre. Mandatory Credit:...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
     {
       "title": "Woo, Bradish set for battle in Mariners-Orioles clash today (ESPN, 4 p.m. PT)",
       "link": "https://www.mlb.com/mariners/news/mariners-orioles-series-finale-preview-for-june-11",
@@ -32,6 +48,16 @@
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
+    },
+    {
+      "title": "Julia Gosling Signs Two-Year Deal With the Torrent",
+      "link": "https://www.davyjoneslockerroom.com/julia-gosling-signs-two-year-deal-with-the-torrent/",
+      "pubDate": "Thu, 11 Jun 2026 04:29:02 +0000",
+      "isoDate": "2026-06-11T04:29:02.000Z",
+      "excerpt": "Julia Gosling rejected a foundational player offer (FPO) to become a key component for the Seattle Torrent next year. She signed a two-year deal and became the first of Seattle’s Phase 3 protections and fourth protected...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
     },
     {
       "title": "Despite visible improvements, Kirby displeased with start vs. Orioles",
@@ -334,16 +360,6 @@
       "priority": 6
     },
     {
-      "title": "36-32: Chart",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/144635/36-32-chart",
-      "pubDate": "2026-06-10T01:51:54.000Z",
-      "isoDate": "2026-06-10T01:51:54.000Z",
-      "excerpt": "BALTIMORE, MARYLAND - JUNE 09: Mitch Garver #18 of the Seattle Mariners celebrates with Cole Young #2 after hitting a three-run home run in the fourth inning against the Baltimore Orioles at Oriole Park at Camden Yards...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
       "title": "Mariners Acquire Carson Fulmer",
       "link": "https://www.mlbtraderumors.com/2026/06/mariners-acquire-carson-fulmer.html",
       "pubDate": "Tue, 09 Jun 2026 21:45:28 +0000",
@@ -369,16 +385,6 @@
       "pubDate": "2026-06-09T17:48:59.000Z",
       "isoDate": "2026-06-09T17:48:59.000Z",
       "excerpt": "LOS ANGELES, CALIFORNIA - JUNE 16: Todd Boehly attends Los Angeles Dodgers Foundation's annual Blue Diamond Gala at Dodger Stadium on June 16, 2022 in Los Angeles, California. (Photo by Kevin Winter/Getty Images) |...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "Seahawks 2026 rookie predictions: Is Emmanuel Henderson Jr the new special teams ace?",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/169397/seahawks-2026-rookie-predictions-is-emmanuel-henderson-jr-new-special-teams-ace",
-      "pubDate": "2026-06-09T14:00:00.000Z",
-      "isoDate": "2026-06-09T14:00:00.000Z",
-      "excerpt": "LAWRENCE, KS - AUGUST 29: Kansas Jayhawks wide receiver Emmanuel Henderson Jr. (1) signals first down after a catch in the second quarter of a college football game between the Wagner Seahawks and Kansas Jayhawks on...",
       "source": "Field Gulls",
       "team": "seahawks",
       "priority": 1
@@ -474,6 +480,16 @@
       "priority": 6
     },
     {
+      "title": "Seattle Torrent Protect Wilgren, Murphy, Carpenter in Expansion Draft",
+      "link": "https://www.davyjoneslockerroom.com/seattle-torrent-protect-wilgren-murphy-carpenter-in-expansion-draft/",
+      "pubDate": "Thu, 04 Jun 2026 16:00:00 +0000",
+      "isoDate": "2026-06-04T16:00:00.000Z",
+      "excerpt": "The Torrent have made some interesting choices in the upcoming expansion process by choosing to protect Anna Wilgren, Hannah Murphy, and Alex Carpenter. Not exactly an expansion draft, the PWHL’s Expansion Roster...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
       "title": "Russell Wilson Announces Retirement",
       "link": "https://www.profootballrumors.com/2026/06/russell-wilson-announces-retirement",
       "pubDate": "Thu, 04 Jun 2026 04:30:09 +0000",
@@ -492,6 +508,26 @@
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
+    },
+    {
+      "title": "Seattle Torrent Sign Alex Carpenter, Protect Her From Expansion Thieves",
+      "link": "https://www.davyjoneslockerroom.com/seattle-torrent-sign-alex-carpenter-protect-her-from-expansion-thieves/",
+      "pubDate": "Wed, 03 Jun 2026 14:00:00 +0000",
+      "isoDate": "2026-06-03T14:00:00.000Z",
+      "excerpt": "The Seattle Torrent re-signed forward Alex Carpenter to a 3-year PWHL Standard Player Agreement on June 2, keeping one of the franchise’s foundational pieces through 2028-29 and committing one of the team’s 3 protection...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
+      "title": "Melinda French Gates Becomes Minority Owner of the Seattle Kraken",
+      "link": "https://www.davyjoneslockerroom.com/melinda-french-gates-becomes-minority-owner-of-the-seattle-kraken/",
+      "pubDate": "Tue, 02 Jun 2026 14:00:00 +0000",
+      "isoDate": "2026-06-02T14:00:00.000Z",
+      "excerpt": "Melinda French Gates is becoming a minority owner of the Seattle Kraken, the team’s parent company said Monday, pending approval from the NHL. The size of her stake and the terms were not disclosed. French Gates, 61,...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
     },
     {
       "title": "Stream Mariners games on Mariners.TV for NEW low price of $74.99",
@@ -564,54 +600,14 @@
       "priority": 2
     },
     {
-      "title": "MLBTR Podcast: Colt Emerson Debuts, Blue Jays’ Rotation Issues, And What To Make Of The Mets And Astros",
-      "link": "https://www.mlbtraderumors.com/2026/05/mlbtr-podcast-colt-emerson-debuts-blue-jays-rotation-issues-and-what-to-make-of-the-mets-and-astros.html",
-      "pubDate": "Thu, 21 May 2026 04:00:16 +0000",
-      "isoDate": "2026-05-21T04:00:16.000Z",
-      "excerpt": "The latest episode of the MLB Trade Rumors Podcast is now live on Spotify, Apple Podcasts, and wherever you get your podcasts! Make sure you subscribe as well! You can also use the player at this link to listen, if you...",
-      "source": "MLB Trade Rumors",
-      "team": "mariners",
-      "priority": 2
-    },
-    {
-      "title": "Kraken Sign Alexis Bernier To Entry-Level Contract",
-      "link": "https://www.prohockeyrumors.com/2026/05/kraken-sign-defenseman-alexis-bernier-to-entry-level-contract.html",
-      "pubDate": "Tue, 19 May 2026 17:30:30 +0000",
-      "isoDate": "2026-05-19T17:30:30.000Z",
-      "excerpt": "The Seattle Kraken have locked up one of their promising young blue-line prospects, signing defenseman Alexis Bernier to a three-year, entry-level contract. According to the team, the deal will carry an average annual...",
-      "source": "Pro Hockey Rumors",
+      "title": "Firebirds season ends in 4 games in AHL Pacific Division Final",
+      "link": "https://www.davyjoneslockerroom.com/firebirds-season-ends-in-4-games-in-ahl-pacific-division-final/",
+      "pubDate": "Thu, 21 May 2026 14:00:00 +0000",
+      "isoDate": "2026-05-21T14:00:00.000Z",
+      "excerpt": "Just not to be. The Coachella Valley Firebirds faced Colorado in Game 4 last night, and unfortunately, with their season on the line, couldn’t stymie the advance of the Eagles in the AHL Postseason, losing a...",
+      "source": "Davy Jones' Locker Room",
       "team": "kraken",
-      "priority": 2
-    },
-    {
-      "title": "Evening Notes: Kraken, Manson, Sabres",
-      "link": "https://www.prohockeyrumors.com/2026/05/evening-notes-kraken-manson-sabres.html",
-      "pubDate": "Tue, 12 May 2026 23:06:29 +0000",
-      "isoDate": "2026-05-12T23:06:29.000Z",
-      "excerpt": "The Seattle Kraken have partnered with sports advisory firm Sportsology to perform an assessment of their hockey operations department after parting ways with general manager Ron Francis, per Fox 13 Seattle. The firm...",
-      "source": "Pro Hockey Rumors",
-      "team": "kraken",
-      "priority": 2
-    },
-    {
-      "title": "Offseason Checklist: Seattle Kraken",
-      "link": "https://www.prohockeyrumors.com/2026/05/offseason-checklist-seattle-kraken-5.html",
-      "pubDate": "Fri, 08 May 2026 03:00:35 +0000",
-      "isoDate": "2026-05-08T03:00:35.000Z",
-      "excerpt": "A look at what the Seattle Kraken should be looking to do this offseason.",
-      "source": "Pro Hockey Rumors",
-      "team": "kraken",
-      "priority": 2
-    },
-    {
-      "title": "Poll: Which Active Players Will Become An NHL GM?",
-      "link": "https://www.prohockeyrumors.com/2026/05/poll-which-active-players-will-become-an-nhl-gm.html",
-      "pubDate": "Thu, 07 May 2026 21:36:29 +0000",
-      "isoDate": "2026-05-07T21:36:29.000Z",
-      "excerpt": "The connection between NHL playing careers and front office roles has existed for nearly as long as the league itself. Some of the most highly-regarded executives – from Glen Sather in the 1980s to Jim Nill today –...",
-      "source": "Pro Hockey Rumors",
-      "team": "kraken",
-      "priority": 2
+      "priority": 1
     }
   ]
 }
