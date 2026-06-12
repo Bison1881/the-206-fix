@@ -1,14 +1,74 @@
 {
-  "generatedAt": "2026-06-12T12:52:36.772Z",
+  "generatedAt": "2026-06-12T16:42:17.663Z",
   "sourceCount": 10,
   "successfulSources": 9,
   "failedSources": [
     {
-      "source": "Davy Jones' Locker Room",
-      "error": "Status code 415 (lenient retry: Status code 415)"
+      "source": "Seattle Times Sports",
+      "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
     }
   ],
   "items": [
+    {
+      "title": "Reviewing Deven Eastern and his fit with the Seahawks",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/169492/reviewing-deven-eastern-and-his-fit-with-the-seahawks",
+      "pubDate": "2026-06-12T15:48:28.000Z",
+      "isoDate": "2026-06-12T15:48:28.000Z",
+      "excerpt": "The Seattle Seahawks enjoy an explosive, run stuffing defensive tackle that can apply pressure to the quarterback: Cortez Kennedy, Brandon Mebane, Poona Ford and Joe Nash, to name a few former players. Enter rookie...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
+    {
+      "title": "Mariners double down on trust in Muñoz",
+      "link": "https://www.mlb.com/mariners/news/andres-munoz-to-keep-closer-role-in-mariners-bullpen",
+      "pubDate": "Fri, 12 Jun 2026 15:07:23 GMT",
+      "isoDate": "2026-06-12T15:07:23.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Former Seahawks pass rusher Cassius Marsh retires with Seattle",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169509/former-seahawks-pass-rusher-cassius-marsh-retires-nfl-news",
+      "pubDate": "2026-06-12T15:00:00.000Z",
+      "isoDate": "2026-06-12T15:00:00.000Z",
+      "excerpt": "There’s a certain grieving period that all professional athletes go through when deciding to hang up their cleats. For some, it’s short and easy, but others take longer to come to terms with a new reality. For former...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
+    {
+      "title": "Why a quiet trade deadline could make sense for Mariners",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/why-a-quiet-trade-deadline-could-make-sense-for-seattle-mariners",
+      "pubDate": "Fri, 12 Jun 2026 14:42:00 +0000",
+      "isoDate": "2026-06-12T14:42:00.000Z",
+      "excerpt": "Brock and Salk discuss what makes this a unique year for Seattle in terms of the trade deadline.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Mariners News: Matt Brash, Shohei Ohtani, and Tarik Skubal",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-news/144792/matt-brash-shohei-ohtani-tarik-skubal-julio-rodriguez-joc-pederson",
+      "pubDate": "2026-06-12T14:00:00.000Z",
+      "isoDate": "2026-06-12T14:00:00.000Z",
+      "excerpt": "SEATTLE, WA - JUNE 01: Matt Brash #47 of the Seattle Mariners pitches during the game between the New York Mets and the Seattle Mariners at T-Mobile Park on Monday, June 1, 2026 in Seattle, Washington. (Photo by Connor...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Seahawks News 6/11: Thoughts on Seahawks Minicamp",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169511/seahawks-news-6-11-thoughts-on-seahawks-minicamp",
+      "pubDate": "2026-06-12T13:00:00.000Z",
+      "isoDate": "2026-06-12T13:00:00.000Z",
+      "excerpt": "RENTON, WASHINGTON - JUNE 11: Elijah Arroyo #18 of the Seattle Seahawks throws the ball during practice at Virginia Mason Athletic Center on June 11, 2026 in Renton, Washington. (Photo by Jack Compton/Getty Images) |...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
     {
       "title": "Raleigh homers AGAIN at Triple-A while nearing return to MLB",
       "link": "https://www.mlb.com/mariners/news/cal-raleigh-homers-again-during-triple-a-rehab-assignment",
@@ -30,13 +90,13 @@
       "priority": 3
     },
     {
-      "title": "Seahawks unveil Super Bowl rings",
-      "link": "https://www.seattletimes.com/sports/seahawks/seahawks-receive-their-super-bowl-rings/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Thu, 11 Jun 2026 21:42:45 -0700",
-      "isoDate": "2026-06-12T04:42:45.000Z",
-      "excerpt": "The Seahawks called them “the largest and most technologically advanced Super Bowl ring ever created.\"",
-      "source": "Seattle Times Sports",
-      "team": "general",
+      "title": "Kraken add Patrik Allvin as Assistant GM, add Pascal Vincent as Assistant Coach",
+      "link": "https://www.davyjoneslockerroom.com/kraken-add-patrik-allvin-as-assistant-gm-add-pascal-vincent-as-assistant-coach/",
+      "pubDate": "Fri, 12 Jun 2026 05:04:14 +0000",
+      "isoDate": "2026-06-12T05:04:14.000Z",
+      "excerpt": "The plot for both Lane Lambert and Jason Botterill thickens today, as the Kraken have added to their front office with the additions of names both slightly known and slightly unknown. Alison Lukan broke the story: The...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
       "priority": 1
     },
     {
@@ -58,16 +118,6 @@
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
-    },
-    {
-      "title": "Hwang In-beom sparks South Korea’s 2-1 comeback win over the Czech Republic at the World Cup",
-      "link": "https://www.seattletimes.com/sports/world-cup/hwang-in-beom-sparks-south-koreas-2-1-comeback-win-over-the-czech-republic-at-the-world-cup/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Thu, 11 Jun 2026 21:14:47 -0700",
-      "isoDate": "2026-06-12T04:14:47.000Z",
-      "excerpt": "Hwang In-beom scored a goal and set up another as South Korea rallied to defeat the Czech Republic 2-1 in the second match of the 2026 World Cup.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
     },
     {
       "title": "There is no meaning in Baltimore, Mariners lose to Orioles",
@@ -100,6 +150,16 @@
       "priority": 6
     },
     {
+      "title": "Christine Bumstead Named Head Coach of the Seattle Torrent",
+      "link": "https://www.davyjoneslockerroom.com/christine-bumstead-named-head-coach-of-the-seattle-torrent/",
+      "pubDate": "Fri, 12 Jun 2026 02:12:29 +0000",
+      "isoDate": "2026-06-12T02:12:29.000Z",
+      "excerpt": "The Seattle Torrent named Christine Bumstead as the head coach for the franchise’s second year. Bumstead was an assistant coach during the team’s inaugural season and takes over the role from Steve O’Rourke who was let...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
       "title": "Orioles beat Mariners 7-5 for series split",
       "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/orioles-beat-mariners-7-5-for-series-split",
       "pubDate": "Fri, 12 Jun 2026 02:08:54 +0000",
@@ -120,56 +180,6 @@
       "priority": 1
     },
     {
-      "title": "Bryan Woo roughed up in Mariners’ loss in Baltimore",
-      "link": "https://www.seattletimes.com/sports/mariners/bryan-woo-roughed-up-in-mariners-loss-in-baltimore/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Thu, 11 Jun 2026 18:59:21 -0700",
-      "isoDate": "2026-06-12T01:59:21.000Z",
-      "excerpt": "Bryan Woo’s woes on the road resurfaced Thursday night when the Orioles battered him for six runs in the third inning en route to a 7-5 victory over the Mariners.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "2026 World Cup: Sounders reserve GK Max Anchor adopted by Belgium",
-      "link": "https://www.seattletimes.com/sports/world-cup/2026-world-cup-sounders-reserve-gk-max-anchor-adopted-by-belgium/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Thu, 11 Jun 2026 17:43:19 -0700",
-      "isoDate": "2026-06-12T00:43:19.000Z",
-      "excerpt": "The Sounders' third goalkeeper, Max Anchor, was adopted by Belgium, which is using the Sounders' headquarters in preparation for the FIFA Men's World Cup.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Seattle shows it has 2026 World Cup fever as tournament kicks off",
-      "link": "https://www.seattletimes.com/sports/world-cup/seattle-shows-it-has-2026-world-cup-fever-as-tournament-kicks-off/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Thu, 11 Jun 2026 17:03:04 -0700",
-      "isoDate": "2026-06-12T00:03:04.000Z",
-      "excerpt": "Whether it was near the stadium that will host matches, in small bars or large gathering spaces, Seattle showed up for the first day of the FIFA Men’s World Cup.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Shakira, Andrea Bocelli and Salma Hayek kick-start the World Cup at opening ceremony in Mexico City",
-      "link": "https://www.seattletimes.com/entertainment/shakira-andrea-bocelli-and-salma-hayek-kick-start-the-world-cup-at-opening-ceremony-in-mexico-city/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Thu, 11 Jun 2026 16:33:42 -0700",
-      "isoDate": "2026-06-11T23:33:42.000Z",
-      "excerpt": "The opening ceremony of the 2026 World Cup in Mexico City was full of international stars.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Seattle World Cup: What to know about riding light rail, buses, ferries",
-      "link": "https://www.seattletimes.com/seattle-news/transportation/seattle-world-cup-what-to-know-about-riding-light-rail-buses-ferries/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Thu, 11 Jun 2026 16:30:44 -0700",
-      "isoDate": "2026-06-11T23:30:44.000Z",
-      "excerpt": "Driving toward downtown or Sodo should prove a fool's errand on match days. Transit is encouraged, but a special zone around the stadium will change things a bit.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "Reports: Seahawks to hold joint practice with Titans",
       "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/reports-seahawks-to-hold-joint-practice-with-titans",
       "pubDate": "Thu, 11 Jun 2026 23:27:33 +0000",
@@ -178,6 +188,16 @@
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
+    },
+    {
+      "title": "Seahawks to hold joint practice with Titans in Nashville (again)",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169496/nfl-news-seahawks-hold-joint-practice-vs-titans-nashville",
+      "pubDate": "2026-06-11T23:20:30.000Z",
+      "isoDate": "2026-06-11T23:20:30.000Z",
+      "excerpt": "Seattle Seahawks cornerback Michael Jackson (30) guards Tennessee Titans wide receiver Mason Kinsey (12) at Ascension Saint Thomas Sports Park in Nashville, Tenn., Thursday, Aug. 15, 2024. This is the second day of the...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
     },
     {
       "title": "Latest Mariners injuries and transactions",
@@ -190,31 +210,11 @@
       "priority": 6
     },
     {
-      "title": "Seahawks wrap up minicamp, head into break | Notebook",
-      "link": "https://www.seattletimes.com/sports/seahawks/seahawks-wrap-up-minicamp-head-into-break-notebook/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Thu, 11 Jun 2026 16:00:15 -0700",
-      "isoDate": "2026-06-11T23:00:15.000Z",
-      "excerpt": "The Seahawks ended their minicamp in what felt like fitting fashion — with an energetic workout that seemed to tip a in favor of the defense.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "Brash likely out for 'a while'; Rucker added to bullpen",
       "link": "https://www.mlb.com/mariners/news/michael-rucker-selected-to-mariners-roster",
       "pubDate": "Thu, 11 Jun 2026 23:00:00 GMT",
       "isoDate": "2026-06-11T23:00:00.000Z",
       "excerpt": "Mariners also designate Domingo Gonzalez",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
-    },
-    {
-      "title": "The Draft is one month away! Check out our latest mock",
-      "link": "https://www.mlb.com/mariners/news/mlb-pipeline-2026-mock-draft-june-11",
-      "pubDate": "Thu, 11 Jun 2026 23:00:00 GMT",
-      "isoDate": "2026-06-11T23:00:00.000Z",
-      "excerpt": "",
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
@@ -270,16 +270,6 @@
       "priority": 3
     },
     {
-      "title": "2-time Cy Young winner Tarik Skubal returning for Tigers on Saturday",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/tarik-skubal-returning-tigers-saturday",
-      "pubDate": "Thu, 11 Jun 2026 21:12:55 +0000",
-      "isoDate": "2026-06-11T21:12:55.000Z",
-      "excerpt": "Seattle U product Tarik Skubal, who could be the biggest name at the MLB trade deadline, has been out of action since late April.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
       "title": "Mariners Reacts Survey: Decisions, Decisions, Decisions",
       "link": "https://www.lookoutlanding.com/general/144669/mariners-reacts-survey-decisions-decisions-decisions",
       "pubDate": "2026-06-11T20:42:13.000Z",
@@ -297,6 +287,16 @@
       "excerpt": "CHICAGO, IL - JUNE 15: Michael Rucker of the Chicago Cubs pitches in a game against the Pittsburgh Pirates at Wrigley Field on June 15, 2023 in Chicago, Illinois. (Photo by Matt Dirksen/Getty Images) | Getty Images The...",
       "source": "Lookout Landing",
       "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Mike Macdonald: Seahawks looking at early training camp return for Tory Horton",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169489/mike-macdonald-seahawks-looking-at-early-training-camp-return-tory-horton",
+      "pubDate": "2026-06-11T19:58:13.000Z",
+      "isoDate": "2026-06-11T19:58:13.000Z",
+      "excerpt": "Nov 2, 2025; Landover, Maryland, USA; Seattle Seahawks wide receiver Tory Horton (15) catches a touchdown pass as Washington Commanders cornerback Mike Sainristil (0) watches during the second quarter at Northwest...",
+      "source": "Field Gulls",
+      "team": "seahawks",
       "priority": 1
     },
     {
@@ -340,6 +340,16 @@
       "priority": 1
     },
     {
+      "title": "Seahawks News 6/11: Seahawks further tweaking The Demon’s role",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169478/seahawks-news-6-11-seahawks-further-tweaking-the-demons-role",
+      "pubDate": "2026-06-11T13:00:00.000Z",
+      "isoDate": "2026-06-11T13:00:00.000Z",
+      "excerpt": "Jun 9, 2026; Renton, WA, USA; Seattle Seahawks safety Nick Emmanwori (3) speaks to the media after minicamp practice at Virginia Mason Athletic Center. Mandatory Credit: Steven Bisig-Imagn Images | Steven Bisig-Imagn...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
+    {
       "title": "Mariners News: Matt Brash, Max Scherzer, and OG Anunoby",
       "link": "https://www.lookoutlanding.com/seattle-mariners-news/144672/mariners-news-matt-brash-max-scherzer-and-og-anunoby",
       "pubDate": "2026-06-11T11:00:00.000Z",
@@ -350,13 +360,13 @@
       "priority": 1
     },
     {
-      "title": "Mariners fail to launch as bats go cold in loss to Orioles",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/144703/mariners-fail-to-launch-as-bats-go-cold-in-loss-to-orioles",
-      "pubDate": "2026-06-11T02:23:18.000Z",
-      "isoDate": "2026-06-11T02:23:18.000Z",
-      "excerpt": "Jun 10, 2026; Baltimore, Maryland, USA; Baltimore Orioles second baseman Jackson Holliday (7) celebrates with his teammates after hitting a grand slam during the seventh inning against the Seattle Mariners at Oriole...",
-      "source": "Lookout Landing",
-      "team": "mariners",
+      "title": "Julia Gosling Signs Two-Year Deal With the Torrent",
+      "link": "https://www.davyjoneslockerroom.com/julia-gosling-signs-two-year-deal-with-the-torrent/",
+      "pubDate": "Thu, 11 Jun 2026 04:29:02 +0000",
+      "isoDate": "2026-06-11T04:29:02.000Z",
+      "excerpt": "Julia Gosling rejected a foundational player offer (FPO) to become a key component for the Seattle Torrent next year. She signed a two-year deal and became the first of Seattle’s Phase 3 protections and fourth protected...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
       "priority": 1
     },
     {
@@ -430,36 +440,6 @@
       "priority": 6
     },
     {
-      "title": "Seahawks Reacts Survey: Who’s the toughest opponent out of Seattle’s first five games?",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/169435/seahawks-reacts-survey-toughest-opponent-seahawks-first-five-games-season",
-      "pubDate": "2026-06-10T15:00:00.000Z",
-      "isoDate": "2026-06-10T15:00:00.000Z",
-      "excerpt": "SANTA CLARA, CALIFORNIA - FEBRUARY 08: Drake Maye #10 of the New England Patriots is sacked by Rylie Mills #98 of the Seattle Seahawks as Jared Wilson #58 of the New England Patriots tries to block during the second...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "NFLPA releases top 50 players sales list, Jaxon Smith-Njigba ranks near the top",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169442/nflpa-releases-top-50-players-sales-list-jaxon-smith-njigba-near-top-seahawks-news",
-      "pubDate": "2026-06-10T14:00:00.000Z",
-      "isoDate": "2026-06-10T14:00:00.000Z",
-      "excerpt": "SANTA CLARA, CALIFORNIA - FEBRUARY 8: Jaxon Smith-Njigba #11 of the Seattle Seahawks stands on the field prior to the NFL Super Bowl LX football game against the New England Patriots, at Levi's Stadium on February 8,...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "Seahawks News 6/10: What expectations do the Seahawks have for Jalen Milroe?",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169455/seahawks-news-6-10-what-expectations-do-the-seahawks-have-for-jalen-milroe",
-      "pubDate": "2026-06-10T13:17:40.000Z",
-      "isoDate": "2026-06-10T13:17:40.000Z",
-      "excerpt": "RENTON, WASHINGTON - JUNE 04: Sam Darnold #14 and Jalen Milroe #6 of the Seattle Seahawks work out during practice at Virginia Mason Athletic Center on June 04, 2026 in Renton, Washington. (Photo by Steph Chambers/Getty...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
-    },
-    {
       "title": "Seahawks Safety Nick Emmanwori 'Trying To Evolve My Game' Heading Into Year 2",
       "link": "https://www.seahawks.com/news/seahawks-safety-nick-emmanwori-trying-to-evolve-my-game-heading-into-year-2",
       "pubDate": "Wed, 10 Jun 2026 02:05:47 GMT",
@@ -478,36 +458,6 @@
       "source": "MLB Trade Rumors",
       "team": "mariners",
       "priority": 2
-    },
-    {
-      "title": "Seahawks work out former Lions defensive back Ifeatu Melifonwu",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169428/seahawks-safety-ifeatu-melifonwu-workout-nfl-news",
-      "pubDate": "2026-06-09T20:51:24.000Z",
-      "isoDate": "2026-06-09T20:51:24.000Z",
-      "excerpt": "MINNEAPOLIS, MINNESOTA - DECEMBER 24: Ifeatu Melifonwu #6 of the Detroit Lions is congratulated by Kerby Joseph #31 after an interception against the Minnesota Vikings at the end of the fourth quarter at U.S. Bank...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "Todd Boehly, part owner of Lakers, Dodgers, considering Seahawks ownership bid",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169430/nfl-news-report-todd-boehly-part-owner-lakers-dodgers-considering-seahawks-ownership-bid",
-      "pubDate": "2026-06-09T17:48:59.000Z",
-      "isoDate": "2026-06-09T17:48:59.000Z",
-      "excerpt": "LOS ANGELES, CALIFORNIA - JUNE 16: Todd Boehly attends Los Angeles Dodgers Foundation's annual Blue Diamond Gala at Dodger Stadium on June 16, 2022 in Los Angeles, California. (Photo by Kevin Winter/Getty Images) |...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "Seahawks 2026 rookie predictions: Is Emmanuel Henderson Jr the new special teams ace?",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/169397/seahawks-2026-rookie-predictions-is-emmanuel-henderson-jr-new-special-teams-ace",
-      "pubDate": "2026-06-09T14:00:00.000Z",
-      "isoDate": "2026-06-09T14:00:00.000Z",
-      "excerpt": "LAWRENCE, KS - AUGUST 29: Kansas Jayhawks wide receiver Emmanuel Henderson Jr. (1) signals first down after a catch in the second quarter of a college football game between the Wagner Seahawks and Kansas Jayhawks on...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
     },
     {
       "title": "Minor NFL Transactions: 6/8/26",
@@ -570,6 +520,16 @@
       "priority": 2
     },
     {
+      "title": "Seattle Torrent Protect Wilgren, Murphy, Carpenter in Expansion Draft",
+      "link": "https://www.davyjoneslockerroom.com/seattle-torrent-protect-wilgren-murphy-carpenter-in-expansion-draft/",
+      "pubDate": "Thu, 04 Jun 2026 16:00:00 +0000",
+      "isoDate": "2026-06-04T16:00:00.000Z",
+      "excerpt": "The Torrent have made some interesting choices in the upcoming expansion process by choosing to protect Anna Wilgren, Hannah Murphy, and Alex Carpenter. Not exactly an expansion draft, the PWHL’s Expansion Roster...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
       "title": "Russell Wilson Announces Retirement",
       "link": "https://www.profootballrumors.com/2026/06/russell-wilson-announces-retirement",
       "pubDate": "Thu, 04 Jun 2026 04:30:09 +0000",
@@ -590,6 +550,26 @@
       "priority": 6
     },
     {
+      "title": "Seattle Torrent Sign Alex Carpenter, Protect Her From Expansion Thieves",
+      "link": "https://www.davyjoneslockerroom.com/seattle-torrent-sign-alex-carpenter-protect-her-from-expansion-thieves/",
+      "pubDate": "Wed, 03 Jun 2026 14:00:00 +0000",
+      "isoDate": "2026-06-03T14:00:00.000Z",
+      "excerpt": "The Seattle Torrent re-signed forward Alex Carpenter to a 3-year PWHL Standard Player Agreement on June 2, keeping one of the franchise’s foundational pieces through 2028-29 and committing one of the team’s 3 protection...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
+      "title": "Melinda French Gates Becomes Minority Owner of the Seattle Kraken",
+      "link": "https://www.davyjoneslockerroom.com/melinda-french-gates-becomes-minority-owner-of-the-seattle-kraken/",
+      "pubDate": "Tue, 02 Jun 2026 14:00:00 +0000",
+      "isoDate": "2026-06-02T14:00:00.000Z",
+      "excerpt": "Melinda French Gates is becoming a minority owner of the Seattle Kraken, the team’s parent company said Monday, pending approval from the NHL. The size of her stake and the terms were not disclosed. French Gates, 61,...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
       "title": "Stream Mariners games on Mariners.TV for NEW low price of $74.99",
       "link": "https://www.mlb.com/mariners/news/mariners-tv-is-here-for-2026-season",
       "pubDate": "Mon, 01 Jun 2026 16:18:00 GMT",
@@ -607,6 +587,26 @@
       "excerpt": "MAY 31: Fowler’s deal with the Seahawks has a base value of $2.5MM with just $500k guaranteed via a signing bonus, per ESPN’s Brady Henderson, the lowest of his career. He is also set to earn a $1.32MM salary and $680k...",
       "source": "Pro Football Rumors",
       "team": "seahawks",
+      "priority": 2
+    },
+    {
+      "title": "Vikings Hire Nolan Teasley As GM; Rob Brzezinski Staying On As EVP",
+      "link": "https://www.profootballrumors.com/2026/05/vikings-to-hire-nolan-teasly-as-general-manager",
+      "pubDate": "Sun, 31 May 2026 04:20:11 +0000",
+      "isoDate": "2026-05-31T04:20:11.000Z",
+      "excerpt": "The Vikings have landed on their next general manager. Seahawks assistant GM Nolan Teasley will be taking over the front office in Minnesota, per NFL Network’s Tom Pelissero. The news is now official. Teasley is coming...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
+      "priority": 2
+    },
+    {
+      "title": "AL West Notes: Miller, Castillo, Langford, Rangers, Moore",
+      "link": "https://www.mlbtraderumors.com/2026/05/al-west-notes-miller-castillo-langford-rangers-moore.html",
+      "pubDate": "Sat, 30 May 2026 15:52:30 +0000",
+      "isoDate": "2026-05-30T15:52:30.000Z",
+      "excerpt": "Bryce Miller will start and Luis Castillo will again be the piggyback pitcher for the Mariners on Sunday, but the team will then adopt a six-man rotation, the Seattle Times’ Adam Jude writes. Friday’s game with the...",
+      "source": "MLB Trade Rumors",
+      "team": "mariners",
       "priority": 2
     }
   ]
