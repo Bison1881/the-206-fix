@@ -1,38 +1,53 @@
 {
-  "generatedAt": "2026-06-12T20:05:44.920Z",
+  "generatedAt": "2026-06-12T23:14:37.435Z",
   "sourceCount": 10,
-  "successfulSources": 10,
-  "failedSources": [],
+  "successfulSources": 9,
+  "failedSources": [
+    {
+      "source": "Seattle Times Sports",
+      "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
+    }
+  ],
   "items": [
     {
-      "title": "FIFA Men’s World Cup: Here’s look at the six games in Seattle",
-      "link": "https://www.seattletimes.com/sports/world-cup/fifa-mens-world-cup-heres-look-at-the-six-games-in-seattle/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Fri, 12 Jun 2026 13:00:00 -0700",
-      "isoDate": "2026-06-12T20:00:00.000Z",
-      "excerpt": "There will be six matches from the men's World Cup played in Seattle. Here’s a detailed breakdown of all six, starting with Belgium vs. Egypt.",
-      "source": "Seattle Times Sports",
-      "team": "general",
+      "title": "Mariners at Nationals rain delay updates: Friday June 12, 2026",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-game-information/144816/mariners-at-nationals-rain-delay-updates-friday-june-12-2026",
+      "pubDate": "2026-06-12T22:33:27.000Z",
+      "isoDate": "2026-06-12T22:33:27.000Z",
+      "excerpt": "WASHINGTON, DC - APRIL 05: \"Screch\" dons a rain coat during a rain delay prior to the game between the Los Angeles Dodgers and the Washington Nationals on April 05, 2026 at Nationals Park in Washington, D.C. (Photo by...",
+      "source": "Lookout Landing",
+      "team": "mariners",
       "priority": 1
     },
     {
-      "title": "Seattle knows its a soccer city. Now FIFA could see it too",
-      "link": "https://www.seattletimes.com/sports/world-cup/seattle-knows-its-a-soccer-city-now-fifa-could-see-it-too/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Fri, 12 Jun 2026 13:00:00 -0700",
-      "isoDate": "2026-06-12T20:00:00.000Z",
-      "excerpt": "Seattle has built a reputation as a soccer city, and now it hosts a FIFA Men's World Cup fraught with layers that have clouded talk of the actual soccer.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
+      "title": "With Crawford and Donovan sidelined, Young has been ASG-worthy in leadoff spot",
+      "link": "https://www.mlb.com/mariners/news/cole-young-excelling-as-fill-in-leadoff-hitter-for-mariners",
+      "pubDate": "Fri, 12 Jun 2026 22:32:00 GMT",
+      "isoDate": "2026-06-12T22:32:00.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
     },
     {
-      "title": "What fans can and can’t bring into World Cup games at Seattle Stadium",
-      "link": "https://www.seattletimes.com/sports/world-cup/what-fans-can-and-cant-bring-into-world-cup-games-at-seattle-stadium/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Fri, 12 Jun 2026 13:00:00 -0700",
-      "isoDate": "2026-06-12T20:00:00.000Z",
-      "excerpt": "If you’re planning to attend any of Seattle’s six World Cup matches, make sure you're prepared with what you can and can't bring to the stadium. We've got you covered.",
-      "source": "Seattle Times Sports",
+      "title": "Sacramento hopes to make pitch for MLB expansion after A’s leave",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/sacramento-hopes-to-make-pitch-for-mlb-expansion-after-as-leave",
+      "pubDate": "Fri, 12 Jun 2026 21:11:47 +0000",
+      "isoDate": "2026-06-12T21:11:47.000Z",
+      "excerpt": "The region recently announced a commitment of $1 billion in public funding and nearly $800 million more in private investment to the effort.",
+      "source": "710 Seattle Sports",
       "team": "general",
-      "priority": 1
+      "priority": 3
+    },
+    {
+      "title": "Cal Raleigh hits 3rd HR of rehab stint — when could he return?",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/when-could-cal-raleigh-return-to-the-seattle-mariners",
+      "pubDate": "Fri, 12 Jun 2026 20:00:22 +0000",
+      "isoDate": "2026-06-12T20:00:22.000Z",
+      "excerpt": "The star catcher showed a good sign of progress with another homer in Tacoma on Thursday.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
     },
     {
       "title": "Seahawks receive their Super Bowl 60 rings, which have a cool ‘special button’",
@@ -55,14 +70,14 @@
       "priority": 6
     },
     {
-      "title": "Judge rules Trump can stage UFC fights on the White House’s South Lawn this weekend",
-      "link": "https://www.seattletimes.com/entertainment/judge-rules-trump-can-stage-ufc-fights-at-white-house-this-weekend/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Fri, 12 Jun 2026 10:59:10 -0700",
-      "isoDate": "2026-06-12T17:59:10.000Z",
-      "excerpt": "A federal judge has refused to stop the White House from staging a UFC show this weekend to celebrate the nation’s 250th anniversary — on President Trump’s birthday.",
-      "source": "Seattle Times Sports",
+      "title": "What the Seahawks are saying about new OC and his offense",
+      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/what-seattle-seahawks-said-offense-brian-fleury",
+      "pubDate": "Fri, 12 Jun 2026 18:13:14 +0000",
+      "isoDate": "2026-06-12T18:13:14.000Z",
+      "excerpt": "Here's what the Seahawks said about new OC Brian Fleury and his offense.",
+      "source": "710 Seattle Sports",
       "team": "general",
-      "priority": 1
+      "priority": 3
     },
     {
       "title": "UW Huskies’ Amanda Moll beats sister for NCAA pole vault title",
@@ -73,26 +88,6 @@
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
-    },
-    {
-      "title": "Seahawks Super Bowl LX ring: Metro Boomin, Chris Pratt and the ‘largest’ ring yet",
-      "link": "https://www.seattletimes.com/sports/seahawks/seahawks-super-bowl-lx-ring-metro-boomin-chris-pratt-and-the-largest-ring-yet/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Fri, 12 Jun 2026 10:23:27 -0700",
-      "isoDate": "2026-06-12T17:23:27.000Z",
-      "excerpt": "The Seahawks received the \"largest and most technologically advanced\" Super Bowl rings ever Thursday. Here's what the rings — and party — looked like.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Meet the jeweler who crafted the Seahawks’ Super Bowl ring",
-      "link": "https://www.seattletimes.com/sports/seahawks/meet-the-jeweler-who-crafted-the-seahawks-super-bowl-ring/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Fri, 12 Jun 2026 10:00:24 -0700",
-      "isoDate": "2026-06-12T17:00:24.000Z",
-      "excerpt": "Jason Arasheben went from hustling trinkets in college to a business making championships rings for pro teams. He made the Seahawks' Super Bowl ring.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
     },
     {
       "title": "Series Preview: Mariners (36-34) vs. Nationals (35-34)",
@@ -113,16 +108,6 @@
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
-    },
-    {
-      "title": "Washington Huskies’ Amanda Moll wins pole vault at NCAA championships",
-      "link": "https://www.seattletimes.com/sports/uw-huskies/washington-huskies-amanda-moll-wins-pole-vault-title-with-record-mark/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Fri, 12 Jun 2026 08:52:56 -0700",
-      "isoDate": "2026-06-12T15:52:56.000Z",
-      "excerpt": "Washington’s Amanda Moll set a collegiate record in the pole vault to clinch the title over her sister Hana Moll at the NCAA track and field championships.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
     },
     {
       "title": "Reviewing Deven Eastern and his fit with the Seahawks",
@@ -172,16 +157,6 @@
       "excerpt": "SEATTLE, WA - JUNE 01: Matt Brash #47 of the Seattle Mariners pitches during the game between the New York Mets and the Seattle Mariners at T-Mobile Park on Monday, June 1, 2026 in Seattle, Washington. (Photo by Connor...",
       "source": "Lookout Landing",
       "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "Seattle Storm’s Natisha Hiedeman flourishing in leadership role",
-      "link": "https://www.seattletimes.com/sports/storm/seattle-storms-natisha-hiedeman-flourishing-in-leadership-role/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Fri, 12 Jun 2026 06:00:00 -0700",
-      "isoDate": "2026-06-12T13:00:00.000Z",
-      "excerpt": "In her first season with the Storm, Natisha Hiedeman is averaging career-highs in scoring, rebounds and assists while providing veteran leadership on one of the WNBA's youngest teams.",
-      "source": "Seattle Times Sports",
-      "team": "general",
       "priority": 1
     },
     {
@@ -285,16 +260,6 @@
       "priority": 1
     },
     {
-      "title": "Orioles beat Mariners 7-5 for series split",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/orioles-beat-mariners-7-5-for-series-split",
-      "pubDate": "Fri, 12 Jun 2026 02:08:54 +0000",
-      "isoDate": "2026-06-12T02:08:54.000Z",
-      "excerpt": "A six-run third inning helped Baltimore take the series finale.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
       "title": "36-34: Chart",
       "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/144785/36-34-chart",
       "pubDate": "2026-06-12T02:05:19.000Z",
@@ -303,16 +268,6 @@
       "source": "Lookout Landing",
       "team": "mariners",
       "priority": 1
-    },
-    {
-      "title": "Reports: Seahawks to hold joint practice with Titans",
-      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/reports-seahawks-to-hold-joint-practice-with-titans",
-      "pubDate": "Thu, 11 Jun 2026 23:27:33 +0000",
-      "isoDate": "2026-06-11T23:27:33.000Z",
-      "excerpt": "The session is set to take place Aug. 21, two days before the teams meet for a preseason game in Nashville.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
     },
     {
       "title": "Seahawks to hold joint practice with Titans in Nashville (again)",
@@ -335,16 +290,6 @@
       "priority": 6
     },
     {
-      "title": "Brash likely out for 'a while'; Rucker added to bullpen",
-      "link": "https://www.mlb.com/mariners/news/michael-rucker-selected-to-mariners-roster",
-      "pubDate": "Thu, 11 Jun 2026 23:00:00 GMT",
-      "isoDate": "2026-06-11T23:00:00.000Z",
-      "excerpt": "Mariners also designate Domingo Gonzalez",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
-    },
-    {
       "title": "Mariners Game Preview and Discussion: Mariners at Orioles",
       "link": "https://www.lookoutlanding.com/seattle-mariners-game-information/144776/mariners-game-preview-and-discussion-mariners-at-orioles",
       "pubDate": "2026-06-11T22:49:04.000Z",
@@ -353,16 +298,6 @@
       "source": "Lookout Landing",
       "team": "mariners",
       "priority": 1
-    },
-    {
-      "title": "Brock Huard’s 3 top takeaways from Seahawks minicamp",
-      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/seattle-seahawks-brock-huard-minicamp-takeaways",
-      "pubDate": "Thu, 11 Jun 2026 22:33:03 +0000",
-      "isoDate": "2026-06-11T22:33:03.000Z",
-      "excerpt": "Former NFL QB Brock Huard took in the Seahawks' last two practices during mandatory minicamp at team HQ in Renton.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
     },
     {
       "title": "Seahawks Finish Off Minicamp & Prepare For Super Bowl Ring Ceremony",
@@ -433,16 +368,6 @@
       "source": "Pro Hockey Rumors",
       "team": "kraken",
       "priority": 2
-    },
-    {
-      "title": "Mariners Draft Profile: 3B Bo Lowrance",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-mlb-draft/144756/mariners-draft-profile-3b-bo-lowrance",
-      "pubDate": "2026-06-11T15:00:00.000Z",
-      "isoDate": "2026-06-11T15:00:00.000Z",
-      "excerpt": "ATLANTA, GEORGIA - JULY 13: Major League Baseball commissioner Robert D. Manfred Jr. announces Kade Anderson as the third overall pick, by the Seattle Mariners, in the first round of the 2025 MLB Draft at Coca-Cola Roxy...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
     },
     {
       "title": "Seahawks News 6/11: Seahawks further tweaking The Demon’s role",
@@ -603,6 +528,86 @@
       "source": "Davy Jones' Locker Room",
       "team": "kraken",
       "priority": 1
+    },
+    {
+      "title": "Russell Wilson Announces Retirement",
+      "link": "https://www.profootballrumors.com/2026/06/russell-wilson-announces-retirement",
+      "pubDate": "Thu, 04 Jun 2026 04:30:09 +0000",
+      "isoDate": "2026-06-04T04:30:09.000Z",
+      "excerpt": "On Monday, it was reported Russell Wilson would spend the 2026 season as an analyst for CBS. That news obviously suggested his playing days were over, and that has now been confirmed. On Wednesday, Wilson posted a video...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
+      "priority": 2
+    },
+    {
+      "title": "VOTE NOW! Help make Mariners All-Star Game starters",
+      "link": "https://www.mlb.com/all-star/ballot?affiliateID=asballot_sea_digital_2026",
+      "pubDate": "Wed, 03 Jun 2026 18:13:55 GMT",
+      "isoDate": "2026-06-03T18:13:55.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Seattle Torrent Sign Alex Carpenter, Protect Her From Expansion Thieves",
+      "link": "https://www.davyjoneslockerroom.com/seattle-torrent-sign-alex-carpenter-protect-her-from-expansion-thieves/",
+      "pubDate": "Wed, 03 Jun 2026 14:00:00 +0000",
+      "isoDate": "2026-06-03T14:00:00.000Z",
+      "excerpt": "The Seattle Torrent re-signed forward Alex Carpenter to a 3-year PWHL Standard Player Agreement on June 2, keeping one of the franchise’s foundational pieces through 2028-29 and committing one of the team’s 3 protection...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
+      "title": "Melinda French Gates Becomes Minority Owner of the Seattle Kraken",
+      "link": "https://www.davyjoneslockerroom.com/melinda-french-gates-becomes-minority-owner-of-the-seattle-kraken/",
+      "pubDate": "Tue, 02 Jun 2026 14:00:00 +0000",
+      "isoDate": "2026-06-02T14:00:00.000Z",
+      "excerpt": "Melinda French Gates is becoming a minority owner of the Seattle Kraken, the team’s parent company said Monday, pending approval from the NHL. The size of her stake and the terms were not disclosed. French Gates, 61,...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
+      "title": "Stream Mariners games on Mariners.TV for NEW low price of $74.99",
+      "link": "https://www.mlb.com/mariners/news/mariners-tv-is-here-for-2026-season",
+      "pubDate": "Mon, 01 Jun 2026 16:18:00 GMT",
+      "isoDate": "2026-06-01T16:18:00.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Seahawks, Dante Fowler Agree To Deal",
+      "link": "https://www.profootballrumors.com/2026/05/seahawks-dante-fowler-agree-to-deal",
+      "pubDate": "Mon, 01 Jun 2026 03:55:05 +0000",
+      "isoDate": "2026-06-01T03:55:05.000Z",
+      "excerpt": "MAY 31: Fowler’s deal with the Seahawks has a base value of $2.5MM with just $500k guaranteed via a signing bonus, per ESPN’s Brady Henderson, the lowest of his career. He is also set to earn a $1.32MM salary and $680k...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
+      "priority": 2
+    },
+    {
+      "title": "Vikings Hire Nolan Teasley As GM; Rob Brzezinski Staying On As EVP",
+      "link": "https://www.profootballrumors.com/2026/05/vikings-to-hire-nolan-teasly-as-general-manager",
+      "pubDate": "Sun, 31 May 2026 04:20:11 +0000",
+      "isoDate": "2026-05-31T04:20:11.000Z",
+      "excerpt": "The Vikings have landed on their next general manager. Seahawks assistant GM Nolan Teasley will be taking over the front office in Minnesota, per NFL Network’s Tom Pelissero. The news is now official. Teasley is coming...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
+      "priority": 2
+    },
+    {
+      "title": "AL West Notes: Miller, Castillo, Langford, Rangers, Moore",
+      "link": "https://www.mlbtraderumors.com/2026/05/al-west-notes-miller-castillo-langford-rangers-moore.html",
+      "pubDate": "Sat, 30 May 2026 15:52:30 +0000",
+      "isoDate": "2026-05-30T15:52:30.000Z",
+      "excerpt": "Bryce Miller will start and Luis Castillo will again be the piggyback pitcher for the Mariners on Sunday, but the team will then adopt a six-man rotation, the Seattle Times’ Adam Jude writes. Friday’s game with the...",
+      "source": "MLB Trade Rumors",
+      "team": "mariners",
+      "priority": 2
     }
   ]
 }
