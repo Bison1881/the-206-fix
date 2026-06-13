@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-13T17:19:42.913Z",
+  "generatedAt": "2026-06-13T19:20:35.407Z",
   "sourceCount": 10,
   "successfulSources": 9,
   "failedSources": [
@@ -9,6 +9,36 @@
     }
   ],
   "items": [
+    {
+      "title": "Mariners Game #72 Preview and Discussion: SEA at BAL, 6/13",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-game-information/144858/mariners-game-72-preview-and-discussion-sea-at-bal-6-13",
+      "pubDate": "2026-06-13T19:14:39.000Z",
+      "isoDate": "2026-06-13T19:14:39.000Z",
+      "excerpt": "WASHINGTON, DC - JUNE 12: Cole Young #2 and Josh Naylor #12 of the Seattle Mariners walk to the dugout before a game against the Washington Nationals at Nationals Park on June 12, 2026 in Washington, DC. (Photo by Jess...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Todd Boehly Considering Seahawks Ownership Bid",
+      "link": "https://www.profootballrumors.com/2026/06/todd-boehly-considering-seahawks-ownership-bid",
+      "pubDate": "Sat, 13 Jun 2026 17:39:06 +0000",
+      "isoDate": "2026-06-13T17:39:06.000Z",
+      "excerpt": "Another billionaire has entered the fray to be the new owner of the Seahawks. Todd Boehly, CEO of holding company Eldridge Industries, is considering a bid to own Seattle’s NFL team, per Semafor’s Liz Offman. The...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
+      "priority": 2
+    },
+    {
+      "title": "Why Baseball America ranks Sloan as M’s top pitching prospect",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/why-baseball-america-ranks-ryan-sloan-as-seattle-mariners-top-pitching-prospect",
+      "pubDate": "Sat, 13 Jun 2026 16:12:21 +0000",
+      "isoDate": "2026-06-13T16:12:21.000Z",
+      "excerpt": "Baseball America editor-in-chief J.J. Cooper explains what puts Ryan Sloan above Kade Anderson.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
     {
       "title": "SBNation Reacts results: Seahawks fans say 49ers are Seattle’s toughest early-season matchup",
       "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/169551/sbnation-reacts-results-seahawks-fans-49ers-toughest-early-season-game",
@@ -200,16 +230,6 @@
       "priority": 3
     },
     {
-      "title": "Sacramento hopes to make pitch for MLB expansion after A’s leave",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/sacramento-hopes-to-make-pitch-for-mlb-expansion-after-as-leave",
-      "pubDate": "Fri, 12 Jun 2026 21:11:47 +0000",
-      "isoDate": "2026-06-12T21:11:47.000Z",
-      "excerpt": "The region recently announced a commitment of $1 billion in public funding and nearly $800 million more in private investment to the effort.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
       "title": "Seahawks receive their Super Bowl 60 rings, which have a cool ‘special button’",
       "link": "https://www.fieldgulls.com/seattle-seahawks-nfl-history/169533/seattle-seahawks-super-bowl-60-rings-special-button",
       "pubDate": "2026-06-12T18:34:31.000Z",
@@ -327,16 +347,6 @@
       "excerpt": "The Seattle Torrent named Christine Bumstead as the head coach for the franchise’s second year. Bumstead was an assistant coach during the team’s inaugural season and takes over the role from Steve O’Rourke who was let...",
       "source": "Davy Jones' Locker Room",
       "team": "kraken",
-      "priority": 1
-    },
-    {
-      "title": "36-34: Chart",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/144785/36-34-chart",
-      "pubDate": "2026-06-12T02:05:19.000Z",
-      "isoDate": "2026-06-12T02:05:19.000Z",
-      "excerpt": "BALTIMORE, MD - JUNE 11: Julio Rodríguez #44 of the Seattle Mariners warms up in the on-deck circle before batting against the Baltimore Orioles in the first inning at Oriole Park at Camden Yards on June 11, 2026 in...",
-      "source": "Lookout Landing",
-      "team": "mariners",
       "priority": 1
     },
     {
@@ -597,16 +607,6 @@
       "excerpt": "The Vikings have landed on their next general manager. Seahawks assistant GM Nolan Teasley will be taking over the front office in Minnesota, per NFL Network’s Tom Pelissero. The news is now official. Teasley is coming...",
       "source": "Pro Football Rumors",
       "team": "seahawks",
-      "priority": 2
-    },
-    {
-      "title": "AL West Notes: Miller, Castillo, Langford, Rangers, Moore",
-      "link": "https://www.mlbtraderumors.com/2026/05/al-west-notes-miller-castillo-langford-rangers-moore.html",
-      "pubDate": "Sat, 30 May 2026 15:52:30 +0000",
-      "isoDate": "2026-05-30T15:52:30.000Z",
-      "excerpt": "Bryce Miller will start and Luis Castillo will again be the piggyback pitcher for the Mariners on Sunday, but the team will then adopt a six-man rotation, the Seattle Times’ Adam Jude writes. Friday’s game with the...",
-      "source": "MLB Trade Rumors",
-      "team": "mariners",
       "priority": 2
     }
   ]
