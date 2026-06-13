@@ -1,16 +1,61 @@
 {
-  "generatedAt": "2026-06-13T19:20:35.407Z",
+  "generatedAt": "2026-06-13T21:12:13.174Z",
   "sourceCount": 10,
-  "successfulSources": 9,
-  "failedSources": [
-    {
-      "source": "Seattle Times Sports",
-      "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
-    }
-  ],
+  "successfulSources": 10,
+  "failedSources": [],
   "items": [
     {
-      "title": "Mariners Game #72 Preview and Discussion: SEA at BAL, 6/13",
+      "title": "The scientific quest for a perfect World Cup field",
+      "link": "https://www.seattletimes.com/nation-world/the-scientific-quest-for-a-perfect-world-cup-field/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Sat, 13 Jun 2026 14:04:38 -0700",
+      "isoDate": "2026-06-13T21:04:38.000Z",
+      "excerpt": "The 2026 World Cup involves 16 stadiums — five of them domed, eight with permanent artificial turf that must be overlaid — across three countries and widely varying climates.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "LIVE: Anderson takes the mound in Game 1 of Double-A twin bill",
+      "link": "https://www.mlb.com/mariners/news/watch-minor-league-baseball-games-for-free-2026",
+      "pubDate": "Sat, 13 Jun 2026 20:27:00 GMT",
+      "isoDate": "2026-06-13T20:27:00.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Mariners’ Randy Arozarena out of Saturday’s lineup with hamstring strain",
+      "link": "https://www.seattletimes.com/sports/mariners/mariners-randy-arozarena-out-of-saturdays-lineup-with-hamstring-strain/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Sat, 13 Jun 2026 13:16:14 -0700",
+      "isoDate": "2026-06-13T20:16:14.000Z",
+      "excerpt": "For the first time this season, Randy Arozarena is not in the Mariners lineup. But he said he expected to miss just a couple days with a minor hamstring injury.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Latest Mariners injuries and transactions",
+      "link": "https://www.mlb.com/mariners/news/mariners-injuries-and-roster-moves",
+      "pubDate": "Sat, 13 Jun 2026 19:39:00 GMT",
+      "isoDate": "2026-06-13T19:39:00.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Arozarena (hamstring) out of Mariners' lineup, still day to day",
+      "link": "https://www.mlb.com/mariners/news/randy-arozarena-exits-with-apparent-leg-injury-vs-nationals",
+      "pubDate": "Sat, 13 Jun 2026 19:35:00 GMT",
+      "isoDate": "2026-06-13T19:35:00.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Mariners Game #72 Preview and Discussion: SEA at WSH, 6/13",
       "link": "https://www.lookoutlanding.com/seattle-mariners-game-information/144858/mariners-game-72-preview-and-discussion-sea-at-bal-6-13",
       "pubDate": "2026-06-13T19:14:39.000Z",
       "isoDate": "2026-06-13T19:14:39.000Z",
@@ -18,6 +63,16 @@
       "source": "Lookout Landing",
       "team": "mariners",
       "priority": 1
+    },
+    {
+      "title": "Randy Arozarena held out of Mariners lineup vs Nationals",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/randy-arozarena-held-out-of-mariners-lineup-vs-nationals",
+      "pubDate": "Sat, 13 Jun 2026 17:56:23 +0000",
+      "isoDate": "2026-06-13T17:56:23.000Z",
+      "excerpt": "The left fielder's absence comes a day after he left a game early with a hamstring issue.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
     },
     {
       "title": "Todd Boehly Considering Seahawks Ownership Bid",
@@ -28,6 +83,26 @@
       "source": "Pro Football Rumors",
       "team": "seahawks",
       "priority": 2
+    },
+    {
+      "title": "2026 World Cup: Seattle Stadium offering options for fans with sensory challenges",
+      "link": "https://www.seattletimes.com/sports/world-cup/fifa-mens-world-cup-offers-options-for-those-with-sensory-challenges/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Sat, 13 Jun 2026 10:00:00 -0700",
+      "isoDate": "2026-06-13T17:00:00.000Z",
+      "excerpt": "The FIFA Men's World Cup, including the games in Seattle, is ramping up its options for those who have sensory challenges.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Mariners prospect Jonny Farmelo’s MLB stock rapidly rising",
+      "link": "https://www.seattletimes.com/sports/mariners/mariners-prospect-jonny-farmelos-mlb-stock-rapidly-rising/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Sat, 13 Jun 2026 10:00:00 -0700",
+      "isoDate": "2026-06-13T17:00:00.000Z",
+      "excerpt": "After overcoming injuries, former Mariners first-round draft pick Jonny Farmelo's stock is rapidly rising this season with the high-Class A Everett AquaSox.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
     },
     {
       "title": "Why Baseball America ranks Sloan as M’s top pitching prospect",
@@ -60,6 +135,26 @@
       "priority": 1
     },
     {
+      "title": "Sounders’ Cristian Roldan has new motivation for the 2026 World Cup",
+      "link": "https://www.seattletimes.com/sports/world-cup/sounders-cristian-roldan-has-new-motivation-for-the-2026-world-cup/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Sat, 13 Jun 2026 06:00:00 -0700",
+      "isoDate": "2026-06-13T13:00:00.000Z",
+      "excerpt": "Sounders midfielder Cristian Roldan didn't see the field in his first World Cup. Here is what is motivating him in his second turn on the U.S. men's national team.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "FIFA Men’s World Cup: Pacific Place transforms into ‘Seattle Soccer House’",
+      "link": "https://www.seattletimes.com/seattle-news/world-cup-seattle/fifa-mens-world-cup-pacific-place-transforms-into-seattle-soccer-house/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Sat, 13 Jun 2026 06:00:00 -0700",
+      "isoDate": "2026-06-13T13:00:00.000Z",
+      "excerpt": "On Friday, shoppers at Pacific Place, which is transforming into \"Seattle Soccer House\" for the World Cup, stopped to watch the U.S.’s group-stage opener against Paraguay",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
       "title": "Seahawks News 6/13: Brian Fleury is setting up Seahawks O for success",
       "link": "https://www.fieldgulls.com/seattle-seahawks-news/169554/seahawks-news-6-13-brian-fleury-is-setting-up-seahawks-o-for-success",
       "pubDate": "2026-06-13T13:00:00.000Z",
@@ -70,14 +165,14 @@
       "priority": 1
     },
     {
-      "title": "Latest Mariners injuries and transactions",
-      "link": "https://www.mlb.com/mariners/news/mariners-injuries-and-roster-moves",
-      "pubDate": "Sat, 13 Jun 2026 05:29:00 GMT",
-      "isoDate": "2026-06-13T05:29:00.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
+      "title": "US opens its home World Cup with a dynamic 4-1 victory over Paraguay, sparked by Balogun’s 2 goals",
+      "link": "https://www.seattletimes.com/sports/world-cup/us-opens-its-home-world-cup-with-a-dynamic-4-1-victory-over-paraguay-sparked-by-baloguns-2-goals/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Fri, 12 Jun 2026 23:43:47 -0700",
+      "isoDate": "2026-06-13T06:43:47.000Z",
+      "excerpt": "Folarin Balogun scored twice in the Americans' three-goal barrage before halftime, and the U.S. opened its first home World Cup in 32 years with its biggest win in the tournament.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
     },
     {
       "title": "Miller twirls 'one of the better performances we've seen all year' in a career first",
@@ -100,14 +195,14 @@
       "priority": 3
     },
     {
-      "title": "Arozarena (hamstring) day to day as Mariners appear to avoid (another) serious injury",
-      "link": "https://www.mlb.com/mariners/news/randy-arozarena-exits-with-apparent-leg-injury-vs-nationals",
-      "pubDate": "Sat, 13 Jun 2026 04:59:00 GMT",
-      "isoDate": "2026-06-13T04:59:00.000Z",
+      "title": "Photos: Seattle Storm lose to Golden State Valkyries, 76-72",
+      "link": "https://www.seattletimes.com/sports/storm/photos-seattle-storm-lose-to-golden-state-valkyries-76-72/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Fri, 12 Jun 2026 22:03:05 -0700",
+      "isoDate": "2026-06-13T05:03:05.000Z",
       "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
     },
     {
       "title": "The latest on Mariners’ Randy Arozarena after early exit",
@@ -128,16 +223,6 @@
       "source": "Lookout Landing",
       "team": "mariners",
       "priority": 1
-    },
-    {
-      "title": "Watch FREE today as Anderson, Sloan pitch in Double-A twin bill",
-      "link": "https://www.mlb.com/mariners/news/watch-minor-league-baseball-games-for-free-2026",
-      "pubDate": "Sat, 13 Jun 2026 04:05:00 GMT",
-      "isoDate": "2026-06-13T04:05:00.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
     },
     {
       "title": "M’s slug 3 HRs, Bryce Miller shines in 10-2 win over Nationals",
@@ -218,16 +303,6 @@
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
-    },
-    {
-      "title": "New start time announced for Mariners’ series opener vs Nationals",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-series-opener-vs-nationals-delayed-by-rain",
-      "pubDate": "Fri, 12 Jun 2026 22:20:52 +0000",
-      "isoDate": "2026-06-12T22:20:52.000Z",
-      "excerpt": "First pitch is now set for 5:55 p.m. on Friday night.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
     },
     {
       "title": "Seahawks receive their Super Bowl 60 rings, which have a cool ‘special button’",
@@ -525,86 +600,6 @@
       "pubDate": "Fri, 05 Jun 2026 19:00:15 +0000",
       "isoDate": "2026-06-05T19:00:15.000Z",
       "excerpt": "JUNE 5: Hall’s contract includes $15.27MM guaranteed at signing, according to OverTheCap. An additional $4.2MM will become fully guaranteed five days after Super Bowl LXI, per Spotrac. Another $1.5MM will lock in five...",
-      "source": "Pro Football Rumors",
-      "team": "seahawks",
-      "priority": 2
-    },
-    {
-      "title": "Seattle Torrent Protect Wilgren, Murphy, Carpenter in Expansion Draft",
-      "link": "https://www.davyjoneslockerroom.com/seattle-torrent-protect-wilgren-murphy-carpenter-in-expansion-draft/",
-      "pubDate": "Thu, 04 Jun 2026 16:00:00 +0000",
-      "isoDate": "2026-06-04T16:00:00.000Z",
-      "excerpt": "The Torrent have made some interesting choices in the upcoming expansion process by choosing to protect Anna Wilgren, Hannah Murphy, and Alex Carpenter. Not exactly an expansion draft, the PWHL’s Expansion Roster...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
-    },
-    {
-      "title": "Russell Wilson Announces Retirement",
-      "link": "https://www.profootballrumors.com/2026/06/russell-wilson-announces-retirement",
-      "pubDate": "Thu, 04 Jun 2026 04:30:09 +0000",
-      "isoDate": "2026-06-04T04:30:09.000Z",
-      "excerpt": "On Monday, it was reported Russell Wilson would spend the 2026 season as an analyst for CBS. That news obviously suggested his playing days were over, and that has now been confirmed. On Wednesday, Wilson posted a video...",
-      "source": "Pro Football Rumors",
-      "team": "seahawks",
-      "priority": 2
-    },
-    {
-      "title": "VOTE NOW! Help make Mariners All-Star Game starters",
-      "link": "https://www.mlb.com/all-star/ballot?affiliateID=asballot_sea_digital_2026",
-      "pubDate": "Wed, 03 Jun 2026 18:13:55 GMT",
-      "isoDate": "2026-06-03T18:13:55.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
-    },
-    {
-      "title": "Seattle Torrent Sign Alex Carpenter, Protect Her From Expansion Thieves",
-      "link": "https://www.davyjoneslockerroom.com/seattle-torrent-sign-alex-carpenter-protect-her-from-expansion-thieves/",
-      "pubDate": "Wed, 03 Jun 2026 14:00:00 +0000",
-      "isoDate": "2026-06-03T14:00:00.000Z",
-      "excerpt": "The Seattle Torrent re-signed forward Alex Carpenter to a 3-year PWHL Standard Player Agreement on June 2, keeping one of the franchise’s foundational pieces through 2028-29 and committing one of the team’s 3 protection...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
-    },
-    {
-      "title": "Melinda French Gates Becomes Minority Owner of the Seattle Kraken",
-      "link": "https://www.davyjoneslockerroom.com/melinda-french-gates-becomes-minority-owner-of-the-seattle-kraken/",
-      "pubDate": "Tue, 02 Jun 2026 14:00:00 +0000",
-      "isoDate": "2026-06-02T14:00:00.000Z",
-      "excerpt": "Melinda French Gates is becoming a minority owner of the Seattle Kraken, the team’s parent company said Monday, pending approval from the NHL. The size of her stake and the terms were not disclosed. French Gates, 61,...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
-    },
-    {
-      "title": "Stream Mariners games on Mariners.TV for NEW low price of $74.99",
-      "link": "https://www.mlb.com/mariners/news/mariners-tv-is-here-for-2026-season",
-      "pubDate": "Mon, 01 Jun 2026 16:18:00 GMT",
-      "isoDate": "2026-06-01T16:18:00.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
-    },
-    {
-      "title": "Seahawks, Dante Fowler Agree To Deal",
-      "link": "https://www.profootballrumors.com/2026/05/seahawks-dante-fowler-agree-to-deal",
-      "pubDate": "Mon, 01 Jun 2026 03:55:05 +0000",
-      "isoDate": "2026-06-01T03:55:05.000Z",
-      "excerpt": "MAY 31: Fowler’s deal with the Seahawks has a base value of $2.5MM with just $500k guaranteed via a signing bonus, per ESPN’s Brady Henderson, the lowest of his career. He is also set to earn a $1.32MM salary and $680k...",
-      "source": "Pro Football Rumors",
-      "team": "seahawks",
-      "priority": 2
-    },
-    {
-      "title": "Vikings Hire Nolan Teasley As GM; Rob Brzezinski Staying On As EVP",
-      "link": "https://www.profootballrumors.com/2026/05/vikings-to-hire-nolan-teasly-as-general-manager",
-      "pubDate": "Sun, 31 May 2026 04:20:11 +0000",
-      "isoDate": "2026-05-31T04:20:11.000Z",
-      "excerpt": "The Vikings have landed on their next general manager. Seahawks assistant GM Nolan Teasley will be taking over the front office in Minnesota, per NFL Network’s Tom Pelissero. The news is now official. Teasley is coming...",
       "source": "Pro Football Rumors",
       "team": "seahawks",
       "priority": 2
