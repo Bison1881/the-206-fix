@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-12T23:14:37.435Z",
+  "generatedAt": "2026-06-13T03:24:40.317Z",
   "sourceCount": 10,
   "successfulSources": 9,
   "failedSources": [
@@ -9,6 +9,66 @@
     }
   ],
   "items": [
+    {
+      "title": "Already battered Mariners lose Arozarena to apparent leg injury",
+      "link": "https://www.mlb.com/mariners/news/randy-arozarena-exits-with-apparent-leg-injury-vs-nationals",
+      "pubDate": "Sat, 13 Jun 2026 02:48:56 GMT",
+      "isoDate": "2026-06-13T02:48:56.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Report: Vikings to hire Seahawks’ Kirchner as assistant GM",
+      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/report-vikings-to-hire-seattle-seahawks-trent-kirchner-as-assistant-gm",
+      "pubDate": "Sat, 13 Jun 2026 01:02:15 +0000",
+      "isoDate": "2026-06-13T01:02:15.000Z",
+      "excerpt": "Seahawks vice president of player personnel Trent Kirchner is joining Nolan Teasley in Minnesota, per NFL Network's Ian Rapoport.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Farmelo, Celesten tee off in same game at High-A for second time in '26",
+      "link": "https://www.mlb.com/mariners/news/mariners-jonny-farmelo-felnin-celesten-hot-start-june",
+      "pubDate": "Sat, 13 Jun 2026 00:53:00 GMT",
+      "isoDate": "2026-06-13T00:53:00.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "New Vikings general manager Nolan Teasley hires Trent Kirchner away from Seahawks",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169547/new-vikings-general-manager-nolan-teasley-hires-trent-kirchner-away-seahawks-nfl-news",
+      "pubDate": "2026-06-13T00:04:55.000Z",
+      "isoDate": "2026-06-13T00:04:55.000Z",
+      "excerpt": "EAGAN, MN. - JUNE 2026: Minnesota Vikings new General Manger Nolan Teasley left, and Vikings President/Owner Mark Wilf, Wednesday, June 2, 2026 in Eagan, Minn. The Vikings officially announced Teasley’s hiring Monday...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
+    {
+      "title": "Latest Mariners injuries and transactions",
+      "link": "https://www.mlb.com/mariners/news/mariners-injuries-and-roster-moves",
+      "pubDate": "Fri, 12 Jun 2026 23:49:00 GMT",
+      "isoDate": "2026-06-12T23:49:00.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "AL West: A’s activate All-Star SS Wilson, place slugger on IL",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/al-west-athletics-activate-all-star-ss-wilson-place-slugger-on-il",
+      "pubDate": "Fri, 12 Jun 2026 23:02:01 +0000",
+      "isoDate": "2026-06-12T23:02:01.000Z",
+      "excerpt": "Designated hitter Brent Rooker went on the 10-day IL with a bone bruise in his left knee.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
     {
       "title": "Mariners at Nationals rain delay updates: Friday June 12, 2026",
       "link": "https://www.lookoutlanding.com/seattle-mariners-game-information/144816/mariners-at-nationals-rain-delay-updates-friday-june-12-2026",
@@ -28,6 +88,16 @@
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
+    },
+    {
+      "title": "New start time announced for Mariners’ series opener vs Nationals",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-series-opener-vs-nationals-delayed-by-rain",
+      "pubDate": "Fri, 12 Jun 2026 22:20:52 +0000",
+      "isoDate": "2026-06-12T22:20:52.000Z",
+      "excerpt": "First pitch is now set for 5:55 p.m. on Friday night.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
     },
     {
       "title": "Sacramento hopes to make pitch for MLB expansion after A’s leave",
@@ -140,16 +210,6 @@
       "priority": 1
     },
     {
-      "title": "Why a quiet trade deadline could make sense for Mariners",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/why-a-quiet-trade-deadline-could-make-sense-for-seattle-mariners",
-      "pubDate": "Fri, 12 Jun 2026 14:42:00 +0000",
-      "isoDate": "2026-06-12T14:42:00.000Z",
-      "excerpt": "Brock and Salk discuss what makes this a unique year for Seattle in terms of the trade deadline.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
       "title": "Mariners News: Matt Brash, Shohei Ohtani, and Tarik Skubal",
       "link": "https://www.lookoutlanding.com/seattle-mariners-news/144792/matt-brash-shohei-ohtani-tarik-skubal-julio-rodriguez-joc-pederson",
       "pubDate": "2026-06-12T14:00:00.000Z",
@@ -170,26 +230,6 @@
       "priority": 1
     },
     {
-      "title": "Raleigh homers AGAIN at Triple-A while nearing return to MLB",
-      "link": "https://www.mlb.com/mariners/news/cal-raleigh-homers-again-during-triple-a-rehab-assignment",
-      "pubDate": "Fri, 12 Jun 2026 12:25:38 GMT",
-      "isoDate": "2026-06-12T12:25:38.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
-    },
-    {
-      "title": "Gear Up for Soccer’s Biggest Stage: Enter to Win a $100 DICK’s Sporting Goods Gift Card!",
-      "link": "https://sports.mynorthwest.com/contests-events/gear-up-for-soccers-biggest-stage-enter-to-win-a-100-dicks-sporting-goods-gift-card",
-      "pubDate": "Fri, 12 Jun 2026 05:11:53 +0000",
-      "isoDate": "2026-06-12T05:11:53.000Z",
-      "excerpt": "The wait is finally over. As we gear up for soccer’s biggest stage, the eyes of the global sports world are officially on Seattle. To celebrate this historic moment, Seattle Sports has teamed up with DICK’S Sporting...",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
       "title": "Kraken add Patrik Allvin as Assistant GM, add Pascal Vincent as Assistant Coach",
       "link": "https://www.davyjoneslockerroom.com/kraken-add-patrik-allvin-as-assistant-gm-add-pascal-vincent-as-assistant-coach/",
       "pubDate": "Fri, 12 Jun 2026 05:04:14 +0000",
@@ -198,26 +238,6 @@
       "source": "Davy Jones' Locker Room",
       "team": "kraken",
       "priority": 1
-    },
-    {
-      "title": "Seahawks players, coaches receive their Super Bowl rings",
-      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/seahawks-players-coaches-receive-their-super-bowl-rings",
-      "pubDate": "Fri, 12 Jun 2026 04:37:06 +0000",
-      "isoDate": "2026-06-12T04:37:06.000Z",
-      "excerpt": "After their final day of minicamp, the Seahawks got another chance to celebrate last season's success.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "Woo perplexed by road woes after worrisome inning vs. O's",
-      "link": "https://www.mlb.com/mariners/news/bryan-woo-ties-career-high-in-runs-allowed-with-seven-vs-orioles",
-      "pubDate": "Fri, 12 Jun 2026 04:27:11 GMT",
-      "isoDate": "2026-06-12T04:27:11.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
     },
     {
       "title": "There is no meaning in Baltimore, Mariners lose to Orioles",
@@ -278,16 +298,6 @@
       "source": "Field Gulls",
       "team": "seahawks",
       "priority": 1
-    },
-    {
-      "title": "Latest Mariners injuries and transactions",
-      "link": "https://www.mlb.com/mariners/news/mariners-injuries-and-roster-moves",
-      "pubDate": "Thu, 11 Jun 2026 23:19:00 GMT",
-      "isoDate": "2026-06-11T23:19:00.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
     },
     {
       "title": "Mariners Game Preview and Discussion: Mariners at Orioles",
@@ -387,16 +397,6 @@
       "excerpt": "Julia Gosling rejected a foundational player offer (FPO) to become a key component for the Seattle Torrent next year. She signed a two-year deal and became the first of Seattle’s Phase 3 protections and fourth protected...",
       "source": "Davy Jones' Locker Room",
       "team": "kraken",
-      "priority": 1
-    },
-    {
-      "title": "‘That’s his responsibility’ &#8211; Mike Macdonald says Josh Jones ‘not ready to practice yet’",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169474/thats-his-responsibility-mike-macdonald-josh-jones-seahawks-not-ready-to-practice",
-      "pubDate": "2026-06-11T01:15:21.000Z",
-      "isoDate": "2026-06-11T01:15:21.000Z",
-      "excerpt": "Feb 11, 2026; Seattle, WA, USA; Seattle Seahawks fullback Brady Russell (38) and guard Josh Jones (74) during the Super Bowl LX trophy celebration at Lumen Field. Mandatory Credit: Kirby Lee-Imagn Images | Kirby...",
-      "source": "Field Gulls",
-      "team": "seahawks",
       "priority": 1
     },
     {
