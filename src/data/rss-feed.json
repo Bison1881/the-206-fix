@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-13T13:52:53.025Z",
+  "generatedAt": "2026-06-13T15:41:08.725Z",
   "sourceCount": 10,
   "successfulSources": 9,
   "failedSources": [
@@ -9,6 +9,26 @@
     }
   ],
   "items": [
+    {
+      "title": "SBNation Reacts results: Seahawks fans say 49ers are Seattle’s toughest early-season matchup",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/169551/sbnation-reacts-results-seahawks-fans-49ers-toughest-early-season-game",
+      "pubDate": "2026-06-13T14:00:00.000Z",
+      "isoDate": "2026-06-13T14:00:00.000Z",
+      "excerpt": "Welcome to SB Nation Reacts, a survey of fans across the NFL. Each week we ask questions of the most plugged-in Seattle Seahawks fans and fans across the country. The latest SB Nation Reacts survey is in, and Seattle...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
+    {
+      "title": "Mariners News: Randy Arozarena, Jacob Misiorowski, and Franklin Delano Roosevelt",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-news/144841/mariners-news-randy-arozarena-jacob-misiorowski-and-franklin-delano-roosevelt",
+      "pubDate": "2026-06-13T14:00:00.000Z",
+      "isoDate": "2026-06-13T14:00:00.000Z",
+      "excerpt": "I hate this guy, but will give credit where due. (Photo by John Fisher/Getty Images) | Getty Images It’s another Saturday morning, which means we’re about to record a Meet at the Mitt episode. Look for it later in the...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
     {
       "title": "Seahawks News 6/13: Brian Fleury is setting up Seahawks O for success",
       "link": "https://www.fieldgulls.com/seattle-seahawks-news/169554/seahawks-news-6-13-brian-fleury-is-setting-up-seahawks-o-for-success",
@@ -330,16 +350,6 @@
       "priority": 1
     },
     {
-      "title": "Mariners Game Preview and Discussion: Mariners at Orioles",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-game-information/144776/mariners-game-preview-and-discussion-mariners-at-orioles",
-      "pubDate": "2026-06-11T22:49:04.000Z",
-      "isoDate": "2026-06-11T22:49:04.000Z",
-      "excerpt": "May 6, 2026; Seattle, Washington, USA; Seattle Mariners catcher Jhonny Pereda (5) and starting pitcher Bryan Woo (22) exchange words with manager Dan Wilson after the second inning at T-Mobile Park. Mandatory Credit:...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
       "title": "Seahawks Finish Off Minicamp & Prepare For Super Bowl Ring Ceremony",
       "link": "https://www.seahawks.com/news/seahawks-finish-off-minicamp-prepare-for-super-bowl-ring-ceremony",
       "pubDate": "Thu, 11 Jun 2026 21:28:50 GMT",
@@ -348,16 +358,6 @@
       "source": "Seahawks.com",
       "team": "seahawks",
       "priority": 6
-    },
-    {
-      "title": "Mike Macdonald: Seahawks looking at early training camp return for Tory Horton",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169489/mike-macdonald-seahawks-looking-at-early-training-camp-return-tory-horton",
-      "pubDate": "2026-06-11T19:58:13.000Z",
-      "isoDate": "2026-06-11T19:58:13.000Z",
-      "excerpt": "Nov 2, 2025; Landover, Maryland, USA; Seattle Seahawks wide receiver Tory Horton (15) catches a touchdown pass as Washington Commanders cornerback Mike Sainristil (0) watches during the second quarter at Northwest...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
     },
     {
       "title": "Defensive End Cassius Marsh Retires A Seahawk",
