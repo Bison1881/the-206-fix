@@ -1,19 +1,14 @@
 {
-  "generatedAt": "2026-06-13T07:43:25.517Z",
+  "generatedAt": "2026-06-13T10:26:01.896Z",
   "sourceCount": 10,
-  "successfulSources": 10,
-  "failedSources": [],
-  "items": [
+  "successfulSources": 9,
+  "failedSources": [
     {
-      "title": "US opens its home World Cup with a dynamic 4-1 victory over Paraguay, sparked by Balogun’s 2 goals",
-      "link": "https://www.seattletimes.com/sports/world-cup/us-opens-its-home-world-cup-with-a-dynamic-4-1-victory-over-paraguay-sparked-by-baloguns-2-goals/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Fri, 12 Jun 2026 23:43:47 -0700",
-      "isoDate": "2026-06-13T06:43:47.000Z",
-      "excerpt": "Folarin Balogun scored twice in the Americans' three-goal barrage before halftime, and the U.S. opened its first home World Cup in 32 years with its biggest win in the tournament.",
       "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
+      "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
+    }
+  ],
+  "items": [
     {
       "title": "Latest Mariners injuries and transactions",
       "link": "https://www.mlb.com/mariners/news/mariners-injuries-and-roster-moves",
@@ -45,26 +40,6 @@
       "priority": 3
     },
     {
-      "title": "Photos: Seattle Storm lose to Golden State Valkyries, 76-72",
-      "link": "https://www.seattletimes.com/sports/storm/photos-seattle-storm-lose-to-golden-state-valkyries-76-72/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Fri, 12 Jun 2026 22:03:05 -0700",
-      "isoDate": "2026-06-13T05:03:05.000Z",
-      "excerpt": "",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Roaring crowds in stars and stripes show up for the US team, and soccer’s moment in their country",
-      "link": "https://www.seattletimes.com/sports/world-cup/roaring-crowds-in-stars-and-stripes-show-up-for-the-us-team-and-soccers-moment-in-their-country/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Fri, 12 Jun 2026 22:02:56 -0700",
-      "isoDate": "2026-06-13T05:02:56.000Z",
-      "excerpt": "Roaring crowds wearing stars and stripes came out to support the U.S. men's soccer team in their World Cup opener against Paraguay.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "Arozarena (hamstring) day to day as Mariners appear to avoid (another) serious injury",
       "link": "https://www.mlb.com/mariners/news/randy-arozarena-exits-with-apparent-leg-injury-vs-nationals",
       "pubDate": "Sat, 13 Jun 2026 04:59:00 GMT",
@@ -75,16 +50,6 @@
       "priority": 6
     },
     {
-      "title": "Seattle Storm suffer heartbreaking loss as skid reaches 8 straight games",
-      "link": "https://www.seattletimes.com/sports/storm/seattle-storm-suffer-heartbreaking-loss-as-skid-reaches-8-straight-games/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Fri, 12 Jun 2026 21:42:52 -0700",
-      "isoDate": "2026-06-13T04:42:52.000Z",
-      "excerpt": "The Storm’s losing streak extended to eight, tied for the second longest in franchise history, after a heartbreaking 76-72 defeat against the Golden State Valkyries.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "The latest on Mariners’ Randy Arozarena after early exit",
       "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/the-latest-on-mariners-randy-arozarena-after-early-exit",
       "pubDate": "Sat, 13 Jun 2026 04:26:09 +0000",
@@ -93,6 +58,16 @@
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
+    },
+    {
+      "title": "Mariners prove a little rain can’t hurt, win 10-2 over Nationals",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/144834/mariners-prove-a-little-rain-cant-hurt-win-10-2-over-nationals",
+      "pubDate": "2026-06-13T04:24:18.000Z",
+      "isoDate": "2026-06-13T04:24:18.000Z",
+      "excerpt": "WASHINGTON, DC - JUNE 12: Bryce Miller #50 of the Seattle Mariners pitches to the Washington Nationals during the first inning at Nationals Park on June 12, 2026 in Washington, DC. (Photo by Jess Rapfogel/Getty Images)...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
     },
     {
       "title": "Watch FREE today as Anderson, Sloan pitch in Double-A twin bill",
@@ -115,13 +90,13 @@
       "priority": 3
     },
     {
-      "title": "Mariners rout Nationals behind Bryce Miller, Dominic Canzone",
-      "link": "https://www.seattletimes.com/sports/mariners/mariners-rout-nationals-behind-bryce-miller-dominic-canzone/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Fri, 12 Jun 2026 20:33:08 -0700",
-      "isoDate": "2026-06-13T03:33:08.000Z",
-      "excerpt": "Bryce Miller continued his masterful start to the season, Dominic Canzone continued to mash baseballs, and the Mariners routed the Nationals on Friday night.",
-      "source": "Seattle Times Sports",
-      "team": "general",
+      "title": "37-34: Chart",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/144833/37-34-chart",
+      "pubDate": "2026-06-13T03:31:42.000Z",
+      "isoDate": "2026-06-13T03:31:42.000Z",
+      "excerpt": "WASHINGTON, DC - JUNE 12: Cole Young #2 and Josh Naylor #12 of the Seattle Mariners walk to the dugout before a game against the Washington Nationals at Nationals Park on June 12, 2026 in Washington, DC. (Photo by Jess...",
+      "source": "Lookout Landing",
+      "team": "mariners",
       "priority": 1
     },
     {
@@ -135,26 +110,6 @@
       "priority": 3
     },
     {
-      "title": "Folarin Balogun, who could have played for England or Nigeria, scores 2 for US in World Cup debut",
-      "link": "https://www.seattletimes.com/sports/world-cup/folarin-balogun-who-could-have-played-for-england-or-nigeria-scores-2-for-us-in-world-cup-debut/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Fri, 12 Jun 2026 20:14:21 -0700",
-      "isoDate": "2026-06-13T03:14:21.000Z",
-      "excerpt": "Folarin Balogun scored two goals as the Americans opened with a 4-1 victory over Paraguay on Friday night in front of a rabid and star-studded crowd at SoFi Stadium.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Mariners’ Randy Arozarena optimistic after exiting with hamstring injury",
-      "link": "https://www.seattletimes.com/sports/mariners/mariners-randy-arozarena-leaves-game-with-apparent-leg-injury/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Fri, 12 Jun 2026 19:27:02 -0700",
-      "isoDate": "2026-06-13T02:27:02.000Z",
-      "excerpt": "Randy Arozarena exited Friday’s game after he came up hobbling trying to beat out an infield groundout, the latest in a string of troubling injuries for the Mariners.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "Report: Vikings to hire Seahawks’ Kirchner as assistant GM",
       "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/report-vikings-to-hire-seattle-seahawks-trent-kirchner-as-assistant-gm",
       "pubDate": "Sat, 13 Jun 2026 01:02:15 +0000",
@@ -163,16 +118,6 @@
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
-    },
-    {
-      "title": "Bill Sprinkle, former UW football player and father of Danny Sprinkle, dies at 80",
-      "link": "https://www.seattletimes.com/sports/washington-huskies-football/bill-sprinkle-former-uw-football-player-and-father-of-danny-sprinkle-dies-at-80/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Fri, 12 Jun 2026 17:24:19 -0700",
-      "isoDate": "2026-06-13T00:24:19.000Z",
-      "excerpt": "Bill Sprinkle, the former Husky defensive back and father of current UW men's basketball coach Danny Sprinkle, died on June 5.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
     },
     {
       "title": "New Vikings general manager Nolan Teasley hires Trent Kirchner away from Seahawks",
@@ -193,6 +138,16 @@
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
+    },
+    {
+      "title": "Mariners at Nationals rain delay updates: Friday June 12, 2026",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-game-information/144816/mariners-at-nationals-rain-delay-updates-friday-june-12-2026",
+      "pubDate": "2026-06-12T22:33:27.000Z",
+      "isoDate": "2026-06-12T22:33:27.000Z",
+      "excerpt": "WASHINGTON, DC - APRIL 05: \"Screch\" dons a rain coat during a rain delay prior to the game between the Los Angeles Dodgers and the Washington Nationals on April 05, 2026 at Nationals Park in Washington, D.C. (Photo by...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
     },
     {
       "title": "With Crawford and Donovan sidelined, Young has been ASG-worthy in leadoff spot",
@@ -245,6 +200,16 @@
       "priority": 6
     },
     {
+      "title": "Series Preview: Mariners (36-34) vs. Nationals (35-34)",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-game-information/144809/series-preview-seattle-mariners-vs-washington-nationals-june-2026",
+      "pubDate": "2026-06-12T17:00:00.000Z",
+      "isoDate": "2026-06-12T17:00:00.000Z",
+      "excerpt": "SAN FRANCISCO, CALIFORNIA - JUNE 10: James Wood #29 of the Washington Nationals in the dugout has teammates throw sunflower seeds at him after he hit a two-run home run against the San Francisco Giants in the top of the...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
       "title": "Reviewing Deven Eastern and his fit with the Seahawks",
       "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/169492/reviewing-deven-eastern-and-his-fit-with-the-seahawks",
       "pubDate": "2026-06-12T15:48:28.000Z",
@@ -262,6 +227,16 @@
       "excerpt": "There’s a certain grieving period that all professional athletes go through when deciding to hang up their cleats. For some, it’s short and easy, but others take longer to come to terms with a new reality. For former...",
       "source": "Field Gulls",
       "team": "seahawks",
+      "priority": 1
+    },
+    {
+      "title": "Mariners News: Matt Brash, Shohei Ohtani, and Tarik Skubal",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-news/144792/matt-brash-shohei-ohtani-tarik-skubal-julio-rodriguez-joc-pederson",
+      "pubDate": "2026-06-12T14:00:00.000Z",
+      "isoDate": "2026-06-12T14:00:00.000Z",
+      "excerpt": "SEATTLE, WA - JUNE 01: Matt Brash #47 of the Seattle Mariners pitches during the game between the New York Mets and the Seattle Mariners at T-Mobile Park on Monday, June 1, 2026 in Seattle, Washington. (Photo by Connor...",
+      "source": "Lookout Landing",
+      "team": "mariners",
       "priority": 1
     },
     {
@@ -365,26 +340,6 @@
       "priority": 6
     },
     {
-      "title": "Mariners Reacts Survey: Decisions, Decisions, Decisions",
-      "link": "https://www.lookoutlanding.com/general/144669/mariners-reacts-survey-decisions-decisions-decisions",
-      "pubDate": "2026-06-11T20:42:13.000Z",
-      "isoDate": "2026-06-11T20:42:13.000Z",
-      "excerpt": "Jun 6, 2026; Detroit, Michigan, USA; Seattle Mariners catcher Jhonny Pereda (5) and pitcher Gabe Speier (55) celebrate after defeating the Detroit Tigers at Comerica Park. Mandatory Credit: Rick Osentoski-Imagn Images |...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "Mariners select Auburn Riverside HS product RHP Michael Rucker, DFA Domingo González",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-roster/144762/mariners-select-auburn-riverside-hs-product-rhp-michael-rucker-dfa-domingo-gonzalez",
-      "pubDate": "2026-06-11T20:06:05.000Z",
-      "isoDate": "2026-06-11T20:06:05.000Z",
-      "excerpt": "CHICAGO, IL - JUNE 15: Michael Rucker of the Chicago Cubs pitches in a game against the Pittsburgh Pirates at Wrigley Field on June 15, 2023 in Chicago, Illinois. (Photo by Matt Dirksen/Getty Images) | Getty Images The...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
       "title": "Mike Macdonald: Seahawks looking at early training camp return for Tory Horton",
       "link": "https://www.fieldgulls.com/seattle-seahawks-news/169489/mike-macdonald-seahawks-looking-at-early-training-camp-return-tory-horton",
       "pubDate": "2026-06-11T19:58:13.000Z",
@@ -425,16 +380,6 @@
       "priority": 2
     },
     {
-      "title": "Mariners Draft Profile: 3B Bo Lowrance",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-mlb-draft/144756/mariners-draft-profile-3b-bo-lowrance",
-      "pubDate": "2026-06-11T15:00:00.000Z",
-      "isoDate": "2026-06-11T15:00:00.000Z",
-      "excerpt": "ATLANTA, GEORGIA - JULY 13: Major League Baseball commissioner Robert D. Manfred Jr. announces Kade Anderson as the third overall pick, by the Seattle Mariners, in the first round of the 2025 MLB Draft at Coca-Cola Roxy...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
       "title": "Seahawks News 6/11: Seahawks further tweaking The Demon’s role",
       "link": "https://www.fieldgulls.com/seattle-seahawks-news/169478/seahawks-news-6-11-seahawks-further-tweaking-the-demons-role",
       "pubDate": "2026-06-11T13:00:00.000Z",
@@ -445,16 +390,6 @@
       "priority": 1
     },
     {
-      "title": "Mariners News: Matt Brash, Max Scherzer, and OG Anunoby",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-news/144672/mariners-news-matt-brash-max-scherzer-and-og-anunoby",
-      "pubDate": "2026-06-11T11:00:00.000Z",
-      "isoDate": "2026-06-11T11:00:00.000Z",
-      "excerpt": "Jun 10, 2026; Toronto, Ontario, CAN; Toronto Blue Jays pitcher Max Scherzer (31) celebrates his career 3500th strike out against the Philadelphia Phillies during the first inning at Rogers Centre. Mandatory Credit:...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
       "title": "Julia Gosling Signs Two-Year Deal With the Torrent",
       "link": "https://www.davyjoneslockerroom.com/julia-gosling-signs-two-year-deal-with-the-torrent/",
       "pubDate": "Thu, 11 Jun 2026 04:29:02 +0000",
@@ -462,16 +397,6 @@
       "excerpt": "Julia Gosling rejected a foundational player offer (FPO) to become a key component for the Seattle Torrent next year. She signed a two-year deal and became the first of Seattle’s Phase 3 protections and fourth protected...",
       "source": "Davy Jones' Locker Room",
       "team": "kraken",
-      "priority": 1
-    },
-    {
-      "title": "Mariners fail to launch as bats go cold in loss to Orioles",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/144703/mariners-fail-to-launch-as-bats-go-cold-in-loss-to-orioles",
-      "pubDate": "2026-06-11T02:23:18.000Z",
-      "isoDate": "2026-06-11T02:23:18.000Z",
-      "excerpt": "Jun 10, 2026; Baltimore, Maryland, USA; Baltimore Orioles second baseman Jackson Holliday (7) celebrates with his teammates after hitting a grand slam during the seventh inning against the Seattle Mariners at Oriole...",
-      "source": "Lookout Landing",
-      "team": "mariners",
       "priority": 1
     },
     {
@@ -603,6 +528,86 @@
       "source": "Davy Jones' Locker Room",
       "team": "kraken",
       "priority": 1
+    },
+    {
+      "title": "Russell Wilson Announces Retirement",
+      "link": "https://www.profootballrumors.com/2026/06/russell-wilson-announces-retirement",
+      "pubDate": "Thu, 04 Jun 2026 04:30:09 +0000",
+      "isoDate": "2026-06-04T04:30:09.000Z",
+      "excerpt": "On Monday, it was reported Russell Wilson would spend the 2026 season as an analyst for CBS. That news obviously suggested his playing days were over, and that has now been confirmed. On Wednesday, Wilson posted a video...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
+      "priority": 2
+    },
+    {
+      "title": "VOTE NOW! Help make Mariners All-Star Game starters",
+      "link": "https://www.mlb.com/all-star/ballot?affiliateID=asballot_sea_digital_2026",
+      "pubDate": "Wed, 03 Jun 2026 18:13:55 GMT",
+      "isoDate": "2026-06-03T18:13:55.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Seattle Torrent Sign Alex Carpenter, Protect Her From Expansion Thieves",
+      "link": "https://www.davyjoneslockerroom.com/seattle-torrent-sign-alex-carpenter-protect-her-from-expansion-thieves/",
+      "pubDate": "Wed, 03 Jun 2026 14:00:00 +0000",
+      "isoDate": "2026-06-03T14:00:00.000Z",
+      "excerpt": "The Seattle Torrent re-signed forward Alex Carpenter to a 3-year PWHL Standard Player Agreement on June 2, keeping one of the franchise’s foundational pieces through 2028-29 and committing one of the team’s 3 protection...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
+      "title": "Melinda French Gates Becomes Minority Owner of the Seattle Kraken",
+      "link": "https://www.davyjoneslockerroom.com/melinda-french-gates-becomes-minority-owner-of-the-seattle-kraken/",
+      "pubDate": "Tue, 02 Jun 2026 14:00:00 +0000",
+      "isoDate": "2026-06-02T14:00:00.000Z",
+      "excerpt": "Melinda French Gates is becoming a minority owner of the Seattle Kraken, the team’s parent company said Monday, pending approval from the NHL. The size of her stake and the terms were not disclosed. French Gates, 61,...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
+      "title": "Stream Mariners games on Mariners.TV for NEW low price of $74.99",
+      "link": "https://www.mlb.com/mariners/news/mariners-tv-is-here-for-2026-season",
+      "pubDate": "Mon, 01 Jun 2026 16:18:00 GMT",
+      "isoDate": "2026-06-01T16:18:00.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Seahawks, Dante Fowler Agree To Deal",
+      "link": "https://www.profootballrumors.com/2026/05/seahawks-dante-fowler-agree-to-deal",
+      "pubDate": "Mon, 01 Jun 2026 03:55:05 +0000",
+      "isoDate": "2026-06-01T03:55:05.000Z",
+      "excerpt": "MAY 31: Fowler’s deal with the Seahawks has a base value of $2.5MM with just $500k guaranteed via a signing bonus, per ESPN’s Brady Henderson, the lowest of his career. He is also set to earn a $1.32MM salary and $680k...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
+      "priority": 2
+    },
+    {
+      "title": "Vikings Hire Nolan Teasley As GM; Rob Brzezinski Staying On As EVP",
+      "link": "https://www.profootballrumors.com/2026/05/vikings-to-hire-nolan-teasly-as-general-manager",
+      "pubDate": "Sun, 31 May 2026 04:20:11 +0000",
+      "isoDate": "2026-05-31T04:20:11.000Z",
+      "excerpt": "The Vikings have landed on their next general manager. Seahawks assistant GM Nolan Teasley will be taking over the front office in Minnesota, per NFL Network’s Tom Pelissero. The news is now official. Teasley is coming...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
+      "priority": 2
+    },
+    {
+      "title": "AL West Notes: Miller, Castillo, Langford, Rangers, Moore",
+      "link": "https://www.mlbtraderumors.com/2026/05/al-west-notes-miller-castillo-langford-rangers-moore.html",
+      "pubDate": "Sat, 30 May 2026 15:52:30 +0000",
+      "isoDate": "2026-05-30T15:52:30.000Z",
+      "excerpt": "Bryce Miller will start and Luis Castillo will again be the piggyback pitcher for the Mariners on Sunday, but the team will then adopt a six-man rotation, the Seattle Times’ Adam Jude writes. Friday’s game with the...",
+      "source": "MLB Trade Rumors",
+      "team": "mariners",
+      "priority": 2
     }
   ]
 }
