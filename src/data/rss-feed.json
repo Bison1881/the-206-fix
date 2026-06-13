@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-13T10:26:01.896Z",
+  "generatedAt": "2026-06-13T13:52:53.025Z",
   "sourceCount": 10,
   "successfulSources": 9,
   "failedSources": [
@@ -9,6 +9,16 @@
     }
   ],
   "items": [
+    {
+      "title": "Seahawks News 6/13: Brian Fleury is setting up Seahawks O for success",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169554/seahawks-news-6-13-brian-fleury-is-setting-up-seahawks-o-for-success",
+      "pubDate": "2026-06-13T13:00:00.000Z",
+      "isoDate": "2026-06-13T13:00:00.000Z",
+      "excerpt": "Jun 9, 2026; Renton, WA, USA; Seattle Seahawks offensive coordinator Brian Fleury during minicamp at Virginia Mason Athletic Center. Mandatory Credit: Steven Bisig-Imagn Images | Steven Bisig-Imagn Images In Today’s...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
     {
       "title": "Latest Mariners injuries and transactions",
       "link": "https://www.mlb.com/mariners/news/mariners-injuries-and-roster-moves",
@@ -378,16 +388,6 @@
       "source": "Pro Hockey Rumors",
       "team": "kraken",
       "priority": 2
-    },
-    {
-      "title": "Seahawks News 6/11: Seahawks further tweaking The Demon’s role",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169478/seahawks-news-6-11-seahawks-further-tweaking-the-demons-role",
-      "pubDate": "2026-06-11T13:00:00.000Z",
-      "isoDate": "2026-06-11T13:00:00.000Z",
-      "excerpt": "Jun 9, 2026; Renton, WA, USA; Seattle Seahawks safety Nick Emmanwori (3) speaks to the media after minicamp practice at Virginia Mason Athletic Center. Mandatory Credit: Steven Bisig-Imagn Images | Steven Bisig-Imagn...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
     },
     {
       "title": "Julia Gosling Signs Two-Year Deal With the Torrent",
