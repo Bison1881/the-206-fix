@@ -1,29 +1,18 @@
 {
-  "generatedAt": "2026-06-14T08:13:12.034Z",
+  "generatedAt": "2026-06-14T11:54:25.538Z",
   "sourceCount": 10,
-  "successfulSources": 10,
-  "failedSources": [],
+  "successfulSources": 8,
+  "failedSources": [
+    {
+      "source": "Seattle Times Sports",
+      "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
+    },
+    {
+      "source": "Davy Jones' Locker Room",
+      "error": "Status code 415 (lenient retry: Status code 415)"
+    }
+  ],
   "items": [
-    {
-      "title": "Australia spoils Turkey’s return to the World Cup with a 2-0 victory",
-      "link": "https://www.seattletimes.com/sports/world-cup/australia-spoils-turkeys-return-to-the-world-cup-with-a-2-0-victory/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sat, 13 Jun 2026 23:16:55 -0700",
-      "isoDate": "2026-06-14T06:16:55.000Z",
-      "excerpt": "Nestory Irankunda and Connor Metcalfe scored and Australia spoiled Turkey’s return to the World Cup for the first time in 24 years with a 2-0 victory Saturday night.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Washington State’s Longisa wins 1,500M at outdoor track and field championships",
-      "link": "https://www.seattletimes.com/sports/washington-states-longisa-wins-1500m-at-outdoor-track-and-field-championships/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sat, 13 Jun 2026 22:28:16 -0700",
-      "isoDate": "2026-06-14T05:28:16.000Z",
-      "excerpt": "Washington State sophomore Rosemary Longisa won the 1,500-meter run outdoor national championship Saturday evening at the NCAA outdoor track and field championships in Eugene, Ore.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
     {
       "title": "Raleigh homers twice in rehab game with Rainiers",
       "link": "https://www.mlb.com/mariners/news/cal-raleigh-homers-twice-in-triple-a-rehab-game",
@@ -33,26 +22,6 @@
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
-    },
-    {
-      "title": "The Comeback Knicks are the Champion Knicks. Brunson scores 45, and New York tops Spurs for title",
-      "link": "https://www.seattletimes.com/sports/nba/the-comeback-knicks-are-the-champion-knicks-brunson-scores-45-and-new-york-tops-spurs-for-title/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sat, 13 Jun 2026 20:38:42 -0700",
-      "isoDate": "2026-06-14T03:38:42.000Z",
-      "excerpt": "For the first time in 53 years, New York rules the NBA. Jalen Brunson scored 45 points, and the Knicks beat the San Antonio Spurs in Game 5 of the NBA Finals.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Scotland marks 28-year World Cup absence with 1-0 victory over Haiti in Group C",
-      "link": "https://www.seattletimes.com/sports/world-cup/scotland-marks-28-year-world-cup-absence-with-1-0-victory-over-haiti-in-group-c/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sat, 13 Jun 2026 20:16:48 -0700",
-      "isoDate": "2026-06-14T03:16:48.000Z",
-      "excerpt": "The Scots, making their first appearance in the tournament since 1998, earned their first World Cup victory since 1990, beating Haiti 1-0 Saturday.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
     },
     {
       "title": "Former 49ers All-Pro linebacker Aldon Smith dies at age 36",
@@ -75,16 +44,6 @@
       "priority": 6
     },
     {
-      "title": "49ers mourn the sudden death of former All-Pro linebacker Aldon Smith at 36",
-      "link": "https://www.seattletimes.com/sports/nfl/49ers-mourn-the-sudden-death-of-former-all-pro-linebacker-aldon-smith-at-36/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sat, 13 Jun 2026 18:39:16 -0700",
-      "isoDate": "2026-06-14T01:39:16.000Z",
-      "excerpt": "Aldon Smith, a former All-Pro linebacker for the San Francisco 49ers whose playing career was sidetracked by legal issues, has died.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "Emerson joins Junior, A-Rod in elite company with youth and power",
       "link": "https://www.mlb.com/mariners/news/colt-emerson-showing-power-at-young-age-mariners",
       "pubDate": "Sun, 14 Jun 2026 00:47:51 GMT",
@@ -95,16 +54,6 @@
       "priority": 6
     },
     {
-      "title": "Kade Anderson, Ryan Sloan shine in Double-A doubleheader | Mariners extra",
-      "link": "https://www.seattletimes.com/sports/mariners/kade-anderson-ryan-sloan-shine-in-double-a-doubleheader-mariners-extra/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sat, 13 Jun 2026 17:46:29 -0700",
-      "isoDate": "2026-06-14T00:46:29.000Z",
-      "excerpt": "More of the same from the Mariners' top two pitching prospects, Kade Anderson and Ryan Sloan, who dominated in a Double-A doubleheader Saturday.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "Guardians, who play M’s this month, lose slugger Ramírez to broken bone in hand",
       "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/cleveland-guardians-seattle-mariners-jose-ramirez-broken-bone-in-hand",
       "pubDate": "Sun, 14 Jun 2026 00:19:07 +0000",
@@ -113,16 +62,6 @@
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
-    },
-    {
-      "title": "Brazil rallies for 1-1 draw against Morocco in its World Cup opener behind Vinícius Júnior’s goal",
-      "link": "https://www.seattletimes.com/sports/world-cup/brazil-rallies-for-1-1-draw-against-morocco-in-its-world-cup-opener-behind-vinicius-junior-goal/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sat, 13 Jun 2026 17:18:39 -0700",
-      "isoDate": "2026-06-14T00:18:39.000Z",
-      "excerpt": "Vinícius Júnior scored an equalizing goal in the 32nd minute to give five-time champion Brazil a 1-1 draw against Morocco in a pulsating, high-profile group match at the World Cup.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
     },
     {
       "title": "Mariners Lose 8-3, I Snooze… Do-Re-Mi",
@@ -143,16 +82,6 @@
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
-    },
-    {
-      "title": "Mariners’ Colt Emerson may be growing into surprising power potential",
-      "link": "https://www.seattletimes.com/sports/mariners/mariners-colt-emerson-may-be-growing-into-surprising-power-potential/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sat, 13 Jun 2026 16:26:07 -0700",
-      "isoDate": "2026-06-13T23:26:07.000Z",
-      "excerpt": "Colt Emerson hit his sixth home run in just 22 major-league games on Saturday, as his power potential this early has been a pleasant surprise.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
     },
     {
       "title": "Luis García Jr. homers to help Nationals beat Mariners 8-3",
@@ -385,16 +314,6 @@
       "priority": 1
     },
     {
-      "title": "Kraken add Patrik Allvin as Assistant GM, add Pascal Vincent as Assistant Coach",
-      "link": "https://www.davyjoneslockerroom.com/kraken-add-patrik-allvin-as-assistant-gm-add-pascal-vincent-as-assistant-coach/",
-      "pubDate": "Fri, 12 Jun 2026 05:04:14 +0000",
-      "isoDate": "2026-06-12T05:04:14.000Z",
-      "excerpt": "The plot for both Lane Lambert and Jason Botterill thickens today, as the Kraken have added to their front office with the additions of names both slightly known and slightly unknown. Alison Lukan broke the story: The...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
-    },
-    {
       "title": "Seahawks Receive Super Bowl LX Rings",
       "link": "https://www.seahawks.com/news/seahawks-receive-super-bowl-lx-rings",
       "pubDate": "Fri, 12 Jun 2026 03:30:00 GMT",
@@ -413,16 +332,6 @@
       "source": "Seahawks.com",
       "team": "seahawks",
       "priority": 6
-    },
-    {
-      "title": "Christine Bumstead Named Head Coach of the Seattle Torrent",
-      "link": "https://www.davyjoneslockerroom.com/christine-bumstead-named-head-coach-of-the-seattle-torrent/",
-      "pubDate": "Fri, 12 Jun 2026 02:12:29 +0000",
-      "isoDate": "2026-06-12T02:12:29.000Z",
-      "excerpt": "The Seattle Torrent named Christine Bumstead as the head coach for the franchise’s second year. Bumstead was an assistant coach during the team’s inaugural season and takes over the role from Steve O’Rourke who was let...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
     },
     {
       "title": "Seahawks to hold joint practice with Titans in Nashville (again)",
@@ -473,16 +382,6 @@
       "source": "Pro Hockey Rumors",
       "team": "kraken",
       "priority": 2
-    },
-    {
-      "title": "Julia Gosling Signs Two-Year Deal With the Torrent",
-      "link": "https://www.davyjoneslockerroom.com/julia-gosling-signs-two-year-deal-with-the-torrent/",
-      "pubDate": "Thu, 11 Jun 2026 04:29:02 +0000",
-      "isoDate": "2026-06-11T04:29:02.000Z",
-      "excerpt": "Julia Gosling rejected a foundational player offer (FPO) to become a key component for the Seattle Torrent next year. She signed a two-year deal and became the first of Seattle’s Phase 3 protections and fourth protected...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
     },
     {
       "title": "The 'Kinda' New Offense, Injury Updates & Other Takeaways From Day 2 Of Seahawks Minicamp",
@@ -602,6 +501,116 @@
       "excerpt": "JUNE 5: Hall’s contract includes $15.27MM guaranteed at signing, according to OverTheCap. An additional $4.2MM will become fully guaranteed five days after Super Bowl LXI, per Spotrac. Another $1.5MM will lock in five...",
       "source": "Pro Football Rumors",
       "team": "seahawks",
+      "priority": 2
+    },
+    {
+      "title": "Russell Wilson Announces Retirement",
+      "link": "https://www.profootballrumors.com/2026/06/russell-wilson-announces-retirement",
+      "pubDate": "Thu, 04 Jun 2026 04:30:09 +0000",
+      "isoDate": "2026-06-04T04:30:09.000Z",
+      "excerpt": "On Monday, it was reported Russell Wilson would spend the 2026 season as an analyst for CBS. That news obviously suggested his playing days were over, and that has now been confirmed. On Wednesday, Wilson posted a video...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
+      "priority": 2
+    },
+    {
+      "title": "VOTE NOW! Help make Mariners All-Star Game starters",
+      "link": "https://www.mlb.com/all-star/ballot?affiliateID=asballot_sea_digital_2026",
+      "pubDate": "Wed, 03 Jun 2026 18:13:55 GMT",
+      "isoDate": "2026-06-03T18:13:55.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Stream Mariners games on Mariners.TV for NEW low price of $74.99",
+      "link": "https://www.mlb.com/mariners/news/mariners-tv-is-here-for-2026-season",
+      "pubDate": "Mon, 01 Jun 2026 16:18:00 GMT",
+      "isoDate": "2026-06-01T16:18:00.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Seahawks, Dante Fowler Agree To Deal",
+      "link": "https://www.profootballrumors.com/2026/05/seahawks-dante-fowler-agree-to-deal",
+      "pubDate": "Mon, 01 Jun 2026 03:55:05 +0000",
+      "isoDate": "2026-06-01T03:55:05.000Z",
+      "excerpt": "MAY 31: Fowler’s deal with the Seahawks has a base value of $2.5MM with just $500k guaranteed via a signing bonus, per ESPN’s Brady Henderson, the lowest of his career. He is also set to earn a $1.32MM salary and $680k...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
+      "priority": 2
+    },
+    {
+      "title": "Vikings Hire Nolan Teasley As GM; Rob Brzezinski Staying On As EVP",
+      "link": "https://www.profootballrumors.com/2026/05/vikings-to-hire-nolan-teasly-as-general-manager",
+      "pubDate": "Sun, 31 May 2026 04:20:11 +0000",
+      "isoDate": "2026-05-31T04:20:11.000Z",
+      "excerpt": "The Vikings have landed on their next general manager. Seahawks assistant GM Nolan Teasley will be taking over the front office in Minnesota, per NFL Network’s Tom Pelissero. The news is now official. Teasley is coming...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
+      "priority": 2
+    },
+    {
+      "title": "AL West Notes: Miller, Castillo, Langford, Rangers, Moore",
+      "link": "https://www.mlbtraderumors.com/2026/05/al-west-notes-miller-castillo-langford-rangers-moore.html",
+      "pubDate": "Sat, 30 May 2026 15:52:30 +0000",
+      "isoDate": "2026-05-30T15:52:30.000Z",
+      "excerpt": "Bryce Miller will start and Luis Castillo will again be the piggyback pitcher for the Mariners on Sunday, but the team will then adopt a six-man rotation, the Seattle Times’ Adam Jude writes. Friday’s game with the...",
+      "source": "MLB Trade Rumors",
+      "team": "mariners",
+      "priority": 2
+    },
+    {
+      "title": "Seahawks To Sign First-Round RB Jadarian Price, Wrap Draft Class Deals",
+      "link": "https://www.profootballrumors.com/2026/05/seahawks-to-sign-first-round-rb-jadarian-price-wrap-draft-class-deals",
+      "pubDate": "Fri, 29 May 2026 21:17:24 +0000",
+      "isoDate": "2026-05-29T21:17:24.000Z",
+      "excerpt": "The Seahawks have agreed to a deal with first-round running back Jadarian Price, Tom Pelissero of NFL Network reports. Price went 32nd overall, which carries a total value of approximately $16.78MM over four years. He...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
+      "priority": 2
+    },
+    {
+      "title": "Mariners Notes: Crawford, Rotation, Castillo",
+      "link": "https://www.mlbtraderumors.com/2026/05/mariners-notes-crawford-rotation-castillo.html",
+      "pubDate": "Sun, 24 May 2026 04:22:37 +0000",
+      "isoDate": "2026-05-24T04:22:37.000Z",
+      "excerpt": "J.P. Crawford has been a key part of the Mariners’ lineup since joining the club in 2019. In over 3,800 plate appearances with Seattle, Crawford has batted .248/.341/.369 with a 107 wRC+ while providing serviceable...",
+      "source": "MLB Trade Rumors",
+      "team": "mariners",
+      "priority": 2
+    },
+    {
+      "title": "Kraken Sign Alexis Bernier To Entry-Level Contract",
+      "link": "https://www.prohockeyrumors.com/2026/05/kraken-sign-defenseman-alexis-bernier-to-entry-level-contract.html",
+      "pubDate": "Tue, 19 May 2026 17:30:30 +0000",
+      "isoDate": "2026-05-19T17:30:30.000Z",
+      "excerpt": "The Seattle Kraken have locked up one of their promising young blue-line prospects, signing defenseman Alexis Bernier to a three-year, entry-level contract. According to the team, the deal will carry an average annual...",
+      "source": "Pro Hockey Rumors",
+      "team": "kraken",
+      "priority": 2
+    },
+    {
+      "title": "Evening Notes: Kraken, Manson, Sabres",
+      "link": "https://www.prohockeyrumors.com/2026/05/evening-notes-kraken-manson-sabres.html",
+      "pubDate": "Tue, 12 May 2026 23:06:29 +0000",
+      "isoDate": "2026-05-12T23:06:29.000Z",
+      "excerpt": "The Seattle Kraken have partnered with sports advisory firm Sportsology to perform an assessment of their hockey operations department after parting ways with general manager Ron Francis, per Fox 13 Seattle. The firm...",
+      "source": "Pro Hockey Rumors",
+      "team": "kraken",
+      "priority": 2
+    },
+    {
+      "title": "Offseason Checklist: Seattle Kraken",
+      "link": "https://www.prohockeyrumors.com/2026/05/offseason-checklist-seattle-kraken-5.html",
+      "pubDate": "Fri, 08 May 2026 03:00:35 +0000",
+      "isoDate": "2026-05-08T03:00:35.000Z",
+      "excerpt": "A look at what the Seattle Kraken should be looking to do this offseason.",
+      "source": "Pro Hockey Rumors",
+      "team": "kraken",
       "priority": 2
     }
   ]
