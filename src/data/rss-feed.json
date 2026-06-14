@@ -1,14 +1,69 @@
 {
-  "generatedAt": "2026-06-14T03:40:51.930Z",
+  "generatedAt": "2026-06-14T08:13:12.034Z",
   "sourceCount": 10,
-  "successfulSources": 9,
-  "failedSources": [
-    {
-      "source": "Seattle Times Sports",
-      "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
-    }
-  ],
+  "successfulSources": 10,
+  "failedSources": [],
   "items": [
+    {
+      "title": "Australia spoils Turkey’s return to the World Cup with a 2-0 victory",
+      "link": "https://www.seattletimes.com/sports/world-cup/australia-spoils-turkeys-return-to-the-world-cup-with-a-2-0-victory/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Sat, 13 Jun 2026 23:16:55 -0700",
+      "isoDate": "2026-06-14T06:16:55.000Z",
+      "excerpt": "Nestory Irankunda and Connor Metcalfe scored and Australia spoiled Turkey’s return to the World Cup for the first time in 24 years with a 2-0 victory Saturday night.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Washington State’s Longisa wins 1,500M at outdoor track and field championships",
+      "link": "https://www.seattletimes.com/sports/washington-states-longisa-wins-1500m-at-outdoor-track-and-field-championships/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Sat, 13 Jun 2026 22:28:16 -0700",
+      "isoDate": "2026-06-14T05:28:16.000Z",
+      "excerpt": "Washington State sophomore Rosemary Longisa won the 1,500-meter run outdoor national championship Saturday evening at the NCAA outdoor track and field championships in Eugene, Ore.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Raleigh homers twice in rehab game with Rainiers",
+      "link": "https://www.mlb.com/mariners/news/cal-raleigh-homers-twice-in-triple-a-rehab-game",
+      "pubDate": "Sun, 14 Jun 2026 04:33:42 GMT",
+      "isoDate": "2026-06-14T04:33:42.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "The Comeback Knicks are the Champion Knicks. Brunson scores 45, and New York tops Spurs for title",
+      "link": "https://www.seattletimes.com/sports/nba/the-comeback-knicks-are-the-champion-knicks-brunson-scores-45-and-new-york-tops-spurs-for-title/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Sat, 13 Jun 2026 20:38:42 -0700",
+      "isoDate": "2026-06-14T03:38:42.000Z",
+      "excerpt": "For the first time in 53 years, New York rules the NBA. Jalen Brunson scored 45 points, and the Knicks beat the San Antonio Spurs in Game 5 of the NBA Finals.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Scotland marks 28-year World Cup absence with 1-0 victory over Haiti in Group C",
+      "link": "https://www.seattletimes.com/sports/world-cup/scotland-marks-28-year-world-cup-absence-with-1-0-victory-over-haiti-in-group-c/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Sat, 13 Jun 2026 20:16:48 -0700",
+      "isoDate": "2026-06-14T03:16:48.000Z",
+      "excerpt": "The Scots, making their first appearance in the tournament since 1998, earned their first World Cup victory since 1990, beating Haiti 1-0 Saturday.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Former 49ers All-Pro linebacker Aldon Smith dies at age 36",
+      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/former-49ers-all-pro-linebacker-aldon-smith-dies-at-age-36",
+      "pubDate": "Sun, 14 Jun 2026 03:01:50 +0000",
+      "isoDate": "2026-06-14T03:01:50.000Z",
+      "excerpt": "Aldon Smith, the troubled but talented pass rusher, spent a brief stint with the Seahawks but never played in a game for the team.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
     {
       "title": "Double feature: Anderson, Sloan spin back-to-back gems in Double-A twin bill",
       "link": "https://www.mlb.com/mariners/news/mariners-kade-anderson-ryan-sloan-strong-starts-doubleheader",
@@ -18,6 +73,16 @@
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
+    },
+    {
+      "title": "49ers mourn the sudden death of former All-Pro linebacker Aldon Smith at 36",
+      "link": "https://www.seattletimes.com/sports/nfl/49ers-mourn-the-sudden-death-of-former-all-pro-linebacker-aldon-smith-at-36/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Sat, 13 Jun 2026 18:39:16 -0700",
+      "isoDate": "2026-06-14T01:39:16.000Z",
+      "excerpt": "Aldon Smith, a former All-Pro linebacker for the San Francisco 49ers whose playing career was sidetracked by legal issues, has died.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
     },
     {
       "title": "Emerson joins Junior, A-Rod in elite company with youth and power",
@@ -30,6 +95,16 @@
       "priority": 6
     },
     {
+      "title": "Kade Anderson, Ryan Sloan shine in Double-A doubleheader | Mariners extra",
+      "link": "https://www.seattletimes.com/sports/mariners/kade-anderson-ryan-sloan-shine-in-double-a-doubleheader-mariners-extra/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Sat, 13 Jun 2026 17:46:29 -0700",
+      "isoDate": "2026-06-14T00:46:29.000Z",
+      "excerpt": "More of the same from the Mariners' top two pitching prospects, Kade Anderson and Ryan Sloan, who dominated in a Double-A doubleheader Saturday.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
       "title": "Guardians, who play M’s this month, lose slugger Ramírez to broken bone in hand",
       "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/cleveland-guardians-seattle-mariners-jose-ramirez-broken-bone-in-hand",
       "pubDate": "Sun, 14 Jun 2026 00:19:07 +0000",
@@ -38,6 +113,16 @@
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
+    },
+    {
+      "title": "Brazil rallies for 1-1 draw against Morocco in its World Cup opener behind Vinícius Júnior’s goal",
+      "link": "https://www.seattletimes.com/sports/world-cup/brazil-rallies-for-1-1-draw-against-morocco-in-its-world-cup-opener-behind-vinicius-junior-goal/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Sat, 13 Jun 2026 17:18:39 -0700",
+      "isoDate": "2026-06-14T00:18:39.000Z",
+      "excerpt": "Vinícius Júnior scored an equalizing goal in the 32nd minute to give five-time champion Brazil a 1-1 draw against Morocco in a pulsating, high-profile group match at the World Cup.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
     },
     {
       "title": "Mariners Lose 8-3, I Snooze… Do-Re-Mi",
@@ -58,6 +143,16 @@
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
+    },
+    {
+      "title": "Mariners’ Colt Emerson may be growing into surprising power potential",
+      "link": "https://www.seattletimes.com/sports/mariners/mariners-colt-emerson-may-be-growing-into-surprising-power-potential/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Sat, 13 Jun 2026 16:26:07 -0700",
+      "isoDate": "2026-06-13T23:26:07.000Z",
+      "excerpt": "Colt Emerson hit his sixth home run in just 22 major-league games on Saturday, as his power potential this early has been a pleasant surprise.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
     },
     {
       "title": "Luis García Jr. homers to help Nationals beat Mariners 8-3",
@@ -150,16 +245,6 @@
       "priority": 1
     },
     {
-      "title": "Randy Arozarena held out of Mariners lineup vs Nationals",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/randy-arozarena-held-out-of-mariners-lineup-vs-nationals",
-      "pubDate": "Sat, 13 Jun 2026 17:56:23 +0000",
-      "isoDate": "2026-06-13T17:56:23.000Z",
-      "excerpt": "The left fielder's absence comes a day after he left a game early with a hamstring issue.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
       "title": "Todd Boehly Considering Seahawks Ownership Bid",
       "link": "https://www.profootballrumors.com/2026/06/todd-boehly-considering-seahawks-ownership-bid",
       "pubDate": "Sat, 13 Jun 2026 17:39:06 +0000",
@@ -198,16 +283,6 @@
       "source": "Field Gulls",
       "team": "seahawks",
       "priority": 1
-    },
-    {
-      "title": "Miller twirls 'one of the better performances we've seen all year' in a career first",
-      "link": "https://www.mlb.com/mariners/news/bryce-miller-pitches-career-high-8-innings-in-dominant-win",
-      "pubDate": "Sat, 13 Jun 2026 05:28:00 GMT",
-      "isoDate": "2026-06-13T05:28:00.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
     },
     {
       "title": "Mariners prove a little rain can’t hurt, win 10-2 over Nationals",
@@ -525,86 +600,6 @@
       "pubDate": "Fri, 05 Jun 2026 19:00:15 +0000",
       "isoDate": "2026-06-05T19:00:15.000Z",
       "excerpt": "JUNE 5: Hall’s contract includes $15.27MM guaranteed at signing, according to OverTheCap. An additional $4.2MM will become fully guaranteed five days after Super Bowl LXI, per Spotrac. Another $1.5MM will lock in five...",
-      "source": "Pro Football Rumors",
-      "team": "seahawks",
-      "priority": 2
-    },
-    {
-      "title": "Seattle Torrent Protect Wilgren, Murphy, Carpenter in Expansion Draft",
-      "link": "https://www.davyjoneslockerroom.com/seattle-torrent-protect-wilgren-murphy-carpenter-in-expansion-draft/",
-      "pubDate": "Thu, 04 Jun 2026 16:00:00 +0000",
-      "isoDate": "2026-06-04T16:00:00.000Z",
-      "excerpt": "The Torrent have made some interesting choices in the upcoming expansion process by choosing to protect Anna Wilgren, Hannah Murphy, and Alex Carpenter. Not exactly an expansion draft, the PWHL’s Expansion Roster...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
-    },
-    {
-      "title": "Russell Wilson Announces Retirement",
-      "link": "https://www.profootballrumors.com/2026/06/russell-wilson-announces-retirement",
-      "pubDate": "Thu, 04 Jun 2026 04:30:09 +0000",
-      "isoDate": "2026-06-04T04:30:09.000Z",
-      "excerpt": "On Monday, it was reported Russell Wilson would spend the 2026 season as an analyst for CBS. That news obviously suggested his playing days were over, and that has now been confirmed. On Wednesday, Wilson posted a video...",
-      "source": "Pro Football Rumors",
-      "team": "seahawks",
-      "priority": 2
-    },
-    {
-      "title": "VOTE NOW! Help make Mariners All-Star Game starters",
-      "link": "https://www.mlb.com/all-star/ballot?affiliateID=asballot_sea_digital_2026",
-      "pubDate": "Wed, 03 Jun 2026 18:13:55 GMT",
-      "isoDate": "2026-06-03T18:13:55.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
-    },
-    {
-      "title": "Seattle Torrent Sign Alex Carpenter, Protect Her From Expansion Thieves",
-      "link": "https://www.davyjoneslockerroom.com/seattle-torrent-sign-alex-carpenter-protect-her-from-expansion-thieves/",
-      "pubDate": "Wed, 03 Jun 2026 14:00:00 +0000",
-      "isoDate": "2026-06-03T14:00:00.000Z",
-      "excerpt": "The Seattle Torrent re-signed forward Alex Carpenter to a 3-year PWHL Standard Player Agreement on June 2, keeping one of the franchise’s foundational pieces through 2028-29 and committing one of the team’s 3 protection...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
-    },
-    {
-      "title": "Melinda French Gates Becomes Minority Owner of the Seattle Kraken",
-      "link": "https://www.davyjoneslockerroom.com/melinda-french-gates-becomes-minority-owner-of-the-seattle-kraken/",
-      "pubDate": "Tue, 02 Jun 2026 14:00:00 +0000",
-      "isoDate": "2026-06-02T14:00:00.000Z",
-      "excerpt": "Melinda French Gates is becoming a minority owner of the Seattle Kraken, the team’s parent company said Monday, pending approval from the NHL. The size of her stake and the terms were not disclosed. French Gates, 61,...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
-    },
-    {
-      "title": "Stream Mariners games on Mariners.TV for NEW low price of $74.99",
-      "link": "https://www.mlb.com/mariners/news/mariners-tv-is-here-for-2026-season",
-      "pubDate": "Mon, 01 Jun 2026 16:18:00 GMT",
-      "isoDate": "2026-06-01T16:18:00.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
-    },
-    {
-      "title": "Seahawks, Dante Fowler Agree To Deal",
-      "link": "https://www.profootballrumors.com/2026/05/seahawks-dante-fowler-agree-to-deal",
-      "pubDate": "Mon, 01 Jun 2026 03:55:05 +0000",
-      "isoDate": "2026-06-01T03:55:05.000Z",
-      "excerpt": "MAY 31: Fowler’s deal with the Seahawks has a base value of $2.5MM with just $500k guaranteed via a signing bonus, per ESPN’s Brady Henderson, the lowest of his career. He is also set to earn a $1.32MM salary and $680k...",
-      "source": "Pro Football Rumors",
-      "team": "seahawks",
-      "priority": 2
-    },
-    {
-      "title": "Vikings Hire Nolan Teasley As GM; Rob Brzezinski Staying On As EVP",
-      "link": "https://www.profootballrumors.com/2026/05/vikings-to-hire-nolan-teasly-as-general-manager",
-      "pubDate": "Sun, 31 May 2026 04:20:11 +0000",
-      "isoDate": "2026-05-31T04:20:11.000Z",
-      "excerpt": "The Vikings have landed on their next general manager. Seahawks assistant GM Nolan Teasley will be taking over the front office in Minnesota, per NFL Network’s Tom Pelissero. The news is now official. Teasley is coming...",
       "source": "Pro Football Rumors",
       "team": "seahawks",
       "priority": 2
