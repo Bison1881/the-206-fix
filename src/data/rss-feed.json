@@ -1,14 +1,38 @@
 {
-  "generatedAt": "2026-06-14T13:55:41.454Z",
+  "generatedAt": "2026-06-14T15:48:04.636Z",
   "sourceCount": 10,
-  "successfulSources": 9,
+  "successfulSources": 8,
   "failedSources": [
     {
       "source": "Seattle Times Sports",
-      "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
+      "error": "Status code 403 (lenient retry: Status code 403)"
+    },
+    {
+      "source": "Davy Jones' Locker Room",
+      "error": "Status code 415 (lenient retry: Status code 415)"
     }
   ],
   "items": [
+    {
+      "title": "The latest Seattle Seahawks 90-man roster following mandatory minicamp",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-roster/169566/seattle-seahawks-90-man-roster-following-mandatory-minicamp",
+      "pubDate": "2026-06-14T14:00:00.000Z",
+      "isoDate": "2026-06-14T14:00:00.000Z",
+      "excerpt": "RENTON, WASHINGTON - JUNE 11: Ty Okada #39 of the Seattle Seahawks talks with Brady Russell #38 during practice at Virginia Mason Athletic Center on June 11, 2026 in Renton, Washington. (Photo by Jack Compton/Getty...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
+    {
+      "title": "Mariners News: José Ramírez, Tarik Skubal, and Jalen Brunson",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-news/144853/mariners-news-jose-ramirez-tarik-skubal-and-jalen-brunson",
+      "pubDate": "2026-06-14T14:00:00.000Z",
+      "isoDate": "2026-06-14T14:00:00.000Z",
+      "excerpt": "CLEVELAND, OHIO - JUNE 13: Starting pitcher Tarik Skubal #29 of the Detroit Tigers pitches during the fourth inning against the Cleveland Guardians at Progressive Field on June 13, 2026 in Cleveland, Ohio. (Photo by...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
     {
       "title": "Seahawks News 6/14: Jadarian Price looking complete early in camp for Seahawks",
       "link": "https://www.fieldgulls.com/seattle-seahawks-news/169580/seahawks-news-6-14-jadarian-price-looking-complete-early-in-camp-for-seahawks",
@@ -280,16 +304,6 @@
       "priority": 6
     },
     {
-      "title": "Series Preview: Mariners (36-34) vs. Nationals (35-34)",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-game-information/144809/series-preview-seattle-mariners-vs-washington-nationals-june-2026",
-      "pubDate": "2026-06-12T17:00:00.000Z",
-      "isoDate": "2026-06-12T17:00:00.000Z",
-      "excerpt": "SAN FRANCISCO, CALIFORNIA - JUNE 10: James Wood #29 of the Washington Nationals in the dugout has teammates throw sunflower seeds at him after he hit a two-run home run against the San Francisco Giants in the top of the...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
       "title": "Reviewing Deven Eastern and his fit with the Seahawks",
       "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/169492/reviewing-deven-eastern-and-his-fit-with-the-seahawks",
       "pubDate": "2026-06-12T15:48:28.000Z",
@@ -307,26 +321,6 @@
       "excerpt": "There’s a certain grieving period that all professional athletes go through when deciding to hang up their cleats. For some, it’s short and easy, but others take longer to come to terms with a new reality. For former...",
       "source": "Field Gulls",
       "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "Seahawks News 6/12: Thoughts on Seahawks Minicamp",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169511/seahawks-news-6-11-thoughts-on-seahawks-minicamp",
-      "pubDate": "2026-06-12T13:00:00.000Z",
-      "isoDate": "2026-06-12T13:00:00.000Z",
-      "excerpt": "RENTON, WASHINGTON - JUNE 11: Elijah Arroyo #18 of the Seattle Seahawks throws the ball during practice at Virginia Mason Athletic Center on June 11, 2026 in Renton, Washington. (Photo by Jack Compton/Getty Images) |...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "Kraken add Patrik Allvin as Assistant GM, add Pascal Vincent as Assistant Coach",
-      "link": "https://www.davyjoneslockerroom.com/kraken-add-patrik-allvin-as-assistant-gm-add-pascal-vincent-as-assistant-coach/",
-      "pubDate": "Fri, 12 Jun 2026 05:04:14 +0000",
-      "isoDate": "2026-06-12T05:04:14.000Z",
-      "excerpt": "The plot for both Lane Lambert and Jason Botterill thickens today, as the Kraken have added to their front office with the additions of names both slightly known and slightly unknown. Alison Lukan broke the story: The...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
       "priority": 1
     },
     {
@@ -348,16 +342,6 @@
       "source": "Seahawks.com",
       "team": "seahawks",
       "priority": 6
-    },
-    {
-      "title": "Christine Bumstead Named Head Coach of the Seattle Torrent",
-      "link": "https://www.davyjoneslockerroom.com/christine-bumstead-named-head-coach-of-the-seattle-torrent/",
-      "pubDate": "Fri, 12 Jun 2026 02:12:29 +0000",
-      "isoDate": "2026-06-12T02:12:29.000Z",
-      "excerpt": "The Seattle Torrent named Christine Bumstead as the head coach for the franchise’s second year. Bumstead was an assistant coach during the team’s inaugural season and takes over the role from Steve O’Rourke who was let...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
     },
     {
       "title": "Seahawks Finish Off Minicamp & Prepare For Super Bowl Ring Ceremony",
@@ -398,16 +382,6 @@
       "source": "Pro Hockey Rumors",
       "team": "kraken",
       "priority": 2
-    },
-    {
-      "title": "Julia Gosling Signs Two-Year Deal With the Torrent",
-      "link": "https://www.davyjoneslockerroom.com/julia-gosling-signs-two-year-deal-with-the-torrent/",
-      "pubDate": "Thu, 11 Jun 2026 04:29:02 +0000",
-      "isoDate": "2026-06-11T04:29:02.000Z",
-      "excerpt": "Julia Gosling rejected a foundational player offer (FPO) to become a key component for the Seattle Torrent next year. She signed a two-year deal and became the first of Seattle’s Phase 3 protections and fourth protected...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
     },
     {
       "title": "The 'Kinda' New Offense, Injury Updates & Other Takeaways From Day 2 Of Seahawks Minicamp",
@@ -530,16 +504,6 @@
       "priority": 2
     },
     {
-      "title": "Seattle Torrent Protect Wilgren, Murphy, Carpenter in Expansion Draft",
-      "link": "https://www.davyjoneslockerroom.com/seattle-torrent-protect-wilgren-murphy-carpenter-in-expansion-draft/",
-      "pubDate": "Thu, 04 Jun 2026 16:00:00 +0000",
-      "isoDate": "2026-06-04T16:00:00.000Z",
-      "excerpt": "The Torrent have made some interesting choices in the upcoming expansion process by choosing to protect Anna Wilgren, Hannah Murphy, and Alex Carpenter. Not exactly an expansion draft, the PWHL’s Expansion Roster...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
-    },
-    {
       "title": "Russell Wilson Announces Retirement",
       "link": "https://www.profootballrumors.com/2026/06/russell-wilson-announces-retirement",
       "pubDate": "Thu, 04 Jun 2026 04:30:09 +0000",
@@ -558,26 +522,6 @@
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
-    },
-    {
-      "title": "Seattle Torrent Sign Alex Carpenter, Protect Her From Expansion Thieves",
-      "link": "https://www.davyjoneslockerroom.com/seattle-torrent-sign-alex-carpenter-protect-her-from-expansion-thieves/",
-      "pubDate": "Wed, 03 Jun 2026 14:00:00 +0000",
-      "isoDate": "2026-06-03T14:00:00.000Z",
-      "excerpt": "The Seattle Torrent re-signed forward Alex Carpenter to a 3-year PWHL Standard Player Agreement on June 2, keeping one of the franchise’s foundational pieces through 2028-29 and committing one of the team’s 3 protection...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
-    },
-    {
-      "title": "Melinda French Gates Becomes Minority Owner of the Seattle Kraken",
-      "link": "https://www.davyjoneslockerroom.com/melinda-french-gates-becomes-minority-owner-of-the-seattle-kraken/",
-      "pubDate": "Tue, 02 Jun 2026 14:00:00 +0000",
-      "isoDate": "2026-06-02T14:00:00.000Z",
-      "excerpt": "Melinda French Gates is becoming a minority owner of the Seattle Kraken, the team’s parent company said Monday, pending approval from the NHL. The size of her stake and the terms were not disclosed. French Gates, 61,...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
     },
     {
       "title": "Stream Mariners games on Mariners.TV for NEW low price of $74.99",
@@ -607,6 +551,66 @@
       "excerpt": "The Vikings have landed on their next general manager. Seahawks assistant GM Nolan Teasley will be taking over the front office in Minnesota, per NFL Network’s Tom Pelissero. The news is now official. Teasley is coming...",
       "source": "Pro Football Rumors",
       "team": "seahawks",
+      "priority": 2
+    },
+    {
+      "title": "AL West Notes: Miller, Castillo, Langford, Rangers, Moore",
+      "link": "https://www.mlbtraderumors.com/2026/05/al-west-notes-miller-castillo-langford-rangers-moore.html",
+      "pubDate": "Sat, 30 May 2026 15:52:30 +0000",
+      "isoDate": "2026-05-30T15:52:30.000Z",
+      "excerpt": "Bryce Miller will start and Luis Castillo will again be the piggyback pitcher for the Mariners on Sunday, but the team will then adopt a six-man rotation, the Seattle Times’ Adam Jude writes. Friday’s game with the...",
+      "source": "MLB Trade Rumors",
+      "team": "mariners",
+      "priority": 2
+    },
+    {
+      "title": "Seahawks To Sign First-Round RB Jadarian Price, Wrap Draft Class Deals",
+      "link": "https://www.profootballrumors.com/2026/05/seahawks-to-sign-first-round-rb-jadarian-price-wrap-draft-class-deals",
+      "pubDate": "Fri, 29 May 2026 21:17:24 +0000",
+      "isoDate": "2026-05-29T21:17:24.000Z",
+      "excerpt": "The Seahawks have agreed to a deal with first-round running back Jadarian Price, Tom Pelissero of NFL Network reports. Price went 32nd overall, which carries a total value of approximately $16.78MM over four years. He...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
+      "priority": 2
+    },
+    {
+      "title": "Mariners Notes: Crawford, Rotation, Castillo",
+      "link": "https://www.mlbtraderumors.com/2026/05/mariners-notes-crawford-rotation-castillo.html",
+      "pubDate": "Sun, 24 May 2026 04:22:37 +0000",
+      "isoDate": "2026-05-24T04:22:37.000Z",
+      "excerpt": "J.P. Crawford has been a key part of the Mariners’ lineup since joining the club in 2019. In over 3,800 plate appearances with Seattle, Crawford has batted .248/.341/.369 with a 107 wRC+ while providing serviceable...",
+      "source": "MLB Trade Rumors",
+      "team": "mariners",
+      "priority": 2
+    },
+    {
+      "title": "Kraken Sign Alexis Bernier To Entry-Level Contract",
+      "link": "https://www.prohockeyrumors.com/2026/05/kraken-sign-defenseman-alexis-bernier-to-entry-level-contract.html",
+      "pubDate": "Tue, 19 May 2026 17:30:30 +0000",
+      "isoDate": "2026-05-19T17:30:30.000Z",
+      "excerpt": "The Seattle Kraken have locked up one of their promising young blue-line prospects, signing defenseman Alexis Bernier to a three-year, entry-level contract. According to the team, the deal will carry an average annual...",
+      "source": "Pro Hockey Rumors",
+      "team": "kraken",
+      "priority": 2
+    },
+    {
+      "title": "Evening Notes: Kraken, Manson, Sabres",
+      "link": "https://www.prohockeyrumors.com/2026/05/evening-notes-kraken-manson-sabres.html",
+      "pubDate": "Tue, 12 May 2026 23:06:29 +0000",
+      "isoDate": "2026-05-12T23:06:29.000Z",
+      "excerpt": "The Seattle Kraken have partnered with sports advisory firm Sportsology to perform an assessment of their hockey operations department after parting ways with general manager Ron Francis, per Fox 13 Seattle. The firm...",
+      "source": "Pro Hockey Rumors",
+      "team": "kraken",
+      "priority": 2
+    },
+    {
+      "title": "Offseason Checklist: Seattle Kraken",
+      "link": "https://www.prohockeyrumors.com/2026/05/offseason-checklist-seattle-kraken-5.html",
+      "pubDate": "Fri, 08 May 2026 03:00:35 +0000",
+      "isoDate": "2026-05-08T03:00:35.000Z",
+      "excerpt": "A look at what the Seattle Kraken should be looking to do this offseason.",
+      "source": "Pro Hockey Rumors",
+      "team": "kraken",
       "priority": 2
     }
   ]
