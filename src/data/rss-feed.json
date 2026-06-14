@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-06-14T15:48:04.636Z",
+  "generatedAt": "2026-06-14T17:17:44.872Z",
   "sourceCount": 10,
   "successfulSources": 8,
   "failedSources": [
     {
       "source": "Seattle Times Sports",
-      "error": "Status code 403 (lenient retry: Status code 403)"
+      "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
     },
     {
       "source": "Davy Jones' Locker Room",
@@ -13,6 +13,36 @@
     }
   ],
   "items": [
+    {
+      "title": "Latest On Zach Carbonnet, Seahawks’ RBs",
+      "link": "https://www.profootballrumors.com/2026/06/latest-on-zach-carbonnet-seahawks-rbs",
+      "pubDate": "Sun, 14 Jun 2026 17:13:05 +0000",
+      "isoDate": "2026-06-14T17:13:05.000Z",
+      "excerpt": "Seahawks running back Zach Charbonnet is just five months removed from tearing his ACL in a January playoff win over the 49ers, but he is not a lock to miss time in 2026. Head coach Mike Macdonald isn’t closing the door...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
+      "priority": 2
+    },
+    {
+      "title": "Latest Mariners injuries and transactions",
+      "link": "https://www.mlb.com/mariners/news/mariners-injuries-and-roster-moves",
+      "pubDate": "Sun, 14 Jun 2026 17:06:00 GMT",
+      "isoDate": "2026-06-14T17:06:00.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Mariners Game #73 Preview and Discussion: 6/14, Seattle at Washington",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-discussion/144890/mariners-game-73-preview-and-discussion-6-14-seattle-at-washington",
+      "pubDate": "2026-06-14T16:35:00.000Z",
+      "isoDate": "2026-06-14T16:35:00.000Z",
+      "excerpt": "NEW YORK, NEW YORK - SEPTEMBER 04: Nelson Cruz #23 of the Washington Nationals in action against the New York Mets at Citi Field on September 04, 2022 in New York City. The Nationals defeated the Mets 7-1. (Photo by Jim...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
     {
       "title": "The latest Seattle Seahawks 90-man roster following mandatory minicamp",
       "link": "https://www.fieldgulls.com/seattle-seahawks-roster/169566/seattle-seahawks-90-man-roster-following-mandatory-minicamp",
@@ -164,16 +194,6 @@
       "priority": 3
     },
     {
-      "title": "Latest Mariners injuries and transactions",
-      "link": "https://www.mlb.com/mariners/news/mariners-injuries-and-roster-moves",
-      "pubDate": "Sat, 13 Jun 2026 19:39:00 GMT",
-      "isoDate": "2026-06-13T19:39:00.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
-    },
-    {
       "title": "Arozarena (hamstring) out of Mariners' lineup, still day to day",
       "link": "https://www.mlb.com/mariners/news/randy-arozarena-exits-with-apparent-leg-injury-vs-nationals",
       "pubDate": "Sat, 13 Jun 2026 19:35:00 GMT",
@@ -271,16 +291,6 @@
       "excerpt": "EAGAN, MN. - JUNE 2026: Minnesota Vikings new General Manger Nolan Teasley left, and Vikings President/Owner Mark Wilf, Wednesday, June 2, 2026 in Eagan, Minn. The Vikings officially announced Teasley’s hiring Monday...",
       "source": "Field Gulls",
       "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "Mariners at Nationals rain delay updates: Friday June 12, 2026",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-game-information/144816/mariners-at-nationals-rain-delay-updates-friday-june-12-2026",
-      "pubDate": "2026-06-12T22:33:27.000Z",
-      "isoDate": "2026-06-12T22:33:27.000Z",
-      "excerpt": "WASHINGTON, DC - APRIL 05: \"Screch\" dons a rain coat during a rain delay prior to the game between the Los Angeles Dodgers and the Washington Nationals on April 05, 2026 at Nationals Park in Washington, D.C. (Photo by...",
-      "source": "Lookout Landing",
-      "team": "mariners",
       "priority": 1
     },
     {
@@ -561,16 +571,6 @@
       "excerpt": "Bryce Miller will start and Luis Castillo will again be the piggyback pitcher for the Mariners on Sunday, but the team will then adopt a six-man rotation, the Seattle Times’ Adam Jude writes. Friday’s game with the...",
       "source": "MLB Trade Rumors",
       "team": "mariners",
-      "priority": 2
-    },
-    {
-      "title": "Seahawks To Sign First-Round RB Jadarian Price, Wrap Draft Class Deals",
-      "link": "https://www.profootballrumors.com/2026/05/seahawks-to-sign-first-round-rb-jadarian-price-wrap-draft-class-deals",
-      "pubDate": "Fri, 29 May 2026 21:17:24 +0000",
-      "isoDate": "2026-05-29T21:17:24.000Z",
-      "excerpt": "The Seahawks have agreed to a deal with first-round running back Jadarian Price, Tom Pelissero of NFL Network reports. Price went 32nd overall, which carries a total value of approximately $16.78MM over four years. He...",
-      "source": "Pro Football Rumors",
-      "team": "seahawks",
       "priority": 2
     },
     {
