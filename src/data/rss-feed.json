@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T17:17:44.872Z",
+  "generatedAt": "2026-06-14T19:21:56.355Z",
   "sourceCount": 10,
   "successfulSources": 8,
   "failedSources": [
@@ -14,6 +14,56 @@
   ],
   "items": [
     {
+      "title": "Latest Mariners injuries and transactions",
+      "link": "https://www.mlb.com/mariners/news/mariners-injuries-and-roster-moves",
+      "pubDate": "Sun, 14 Jun 2026 18:33:00 GMT",
+      "isoDate": "2026-06-14T18:33:00.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Rare feat at stake for Americans in Stanley Cup Final",
+      "link": "https://sports.mynorthwest.com/nhl/seattle-kraken/rare-feat-at-stake-for-americans-in-stanley-cup-final",
+      "pubDate": "Sun, 14 Jun 2026 18:32:43 +0000",
+      "isoDate": "2026-06-14T18:32:43.000Z",
+      "excerpt": "Ken Morrow is the only U.S. player to win Olympic gold and a Stanley Cup in the same year. That's about to change.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "World Cup in Seattle: When and where to watch games on TV",
+      "link": "https://sports.mynorthwest.com/mls/seattle-sounders-fc/2026-fifa-world-cup-seattle-when-where-watch-tv",
+      "pubDate": "Sun, 14 Jun 2026 17:48:06 +0000",
+      "isoDate": "2026-06-14T17:48:06.000Z",
+      "excerpt": "There are six 2026 FIFA World Cup Seattle games, including four in pool play and two knockout matches.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Crawford on verge of return for Mariners -- at third base",
+      "link": "https://www.mlb.com/mariners/news/j-p-crawford-return-injured-list-mariners",
+      "pubDate": "Sun, 14 Jun 2026 17:45:02 GMT",
+      "isoDate": "2026-06-14T17:45:02.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Cal Raleigh slugs 2 more HRs during rehab assignment",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-cal-raleigh-slugs-2-more-hrs-during-rehab-assignment",
+      "pubDate": "Sun, 14 Jun 2026 17:25:42 +0000",
+      "isoDate": "2026-06-14T17:25:42.000Z",
+      "excerpt": "The slugger had his second multi-homer game with Tacoma this week.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
       "title": "Latest On Zach Carbonnet, Seahawks’ RBs",
       "link": "https://www.profootballrumors.com/2026/06/latest-on-zach-carbonnet-seahawks-rbs",
       "pubDate": "Sun, 14 Jun 2026 17:13:05 +0000",
@@ -24,16 +74,6 @@
       "priority": 2
     },
     {
-      "title": "Latest Mariners injuries and transactions",
-      "link": "https://www.mlb.com/mariners/news/mariners-injuries-and-roster-moves",
-      "pubDate": "Sun, 14 Jun 2026 17:06:00 GMT",
-      "isoDate": "2026-06-14T17:06:00.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
-    },
-    {
       "title": "Mariners Game #73 Preview and Discussion: 6/14, Seattle at Washington",
       "link": "https://www.lookoutlanding.com/seattle-mariners-discussion/144890/mariners-game-73-preview-and-discussion-6-14-seattle-at-washington",
       "pubDate": "2026-06-14T16:35:00.000Z",
@@ -42,6 +82,16 @@
       "source": "Lookout Landing",
       "team": "mariners",
       "priority": 1
+    },
+    {
+      "title": "Ernest Jones: Seahawks’ post-Super Bowl mindset ‘different’ than Rams",
+      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/ernest-jones-2026-seattle-seahawks-post-super-bowl-mindset-different-2022-rams",
+      "pubDate": "Sun, 14 Jun 2026 16:09:51 +0000",
+      "isoDate": "2026-06-14T16:09:51.000Z",
+      "excerpt": "Having won a Super Bowl with two different franchises, Ernest Jones IV said the 2026 Seahawks have a more forward-looking mindset than the 2022 Rams did.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
     },
     {
       "title": "The latest Seattle Seahawks 90-man roster following mandatory minicamp",
@@ -162,56 +212,6 @@
       "source": "Lookout Landing",
       "team": "mariners",
       "priority": 1
-    },
-    {
-      "title": "Mariners’ Colt Emerson homers again vs Nationals",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-colt-emerson-homers-again-vs-nationals",
-      "pubDate": "Sat, 13 Jun 2026 21:45:15 +0000",
-      "isoDate": "2026-06-13T21:45:15.000Z",
-      "excerpt": "The rookie homered in back-to-back games for the first time in his career.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "AL West Check-In: Second-place Rangers put OF on IL",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/al-west-check-in-second-place-texas-rangers-put-of-on-il",
-      "pubDate": "Sat, 13 Jun 2026 21:12:26 +0000",
-      "isoDate": "2026-06-13T21:12:26.000Z",
-      "excerpt": "Evan Carter is dealing with an oblique strain after making a diving catch Friday night.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "Athletes are crediting a tiny new scope for faster recoveries",
-      "link": "https://sports.mynorthwest.com/seattle-sports-pit/athletes-are-crediting-a-tiny-new-scope-for-faster-recoveries",
-      "pubDate": "Sat, 13 Jun 2026 19:47:41 +0000",
-      "isoDate": "2026-06-13T19:47:41.000Z",
-      "excerpt": "Several top pro athletes and their surgeons say a modern version of an old tool is shaving weeks off the recovery time for certain injuries.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "Arozarena (hamstring) out of Mariners' lineup, still day to day",
-      "link": "https://www.mlb.com/mariners/news/randy-arozarena-exits-with-apparent-leg-injury-vs-nationals",
-      "pubDate": "Sat, 13 Jun 2026 19:35:00 GMT",
-      "isoDate": "2026-06-13T19:35:00.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
-    },
-    {
-      "title": "Mariners prospect Jonny Farmelo is healthy and raking",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-prospect-jonny-farmelo-is-healthy-and-on-a-tear",
-      "pubDate": "Sat, 13 Jun 2026 19:20:54 +0000",
-      "isoDate": "2026-06-13T19:20:54.000Z",
-      "excerpt": "The red-hot outfielder is showing his potential following two injury-riddled seasons.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
     },
     {
       "title": "Mariners Game #72 Preview and Discussion: SEA at WSH, 6/13",
