@@ -1,14 +1,38 @@
 {
-  "generatedAt": "2026-06-14T21:08:24.726Z",
+  "generatedAt": "2026-06-14T23:05:41.445Z",
   "sourceCount": 10,
-  "successfulSources": 9,
+  "successfulSources": 8,
   "failedSources": [
+    {
+      "source": "Seattle Times Sports",
+      "error": "Status code 403 (lenient retry: Status code 403)"
+    },
     {
       "source": "Davy Jones' Locker Room",
       "error": "Status code 415 (lenient retry: Status code 415)"
     }
   ],
   "items": [
+    {
+      "title": "Where do Mariners stand after long, trying road trip?",
+      "link": "https://www.mlb.com/mariners/news/mariners-wrap-difficult-road-trip-with-loss-against-nationals",
+      "pubDate": "Sun, 14 Jun 2026 22:42:08 GMT",
+      "isoDate": "2026-06-14T22:42:08.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Mariners not overly concerned after Naylor (shin) and Muñoz (back) exit early",
+      "link": "https://www.mlb.com/mariners/news/josh-naylor-andres-munoz-exit-mariners-game-early",
+      "pubDate": "Sun, 14 Jun 2026 21:10:00 GMT",
+      "isoDate": "2026-06-14T21:10:00.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
     {
       "title": "Mariners’ road trip ends with more injury concerns",
       "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-road-trip-ends-with-more-injury-concerns",
@@ -18,16 +42,6 @@
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
-    },
-    {
-      "title": "Naylor, Muñoz exit early in latest injury concerns for Mariners",
-      "link": "https://www.mlb.com/mariners/news/josh-naylor-andres-munoz-exit-mariners-game-early",
-      "pubDate": "Sun, 14 Jun 2026 20:34:00 GMT",
-      "isoDate": "2026-06-14T20:34:00.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
     },
     {
       "title": "Mariners trounced by Nats 10-1",
@@ -50,26 +64,6 @@
       "priority": 3
     },
     {
-      "title": "What to know about Seattle if you’re going to the World Cup — and if you’re not",
-      "link": "https://www.seattletimes.com/seattle-news/world-cup-seattle/how-to-navigate-seattle-during-world-cup-games/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sun, 14 Jun 2026 13:00:00 -0700",
-      "isoDate": "2026-06-14T20:00:00.000Z",
-      "excerpt": "The FIFA Men's World Cup will temporarily remake Seattle's city center. Here's what you need to know if you are going to a game — or trying to avoid the crowds.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Josh Naylor, Andrés Muñoz latest injuries in Mariners’ 10-1 loss to Nationals",
-      "link": "https://www.seattletimes.com/sports/mariners/josh-naylor-andres-munoz-latest-injuries-in-mariners-10-1-loss-to-nationals/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sun, 14 Jun 2026 12:57:58 -0700",
-      "isoDate": "2026-06-14T19:57:58.000Z",
-      "excerpt": "On a day when both Josh Naylor and Andrés Muñoz exited with injury concerns, the Mariners put together another sluggish performance in a 10-1 loss to the Nationals.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "37-36: Chart",
       "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/144899/37-36-chart",
       "pubDate": "2026-06-14T19:51:24.000Z",
@@ -77,16 +71,6 @@
       "excerpt": "WASHINGTON, DC - JUNE 14: James Wood #29 of the Washington Nationals watches his ball as he hits a home run against the Seattle Mariners during the first inning at Nationals Park on June 14, 2026 in Washington, DC....",
       "source": "Lookout Landing",
       "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "Havertz sparks Germany’s 7-1 rout of Curaçao after underdogs’ historic 1st goal in World Cup",
-      "link": "https://www.seattletimes.com/sports/world-cup/havertz-sparks-germanys-7-1-rout-of-curacao-after-underdogs-historic-1st-goal-in-world-cup/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sun, 14 Jun 2026 12:16:12 -0700",
-      "isoDate": "2026-06-14T19:16:12.000Z",
-      "excerpt": "Kai Havertz scored two goals as Germany pulled away from World Cup first-timer Curaçao late in the opening half and piled on after that in a 7-1 win.",
-      "source": "Seattle Times Sports",
-      "team": "general",
       "priority": 1
     },
     {
@@ -108,26 +92,6 @@
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
-    },
-    {
-      "title": "Texas Tech vs. Big 12, CFP expansion meeting and Senate bill markup: Previewing a mammoth week",
-      "link": "https://www.seattletimes.com/sports/college-football/texas-tech-vs-big-12-cfp-expansion-meeting-and-senate-bill-markup-previewing-a-mammoth-week/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sun, 14 Jun 2026 11:32:20 -0700",
-      "isoDate": "2026-06-14T18:32:20.000Z",
-      "excerpt": "Smack in the middle of a roiling month for college football comes a week unlike any the sport has experienced.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "World Cup referee Omar Artan will receive full fee from FIFA despite being denied entry to the US",
-      "link": "https://www.seattletimes.com/sports/world-cup/world-cup-referee-omar-artan-will-receive-full-fee-from-fifa-despite-being-denied-entry-to-us/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sun, 14 Jun 2026 10:50:14 -0700",
-      "isoDate": "2026-06-14T17:50:14.000Z",
-      "excerpt": "The Somali referee who was denied entry to the United States for the World Cup will still be paid his full tournament fee.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
     },
     {
       "title": "World Cup in Seattle: When and where to watch games on TV",
@@ -170,16 +134,6 @@
       "priority": 2
     },
     {
-      "title": "Mariners’ J.P. Crawford continues prep for potential move to third base | Notebook",
-      "link": "https://www.seattletimes.com/sports/mariners/mariners-j-p-crawford-continues-prep-for-potential-move-to-third-base-notebook/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sun, 14 Jun 2026 10:10:19 -0700",
-      "isoDate": "2026-06-14T17:10:19.000Z",
-      "excerpt": "J.P. Crawford said he expects to be activated from the injured list Tuesday. Where he ends up playing during the Mariners' homestand remains an open question.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "Mariners Game #73 Preview and Discussion: 6/14, Seattle at Washington",
       "link": "https://www.lookoutlanding.com/seattle-mariners-discussion/144890/mariners-game-73-preview-and-discussion-6-14-seattle-at-washington",
       "pubDate": "2026-06-14T16:35:00.000Z",
@@ -198,26 +152,6 @@
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
-    },
-    {
-      "title": "Mayhem mars euphoria as New York City celebrates the Knicks’ first championship in 53 years",
-      "link": "https://www.seattletimes.com/sports/nba/mayhem-mars-euphoria-as-new-york-city-celebrates-the-knicks-first-championship-in-53-years/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sun, 14 Jun 2026 08:11:33 -0700",
-      "isoDate": "2026-06-14T15:11:33.000Z",
-      "excerpt": "It was bedlam on Broadway as the New York Knicks won their first NBA championship in 53 years, with exuberant celebrations marred by mayhem and violence, including a shooting in Times Square.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Donald Trump turns 80 and celebrates with UFC cage fighting on the White House lawn",
-      "link": "https://www.seattletimes.com/nation-world/donald-trump-turns-80-and-celebrates-with-ufc-cage-fighting-on-the-white-house-lawn/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sun, 14 Jun 2026 07:36:42 -0700",
-      "isoDate": "2026-06-14T14:36:42.000Z",
-      "excerpt": "President Donald Trump turns 80 on Sunday and celebrates with a unique event: cage fighting on the White House lawn.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
     },
     {
       "title": "The latest Seattle Seahawks 90-man roster following mandatory minicamp",
@@ -248,16 +182,6 @@
       "source": "Field Gulls",
       "team": "seahawks",
       "priority": 1
-    },
-    {
-      "title": "Raleigh homers twice in rehab game with Rainiers",
-      "link": "https://www.mlb.com/mariners/news/cal-raleigh-homers-twice-in-triple-a-rehab-game",
-      "pubDate": "Sun, 14 Jun 2026 04:33:42 GMT",
-      "isoDate": "2026-06-14T04:33:42.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
     },
     {
       "title": "Former 49ers All-Pro linebacker Aldon Smith dies at age 36",
@@ -608,6 +532,86 @@
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
+    },
+    {
+      "title": "Stream Mariners games on Mariners.TV for NEW low price of $74.99",
+      "link": "https://www.mlb.com/mariners/news/mariners-tv-is-here-for-2026-season",
+      "pubDate": "Mon, 01 Jun 2026 16:18:00 GMT",
+      "isoDate": "2026-06-01T16:18:00.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Seahawks, Dante Fowler Agree To Deal",
+      "link": "https://www.profootballrumors.com/2026/05/seahawks-dante-fowler-agree-to-deal",
+      "pubDate": "Mon, 01 Jun 2026 03:55:05 +0000",
+      "isoDate": "2026-06-01T03:55:05.000Z",
+      "excerpt": "MAY 31: Fowler’s deal with the Seahawks has a base value of $2.5MM with just $500k guaranteed via a signing bonus, per ESPN’s Brady Henderson, the lowest of his career. He is also set to earn a $1.32MM salary and $680k...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
+      "priority": 2
+    },
+    {
+      "title": "Vikings Hire Nolan Teasley As GM; Rob Brzezinski Staying On As EVP",
+      "link": "https://www.profootballrumors.com/2026/05/vikings-to-hire-nolan-teasly-as-general-manager",
+      "pubDate": "Sun, 31 May 2026 04:20:11 +0000",
+      "isoDate": "2026-05-31T04:20:11.000Z",
+      "excerpt": "The Vikings have landed on their next general manager. Seahawks assistant GM Nolan Teasley will be taking over the front office in Minnesota, per NFL Network’s Tom Pelissero. The news is now official. Teasley is coming...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
+      "priority": 2
+    },
+    {
+      "title": "AL West Notes: Miller, Castillo, Langford, Rangers, Moore",
+      "link": "https://www.mlbtraderumors.com/2026/05/al-west-notes-miller-castillo-langford-rangers-moore.html",
+      "pubDate": "Sat, 30 May 2026 15:52:30 +0000",
+      "isoDate": "2026-05-30T15:52:30.000Z",
+      "excerpt": "Bryce Miller will start and Luis Castillo will again be the piggyback pitcher for the Mariners on Sunday, but the team will then adopt a six-man rotation, the Seattle Times’ Adam Jude writes. Friday’s game with the...",
+      "source": "MLB Trade Rumors",
+      "team": "mariners",
+      "priority": 2
+    },
+    {
+      "title": "Mariners Notes: Crawford, Rotation, Castillo",
+      "link": "https://www.mlbtraderumors.com/2026/05/mariners-notes-crawford-rotation-castillo.html",
+      "pubDate": "Sun, 24 May 2026 04:22:37 +0000",
+      "isoDate": "2026-05-24T04:22:37.000Z",
+      "excerpt": "J.P. Crawford has been a key part of the Mariners’ lineup since joining the club in 2019. In over 3,800 plate appearances with Seattle, Crawford has batted .248/.341/.369 with a 107 wRC+ while providing serviceable...",
+      "source": "MLB Trade Rumors",
+      "team": "mariners",
+      "priority": 2
+    },
+    {
+      "title": "Kraken Sign Alexis Bernier To Entry-Level Contract",
+      "link": "https://www.prohockeyrumors.com/2026/05/kraken-sign-defenseman-alexis-bernier-to-entry-level-contract.html",
+      "pubDate": "Tue, 19 May 2026 17:30:30 +0000",
+      "isoDate": "2026-05-19T17:30:30.000Z",
+      "excerpt": "The Seattle Kraken have locked up one of their promising young blue-line prospects, signing defenseman Alexis Bernier to a three-year, entry-level contract. According to the team, the deal will carry an average annual...",
+      "source": "Pro Hockey Rumors",
+      "team": "kraken",
+      "priority": 2
+    },
+    {
+      "title": "Evening Notes: Kraken, Manson, Sabres",
+      "link": "https://www.prohockeyrumors.com/2026/05/evening-notes-kraken-manson-sabres.html",
+      "pubDate": "Tue, 12 May 2026 23:06:29 +0000",
+      "isoDate": "2026-05-12T23:06:29.000Z",
+      "excerpt": "The Seattle Kraken have partnered with sports advisory firm Sportsology to perform an assessment of their hockey operations department after parting ways with general manager Ron Francis, per Fox 13 Seattle. The firm...",
+      "source": "Pro Hockey Rumors",
+      "team": "kraken",
+      "priority": 2
+    },
+    {
+      "title": "Offseason Checklist: Seattle Kraken",
+      "link": "https://www.prohockeyrumors.com/2026/05/offseason-checklist-seattle-kraken-5.html",
+      "pubDate": "Fri, 08 May 2026 03:00:35 +0000",
+      "isoDate": "2026-05-08T03:00:35.000Z",
+      "excerpt": "A look at what the Seattle Kraken should be looking to do this offseason.",
+      "source": "Pro Hockey Rumors",
+      "team": "kraken",
+      "priority": 2
     }
   ]
 }
