@@ -1,28 +1,93 @@
 {
-  "generatedAt": "2026-06-15T20:54:09.217Z",
+  "generatedAt": "2026-06-15T23:43:27.555Z",
   "sourceCount": 10,
-  "successfulSources": 10,
-  "failedSources": [],
+  "successfulSources": 9,
+  "failedSources": [
+    {
+      "source": "Seattle Times Sports",
+      "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
+    }
+  ],
   "items": [
     {
-      "title": "World Cup 2026: Tiny ‘designated protest zones’ pop up around Seattle Stadium",
-      "link": "https://www.seattletimes.com/sports/world-cup/world-cup-2026-tiny-designated-protest-zones-pop-up-around-seattle-stadium/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Mon, 15 Jun 2026 12:05:18 -0700",
-      "isoDate": "2026-06-15T19:05:18.000Z",
-      "excerpt": "Small fenced off areas labeled \"designated protest zone\" popped up around Seattle Stadium ahead of the World Cup. Here's what the deal is.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
+      "title": "Randy Dobnak Triggers Upward Mobility Clause In Mariners Deal",
+      "link": "https://www.mlbtraderumors.com/2026/06/randy-dobnak-has-upward-mobility-clause-in-mariners-deal.html",
+      "pubDate": "Mon, 15 Jun 2026 23:37:30 +0000",
+      "isoDate": "2026-06-15T23:37:30.000Z",
+      "excerpt": "June 15: Alexander reports that Dobnak has triggered the assignment clause, as expected. The righty will now await word on whether any team is willing to add him to the 40-man roster. June 8: Randy Dobnak signed a minor...",
+      "source": "MLB Trade Rumors",
+      "team": "mariners",
+      "priority": 2
     },
     {
-      "title": "Mariners option Wisdom to Tacoma, outright González",
+      "title": "By keeping Jhonny Pereda, Mariners could help Rob Refsnyder",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-jhonny-pereda-help-rob-refsnyder",
+      "pubDate": "Mon, 15 Jun 2026 23:28:36 +0000",
+      "isoDate": "2026-06-15T23:28:36.000Z",
+      "excerpt": "Brock and Salk would like to see the Mariners keep catcher Jhonny Pereda even with Cal Raleigh set to return from the IL.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Mariners’ Cal Raleigh tells Seattle Times he’s returning Tuesday",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-cal-raleigh-returning-tuesday",
+      "pubDate": "Mon, 15 Jun 2026 23:25:08 +0000",
+      "isoDate": "2026-06-15T23:25:08.000Z",
+      "excerpt": "Cal Raleigh has been out of action since mid-May with an oblique strain but hit five home runs on a minor league rehab assignment.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Six-man or piggyback: How Mariners' rotation could shuffle after roster moves",
       "link": "https://www.mlb.com/mariners/news/mariners-option-patrick-wisdom-to-triple-a-tacoma",
-      "pubDate": "Mon, 15 Jun 2026 18:43:34 GMT",
-      "isoDate": "2026-06-15T18:43:34.000Z",
+      "pubDate": "Mon, 15 Jun 2026 23:07:00 GMT",
+      "isoDate": "2026-06-15T23:07:00.000Z",
       "excerpt": "",
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
+    },
+    {
+      "title": "World Cup opener sets English-language viewership record",
+      "link": "https://sports.mynorthwest.com/seattle-sports-pit/world-cup-opener-sets-english-language-viewership-record",
+      "pubDate": "Mon, 15 Jun 2026 21:35:07 +0000",
+      "isoDate": "2026-06-15T21:35:07.000Z",
+      "excerpt": "The World Cup game between host Mexico and South Africa drew 7.1 million viewers, making it the most-watched opening match for an English-language broadcast in the United States.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Belgium, Egypt draw 1-1 in first World Cup game in Seattle",
+      "link": "https://sports.mynorthwest.com/seattle-sports-pit/belgium-egypt-draw-first-world-cup-game-seattle",
+      "pubDate": "Mon, 15 Jun 2026 21:25:18 +0000",
+      "isoDate": "2026-06-15T21:25:18.000Z",
+      "excerpt": "Romelu Lukaku’s mere presence sparked an attack that led to Belgium’s lone goal only seconds after he entered as a second-half substitute, helping his team earn a 1-1 draw with Egypt on Monday at the World Cup.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Two Mariners in the mix in first All-Star ballot update",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-julio-rodriguez-randy-arozarena-first-all-star-ballot",
+      "pubDate": "Mon, 15 Jun 2026 20:21:35 +0000",
+      "isoDate": "2026-06-15T20:21:35.000Z",
+      "excerpt": "Julio Rodríguez and Randy Arozarena are lurking in the American League All-Star Game voting for outfielders.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Why Ty Okada could be with the Seahawks longer than many may expect",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-nfl-salary-cap/169609/the-ty-okada-question",
+      "pubDate": "2026-06-15T19:40:28.000Z",
+      "isoDate": "2026-06-15T19:40:28.000Z",
+      "excerpt": "SEATTLE, WASHINGTON - NOVEMBER 30: Ty Okada #39 of the Seattle Seahawks celebrates a fumble recover against the Minnesota Vikings in the third quarter of a game at Lumen Field on November 30, 2025 in Seattle,...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
     },
     {
       "title": "Mariners make first of what will be multiple roster moves",
@@ -35,16 +100,6 @@
       "priority": 3
     },
     {
-      "title": "Cape Verde stuns Spain with a surprising 0-0 draw in the country’s World Cup debut",
-      "link": "https://www.seattletimes.com/sports/world-cup/cape-verde-secures-stunning-0-0-draw-with-spain-in-its-world-cup-debut/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Mon, 15 Jun 2026 11:33:01 -0700",
-      "isoDate": "2026-06-15T18:33:01.000Z",
-      "excerpt": "Tiny Cape Verde pulled off a stunning result in its World Cup debut by shutting out heavily favored Spain in a 0-0 draw.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "J-Rod, Randy in mix to advance to Phase 2 after 1st ASG vote update",
       "link": "https://www.mlb.com/mariners/news/2026-mlb-all-star-ballot-first-update",
       "pubDate": "Mon, 15 Jun 2026 18:03:17 GMT",
@@ -53,16 +108,6 @@
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
-    },
-    {
-      "title": "Seattle World Cup updates: Egypt, Belgium tied 1-1 late in Group G match",
-      "link": "https://www.seattletimes.com/sports/world-cup/seattle-world-cup-updates-belgium-egypt-kick-off-play-in-seattle-stadium/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Mon, 15 Jun 2026 11:00:00 -0700",
-      "isoDate": "2026-06-15T18:00:00.000Z",
-      "excerpt": "The World Cup spotlight has finally turned to the pitch of Seattle Stadium — and it's a thrilling match so far, tied 1-1 in the second half. Follow along here.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
     },
     {
       "title": "Julio harnessing arm strength, accuracy in outfield",
@@ -85,26 +130,6 @@
       "priority": 3
     },
     {
-      "title": "Photos: Seattle hosts Belgium vs. Egypt in FIFA World Cup action",
-      "link": "https://www.seattletimes.com/sports/world-cup/photos-belgium-vs-egypt-world-cup/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Mon, 15 Jun 2026 10:21:00 -0700",
-      "isoDate": "2026-06-15T17:21:00.000Z",
-      "excerpt": "",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "As World Cup arrives, Rep. Larsen sees soccer cutting through turmoil",
-      "link": "https://www.seattletimes.com/seattle-news/politics/as-world-cup-arrives-rep-larsen-sees-soccer-cutting-through-turmoil/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Mon, 15 Jun 2026 10:00:00 -0700",
-      "isoDate": "2026-06-15T17:00:00.000Z",
-      "excerpt": "Amid war, visa disputes and political tensions, the World Cup offers fans like U.S. Rep. Rick Larsen a rare moment to come together.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "Mariners’ Julio Rodríguez answers teammate superlatives",
       "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-julio-rodriguez-answers-teammate-superlatives",
       "pubDate": "Mon, 15 Jun 2026 16:31:17 +0000",
@@ -115,34 +140,14 @@
       "priority": 3
     },
     {
-      "title": "Photos: Seattle hosts its first World Cup game",
-      "link": "https://www.seattletimes.com/sports/world-cup/photos-seattle-hosts-its-first-world-cup/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Mon, 15 Jun 2026 09:29:24 -0700",
-      "isoDate": "2026-06-15T16:29:24.000Z",
-      "excerpt": "The FIFA Men's World Cup comes to Seattle for the first time, with Egypt and Belgium set to play Monday at Seattle Stadium, typically known as Lumen Field.",
-      "source": "Seattle Times Sports",
-      "team": "general",
+      "title": "Seattle Mariners Minor League Roundup &#8211; Week Twelve",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-prospects/144920/seattle-mariners-minor-league-roundup-week-twelve",
+      "pubDate": "2026-06-15T16:30:00.000Z",
+      "isoDate": "2026-06-15T16:30:00.000Z",
+      "excerpt": "PEORIA, ARIZONA - MARCH 13: Jonny Farmelo #98 of the Seattle Mariners plays center field during the fourth inning against the Los Angeles Dodgers during a spring training game at Peoria Stadium on March 13, 2026 in...",
+      "source": "Lookout Landing",
+      "team": "mariners",
       "priority": 1
-    },
-    {
-      "title": "Belgium vs. Egypt tickets: What’s available for Seattle’s first World Cup match?",
-      "link": "https://www.seattletimes.com/sports/world-cup/belgium-vs-egypt-tickets-whats-available-for-seattles-first-world-cup-match/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Mon, 15 Jun 2026 09:22:34 -0700",
-      "isoDate": "2026-06-15T16:22:34.000Z",
-      "excerpt": "For months fans wondered what would happen to ticket prices as the FIFA Men's World Cup matches neared. Well, there’s no time like the present to take a look.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Preview: Egypt meets Belgium in Seattle’s 1st World Cup game",
-      "link": "https://sports.mynorthwest.com/seattle-sports-pit/preview-egypt-belgium-seattle-world-cup",
-      "pubDate": "Mon, 15 Jun 2026 16:22:34 +0000",
-      "isoDate": "2026-06-15T16:22:34.000Z",
-      "excerpt": "Egypt’s World Cup opener against Belgium on Monday will pit former Liverpool standout Mohamed Salah in an underdog role against longtime Manchester City stalwart Kevin De Bruyne and his talented teammates.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
     },
     {
       "title": "Cubs Acquire Yosver Zulueta",
@@ -155,34 +160,24 @@
       "priority": 2
     },
     {
-      "title": "Fans turn out in Pioneer Square, Sodo for Seattle’s first World Cup match",
-      "link": "https://www.seattletimes.com/seattle-news/world-cup-seattle/seattle-world-cup-updates-belgium-vs-egypt-match-brings-fans-traffic/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Mon, 15 Jun 2026 07:30:00 -0700",
-      "isoDate": "2026-06-15T14:30:00.000Z",
-      "excerpt": "An estimated 100,000 people are expected to descend on the area around Seattle Stadium during World Cup matches. Follow our live updates.",
-      "source": "Seattle Times Sports",
-      "team": "general",
+      "title": "Mariners News: J.P. Crawford, Josh Naylor, and Andres Munoz",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-news/144910/j-p-crawford-josh-naylor-andres-munoz-vinnie-pasquantino-dillon-dingler",
+      "pubDate": "2026-06-15T14:00:00.000Z",
+      "isoDate": "2026-06-15T14:00:00.000Z",
+      "excerpt": "Jun 14, 2026; Washington, District of Columbia, USA; Seattle Mariners first baseman Josh Naylor (12) catches the ball at first base for an out against the Washington Nationals during the second inning at Nationals Park....",
+      "source": "Lookout Landing",
+      "team": "mariners",
       "priority": 1
     },
     {
-      "title": "Why fullbacks could have larger role for Seahawks in ’26",
-      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/fullbacks-could-have-larger-role-seattle-seahawks-2026",
-      "pubDate": "Mon, 15 Jun 2026 07:41:47 +0000",
-      "isoDate": "2026-06-15T07:41:47.000Z",
-      "excerpt": "Robbie Ouzts could play a larger role under new OC Brian Fleury. Also, Brock Huard was impressed by Brady Russell at minicamp.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "Win Tickets to See Mitchell Tenpenny Live at Snoqualmie Casino & Hotel!",
-      "link": "https://sports.mynorthwest.com/contests-events/win-tickets-to-see-mitchell-tenpenny-live-at-snoqualmie-casino-hotel",
-      "pubDate": "Mon, 15 Jun 2026 05:02:47 +0000",
-      "isoDate": "2026-06-15T05:02:47.000Z",
-      "excerpt": "Get ready for a night of high-energy country music with one of the genre’s fastest-rising stars. Mitchell Tenpenny is bringing his Speed of Light Tour to the Snoqualmie Casino & Hotel Ballroom on Friday, July 10, 2026,...",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
+      "title": "Seahawks News 6/15: Seahawks entering their Barner Era",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169590/seahawks-news-6-15-seahawks-entering-their-barner-era",
+      "pubDate": "2026-06-15T13:12:06.000Z",
+      "isoDate": "2026-06-15T13:12:06.000Z",
+      "excerpt": "New England Patriots' cornerback #25 Marcus Jones, New England Patriots' linebacker #14 Robert Spillane rush Seattle Seahawks' tight end #88 AJ Barner during Super Bowl LX between the New England Patriots and the...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
     },
     {
       "title": "Seahawks Receive Super Bowl LX Rings",
@@ -225,16 +220,6 @@
       "priority": 2
     },
     {
-      "title": "Why analyst says AJ Barner is Seahawks’ X-factor in ’26",
-      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/why-analyst-says-aj-barner-is-seahawks-x-factor-in-26",
-      "pubDate": "Sun, 14 Jun 2026 23:48:54 +0000",
-      "isoDate": "2026-06-14T23:48:54.000Z",
-      "excerpt": "Former NFL WR Bryan Walters believes new offensive coordinator Brian Fleury can raise the Seattle TE's game to \"the next level.\"",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
       "title": "Where do Mariners stand after long, trying road trip?",
       "link": "https://www.mlb.com/mariners/news/mariners-wrap-difficult-road-trip-with-loss-against-nationals",
       "pubDate": "Sun, 14 Jun 2026 22:42:08 GMT",
@@ -243,16 +228,6 @@
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
-    },
-    {
-      "title": "Mariners’ road trip ends with more injury concerns",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-road-trip-ends-with-more-injury-concerns",
-      "pubDate": "Sun, 14 Jun 2026 20:57:48 +0000",
-      "isoDate": "2026-06-14T20:57:48.000Z",
-      "excerpt": "Josh Naylor and Andrés Muñoz are day-to-day after leaving Sunday's game early, but reinforcements could come soon.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
     },
     {
       "title": "Mariners trounced by Nats 10-1",
@@ -295,6 +270,16 @@
       "priority": 1
     },
     {
+      "title": "The latest Seattle Seahawks 90-man roster following mandatory minicamp",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-roster/169566/seattle-seahawks-90-man-roster-following-mandatory-minicamp",
+      "pubDate": "2026-06-14T14:00:00.000Z",
+      "isoDate": "2026-06-14T14:00:00.000Z",
+      "excerpt": "RENTON, WASHINGTON - JUNE 11: Ty Okada #39 of the Seattle Seahawks talks with Brady Russell #38 during practice at Virginia Mason Athletic Center on June 11, 2026 in Renton, Washington. (Photo by Jack Compton/Getty...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
+    {
       "title": "Mariners News: José Ramírez, Tarik Skubal, and Jalen Brunson",
       "link": "https://www.lookoutlanding.com/seattle-mariners-news/144853/mariners-news-jose-ramirez-tarik-skubal-and-jalen-brunson",
       "pubDate": "2026-06-14T14:00:00.000Z",
@@ -302,6 +287,16 @@
       "excerpt": "CLEVELAND, OHIO - JUNE 13: Starting pitcher Tarik Skubal #29 of the Detroit Tigers pitches during the fourth inning against the Cleveland Guardians at Progressive Field on June 13, 2026 in Cleveland, Ohio. (Photo by...",
       "source": "Lookout Landing",
       "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Seahawks News 6/14: Jadarian Price looking complete early in camp for Seahawks",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169580/seahawks-news-6-14-jadarian-price-looking-complete-early-in-camp-for-seahawks",
+      "pubDate": "2026-06-14T13:09:26.000Z",
+      "isoDate": "2026-06-14T13:09:26.000Z",
+      "excerpt": "Jun 9, 2026; Renton, WA, USA; Seattle Seahawks running back Jadarian Price (8) during minicamp at Virginia Mason Athletic Center. Mandatory Credit: Steven Bisig-Imagn Images | Steven Bisig-Imagn Images In Today’s Links:...",
+      "source": "Field Gulls",
+      "team": "seahawks",
       "priority": 1
     },
     {
@@ -325,16 +320,6 @@
       "priority": 1
     },
     {
-      "title": "Mariners Game #72 Preview and Discussion: SEA at WSH, 6/13",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-game-information/144858/mariners-game-72-preview-and-discussion-sea-at-bal-6-13",
-      "pubDate": "2026-06-13T19:14:39.000Z",
-      "isoDate": "2026-06-13T19:14:39.000Z",
-      "excerpt": "WASHINGTON, DC - JUNE 12: Cole Young #2 and Josh Naylor #12 of the Seattle Mariners walk to the dugout before a game against the Washington Nationals at Nationals Park on June 12, 2026 in Washington, DC. (Photo by Jess...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
       "title": "Todd Boehly Considering Seahawks Ownership Bid",
       "link": "https://www.profootballrumors.com/2026/06/todd-boehly-considering-seahawks-ownership-bid",
       "pubDate": "Sat, 13 Jun 2026 17:39:06 +0000",
@@ -352,16 +337,6 @@
       "excerpt": "Welcome to SB Nation Reacts, a survey of fans across the NFL. Each week we ask questions of the most plugged-in Seattle Seahawks fans and fans across the country. The latest SB Nation Reacts survey is in, and Seattle...",
       "source": "Field Gulls",
       "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "Mariners News: Randy Arozarena, Jacob Misiorowski, and Franklin Delano Roosevelt",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-news/144841/mariners-news-randy-arozarena-jacob-misiorowski-and-franklin-delano-roosevelt",
-      "pubDate": "2026-06-13T14:00:00.000Z",
-      "isoDate": "2026-06-13T14:00:00.000Z",
-      "excerpt": "I hate this guy, but will give credit where due. (Photo by John Fisher/Getty Images) | Getty Images It’s another Saturday morning, which means we’re about to record a Meet at the Mitt episode. Look for it later in the...",
-      "source": "Lookout Landing",
-      "team": "mariners",
       "priority": 1
     },
     {
@@ -405,36 +380,6 @@
       "priority": 6
     },
     {
-      "title": "Reviewing Deven Eastern and his fit with the Seahawks",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/169492/reviewing-deven-eastern-and-his-fit-with-the-seahawks",
-      "pubDate": "2026-06-12T15:48:28.000Z",
-      "isoDate": "2026-06-12T15:48:28.000Z",
-      "excerpt": "The Seattle Seahawks enjoy an explosive, run stuffing defensive tackle that can apply pressure to the quarterback: Cortez Kennedy, Brandon Mebane, Poona Ford and Joe Nash, to name a few former players. Enter rookie...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "Former Seahawks pass rusher Cassius Marsh retires with Seattle",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169509/former-seahawks-pass-rusher-cassius-marsh-retires-nfl-news",
-      "pubDate": "2026-06-12T15:00:00.000Z",
-      "isoDate": "2026-06-12T15:00:00.000Z",
-      "excerpt": "There’s a certain grieving period that all professional athletes go through when deciding to hang up their cleats. For some, it’s short and easy, but others take longer to come to terms with a new reality. For former...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "Seahawks News 6/12: Thoughts on Seahawks Minicamp",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169511/seahawks-news-6-11-thoughts-on-seahawks-minicamp",
-      "pubDate": "2026-06-12T13:00:00.000Z",
-      "isoDate": "2026-06-12T13:00:00.000Z",
-      "excerpt": "RENTON, WASHINGTON - JUNE 11: Elijah Arroyo #18 of the Seattle Seahawks throws the ball during practice at Virginia Mason Athletic Center on June 11, 2026 in Renton, Washington. (Photo by Jack Compton/Getty Images) |...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
-    },
-    {
       "title": "Kraken add Patrik Allvin as Assistant GM, add Pascal Vincent as Assistant Coach",
       "link": "https://www.davyjoneslockerroom.com/kraken-add-patrik-allvin-as-assistant-gm-add-pascal-vincent-as-assistant-coach/",
       "pubDate": "Fri, 12 Jun 2026 05:04:14 +0000",
@@ -462,16 +407,6 @@
       "excerpt": "The Seattle Torrent named Christine Bumstead as the head coach for the franchise’s second year. Bumstead was an assistant coach during the team’s inaugural season and takes over the role from Steve O’Rourke who was let...",
       "source": "Davy Jones' Locker Room",
       "team": "kraken",
-      "priority": 1
-    },
-    {
-      "title": "Seahawks to hold joint practice with Titans in Nashville (again)",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169496/nfl-news-seahawks-hold-joint-practice-vs-titans-nashville",
-      "pubDate": "2026-06-11T23:20:30.000Z",
-      "isoDate": "2026-06-11T23:20:30.000Z",
-      "excerpt": "Seattle Seahawks cornerback Michael Jackson (30) guards Tennessee Titans wide receiver Mason Kinsey (12) at Ascension Saint Thomas Sports Park in Nashville, Tenn., Thursday, Aug. 15, 2024. This is the second day of the...",
-      "source": "Field Gulls",
-      "team": "seahawks",
       "priority": 1
     },
     {
@@ -603,6 +538,76 @@
       "source": "Pro Football Rumors",
       "team": "seahawks",
       "priority": 2
+    },
+    {
+      "title": "Mariners Place J.P. Crawford On 10-Day IL",
+      "link": "https://www.mlbtraderumors.com/2026/06/mariners-place-j-p-crawford-on-10-day-il-with-right-hand-contusion.html",
+      "pubDate": "Mon, 08 Jun 2026 19:50:49 +0000",
+      "isoDate": "2026-06-08T19:50:49.000Z",
+      "excerpt": "The Mariners have placed shortstop J.P. Crawford on the 10-day injured list, three days after a hit-by-pitch forced him from the game. They’re calling the injury a right hand contusion. In Crawford’s place, Seattle has...",
+      "source": "MLB Trade Rumors",
+      "team": "mariners",
+      "priority": 2
+    },
+    {
+      "title": "Mariners Unlikely To Trade From Top Five In Rotation",
+      "link": "https://www.mlbtraderumors.com/2026/06/mariners-unlikely-to-trade-from-top-five-in-rotation.html",
+      "pubDate": "Sat, 06 Jun 2026 17:42:23 +0000",
+      "isoDate": "2026-06-06T17:42:23.000Z",
+      "excerpt": "Despite countless rumors over the years, the Mariners have long been resistant to the idea of trading from their strong rotation. The stance looks to continue at this year’s deadline, as Adam Jude of the Seattle Times...",
+      "source": "MLB Trade Rumors",
+      "team": "mariners",
+      "priority": 2
+    },
+    {
+      "title": "Seahawks, Derick Hall Agree To Extension",
+      "link": "https://www.profootballrumors.com/2026/06/seahawks-derick-hall-agree-to-extension",
+      "pubDate": "Fri, 05 Jun 2026 19:00:15 +0000",
+      "isoDate": "2026-06-05T19:00:15.000Z",
+      "excerpt": "JUNE 5: Hall’s contract includes $15.27MM guaranteed at signing, according to OverTheCap. An additional $4.2MM will become fully guaranteed five days after Super Bowl LXI, per Spotrac. Another $1.5MM will lock in five...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
+      "priority": 2
+    },
+    {
+      "title": "Seattle Torrent Protect Wilgren, Murphy, Carpenter in Expansion Draft",
+      "link": "https://www.davyjoneslockerroom.com/seattle-torrent-protect-wilgren-murphy-carpenter-in-expansion-draft/",
+      "pubDate": "Thu, 04 Jun 2026 16:00:00 +0000",
+      "isoDate": "2026-06-04T16:00:00.000Z",
+      "excerpt": "The Torrent have made some interesting choices in the upcoming expansion process by choosing to protect Anna Wilgren, Hannah Murphy, and Alex Carpenter. Not exactly an expansion draft, the PWHL’s Expansion Roster...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
+      "title": "Russell Wilson Announces Retirement",
+      "link": "https://www.profootballrumors.com/2026/06/russell-wilson-announces-retirement",
+      "pubDate": "Thu, 04 Jun 2026 04:30:09 +0000",
+      "isoDate": "2026-06-04T04:30:09.000Z",
+      "excerpt": "On Monday, it was reported Russell Wilson would spend the 2026 season as an analyst for CBS. That news obviously suggested his playing days were over, and that has now been confirmed. On Wednesday, Wilson posted a video...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
+      "priority": 2
+    },
+    {
+      "title": "VOTE NOW! Help make Mariners All-Star Game starters",
+      "link": "https://www.mlb.com/all-star/ballot?affiliateID=asballot_sea_digital_2026",
+      "pubDate": "Wed, 03 Jun 2026 18:13:55 GMT",
+      "isoDate": "2026-06-03T18:13:55.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Seattle Torrent Sign Alex Carpenter, Protect Her From Expansion Thieves",
+      "link": "https://www.davyjoneslockerroom.com/seattle-torrent-sign-alex-carpenter-protect-her-from-expansion-thieves/",
+      "pubDate": "Wed, 03 Jun 2026 14:00:00 +0000",
+      "isoDate": "2026-06-03T14:00:00.000Z",
+      "excerpt": "The Seattle Torrent re-signed forward Alex Carpenter to a 3-year PWHL Standard Player Agreement on June 2, keeping one of the franchise’s foundational pieces through 2028-29 and committing one of the team’s 3 protection...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
     }
   ]
 }
