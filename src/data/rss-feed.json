@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-16T15:02:48.921Z",
+  "generatedAt": "2026-06-16T19:31:24.342Z",
   "sourceCount": 10,
   "successfulSources": 9,
   "failedSources": [
@@ -10,13 +10,93 @@
   ],
   "items": [
     {
-      "title": "Seahawks 2026 rookie predictions: Will Andre Fuller’s versatility earn him a roster spot?",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/169614/seahawks-2026-rookie-predictions-andre-fuller-versatility-earn-him-roster-spot",
+      "title": "Aldon Smith’s brain donated to CTE Center after sudden death",
+      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/aldon-smith-brain-donated-cte-center-49ers",
+      "pubDate": "Tue, 16 Jun 2026 17:46:26 +0000",
+      "isoDate": "2026-06-16T17:46:26.000Z",
+      "excerpt": "The former NFL star's family is donating his brain to the Boston University CTE Center following his sudden death at age 36.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "John Tortorella won’t return as Vegas Golden Knights’ coach",
+      "link": "https://sports.mynorthwest.com/nhl/seattle-kraken/john-tortorella-wont-return-as-vegas-golden-knights-coach",
+      "pubDate": "Tue, 16 Jun 2026 17:46:23 +0000",
+      "isoDate": "2026-06-16T17:46:23.000Z",
+      "excerpt": "Tortorella guided Vegas to the Stanley Cup Final after taking over as the interim coach late in the season.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Series Preview: Mariners (37-36) vs. Orioles (34-39)",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-game-information/144947/series-preview-seattle-mariners-vs-baltimore-orioles-june-2026",
+      "pubDate": "2026-06-16T17:45:00.000Z",
+      "isoDate": "2026-06-16T17:45:00.000Z",
+      "excerpt": "BALTIMORE, MD - JUNE 12: Gunnar Henderson #2 of the Baltimore Orioles celebrates with Adley Rutschman #35 after hitting a solo home run in the fourth inning during the game between the San Diego Padres and the Baltimore...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Why Morosi says Mitch Garver could be a Mariners trade chip",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-jon-morosi-mitch-garver-trade-deadline",
+      "pubDate": "Tue, 16 Jun 2026 17:17:09 +0000",
+      "isoDate": "2026-06-16T17:17:09.000Z",
+      "excerpt": "The emergence of backup catcher Jhonny Pereda could allow the Mariners to get value out of Mitch Garver in a trade.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "What Seattle Mariners conspiracy theory do you believe in spite of having no proof?",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-discussion/144937/what-seattle-mariners-conspiracy-theory-do-you-believe-in-spite-of-having-no-proof",
+      "pubDate": "2026-06-16T16:00:00.000Z",
+      "isoDate": "2026-06-16T16:00:00.000Z",
+      "excerpt": "SEATTLE - JUNE 02: Seattle Mariners' Executive Vice President & GM Jack Zduriencik speaks with the media after the team announced the retirement of Ken Griffey Jr. prior to the game against the Minnesota Twins at Safeco...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Rost: Cal Raleigh doesn’t need to be the Mariners’ savior",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/stacy-rost-cal-raleigh-doesnt-need-to-be-seattle-mariners-savior",
+      "pubDate": "Tue, 16 Jun 2026 15:27:19 +0000",
+      "isoDate": "2026-06-16T15:27:19.000Z",
+      "excerpt": "The M's don't need another herculean season from Cal Raleigh to reach their ultimate goal, Stacy Rost writes.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Breaking down the closest All-Star races in Phase 1 balloting",
+      "link": "https://www.mlb.com/mariners/news/close-races-in-2026-all-star-voting",
+      "pubDate": "Tue, 16 Jun 2026 15:05:00 GMT",
+      "isoDate": "2026-06-16T15:05:00.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Brock on Seahawks’ 2nd front office loss: ‘This one stings’",
+      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/seattle-seahawks-front-office-loss-brock-huard-stings",
+      "pubDate": "Tue, 16 Jun 2026 14:21:59 +0000",
+      "isoDate": "2026-06-16T14:21:59.000Z",
+      "excerpt": "The Minnesota Vikings have now taken two longtime members of Seattle Seahawks GM John Schneider's front office this offseason.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Mariners News: Cal Raleigh, Corey Seager, and Tommy Edman",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-news/144929/cal-raleigh-corey-seager-tommy-edman-spencer-strider-hunter-brown",
       "pubDate": "2026-06-16T14:00:00.000Z",
       "isoDate": "2026-06-16T14:00:00.000Z",
-      "excerpt": "BOCA RATON, FL - DECEMBER 23: Louisville Cardinals wide receiver Antonio Meeks (15) balttles Toledo Rockets cornerback Andre Fuller (3) for a pass during the Boca Raton Bowl football game between the Toledo Rockets and...",
-      "source": "Field Gulls",
-      "team": "seahawks",
+      "excerpt": "May 11, 2026; Houston, Texas, USA; Seattle Mariners catcher Cal Raleigh (29) puts on his mask after a play during the second inning against the Houston Astros at Daikin Park. Mandatory Credit: Troy Taormina-Imagn Images...",
+      "source": "Lookout Landing",
+      "team": "mariners",
       "priority": 1
     },
     {
@@ -28,16 +108,6 @@
       "source": "Field Gulls",
       "team": "seahawks",
       "priority": 1
-    },
-    {
-      "title": "Breaking down the closest All-Star races in Phase 1 balloting",
-      "link": "https://www.mlb.com/mariners/news/close-races-in-2026-all-star-voting",
-      "pubDate": "Tue, 16 Jun 2026 04:43:56 GMT",
-      "isoDate": "2026-06-16T04:43:56.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
     },
     {
       "title": "Mariners Outright Domingo González",
@@ -100,26 +170,6 @@
       "priority": 3
     },
     {
-      "title": "Belgium, Egypt draw 1-1 in first World Cup game in Seattle",
-      "link": "https://sports.mynorthwest.com/seattle-sports-pit/belgium-egypt-draw-first-world-cup-game-seattle",
-      "pubDate": "Mon, 15 Jun 2026 21:25:18 +0000",
-      "isoDate": "2026-06-15T21:25:18.000Z",
-      "excerpt": "Romelu Lukaku’s mere presence sparked an attack that led to Belgium’s lone goal only seconds after he entered as a second-half substitute, helping his team earn a 1-1 draw with Egypt on Monday at the World Cup.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "Two Mariners in the mix in first All-Star ballot update",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-julio-rodriguez-randy-arozarena-first-all-star-ballot",
-      "pubDate": "Mon, 15 Jun 2026 20:21:35 +0000",
-      "isoDate": "2026-06-15T20:21:35.000Z",
-      "excerpt": "Julio Rodríguez and Randy Arozarena are lurking in the American League All-Star Game voting for outfielders.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
       "title": "Why Ty Okada could be with the Seahawks longer than many may expect",
       "link": "https://www.fieldgulls.com/seattle-seahawks-nfl-salary-cap/169609/the-ty-okada-question",
       "pubDate": "2026-06-15T19:40:28.000Z",
@@ -128,16 +178,6 @@
       "source": "Field Gulls",
       "team": "seahawks",
       "priority": 1
-    },
-    {
-      "title": "Mariners make first of what will be multiple roster moves",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-first-of-multiple-roster-moves",
-      "pubDate": "Mon, 15 Jun 2026 18:37:14 +0000",
-      "isoDate": "2026-06-15T18:37:14.000Z",
-      "excerpt": "The Mariners have an open active roster spot after making a pair of moves Monday ahead of expected returns this week.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
     },
     {
       "title": "J-Rod, Randy in mix to advance to Phase 2 after 1st ASG vote update",
@@ -158,26 +198,6 @@
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
-    },
-    {
-      "title": "What Brock Huard makes of latest Seahawks ownership report",
-      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/seattle-seahawks-ownership-report-mike-florio-brock-huard",
-      "pubDate": "Mon, 15 Jun 2026 17:50:58 +0000",
-      "isoDate": "2026-06-15T17:50:58.000Z",
-      "excerpt": "After another report that the Seahawks are expected to have new ownership by the start of the season, Brock Huard saw if he could find more details.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "Mariners’ Julio Rodríguez answers teammate superlatives",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-julio-rodriguez-answers-teammate-superlatives",
-      "pubDate": "Mon, 15 Jun 2026 16:31:17 +0000",
-      "isoDate": "2026-06-15T16:31:17.000Z",
-      "excerpt": "Julio Rodríguez shared his thoughts on several oddball questions about his teammates with ESPN's Mina Kimes.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
     },
     {
       "title": "Seattle Mariners Minor League Roundup &#8211; Week Twelve",
@@ -310,16 +330,6 @@
       "priority": 1
     },
     {
-      "title": "Mariners News: José Ramírez, Tarik Skubal, and Jalen Brunson",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-news/144853/mariners-news-jose-ramirez-tarik-skubal-and-jalen-brunson",
-      "pubDate": "2026-06-14T14:00:00.000Z",
-      "isoDate": "2026-06-14T14:00:00.000Z",
-      "excerpt": "CLEVELAND, OHIO - JUNE 13: Starting pitcher Tarik Skubal #29 of the Detroit Tigers pitches during the fourth inning against the Cleveland Guardians at Progressive Field on June 13, 2026 in Cleveland, Ohio. (Photo by...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
       "title": "Seahawks News 6/14: Jadarian Price looking complete early in camp for Seahawks",
       "link": "https://www.fieldgulls.com/seattle-seahawks-news/169580/seahawks-news-6-14-jadarian-price-looking-complete-early-in-camp-for-seahawks",
       "pubDate": "2026-06-14T13:09:26.000Z",
@@ -327,26 +337,6 @@
       "excerpt": "Jun 9, 2026; Renton, WA, USA; Seattle Seahawks running back Jadarian Price (8) during minicamp at Virginia Mason Athletic Center. Mandatory Credit: Steven Bisig-Imagn Images | Steven Bisig-Imagn Images In Today’s Links:...",
       "source": "Field Gulls",
       "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "Mariners Lose 8-3, I Snooze… Do-Re-Mi",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/144871/mariners-lose-8-3-i-snooze-do-re-mi",
-      "pubDate": "2026-06-14T00:01:57.000Z",
-      "isoDate": "2026-06-14T00:01:57.000Z",
-      "excerpt": "Jun 13, 2026; Washington, District of Columbia, USA; Washington Nationals left fielder Daylen Lile (4) sprints towards third base against the Seattle Mariners during the first inning at Nationals Park. Mandatory Credit:...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "37-35: Chart",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/144865/37-35-chart",
-      "pubDate": "2026-06-13T23:07:05.000Z",
-      "isoDate": "2026-06-13T23:07:05.000Z",
-      "excerpt": "Jun 13, 2026; Washington, District of Columbia, USA; Seattle Mariners first baseman Josh Naylor (12) catches the ball at first base for a out against the Washington Nationals during the first inning at Nationals Park....",
-      "source": "Lookout Landing",
-      "team": "mariners",
       "priority": 1
     },
     {
@@ -375,6 +365,16 @@
       "pubDate": "2026-06-13T13:00:00.000Z",
       "isoDate": "2026-06-13T13:00:00.000Z",
       "excerpt": "Jun 9, 2026; Renton, WA, USA; Seattle Seahawks offensive coordinator Brian Fleury during minicamp at Virginia Mason Athletic Center. Mandatory Credit: Steven Bisig-Imagn Images | Steven Bisig-Imagn Images In Today’s...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
+    {
+      "title": "New Vikings general manager Nolan Teasley hires Trent Kirchner away from Seahawks",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169547/new-vikings-general-manager-nolan-teasley-hires-trent-kirchner-away-seahawks-nfl-news",
+      "pubDate": "2026-06-13T00:04:55.000Z",
+      "isoDate": "2026-06-13T00:04:55.000Z",
+      "excerpt": "EAGAN, MN. - JUNE 2026: Minnesota Vikings new General Manger Nolan Teasley left, and Vikings President/Owner Mark Wilf, Wednesday, June 2, 2026 in Eagan, Minn. The Vikings officially announced Teasley’s hiring Monday...",
       "source": "Field Gulls",
       "team": "seahawks",
       "priority": 1
