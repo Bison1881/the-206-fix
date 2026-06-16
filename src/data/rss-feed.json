@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-16T03:44:04.105Z",
+  "generatedAt": "2026-06-16T09:23:50.802Z",
   "sourceCount": 10,
   "successfulSources": 9,
   "failedSources": [
@@ -9,6 +9,16 @@
     }
   ],
   "items": [
+    {
+      "title": "Breaking down the closest All-Star races in Phase 1 balloting",
+      "link": "https://www.mlb.com/mariners/news/close-races-in-2026-all-star-voting",
+      "pubDate": "Tue, 16 Jun 2026 04:43:56 GMT",
+      "isoDate": "2026-06-16T04:43:56.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
     {
       "title": "Mariners Outright Domingo González",
       "link": "https://www.mlbtraderumors.com/2026/06/mariners-outright-domingo-gonzalez.html",
@@ -228,16 +238,6 @@
       "source": "Pro Football Rumors",
       "team": "seahawks",
       "priority": 2
-    },
-    {
-      "title": "Where do Mariners stand after long, trying road trip?",
-      "link": "https://www.mlb.com/mariners/news/mariners-wrap-difficult-road-trip-with-loss-against-nationals",
-      "pubDate": "Sun, 14 Jun 2026 22:42:08 GMT",
-      "isoDate": "2026-06-14T22:42:08.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
     },
     {
       "title": "Mariners trounced by Nats 10-1",
