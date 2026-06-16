@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T23:43:27.555Z",
+  "generatedAt": "2026-06-16T03:44:04.105Z",
   "sourceCount": 10,
   "successfulSources": 9,
   "failedSources": [
@@ -9,6 +9,16 @@
     }
   ],
   "items": [
+    {
+      "title": "Mariners Outright Domingo González",
+      "link": "https://www.mlbtraderumors.com/2026/06/mariners-outright-domingo-gonzalez.html",
+      "pubDate": "Tue, 16 Jun 2026 01:26:34 +0000",
+      "isoDate": "2026-06-16T01:26:34.000Z",
+      "excerpt": "The Mariners announced that right-hander Domingo González has cleared waivers and been assigned outright to Triple-A Tacoma. Seattle also optioned infielder Patrick Wisdom on tonight’s day off, opening an active roster...",
+      "source": "MLB Trade Rumors",
+      "team": "mariners",
+      "priority": 2
+    },
     {
       "title": "Randy Dobnak Triggers Upward Mobility Clause In Mariners Deal",
       "link": "https://www.mlbtraderumors.com/2026/06/randy-dobnak-has-upward-mobility-clause-in-mariners-deal.html",
@@ -545,16 +555,6 @@
       "pubDate": "Mon, 08 Jun 2026 19:50:49 +0000",
       "isoDate": "2026-06-08T19:50:49.000Z",
       "excerpt": "The Mariners have placed shortstop J.P. Crawford on the 10-day injured list, three days after a hit-by-pitch forced him from the game. They’re calling the injury a right hand contusion. In Crawford’s place, Seattle has...",
-      "source": "MLB Trade Rumors",
-      "team": "mariners",
-      "priority": 2
-    },
-    {
-      "title": "Mariners Unlikely To Trade From Top Five In Rotation",
-      "link": "https://www.mlbtraderumors.com/2026/06/mariners-unlikely-to-trade-from-top-five-in-rotation.html",
-      "pubDate": "Sat, 06 Jun 2026 17:42:23 +0000",
-      "isoDate": "2026-06-06T17:42:23.000Z",
-      "excerpt": "Despite countless rumors over the years, the Mariners have long been resistant to the idea of trading from their strong rotation. The stance looks to continue at this year’s deadline, as Adam Jude of the Seattle Times...",
       "source": "MLB Trade Rumors",
       "team": "mariners",
       "priority": 2
