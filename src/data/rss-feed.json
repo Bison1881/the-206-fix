@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-17T03:44:11.578Z",
+  "generatedAt": "2026-06-17T09:00:23.688Z",
   "sourceCount": 10,
   "successfulSources": 9,
   "failedSources": [
@@ -9,6 +9,86 @@
     }
   ],
   "items": [
+    {
+      "title": "Podcast: Welcome back, Big Dumper",
+      "link": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-06/17/4fd028a8-59acfd85-bbf3e7d5-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+      "pubDate": "Wed, 17 Jun 2026 06:47:05 GMT",
+      "isoDate": "2026-06-17T06:47:05.000Z",
+      "excerpt": "Cal Raleigh comes up big in return | Morning Lineup",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "'So much history': Gilbert, Raleigh relish chance to work together again",
+      "link": "https://www.mlb.com/mariners/news/logan-gilbert-cal-raleigh-work-well-as-mariners-battery",
+      "pubDate": "Wed, 17 Jun 2026 06:20:39 GMT",
+      "isoDate": "2026-06-17T06:20:39.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Raleigh hits game-winner, Crawford makes 3B debut in returns from IL",
+      "link": "https://www.mlb.com/mariners/news/cal-raleigh-j-p-crawford-return-from-injured-list",
+      "pubDate": "Wed, 17 Jun 2026 05:51:00 GMT",
+      "isoDate": "2026-06-17T05:51:00.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Mariners come home, win over Baltimore, 3-1",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/144980/mariners-come-home-win-over-baltimore-3-1",
+      "pubDate": "2026-06-17T05:12:11.000Z",
+      "isoDate": "2026-06-17T05:12:11.000Z",
+      "excerpt": "SEATTLE, WASHINGTON - JUNE 16: Logan Gilbert #36 of the Seattle Mariners is visited at the mound by JP Crawford #3 and Cal Raleigh #29 in the sixth inning against the Baltimore Orioles at T-Mobile Park on June 16, 2026...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Recap: Mariners open homestand with 3-1 win over O’s",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/recap-seattle-mariners-open-homestand-with-3-1-win-over-os",
+      "pubDate": "Wed, 17 Jun 2026 04:50:46 +0000",
+      "isoDate": "2026-06-17T04:50:46.000Z",
+      "excerpt": "Cal Raleigh delivered the tiebreaking hit and Logan Gilbert pitched seven stellar innings.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "38-36: Chart",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/144981/38-36-chart",
+      "pubDate": "2026-06-17T04:06:04.000Z",
+      "isoDate": "2026-06-17T04:06:04.000Z",
+      "excerpt": "Jun 16, 2026; Seattle, Washington, USA; Seattle Mariners centerfielder Julio Rodriguez (44) celebrates at first base after hitting a RBI-single during the third inning against the Baltimore Orioles at T-Mobile Park....",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Cal Raleigh delivers the winning hit in return to Mariners",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/cal-raleigh-delivers-the-winning-hit-in-return-to-mariners",
+      "pubDate": "Wed, 17 Jun 2026 04:01:49 +0000",
+      "isoDate": "2026-06-17T04:01:49.000Z",
+      "excerpt": "After missing a month due to injury, the catcher came up clutch against Baltimore in his first game back.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Mariners Injury Updates: Latest on Brash, Criswell and more",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-injury-updates-latest-on-brash-criswell-and-more",
+      "pubDate": "Wed, 17 Jun 2026 02:30:10 +0000",
+      "isoDate": "2026-06-17T02:30:10.000Z",
+      "excerpt": "The Seattle Mariners hope they'll get three key bullpen arms back around the trade deadline.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
     {
       "title": "Arozarena (hamstring) heads to IL; High-A OF Washington called up",
       "link": "https://www.mlb.com/mariners/news/randy-arozarena-to-injured-list-with-hamstring-injury",
@@ -70,16 +150,6 @@
       "priority": 2
     },
     {
-      "title": "Mariners revive piggyback strategy -- this time with all 6 starters",
-      "link": "https://www.mlb.com/mariners/news/mariners-revist-piggyback-rotation-before-all-star-break",
-      "pubDate": "Wed, 17 Jun 2026 00:59:08 GMT",
-      "isoDate": "2026-06-17T00:59:08.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
-    },
-    {
       "title": "Cal Raleigh and J.P. Crawford return, but beat-up Mariners still struggling with injury bug",
       "link": "https://www.lookoutlanding.com/seattle-mariners-injuries/144957/cal-raleigh-and-j-p-crawford-return-but-beat-up-mariners-still-struggling-with-injury-bug",
       "pubDate": "2026-06-17T00:00:22.000Z",
@@ -98,16 +168,6 @@
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
-    },
-    {
-      "title": "Mariners get lift as Raleigh and Crawford (at third base!) return from IL",
-      "link": "https://www.mlb.com/mariners/news/cal-raleigh-j-p-crawford-return-from-injured-list",
-      "pubDate": "Tue, 16 Jun 2026 23:53:00 GMT",
-      "isoDate": "2026-06-16T23:53:00.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
     },
     {
       "title": "Mariners to return to piggyback starting rotation plan",
@@ -160,36 +220,6 @@
       "priority": 3
     },
     {
-      "title": "Cal, J.P. officially back for Mariners; one player sent down",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/cal-raleigh-jp-crawford-seattle-mariners-return-il",
-      "pubDate": "Tue, 16 Jun 2026 21:05:42 +0000",
-      "isoDate": "2026-06-16T21:05:42.000Z",
-      "excerpt": "Catcher Jhonny Pereda has been optioned to Triple-A Tacoma to clear room on the roster for the two big returns.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "US forward Christian Pulisic day to day ahead of Seattle World Cup game",
-      "link": "https://sports.mynorthwest.com/seattle-sports-pit/us-forward-christian-pulisic-day-to-day-ahead-of-seattle-world-cup-game",
-      "pubDate": "Tue, 16 Jun 2026 20:37:59 +0000",
-      "isoDate": "2026-06-16T20:37:59.000Z",
-      "excerpt": "The Americans’ next game is against Australia in Seattle on Friday.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "Morosi: A’s are Mariners’ biggest threat in AL West",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/morosi-athletics-seattle-mariners-biggest-threat-al-west",
-      "pubDate": "Tue, 16 Jun 2026 20:27:14 +0000",
-      "isoDate": "2026-06-16T20:27:14.000Z",
-      "excerpt": "MLB Network's Jon Morosi thinks the Athletics' power-hitting potential makes them Seattle's most dangerous AL West challenger.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
       "title": "Seahawks scout becomes latest to join Nolan Teasley’s Vikings staff",
       "link": "https://www.fieldgulls.com/seattle-seahawks-news/169644/seahawks-scout-joins-nolan-teasley-vikings-staff-nfl-news",
       "pubDate": "2026-06-16T19:56:56.000Z",
@@ -220,16 +250,6 @@
       "priority": 1
     },
     {
-      "title": "Breaking down the closest All-Star races in Phase 1 balloting",
-      "link": "https://www.mlb.com/mariners/news/close-races-in-2026-all-star-voting",
-      "pubDate": "Tue, 16 Jun 2026 15:05:00 GMT",
-      "isoDate": "2026-06-16T15:05:00.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
-    },
-    {
       "title": "Seahawks 2026 rookie predictions: Will Andre Fuller’s versatility earn him a roster spot?",
       "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/169614/seahawks-2026-rookie-predictions-andre-fuller-versatility-earn-him-roster-spot",
       "pubDate": "2026-06-16T14:00:00.000Z",
@@ -237,16 +257,6 @@
       "excerpt": "BOCA RATON, FL - DECEMBER 23: Louisville Cardinals wide receiver Antonio Meeks (15) balttles Toledo Rockets cornerback Andre Fuller (3) for a pass during the Boca Raton Bowl football game between the Toledo Rockets and...",
       "source": "Field Gulls",
       "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "Mariners News: Cal Raleigh, Corey Seager, and Tommy Edman",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-news/144929/cal-raleigh-corey-seager-tommy-edman-spencer-strider-hunter-brown",
-      "pubDate": "2026-06-16T14:00:00.000Z",
-      "isoDate": "2026-06-16T14:00:00.000Z",
-      "excerpt": "May 11, 2026; Houston, Texas, USA; Seattle Mariners catcher Cal Raleigh (29) puts on his mask after a play during the second inning against the Houston Astros at Daikin Park. Mandatory Credit: Troy Taormina-Imagn Images...",
-      "source": "Lookout Landing",
-      "team": "mariners",
       "priority": 1
     },
     {
@@ -287,16 +297,6 @@
       "excerpt": "SEATTLE, WASHINGTON - NOVEMBER 30: Ty Okada #39 of the Seattle Seahawks celebrates a fumble recover against the Minnesota Vikings in the third quarter of a game at Lumen Field on November 30, 2025 in Seattle,...",
       "source": "Field Gulls",
       "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "Seattle Mariners Minor League Roundup &#8211; Week Twelve",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-prospects/144920/seattle-mariners-minor-league-roundup-week-twelve",
-      "pubDate": "2026-06-15T16:30:00.000Z",
-      "isoDate": "2026-06-15T16:30:00.000Z",
-      "excerpt": "PEORIA, ARIZONA - MARCH 13: Jonny Farmelo #98 of the Seattle Mariners plays center field during the fourth inning against the Los Angeles Dodgers during a spring training game at Peoria Stadium on March 13, 2026 in...",
-      "source": "Lookout Landing",
-      "team": "mariners",
       "priority": 1
     },
     {
