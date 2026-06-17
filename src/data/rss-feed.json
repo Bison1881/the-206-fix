@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-17T09:00:23.688Z",
+  "generatedAt": "2026-06-17T13:39:55.581Z",
   "sourceCount": 10,
   "successfulSources": 9,
   "failedSources": [
@@ -9,6 +9,16 @@
     }
   ],
   "items": [
+    {
+      "title": "Seahawks News 6/17: The impact of a depleted Seahawks Front Office",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169653/seahawks-news-6-17-the-impact-of-a-depleted-seahawks-front-office",
+      "pubDate": "2026-06-17T13:00:00.000Z",
+      "isoDate": "2026-06-17T13:00:00.000Z",
+      "excerpt": "In Today’s Links: the “who is the most important Seattle Seahawk” tourney continues at Seaside Joe, John Schneider builds a champion on TV, offseason check-ins with the rookies, the Devon Witherspoon contract situation,...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
     {
       "title": "Podcast: Welcome back, Big Dumper",
       "link": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-06/17/4fd028a8-59acfd85-bbf3e7d5-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
@@ -388,16 +398,6 @@
       "source": "Pro Football Rumors",
       "team": "seahawks",
       "priority": 2
-    },
-    {
-      "title": "SBNation Reacts results: Seahawks fans say 49ers are Seattle’s toughest early-season matchup",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/169551/sbnation-reacts-results-seahawks-fans-49ers-toughest-early-season-game",
-      "pubDate": "2026-06-13T14:00:00.000Z",
-      "isoDate": "2026-06-13T14:00:00.000Z",
-      "excerpt": "Welcome to SB Nation Reacts, a survey of fans across the NFL. Each week we ask questions of the most plugged-in Seattle Seahawks fans and fans across the country. The latest SB Nation Reacts survey is in, and Seattle...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
     },
     {
       "title": "'Let's Have A Blast!' Seahawks Celebrate Championship Season With Super Bowl Rings",
