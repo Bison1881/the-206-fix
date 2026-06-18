@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-18T12:49:02.331Z",
+  "generatedAt": "2026-06-18T16:54:46.113Z",
   "sourceCount": 10,
   "successfulSources": 9,
   "failedSources": [
@@ -9,6 +9,76 @@
     }
   ],
   "items": [
+    {
+      "title": "Darnold impresses Huard, Hasselbeck at Seahawks minicamp",
+      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/seattle-seahawks-sam-darnold-impresses-huard-hasselbeck-minicamp",
+      "pubDate": "Thu, 18 Jun 2026 16:12:10 +0000",
+      "isoDate": "2026-06-18T16:12:10.000Z",
+      "excerpt": "\"I thought he was exceptional,\" Matt Hasselbeck said of Seahawks quarterback Sam Darnold.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Mariners GM details the plan for Kade Anderson, Ryan Sloan",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-gm-pitching-prospects-anderson-sloan-plan",
+      "pubDate": "Thu, 18 Jun 2026 15:07:11 +0000",
+      "isoDate": "2026-06-18T15:07:11.000Z",
+      "excerpt": "The M's have two of baseball's top pitching prospects. Here's how they might fit into the club's 2026 plans.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Mariners Draft Profile: LHP Cole Carlon",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-mlb-draft/145021/mariners-draft-profile-lhp-cole-carlon",
+      "pubDate": "2026-06-18T15:00:00.000Z",
+      "isoDate": "2026-06-18T15:00:00.000Z",
+      "excerpt": "Los Angeles, CA - May 30: Arizona St. pitcher Cole Carlon (14) cheers his team on at the NCAA baseball regional tournament game between Arizona State and UC Irvine at Jackie Robinson Stadium on Friday, May 30, 2025 in...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Finally, the results of the 2026 Field Gulls Armchair GM Challenge",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-nfl-draft/169670/2026-field-gulls-armchair-gm-challenge-seahawks-draft-results",
+      "pubDate": "2026-06-18T14:00:00.000Z",
+      "isoDate": "2026-06-18T14:00:00.000Z",
+      "excerpt": "Apr 23, 2026; Pittsburgh, PA, USA; Notre Dame Fighting Irish running back Jadarian Price is selected by the Seattle Seahawks as the number 32 pick during the 2026 NFL Draft at Acrisure Stadium. Mandatory Credit: Kirby...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
+    {
+      "title": "Mariners News: Julio Rodríguez, Kyle Boddy, and the Home Run Derby",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-news/145017/mariners-news-julio-rodriguez-kyle-boddy-and-the-home-run-derby",
+      "pubDate": "2026-06-18T14:00:00.000Z",
+      "isoDate": "2026-06-18T14:00:00.000Z",
+      "excerpt": "ATLANTA, GA - JULY 14: Cal Raleigh #29 of the Seattle Mariners poses for a photo with Todd Raleigh Sr. and Todd Raleigh Jr. after winning the 2025 T-Mobile Home Run Derby at Truist Park on Monday, July 14, 2025 in...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "PWHL Draft Recap: Torrent add goalscoring and controversy to their roster",
+      "link": "https://www.davyjoneslockerroom.com/pwhl-draft-recap-torrent-add-goalscoring-and-controversy-to-their-roster/",
+      "pubDate": "Thu, 18 Jun 2026 13:45:00 +0000",
+      "isoDate": "2026-06-18T13:45:00.000Z",
+      "excerpt": "The PWHL Draft concluded yesterday, with a bunch of depleted lineups changing hopefully for the better with the additions of fresh new talent from all across the globe. 2nd Overall Pick: Abbey Murphy – F Hometown:...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
+      "title": "Seahawks News 6/18: Seahawks quickly fill empty front office positions",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169683/seahawks-news-6-18-seahawks-quickly-fill-empty-front-office-positions",
+      "pubDate": "2026-06-18T13:00:00.000Z",
+      "isoDate": "2026-06-18T13:00:00.000Z",
+      "excerpt": "Feb 24, 2026; Indianapolis, IN, USA; Seattle Seahawks general manager John Schneider speaks at the NFL Scouting Combine at the Indiana Convention Center. Mandatory Credit: Kirby Lee-Imagn Images | Kirby Lee-Imagn Images...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
     {
       "title": "Latest Mariners injuries and transactions",
       "link": "https://www.mlb.com/mariners/news/mariners-injuries-and-roster-moves",
@@ -170,16 +240,6 @@
       "priority": 1
     },
     {
-      "title": "Mariners call up veteran utility man in wake of Arozarena injury",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-call-up-connor-joe-randy-arozarena-il",
-      "pubDate": "Wed, 17 Jun 2026 20:09:22 +0000",
-      "isoDate": "2026-06-17T20:09:22.000Z",
-      "excerpt": "Connor Joe is back with the Mariners while rookie outfielder Curtis Washington Jr. has been optioned back to High-A Everett.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
       "title": "Seahawks Announce Front Office Promotions, Including Two New Assistant General Managers",
       "link": "https://www.seahawks.com/news/seahawks-announce-front-office-promotions-including-two-new-assistant-general-managers",
       "pubDate": "Wed, 17 Jun 2026 19:58:41 GMT",
@@ -188,16 +248,6 @@
       "source": "Seahawks.com",
       "team": "seahawks",
       "priority": 6
-    },
-    {
-      "title": "Seahawks promote 2 front office members to assistant GM",
-      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/report-seattle-seahawks-promoting-2-front-office-members-assistant-gm",
-      "pubDate": "Wed, 17 Jun 2026 19:52:41 +0000",
-      "isoDate": "2026-06-17T19:52:41.000Z",
-      "excerpt": "Seahawks GM John Schneider recently lost his top two front office executives to the Vikings.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
     },
     {
       "title": "Seahawks Promote Willie Schneider, Matt Berry To Assistant GM",
@@ -280,26 +330,6 @@
       "priority": 6
     },
     {
-      "title": "Randy Arozarena to IL with strained hamstring",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-injuries/144975/randy-arozarena-to-il-with-strained-hamstring",
-      "pubDate": "2026-06-17T01:24:36.000Z",
-      "isoDate": "2026-06-17T01:24:36.000Z",
-      "excerpt": "BALTIMORE, MD - JUNE 11: Randy Arozarena #56 of the Seattle Mariners reacts after striking out to end the first inning against the Baltimore Orioles at Oriole Park at Camden Yards on June 11, 2026 in Baltimore,...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "Mariners Game Preview and Discussion: Orioles at Mariners",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-game-information/144968/mariners-game-preview-and-discussion-orioles-at-mariners",
-      "pubDate": "2026-06-17T01:19:00.000Z",
-      "isoDate": "2026-06-17T01:19:00.000Z",
-      "excerpt": "BALTIMORE, MARYLAND - JUNE 09: Logan Gilbert #36 of the Seattle Mariners pitches against the Baltimore Orioles at Oriole Park at Camden Yards on June 09, 2026 in Baltimore, Maryland. (Photo by G Fiume/Getty Images) |...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
       "title": "Mariners Place Randy Arozarena On Injured List",
       "link": "https://www.mlbtraderumors.com/2026/06/mariners-to-place-randy-arozarena-on-injured-list.html",
       "pubDate": "Wed, 17 Jun 2026 01:14:36 +0000",
@@ -340,16 +370,6 @@
       "priority": 1
     },
     {
-      "title": "Seahawks News 6/16: A special Sea Hawkers tribute to Russell Wilson",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169630/seahawks-news-6-16-a-special-sea-hawkers-tribute-to-russell-wilson",
-      "pubDate": "2026-06-16T13:00:00.000Z",
-      "isoDate": "2026-06-16T13:00:00.000Z",
-      "excerpt": "CHICAGO, IL - DECEMBER 02: Russell Wilson #3 of the Seattle Seahawks calls a play against the Chicago Bears on December 2, 2012 at Soldier Field in Chicago, Illinois.The Seattle Seahawks defeated the Chicago Bears 23-17...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
-    },
-    {
       "title": "Mariners Outright Domingo González",
       "link": "https://www.mlbtraderumors.com/2026/06/mariners-outright-domingo-gonzalez.html",
       "pubDate": "Tue, 16 Jun 2026 01:26:34 +0000",
@@ -368,16 +388,6 @@
       "source": "MLB Trade Rumors",
       "team": "mariners",
       "priority": 2
-    },
-    {
-      "title": "Why Ty Okada could be with the Seahawks longer than many may expect",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-nfl-salary-cap/169609/the-ty-okada-question",
-      "pubDate": "2026-06-15T19:40:28.000Z",
-      "isoDate": "2026-06-15T19:40:28.000Z",
-      "excerpt": "SEATTLE, WASHINGTON - NOVEMBER 30: Ty Okada #39 of the Seattle Seahawks celebrates a fumble recover against the Minnesota Vikings in the third quarter of a game at Lumen Field on November 30, 2025 in Seattle,...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
     },
     {
       "title": "Cubs Acquire Yosver Zulueta",
@@ -598,16 +608,6 @@
       "source": "Davy Jones' Locker Room",
       "team": "kraken",
       "priority": 1
-    },
-    {
-      "title": "Russell Wilson Announces Retirement",
-      "link": "https://www.profootballrumors.com/2026/06/russell-wilson-announces-retirement",
-      "pubDate": "Thu, 04 Jun 2026 04:30:09 +0000",
-      "isoDate": "2026-06-04T04:30:09.000Z",
-      "excerpt": "On Monday, it was reported Russell Wilson would spend the 2026 season as an analyst for CBS. That news obviously suggested his playing days were over, and that has now been confirmed. On Wednesday, Wilson posted a video...",
-      "source": "Pro Football Rumors",
-      "team": "seahawks",
-      "priority": 2
     }
   ]
 }
