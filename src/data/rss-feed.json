@@ -1,8 +1,13 @@
 {
-  "generatedAt": "2026-06-18T08:43:07.125Z",
+  "generatedAt": "2026-06-18T12:49:02.331Z",
   "sourceCount": 10,
-  "successfulSources": 10,
-  "failedSources": [],
+  "successfulSources": 9,
+  "failedSources": [
+    {
+      "source": "Seattle Times Sports",
+      "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
+    }
+  ],
   "items": [
     {
       "title": "Latest Mariners injuries and transactions",
@@ -45,16 +50,6 @@
       "priority": 3
     },
     {
-      "title": "Luis Díaz sparks Colombia to a 3-1 win over Uzbekistan in its World Cup opener",
-      "link": "https://www.seattletimes.com/sports/world-cup/luis-diaz-sparks-colombia-to-a-3-1-win-over-uzbekistan-in-its-world-cup-opener/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 17 Jun 2026 21:56:04 -0700",
-      "isoDate": "2026-06-18T04:56:04.000Z",
-      "excerpt": "Luis Díaz had a goal and an assist in his debut on soccer’s biggest stage, sparking Colombia to a 3-1 win over Uzbekistan in its World Cup opener.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "Malonga’s career-high 28 not enough as Storm fall to Fire 94-89",
       "link": "https://sports.mynorthwest.com/wnba/seattle-storm/dominique-malonga-28-seattle-storm-fall-portland-fire",
       "pubDate": "Thu, 18 Jun 2026 04:55:38 +0000",
@@ -75,26 +70,6 @@
       "priority": 3
     },
     {
-      "title": "Storm squander Dominique Malonga’s career night in loss at Portland",
-      "link": "https://www.seattletimes.com/sports/storm/storm-squander-dominique-malongas-career-night-in-loss-at-portland/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 17 Jun 2026 21:34:06 -0700",
-      "isoDate": "2026-06-18T04:34:06.000Z",
-      "excerpt": "The Storm squandered a career-high 28 points from Dominique Malonga while dropping a head-scratching 94-89 defeat against the Portland Fire on Wednesday night.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Julio Rodríguez exits in 6th inning as Mariners fall to Orioles",
-      "link": "https://www.seattletimes.com/sports/mariners/julio-rodriguez-exits-in-6th-inning-as-mariners-fall-to-orioles/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 17 Jun 2026 21:21:19 -0700",
-      "isoDate": "2026-06-18T04:21:19.000Z",
-      "excerpt": "Julio Rodríguez departed in the sixth inning Wednesday night, and the Mariners — already dealing with injury woes — fell 5-3 to the Orioles.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "38-37: Chart",
       "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/145010/38-37-chart",
       "pubDate": "2026-06-18T04:18:56.000Z",
@@ -102,46 +77,6 @@
       "excerpt": "Jun 17, 2026; Seattle, Washington, USA; Seattle Mariners designated hitter Dominic Canzone (8) hits a RBI single against the Baltimore Orioles during the fourth inning at T-Mobile Park. Mandatory Credit: Steven...",
       "source": "Lookout Landing",
       "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "Photos: Seattle Mariners take on Baltimore Orioles",
-      "link": "https://www.seattletimes.com/sports/mariners/photos-seattle-mariners-take-on-baltimore-orioles-4/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 17 Jun 2026 20:24:43 -0700",
-      "isoDate": "2026-06-18T03:24:43.000Z",
-      "excerpt": "",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Cal Raleigh, Logan Gilbert have near mishap in Mariners’ win Tuesday",
-      "link": "https://www.seattletimes.com/sports/mariners/cal-raleigh-logan-gilbert-have-near-mishap-in-mariners-win-tuesday/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 17 Jun 2026 19:30:52 -0700",
-      "isoDate": "2026-06-18T02:30:52.000Z",
-      "excerpt": "Amid all the Mariners' injury woes, an ill-timed throw from Cal Raleigh nearly hit Logan Gilbert. The two laughed it off after Tuesday's win: 'I thought it was going to hit him in his big head'",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "UW men’s basketball adds Boris Tisma, a 7-year European pro",
-      "link": "https://www.seattletimes.com/sports/uw-husky-basketball/uw-mens-basketball-adds-boris-tisma-a-7-year-european-pro/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 17 Jun 2026 19:07:15 -0700",
-      "isoDate": "2026-06-18T02:07:15.000Z",
-      "excerpt": "The Washington men's basketball team added another international player in 24-year-old Boris Tisma, a 6-foot-9 forward who has played in Europe for the past seven years.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Caleb Yirenki’s late goal gives Ghana a 1-0 victory over Panama in the World Cup",
-      "link": "https://www.seattletimes.com/sports/world-cup/caleb-yirenkis-late-goal-gives-ghana-a-1-0-victory-over-panama-in-the-world-cup/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 17 Jun 2026 18:27:09 -0700",
-      "isoDate": "2026-06-18T01:27:09.000Z",
-      "excerpt": "Caleb Yirenkyi tapped in a cross from Brandon Thomas-Asante in the fifth minute of second-half stoppage time, and Ghana beat Panama 1-0 in the teams’ World Cup opener.",
-      "source": "Seattle Times Sports",
-      "team": "general",
       "priority": 1
     },
     {
@@ -193,16 +128,6 @@
       "source": "MLB Trade Rumors",
       "team": "mariners",
       "priority": 2
-    },
-    {
-      "title": "Sounders get their shot to take on Belgium’s World Cup team",
-      "link": "https://www.seattletimes.com/sports/world-cup/sounders-get-their-shot-to-take-on-belgiums-world-cup-team/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 17 Jun 2026 16:32:45 -0700",
-      "isoDate": "2026-06-17T23:32:45.000Z",
-      "excerpt": "The Belgium national team has been using the Sounders' training complex as base camp. A few of the players got in a little scrimmage with some of the Red Devil reserves.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
     },
     {
       "title": "Seahawks Mailbag: Super Bowl Rings, Year 2 Nick Emmanwori & More",
@@ -603,6 +528,86 @@
       "source": "Davy Jones' Locker Room",
       "team": "kraken",
       "priority": 1
+    },
+    {
+      "title": "The 'Kinda' New Offense, Injury Updates & Other Takeaways From Day 2 Of Seahawks Minicamp",
+      "link": "https://www.seahawks.com/news/the-kinda-new-offense-injury-updates-other-takeaways-from-day-2-of-seahawks-minicamp",
+      "pubDate": "Wed, 10 Jun 2026 23:42:42 GMT",
+      "isoDate": "2026-06-10T23:42:42.000Z",
+      "excerpt": "News and notes from Seahawks coach Mike Macdonald’s press conference following Day 2 of minicamp.",
+      "source": "Seahawks.com",
+      "team": "seahawks",
+      "priority": 6
+    },
+    {
+      "title": "Max McCormick Announces Retirement",
+      "link": "https://www.prohockeyrumors.com/2026/06/max-mccormick-announces-retirement.html",
+      "pubDate": "Wed, 10 Jun 2026 22:01:06 +0000",
+      "isoDate": "2026-06-10T22:01:06.000Z",
+      "excerpt": "According to an announcement from the AHL’s Coachella Valley Firebirds, captain Max McCormick has retired from professional hockey. McCormick lost the entire 2025-26 campaign due to a hip injury, and that likely...",
+      "source": "Pro Hockey Rumors",
+      "team": "kraken",
+      "priority": 2
+    },
+    {
+      "title": "Mariners Place Matt Brash On IL With Lat Strain",
+      "link": "https://www.mlbtraderumors.com/2026/06/mariners-place-matt-brash-on-il-with-lat-strain.html",
+      "pubDate": "Wed, 10 Jun 2026 20:50:21 +0000",
+      "isoDate": "2026-06-10T20:50:21.000Z",
+      "excerpt": "The Mariners announced a series of roster moves today. Infielder/outfielder Miles Mastrobuoni has been reinstated from the 60-day injured list and right-hander Domingo González has been recalled from Triple-A Tacoma. In...",
+      "source": "MLB Trade Rumors",
+      "team": "mariners",
+      "priority": 2
+    },
+    {
+      "title": "Minor NFL Transactions: 6/8/26",
+      "link": "https://www.profootballrumors.com/2026/06/minor-nfl-transactions-6-8-26",
+      "pubDate": "Tue, 09 Jun 2026 00:01:55 +0000",
+      "isoDate": "2026-06-09T00:01:55.000Z",
+      "excerpt": "Four teams made minor moves on Monday. Here’s a look… Carolina Panthers Signed: WR Malick Meiga Waived: TE Heinrich Haarberg New York Jets Signed: WR Jalen Walthall Waived/injured: Quentin Skinner Seattle Seahawks...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
+      "priority": 2
+    },
+    {
+      "title": "Seahawks Work Out S Ifeatu Melifonwu",
+      "link": "https://www.profootballrumors.com/2026/06/seahawks-work-out-s-ifeatu-melifonwu",
+      "pubDate": "Mon, 08 Jun 2026 22:03:07 +0000",
+      "isoDate": "2026-06-08T22:03:07.000Z",
+      "excerpt": "The Seahawks worked out free agent safety Ifeatu Melifonwu on Monday, Mike Garafolo of NFL Network relays. No deal is imminent, per Garafolo. Melifonwu became a free agent in March, but this is the first reported...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
+      "priority": 2
+    },
+    {
+      "title": "Seahawks, Derick Hall Agree To Extension",
+      "link": "https://www.profootballrumors.com/2026/06/seahawks-derick-hall-agree-to-extension",
+      "pubDate": "Fri, 05 Jun 2026 19:00:15 +0000",
+      "isoDate": "2026-06-05T19:00:15.000Z",
+      "excerpt": "JUNE 5: Hall’s contract includes $15.27MM guaranteed at signing, according to OverTheCap. An additional $4.2MM will become fully guaranteed five days after Super Bowl LXI, per Spotrac. Another $1.5MM will lock in five...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
+      "priority": 2
+    },
+    {
+      "title": "Seattle Torrent Protect Wilgren, Murphy, Carpenter in Expansion Draft",
+      "link": "https://www.davyjoneslockerroom.com/seattle-torrent-protect-wilgren-murphy-carpenter-in-expansion-draft/",
+      "pubDate": "Thu, 04 Jun 2026 16:00:00 +0000",
+      "isoDate": "2026-06-04T16:00:00.000Z",
+      "excerpt": "The Torrent have made some interesting choices in the upcoming expansion process by choosing to protect Anna Wilgren, Hannah Murphy, and Alex Carpenter. Not exactly an expansion draft, the PWHL’s Expansion Roster...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
+      "title": "Russell Wilson Announces Retirement",
+      "link": "https://www.profootballrumors.com/2026/06/russell-wilson-announces-retirement",
+      "pubDate": "Thu, 04 Jun 2026 04:30:09 +0000",
+      "isoDate": "2026-06-04T04:30:09.000Z",
+      "excerpt": "On Monday, it was reported Russell Wilson would spend the 2026 season as an analyst for CBS. That news obviously suggested his playing days were over, and that has now been confirmed. On Wednesday, Wilson posted a video...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
+      "priority": 2
     }
   ]
 }
