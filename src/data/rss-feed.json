@@ -1,9 +1,109 @@
 {
-  "generatedAt": "2026-06-18T03:36:19.568Z",
+  "generatedAt": "2026-06-18T08:43:07.125Z",
   "sourceCount": 10,
   "successfulSources": 10,
   "failedSources": [],
   "items": [
+    {
+      "title": "Latest Mariners injuries and transactions",
+      "link": "https://www.mlb.com/mariners/news/mariners-injuries-and-roster-moves",
+      "pubDate": "Thu, 18 Jun 2026 05:51:00 GMT",
+      "isoDate": "2026-06-18T05:51:00.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "J-Rod day to day after exiting early with hamstring spasm",
+      "link": "https://www.mlb.com/mariners/news/julio-rodriguez-exits-game-vs-orioles-with-injury",
+      "pubDate": "Thu, 18 Jun 2026 05:28:00 GMT",
+      "isoDate": "2026-06-18T05:28:00.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Vibes uncleansed: Mariners drop game to Orioles, 5-3",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/145009/vibes-uncleansed-mariners-drop-game-to-orioles-5-3",
+      "pubDate": "2026-06-18T05:09:11.000Z",
+      "isoDate": "2026-06-18T05:09:11.000Z",
+      "excerpt": "SEATTLE, WASHINGTON - JUNE 17: Connor Joe #9 of the Seattle Mariners is forced out at third base in the fifth inning against the Baltimore Orioles at T-Mobile Park on June 17, 2026 in Seattle, Washington. (Photo by...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Bradish, Henderson help Orioles sink Mariners 5-3",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/bradish-henderson-baltimore-orioles-seattle-mariners-5-3",
+      "pubDate": "Thu, 18 Jun 2026 05:03:43 +0000",
+      "isoDate": "2026-06-18T05:03:43.000Z",
+      "excerpt": "Kyle Bradish struck out a career-high 12 while pitching one-run ball into the eighth inning, and Gunnar Henderson hit a two-run homer.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Luis Díaz sparks Colombia to a 3-1 win over Uzbekistan in its World Cup opener",
+      "link": "https://www.seattletimes.com/sports/world-cup/luis-diaz-sparks-colombia-to-a-3-1-win-over-uzbekistan-in-its-world-cup-opener/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Wed, 17 Jun 2026 21:56:04 -0700",
+      "isoDate": "2026-06-18T04:56:04.000Z",
+      "excerpt": "Luis Díaz had a goal and an assist in his debut on soccer’s biggest stage, sparking Colombia to a 3-1 win over Uzbekistan in its World Cup opener.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Malonga’s career-high 28 not enough as Storm fall to Fire 94-89",
+      "link": "https://sports.mynorthwest.com/wnba/seattle-storm/dominique-malonga-28-seattle-storm-fall-portland-fire",
+      "pubDate": "Thu, 18 Jun 2026 04:55:38 +0000",
+      "isoDate": "2026-06-18T04:55:38.000Z",
+      "excerpt": "Dominique Malonga had a career-high 28 points and 11 rebounds, but the Portland Fire handed the Seattle Storm their ninth straight loss.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Mariners star Julio Rodríguez exits with hamstring spasm",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-julio-rodriguez-exits-hamstring-spasm",
+      "pubDate": "Thu, 18 Jun 2026 04:47:29 +0000",
+      "isoDate": "2026-06-18T04:47:29.000Z",
+      "excerpt": "Rodríguez's early exit is the latest in a long line of ailments for the injury-plagued Mariners.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Storm squander Dominique Malonga’s career night in loss at Portland",
+      "link": "https://www.seattletimes.com/sports/storm/storm-squander-dominique-malongas-career-night-in-loss-at-portland/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Wed, 17 Jun 2026 21:34:06 -0700",
+      "isoDate": "2026-06-18T04:34:06.000Z",
+      "excerpt": "The Storm squandered a career-high 28 points from Dominique Malonga while dropping a head-scratching 94-89 defeat against the Portland Fire on Wednesday night.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Julio Rodríguez exits in 6th inning as Mariners fall to Orioles",
+      "link": "https://www.seattletimes.com/sports/mariners/julio-rodriguez-exits-in-6th-inning-as-mariners-fall-to-orioles/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Wed, 17 Jun 2026 21:21:19 -0700",
+      "isoDate": "2026-06-18T04:21:19.000Z",
+      "excerpt": "Julio Rodríguez departed in the sixth inning Wednesday night, and the Mariners — already dealing with injury woes — fell 5-3 to the Orioles.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "38-37: Chart",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/145010/38-37-chart",
+      "pubDate": "2026-06-18T04:18:56.000Z",
+      "isoDate": "2026-06-18T04:18:56.000Z",
+      "excerpt": "Jun 17, 2026; Seattle, Washington, USA; Seattle Mariners designated hitter Dominic Canzone (8) hits a RBI single against the Baltimore Orioles during the fourth inning at T-Mobile Park. Mandatory Credit: Steven...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
     {
       "title": "Photos: Seattle Mariners take on Baltimore Orioles",
       "link": "https://www.seattletimes.com/sports/mariners/photos-seattle-mariners-take-on-baltimore-orioles-4/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
@@ -105,16 +205,6 @@
       "priority": 1
     },
     {
-      "title": "Here's a prospect pushing for a promotion from each team",
-      "link": "https://www.mlb.com/mariners/news/prospect-from-each-club-pushing-for-a-promotion-june-2026",
-      "pubDate": "Wed, 17 Jun 2026 23:19:00 GMT",
-      "isoDate": "2026-06-17T23:19:00.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
-    },
-    {
       "title": "Seahawks Mailbag: Super Bowl Rings, Year 2 Nick Emmanwori & More",
       "link": "https://www.seahawks.com/news/seahawks-mailbag-super-bowl-rings-year-2-nick-emmanwori-more",
       "pubDate": "Wed, 17 Jun 2026 23:14:34 GMT",
@@ -123,16 +213,6 @@
       "source": "Seahawks.com",
       "team": "seahawks",
       "priority": 6
-    },
-    {
-      "title": "Seahawks among teams attending Brendan Sorsby’s pro day, report says",
-      "link": "https://www.seattletimes.com/sports/seahawks/seahawks-among-teams-attending-brendan-sorsbys-pro-day-report-says/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 17 Jun 2026 15:57:50 -0700",
-      "isoDate": "2026-06-17T22:57:50.000Z",
-      "excerpt": "The Seahawks reportedly are among the teams who will attend Brendan Sorsby's pro day. How much interest are they likely to have in drafting him?",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
     },
     {
       "title": "NFC West Check-In: Arizona rookie QB Beck eyes starting job",
@@ -145,16 +225,6 @@
       "priority": 3
     },
     {
-      "title": "Harry Kane ties England’s record for World Cup goals in 4-2 win over Croatia",
-      "link": "https://www.seattletimes.com/sports/harry-kane-ties-englands-record-for-world-cup-goals-in-4-2-win-over-croatia/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 17 Jun 2026 15:33:05 -0700",
-      "isoDate": "2026-06-17T22:33:05.000Z",
-      "excerpt": "Harry Kane scored twice to equal the English record for World Cup goals, Jude Bellingham added another two minutes into the second half and England beat Croatia 4-2.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "PWHL Draft: Seattle Torrent take Olympian with No. 2 pick",
       "link": "https://sports.mynorthwest.com/seattle-sports-pit/pwhl-draft-seattle-torrent-abbey-murphy-no-2-pick",
       "pubDate": "Wed, 17 Jun 2026 22:31:59 +0000",
@@ -163,16 +233,6 @@
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
-    },
-    {
-      "title": "Seattle Torrent take Minnesota’s Abbey Murphy at No. 2 in PWHL draft",
-      "link": "https://www.seattletimes.com/sports/torrent/seattle-torrent-take-minnesotas-abbey-murphy-at-no-2-in-pwhl-draft/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 17 Jun 2026 14:35:35 -0700",
-      "isoDate": "2026-06-17T21:35:35.000Z",
-      "excerpt": "The Torrent drafted Minnesota forward Abbey Murphy with the second overall pick in the PWHL draft.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
     },
     {
       "title": "Seahawks reshuffle front office with 6 promotions",
@@ -223,36 +283,6 @@
       "source": "Pro Football Rumors",
       "team": "seahawks",
       "priority": 2
-    },
-    {
-      "title": "Ticket prices skyrocket for US World Cup match in Seattle",
-      "link": "https://sports.mynorthwest.com/seattle-sports-pit/ticket-prices-skyrocket-us-australia-world-cup-match-seattle",
-      "pubDate": "Wed, 17 Jun 2026 18:46:16 +0000",
-      "isoDate": "2026-06-17T18:46:16.000Z",
-      "excerpt": "The get-in price for Friday's United States-Australia match surged above $2,000 this past weekend.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "What They Said: M’s GM details everything about the new piggyback",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-piggyback-rotation-justin-hollander-gm",
-      "pubDate": "Wed, 17 Jun 2026 18:05:50 +0000",
-      "isoDate": "2026-06-17T18:05:50.000Z",
-      "excerpt": "Justin Hollander broke down in detail everything about the piggyback rotation strategy on the Mariners Radio Network pregame show.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "Former UW Huskies 1st-round pick abruptly retires from NFL",
-      "link": "https://sports.mynorthwest.com/ncaa/uw/former-uw-huskies-1st-round-pick-abruptly-retires-from-nfl-tryon-shoyinka",
-      "pubDate": "Wed, 17 Jun 2026 17:27:01 +0000",
-      "isoDate": "2026-06-17T17:27:01.000Z",
-      "excerpt": "Former UW Huskies standout Joe Tryon-Shoyinka was placed on the reserve/retired list by the Eagles.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
     },
     {
       "title": "Mariners News: Randy Arozarena, George Springer, and Jose Caballero",
@@ -325,16 +355,6 @@
       "priority": 6
     },
     {
-      "title": "Latest Mariners injuries and transactions",
-      "link": "https://www.mlb.com/mariners/news/mariners-injuries-and-roster-moves",
-      "pubDate": "Wed, 17 Jun 2026 01:36:00 GMT",
-      "isoDate": "2026-06-17T01:36:00.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
-    },
-    {
       "title": "Randy Arozarena to IL with strained hamstring",
       "link": "https://www.lookoutlanding.com/seattle-mariners-injuries/144975/randy-arozarena-to-il-with-strained-hamstring",
       "pubDate": "2026-06-17T01:24:36.000Z",
@@ -363,26 +383,6 @@
       "source": "MLB Trade Rumors",
       "team": "mariners",
       "priority": 2
-    },
-    {
-      "title": "Cal Raleigh and J.P. Crawford return, but beat-up Mariners still struggling with injury bug",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-injuries/144957/cal-raleigh-and-j-p-crawford-return-but-beat-up-mariners-still-struggling-with-injury-bug",
-      "pubDate": "2026-06-17T00:00:22.000Z",
-      "isoDate": "2026-06-17T00:00:22.000Z",
-      "excerpt": "DETROIT, MI - OCTOBER 07: J.P. Crawford #3 of the Seattle Mariners celebrates with Cal Raleigh #29 at home plate after scoring in the third inning during Game Three of the American League Division Series presented by...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "Mariners to return to piggyback starting rotation plan",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-roster/144952/mariners-to-return-to-piggyback-starting-rotation-plan",
-      "pubDate": "2026-06-16T23:32:05.000Z",
-      "isoDate": "2026-06-16T23:32:05.000Z",
-      "excerpt": "Now there’s a *real* piggyback. Amidst a flurry of injury updates and roster moves, the Seattle Mariners announced a major strategy shift for the next month. The club will employ the piggyback strategy once more,...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
     },
     {
       "title": "Free Agent Focus: Seattle Kraken",
