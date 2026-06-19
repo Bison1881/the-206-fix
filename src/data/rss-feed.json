@@ -1,14 +1,124 @@
 {
-  "generatedAt": "2026-06-19T16:31:02.753Z",
+  "generatedAt": "2026-06-19T19:45:17.147Z",
   "sourceCount": 10,
   "successfulSources": 9,
   "failedSources": [
     {
-      "source": "Seattle Times Sports",
-      "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
+      "source": "Davy Jones' Locker Room",
+      "error": "Status code 415 (lenient retry: Status code 415)"
     }
   ],
   "items": [
+    {
+      "title": "Ex-Seahawk Marshawn Lynch helps energize ‘Men in Blazers’ crowd",
+      "link": "https://www.seattletimes.com/sports/world-cup/ex-seahawk-marshawn-lynch-helps-energize-men-in-blazers-crowd/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Fri, 19 Jun 2026 12:35:28 -0700",
+      "isoDate": "2026-06-19T19:35:28.000Z",
+      "excerpt": "A sea of people — mostly wearing red, white and blue — filled the area around Pier 58 to capacity for Friday's \"Men in Blazers Match Day Live!\" broadcast.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Seattle World Cup: US vs Australia photo gallery",
+      "link": "https://sports.mynorthwest.com/seattle-sports-pit/seattle-world-cup-us-vs-australia-photo-gallery",
+      "pubDate": "Fri, 19 Jun 2026 18:55:44 +0000",
+      "isoDate": "2026-06-19T18:55:44.000Z",
+      "excerpt": "See a collection of photos from the Seattle World Cup game between the U.S. and Australia on Friday.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "MLS commissioner says Sounders helped create memorable World Cup scene",
+      "link": "https://www.seattletimes.com/sports/world-cup/mls-commissioner-says-sounders-helped-create-memorable-world-cup-scene/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Fri, 19 Jun 2026 11:40:03 -0700",
+      "isoDate": "2026-06-19T18:40:03.000Z",
+      "excerpt": "MLS Commissioner Don Garber was on hand for the World Cup game at Seattle Stadium, and he lauded the Sounders for helping to create the scene around the game.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Washington Huskies’ Danny Sprinkle adds DeAndre Haynes to staff",
+      "link": "https://www.seattletimes.com/sports/uw-husky-basketball/washington-huskies-danny-sprinkle-adds-deandre-haynes-to-staff/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Fri, 19 Jun 2026 11:37:25 -0700",
+      "isoDate": "2026-06-19T18:37:25.000Z",
+      "excerpt": "This is the second consecutive year that UW coach Danny Sprinkle has altered his staff, and it's unclear if there are any more changes in store for next season.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "US star Pulisic out for Seattle World Cup match vs Australia",
+      "link": "https://sports.mynorthwest.com/seattle-sports-pit/us-star-christian-pilisic-out-seattle-world-cup-australia",
+      "pubDate": "Fri, 19 Jun 2026 17:51:12 +0000",
+      "isoDate": "2026-06-19T17:51:12.000Z",
+      "excerpt": "American coach Maurice Pochettino made the announcement during a TV interview about 90 minutes before the kickoff at Lumen Field in Seattle.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "2026 World Cup: Gary Payton delivering Juneteenth message at 4 stadiums",
+      "link": "https://www.seattletimes.com/sports/world-cup/2026-world-cup-gary-payton-delivering-juneteenth-message-at-4-stadiums/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Fri, 19 Jun 2026 10:41:12 -0700",
+      "isoDate": "2026-06-19T17:41:12.000Z",
+      "excerpt": "FIFA tapped Sonics icon Gary Payton to deliver a Juneteenth message that will air in the four stadiums holding World Cup matches, including Seattle Stadium.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "U.S. soccer’s Christian Pulisic ruled out for World Cup match vs. Australia",
+      "link": "https://www.seattletimes.com/sports/world-cup/2026-world-cup-usmnts-christian-pulisic-ruled-out-against-australia/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Fri, 19 Jun 2026 10:36:41 -0700",
+      "isoDate": "2026-06-19T17:36:41.000Z",
+      "excerpt": "Coach Mauricio Pochettino announced Team USA winger Christian Pulisic will not play against Australia because of a calf injury.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Photos: USA vs. Australia in FIFA World Cup",
+      "link": "https://www.seattletimes.com/sports/world-cup/photos-usa-vs-australia-in-fifa-world-cup/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Fri, 19 Jun 2026 10:35:55 -0700",
+      "isoDate": "2026-06-19T17:35:55.000Z",
+      "excerpt": "",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Where Washington State Cougars sit in Pac-12 quarterback rankings",
+      "link": "https://www.seattletimes.com/sports/wsu-cougar-football/where-washington-state-cougars-sit-in-pac-12-quarterback-rankings/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Fri, 19 Jun 2026 10:00:00 -0700",
+      "isoDate": "2026-06-19T17:00:00.000Z",
+      "excerpt": "Here is how the teams in the rebuilt Pac-12 sit in the Quarterback Comfort Quotient, which ranks the quality of the starting and backup signal callers, according to Jon Wilner.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "UW football recruiting: How early success could lead to big swings to complete 2027 class",
+      "link": "https://www.seattletimes.com/sports/washington-huskies-football/uw-football-recruiting-how-early-success-could-lead-to-big-swings-to-complete-2027-class/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Fri, 19 Jun 2026 10:00:00 -0700",
+      "isoDate": "2026-06-19T17:00:00.000Z",
+      "excerpt": "Washington took care of business early during the 2026 recruiting class to set up a big finish. It's poised to repeat the feat for 2027.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Series Preview: Mariners (39-37) vs. Red Sox (29-43)",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-game-information/145084/series-preview-seattle-mariners-vs-boston-red-sox-june-2026",
+      "pubDate": "2026-06-19T17:00:00.000Z",
+      "isoDate": "2026-06-19T17:00:00.000Z",
+      "excerpt": "Boston, MA - May 13: Boston Red Sox center fielder Ceddanne Rafaela wears the Wally the Green Monster head after hitting a home run in the sixth inning. The Boston Red Sox played the Philadelphia Phillies at Fenway Park...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
     {
       "title": "Woo brought to tears by gifted cleats from young cancer patients",
       "link": "https://www.mlb.com/mariners/news/bryan-woo-wears-cleats-from-young-cancer-patients-in-mariners-win-vs-orioles",
@@ -20,23 +130,13 @@
       "priority": 6
     },
     {
-      "title": "3 Seahawks defensive players who are primed for a breakout season in 2026",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/169728/seattle-seahawks-defenders-primed-breakout-season-nf-2026",
-      "pubDate": "2026-06-19T15:00:00.000Z",
-      "isoDate": "2026-06-19T15:00:00.000Z",
-      "excerpt": "Feb 8, 2026; Santa Clara, CA, USA; Seattle Seahawks defensive tackle Rylie Mills (98) reacts after a play during the second quarter against the New England Patriots in Super Bowl LX at Levi's Stadium. Mandatory Credit:...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "Seahawks 2026 draft outlook: How does Michael Dansby’s fit with the Seahawks?",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/169695/seahawks-2026-draft-review-how-does-michael-dansbys-fit-with-seattle-seahawks",
+      "title": "Mariners News: Bryan Woo, Quinn Priester, and Trei Cruz",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-news/145031/mariners-news-bryan-woo-quinn-priester-and-trei-cruz",
       "pubDate": "2026-06-19T14:00:00.000Z",
       "isoDate": "2026-06-19T14:00:00.000Z",
-      "excerpt": "Seattle Seahawks head coach Mike Macdonald sure seems to like to collect versatile defensive backs like Nick Emmanwori, Julian Neal, Bud Clark, amd Andre Fuller. If he could, Macdonald would start 11 defensive backs on...",
-      "source": "Field Gulls",
-      "team": "seahawks",
+      "excerpt": "Jun 18, 2026; Seattle, Washington, USA; Seattle Mariners starting pitcher Bryan Woo (22) throws against the Baltimore Orioles during the first inning at T-Mobile Park. Mandatory Credit: Joe Nicholson-Imagn Images | Joe...",
+      "source": "Lookout Landing",
+      "team": "mariners",
       "priority": 1
     },
     {
@@ -160,16 +260,6 @@
       "priority": 3
     },
     {
-      "title": "Mariners’ Woo spins gem in cleats decorated by cancer patients",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/woo-delivers-masterpiece-seattle-mariners-blank-orioles-3-0",
-      "pubDate": "Thu, 18 Jun 2026 22:34:57 +0000",
-      "isoDate": "2026-06-18T22:34:57.000Z",
-      "excerpt": "Donning the special cleats, Woo delivered a masterpiece as the M's blanked the Orioles.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
       "title": "39-37: Chart",
       "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/145048/39-37-chart",
       "pubDate": "2026-06-18T22:31:31.000Z",
@@ -178,16 +268,6 @@
       "source": "Lookout Landing",
       "team": "mariners",
       "priority": 1
-    },
-    {
-      "title": "FIFA’s hydration breaks face growing backlash at World Cup",
-      "link": "https://sports.mynorthwest.com/seattle-sports-pit/fifa-hydration-breaks-face-growing-backlash-world-cup",
-      "pubDate": "Thu, 18 Jun 2026 21:12:08 +0000",
-      "isoDate": "2026-06-18T21:12:08.000Z",
-      "excerpt": "Critics argue FIFA's mandated hydration breaks are ruining the flow of World Cup matches.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
     },
     {
       "title": "Latest Mariners injuries and transactions",
@@ -290,16 +370,6 @@
       "priority": 1
     },
     {
-      "title": "PWHL Draft Recap: Torrent add goalscoring and controversy to their roster",
-      "link": "https://www.davyjoneslockerroom.com/pwhl-draft-recap-torrent-add-goalscoring-and-controversy-to-their-roster/",
-      "pubDate": "Thu, 18 Jun 2026 13:45:00 +0000",
-      "isoDate": "2026-06-18T13:45:00.000Z",
-      "excerpt": "The PWHL Draft concluded yesterday, with a bunch of depleted lineups changing hopefully for the better with the additions of fresh new talent from all across the globe. 2nd Overall Pick: Abbey Murphy – F Hometown:...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
-    },
-    {
       "title": "Seahawks News 6/18: Seahawks quickly fill empty front office positions",
       "link": "https://www.fieldgulls.com/seattle-seahawks-news/169683/seahawks-news-6-18-seahawks-quickly-fill-empty-front-office-positions",
       "pubDate": "2026-06-18T13:00:00.000Z",
@@ -307,26 +377,6 @@
       "excerpt": "Feb 24, 2026; Indianapolis, IN, USA; Seattle Seahawks general manager John Schneider speaks at the NFL Scouting Combine at the Indiana Convention Center. Mandatory Credit: Kirby Lee-Imagn Images | Kirby Lee-Imagn Images...",
       "source": "Field Gulls",
       "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "Vibes uncleansed: Mariners drop game to Orioles, 5-3",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/145009/vibes-uncleansed-mariners-drop-game-to-orioles-5-3",
-      "pubDate": "2026-06-18T05:09:11.000Z",
-      "isoDate": "2026-06-18T05:09:11.000Z",
-      "excerpt": "SEATTLE, WASHINGTON - JUNE 17: Connor Joe #9 of the Seattle Mariners is forced out at third base in the fifth inning against the Baltimore Orioles at T-Mobile Park on June 17, 2026 in Seattle, Washington. (Photo by...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "38-37: Chart",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/145010/38-37-chart",
-      "pubDate": "2026-06-18T04:18:56.000Z",
-      "isoDate": "2026-06-18T04:18:56.000Z",
-      "excerpt": "Jun 17, 2026; Seattle, Washington, USA; Seattle Mariners designated hitter Dominic Canzone (8) hits a RBI single against the Baltimore Orioles during the fourth inning at T-Mobile Park. Mandatory Credit: Steven...",
-      "source": "Lookout Landing",
-      "team": "mariners",
       "priority": 1
     },
     {
@@ -388,6 +438,26 @@
       "source": "Pro Football Rumors",
       "team": "seahawks",
       "priority": 2
+    },
+    {
+      "title": "Seahawks Reacts Survey: Will Jadarian Price out-rush Jeremiyah Love in 2026?",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/169647/seahawks-reacts-survey-will-jadarian-price-out-rush-jeremiyah-love-nfl-discussion",
+      "pubDate": "2026-06-17T14:00:00.000Z",
+      "isoDate": "2026-06-17T14:00:00.000Z",
+      "excerpt": "SOUTH BEND, IN - NOVEMBER 22: Notre Dame Fighting Irish RB Jadarian Price (24) celebrates a touchdown with Notre Dame Fighting Irish RB Jeremiyah Love (4) during a college football game between the Syracuse Orange and...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
+    {
+      "title": "Seahawks News 6/17: The impact of a depleted Seahawks Front Office",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169653/seahawks-news-6-17-the-impact-of-a-depleted-seahawks-front-office",
+      "pubDate": "2026-06-17T13:00:00.000Z",
+      "isoDate": "2026-06-17T13:00:00.000Z",
+      "excerpt": "EAGAN, MN. - JUNE 2026: Minnesota Vikings new General Manger Nolan Teasley, Wednesday, June 2, 2026 in Eagan, Minn. The Vikings officially announced Teasley’s hiring Monday and introduced him at a news conference with...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
     },
     {
       "title": "Mariners Place Randy Arozarena On Injured List",
@@ -500,16 +570,6 @@
       "priority": 6
     },
     {
-      "title": "Kraken add Patrik Allvin as Assistant GM, add Pascal Vincent as Assistant Coach",
-      "link": "https://www.davyjoneslockerroom.com/kraken-add-patrik-allvin-as-assistant-gm-add-pascal-vincent-as-assistant-coach/",
-      "pubDate": "Fri, 12 Jun 2026 05:04:14 +0000",
-      "isoDate": "2026-06-12T05:04:14.000Z",
-      "excerpt": "The plot for both Lane Lambert and Jason Botterill thickens today, as the Kraken have added to their front office with the additions of names both slightly known and slightly unknown. Alison Lukan broke the story: The...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
-    },
-    {
       "title": "Seattle Seahawks Unveil Super Bowl LX Championship Ring, Created By Renowned Jeweler Jason Of Beverly Hills",
       "link": "https://www.seahawks.com/news/seattle-seahawks-unveil-super-bowl-lx-championship-ring-created-by-renowned-jeweler-jason-of-beverly-hills",
       "pubDate": "Fri, 12 Jun 2026 03:24:00 GMT",
@@ -518,16 +578,6 @@
       "source": "Seahawks.com",
       "team": "seahawks",
       "priority": 6
-    },
-    {
-      "title": "Christine Bumstead Named Head Coach of the Seattle Torrent",
-      "link": "https://www.davyjoneslockerroom.com/christine-bumstead-named-head-coach-of-the-seattle-torrent/",
-      "pubDate": "Fri, 12 Jun 2026 02:12:29 +0000",
-      "isoDate": "2026-06-12T02:12:29.000Z",
-      "excerpt": "The Seattle Torrent named Christine Bumstead as the head coach for the franchise’s second year. Bumstead was an assistant coach during the team’s inaugural season and takes over the role from Steve O’Rourke who was let...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
     },
     {
       "title": "Seahawks Finish Off Minicamp & Prepare For Super Bowl Ring Ceremony",
@@ -557,56 +607,6 @@
       "excerpt": "The Mariners announced that they have selected the contract of right-hander Michael Rucker. Fellow righty Domingo González has been designated for assignment as the corresponding move. Last night, the Mariners went into...",
       "source": "MLB Trade Rumors",
       "team": "mariners",
-      "priority": 2
-    },
-    {
-      "title": "Afternoon Notes: Tuch, Andersson, Kraken Hires",
-      "link": "https://www.prohockeyrumors.com/2026/06/afternoon-notes-tuch-andersson-kraken-hires.html",
-      "pubDate": "Thu, 11 Jun 2026 17:07:59 +0000",
-      "isoDate": "2026-06-11T17:07:59.000Z",
-      "excerpt": "According to Pierre LeBrun of The Athletic, Alex Tuch appears more likely to be heading to the open market. The 30-year-old winger ended his 2025-26 season scoring 33 goals for 66 points in 79 games played with the...",
-      "source": "Pro Hockey Rumors",
-      "team": "kraken",
-      "priority": 2
-    },
-    {
-      "title": "Julia Gosling Signs Two-Year Deal With the Torrent",
-      "link": "https://www.davyjoneslockerroom.com/julia-gosling-signs-two-year-deal-with-the-torrent/",
-      "pubDate": "Thu, 11 Jun 2026 04:29:02 +0000",
-      "isoDate": "2026-06-11T04:29:02.000Z",
-      "excerpt": "Julia Gosling rejected a foundational player offer (FPO) to become a key component for the Seattle Torrent next year. She signed a two-year deal and became the first of Seattle’s Phase 3 protections and fourth protected...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
-    },
-    {
-      "title": "The 'Kinda' New Offense, Injury Updates & Other Takeaways From Day 2 Of Seahawks Minicamp",
-      "link": "https://www.seahawks.com/news/the-kinda-new-offense-injury-updates-other-takeaways-from-day-2-of-seahawks-minicamp",
-      "pubDate": "Wed, 10 Jun 2026 23:42:42 GMT",
-      "isoDate": "2026-06-10T23:42:42.000Z",
-      "excerpt": "News and notes from Seahawks coach Mike Macdonald’s press conference following Day 2 of minicamp.",
-      "source": "Seahawks.com",
-      "team": "seahawks",
-      "priority": 6
-    },
-    {
-      "title": "Max McCormick Announces Retirement",
-      "link": "https://www.prohockeyrumors.com/2026/06/max-mccormick-announces-retirement.html",
-      "pubDate": "Wed, 10 Jun 2026 22:01:06 +0000",
-      "isoDate": "2026-06-10T22:01:06.000Z",
-      "excerpt": "According to an announcement from the AHL’s Coachella Valley Firebirds, captain Max McCormick has retired from professional hockey. McCormick lost the entire 2025-26 campaign due to a hip injury, and that likely...",
-      "source": "Pro Hockey Rumors",
-      "team": "kraken",
-      "priority": 2
-    },
-    {
-      "title": "Minor NFL Transactions: 6/8/26",
-      "link": "https://www.profootballrumors.com/2026/06/minor-nfl-transactions-6-8-26",
-      "pubDate": "Tue, 09 Jun 2026 00:01:55 +0000",
-      "isoDate": "2026-06-09T00:01:55.000Z",
-      "excerpt": "Four teams made minor moves on Monday. Here’s a look… Carolina Panthers Signed: WR Malick Meiga Waived: TE Heinrich Haarberg New York Jets Signed: WR Jalen Walthall Waived/injured: Quentin Skinner Seattle Seahawks...",
-      "source": "Pro Football Rumors",
-      "team": "seahawks",
       "priority": 2
     }
   ]
