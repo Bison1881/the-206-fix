@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-06-18T23:42:40.843Z",
+  "generatedAt": "2026-06-19T03:58:52.277Z",
   "sourceCount": 10,
   "successfulSources": 8,
   "failedSources": [
     {
-      "source": "710 Seattle Sports",
-      "error": "Request timed out after 10000ms (lenient retry: Status code 403)"
+      "source": "Seattle Times Sports",
+      "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
     },
     {
       "source": "Davy Jones' Locker Room",
@@ -14,74 +14,104 @@
   ],
   "items": [
     {
-      "title": "Seattle-bound American Airlines plane surprises passengers with USMNT World Cup gear",
-      "link": "https://www.seattletimes.com/sports/world-cup/seattle-bound-airline-surprises-passengers-with-usmnt-gear-ahead-of-world-cup-game/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Thu, 18 Jun 2026 16:24:42 -0700",
-      "isoDate": "2026-06-18T23:24:42.000Z",
-      "excerpt": "Passengers on a Seattle-bound flight on Thursday were delighted by a World Cup surprise.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "2026 World Cup: USMNT says Christian Pulisic uncertain vs. Australia",
-      "link": "https://www.seattletimes.com/sports/world-cup/2026-world-cup-usmnt-says-christian-pulisic-uncertain-vs-australia/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Thu, 18 Jun 2026 16:05:49 -0700",
-      "isoDate": "2026-06-18T23:05:49.000Z",
-      "excerpt": "The status of U.S. forward Christian Pulisic will remain uncertain for Friday’s World Cup game against Australia at Seattle Stadium.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Woo twirls 7 scoreless innings in bounceback outing vs. Orioles",
-      "link": "https://www.mlb.com/mariners/news/bryan-woo-leads-mariners-to-series-win-over-orioles",
-      "pubDate": "Thu, 18 Jun 2026 22:50:04 GMT",
-      "isoDate": "2026-06-18T22:50:04.000Z",
+      "title": "'U-S-A!' NFL QB throws out 1st pitch, hypes up Seattle crowd for World Cup",
+      "link": "https://www.mlb.com/mariners/news/jameis-winston-throws-out-first-pitch-before-world-cup-game-in-seattle",
+      "pubDate": "Fri, 19 Jun 2026 02:53:00 GMT",
+      "isoDate": "2026-06-19T02:53:00.000Z",
       "excerpt": "",
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
     },
     {
-      "title": "Bryan Woo delivers a gem as Mariners grab a series win vs. Orioles",
-      "link": "https://www.seattletimes.com/sports/mariners/bryan-woo-delivers-a-gem-as-mariners-grab-a-series-win-vs-orioles/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Thu, 18 Jun 2026 15:35:43 -0700",
-      "isoDate": "2026-06-18T22:35:43.000Z",
-      "excerpt": "Bryan Woo bounced back in a major way, delivering a gem to lead the Mariners to a 3-0 victory over the Orioles and a series win on Thursday.",
-      "source": "Seattle Times Sports",
+      "title": "Former Kraken forward Pierre-Edouard Bellemare retiring at age 41",
+      "link": "https://sports.mynorthwest.com/nhl/seattle-kraken/seattle-kraken-former-pierre-edouard-bellemare-retires",
+      "pubDate": "Fri, 19 Jun 2026 02:04:37 +0000",
+      "isoDate": "2026-06-19T02:04:37.000Z",
+      "excerpt": "An affable forward from just outside Paris who thrived in Sweden in his 20s, Bellemare spent a decade in the NHL with Philadelphia, Vegas, Colorado, Tampa Bay and finally the Seattle Kraken.",
+      "source": "710 Seattle Sports",
       "team": "general",
-      "priority": 1
+      "priority": 3
     },
     {
-      "title": "39-37: Chart",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/145048/39-37-chart",
-      "pubDate": "2026-06-18T22:31:31.000Z",
-      "isoDate": "2026-06-18T22:31:31.000Z",
-      "excerpt": "Jun 18, 2026; Seattle, Washington, USA; Seattle Mariners starting pitcher Bryan Woo (22) throws against the Baltimore Orioles during the first inning at T-Mobile Park. Mandatory Credit: Joe Nicholson-Imagn Images | Joe...",
-      "source": "Lookout Landing",
+      "title": "MLB eliminates clock for Home Run Derby for switch to Netflix",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/mlb-eliminates-clock-home-run-derby",
+      "pubDate": "Fri, 19 Jun 2026 01:42:17 +0000",
+      "isoDate": "2026-06-19T01:42:17.000Z",
+      "excerpt": "Each hitter will have 20 swings in the first round of this year’s contest at Philadelphia’s Citizens Bank Park on July 13, MLB said Thursday.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Woo's cleats from Seattle Children's patients provide extra boost in gem",
+      "link": "https://www.mlb.com/mariners/news/bryan-woo-leads-mariners-to-series-win-over-orioles",
+      "pubDate": "Fri, 19 Jun 2026 01:42:00 GMT",
+      "isoDate": "2026-06-19T01:42:00.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
       "team": "mariners",
-      "priority": 1
+      "priority": 6
     },
     {
-      "title": "Julio Rodríguez sits after hamstring issue, but Mariners are optimistic about quick return",
-      "link": "https://www.seattletimes.com/sports/mariners/julio-rodriguez-sits-after-hamstring-issue-but-mariners-are-optimistic-about-quick-return/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Thu, 18 Jun 2026 14:47:52 -0700",
-      "isoDate": "2026-06-18T21:47:52.000Z",
-      "excerpt": "Julio Rodríguez got the day off after exiting Wednesday's game with a hamstring spasm. But the Mariners offered a positive update on the star CF. Here's the latest.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
+      "title": "Kraken Re-Sign Logan Morrison To One-Year Deal",
+      "link": "https://www.prohockeyrumors.com/2026/06/kraken-re-sign-logan-morrison-to-one-year-deal.html",
+      "pubDate": "Thu, 18 Jun 2026 23:44:23 +0000",
+      "isoDate": "2026-06-18T23:44:23.000Z",
+      "excerpt": "The Seattle Kraken have re-signed pending RFA center Logan Morrison to a one-year contract.",
+      "source": "Pro Hockey Rumors",
+      "team": "kraken",
+      "priority": 2
     },
     {
-      "title": "Switzerland coach uses hydration break to spark late goal barrage in 4-1 World Cup win over Bosnia",
-      "link": "https://www.seattletimes.com/sports/world-cup/johan-manzambi-scores-two-as-switzerland-beats-bosnia-herzegovina-4-1-at-the-world-cup/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Thu, 18 Jun 2026 14:36:25 -0700",
-      "isoDate": "2026-06-18T21:36:25.000Z",
-      "excerpt": "Switzerland erupted late for a 4-1 victory over Bosnia-Herzegovina to take control of its group.",
-      "source": "Seattle Times Sports",
+      "title": "The Draft is less than a month away. How will the top 3 -- and more! -- shake out?",
+      "link": "https://www.mlb.com/mariners/news/mlb-pipeline-2026-mock-draft-june-18",
+      "pubDate": "Thu, 18 Jun 2026 23:30:00 GMT",
+      "isoDate": "2026-06-18T23:30:00.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Recap: Mariners shut out Orioles 3-0 to take series",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/recap-seattle-mariners-shut-out-orioles-3-0-win-series",
+      "pubDate": "Thu, 18 Jun 2026 23:26:03 +0000",
+      "isoDate": "2026-06-18T23:26:03.000Z",
+      "excerpt": "Bryan Woo tossed seven scoreless innings, while Cole Young and Colt Emerson combined for three first-inning RBIs.",
+      "source": "710 Seattle Sports",
       "team": "general",
-      "priority": 1
+      "priority": 3
+    },
+    {
+      "title": "Mariners’ Woo spins gem in cleats decorated by cancer patients",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/woo-delivers-masterpiece-seattle-mariners-blank-orioles-3-0",
+      "pubDate": "Thu, 18 Jun 2026 22:34:57 +0000",
+      "isoDate": "2026-06-18T22:34:57.000Z",
+      "excerpt": "Donning the special cleats, Woo delivered a masterpiece as the M's blanked the Orioles.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "FIFA’s hydration breaks face growing backlash at World Cup",
+      "link": "https://sports.mynorthwest.com/seattle-sports-pit/fifa-hydration-breaks-face-growing-backlash-world-cup",
+      "pubDate": "Thu, 18 Jun 2026 21:12:08 +0000",
+      "isoDate": "2026-06-18T21:12:08.000Z",
+      "excerpt": "Critics argue FIFA's mandated hydration breaks are ruining the flow of World Cup matches.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "MLB proposes adding an international draft, banning H.S. signings",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/mlb-proposes-adding-international-draft-banning-high-school-signings",
+      "pubDate": "Thu, 18 Jun 2026 20:22:52 +0000",
+      "isoDate": "2026-06-18T20:22:52.000Z",
+      "excerpt": "The MLB owners' proposal came during collective bargaining negotiations on Thursday.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
     },
     {
       "title": "Latest Mariners injuries and transactions",
@@ -104,16 +134,6 @@
       "priority": 6
     },
     {
-      "title": "MLB owners propose banning high school signings, adding an international draft",
-      "link": "https://www.seattletimes.com/sports/mlb/mlb-owners-propose-banning-high-school-signings-adding-an-international-draft/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Thu, 18 Jun 2026 12:58:50 -0700",
-      "isoDate": "2026-06-18T19:58:50.000Z",
-      "excerpt": "Baseball owners have proposed banning high school players from signing with major league teams and raising the age for international amateurs.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "Mariners Game #76 Preview and Discussion: BAL at SEA, 6/18",
       "link": "https://www.lookoutlanding.com/seattle-mariners-game-information/145034/mariners-game-76-preview-and-discussion-bal-at-sea-6-18",
       "pubDate": "2026-06-18T19:40:14.000Z",
@@ -122,6 +142,16 @@
       "source": "Lookout Landing",
       "team": "mariners",
       "priority": 1
+    },
+    {
+      "title": "Bill to overhaul college sports clears key Senate hurdle",
+      "link": "https://sports.mynorthwest.com/ncaa/bill-to-overhaul-college-sports-clears-key-senate-hurdle",
+      "pubDate": "Thu, 18 Jun 2026 19:12:14 +0000",
+      "isoDate": "2026-06-18T19:12:14.000Z",
+      "excerpt": "The bipartisan Protect College Sports Act now heads to the full Senate for consideration.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
     },
     {
       "title": "Pierre-Edouard Bellemare Announces Retirement",
@@ -144,24 +174,14 @@
       "priority": 1
     },
     {
-      "title": "South Africa keeps its World Cup hopes alive with a 1-1 draw against the Czech Republic",
-      "link": "https://www.seattletimes.com/sports/world-cup/south-africa-keeps-its-world-cup-hopes-alive-with-a-1-1-draw-against-the-czech-republic/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Thu, 18 Jun 2026 11:51:13 -0700",
-      "isoDate": "2026-06-18T18:51:13.000Z",
-      "excerpt": "Teboho Mokoena started the game with tears in his eyes and finished it with a smile after converting a penalty in South Africa’s 1-1 draw with the Czechs.",
-      "source": "Seattle Times Sports",
+      "title": "Lineup: Julio out, Naylor back for Mariners’ finale vs O’s",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/lineup-julio-out-naylor-back-seattle-mariners-orioles",
+      "pubDate": "Thu, 18 Jun 2026 18:11:26 +0000",
+      "isoDate": "2026-06-18T18:11:26.000Z",
+      "excerpt": "Julio Rodríguez exited Wednesday night's game with a hamstring spasm.",
+      "source": "710 Seattle Sports",
       "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "USA vs. Australia: Seattle dog makes definitive pick for World Cup game",
-      "link": "https://www.seattletimes.com/sports/world-cup/usa-vs-australia-seattle-dog-makes-definitive-pick-for-world-cup-game/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Thu, 18 Jun 2026 11:19:53 -0700",
-      "isoDate": "2026-06-18T18:19:53.000Z",
-      "excerpt": "A Seattle dog (the kind that barks, not the kind with cream cheese) has made an important prediction ahead of Friday's USA vs. Australia World Cup match.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
+      "priority": 3
     },
     {
       "title": "Mariners Reacts Survey: Vote Navy Blue No Matter Who",
@@ -274,16 +294,6 @@
       "priority": 1
     },
     {
-      "title": "Naylor (wrist) and Raley (back) sit again; Joe recalled from Triple-A",
-      "link": "https://www.mlb.com/mariners/news/josh-naylor-luke-raley-out-of-mariners-lineup-connor-joe-recalled",
-      "pubDate": "Thu, 18 Jun 2026 01:04:53 GMT",
-      "isoDate": "2026-06-18T01:04:53.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
-    },
-    {
       "title": "Royals Acquire Randy Dobnak",
       "link": "https://www.mlbtraderumors.com/2026/06/royals-to-acquire-randy-dobnak.html",
       "pubDate": "Wed, 17 Jun 2026 23:52:54 +0000",
@@ -334,6 +344,16 @@
       "priority": 2
     },
     {
+      "title": "Mariners News: Randy Arozarena, George Springer, and Jose Caballero",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-news/144998/mariners-news-randy-arozarena-george-springer-and-jose-caballero",
+      "pubDate": "2026-06-17T14:00:06.000Z",
+      "isoDate": "2026-06-17T14:00:06.000Z",
+      "excerpt": "NEW YORK, NEW YORK - JUNE 03: José Caballero #72 of the New York Yankees celebrates a home run in the dugout during the fourth inning against the Cleveland Guardians at Yankee Stadium on June 03, 2026 in the Bronx...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
       "title": "Seahawks Reacts Survey: Will Jadarian Price out-rush Jeremiyah Love in 2026?",
       "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/169647/seahawks-reacts-survey-will-jadarian-price-out-rush-jeremiyah-love-nfl-discussion",
       "pubDate": "2026-06-17T14:00:00.000Z",
@@ -352,16 +372,6 @@
       "source": "Field Gulls",
       "team": "seahawks",
       "priority": 1
-    },
-    {
-      "title": "Raleigh hits game-winner, Crawford makes 3B debut in returns from IL",
-      "link": "https://www.mlb.com/mariners/news/cal-raleigh-j-p-crawford-return-from-injured-list",
-      "pubDate": "Wed, 17 Jun 2026 05:51:00 GMT",
-      "isoDate": "2026-06-17T05:51:00.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
     },
     {
       "title": "Mariners Place Randy Arozarena On Injured List",
@@ -598,16 +608,6 @@
       "link": "https://www.mlb.com/all-star/ballot?affiliateID=asballot_sea_digital_2026",
       "pubDate": "Wed, 03 Jun 2026 18:13:55 GMT",
       "isoDate": "2026-06-03T18:13:55.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
-    },
-    {
-      "title": "Stream Mariners games on Mariners.TV for low price of $74.99",
-      "link": "https://www.mlb.com/mariners/news/mariners-tv-is-here-for-2026-season",
-      "pubDate": "Mon, 01 Jun 2026 16:18:00 GMT",
-      "isoDate": "2026-06-01T16:18:00.000Z",
       "excerpt": "",
       "source": "Mariners.com",
       "team": "mariners",
