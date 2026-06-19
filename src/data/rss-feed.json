@@ -1,14 +1,38 @@
 {
-  "generatedAt": "2026-06-19T21:06:35.795Z",
+  "generatedAt": "2026-06-19T22:53:41.122Z",
   "sourceCount": 10,
-  "successfulSources": 9,
+  "successfulSources": 8,
   "failedSources": [
     {
       "source": "Seattle Times Sports",
       "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
+    },
+    {
+      "source": "710 Seattle Sports",
+      "error": "Request timed out after 10000ms (lenient retry: Status code 403)"
     }
   ],
   "items": [
+    {
+      "title": "Mariners Designate Miles Mastrobuoni For Assignment, Select Weston Wilson",
+      "link": "https://www.mlbtraderumors.com/2026/06/mariners-designate-miles-mastrobuoni-for-assignment-select-weston-wilson.html",
+      "pubDate": "Fri, 19 Jun 2026 22:30:27 +0000",
+      "isoDate": "2026-06-19T22:30:27.000Z",
+      "excerpt": "The Mariners have selected the contract of infielder/outfielder Weston Wilson. Fellow infielder/outfielder Miles Mastrobuoni has been designated in a corresponding move. Prior to the official announcement, Adam Jude of...",
+      "source": "MLB Trade Rumors",
+      "team": "mariners",
+      "priority": 2
+    },
+    {
+      "title": "Seahawks stars and legends take in USA’s historic FIFA World Cup win in Seattle",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169769/seahawks-stars-legends-fifa-world-cup-seattle-usa-lynch-wilson-macdonald",
+      "pubDate": "2026-06-19T22:25:11.000Z",
+      "isoDate": "2026-06-19T22:25:11.000Z",
+      "excerpt": "SEATTLE, WASHINGTON - JUNE 19: Alex Freeman #16 of the United States celebrates with teammates after scoring his team's second goal during the FIFA World Cup 2026 Group D match between USA and Australia at Seattle...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
     {
       "title": "Takeaways From The Seahawks' 2026 Offseason Program & Minicamp",
       "link": "https://www.seahawks.com/news/takeaways-from-the-seahawks-2026-offseason-program-minicamp",
@@ -18,26 +42,6 @@
       "source": "Seahawks.com",
       "team": "seahawks",
       "priority": 6
-    },
-    {
-      "title": "Seattle World Cup: US vs Australia photo gallery",
-      "link": "https://sports.mynorthwest.com/seattle-sports-pit/seattle-world-cup-us-vs-australia-photo-gallery",
-      "pubDate": "Fri, 19 Jun 2026 18:55:44 +0000",
-      "isoDate": "2026-06-19T18:55:44.000Z",
-      "excerpt": "See a collection of photos from the Seattle World Cup game between the U.S. and Australia on Friday.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "US star Pulisic out for Seattle World Cup match vs Australia",
-      "link": "https://sports.mynorthwest.com/seattle-sports-pit/us-star-christian-pilisic-out-seattle-world-cup-australia",
-      "pubDate": "Fri, 19 Jun 2026 17:51:12 +0000",
-      "isoDate": "2026-06-19T17:51:12.000Z",
-      "excerpt": "American coach Maurice Pochettino made the announcement during a TV interview about 90 minutes before the kickoff at Lumen Field in Seattle.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
     },
     {
       "title": "Series Preview: Mariners (39-37) vs. Red Sox (29-43)",
@@ -110,26 +114,6 @@
       "priority": 1
     },
     {
-      "title": "World Cup Seattle Preview: US brings wave of momentum vs Australia",
-      "link": "https://sports.mynorthwest.com/mls/seattle-sounders-fc/world-cup-seattle-preview-us-australia",
-      "pubDate": "Fri, 19 Jun 2026 07:55:35 +0000",
-      "isoDate": "2026-06-19T07:55:35.000Z",
-      "excerpt": "A charged atmosphere is expected on Friday when the Americans face Australia at the home of the NFL’s Seattle Seahawks and Seattle Sounders in the World Cup.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "Salk: The Super Bowl champion Seahawks are still getting better",
-      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/salk-seattle-seahawks-may-be-even-better-2026",
-      "pubDate": "Fri, 19 Jun 2026 07:42:51 +0000",
-      "isoDate": "2026-06-19T07:42:51.000Z",
-      "excerpt": "There are plenty of reasons to believe the reigning Super Bowl champions are still on the ascent.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
       "title": "'U-S-A!' NFL QB throws out 1st pitch, hypes up Seattle crowd for World Cup",
       "link": "https://www.mlb.com/mariners/news/jameis-winston-throws-out-first-pitch-before-world-cup-game-in-seattle",
       "pubDate": "Fri, 19 Jun 2026 02:53:00 GMT",
@@ -138,36 +122,6 @@
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
-    },
-    {
-      "title": "AL West Check-In: Angels put Mike Trout on injured list",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/al-west-check-in-angels-put-mike-trout-on-injured-list",
-      "pubDate": "Fri, 19 Jun 2026 02:22:22 +0000",
-      "isoDate": "2026-06-19T02:22:22.000Z",
-      "excerpt": "The Angeles announced before Thursday night’s game against the Athletics that the 11-time All-Star was placed on the 10-day IL due to a right hamstring strain.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "Former Kraken forward Pierre-Edouard Bellemare retiring at age 41",
-      "link": "https://sports.mynorthwest.com/nhl/seattle-kraken/seattle-kraken-former-pierre-edouard-bellemare-retires",
-      "pubDate": "Fri, 19 Jun 2026 02:04:37 +0000",
-      "isoDate": "2026-06-19T02:04:37.000Z",
-      "excerpt": "An affable forward from just outside Paris who thrived in Sweden in his 20s, Bellemare spent a decade in the NHL with Philadelphia, Vegas, Colorado, Tampa Bay and finally the Seattle Kraken.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "MLB eliminates clock for Home Run Derby for switch to Netflix",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/mlb-eliminates-clock-home-run-derby",
-      "pubDate": "Fri, 19 Jun 2026 01:42:17 +0000",
-      "isoDate": "2026-06-19T01:42:17.000Z",
-      "excerpt": "Each hitter will have 20 swings in the first round of this year’s contest at Philadelphia’s Citizens Bank Park on July 13, MLB said Thursday.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
     },
     {
       "title": "Woo's cleats from Seattle Children's patients provide extra boost in gem",
@@ -208,16 +162,6 @@
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
-    },
-    {
-      "title": "Recap: Mariners shut out Orioles 3-0 to take series",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/recap-seattle-mariners-shut-out-orioles-3-0-win-series",
-      "pubDate": "Thu, 18 Jun 2026 23:26:03 +0000",
-      "isoDate": "2026-06-18T23:26:03.000Z",
-      "excerpt": "Bryan Woo tossed seven scoreless innings, while Cole Young and Colt Emerson combined for three first-inning RBIs.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
     },
     {
       "title": "39-37: Chart",
@@ -345,16 +289,6 @@
       "pubDate": "2026-06-18T13:00:00.000Z",
       "isoDate": "2026-06-18T13:00:00.000Z",
       "excerpt": "Feb 24, 2026; Indianapolis, IN, USA; Seattle Seahawks general manager John Schneider speaks at the NFL Scouting Combine at the Indiana Convention Center. Mandatory Credit: Kirby Lee-Imagn Images | Kirby Lee-Imagn Images...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "Why Kenneth Walker III wasn’t at the Seahawks’ Super Bowl ring ceremony",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169677/why-kenneth-walker-iii-wasnt-at-seattle-seahawks-super-bowl-ring-ceremony",
-      "pubDate": "2026-06-18T01:21:13.000Z",
-      "isoDate": "2026-06-18T01:21:13.000Z",
-      "excerpt": "Lost in the shuffle of last week’s Seahawks’ Super Bowl ring celebration was the fact that one particular ex-Seahawk did not attend the ceremony: Super Bowl MVP, Kenneth Walker III. This stood out considering other...",
       "source": "Field Gulls",
       "team": "seahawks",
       "priority": 1
@@ -560,16 +494,6 @@
       "priority": 6
     },
     {
-      "title": "Mariners Designate Domingo González For Assignment, Select Michael Rucker",
-      "link": "https://www.mlbtraderumors.com/2026/06/mariners-designated-domingo-gonzalez-for-assignment-select-michael-rucker.html",
-      "pubDate": "Thu, 11 Jun 2026 19:10:25 +0000",
-      "isoDate": "2026-06-11T19:10:25.000Z",
-      "excerpt": "The Mariners announced that they have selected the contract of right-hander Michael Rucker. Fellow righty Domingo González has been designated for assignment as the corresponding move. Last night, the Mariners went into...",
-      "source": "MLB Trade Rumors",
-      "team": "mariners",
-      "priority": 2
-    },
-    {
       "title": "Afternoon Notes: Tuch, Andersson, Kraken Hires",
       "link": "https://www.prohockeyrumors.com/2026/06/afternoon-notes-tuch-andersson-kraken-hires.html",
       "pubDate": "Thu, 11 Jun 2026 17:07:59 +0000",
@@ -608,6 +532,86 @@
       "source": "Pro Football Rumors",
       "team": "seahawks",
       "priority": 2
+    },
+    {
+      "title": "Seahawks Work Out S Ifeatu Melifonwu",
+      "link": "https://www.profootballrumors.com/2026/06/seahawks-work-out-s-ifeatu-melifonwu",
+      "pubDate": "Mon, 08 Jun 2026 22:03:07 +0000",
+      "isoDate": "2026-06-08T22:03:07.000Z",
+      "excerpt": "The Seahawks worked out free agent safety Ifeatu Melifonwu on Monday, Mike Garafolo of NFL Network relays. No deal is imminent, per Garafolo. Melifonwu became a free agent in March, but this is the first reported...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
+      "priority": 2
+    },
+    {
+      "title": "Seahawks, Derick Hall Agree To Extension",
+      "link": "https://www.profootballrumors.com/2026/06/seahawks-derick-hall-agree-to-extension",
+      "pubDate": "Fri, 05 Jun 2026 19:00:15 +0000",
+      "isoDate": "2026-06-05T19:00:15.000Z",
+      "excerpt": "JUNE 5: Hall’s contract includes $15.27MM guaranteed at signing, according to OverTheCap. An additional $4.2MM will become fully guaranteed five days after Super Bowl LXI, per Spotrac. Another $1.5MM will lock in five...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
+      "priority": 2
+    },
+    {
+      "title": "Seattle Torrent Protect Wilgren, Murphy, Carpenter in Expansion Draft",
+      "link": "https://www.davyjoneslockerroom.com/seattle-torrent-protect-wilgren-murphy-carpenter-in-expansion-draft/",
+      "pubDate": "Thu, 04 Jun 2026 16:00:00 +0000",
+      "isoDate": "2026-06-04T16:00:00.000Z",
+      "excerpt": "The Torrent have made some interesting choices in the upcoming expansion process by choosing to protect Anna Wilgren, Hannah Murphy, and Alex Carpenter. Not exactly an expansion draft, the PWHL’s Expansion Roster...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
+      "title": "Russell Wilson Announces Retirement",
+      "link": "https://www.profootballrumors.com/2026/06/russell-wilson-announces-retirement",
+      "pubDate": "Thu, 04 Jun 2026 04:30:09 +0000",
+      "isoDate": "2026-06-04T04:30:09.000Z",
+      "excerpt": "On Monday, it was reported Russell Wilson would spend the 2026 season as an analyst for CBS. That news obviously suggested his playing days were over, and that has now been confirmed. On Wednesday, Wilson posted a video...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
+      "priority": 2
+    },
+    {
+      "title": "VOTE NOW! Help make Mariners All-Star Game starters",
+      "link": "https://www.mlb.com/all-star/ballot?affiliateID=asballot_sea_digital_2026",
+      "pubDate": "Wed, 03 Jun 2026 18:13:55 GMT",
+      "isoDate": "2026-06-03T18:13:55.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Seattle Torrent Sign Alex Carpenter, Protect Her From Expansion Thieves",
+      "link": "https://www.davyjoneslockerroom.com/seattle-torrent-sign-alex-carpenter-protect-her-from-expansion-thieves/",
+      "pubDate": "Wed, 03 Jun 2026 14:00:00 +0000",
+      "isoDate": "2026-06-03T14:00:00.000Z",
+      "excerpt": "The Seattle Torrent re-signed forward Alex Carpenter to a 3-year PWHL Standard Player Agreement on June 2, keeping one of the franchise’s foundational pieces through 2028-29 and committing one of the team’s 3 protection...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
+      "title": "Melinda French Gates Becomes Minority Owner of the Seattle Kraken",
+      "link": "https://www.davyjoneslockerroom.com/melinda-french-gates-becomes-minority-owner-of-the-seattle-kraken/",
+      "pubDate": "Tue, 02 Jun 2026 14:00:00 +0000",
+      "isoDate": "2026-06-02T14:00:00.000Z",
+      "excerpt": "Melinda French Gates is becoming a minority owner of the Seattle Kraken, the team’s parent company said Monday, pending approval from the NHL. The size of her stake and the terms were not disclosed. French Gates, 61,...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
+      "title": "Stream Mariners games on Mariners.TV for low price of $74.99",
+      "link": "https://www.mlb.com/mariners/news/mariners-tv-is-here-for-2026-season",
+      "pubDate": "Mon, 01 Jun 2026 16:18:00 GMT",
+      "isoDate": "2026-06-01T16:18:00.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
     }
   ]
 }
