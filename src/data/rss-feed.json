@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T09:08:21.041Z",
+  "generatedAt": "2026-06-19T13:33:10.280Z",
   "sourceCount": 10,
   "successfulSources": 9,
   "failedSources": [
@@ -9,6 +9,16 @@
     }
   ],
   "items": [
+    {
+      "title": "Seahawks News 6/19: Sam Darnold impresses at Seahawks camp",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169733/seahawks-news-6-19-sam-darnold-impresses-at-seahawks-camp",
+      "pubDate": "2026-06-19T13:00:00.000Z",
+      "isoDate": "2026-06-19T13:00:00.000Z",
+      "excerpt": "Jun 9, 2026; Renton, WA, USA; Seattle Seahawks quarterback Sam Darnold (14) during minicamp at Virginia Mason Athletic Center. Mandatory Credit: Steven Bisig-Imagn Images | Steven Bisig-Imagn Images In Today’s Links:...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
     {
       "title": "World Cup Seattle Preview: US brings wave of momentum vs Australia",
       "link": "https://sports.mynorthwest.com/mls/seattle-sounders-fc/world-cup-seattle-preview-us-australia",
@@ -398,16 +408,6 @@
       "source": "Pro Hockey Rumors",
       "team": "kraken",
       "priority": 2
-    },
-    {
-      "title": "Seahawks scout becomes latest to join Nolan Teasley’s Vikings staff",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169644/seahawks-scout-joins-nolan-teasley-vikings-staff-nfl-news",
-      "pubDate": "2026-06-16T19:56:56.000Z",
-      "isoDate": "2026-06-16T19:56:56.000Z",
-      "excerpt": "SEATTLE, WASHINGTON - JANUARY 25: A detailed view of a Seattle Seahawks helmet before the game against the Los Angeles Rams in the NFC Championship game at Lumen Field on January 25, 2026 in Seattle, Washington. (Photo...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
     },
     {
       "title": "Mariners Outright Domingo González",
