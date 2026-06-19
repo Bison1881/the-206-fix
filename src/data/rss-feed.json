@@ -1,18 +1,34 @@
 {
-  "generatedAt": "2026-06-19T03:58:52.277Z",
+  "generatedAt": "2026-06-19T09:08:21.041Z",
   "sourceCount": 10,
-  "successfulSources": 8,
+  "successfulSources": 9,
   "failedSources": [
     {
       "source": "Seattle Times Sports",
       "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
-    },
-    {
-      "source": "Davy Jones' Locker Room",
-      "error": "Status code 415 (lenient retry: Status code 415)"
     }
   ],
   "items": [
+    {
+      "title": "World Cup Seattle Preview: US brings wave of momentum vs Australia",
+      "link": "https://sports.mynorthwest.com/mls/seattle-sounders-fc/world-cup-seattle-preview-us-australia",
+      "pubDate": "Fri, 19 Jun 2026 07:55:35 +0000",
+      "isoDate": "2026-06-19T07:55:35.000Z",
+      "excerpt": "A charged atmosphere is expected on Friday when the Americans face Australia at the home of the NFL’s Seattle Seahawks and Seattle Sounders in the World Cup.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Salk: The Super Bowl champion Seahawks are still getting better",
+      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/salk-seattle-seahawks-may-be-even-better-2026",
+      "pubDate": "Fri, 19 Jun 2026 07:42:51 +0000",
+      "isoDate": "2026-06-19T07:42:51.000Z",
+      "excerpt": "There are plenty of reasons to believe the reigning Super Bowl champions are still on the ascent.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
     {
       "title": "'U-S-A!' NFL QB throws out 1st pitch, hypes up Seattle crowd for World Cup",
       "link": "https://www.mlb.com/mariners/news/jameis-winston-throws-out-first-pitch-before-world-cup-game-in-seattle",
@@ -22,6 +38,16 @@
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
+    },
+    {
+      "title": "AL West Check-In: Angels put Mike Trout on injured list",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/al-west-check-in-angels-put-mike-trout-on-injured-list",
+      "pubDate": "Fri, 19 Jun 2026 02:22:22 +0000",
+      "isoDate": "2026-06-19T02:22:22.000Z",
+      "excerpt": "The Angeles announced before Thursday night’s game against the Athletics that the 11-time All-Star was placed on the 10-day IL due to a right hamstring strain.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
     },
     {
       "title": "Former Kraken forward Pierre-Edouard Bellemare retiring at age 41",
@@ -52,6 +78,16 @@
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
+    },
+    {
+      "title": "Woo dazzles, Mariners take early lead to win series over Orioles",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/145050/woo-dazzles-mariners-take-early-lead-to-win-series-over-orioles",
+      "pubDate": "2026-06-19T00:36:13.000Z",
+      "isoDate": "2026-06-19T00:36:13.000Z",
+      "excerpt": "It was Bryan Woo’s world and we were all living in it Thursday afternoon. He spun an absolute gem as the M’s take both the rubber game and the season series from the Orioles, 3-0. Woo faltered against the same team in...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
     },
     {
       "title": "Kraken Re-Sign Logan Morrison To One-Year Deal",
@@ -94,21 +130,21 @@
       "priority": 3
     },
     {
+      "title": "39-37: Chart",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/145048/39-37-chart",
+      "pubDate": "2026-06-18T22:31:31.000Z",
+      "isoDate": "2026-06-18T22:31:31.000Z",
+      "excerpt": "Jun 18, 2026; Seattle, Washington, USA; Seattle Mariners starting pitcher Bryan Woo (22) throws against the Baltimore Orioles during the first inning at T-Mobile Park. Mandatory Credit: Joe Nicholson-Imagn Images | Joe...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
       "title": "FIFA’s hydration breaks face growing backlash at World Cup",
       "link": "https://sports.mynorthwest.com/seattle-sports-pit/fifa-hydration-breaks-face-growing-backlash-world-cup",
       "pubDate": "Thu, 18 Jun 2026 21:12:08 +0000",
       "isoDate": "2026-06-18T21:12:08.000Z",
       "excerpt": "Critics argue FIFA's mandated hydration breaks are ruining the flow of World Cup matches.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "MLB proposes adding an international draft, banning H.S. signings",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/mlb-proposes-adding-international-draft-banning-high-school-signings",
-      "pubDate": "Thu, 18 Jun 2026 20:22:52 +0000",
-      "isoDate": "2026-06-18T20:22:52.000Z",
-      "excerpt": "The MLB owners' proposal came during collective bargaining negotiations on Thursday.",
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
@@ -144,16 +180,6 @@
       "priority": 1
     },
     {
-      "title": "Bill to overhaul college sports clears key Senate hurdle",
-      "link": "https://sports.mynorthwest.com/ncaa/bill-to-overhaul-college-sports-clears-key-senate-hurdle",
-      "pubDate": "Thu, 18 Jun 2026 19:12:14 +0000",
-      "isoDate": "2026-06-18T19:12:14.000Z",
-      "excerpt": "The bipartisan Protect College Sports Act now heads to the full Senate for consideration.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
       "title": "Pierre-Edouard Bellemare Announces Retirement",
       "link": "https://www.prohockeyrumors.com/2026/06/pierre-edouard-bellemare-announces-retirement.html",
       "pubDate": "Thu, 18 Jun 2026 19:11:42 +0000",
@@ -172,16 +198,6 @@
       "source": "Field Gulls",
       "team": "seahawks",
       "priority": 1
-    },
-    {
-      "title": "Lineup: Julio out, Naylor back for Mariners’ finale vs O’s",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/lineup-julio-out-naylor-back-seattle-mariners-orioles",
-      "pubDate": "Thu, 18 Jun 2026 18:11:26 +0000",
-      "isoDate": "2026-06-18T18:11:26.000Z",
-      "excerpt": "Julio Rodríguez exited Wednesday night's game with a hamstring spasm.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
     },
     {
       "title": "Mariners Reacts Survey: Vote Navy Blue No Matter Who",
@@ -231,6 +247,16 @@
       "excerpt": "ATLANTA, GA - JULY 14: Cal Raleigh #29 of the Seattle Mariners poses for a photo with Todd Raleigh Sr. and Todd Raleigh Jr. after winning the 2025 T-Mobile Home Run Derby at Truist Park on Monday, July 14, 2025 in...",
       "source": "Lookout Landing",
       "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "PWHL Draft Recap: Torrent add goalscoring and controversy to their roster",
+      "link": "https://www.davyjoneslockerroom.com/pwhl-draft-recap-torrent-add-goalscoring-and-controversy-to-their-roster/",
+      "pubDate": "Thu, 18 Jun 2026 13:45:00 +0000",
+      "isoDate": "2026-06-18T13:45:00.000Z",
+      "excerpt": "The PWHL Draft concluded yesterday, with a bunch of depleted lineups changing hopefully for the better with the additions of fresh new talent from all across the globe. 2nd Overall Pick: Abbey Murphy – F Hometown:...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
       "priority": 1
     },
     {
@@ -284,16 +310,6 @@
       "priority": 1
     },
     {
-      "title": "Mariners Game Preview and Discussion, Orioles at Mariners",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-game-information/145004/mariners-game-preview-and-discussion-orioles-at-mariners",
-      "pubDate": "2026-06-18T01:20:00.000Z",
-      "isoDate": "2026-06-18T01:20:00.000Z",
-      "excerpt": "BALTIMORE, MD - JUNE 10: George Kirby #68 of the Seattle Mariners pitches in the first inning during a baseball game against the Baltimore Orioles at Orioles Park at Camden Yards on June 10, 2026 in Baltimore, Maryland....",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
       "title": "Royals Acquire Randy Dobnak",
       "link": "https://www.mlbtraderumors.com/2026/06/royals-to-acquire-randy-dobnak.html",
       "pubDate": "Wed, 17 Jun 2026 23:52:54 +0000",
@@ -342,16 +358,6 @@
       "source": "Pro Football Rumors",
       "team": "seahawks",
       "priority": 2
-    },
-    {
-      "title": "Mariners News: Randy Arozarena, George Springer, and Jose Caballero",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-news/144998/mariners-news-randy-arozarena-george-springer-and-jose-caballero",
-      "pubDate": "2026-06-17T14:00:06.000Z",
-      "isoDate": "2026-06-17T14:00:06.000Z",
-      "excerpt": "NEW YORK, NEW YORK - JUNE 03: José Caballero #72 of the New York Yankees celebrates a home run in the dugout during the fourth inning against the Cleveland Guardians at Yankee Stadium on June 03, 2026 in the Bronx...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
     },
     {
       "title": "Seahawks Reacts Survey: Will Jadarian Price out-rush Jeremiyah Love in 2026?",
@@ -494,6 +500,16 @@
       "priority": 6
     },
     {
+      "title": "Kraken add Patrik Allvin as Assistant GM, add Pascal Vincent as Assistant Coach",
+      "link": "https://www.davyjoneslockerroom.com/kraken-add-patrik-allvin-as-assistant-gm-add-pascal-vincent-as-assistant-coach/",
+      "pubDate": "Fri, 12 Jun 2026 05:04:14 +0000",
+      "isoDate": "2026-06-12T05:04:14.000Z",
+      "excerpt": "The plot for both Lane Lambert and Jason Botterill thickens today, as the Kraken have added to their front office with the additions of names both slightly known and slightly unknown. Alison Lukan broke the story: The...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
       "title": "Seattle Seahawks Unveil Super Bowl LX Championship Ring, Created By Renowned Jeweler Jason Of Beverly Hills",
       "link": "https://www.seahawks.com/news/seattle-seahawks-unveil-super-bowl-lx-championship-ring-created-by-renowned-jeweler-jason-of-beverly-hills",
       "pubDate": "Fri, 12 Jun 2026 03:24:00 GMT",
@@ -502,6 +518,16 @@
       "source": "Seahawks.com",
       "team": "seahawks",
       "priority": 6
+    },
+    {
+      "title": "Christine Bumstead Named Head Coach of the Seattle Torrent",
+      "link": "https://www.davyjoneslockerroom.com/christine-bumstead-named-head-coach-of-the-seattle-torrent/",
+      "pubDate": "Fri, 12 Jun 2026 02:12:29 +0000",
+      "isoDate": "2026-06-12T02:12:29.000Z",
+      "excerpt": "The Seattle Torrent named Christine Bumstead as the head coach for the franchise’s second year. Bumstead was an assistant coach during the team’s inaugural season and takes over the role from Steve O’Rourke who was let...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
     },
     {
       "title": "Seahawks Finish Off Minicamp & Prepare For Super Bowl Ring Ceremony",
@@ -544,6 +570,16 @@
       "priority": 2
     },
     {
+      "title": "Julia Gosling Signs Two-Year Deal With the Torrent",
+      "link": "https://www.davyjoneslockerroom.com/julia-gosling-signs-two-year-deal-with-the-torrent/",
+      "pubDate": "Thu, 11 Jun 2026 04:29:02 +0000",
+      "isoDate": "2026-06-11T04:29:02.000Z",
+      "excerpt": "Julia Gosling rejected a foundational player offer (FPO) to become a key component for the Seattle Torrent next year. She signed a two-year deal and became the first of Seattle’s Phase 3 protections and fourth protected...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
       "title": "The 'Kinda' New Offense, Injury Updates & Other Takeaways From Day 2 Of Seahawks Minicamp",
       "link": "https://www.seahawks.com/news/the-kinda-new-offense-injury-updates-other-takeaways-from-day-2-of-seahawks-minicamp",
       "pubDate": "Wed, 10 Jun 2026 23:42:42 GMT",
@@ -572,46 +608,6 @@
       "source": "Pro Football Rumors",
       "team": "seahawks",
       "priority": 2
-    },
-    {
-      "title": "Seahawks Work Out S Ifeatu Melifonwu",
-      "link": "https://www.profootballrumors.com/2026/06/seahawks-work-out-s-ifeatu-melifonwu",
-      "pubDate": "Mon, 08 Jun 2026 22:03:07 +0000",
-      "isoDate": "2026-06-08T22:03:07.000Z",
-      "excerpt": "The Seahawks worked out free agent safety Ifeatu Melifonwu on Monday, Mike Garafolo of NFL Network relays. No deal is imminent, per Garafolo. Melifonwu became a free agent in March, but this is the first reported...",
-      "source": "Pro Football Rumors",
-      "team": "seahawks",
-      "priority": 2
-    },
-    {
-      "title": "Seahawks, Derick Hall Agree To Extension",
-      "link": "https://www.profootballrumors.com/2026/06/seahawks-derick-hall-agree-to-extension",
-      "pubDate": "Fri, 05 Jun 2026 19:00:15 +0000",
-      "isoDate": "2026-06-05T19:00:15.000Z",
-      "excerpt": "JUNE 5: Hall’s contract includes $15.27MM guaranteed at signing, according to OverTheCap. An additional $4.2MM will become fully guaranteed five days after Super Bowl LXI, per Spotrac. Another $1.5MM will lock in five...",
-      "source": "Pro Football Rumors",
-      "team": "seahawks",
-      "priority": 2
-    },
-    {
-      "title": "Russell Wilson Announces Retirement",
-      "link": "https://www.profootballrumors.com/2026/06/russell-wilson-announces-retirement",
-      "pubDate": "Thu, 04 Jun 2026 04:30:09 +0000",
-      "isoDate": "2026-06-04T04:30:09.000Z",
-      "excerpt": "On Monday, it was reported Russell Wilson would spend the 2026 season as an analyst for CBS. That news obviously suggested his playing days were over, and that has now been confirmed. On Wednesday, Wilson posted a video...",
-      "source": "Pro Football Rumors",
-      "team": "seahawks",
-      "priority": 2
-    },
-    {
-      "title": "VOTE NOW! Help make Mariners All-Star Game starters",
-      "link": "https://www.mlb.com/all-star/ballot?affiliateID=asballot_sea_digital_2026",
-      "pubDate": "Wed, 03 Jun 2026 18:13:55 GMT",
-      "isoDate": "2026-06-03T18:13:55.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
     }
   ]
 }
