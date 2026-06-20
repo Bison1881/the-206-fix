@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T22:53:41.122Z",
+  "generatedAt": "2026-06-20T02:59:22.076Z",
   "sourceCount": 10,
   "successfulSources": 8,
   "failedSources": [
@@ -8,11 +8,71 @@
       "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
     },
     {
-      "source": "710 Seattle Sports",
-      "error": "Request timed out after 10000ms (lenient retry: Status code 403)"
+      "source": "Davy Jones' Locker Room",
+      "error": "Status code 415 (lenient retry: Status code 415)"
     }
   ],
   "items": [
+    {
+      "title": "Mariners Game Preview and Discussion: Boston Red Sox at Seattle Mariners",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-game-information/145095/mariners-game-preview-and-discussion-boston-red-sox-at-seattle-mariners",
+      "pubDate": "2026-06-20T01:45:00.000Z",
+      "isoDate": "2026-06-20T01:45:00.000Z",
+      "excerpt": "Aug 11, 2023; Seattle, Washington, USA; Seattle Mariners starting pitcher Luis Castillo (58) and pitcher Bryce Miller (50) prior to a game against the Baltimore Orioles at T-Mobile Park. Mandatory Credit: Steven...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Latest Mariners injuries and transactions",
+      "link": "https://www.mlb.com/mariners/news/mariners-injuries-and-roster-moves",
+      "pubDate": "Sat, 20 Jun 2026 01:37:00 GMT",
+      "isoDate": "2026-06-20T01:37:00.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Julio back in lineup as Mariners add righty bat Wilson, DFA Mastrobuoni",
+      "link": "https://www.mlb.com/mariners/news/julio-rodriguez-returns-as-mariners-call-up-weston-wilson-dfa-miles-mastrobuoni",
+      "pubDate": "Sat, 20 Jun 2026 01:23:34 GMT",
+      "isoDate": "2026-06-20T01:23:34.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Mariners select INF/OF Weston Wilson; DFA INF Miles Mastrobuoni",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-roster/145091/mariners-select-inf-of-weston-wilson-dfa-inf-miles-mastrobuoni",
+      "pubDate": "2026-06-20T00:30:45.000Z",
+      "isoDate": "2026-06-20T00:30:45.000Z",
+      "excerpt": "BALTIMORE, MD - JUNE 10: Miles Mastrobuoni #21 of the Seattle Mariners warms up before a baseball game against the Baltimore Orioles at Oriole Park at Camden Yards on June10, 2026 in Baltimore, Maryland. (Photo by...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Julio returns to Mariners’ lineup, but another regular is out",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/julio-rodriguez-returns-seattle-mariners-lineup-jp-crawford-out",
+      "pubDate": "Fri, 19 Jun 2026 23:21:43 +0000",
+      "isoDate": "2026-06-19T23:21:43.000Z",
+      "excerpt": "Two days after an injury scare for Seattle Mariners All-Star Julio Rodríguez, he's back in the lineup.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Seattle World Cup: 21-year-old son of NFL legend helps US win",
+      "link": "https://sports.mynorthwest.com/seattle-sports-pit/seattle-world-cup-us-win-alex-freeman-son-nfl-legend",
+      "pubDate": "Fri, 19 Jun 2026 22:52:47 +0000",
+      "isoDate": "2026-06-19T22:52:47.000Z",
+      "excerpt": "Alex Freeman may not have one-upped his famous father yet, but he could be on his way.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
     {
       "title": "Mariners Designate Miles Mastrobuoni For Assignment, Select Weston Wilson",
       "link": "https://www.mlbtraderumors.com/2026/06/mariners-designate-miles-mastrobuoni-for-assignment-select-weston-wilson.html",
@@ -34,6 +94,26 @@
       "priority": 1
     },
     {
+      "title": "Mariners call up recently signed veteran, DFA Mastrobuoni",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-call-up-weston-wilson-dfa-miles-mastrobuoni",
+      "pubDate": "Fri, 19 Jun 2026 22:23:40 +0000",
+      "isoDate": "2026-06-19T22:23:40.000Z",
+      "excerpt": "Weston Wilson, who was signed by the M's last weekend, joins the 26-man active roster.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Seattle World Cup: US advancing after 2-0 win over Aussies",
+      "link": "https://sports.mynorthwest.com/seattle-sports-pit/seattle-world-cup-us-advancing-2-0-win-aussies",
+      "pubDate": "Fri, 19 Jun 2026 21:15:51 +0000",
+      "isoDate": "2026-06-19T21:15:51.000Z",
+      "excerpt": "The U.S. national soccer team advanced to the knockout round at the World Cup despite the absence of injured forward Christian Pulisic.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
       "title": "Takeaways From The Seahawks' 2026 Offseason Program & Minicamp",
       "link": "https://www.seahawks.com/news/takeaways-from-the-seahawks-2026-offseason-program-minicamp",
       "pubDate": "Fri, 19 Jun 2026 20:35:51 GMT",
@@ -42,6 +122,36 @@
       "source": "Seahawks.com",
       "team": "seahawks",
       "priority": 6
+    },
+    {
+      "title": "Watch US score first 2 goals in Seattle World Cup game",
+      "link": "https://sports.mynorthwest.com/seattle-sports-pit/watch-us-scores-1st-goal-in-seattle-world-cup-game",
+      "pubDate": "Fri, 19 Jun 2026 19:30:55 +0000",
+      "isoDate": "2026-06-19T19:30:55.000Z",
+      "excerpt": "The U.S. sent the packed Seattle World Cup crowd at Lumen Field into a frenzy with an early goal to take a 1-0 lead against Australia.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Seattle World Cup: US vs Australia photo gallery",
+      "link": "https://sports.mynorthwest.com/seattle-sports-pit/seattle-world-cup-us-vs-australia-photo-gallery",
+      "pubDate": "Fri, 19 Jun 2026 18:55:44 +0000",
+      "isoDate": "2026-06-19T18:55:44.000Z",
+      "excerpt": "See a collection of photos from the Seattle World Cup game between the U.S. and Australia on Friday.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "US star Pulisic out for Seattle World Cup match vs Australia",
+      "link": "https://sports.mynorthwest.com/seattle-sports-pit/us-star-christian-pilisic-out-seattle-world-cup-australia",
+      "pubDate": "Fri, 19 Jun 2026 17:51:12 +0000",
+      "isoDate": "2026-06-19T17:51:12.000Z",
+      "excerpt": "American coach Maurice Pochettino made the announcement during a TV interview about 90 minutes before the kickoff at Lumen Field in Seattle.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
     },
     {
       "title": "Series Preview: Mariners (39-37) vs. Red Sox (29-43)",
@@ -114,6 +224,16 @@
       "priority": 1
     },
     {
+      "title": "World Cup Seattle Preview: US brings wave of momentum vs Australia",
+      "link": "https://sports.mynorthwest.com/mls/seattle-sounders-fc/world-cup-seattle-preview-us-australia",
+      "pubDate": "Fri, 19 Jun 2026 07:55:35 +0000",
+      "isoDate": "2026-06-19T07:55:35.000Z",
+      "excerpt": "A charged atmosphere is expected on Friday when the Americans face Australia at the home of the NFL’s Seattle Seahawks and Seattle Sounders in the World Cup.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
       "title": "'U-S-A!' NFL QB throws out 1st pitch, hypes up Seattle crowd for World Cup",
       "link": "https://www.mlb.com/mariners/news/jameis-winston-throws-out-first-pitch-before-world-cup-game-in-seattle",
       "pubDate": "Fri, 19 Jun 2026 02:53:00 GMT",
@@ -154,16 +274,6 @@
       "priority": 2
     },
     {
-      "title": "The Draft is less than a month away. How will the top 3 -- and more! -- shake out?",
-      "link": "https://www.mlb.com/mariners/news/mlb-pipeline-2026-mock-draft-june-18",
-      "pubDate": "Thu, 18 Jun 2026 23:30:00 GMT",
-      "isoDate": "2026-06-18T23:30:00.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
-    },
-    {
       "title": "39-37: Chart",
       "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/145048/39-37-chart",
       "pubDate": "2026-06-18T22:31:31.000Z",
@@ -172,16 +282,6 @@
       "source": "Lookout Landing",
       "team": "mariners",
       "priority": 1
-    },
-    {
-      "title": "Latest Mariners injuries and transactions",
-      "link": "https://www.mlb.com/mariners/news/mariners-injuries-and-roster-moves",
-      "pubDate": "Thu, 18 Jun 2026 20:17:00 GMT",
-      "isoDate": "2026-06-18T20:17:00.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
     },
     {
       "title": "J-Rod, Raley out of lineup, Naylor returns in series finale vs. O's",
@@ -244,16 +344,6 @@
       "priority": 2
     },
     {
-      "title": "Mariners Draft Profile: LHP Cole Carlon",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-mlb-draft/145021/mariners-draft-profile-lhp-cole-carlon",
-      "pubDate": "2026-06-18T15:00:00.000Z",
-      "isoDate": "2026-06-18T15:00:00.000Z",
-      "excerpt": "Los Angeles, CA - May 30: Arizona St. pitcher Cole Carlon (14) cheers his team on at the NCAA baseball regional tournament game between Arizona State and UC Irvine at Jackie Robinson Stadium on Friday, May 30, 2025 in...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
       "title": "Finally, the results of the 2026 Field Gulls Armchair GM Challenge",
       "link": "https://www.fieldgulls.com/seattle-seahawks-nfl-draft/169670/2026-field-gulls-armchair-gm-challenge-seahawks-draft-results",
       "pubDate": "2026-06-18T14:00:00.000Z",
@@ -261,26 +351,6 @@
       "excerpt": "Apr 23, 2026; Pittsburgh, PA, USA; Notre Dame Fighting Irish running back Jadarian Price is selected by the Seattle Seahawks as the number 32 pick during the 2026 NFL Draft at Acrisure Stadium. Mandatory Credit: Kirby...",
       "source": "Field Gulls",
       "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "Mariners News: Julio Rodríguez, Kyle Boddy, and the Home Run Derby",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-news/145017/mariners-news-julio-rodriguez-kyle-boddy-and-the-home-run-derby",
-      "pubDate": "2026-06-18T14:00:00.000Z",
-      "isoDate": "2026-06-18T14:00:00.000Z",
-      "excerpt": "ATLANTA, GA - JULY 14: Cal Raleigh #29 of the Seattle Mariners poses for a photo with Todd Raleigh Sr. and Todd Raleigh Jr. after winning the 2025 T-Mobile Home Run Derby at Truist Park on Monday, July 14, 2025 in...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "PWHL Draft Recap: Torrent add goalscoring and controversy to their roster",
-      "link": "https://www.davyjoneslockerroom.com/pwhl-draft-recap-torrent-add-goalscoring-and-controversy-to-their-roster/",
-      "pubDate": "Thu, 18 Jun 2026 13:45:00 +0000",
-      "isoDate": "2026-06-18T13:45:00.000Z",
-      "excerpt": "The PWHL Draft concluded yesterday, with a bunch of depleted lineups changing hopefully for the better with the additions of fresh new talent from all across the globe. 2nd Overall Pick: Abbey Murphy – F Hometown:...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
       "priority": 1
     },
     {
@@ -444,16 +514,6 @@
       "priority": 6
     },
     {
-      "title": "Kraken add Patrik Allvin as Assistant GM, add Pascal Vincent as Assistant Coach",
-      "link": "https://www.davyjoneslockerroom.com/kraken-add-patrik-allvin-as-assistant-gm-add-pascal-vincent-as-assistant-coach/",
-      "pubDate": "Fri, 12 Jun 2026 05:04:14 +0000",
-      "isoDate": "2026-06-12T05:04:14.000Z",
-      "excerpt": "The plot for both Lane Lambert and Jason Botterill thickens today, as the Kraken have added to their front office with the additions of names both slightly known and slightly unknown. Alison Lukan broke the story: The...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
-    },
-    {
       "title": "Seattle Seahawks Unveil Super Bowl LX Championship Ring, Created By Renowned Jeweler Jason Of Beverly Hills",
       "link": "https://www.seahawks.com/news/seattle-seahawks-unveil-super-bowl-lx-championship-ring-created-by-renowned-jeweler-jason-of-beverly-hills",
       "pubDate": "Fri, 12 Jun 2026 03:24:00 GMT",
@@ -462,16 +522,6 @@
       "source": "Seahawks.com",
       "team": "seahawks",
       "priority": 6
-    },
-    {
-      "title": "Christine Bumstead Named Head Coach of the Seattle Torrent",
-      "link": "https://www.davyjoneslockerroom.com/christine-bumstead-named-head-coach-of-the-seattle-torrent/",
-      "pubDate": "Fri, 12 Jun 2026 02:12:29 +0000",
-      "isoDate": "2026-06-12T02:12:29.000Z",
-      "excerpt": "The Seattle Torrent named Christine Bumstead as the head coach for the franchise’s second year. Bumstead was an assistant coach during the team’s inaugural season and takes over the role from Steve O’Rourke who was let...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
     },
     {
       "title": "Seahawks Finish Off Minicamp & Prepare For Super Bowl Ring Ceremony",
@@ -502,16 +552,6 @@
       "source": "Pro Hockey Rumors",
       "team": "kraken",
       "priority": 2
-    },
-    {
-      "title": "Julia Gosling Signs Two-Year Deal With the Torrent",
-      "link": "https://www.davyjoneslockerroom.com/julia-gosling-signs-two-year-deal-with-the-torrent/",
-      "pubDate": "Thu, 11 Jun 2026 04:29:02 +0000",
-      "isoDate": "2026-06-11T04:29:02.000Z",
-      "excerpt": "Julia Gosling rejected a foundational player offer (FPO) to become a key component for the Seattle Torrent next year. She signed a two-year deal and became the first of Seattle’s Phase 3 protections and fourth protected...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
     },
     {
       "title": "Max McCormick Announces Retirement",
@@ -554,16 +594,6 @@
       "priority": 2
     },
     {
-      "title": "Seattle Torrent Protect Wilgren, Murphy, Carpenter in Expansion Draft",
-      "link": "https://www.davyjoneslockerroom.com/seattle-torrent-protect-wilgren-murphy-carpenter-in-expansion-draft/",
-      "pubDate": "Thu, 04 Jun 2026 16:00:00 +0000",
-      "isoDate": "2026-06-04T16:00:00.000Z",
-      "excerpt": "The Torrent have made some interesting choices in the upcoming expansion process by choosing to protect Anna Wilgren, Hannah Murphy, and Alex Carpenter. Not exactly an expansion draft, the PWHL’s Expansion Roster...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
-    },
-    {
       "title": "Russell Wilson Announces Retirement",
       "link": "https://www.profootballrumors.com/2026/06/russell-wilson-announces-retirement",
       "pubDate": "Thu, 04 Jun 2026 04:30:09 +0000",
@@ -578,36 +608,6 @@
       "link": "https://www.mlb.com/all-star/ballot?affiliateID=asballot_sea_digital_2026",
       "pubDate": "Wed, 03 Jun 2026 18:13:55 GMT",
       "isoDate": "2026-06-03T18:13:55.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
-    },
-    {
-      "title": "Seattle Torrent Sign Alex Carpenter, Protect Her From Expansion Thieves",
-      "link": "https://www.davyjoneslockerroom.com/seattle-torrent-sign-alex-carpenter-protect-her-from-expansion-thieves/",
-      "pubDate": "Wed, 03 Jun 2026 14:00:00 +0000",
-      "isoDate": "2026-06-03T14:00:00.000Z",
-      "excerpt": "The Seattle Torrent re-signed forward Alex Carpenter to a 3-year PWHL Standard Player Agreement on June 2, keeping one of the franchise’s foundational pieces through 2028-29 and committing one of the team’s 3 protection...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
-    },
-    {
-      "title": "Melinda French Gates Becomes Minority Owner of the Seattle Kraken",
-      "link": "https://www.davyjoneslockerroom.com/melinda-french-gates-becomes-minority-owner-of-the-seattle-kraken/",
-      "pubDate": "Tue, 02 Jun 2026 14:00:00 +0000",
-      "isoDate": "2026-06-02T14:00:00.000Z",
-      "excerpt": "Melinda French Gates is becoming a minority owner of the Seattle Kraken, the team’s parent company said Monday, pending approval from the NHL. The size of her stake and the terms were not disclosed. French Gates, 61,...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
-    },
-    {
-      "title": "Stream Mariners games on Mariners.TV for low price of $74.99",
-      "link": "https://www.mlb.com/mariners/news/mariners-tv-is-here-for-2026-season",
-      "pubDate": "Mon, 01 Jun 2026 16:18:00 GMT",
-      "isoDate": "2026-06-01T16:18:00.000Z",
       "excerpt": "",
       "source": "Mariners.com",
       "team": "mariners",
