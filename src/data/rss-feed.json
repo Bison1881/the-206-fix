@@ -1,8 +1,13 @@
 {
-  "generatedAt": "2026-06-20T07:47:43.206Z",
+  "generatedAt": "2026-06-20T10:30:30.294Z",
   "sourceCount": 10,
-  "successfulSources": 10,
-  "failedSources": [],
+  "successfulSources": 9,
+  "failedSources": [
+    {
+      "source": "Seattle Times Sports",
+      "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
+    }
+  ],
   "items": [
     {
       "title": "Piggyback yields mixed results, but cold bats ultimately hurt Mariners",
@@ -15,46 +20,6 @@
       "priority": 6
     },
     {
-      "title": "Seattle Torrent re-sign goaltender Carly ‘CJ’ Jackson to 2-year deal",
-      "link": "https://www.seattletimes.com/sports/seattle-torrent-re-sign-goaltender-carly-cj-jackson-to-2-year-deal/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Fri, 19 Jun 2026 22:54:34 -0700",
-      "isoDate": "2026-06-20T05:54:34.000Z",
-      "excerpt": "The Torrent announced Friday that they re-signed Carly “CJ” Jackson, last season’s third goalie, to a two-year PWHL standard player agreement through the 2027-28 season.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Paraguay beats Turkey 1-0 at the World Cup despite being down a man to clinch Group D for US",
-      "link": "https://www.seattletimes.com/sports/world-cup/2026-world-cup-paraguay-beats-turkey-despite-being-down-a-man-to-clinch-group-d-for-u-s/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Fri, 19 Jun 2026 22:35:46 -0700",
-      "isoDate": "2026-06-20T05:35:46.000Z",
-      "excerpt": "Matias Galarza scored 65 seconds into the game for the fastest goal at this year’s World Cup and Paraguay held on for a 1-0 win over Turkey after playing a man down for more than half the match.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Mariners lose to Red Sox, 6-2: Mariners bats vanquished once again by lefty starter",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/145105/mariners-lose-to-red-sox-6-2-mariners-bats-vanquished-once-again-by-lefty-starter",
-      "pubDate": "2026-06-20T05:34:18.000Z",
-      "isoDate": "2026-06-20T05:34:18.000Z",
-      "excerpt": "Jun 19, 2026; Seattle, Washington, USA; Seattle Mariners outfielder Connor Joe (9) misses a pop fly by Boston Red Sox infielder Marcelo Mayer (11) in the eighth inning at T-Mobile Park. Mandatory Credit: Kevin Ng-Imagn...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "2026 World Cup: US path through knockout stages could include Seattle",
-      "link": "https://www.seattletimes.com/sports/world-cup/2026-world-cup-us-path-through-knockout-stages-could-include-seattle/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Fri, 19 Jun 2026 22:22:01 -0700",
-      "isoDate": "2026-06-20T05:22:01.000Z",
-      "excerpt": "Paraguay's win late Friday set the U.S. route for the World Cup's knockout rounds. Here's how that could include another trip to Seattle.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "Suarez no-hits Mariners into 7th as Red Sox win 6-2",
       "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/suarez-seattle-mariners-red-sox-win-6-2",
       "pubDate": "Sat, 20 Jun 2026 05:11:53 +0000",
@@ -65,16 +30,6 @@
       "priority": 3
     },
     {
-      "title": "Mariners’ piggyback strategy backfires in loss to Red Sox",
-      "link": "https://www.seattletimes.com/sports/mariners/mariners-piggyback-strategy-back-under-scrutiny-after-loss-to-red-sox/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Fri, 19 Jun 2026 21:51:22 -0700",
-      "isoDate": "2026-06-20T04:51:22.000Z",
-      "excerpt": "Bryce Miller allowed one run through five innings, but the Mariners' piggyback plan didn't pay off this time with the Red Sox pulling away for a 6-2 win Friday.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "'It's a Kade Anderson pitching clinic': MLB's No. 6 prospect lowers ERA to 1.02",
       "link": "https://www.mlb.com/mariners/news/mariners-kade-anderson-lowers-era-dominant-double-a",
       "pubDate": "Sat, 20 Jun 2026 04:51:00 GMT",
@@ -83,46 +38,6 @@
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
-    },
-    {
-      "title": "39-38: Chart",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/145106/39-38-chart",
-      "pubDate": "2026-06-20T04:34:36.000Z",
-      "isoDate": "2026-06-20T04:34:36.000Z",
-      "excerpt": "Jun 19, 2026; Seattle, Washington, USA; Boston Red Sox infielder Caleb Durbin (5) celebrates in the dugout after hitting a home run in the second inning against the Seattle Mariners at T-Mobile Park. Mandatory Credit:...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "Rescue dog Osito steals hearts at the World Cup, one bike ride at a time",
-      "link": "https://www.seattletimes.com/nation-world/rescue-dog-osito-steals-hearts-at-the-world-cup-one-bike-ride-at-a-time/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Fri, 19 Jun 2026 19:55:24 -0700",
-      "isoDate": "2026-06-20T02:55:24.000Z",
-      "excerpt": "As World Cup fever grips Mexico City, an unlikely star has emerged.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Matheus Cunha scores 2 goals as Brazil eliminates Haiti from World Cup with 3-0 win",
-      "link": "https://www.seattletimes.com/sports/world-cup/brazil-eliminates-haiti-from-world-cup-behind-2-goals-by-matheus-cunha/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Fri, 19 Jun 2026 19:47:07 -0700",
-      "isoDate": "2026-06-20T02:47:07.000Z",
-      "excerpt": "Vinícius Júnior scored and assisted on one of Matheus Cunha’s two goals as five-time champion Brazil eliminated Haiti from the World Cup with a 3-0 victory.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Mariners Game Preview and Discussion: Boston Red Sox at Seattle Mariners",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-game-information/145095/mariners-game-preview-and-discussion-boston-red-sox-at-seattle-mariners",
-      "pubDate": "2026-06-20T01:45:00.000Z",
-      "isoDate": "2026-06-20T01:45:00.000Z",
-      "excerpt": "Aug 11, 2023; Seattle, Washington, USA; Seattle Mariners starting pitcher Luis Castillo (58) and pitcher Bryce Miller (50) prior to a game against the Baltimore Orioles at T-Mobile Park. Mandatory Credit: Steven...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
     },
     {
       "title": "Latest Mariners injuries and transactions",
@@ -155,36 +70,6 @@
       "priority": 6
     },
     {
-      "title": "Julio Rodríguez returns to Mariners’ lineup; Miles Mastrobuoni DFA’d",
-      "link": "https://www.seattletimes.com/sports/mariners/julio-rodriguez-returns-to-mariners-lineup-miles-mastrobuoni-dfad/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Fri, 19 Jun 2026 18:01:26 -0700",
-      "isoDate": "2026-06-20T01:01:26.000Z",
-      "excerpt": "Julio Rodríguez returned to the Mariners' lineup Friday, but the team parted ways with a popular player in the clubhouse before the series opener against Boston.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Australians take over Seattle before their World Cup match against U.S.",
-      "link": "https://www.seattletimes.com/seattle-news/world-cup-seattle/australians-take-over-seattle-before-their-world-cup-match-against-u-s/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Fri, 19 Jun 2026 18:00:00 -0700",
-      "isoDate": "2026-06-20T01:00:00.000Z",
-      "excerpt": "From the Seattle Freeze to Uber prices, Aussies in town for the World Cup match against the U.S. in Seattle had a lot to say about the Emerald City.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Mariners select INF/OF Weston Wilson; DFA INF Miles Mastrobuoni",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-roster/145091/mariners-select-inf-of-weston-wilson-dfa-inf-miles-mastrobuoni",
-      "pubDate": "2026-06-20T00:30:45.000Z",
-      "isoDate": "2026-06-20T00:30:45.000Z",
-      "excerpt": "BALTIMORE, MD - JUNE 10: Miles Mastrobuoni #21 of the Seattle Mariners warms up before a baseball game against the Baltimore Orioles at Oriole Park at Camden Yards on June10, 2026 in Baltimore, Maryland. (Photo by...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
       "title": "Julio returns to Mariners’ lineup, but another regular is out",
       "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/julio-rodriguez-returns-seattle-mariners-lineup-jp-crawford-out",
       "pubDate": "Fri, 19 Jun 2026 23:21:43 +0000",
@@ -213,16 +98,6 @@
       "source": "MLB Trade Rumors",
       "team": "mariners",
       "priority": 2
-    },
-    {
-      "title": "Seahawks stars and legends take in USA’s historic FIFA World Cup win in Seattle",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169769/seahawks-stars-legends-fifa-world-cup-seattle-usa-lynch-wilson-macdonald",
-      "pubDate": "2026-06-19T22:25:11.000Z",
-      "isoDate": "2026-06-19T22:25:11.000Z",
-      "excerpt": "SEATTLE, WASHINGTON - JUNE 19: Alex Freeman #16 of the United States celebrates with teammates after scoring his team's second goal during the FIFA World Cup 2026 Group D match between USA and Australia at Seattle...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
     },
     {
       "title": "Mariners call up recently signed veteran, DFA Mastrobuoni",
@@ -385,6 +260,16 @@
       "priority": 1
     },
     {
+      "title": "Mariners Game #76 Preview and Discussion: BAL at SEA, 6/18",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-game-information/145034/mariners-game-76-preview-and-discussion-bal-at-sea-6-18",
+      "pubDate": "2026-06-18T19:40:14.000Z",
+      "isoDate": "2026-06-18T19:40:14.000Z",
+      "excerpt": "Jun 5, 2026; Detroit, Michigan, USA; Seattle Mariners starting pitcher Bryan Woo (22) throws a pitch against the Detroit Tigers in the third inning at Comerica Park. Mandatory Credit: Lon Horwedel-Imagn Images | Lon...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
       "title": "Pierre-Edouard Bellemare Announces Retirement",
       "link": "https://www.prohockeyrumors.com/2026/06/pierre-edouard-bellemare-announces-retirement.html",
       "pubDate": "Thu, 18 Jun 2026 19:11:42 +0000",
@@ -405,6 +290,16 @@
       "priority": 1
     },
     {
+      "title": "Mariners Reacts Survey: Vote Navy Blue No Matter Who",
+      "link": "https://www.lookoutlanding.com/general/144945/mariners-reacts-survey-vote-navy-blue-no-matter-who",
+      "pubDate": "2026-06-18T17:00:00.000Z",
+      "isoDate": "2026-06-18T17:00:00.000Z",
+      "excerpt": "Jun 16, 2026; Seattle, Washington, USA; Seattle Mariners catcher Cal Raleigh (29), second from right, and third baseman J.P. Crawford, second from right, celebrate after a game against the Baltimore Orioles at T-Mobile...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
       "title": "Mariners Sign Weston Wilson To Minor League Contract",
       "link": "https://www.mlbtraderumors.com/2026/06/mariners-sign-weston-wilson-to-minor-league-contract.html",
       "pubDate": "Thu, 18 Jun 2026 16:57:43 +0000",
@@ -415,6 +310,16 @@
       "priority": 2
     },
     {
+      "title": "Mariners Draft Profile: LHP Cole Carlon",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-mlb-draft/145021/mariners-draft-profile-lhp-cole-carlon",
+      "pubDate": "2026-06-18T15:00:00.000Z",
+      "isoDate": "2026-06-18T15:00:00.000Z",
+      "excerpt": "Los Angeles, CA - May 30: Arizona St. pitcher Cole Carlon (14) cheers his team on at the NCAA baseball regional tournament game between Arizona State and UC Irvine at Jackie Robinson Stadium on Friday, May 30, 2025 in...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
       "title": "Finally, the results of the 2026 Field Gulls Armchair GM Challenge",
       "link": "https://www.fieldgulls.com/seattle-seahawks-nfl-draft/169670/2026-field-gulls-armchair-gm-challenge-seahawks-draft-results",
       "pubDate": "2026-06-18T14:00:00.000Z",
@@ -422,6 +327,16 @@
       "excerpt": "Apr 23, 2026; Pittsburgh, PA, USA; Notre Dame Fighting Irish running back Jadarian Price is selected by the Seattle Seahawks as the number 32 pick during the 2026 NFL Draft at Acrisure Stadium. Mandatory Credit: Kirby...",
       "source": "Field Gulls",
       "team": "seahawks",
+      "priority": 1
+    },
+    {
+      "title": "Mariners News: Julio Rodríguez, Kyle Boddy, and the Home Run Derby",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-news/145017/mariners-news-julio-rodriguez-kyle-boddy-and-the-home-run-derby",
+      "pubDate": "2026-06-18T14:00:00.000Z",
+      "isoDate": "2026-06-18T14:00:00.000Z",
+      "excerpt": "ATLANTA, GA - JULY 14: Cal Raleigh #29 of the Seattle Mariners poses for a photo with Todd Raleigh Sr. and Todd Raleigh Jr. after winning the 2025 T-Mobile Home Run Derby at Truist Park on Monday, July 14, 2025 in...",
+      "source": "Lookout Landing",
+      "team": "mariners",
       "priority": 1
     },
     {
@@ -440,6 +355,16 @@
       "pubDate": "2026-06-18T13:00:00.000Z",
       "isoDate": "2026-06-18T13:00:00.000Z",
       "excerpt": "Feb 24, 2026; Indianapolis, IN, USA; Seattle Seahawks general manager John Schneider speaks at the NFL Scouting Combine at the Indiana Convention Center. Mandatory Credit: Kirby Lee-Imagn Images | Kirby Lee-Imagn Images...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
+    {
+      "title": "Why Kenneth Walker III wasn’t at the Seahawks’ Super Bowl ring ceremony",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169677/why-kenneth-walker-iii-wasnt-at-seattle-seahawks-super-bowl-ring-ceremony",
+      "pubDate": "2026-06-18T01:21:13.000Z",
+      "isoDate": "2026-06-18T01:21:13.000Z",
+      "excerpt": "Lost in the shuffle of last week’s Seahawks’ Super Bowl ring celebration was the fact that one particular ex-Seahawk did not attend the ceremony: Super Bowl MVP, Kenneth Walker III. This stood out considering other...",
       "source": "Field Gulls",
       "team": "seahawks",
       "priority": 1
@@ -603,6 +528,86 @@
       "source": "Davy Jones' Locker Room",
       "team": "kraken",
       "priority": 1
+    },
+    {
+      "title": "Seattle Seahawks Unveil Super Bowl LX Championship Ring, Created By Renowned Jeweler Jason Of Beverly Hills",
+      "link": "https://www.seahawks.com/news/seattle-seahawks-unveil-super-bowl-lx-championship-ring-created-by-renowned-jeweler-jason-of-beverly-hills",
+      "pubDate": "Fri, 12 Jun 2026 03:24:00 GMT",
+      "isoDate": "2026-06-12T03:24:00.000Z",
+      "excerpt": "Ring features a dazzling display of white diamonds and Seahawks blue sapphires, with one of the most technically advanced features ever incorporated into a Super Bowl ring",
+      "source": "Seahawks.com",
+      "team": "seahawks",
+      "priority": 6
+    },
+    {
+      "title": "Christine Bumstead Named Head Coach of the Seattle Torrent",
+      "link": "https://www.davyjoneslockerroom.com/christine-bumstead-named-head-coach-of-the-seattle-torrent/",
+      "pubDate": "Fri, 12 Jun 2026 02:12:29 +0000",
+      "isoDate": "2026-06-12T02:12:29.000Z",
+      "excerpt": "The Seattle Torrent named Christine Bumstead as the head coach for the franchise’s second year. Bumstead was an assistant coach during the team’s inaugural season and takes over the role from Steve O’Rourke who was let...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
+      "title": "Seahawks Finish Off Minicamp & Prepare For Super Bowl Ring Ceremony",
+      "link": "https://www.seahawks.com/news/seahawks-finish-off-minicamp-prepare-for-super-bowl-ring-ceremony",
+      "pubDate": "Thu, 11 Jun 2026 21:28:50 GMT",
+      "isoDate": "2026-06-11T21:28:50.000Z",
+      "excerpt": "The Seahawks finished their three-day minicamp and prepare for the Super Bowl ring ceremony as a way to closeout their 2025 chapter.",
+      "source": "Seahawks.com",
+      "team": "seahawks",
+      "priority": 6
+    },
+    {
+      "title": "Defensive End Cassius Marsh Retires A Seahawk",
+      "link": "https://www.seahawks.com/news/defensive-end-cassius-marsh-retires-a-seahawk",
+      "pubDate": "Thu, 11 Jun 2026 19:16:37 GMT",
+      "isoDate": "2026-06-11T19:16:37.000Z",
+      "excerpt": "The former defensive end, Cassius Marsh, retired on Thursday.",
+      "source": "Seahawks.com",
+      "team": "seahawks",
+      "priority": 6
+    },
+    {
+      "title": "Afternoon Notes: Tuch, Andersson, Kraken Hires",
+      "link": "https://www.prohockeyrumors.com/2026/06/afternoon-notes-tuch-andersson-kraken-hires.html",
+      "pubDate": "Thu, 11 Jun 2026 17:07:59 +0000",
+      "isoDate": "2026-06-11T17:07:59.000Z",
+      "excerpt": "According to Pierre LeBrun of The Athletic, Alex Tuch appears more likely to be heading to the open market. The 30-year-old winger ended his 2025-26 season scoring 33 goals for 66 points in 79 games played with the...",
+      "source": "Pro Hockey Rumors",
+      "team": "kraken",
+      "priority": 2
+    },
+    {
+      "title": "Julia Gosling Signs Two-Year Deal With the Torrent",
+      "link": "https://www.davyjoneslockerroom.com/julia-gosling-signs-two-year-deal-with-the-torrent/",
+      "pubDate": "Thu, 11 Jun 2026 04:29:02 +0000",
+      "isoDate": "2026-06-11T04:29:02.000Z",
+      "excerpt": "Julia Gosling rejected a foundational player offer (FPO) to become a key component for the Seattle Torrent next year. She signed a two-year deal and became the first of Seattle’s Phase 3 protections and fourth protected...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
+      "title": "Max McCormick Announces Retirement",
+      "link": "https://www.prohockeyrumors.com/2026/06/max-mccormick-announces-retirement.html",
+      "pubDate": "Wed, 10 Jun 2026 22:01:06 +0000",
+      "isoDate": "2026-06-10T22:01:06.000Z",
+      "excerpt": "According to an announcement from the AHL’s Coachella Valley Firebirds, captain Max McCormick has retired from professional hockey. McCormick lost the entire 2025-26 campaign due to a hip injury, and that likely...",
+      "source": "Pro Hockey Rumors",
+      "team": "kraken",
+      "priority": 2
+    },
+    {
+      "title": "Minor NFL Transactions: 6/8/26",
+      "link": "https://www.profootballrumors.com/2026/06/minor-nfl-transactions-6-8-26",
+      "pubDate": "Tue, 09 Jun 2026 00:01:55 +0000",
+      "isoDate": "2026-06-09T00:01:55.000Z",
+      "excerpt": "Four teams made minor moves on Monday. Here’s a look… Carolina Panthers Signed: WR Malick Meiga Waived: TE Heinrich Haarberg New York Jets Signed: WR Jalen Walthall Waived/injured: Quentin Skinner Seattle Seahawks...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
+      "priority": 2
     }
   ]
 }
