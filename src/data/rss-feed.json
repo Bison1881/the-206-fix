@@ -1,14 +1,44 @@
 {
-  "generatedAt": "2026-06-20T17:23:25.198Z",
+  "generatedAt": "2026-06-20T19:20:54.762Z",
   "sourceCount": 10,
   "successfulSources": 9,
   "failedSources": [
     {
-      "source": "Davy Jones' Locker Room",
-      "error": "Status code 415 (lenient retry: Status code 415)"
+      "source": "Seattle Times Sports",
+      "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
     }
   ],
   "items": [
+    {
+      "title": "Mariners Outright Curtis Washington Jr.",
+      "link": "https://www.mlbtraderumors.com/2026/06/mariners-outright-curtis-washington-jr.html",
+      "pubDate": "Sat, 20 Jun 2026 18:19:13 +0000",
+      "isoDate": "2026-06-20T18:19:13.000Z",
+      "excerpt": "The Mariners announced that outfielder Curtis Washington Jr. was outrighted to A-level Everett after clearing waivers. There wasn’t any public indication that Washington had also been designated for assignment when he...",
+      "source": "MLB Trade Rumors",
+      "team": "mariners",
+      "priority": 2
+    },
+    {
+      "title": "Justin Schultz Joins Kraken's Development Staff",
+      "link": "https://www.prohockeyrumors.com/2026/06/west-notes-karlsson-schultz-martin.html",
+      "pubDate": "Sat, 20 Jun 2026 18:19:00 +0000",
+      "isoDate": "2026-06-20T18:19:00.000Z",
+      "excerpt": "Notes from the West including surgery for William Karlsson, a long-time defenseman joins Seattle's development staff, and more.",
+      "source": "Pro Hockey Rumors",
+      "team": "kraken",
+      "priority": 2
+    },
+    {
+      "title": "Mariners GM on impression Jhonny Pereda made: ‘He’ll be back’",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-gm-jhonny-pereda-impression",
+      "pubDate": "Sat, 20 Jun 2026 16:21:28 +0000",
+      "isoDate": "2026-06-20T16:21:28.000Z",
+      "excerpt": "\"He did a fantastic job on all sides of the ball,\" Mariners GM Justin Hollander said of catcher Jhonny Pereda.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
     {
       "title": "4 Seahawks players who could benefit most under new offensive coordinator Brian Fleury",
       "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/169725/4-seahawks-who-could-benefit-most-under-offensive-coordinator-brian-fleury",
@@ -40,26 +70,6 @@
       "priority": 1
     },
     {
-      "title": "Seattle Storm’s Dominique Malonga, Awa Fam just scratching surface of potential together",
-      "link": "https://www.seattletimes.com/sports/storm/seattle-storms-dominque-malonga-awa-fam-just-scratching-surface-of-potential-together/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sat, 20 Jun 2026 06:00:00 -0700",
-      "isoDate": "2026-06-20T13:00:00.000Z",
-      "excerpt": "Dominique Malonga and Awa Fam comprise the youngest frontcourt in WNBA history and the early returns have the Storm buzzing about the duo's potential.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "World Cup schedule today, June 20: Curaçao back on international stage",
-      "link": "https://www.seattletimes.com/sports/world-cup/world-cup-schedule-today-june-20-curacao-back-on-international-stage/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sat, 20 Jun 2026 06:00:00 -0700",
-      "isoDate": "2026-06-20T13:00:00.000Z",
-      "excerpt": "Welcome to the weekend. Here's a look at the four World Cup matches Saturday, and how to watch.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "Piggyback yields mixed results, but cold bats ultimately hurt Mariners",
       "link": "https://www.mlb.com/mariners/news/mariners-held-hitless-into-7th-inning-in-loss-to-red-sox",
       "pubDate": "Sat, 20 Jun 2026 07:18:06 GMT",
@@ -68,26 +78,6 @@
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
-    },
-    {
-      "title": "Seattle Torrent re-sign goaltender Carly ‘CJ’ Jackson to 2-year deal",
-      "link": "https://www.seattletimes.com/sports/seattle-torrent-re-sign-goaltender-carly-cj-jackson-to-2-year-deal/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Fri, 19 Jun 2026 22:54:34 -0700",
-      "isoDate": "2026-06-20T05:54:34.000Z",
-      "excerpt": "The Torrent announced Friday that they re-signed Carly “CJ” Jackson, last season’s third goalie, to a two-year PWHL standard player agreement through the 2027-28 season.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Paraguay beats Turkey 1-0 at the World Cup despite being down a man to clinch Group D for US",
-      "link": "https://www.seattletimes.com/sports/world-cup/2026-world-cup-paraguay-beats-turkey-despite-being-down-a-man-to-clinch-group-d-for-u-s/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Fri, 19 Jun 2026 22:35:46 -0700",
-      "isoDate": "2026-06-20T05:35:46.000Z",
-      "excerpt": "Matias Galarza scored 65 seconds into the game for the fastest goal at this year’s World Cup and Paraguay held on for a 1-0 win over Turkey after playing a man down for more than half the match.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
     },
     {
       "title": "Mariners lose to Red Sox, 6-2: Mariners bats vanquished once again by lefty starter",
@@ -100,16 +90,6 @@
       "priority": 1
     },
     {
-      "title": "2026 World Cup: US path through knockout stages could include Seattle",
-      "link": "https://www.seattletimes.com/sports/world-cup/2026-world-cup-us-path-through-knockout-stages-could-include-seattle/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Fri, 19 Jun 2026 22:22:01 -0700",
-      "isoDate": "2026-06-20T05:22:01.000Z",
-      "excerpt": "Paraguay's win late Friday set the U.S. route for the World Cup's knockout rounds. Here's how that could include another trip to Seattle.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "Suarez no-hits Mariners into 7th as Red Sox win 6-2",
       "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/suarez-seattle-mariners-red-sox-win-6-2",
       "pubDate": "Sat, 20 Jun 2026 05:11:53 +0000",
@@ -118,16 +98,6 @@
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
-    },
-    {
-      "title": "Mariners’ piggyback strategy backfires in loss to Red Sox",
-      "link": "https://www.seattletimes.com/sports/mariners/mariners-piggyback-strategy-back-under-scrutiny-after-loss-to-red-sox/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Fri, 19 Jun 2026 21:51:22 -0700",
-      "isoDate": "2026-06-20T04:51:22.000Z",
-      "excerpt": "Bryce Miller allowed one run through five innings, but the Mariners' piggyback plan didn't pay off this time with the Red Sox pulling away for a 6-2 win Friday.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
     },
     {
       "title": "'It's a Kade Anderson pitching clinic': MLB's No. 6 prospect lowers ERA to 1.02",
@@ -147,26 +117,6 @@
       "excerpt": "Jun 19, 2026; Seattle, Washington, USA; Boston Red Sox infielder Caleb Durbin (5) celebrates in the dugout after hitting a home run in the second inning against the Seattle Mariners at T-Mobile Park. Mandatory Credit:...",
       "source": "Lookout Landing",
       "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "Rescue dog Osito steals hearts at the World Cup, one bike ride at a time",
-      "link": "https://www.seattletimes.com/nation-world/rescue-dog-osito-steals-hearts-at-the-world-cup-one-bike-ride-at-a-time/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Fri, 19 Jun 2026 19:55:24 -0700",
-      "isoDate": "2026-06-20T02:55:24.000Z",
-      "excerpt": "As World Cup fever grips Mexico City, an unlikely star has emerged.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Matheus Cunha scores 2 goals as Brazil eliminates Haiti from World Cup with 3-0 win",
-      "link": "https://www.seattletimes.com/sports/world-cup/brazil-eliminates-haiti-from-world-cup-behind-2-goals-by-matheus-cunha/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Fri, 19 Jun 2026 19:47:07 -0700",
-      "isoDate": "2026-06-20T02:47:07.000Z",
-      "excerpt": "Vinícius Júnior scored and assisted on one of Matheus Cunha’s two goals as five-time champion Brazil eliminated Haiti from the World Cup with a 3-0 victory.",
-      "source": "Seattle Times Sports",
-      "team": "general",
       "priority": 1
     },
     {
@@ -310,16 +260,6 @@
       "priority": 3
     },
     {
-      "title": "US star Pulisic out for Seattle World Cup match vs Australia",
-      "link": "https://sports.mynorthwest.com/seattle-sports-pit/us-star-christian-pilisic-out-seattle-world-cup-australia",
-      "pubDate": "Fri, 19 Jun 2026 17:51:12 +0000",
-      "isoDate": "2026-06-19T17:51:12.000Z",
-      "excerpt": "American coach Maurice Pochettino made the announcement during a TV interview about 90 minutes before the kickoff at Lumen Field in Seattle.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
       "title": "Series Preview: Mariners (39-37) vs. Red Sox (29-43)",
       "link": "https://www.lookoutlanding.com/seattle-mariners-game-information/145084/series-preview-seattle-mariners-vs-boston-red-sox-june-2026",
       "pubDate": "2026-06-19T17:00:00.000Z",
@@ -440,6 +380,16 @@
       "priority": 2
     },
     {
+      "title": "PWHL Draft Recap: Torrent add goalscoring and controversy to their roster",
+      "link": "https://www.davyjoneslockerroom.com/pwhl-draft-recap-torrent-add-goalscoring-and-controversy-to-their-roster/",
+      "pubDate": "Thu, 18 Jun 2026 13:45:00 +0000",
+      "isoDate": "2026-06-18T13:45:00.000Z",
+      "excerpt": "The PWHL Draft concluded yesterday, with a bunch of depleted lineups changing hopefully for the better with the additions of fresh new talent from all across the globe. 2nd Overall Pick: Abbey Murphy – F Hometown:...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
       "title": "Royals Acquire Randy Dobnak",
       "link": "https://www.mlbtraderumors.com/2026/06/royals-to-acquire-randy-dobnak.html",
       "pubDate": "Wed, 17 Jun 2026 23:52:54 +0000",
@@ -550,16 +500,6 @@
       "priority": 2
     },
     {
-      "title": "Mariners Notes: Raleigh, Crawford, Arozarena, Munoz, Naylor",
-      "link": "https://www.mlbtraderumors.com/2026/06/mariners-notes-raleigh-crawford-arozarena-munoz-naylor.html",
-      "pubDate": "Mon, 15 Jun 2026 02:49:30 +0000",
-      "isoDate": "2026-06-15T02:49:30.000Z",
-      "excerpt": "The Mariners open up a six-game homestand on Tuesday, and two key names figure to be returning from the 10-day injured list. Manager Dan Wilson told the Seattle Times’ Adam Jude and other reporters that catcher Cal...",
-      "source": "MLB Trade Rumors",
-      "team": "mariners",
-      "priority": 2
-    },
-    {
       "title": "Seahawks TE AJ Barner ‘Feeling Good’ After Surgeries",
       "link": "https://www.profootballrumors.com/2026/06/seahawks-te-aj-barner-feeling-good-after-surgeries",
       "pubDate": "Mon, 15 Jun 2026 02:06:24 +0000",
@@ -590,6 +530,16 @@
       "priority": 6
     },
     {
+      "title": "Kraken add Patrik Allvin as Assistant GM, add Pascal Vincent as Assistant Coach",
+      "link": "https://www.davyjoneslockerroom.com/kraken-add-patrik-allvin-as-assistant-gm-add-pascal-vincent-as-assistant-coach/",
+      "pubDate": "Fri, 12 Jun 2026 05:04:14 +0000",
+      "isoDate": "2026-06-12T05:04:14.000Z",
+      "excerpt": "The plot for both Lane Lambert and Jason Botterill thickens today, as the Kraken have added to their front office with the additions of names both slightly known and slightly unknown. Alison Lukan broke the story: The...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
       "title": "Seattle Seahawks Unveil Super Bowl LX Championship Ring, Created By Renowned Jeweler Jason Of Beverly Hills",
       "link": "https://www.seahawks.com/news/seattle-seahawks-unveil-super-bowl-lx-championship-ring-created-by-renowned-jeweler-jason-of-beverly-hills",
       "pubDate": "Fri, 12 Jun 2026 03:24:00 GMT",
@@ -600,6 +550,16 @@
       "priority": 6
     },
     {
+      "title": "Christine Bumstead Named Head Coach of the Seattle Torrent",
+      "link": "https://www.davyjoneslockerroom.com/christine-bumstead-named-head-coach-of-the-seattle-torrent/",
+      "pubDate": "Fri, 12 Jun 2026 02:12:29 +0000",
+      "isoDate": "2026-06-12T02:12:29.000Z",
+      "excerpt": "The Seattle Torrent named Christine Bumstead as the head coach for the franchise’s second year. Bumstead was an assistant coach during the team’s inaugural season and takes over the role from Steve O’Rourke who was let...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
       "title": "Seahawks Finish Off Minicamp & Prepare For Super Bowl Ring Ceremony",
       "link": "https://www.seahawks.com/news/seahawks-finish-off-minicamp-prepare-for-super-bowl-ring-ceremony",
       "pubDate": "Thu, 11 Jun 2026 21:28:50 GMT",
@@ -608,6 +568,46 @@
       "source": "Seahawks.com",
       "team": "seahawks",
       "priority": 6
+    },
+    {
+      "title": "Defensive End Cassius Marsh Retires A Seahawk",
+      "link": "https://www.seahawks.com/news/defensive-end-cassius-marsh-retires-a-seahawk",
+      "pubDate": "Thu, 11 Jun 2026 19:16:37 GMT",
+      "isoDate": "2026-06-11T19:16:37.000Z",
+      "excerpt": "The former defensive end, Cassius Marsh, retired on Thursday.",
+      "source": "Seahawks.com",
+      "team": "seahawks",
+      "priority": 6
+    },
+    {
+      "title": "Afternoon Notes: Tuch, Andersson, Kraken Hires",
+      "link": "https://www.prohockeyrumors.com/2026/06/afternoon-notes-tuch-andersson-kraken-hires.html",
+      "pubDate": "Thu, 11 Jun 2026 17:07:59 +0000",
+      "isoDate": "2026-06-11T17:07:59.000Z",
+      "excerpt": "According to Pierre LeBrun of The Athletic, Alex Tuch appears more likely to be heading to the open market. The 30-year-old winger ended his 2025-26 season scoring 33 goals for 66 points in 79 games played with the...",
+      "source": "Pro Hockey Rumors",
+      "team": "kraken",
+      "priority": 2
+    },
+    {
+      "title": "Julia Gosling Signs Two-Year Deal With the Torrent",
+      "link": "https://www.davyjoneslockerroom.com/julia-gosling-signs-two-year-deal-with-the-torrent/",
+      "pubDate": "Thu, 11 Jun 2026 04:29:02 +0000",
+      "isoDate": "2026-06-11T04:29:02.000Z",
+      "excerpt": "Julia Gosling rejected a foundational player offer (FPO) to become a key component for the Seattle Torrent next year. She signed a two-year deal and became the first of Seattle’s Phase 3 protections and fourth protected...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
+      "title": "Max McCormick Announces Retirement",
+      "link": "https://www.prohockeyrumors.com/2026/06/max-mccormick-announces-retirement.html",
+      "pubDate": "Wed, 10 Jun 2026 22:01:06 +0000",
+      "isoDate": "2026-06-10T22:01:06.000Z",
+      "excerpt": "According to an announcement from the AHL’s Coachella Valley Firebirds, captain Max McCormick has retired from professional hockey. McCormick lost the entire 2025-26 campaign due to a hip injury, and that likely...",
+      "source": "Pro Hockey Rumors",
+      "team": "kraken",
+      "priority": 2
     }
   ]
 }
