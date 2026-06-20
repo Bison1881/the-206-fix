@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T21:13:55.753Z",
+  "generatedAt": "2026-06-20T23:04:42.321Z",
   "sourceCount": 10,
   "successfulSources": 8,
   "failedSources": [
@@ -13,6 +13,36 @@
     }
   ],
   "items": [
+    {
+      "title": "NFC Front Office Updates: Seahawks, Saints, Lions",
+      "link": "https://www.profootballrumors.com/2026/06/nfc-front-office-updates-seahawks-saints-lions",
+      "pubDate": "Sat, 20 Jun 2026 22:53:54 +0000",
+      "isoDate": "2026-06-20T22:53:54.000Z",
+      "excerpt": "In their recent announcement disclosing promotions for two staffers to assistant general manager, the Seahawks announced four other promotions in Seattle’s front office. In the player personnel department, Aaron...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
+      "priority": 2
+    },
+    {
+      "title": "Early success has US hopes, expectations soaring at World Cup",
+      "link": "https://sports.mynorthwest.com/seattle-sports-pit/early-success-us-hopes-expectations-soaring-world-cup",
+      "pubDate": "Sat, 20 Jun 2026 21:15:58 +0000",
+      "isoDate": "2026-06-20T21:15:58.000Z",
+      "excerpt": "The United States has won back-to-back World Cup matches for the first time since 1930.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Mariners prospect Kade Anderson extends long scoreless streak",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-prospect-kade-anderson-extends-long-scoreless-streak",
+      "pubDate": "Sat, 20 Jun 2026 20:00:32 +0000",
+      "isoDate": "2026-06-20T20:00:32.000Z",
+      "excerpt": "The highly touted M's pitching prospect spun yet another gem at Double-A Arkansas.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
     {
       "title": "World Cup: US wins Group D, setting up possible return to Seattle",
       "link": "https://sports.mynorthwest.com/seattle-sports-pit/world-cup-us-wins-group-d-setting-up-possible-return-to-seattle",
@@ -234,16 +264,6 @@
       "priority": 3
     },
     {
-      "title": "Seattle World Cup: US advancing after 2-0 win over Aussies",
-      "link": "https://sports.mynorthwest.com/seattle-sports-pit/seattle-world-cup-us-advancing-2-0-win-aussies",
-      "pubDate": "Fri, 19 Jun 2026 21:15:51 +0000",
-      "isoDate": "2026-06-19T21:15:51.000Z",
-      "excerpt": "The U.S. national soccer team advanced to the knockout round at the World Cup despite the absence of injured forward Christian Pulisic.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
       "title": "Takeaways From The Seahawks' 2026 Offseason Program & Minicamp",
       "link": "https://www.seahawks.com/news/takeaways-from-the-seahawks-2026-offseason-program-minicamp",
       "pubDate": "Fri, 19 Jun 2026 20:35:51 GMT",
@@ -252,16 +272,6 @@
       "source": "Seahawks.com",
       "team": "seahawks",
       "priority": 6
-    },
-    {
-      "title": "Watch US score first 2 goals in Seattle World Cup game",
-      "link": "https://sports.mynorthwest.com/seattle-sports-pit/watch-us-scores-1st-goal-in-seattle-world-cup-game",
-      "pubDate": "Fri, 19 Jun 2026 19:30:55 +0000",
-      "isoDate": "2026-06-19T19:30:55.000Z",
-      "excerpt": "The U.S. sent the packed Seattle World Cup crowd at Lumen Field into a frenzy with an early goal to take a 1-0 lead against Australia.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
     },
     {
       "title": "Series Preview: Mariners (39-37) vs. Red Sox (29-43)",
@@ -599,16 +609,6 @@
       "pubDate": "Fri, 05 Jun 2026 19:00:15 +0000",
       "isoDate": "2026-06-05T19:00:15.000Z",
       "excerpt": "JUNE 5: Hall’s contract includes $15.27MM guaranteed at signing, according to OverTheCap. An additional $4.2MM will become fully guaranteed five days after Super Bowl LXI, per Spotrac. Another $1.5MM will lock in five...",
-      "source": "Pro Football Rumors",
-      "team": "seahawks",
-      "priority": 2
-    },
-    {
-      "title": "Russell Wilson Announces Retirement",
-      "link": "https://www.profootballrumors.com/2026/06/russell-wilson-announces-retirement",
-      "pubDate": "Thu, 04 Jun 2026 04:30:09 +0000",
-      "isoDate": "2026-06-04T04:30:09.000Z",
-      "excerpt": "On Monday, it was reported Russell Wilson would spend the 2026 season as an analyst for CBS. That news obviously suggested his playing days were over, and that has now been confirmed. On Wednesday, Wilson posted a video...",
       "source": "Pro Football Rumors",
       "team": "seahawks",
       "priority": 2
