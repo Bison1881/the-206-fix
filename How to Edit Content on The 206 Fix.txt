@@ -1,0 +1,70 @@
+# How to Edit Content on The 206 Fix
+
+**The core idea:** You edit files on your computer, then push them to GitHub. Vercel rebuilds the site automatically. There's no website login or dashboard, your project folder *is* the back end.
+
+## The basic loop (every edit follows this)
+
+- Open the project in Notepad++ (`C:\Users\Tim_W\the-206-fix`)
+- Make your change (see the specific tasks below)
+- Save the file
+- In PowerShell, from the project folder, run:
+  - `git add .`
+  - `git commit -am "short description of what changed"`
+  - `git pull --rebase`
+  - `git push`
+- Wait ~1-2 minutes for Vercel to rebuild, then check the live site
+
+## To publish a new column/article
+
+- Go to `src/content/articles/`
+- Copy `_TEMPLATE.md`, rename the copy (e.g. `mariners-rebuild.md`)
+- Fill in the fields at the top (title, deck, publishDate, tag, team, etc.)
+- Write your article below the second `---`
+- Set `draft: false` when ready to go live
+- Push (the basic loop above)
+
+## To publish a new retro/episode post
+
+- Go to `src/content/retro/`
+- Copy `_TEMPLATE.md`, rename the copy (e.g. `tecmo-week-04.md`)
+- Fill in the fields (title, youtubeId, episodeNumber, game, series, etc.)
+- Write your few sentences below the second `---`
+- Set `draft: false`
+- Push
+
+## To update the ticker (scores and quips)
+
+- Open `src/data/ticker.ts`
+- Add or edit items in the list, each is `kind: 'score'` or `kind: 'note'`, with optional `href` link
+- (Your latest posts auto-appear as headlines; you only hand-write scores and jokes here)
+- Push
+
+## To edit an existing post
+
+- Open the specific `.md` file in `src/content/articles/` or `src/content/retro/`
+- Edit the text directly
+- Push
+
+## To change your bio or byline
+
+- Open `src/config.ts`
+- Edit `DEFAULT_AUTHOR_BIO` (bio) or `DEFAULT_AUTHOR` (the byline name)
+- Push
+
+## To set the front-page lead story
+
+- Open the article you want as the lead
+- Set `lead: true` in its frontmatter
+- Make sure no other article has `lead: true` (only one at a time)
+- Push
+
+## Key reminders
+
+- **`draft: true` hides a post** — set it to `false` to publish
+- **Files starting with `_` never publish** — copy the templates, don't edit them in place
+- **Only one article** should have `lead: true` at a time
+- **Use `git commit -am`**, not `git commit -a` (the latter opens a broken editor)
+- **Always `git pull --rebase` before pushing** (the news bot commits between your pushes)
+- **You never manually update** the home page, archives, team pages, RSS feed, author page, or ticker headlines, publishing a post updates all of them automatically
+
+For the full routine, see `WORKFLOW.md` in your project root.
