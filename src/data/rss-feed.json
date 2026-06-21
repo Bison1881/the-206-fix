@@ -1,9 +1,29 @@
 {
-  "generatedAt": "2026-06-21T17:25:19.060Z",
+  "generatedAt": "2026-06-21T19:25:42.146Z",
   "sourceCount": 10,
   "successfulSources": 10,
   "failedSources": [],
   "items": [
+    {
+      "title": "Kraken trade 25th overall pick, conditional 2nd rounder for F Mackie Samoskevich",
+      "link": "https://www.davyjoneslockerroom.com/kraken-trade-25th-overall-pick-conditional-2nd-rounder-for-f-mackie-samoskevich/",
+      "pubDate": "Sun, 21 Jun 2026 18:54:56 +0000",
+      "isoDate": "2026-06-21T18:54:56.000Z",
+      "excerpt": "Let’s set the scene with an appropriate song. The Seattle Kraken announced today that they have traded their 25th overall pick this year and a conditional 2nd round for 2027 (which is either going to be Winnipeg or...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
+      "title": "Lamine Yamal scores 10 minutes into his first World Cup start and gives Spain liftoff",
+      "link": "https://www.seattletimes.com/sports/world-cup/spain-star-lamine-yamal-scores-10-minutes-into-his-first-world-cup-start/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Sun, 21 Jun 2026 11:44:53 -0700",
+      "isoDate": "2026-06-21T18:44:53.000Z",
+      "excerpt": "Teenage superstar Yamal scored 10 minutes into his first start on soccer’s biggest stage and Spain kickstarted its campaign with the 4-0 demolition of Saudi Arabia.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
     {
       "title": "Seattle Kraken acquire Mackie Samoskevich in trade with Florida Panthers",
       "link": "https://www.seattletimes.com/sports/kraken/seattle-kraken-acquire-mackie-samoskevich-in-trade-with-florida-panthers/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
@@ -15,11 +35,11 @@
       "priority": 1
     },
     {
-      "title": "Kraken Expected To Acquire Mackie Samoskevich",
-      "link": "https://www.prohockeyrumors.com/2026/06/kraken-expected-to-acquire-mackie-samoskevich.html",
+      "title": "Kraken Acquire Mackie Samoskevich",
+      "link": "https://www.prohockeyrumors.com/2026/06/kraken-acquire-mackie-samoskevich.html",
       "pubDate": "Sun, 21 Jun 2026 16:48:50 +0000",
       "isoDate": "2026-06-21T16:48:50.000Z",
-      "excerpt": "The Kraken are finalizing a trade that will see them acquire winger Mackie Samoskevich from the Panthers, David Pagnotta of The Fourth Period reports Sunday. Seattle is sending the 25th overall pick in this year’s draft...",
+      "excerpt": "The Kraken have acquired winger Mackie Samoskevich from the Panthers. Seattle is sending the 25th overall pick in this year’s draft plus a conditional second-rounder in 2027 the other way. Both Seattle and Florida have...",
       "source": "Pro Hockey Rumors",
       "team": "kraken",
       "priority": 2
@@ -79,7 +99,7 @@
       "link": "https://www.seattletimes.com/sports/mariners/five-pressing-questions-facing-mariners-at-seasons-midpoint/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
       "pubDate": "Sun, 21 Jun 2026 06:00:00 -0700",
       "isoDate": "2026-06-21T13:00:00.000Z",
-      "excerpt": "The Mariners will reach the halfway point of the season when the begin a six-game road trip Tuesday. Here are five questions to get you ready for the second half.",
+      "excerpt": "The Mariners will reach the halfway point of the season Wednesday in Pittsburgh during a six-game road trip. Here are five questions to get you ready for the second half.",
       "source": "Seattle Times Sports",
       "team": "general",
       "priority": 1
@@ -123,16 +143,6 @@
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
-    },
-    {
-      "title": "Torrent re-sign forward David",
-      "link": "https://www.seattletimes.com/sports/torrent-re-sign-forward-david/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sat, 20 Jun 2026 23:03:00 -0700",
-      "isoDate": "2026-06-21T06:03:00.000Z",
-      "excerpt": "Forward Gabrielle David has been re-signed to a two-year Professional Women’s Hockey League standard player agreement through the 2027-28 season, the Seattle Torrent announced Saturday. The signing was made during the...",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
     },
     {
       "title": "Mariners all wrong against another lefty, lose 5-1 to Sox",
@@ -590,16 +600,6 @@
       "pubDate": "Mon, 15 Jun 2026 03:05:05 +0000",
       "isoDate": "2026-06-15T03:05:05.000Z",
       "excerpt": "Seahawks running back Zach Charbonnet is just five months removed from tearing his ACL in a January playoff win over the 49ers, but he is not a lock to miss time in 2026. Head coach Mike Macdonald isn’t closing the door...",
-      "source": "Pro Football Rumors",
-      "team": "seahawks",
-      "priority": 2
-    },
-    {
-      "title": "Seahawks TE AJ Barner ‘Feeling Good’ After Surgeries",
-      "link": "https://www.profootballrumors.com/2026/06/seahawks-te-aj-barner-feeling-good-after-surgeries",
-      "pubDate": "Mon, 15 Jun 2026 02:06:24 +0000",
-      "isoDate": "2026-06-15T02:06:24.000Z",
-      "excerpt": "Through two years of NFL play, Seahawks tight end AJ Barner has not missed a single game. That doesn’t mean he’s been perfectly healthy. After undergoing two surgeries a week after the team’s Super Bowl LX parade,...",
       "source": "Pro Football Rumors",
       "team": "seahawks",
       "priority": 2
