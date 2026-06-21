@@ -1,38 +1,37 @@
 {
-  "generatedAt": "2026-06-21T19:25:42.146Z",
+  "generatedAt": "2026-06-21T21:10:58.169Z",
   "sourceCount": 10,
-  "successfulSources": 10,
-  "failedSources": [],
+  "successfulSources": 8,
+  "failedSources": [
+    {
+      "source": "Seattle Times Sports",
+      "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
+    },
+    {
+      "source": "Davy Jones' Locker Room",
+      "error": "Status code 415 (lenient retry: Status code 415)"
+    }
+  ],
   "items": [
     {
-      "title": "Kraken trade 25th overall pick, conditional 2nd rounder for F Mackie Samoskevich",
-      "link": "https://www.davyjoneslockerroom.com/kraken-trade-25th-overall-pick-conditional-2nd-rounder-for-f-mackie-samoskevich/",
-      "pubDate": "Sun, 21 Jun 2026 18:54:56 +0000",
-      "isoDate": "2026-06-21T18:54:56.000Z",
-      "excerpt": "Let’s set the scene with an appropriate song. The Seattle Kraken announced today that they have traded their 25th overall pick this year and a conditional 2nd round for 2027 (which is either going to be Winnipeg or...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
+      "title": "Mariners Game Preview and Discussion: Red Sox at Mariners",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-game-information/145141/mariners-game-preview-and-discussion-red-sox-at-mariners",
+      "pubDate": "2026-06-21T19:45:00.000Z",
+      "isoDate": "2026-06-21T19:45:00.000Z",
+      "excerpt": "Apr 22, 2026; Seattle, Washington, USA; Seattle Mariners starting pitcher Logan Gilbert (36) juggles the ball after hitting an Athletics batter during the third inning at T-Mobile Park. Mandatory Credit: Joe...",
+      "source": "Lookout Landing",
+      "team": "mariners",
       "priority": 1
     },
     {
-      "title": "Lamine Yamal scores 10 minutes into his first World Cup start and gives Spain liftoff",
-      "link": "https://www.seattletimes.com/sports/world-cup/spain-star-lamine-yamal-scores-10-minutes-into-his-first-world-cup-start/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sun, 21 Jun 2026 11:44:53 -0700",
-      "isoDate": "2026-06-21T18:44:53.000Z",
-      "excerpt": "Teenage superstar Yamal scored 10 minutes into his first start on soccer’s biggest stage and Spain kickstarted its campaign with the 4-0 demolition of Saudi Arabia.",
-      "source": "Seattle Times Sports",
+      "title": "Stelton: J.P. Crawford again shows immense leadership for Mariners",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/stelton-j-p-crawford-immense-leadership-seattle-mariners",
+      "pubDate": "Sun, 21 Jun 2026 19:05:05 +0000",
+      "isoDate": "2026-06-21T19:05:05.000Z",
+      "excerpt": "\"He's got the respect of that entire clubhouse,\" Bob Stelton said of Crawford following his move to third base.",
+      "source": "710 Seattle Sports",
       "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Seattle Kraken acquire Mackie Samoskevich in trade with Florida Panthers",
-      "link": "https://www.seattletimes.com/sports/kraken/seattle-kraken-acquire-mackie-samoskevich-in-trade-with-florida-panthers/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sun, 21 Jun 2026 10:03:59 -0700",
-      "isoDate": "2026-06-21T17:03:59.000Z",
-      "excerpt": "The Kraken made their first deal of the summer, acquiring 23-year-old forward Mackie Samoskevich from the Florida Panthers.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
+      "priority": 3
     },
     {
       "title": "Kraken Acquire Mackie Samoskevich",
@@ -43,16 +42,6 @@
       "source": "Pro Hockey Rumors",
       "team": "kraken",
       "priority": 2
-    },
-    {
-      "title": "World Cup fans in the U.S. are sightseeing at … Buc-ee’s and Bass Pro Shops?",
-      "link": "https://www.seattletimes.com/nation-world/nation/world-cup-fans-in-the-u-s-are-sightseeing-at-buc-ees-and-bass-pro-shops/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sun, 21 Jun 2026 07:01:02 -0700",
-      "isoDate": "2026-06-21T14:01:02.000Z",
-      "excerpt": "Social media dispatches from travelers headed to matches appreciate the more mundane parts of American life. They’re a hit.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
     },
     {
       "title": "SBNation Reacts results: Seahawks fans believe Jadarian Price will outrush Jeremiyah Love in 2026",
@@ -75,46 +64,6 @@
       "priority": 1
     },
     {
-      "title": "Mariners coach Adam Bernero turned pain into purpose, now changes players’ careers",
-      "link": "https://www.seattletimes.com/sports/mariners/mariners-coach-adam-bernero-turned-pain-into-purpose-now-changes-players-careers/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sun, 21 Jun 2026 06:00:00 -0700",
-      "isoDate": "2026-06-21T13:00:00.000Z",
-      "excerpt": "Mariners mental performance coach Adam Bernero has changed players' careers. “He’s paying it forward to the next generation,\" pitcher Logan Gilbert says.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Eli Herst, Seattle Academy’s towering pitcher, has attention of MLB scouts",
-      "link": "https://www.seattletimes.com/sports/high-school/eli-herst-seattle-academys-towering-pitcher-has-attention-of-mlb-scouts/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sun, 21 Jun 2026 06:00:00 -0700",
-      "isoDate": "2026-06-21T13:00:00.000Z",
-      "excerpt": "Armed with a 93-mph and five-pitch mix, Seattle Academy's Eli Herst is expected to pitch for one of college baseball's top programs next year unless the MLB draft comes calling first.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Five pressing questions facing Mariners at season’s midpoint",
-      "link": "https://www.seattletimes.com/sports/mariners/five-pressing-questions-facing-mariners-at-seasons-midpoint/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sun, 21 Jun 2026 06:00:00 -0700",
-      "isoDate": "2026-06-21T13:00:00.000Z",
-      "excerpt": "The Mariners will reach the halfway point of the season Wednesday in Pittsburgh during a six-game road trip. Here are five questions to get you ready for the second half.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "World Cup schedule Sunday, June 21: Here’s what and where to watch",
-      "link": "https://www.seattletimes.com/sports/world-cup/world-cup-schedule-sunday-june-21-heres-what-and-where-to-watch/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sun, 21 Jun 2026 06:00:00 -0700",
-      "isoDate": "2026-06-21T13:00:00.000Z",
-      "excerpt": "Here is the World Cup schedule for Sunday and the details on how to watch.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "Seahawks News 6/21: Dante Fowler and the potential of the 2026 Seahawks D",
       "link": "https://www.fieldgulls.com/seattle-seahawks-news/169812/seahawks-news-6-21-dante-fowler-and-the-potential-of-the-2026-seahawks-d",
       "pubDate": "2026-06-21T13:00:00.000Z",
@@ -122,16 +71,6 @@
       "excerpt": "Jun 9, 2026; Renton, WA, USA; Seattle Seahawks linebacker Dante Fowler (56) runs a drill against tackle Uso Seumalo (92) during minicamp at Virginia Mason Athletic Center. Mandatory Credit: Steven Bisig-Imagn Images |...",
       "source": "Field Gulls",
       "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "Ayase Ueda scores twice in Japan’s 4-0 win against Tunisia in 1,000th men’s World Cup match",
-      "link": "https://www.seattletimes.com/sports/world-cup/2026-world-cup-ayase-ueda-scores-twice-in-japans-4-0-win-over-tunisia/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sat, 20 Jun 2026 23:32:19 -0700",
-      "isoDate": "2026-06-21T06:32:19.000Z",
-      "excerpt": "Japan moved closer to the World Cup knockout stages after defeating Tunisia 4-0 in Group F.",
-      "source": "Seattle Times Sports",
-      "team": "general",
       "priority": 1
     },
     {
@@ -265,16 +204,6 @@
       "priority": 3
     },
     {
-      "title": "Mariners prospect Kade Anderson extends long scoreless streak",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-prospect-kade-anderson-extends-long-scoreless-streak",
-      "pubDate": "Sat, 20 Jun 2026 20:00:32 +0000",
-      "isoDate": "2026-06-20T20:00:32.000Z",
-      "excerpt": "The highly touted M's pitching prospect spun yet another gem at Double-A Arkansas.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
       "title": "Mariners Outright Curtis Washington Jr.",
       "link": "https://www.mlbtraderumors.com/2026/06/mariners-outright-curtis-washington-jr.html",
       "pubDate": "Sat, 20 Jun 2026 18:19:13 +0000",
@@ -360,16 +289,6 @@
       "pubDate": "2026-06-20T04:34:36.000Z",
       "isoDate": "2026-06-20T04:34:36.000Z",
       "excerpt": "Jun 19, 2026; Seattle, Washington, USA; Boston Red Sox infielder Caleb Durbin (5) celebrates in the dugout after hitting a home run in the second inning against the Seattle Mariners at T-Mobile Park. Mandatory Credit:...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "Mariners Game Preview and Discussion: Boston Red Sox at Seattle Mariners",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-game-information/145095/mariners-game-preview-and-discussion-boston-red-sox-at-seattle-mariners",
-      "pubDate": "2026-06-20T01:45:00.000Z",
-      "isoDate": "2026-06-20T01:45:00.000Z",
-      "excerpt": "Aug 11, 2023; Seattle, Washington, USA; Seattle Mariners starting pitcher Luis Castillo (58) and pitcher Bryce Miller (50) prior to a game against the Baltimore Orioles at T-Mobile Park. Mandatory Credit: Steven...",
       "source": "Lookout Landing",
       "team": "mariners",
       "priority": 1
@@ -485,16 +404,6 @@
       "priority": 2
     },
     {
-      "title": "PWHL Draft Recap: Torrent add goalscoring and controversy to their roster",
-      "link": "https://www.davyjoneslockerroom.com/pwhl-draft-recap-torrent-add-goalscoring-and-controversy-to-their-roster/",
-      "pubDate": "Thu, 18 Jun 2026 13:45:00 +0000",
-      "isoDate": "2026-06-18T13:45:00.000Z",
-      "excerpt": "The PWHL Draft concluded yesterday, with a bunch of depleted lineups changing hopefully for the better with the additions of fresh new talent from all across the globe. 2nd Overall Pick: Abbey Murphy – F Hometown:...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
-    },
-    {
       "title": "Royals Acquire Randy Dobnak",
       "link": "https://www.mlbtraderumors.com/2026/06/royals-to-acquire-randy-dobnak.html",
       "pubDate": "Wed, 17 Jun 2026 23:52:54 +0000",
@@ -600,6 +509,106 @@
       "pubDate": "Mon, 15 Jun 2026 03:05:05 +0000",
       "isoDate": "2026-06-15T03:05:05.000Z",
       "excerpt": "Seahawks running back Zach Charbonnet is just five months removed from tearing his ACL in a January playoff win over the 49ers, but he is not a lock to miss time in 2026. Head coach Mike Macdonald isn’t closing the door...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
+      "priority": 2
+    },
+    {
+      "title": "Seahawks TE AJ Barner ‘Feeling Good’ After Surgeries",
+      "link": "https://www.profootballrumors.com/2026/06/seahawks-te-aj-barner-feeling-good-after-surgeries",
+      "pubDate": "Mon, 15 Jun 2026 02:06:24 +0000",
+      "isoDate": "2026-06-15T02:06:24.000Z",
+      "excerpt": "Through two years of NFL play, Seahawks tight end AJ Barner has not missed a single game. That doesn’t mean he’s been perfectly healthy. After undergoing two surgeries a week after the team’s Super Bowl LX parade,...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
+      "priority": 2
+    },
+    {
+      "title": "Todd Boehly Considering Seahawks Ownership Bid",
+      "link": "https://www.profootballrumors.com/2026/06/todd-boehly-considering-seahawks-ownership-bid",
+      "pubDate": "Sat, 13 Jun 2026 17:39:06 +0000",
+      "isoDate": "2026-06-13T17:39:06.000Z",
+      "excerpt": "Another billionaire has entered the fray to be the new owner of the Seahawks. Todd Boehly, CEO of holding company Eldridge Industries, is considering a bid to own Seattle’s NFL team, per Semafor’s Liz Offman. The...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
+      "priority": 2
+    },
+    {
+      "title": "'Let's Have A Blast!' Seahawks Celebrate Championship Season With Super Bowl Rings",
+      "link": "https://www.seahawks.com/news/let-s-have-a-blast-seahawks-celebrate-championship-season-with-super-bowl-rings",
+      "pubDate": "Fri, 12 Jun 2026 18:24:35 GMT",
+      "isoDate": "2026-06-12T18:24:35.000Z",
+      "excerpt": "The Seahawks received their Super Bowl rings on Thursday night and celebrated accordingly.",
+      "source": "Seahawks.com",
+      "team": "seahawks",
+      "priority": 6
+    },
+    {
+      "title": "Seattle Seahawks Unveil Super Bowl LX Championship Ring, Created By Renowned Jeweler Jason Of Beverly Hills",
+      "link": "https://www.seahawks.com/news/seattle-seahawks-unveil-super-bowl-lx-championship-ring-created-by-renowned-jeweler-jason-of-beverly-hills",
+      "pubDate": "Fri, 12 Jun 2026 03:24:00 GMT",
+      "isoDate": "2026-06-12T03:24:00.000Z",
+      "excerpt": "Ring features a dazzling display of white diamonds and Seahawks blue sapphires, with one of the most technically advanced features ever incorporated into a Super Bowl ring",
+      "source": "Seahawks.com",
+      "team": "seahawks",
+      "priority": 6
+    },
+    {
+      "title": "Seahawks Finish Off Minicamp & Prepare For Super Bowl Ring Ceremony",
+      "link": "https://www.seahawks.com/news/seahawks-finish-off-minicamp-prepare-for-super-bowl-ring-ceremony",
+      "pubDate": "Thu, 11 Jun 2026 21:28:50 GMT",
+      "isoDate": "2026-06-11T21:28:50.000Z",
+      "excerpt": "The Seahawks finished their three-day minicamp and prepare for the Super Bowl ring ceremony as a way to closeout their 2025 chapter.",
+      "source": "Seahawks.com",
+      "team": "seahawks",
+      "priority": 6
+    },
+    {
+      "title": "Defensive End Cassius Marsh Retires A Seahawk",
+      "link": "https://www.seahawks.com/news/defensive-end-cassius-marsh-retires-a-seahawk",
+      "pubDate": "Thu, 11 Jun 2026 19:16:37 GMT",
+      "isoDate": "2026-06-11T19:16:37.000Z",
+      "excerpt": "The former defensive end, Cassius Marsh, retired on Thursday.",
+      "source": "Seahawks.com",
+      "team": "seahawks",
+      "priority": 6
+    },
+    {
+      "title": "Afternoon Notes: Tuch, Andersson, Kraken Hires",
+      "link": "https://www.prohockeyrumors.com/2026/06/afternoon-notes-tuch-andersson-kraken-hires.html",
+      "pubDate": "Thu, 11 Jun 2026 17:07:59 +0000",
+      "isoDate": "2026-06-11T17:07:59.000Z",
+      "excerpt": "According to Pierre LeBrun of The Athletic, Alex Tuch appears more likely to be heading to the open market. The 30-year-old winger ended his 2025-26 season scoring 33 goals for 66 points in 79 games played with the...",
+      "source": "Pro Hockey Rumors",
+      "team": "kraken",
+      "priority": 2
+    },
+    {
+      "title": "Max McCormick Announces Retirement",
+      "link": "https://www.prohockeyrumors.com/2026/06/max-mccormick-announces-retirement.html",
+      "pubDate": "Wed, 10 Jun 2026 22:01:06 +0000",
+      "isoDate": "2026-06-10T22:01:06.000Z",
+      "excerpt": "According to an announcement from the AHL’s Coachella Valley Firebirds, captain Max McCormick has retired from professional hockey. McCormick lost the entire 2025-26 campaign due to a hip injury, and that likely...",
+      "source": "Pro Hockey Rumors",
+      "team": "kraken",
+      "priority": 2
+    },
+    {
+      "title": "Minor NFL Transactions: 6/8/26",
+      "link": "https://www.profootballrumors.com/2026/06/minor-nfl-transactions-6-8-26",
+      "pubDate": "Tue, 09 Jun 2026 00:01:55 +0000",
+      "isoDate": "2026-06-09T00:01:55.000Z",
+      "excerpt": "Four teams made minor moves on Monday. Here’s a look… Carolina Panthers Signed: WR Malick Meiga Waived: TE Heinrich Haarberg New York Jets Signed: WR Jalen Walthall Waived/injured: Quentin Skinner Seattle Seahawks...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
+      "priority": 2
+    },
+    {
+      "title": "Seahawks Work Out S Ifeatu Melifonwu",
+      "link": "https://www.profootballrumors.com/2026/06/seahawks-work-out-s-ifeatu-melifonwu",
+      "pubDate": "Mon, 08 Jun 2026 22:03:07 +0000",
+      "isoDate": "2026-06-08T22:03:07.000Z",
+      "excerpt": "The Seahawks worked out free agent safety Ifeatu Melifonwu on Monday, Mike Garafolo of NFL Network relays. No deal is imminent, per Garafolo. Melifonwu became a free agent in March, but this is the first reported...",
       "source": "Pro Football Rumors",
       "team": "seahawks",
       "priority": 2
