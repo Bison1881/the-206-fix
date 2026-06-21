@@ -1,19 +1,14 @@
 {
-  "generatedAt": "2026-06-21T08:27:05.078Z",
+  "generatedAt": "2026-06-21T12:09:30.427Z",
   "sourceCount": 10,
-  "successfulSources": 10,
-  "failedSources": [],
-  "items": [
+  "successfulSources": 9,
+  "failedSources": [
     {
-      "title": "Ayase Ueda scores twice in Japan’s 4-0 win against Tunisia in 1,000th men’s World Cup match",
-      "link": "https://www.seattletimes.com/sports/world-cup/2026-world-cup-ayase-ueda-scores-twice-in-japans-4-0-win-over-tunisia/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sat, 20 Jun 2026 23:32:19 -0700",
-      "isoDate": "2026-06-21T06:32:19.000Z",
-      "excerpt": "Japan moved closer to the World Cup knockout stages after defeating Tunisia 4-0 in Group F.",
       "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
+      "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
+    }
+  ],
+  "items": [
     {
       "title": "MLS commish: Vancouver needs new stadium to keep Whitecaps",
       "link": "https://sports.mynorthwest.com/mls/seattle-sounders-fc/mls-commissioner-vancouver-needs-new-stadium-to-keep-whitecaps",
@@ -23,16 +18,6 @@
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
-    },
-    {
-      "title": "Torrent re-sign forward David",
-      "link": "https://www.seattletimes.com/sports/torrent-re-sign-forward-david/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sat, 20 Jun 2026 23:03:00 -0700",
-      "isoDate": "2026-06-21T06:03:00.000Z",
-      "excerpt": "Forward Gabrielle David has been re-signed to a two-year Professional Women’s Hockey League standard player agreement through the 2027-28 season, the Seattle Torrent announced Saturday. The signing was made during the...",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
     },
     {
       "title": "Mariners all wrong against another lefty, lose 5-1 to Sox",
@@ -65,16 +50,6 @@
       "priority": 3
     },
     {
-      "title": "Mariners muster only two hits in lackluster loss to Red Sox",
-      "link": "https://www.seattletimes.com/sports/mariners/mariners-muster-only-two-hits-in-lackluster-loss-to-red-sox/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sat, 20 Jun 2026 21:56:33 -0700",
-      "isoDate": "2026-06-21T04:56:33.000Z",
-      "excerpt": "The Mariners managed just two hits and provided little to cheer about in a lackluster 5-1 loss to the Red Sox.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "Longtime friends Hancock and Gilbert get a kick out of watching their sons bond",
       "link": "https://www.mlb.com/mariners/news/emerson-hancock-and-logan-gilbert-sharing-joy-of-fatherhood",
       "pubDate": "Sun, 21 Jun 2026 04:49:43 GMT",
@@ -95,26 +70,6 @@
       "priority": 1
     },
     {
-      "title": "Photos: Seattle Mariners take on Boston Red Sox",
-      "link": "https://www.seattletimes.com/sports/mariners/photos-seattle-mariners-take-on-boston-red-sox-2/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sat, 20 Jun 2026 20:18:28 -0700",
-      "isoDate": "2026-06-21T03:18:28.000Z",
-      "excerpt": "",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Curacao’s Eloy Room makes 15 saves, sends island nation to 0-0 draw with Ecuador in World Cup",
-      "link": "https://www.seattletimes.com/sports/world-cup/world-cup-2026-curacaos-eloy-room-makes-15-saves-sends-island-nation-to-0-0-draw-with-ecuador/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sat, 20 Jun 2026 19:33:16 -0700",
-      "isoDate": "2026-06-21T02:33:16.000Z",
-      "excerpt": "Curacao goalkeeper Eloy Room made 15 saves against Ecuador on Saturday night, earning a 0-0 draw and the island's first-ever World Cup point.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "Mariners Game #78 Preview and Discussion: 6/20, BOS at SEA",
       "link": "https://www.lookoutlanding.com/seattle-mariners-discussion/145119/mariners-game-78-preview-and-discussion-6-20-bos-at-sea",
       "pubDate": "2026-06-21T01:10:00.000Z",
@@ -122,26 +77,6 @@
       "excerpt": "Speaking of Red Sox southpaws (Photo by Billie Weiss/Boston Red Sox/Getty Images) | Getty Images After taking until the seventh inning to record their first hit last night, the Mariners will look to bounce back today....",
       "source": "Lookout Landing",
       "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "Mariners prospect Kade Anderson nearly flawless in latest Double-A start",
-      "link": "https://www.seattletimes.com/sports/mariners/mariners-prospect-kade-anderson-nearly-flawless-in-latest-double-a-start/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sat, 20 Jun 2026 17:56:38 -0700",
-      "isoDate": "2026-06-21T00:56:38.000Z",
-      "excerpt": "Mariners prospect Kade Anderson was nearly flawless again Friday night for Double-A Arkansas, allowing just two hits over six shutout innings in a 4-0 victory.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Can USA soccer win the World Cup? Logic says no, but the vibes scream yes",
-      "link": "https://www.seattletimes.com/sports/world-cup/can-usa-soccer-win-the-world-cup-logic-says-no-but-the-vibes-scream-yes/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sat, 20 Jun 2026 17:29:47 -0700",
-      "isoDate": "2026-06-21T00:29:47.000Z",
-      "excerpt": "The U.S. is playing the best, or at least close to the best it ever has, and it's all happening on its home soil. Can they win the World Cup?",
-      "source": "Seattle Times Sports",
-      "team": "general",
       "priority": 1
     },
     {
@@ -163,16 +98,6 @@
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
-    },
-    {
-      "title": "Undav scores twice as Germany beats Ivory Coast 2-1, advances to World Cup knockout phase",
-      "link": "https://www.seattletimes.com/sports/world-cup/undav-scores-twice-as-germany-beats-ivory-coast-2-1-advances-to-world-cup-knockout-phase/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sat, 20 Jun 2026 16:25:47 -0700",
-      "isoDate": "2026-06-20T23:25:47.000Z",
-      "excerpt": "Deniz Undav scored twice after being subbed on in the second half as Germany defeated Ivory Coast and clinched a spot in the knockout phase at the World Cup.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
     },
     {
       "title": "Storm fall to Mercury 93-73 for 10th straight loss",
@@ -603,6 +528,86 @@
       "source": "Pro Football Rumors",
       "team": "seahawks",
       "priority": 2
+    },
+    {
+      "title": "'Let's Have A Blast!' Seahawks Celebrate Championship Season With Super Bowl Rings",
+      "link": "https://www.seahawks.com/news/let-s-have-a-blast-seahawks-celebrate-championship-season-with-super-bowl-rings",
+      "pubDate": "Fri, 12 Jun 2026 18:24:35 GMT",
+      "isoDate": "2026-06-12T18:24:35.000Z",
+      "excerpt": "The Seahawks received their Super Bowl rings on Thursday night and celebrated accordingly.",
+      "source": "Seahawks.com",
+      "team": "seahawks",
+      "priority": 6
+    },
+    {
+      "title": "Kraken add Patrik Allvin as Assistant GM, add Pascal Vincent as Assistant Coach",
+      "link": "https://www.davyjoneslockerroom.com/kraken-add-patrik-allvin-as-assistant-gm-add-pascal-vincent-as-assistant-coach/",
+      "pubDate": "Fri, 12 Jun 2026 05:04:14 +0000",
+      "isoDate": "2026-06-12T05:04:14.000Z",
+      "excerpt": "The plot for both Lane Lambert and Jason Botterill thickens today, as the Kraken have added to their front office with the additions of names both slightly known and slightly unknown. Alison Lukan broke the story: The...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
+      "title": "Seattle Seahawks Unveil Super Bowl LX Championship Ring, Created By Renowned Jeweler Jason Of Beverly Hills",
+      "link": "https://www.seahawks.com/news/seattle-seahawks-unveil-super-bowl-lx-championship-ring-created-by-renowned-jeweler-jason-of-beverly-hills",
+      "pubDate": "Fri, 12 Jun 2026 03:24:00 GMT",
+      "isoDate": "2026-06-12T03:24:00.000Z",
+      "excerpt": "Ring features a dazzling display of white diamonds and Seahawks blue sapphires, with one of the most technically advanced features ever incorporated into a Super Bowl ring",
+      "source": "Seahawks.com",
+      "team": "seahawks",
+      "priority": 6
+    },
+    {
+      "title": "Christine Bumstead Named Head Coach of the Seattle Torrent",
+      "link": "https://www.davyjoneslockerroom.com/christine-bumstead-named-head-coach-of-the-seattle-torrent/",
+      "pubDate": "Fri, 12 Jun 2026 02:12:29 +0000",
+      "isoDate": "2026-06-12T02:12:29.000Z",
+      "excerpt": "The Seattle Torrent named Christine Bumstead as the head coach for the franchise’s second year. Bumstead was an assistant coach during the team’s inaugural season and takes over the role from Steve O’Rourke who was let...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
+      "title": "Seahawks Finish Off Minicamp & Prepare For Super Bowl Ring Ceremony",
+      "link": "https://www.seahawks.com/news/seahawks-finish-off-minicamp-prepare-for-super-bowl-ring-ceremony",
+      "pubDate": "Thu, 11 Jun 2026 21:28:50 GMT",
+      "isoDate": "2026-06-11T21:28:50.000Z",
+      "excerpt": "The Seahawks finished their three-day minicamp and prepare for the Super Bowl ring ceremony as a way to closeout their 2025 chapter.",
+      "source": "Seahawks.com",
+      "team": "seahawks",
+      "priority": 6
+    },
+    {
+      "title": "Defensive End Cassius Marsh Retires A Seahawk",
+      "link": "https://www.seahawks.com/news/defensive-end-cassius-marsh-retires-a-seahawk",
+      "pubDate": "Thu, 11 Jun 2026 19:16:37 GMT",
+      "isoDate": "2026-06-11T19:16:37.000Z",
+      "excerpt": "The former defensive end, Cassius Marsh, retired on Thursday.",
+      "source": "Seahawks.com",
+      "team": "seahawks",
+      "priority": 6
+    },
+    {
+      "title": "Afternoon Notes: Tuch, Andersson, Kraken Hires",
+      "link": "https://www.prohockeyrumors.com/2026/06/afternoon-notes-tuch-andersson-kraken-hires.html",
+      "pubDate": "Thu, 11 Jun 2026 17:07:59 +0000",
+      "isoDate": "2026-06-11T17:07:59.000Z",
+      "excerpt": "According to Pierre LeBrun of The Athletic, Alex Tuch appears more likely to be heading to the open market. The 30-year-old winger ended his 2025-26 season scoring 33 goals for 66 points in 79 games played with the...",
+      "source": "Pro Hockey Rumors",
+      "team": "kraken",
+      "priority": 2
+    },
+    {
+      "title": "Julia Gosling Signs Two-Year Deal With the Torrent",
+      "link": "https://www.davyjoneslockerroom.com/julia-gosling-signs-two-year-deal-with-the-torrent/",
+      "pubDate": "Thu, 11 Jun 2026 04:29:02 +0000",
+      "isoDate": "2026-06-11T04:29:02.000Z",
+      "excerpt": "Julia Gosling rejected a foundational player offer (FPO) to become a key component for the Seattle Torrent next year. She signed a two-year deal and became the first of Seattle’s Phase 3 protections and fourth protected...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
     }
   ]
 }
