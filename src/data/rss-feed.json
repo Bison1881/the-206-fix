@@ -1,18 +1,64 @@
 {
-  "generatedAt": "2026-06-20T23:04:42.321Z",
+  "generatedAt": "2026-06-21T03:51:01.373Z",
   "sourceCount": 10,
-  "successfulSources": 8,
+  "successfulSources": 9,
   "failedSources": [
     {
       "source": "Seattle Times Sports",
       "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
-    },
-    {
-      "source": "Davy Jones' Locker Room",
-      "error": "Status code 415 (lenient retry: Status code 415)"
     }
   ],
   "items": [
+    {
+      "title": "Watch LIVE as Top 100 prospects Farmelo, Celesten look to mash at High-A",
+      "link": "https://www.mlb.com/mariners/news/watch-minor-league-baseball-games-for-free-2026",
+      "pubDate": "Sun, 21 Jun 2026 01:57:00 GMT",
+      "isoDate": "2026-06-21T01:57:00.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Mariners Game #78 Preview and Discussion: 6/20, BOS at SEA",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-discussion/145119/mariners-game-78-preview-and-discussion-6-20-bos-at-sea",
+      "pubDate": "2026-06-21T01:10:00.000Z",
+      "isoDate": "2026-06-21T01:10:00.000Z",
+      "excerpt": "Speaking of Red Sox southpaws (Photo by Billie Weiss/Boston Red Sox/Getty Images) | Getty Images After taking until the seventh inning to record their first hit last night, the Mariners will look to bounce back today....",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Latest Mariners injuries and transactions",
+      "link": "https://www.mlb.com/mariners/news/mariners-injuries-and-roster-moves",
+      "pubDate": "Sun, 21 Jun 2026 00:28:00 GMT",
+      "isoDate": "2026-06-21T00:28:00.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Ex-Mariners OF Jarred Kelenic embarks on latest MLB chance",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/ex-seattle-mariners-jarred-kelenic-embarks-latest-mlb-chance",
+      "pubDate": "Sat, 20 Jun 2026 23:44:10 +0000",
+      "isoDate": "2026-06-20T23:44:10.000Z",
+      "excerpt": "The former Mariners top prospect made his Rangers debut as he looks to turn around his career.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Storm fall to Mercury 93-73 for 10th straight loss",
+      "link": "https://sports.mynorthwest.com/wnba/seattle-storm/seattle-storm-fall-phoenix-mercury-93-73-10th-straight-loss",
+      "pubDate": "Sat, 20 Jun 2026 22:57:18 +0000",
+      "isoDate": "2026-06-20T22:57:18.000Z",
+      "excerpt": "The reeling Storm dropped to 3-14 with their 10th consecutive loss.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
     {
       "title": "NFC Front Office Updates: Seahawks, Saints, Lions",
       "link": "https://www.profootballrumors.com/2026/06/nfc-front-office-updates-seahawks-saints-lions",
@@ -22,6 +68,16 @@
       "source": "Pro Football Rumors",
       "team": "seahawks",
       "priority": 2
+    },
+    {
+      "title": "Ex-Mariners OF’s family now has 3 generations of MLB players",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/former-mariners-jose-cruz-family-3-generations-mlb-players",
+      "pubDate": "Sat, 20 Jun 2026 22:25:48 +0000",
+      "isoDate": "2026-06-20T22:25:48.000Z",
+      "excerpt": "José Cruz Jr.'s family became the fifth in MLB history with three generations of major league players.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
     },
     {
       "title": "Early success has US hopes, expectations soaring at World Cup",
@@ -174,30 +230,10 @@
       "priority": 1
     },
     {
-      "title": "Latest Mariners injuries and transactions",
-      "link": "https://www.mlb.com/mariners/news/mariners-injuries-and-roster-moves",
-      "pubDate": "Sat, 20 Jun 2026 01:37:00 GMT",
-      "isoDate": "2026-06-20T01:37:00.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
-    },
-    {
       "title": "Julio back in lineup as Mariners add righty bat Wilson, DFA Mastrobuoni",
       "link": "https://www.mlb.com/mariners/news/julio-rodriguez-returns-as-mariners-call-up-weston-wilson-dfa-miles-mastrobuoni",
       "pubDate": "Sat, 20 Jun 2026 01:23:34 GMT",
       "isoDate": "2026-06-20T01:23:34.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
-    },
-    {
-      "title": "Watch Top 100 prospects Farmelo Celesten mash at High-A for FREE tonight",
-      "link": "https://www.mlb.com/mariners/news/watch-minor-league-baseball-games-for-free-2026",
-      "pubDate": "Sat, 20 Jun 2026 01:13:00 GMT",
-      "isoDate": "2026-06-20T01:13:00.000Z",
       "excerpt": "",
       "source": "Mariners.com",
       "team": "mariners",
@@ -212,26 +248,6 @@
       "source": "Lookout Landing",
       "team": "mariners",
       "priority": 1
-    },
-    {
-      "title": "Julio returns to Mariners’ lineup, but another regular is out",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/julio-rodriguez-returns-seattle-mariners-lineup-jp-crawford-out",
-      "pubDate": "Fri, 19 Jun 2026 23:21:43 +0000",
-      "isoDate": "2026-06-19T23:21:43.000Z",
-      "excerpt": "Two days after an injury scare for Seattle Mariners All-Star Julio Rodríguez, he's back in the lineup.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "Seattle World Cup: 21-year-old son of NFL legend helps US win",
-      "link": "https://sports.mynorthwest.com/seattle-sports-pit/seattle-world-cup-us-win-alex-freeman-son-nfl-legend",
-      "pubDate": "Fri, 19 Jun 2026 22:52:47 +0000",
-      "isoDate": "2026-06-19T22:52:47.000Z",
-      "excerpt": "Alex Freeman may not have one-upped his famous father yet, but he could be on his way.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
     },
     {
       "title": "Mariners Designate Miles Mastrobuoni For Assignment, Select Weston Wilson",
@@ -252,16 +268,6 @@
       "source": "Field Gulls",
       "team": "seahawks",
       "priority": 1
-    },
-    {
-      "title": "Mariners call up recently signed veteran, DFA Mastrobuoni",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-call-up-weston-wilson-dfa-miles-mastrobuoni",
-      "pubDate": "Fri, 19 Jun 2026 22:23:40 +0000",
-      "isoDate": "2026-06-19T22:23:40.000Z",
-      "excerpt": "Weston Wilson, who was signed by the M's last weekend, joins the 26-man active roster.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
     },
     {
       "title": "Takeaways From The Seahawks' 2026 Offseason Program & Minicamp",
@@ -344,16 +350,6 @@
       "priority": 1
     },
     {
-      "title": "Woo dazzles, Mariners take early lead to win series over Orioles",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/145050/woo-dazzles-mariners-take-early-lead-to-win-series-over-orioles",
-      "pubDate": "2026-06-19T00:36:13.000Z",
-      "isoDate": "2026-06-19T00:36:13.000Z",
-      "excerpt": "It was Bryan Woo’s world and we were all living in it Thursday afternoon. He spun an absolute gem as the M’s take both the rubber game and the season series from the Orioles, 3-0. Woo faltered against the same team in...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
       "title": "Kraken Re-Sign Logan Morrison To One-Year Deal",
       "link": "https://www.prohockeyrumors.com/2026/06/kraken-re-sign-logan-morrison-to-one-year-deal.html",
       "pubDate": "Thu, 18 Jun 2026 23:44:23 +0000",
@@ -392,6 +388,16 @@
       "source": "MLB Trade Rumors",
       "team": "mariners",
       "priority": 2
+    },
+    {
+      "title": "PWHL Draft Recap: Torrent add goalscoring and controversy to their roster",
+      "link": "https://www.davyjoneslockerroom.com/pwhl-draft-recap-torrent-add-goalscoring-and-controversy-to-their-roster/",
+      "pubDate": "Thu, 18 Jun 2026 13:45:00 +0000",
+      "isoDate": "2026-06-18T13:45:00.000Z",
+      "excerpt": "The PWHL Draft concluded yesterday, with a bunch of depleted lineups changing hopefully for the better with the additions of fresh new talent from all across the globe. 2nd Overall Pick: Abbey Murphy – F Hometown:...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
     },
     {
       "title": "Royals Acquire Randy Dobnak",
@@ -534,6 +540,16 @@
       "priority": 6
     },
     {
+      "title": "Kraken add Patrik Allvin as Assistant GM, add Pascal Vincent as Assistant Coach",
+      "link": "https://www.davyjoneslockerroom.com/kraken-add-patrik-allvin-as-assistant-gm-add-pascal-vincent-as-assistant-coach/",
+      "pubDate": "Fri, 12 Jun 2026 05:04:14 +0000",
+      "isoDate": "2026-06-12T05:04:14.000Z",
+      "excerpt": "The plot for both Lane Lambert and Jason Botterill thickens today, as the Kraken have added to their front office with the additions of names both slightly known and slightly unknown. Alison Lukan broke the story: The...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
       "title": "Seattle Seahawks Unveil Super Bowl LX Championship Ring, Created By Renowned Jeweler Jason Of Beverly Hills",
       "link": "https://www.seahawks.com/news/seattle-seahawks-unveil-super-bowl-lx-championship-ring-created-by-renowned-jeweler-jason-of-beverly-hills",
       "pubDate": "Fri, 12 Jun 2026 03:24:00 GMT",
@@ -542,6 +558,16 @@
       "source": "Seahawks.com",
       "team": "seahawks",
       "priority": 6
+    },
+    {
+      "title": "Christine Bumstead Named Head Coach of the Seattle Torrent",
+      "link": "https://www.davyjoneslockerroom.com/christine-bumstead-named-head-coach-of-the-seattle-torrent/",
+      "pubDate": "Fri, 12 Jun 2026 02:12:29 +0000",
+      "isoDate": "2026-06-12T02:12:29.000Z",
+      "excerpt": "The Seattle Torrent named Christine Bumstead as the head coach for the franchise’s second year. Bumstead was an assistant coach during the team’s inaugural season and takes over the role from Steve O’Rourke who was let...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
     },
     {
       "title": "Seahawks Finish Off Minicamp & Prepare For Super Bowl Ring Ceremony",
@@ -574,44 +600,14 @@
       "priority": 2
     },
     {
-      "title": "Max McCormick Announces Retirement",
-      "link": "https://www.prohockeyrumors.com/2026/06/max-mccormick-announces-retirement.html",
-      "pubDate": "Wed, 10 Jun 2026 22:01:06 +0000",
-      "isoDate": "2026-06-10T22:01:06.000Z",
-      "excerpt": "According to an announcement from the AHL’s Coachella Valley Firebirds, captain Max McCormick has retired from professional hockey. McCormick lost the entire 2025-26 campaign due to a hip injury, and that likely...",
-      "source": "Pro Hockey Rumors",
+      "title": "Julia Gosling Signs Two-Year Deal With the Torrent",
+      "link": "https://www.davyjoneslockerroom.com/julia-gosling-signs-two-year-deal-with-the-torrent/",
+      "pubDate": "Thu, 11 Jun 2026 04:29:02 +0000",
+      "isoDate": "2026-06-11T04:29:02.000Z",
+      "excerpt": "Julia Gosling rejected a foundational player offer (FPO) to become a key component for the Seattle Torrent next year. She signed a two-year deal and became the first of Seattle’s Phase 3 protections and fourth protected...",
+      "source": "Davy Jones' Locker Room",
       "team": "kraken",
-      "priority": 2
-    },
-    {
-      "title": "Minor NFL Transactions: 6/8/26",
-      "link": "https://www.profootballrumors.com/2026/06/minor-nfl-transactions-6-8-26",
-      "pubDate": "Tue, 09 Jun 2026 00:01:55 +0000",
-      "isoDate": "2026-06-09T00:01:55.000Z",
-      "excerpt": "Four teams made minor moves on Monday. Here’s a look… Carolina Panthers Signed: WR Malick Meiga Waived: TE Heinrich Haarberg New York Jets Signed: WR Jalen Walthall Waived/injured: Quentin Skinner Seattle Seahawks...",
-      "source": "Pro Football Rumors",
-      "team": "seahawks",
-      "priority": 2
-    },
-    {
-      "title": "Seahawks Work Out S Ifeatu Melifonwu",
-      "link": "https://www.profootballrumors.com/2026/06/seahawks-work-out-s-ifeatu-melifonwu",
-      "pubDate": "Mon, 08 Jun 2026 22:03:07 +0000",
-      "isoDate": "2026-06-08T22:03:07.000Z",
-      "excerpt": "The Seahawks worked out free agent safety Ifeatu Melifonwu on Monday, Mike Garafolo of NFL Network relays. No deal is imminent, per Garafolo. Melifonwu became a free agent in March, but this is the first reported...",
-      "source": "Pro Football Rumors",
-      "team": "seahawks",
-      "priority": 2
-    },
-    {
-      "title": "Seahawks, Derick Hall Agree To Extension",
-      "link": "https://www.profootballrumors.com/2026/06/seahawks-derick-hall-agree-to-extension",
-      "pubDate": "Fri, 05 Jun 2026 19:00:15 +0000",
-      "isoDate": "2026-06-05T19:00:15.000Z",
-      "excerpt": "JUNE 5: Hall’s contract includes $15.27MM guaranteed at signing, according to OverTheCap. An additional $4.2MM will become fully guaranteed five days after Super Bowl LXI, per Spotrac. Another $1.5MM will lock in five...",
-      "source": "Pro Football Rumors",
-      "team": "seahawks",
-      "priority": 2
+      "priority": 1
     }
   ]
 }
