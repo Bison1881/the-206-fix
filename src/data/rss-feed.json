@@ -1,14 +1,39 @@
 {
-  "generatedAt": "2026-06-21T15:49:22.706Z",
+  "generatedAt": "2026-06-21T17:25:19.060Z",
   "sourceCount": 10,
-  "successfulSources": 9,
-  "failedSources": [
-    {
-      "source": "Seattle Times Sports",
-      "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
-    }
-  ],
+  "successfulSources": 10,
+  "failedSources": [],
   "items": [
+    {
+      "title": "Seattle Kraken acquire Mackie Samoskevich in trade with Florida Panthers",
+      "link": "https://www.seattletimes.com/sports/kraken/seattle-kraken-acquire-mackie-samoskevich-in-trade-with-florida-panthers/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Sun, 21 Jun 2026 10:03:59 -0700",
+      "isoDate": "2026-06-21T17:03:59.000Z",
+      "excerpt": "The Kraken made their first deal of the summer, acquiring 23-year-old forward Mackie Samoskevich from the Florida Panthers.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Kraken Expected To Acquire Mackie Samoskevich",
+      "link": "https://www.prohockeyrumors.com/2026/06/kraken-expected-to-acquire-mackie-samoskevich.html",
+      "pubDate": "Sun, 21 Jun 2026 16:48:50 +0000",
+      "isoDate": "2026-06-21T16:48:50.000Z",
+      "excerpt": "The Kraken are finalizing a trade that will see them acquire winger Mackie Samoskevich from the Panthers, David Pagnotta of The Fourth Period reports Sunday. Seattle is sending the 25th overall pick in this year’s draft...",
+      "source": "Pro Hockey Rumors",
+      "team": "kraken",
+      "priority": 2
+    },
+    {
+      "title": "World Cup fans in the U.S. are sightseeing at … Buc-ee’s and Bass Pro Shops?",
+      "link": "https://www.seattletimes.com/nation-world/nation/world-cup-fans-in-the-u-s-are-sightseeing-at-buc-ees-and-bass-pro-shops/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Sun, 21 Jun 2026 07:01:02 -0700",
+      "isoDate": "2026-06-21T14:01:02.000Z",
+      "excerpt": "Social media dispatches from travelers headed to matches appreciate the more mundane parts of American life. They’re a hit.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
     {
       "title": "SBNation Reacts results: Seahawks fans believe Jadarian Price will outrush Jeremiyah Love in 2026",
       "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/169808/sbnation-reacts-results-seahawks-fans-believe-jadarian-price-will-outrush-jeremiyah-love",
@@ -30,6 +55,46 @@
       "priority": 1
     },
     {
+      "title": "Mariners coach Adam Bernero turned pain into purpose, now changes players’ careers",
+      "link": "https://www.seattletimes.com/sports/mariners/mariners-coach-adam-bernero-turned-pain-into-purpose-now-changes-players-careers/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Sun, 21 Jun 2026 06:00:00 -0700",
+      "isoDate": "2026-06-21T13:00:00.000Z",
+      "excerpt": "Mariners mental performance coach Adam Bernero has changed players' careers. “He’s paying it forward to the next generation,\" pitcher Logan Gilbert says.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Eli Herst, Seattle Academy’s towering pitcher, has attention of MLB scouts",
+      "link": "https://www.seattletimes.com/sports/high-school/eli-herst-seattle-academys-towering-pitcher-has-attention-of-mlb-scouts/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Sun, 21 Jun 2026 06:00:00 -0700",
+      "isoDate": "2026-06-21T13:00:00.000Z",
+      "excerpt": "Armed with a 93-mph and five-pitch mix, Seattle Academy's Eli Herst is expected to pitch for one of college baseball's top programs next year unless the MLB draft comes calling first.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Five pressing questions facing Mariners at season’s midpoint",
+      "link": "https://www.seattletimes.com/sports/mariners/five-pressing-questions-facing-mariners-at-seasons-midpoint/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Sun, 21 Jun 2026 06:00:00 -0700",
+      "isoDate": "2026-06-21T13:00:00.000Z",
+      "excerpt": "The Mariners will reach the halfway point of the season when the begin a six-game road trip Tuesday. Here are five questions to get you ready for the second half.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "World Cup schedule Sunday, June 21: Here’s what and where to watch",
+      "link": "https://www.seattletimes.com/sports/world-cup/world-cup-schedule-sunday-june-21-heres-what-and-where-to-watch/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Sun, 21 Jun 2026 06:00:00 -0700",
+      "isoDate": "2026-06-21T13:00:00.000Z",
+      "excerpt": "Here is the World Cup schedule for Sunday and the details on how to watch.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
       "title": "Seahawks News 6/21: Dante Fowler and the potential of the 2026 Seahawks D",
       "link": "https://www.fieldgulls.com/seattle-seahawks-news/169812/seahawks-news-6-21-dante-fowler-and-the-potential-of-the-2026-seahawks-d",
       "pubDate": "2026-06-21T13:00:00.000Z",
@@ -37,6 +102,16 @@
       "excerpt": "Jun 9, 2026; Renton, WA, USA; Seattle Seahawks linebacker Dante Fowler (56) runs a drill against tackle Uso Seumalo (92) during minicamp at Virginia Mason Athletic Center. Mandatory Credit: Steven Bisig-Imagn Images |...",
       "source": "Field Gulls",
       "team": "seahawks",
+      "priority": 1
+    },
+    {
+      "title": "Ayase Ueda scores twice in Japan’s 4-0 win against Tunisia in 1,000th men’s World Cup match",
+      "link": "https://www.seattletimes.com/sports/world-cup/2026-world-cup-ayase-ueda-scores-twice-in-japans-4-0-win-over-tunisia/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Sat, 20 Jun 2026 23:32:19 -0700",
+      "isoDate": "2026-06-21T06:32:19.000Z",
+      "excerpt": "Japan moved closer to the World Cup knockout stages after defeating Tunisia 4-0 in Group F.",
+      "source": "Seattle Times Sports",
+      "team": "general",
       "priority": 1
     },
     {
@@ -48,6 +123,16 @@
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
+    },
+    {
+      "title": "Torrent re-sign forward David",
+      "link": "https://www.seattletimes.com/sports/torrent-re-sign-forward-david/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Sat, 20 Jun 2026 23:03:00 -0700",
+      "isoDate": "2026-06-21T06:03:00.000Z",
+      "excerpt": "Forward Gabrielle David has been re-signed to a two-year Professional Women’s Hockey League standard player agreement through the 2027-28 season, the Seattle Torrent announced Saturday. The signing was made during the...",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
     },
     {
       "title": "Mariners all wrong against another lefty, lose 5-1 to Sox",
@@ -518,96 +603,6 @@
       "source": "Pro Football Rumors",
       "team": "seahawks",
       "priority": 2
-    },
-    {
-      "title": "Todd Boehly Considering Seahawks Ownership Bid",
-      "link": "https://www.profootballrumors.com/2026/06/todd-boehly-considering-seahawks-ownership-bid",
-      "pubDate": "Sat, 13 Jun 2026 17:39:06 +0000",
-      "isoDate": "2026-06-13T17:39:06.000Z",
-      "excerpt": "Another billionaire has entered the fray to be the new owner of the Seahawks. Todd Boehly, CEO of holding company Eldridge Industries, is considering a bid to own Seattle’s NFL team, per Semafor’s Liz Offman. The...",
-      "source": "Pro Football Rumors",
-      "team": "seahawks",
-      "priority": 2
-    },
-    {
-      "title": "'Let's Have A Blast!' Seahawks Celebrate Championship Season With Super Bowl Rings",
-      "link": "https://www.seahawks.com/news/let-s-have-a-blast-seahawks-celebrate-championship-season-with-super-bowl-rings",
-      "pubDate": "Fri, 12 Jun 2026 18:24:35 GMT",
-      "isoDate": "2026-06-12T18:24:35.000Z",
-      "excerpt": "The Seahawks received their Super Bowl rings on Thursday night and celebrated accordingly.",
-      "source": "Seahawks.com",
-      "team": "seahawks",
-      "priority": 6
-    },
-    {
-      "title": "Kraken add Patrik Allvin as Assistant GM, add Pascal Vincent as Assistant Coach",
-      "link": "https://www.davyjoneslockerroom.com/kraken-add-patrik-allvin-as-assistant-gm-add-pascal-vincent-as-assistant-coach/",
-      "pubDate": "Fri, 12 Jun 2026 05:04:14 +0000",
-      "isoDate": "2026-06-12T05:04:14.000Z",
-      "excerpt": "The plot for both Lane Lambert and Jason Botterill thickens today, as the Kraken have added to their front office with the additions of names both slightly known and slightly unknown. Alison Lukan broke the story: The...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
-    },
-    {
-      "title": "Seattle Seahawks Unveil Super Bowl LX Championship Ring, Created By Renowned Jeweler Jason Of Beverly Hills",
-      "link": "https://www.seahawks.com/news/seattle-seahawks-unveil-super-bowl-lx-championship-ring-created-by-renowned-jeweler-jason-of-beverly-hills",
-      "pubDate": "Fri, 12 Jun 2026 03:24:00 GMT",
-      "isoDate": "2026-06-12T03:24:00.000Z",
-      "excerpt": "Ring features a dazzling display of white diamonds and Seahawks blue sapphires, with one of the most technically advanced features ever incorporated into a Super Bowl ring",
-      "source": "Seahawks.com",
-      "team": "seahawks",
-      "priority": 6
-    },
-    {
-      "title": "Christine Bumstead Named Head Coach of the Seattle Torrent",
-      "link": "https://www.davyjoneslockerroom.com/christine-bumstead-named-head-coach-of-the-seattle-torrent/",
-      "pubDate": "Fri, 12 Jun 2026 02:12:29 +0000",
-      "isoDate": "2026-06-12T02:12:29.000Z",
-      "excerpt": "The Seattle Torrent named Christine Bumstead as the head coach for the franchise’s second year. Bumstead was an assistant coach during the team’s inaugural season and takes over the role from Steve O’Rourke who was let...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
-    },
-    {
-      "title": "Seahawks Finish Off Minicamp & Prepare For Super Bowl Ring Ceremony",
-      "link": "https://www.seahawks.com/news/seahawks-finish-off-minicamp-prepare-for-super-bowl-ring-ceremony",
-      "pubDate": "Thu, 11 Jun 2026 21:28:50 GMT",
-      "isoDate": "2026-06-11T21:28:50.000Z",
-      "excerpt": "The Seahawks finished their three-day minicamp and prepare for the Super Bowl ring ceremony as a way to closeout their 2025 chapter.",
-      "source": "Seahawks.com",
-      "team": "seahawks",
-      "priority": 6
-    },
-    {
-      "title": "Defensive End Cassius Marsh Retires A Seahawk",
-      "link": "https://www.seahawks.com/news/defensive-end-cassius-marsh-retires-a-seahawk",
-      "pubDate": "Thu, 11 Jun 2026 19:16:37 GMT",
-      "isoDate": "2026-06-11T19:16:37.000Z",
-      "excerpt": "The former defensive end, Cassius Marsh, retired on Thursday.",
-      "source": "Seahawks.com",
-      "team": "seahawks",
-      "priority": 6
-    },
-    {
-      "title": "Afternoon Notes: Tuch, Andersson, Kraken Hires",
-      "link": "https://www.prohockeyrumors.com/2026/06/afternoon-notes-tuch-andersson-kraken-hires.html",
-      "pubDate": "Thu, 11 Jun 2026 17:07:59 +0000",
-      "isoDate": "2026-06-11T17:07:59.000Z",
-      "excerpt": "According to Pierre LeBrun of The Athletic, Alex Tuch appears more likely to be heading to the open market. The 30-year-old winger ended his 2025-26 season scoring 33 goals for 66 points in 79 games played with the...",
-      "source": "Pro Hockey Rumors",
-      "team": "kraken",
-      "priority": 2
-    },
-    {
-      "title": "Julia Gosling Signs Two-Year Deal With the Torrent",
-      "link": "https://www.davyjoneslockerroom.com/julia-gosling-signs-two-year-deal-with-the-torrent/",
-      "pubDate": "Thu, 11 Jun 2026 04:29:02 +0000",
-      "isoDate": "2026-06-11T04:29:02.000Z",
-      "excerpt": "Julia Gosling rejected a foundational player offer (FPO) to become a key component for the Seattle Torrent next year. She signed a two-year deal and became the first of Seattle’s Phase 3 protections and fourth protected...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
     }
   ]
 }
