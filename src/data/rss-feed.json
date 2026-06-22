@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-06-22T03:54:09.348Z",
+  "generatedAt": "2026-06-22T09:46:23.583Z",
   "sourceCount": 10,
   "successfulSources": 9,
   "failedSources": [
     {
-      "source": "710 Seattle Sports",
-      "error": "Request timed out after 10000ms (lenient retry: Status code 403)"
+      "source": "Seattle Times Sports",
+      "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
     }
   ],
   "items": [
     {
-      "title": "Salah scores and Egypt downs New Zealand 3-1 for a first World Cup victory",
-      "link": "https://www.seattletimes.com/sports/world-cup/salah-scores-and-egypt-downs-new-zealand-3-1-for-a-first-world-cup-victory/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sun, 21 Jun 2026 20:18:03 -0700",
-      "isoDate": "2026-06-22T03:18:03.000Z",
-      "excerpt": "Mohamed Salah scored the go-ahead goal and Egypt went on to defeat New Zealand 3-1 on Sunday night and secure its first-ever World Cup win.",
-      "source": "Seattle Times Sports",
+      "title": "Win Tickets to See the Jabbawockeez Live at Snoqualmie Casino & Hotel!",
+      "link": "https://sports.mynorthwest.com/contests-events/win-tickets-to-see-the-jabbawockeez-live-at-snoqualmie-casino-hotel",
+      "pubDate": "Mon, 22 Jun 2026 03:46:31 +0000",
+      "isoDate": "2026-06-22T03:46:31.000Z",
+      "excerpt": "Get ready for an unforgettable night of world-class dance, music, and visual energy as the iconic Jabbawockeez bring their electrifying performance to the Snoqualmie Casino & Hotel Ballroom! Seattle Sports is giving you...",
+      "source": "710 Seattle Sports",
       "team": "general",
-      "priority": 1
+      "priority": 3
     },
     {
       "title": "New dad Gilbert twirls Father's Day gem -- and brings baby to the podium",
@@ -28,16 +28,6 @@
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
-    },
-    {
-      "title": "Another World Cup stunner: Cape Verde gets 1st goal of tournament and holds Uruguay to 2-2 draw",
-      "link": "https://www.seattletimes.com/sports/world-cup/another-world-cup-stunner-cape-verde-gets-1st-goal-of-tournament-and-holds-uruguay-to-2-2-draw/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sun, 21 Jun 2026 17:34:36 -0700",
-      "isoDate": "2026-06-22T00:34:36.000Z",
-      "excerpt": "Cape Verde's magical start to its first World Cup isn't over. It might just be getting started.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
     },
     {
       "title": "Latest Mariners injuries and transactions",
@@ -70,6 +60,16 @@
       "priority": 6
     },
     {
+      "title": "Gilbert shines as Mariners beat Red Sox 3-1 to avoid sweep",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/gilbert-shines-seattle-mariners-beat-red-sox-3-1-avoid-sweep",
+      "pubDate": "Sun, 21 Jun 2026 23:40:44 +0000",
+      "isoDate": "2026-06-21T23:40:44.000Z",
+      "excerpt": "Logan Gilbert pitched 6 1/3 innings of one-run ball and Dominic Canzone homered in Seattle's win.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
       "title": "F Bobby McMann re-signs in Seattle for 6 year deal!",
       "link": "https://www.davyjoneslockerroom.com/f-bobby-mcmann-re-signs-in-seattle-for-6-year-deal/",
       "pubDate": "Sun, 21 Jun 2026 23:31:11 +0000",
@@ -77,26 +77,6 @@
       "excerpt": "TIME TO GET MCMANNLY The Kraken announced today they have re-signed Bobby McMann for 6 years for $5.75 million a year. BOBBY'S STAYING IN SEATTLE! 🙌 The #SeaKraken have agreed to terms with forward Bobby McMann for a...",
       "source": "Davy Jones' Locker Room",
       "team": "kraken",
-      "priority": 1
-    },
-    {
-      "title": "Wyndham Clark avoids record collapse and holds on to win the US Open",
-      "link": "https://www.seattletimes.com/sports/golf/wyndham-clark-avoids-record-collapse-to-win-us-open/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sun, 21 Jun 2026 16:07:15 -0700",
-      "isoDate": "2026-06-21T23:07:15.000Z",
-      "excerpt": "Wyndham Clark is the U.S. Open champion and it was harder work than he ever imagined.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Logan Gilbert, Dom Canzone power Mariners past Red Sox",
-      "link": "https://www.seattletimes.com/sports/mariners/logan-gilbert-dom-canzone-power-mariners-past-red-sox/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sun, 21 Jun 2026 15:36:01 -0700",
-      "isoDate": "2026-06-21T22:36:01.000Z",
-      "excerpt": "In his first Father’s Day as a dad, Logan Gilbert had one of his best starts of the season Sunday afternoon to help the Mariners to a 3-1 win over Boston.",
-      "source": "Seattle Times Sports",
-      "team": "general",
       "priority": 1
     },
     {
@@ -110,24 +90,14 @@
       "priority": 1
     },
     {
-      "title": "Mariners’ Dom Canzone leaves game with hamstring injury",
-      "link": "https://www.seattletimes.com/sports/mariners/mariners-dom-canzone-leaves-game-with-apparent-hamstring-injury/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sun, 21 Jun 2026 15:22:03 -0700",
-      "isoDate": "2026-06-21T22:22:03.000Z",
-      "excerpt": "Mariners right fielder Dom Canzone became the team's latest casualty Sunday when he was pulled in the sixth inning because of an apparent hamstring injury.",
-      "source": "Seattle Times Sports",
+      "title": "Mariners’ Canzone day to day after exiting with hamstring injury",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-canzone-exits-game-red-sox",
+      "pubDate": "Sun, 21 Jun 2026 22:24:43 +0000",
+      "isoDate": "2026-06-21T22:24:43.000Z",
+      "excerpt": "Canzone hurt his hamstring while trying to beat a throw to first base in the sixth inning.",
+      "source": "710 Seattle Sports",
       "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Seattle Kraken re-sign Bobby McMann to 6-year extension",
-      "link": "https://www.seattletimes.com/sports/kraken/seattle-kraken-re-sign-bobby-mcmann-to-6-year-extension/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sun, 21 Jun 2026 14:57:23 -0700",
-      "isoDate": "2026-06-21T21:57:23.000Z",
-      "excerpt": "The Kraken finally re-signed their best-known offseason target to a six-year extension Sunday afternoon.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
+      "priority": 3
     },
     {
       "title": "Kraken Sign Bobby McMann To Six-Year Extension",
@@ -140,24 +110,24 @@
       "priority": 2
     },
     {
-      "title": "Iran plays 10-man Belgium to scoreless draw at World Cup",
-      "link": "https://www.seattletimes.com/sports/world-cup/iran-plays-10-man-belgium-to-scoreless-draw-at-world-cup/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sun, 21 Jun 2026 14:23:30 -0700",
-      "isoDate": "2026-06-21T21:23:30.000Z",
-      "excerpt": "Alireza Beiranvand made seven saves while Iran and Belgium played to a 0-0 draw at the World Cup.",
-      "source": "Seattle Times Sports",
+      "title": "AL West Check-In: Rangers place RHP Jack Leiter on IL",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/al-west-check-in-rangers-jack-leiter-injured-list",
+      "pubDate": "Sun, 21 Jun 2026 21:20:31 +0000",
+      "isoDate": "2026-06-21T21:20:31.000Z",
+      "excerpt": "Also, star shortstop Corey Seager isn't ready to return from a concussion and right-hander Nathan Eovaldi was scratched from his start.",
+      "source": "710 Seattle Sports",
       "team": "general",
-      "priority": 1
+      "priority": 3
     },
     {
-      "title": "Serena Williams will play singles at Wimbledon in her tennis comeback at age 44",
-      "link": "https://www.seattletimes.com/sports/serena-williams-will-play-singles-at-wimbledon-in-stunning-comeback-at-age-44/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sun, 21 Jun 2026 14:17:33 -0700",
-      "isoDate": "2026-06-21T21:17:33.000Z",
-      "excerpt": "After almost four years away from the sport, Serena Williams will play singles at Wimbledon after accepting a wild card invitation.",
-      "source": "Seattle Times Sports",
+      "title": "Kraken acquire Samoskevich from Panthers, re-sign McMann",
+      "link": "https://sports.mynorthwest.com/nhl/seattle-kraken/seattle-kraken-acquire-mackie-samoskevich-trade-panthers",
+      "pubDate": "Sun, 21 Jun 2026 19:50:38 +0000",
+      "isoDate": "2026-06-21T19:50:38.000Z",
+      "excerpt": "Seattle traded for forward Mackie Samoskevich and re-signed forward Bobby McMann to a long-term contract.",
+      "source": "710 Seattle Sports",
       "team": "general",
-      "priority": 1
+      "priority": 3
     },
     {
       "title": "Mariners Game Preview and Discussion: Red Sox at Mariners",
@@ -168,6 +138,16 @@
       "source": "Lookout Landing",
       "team": "mariners",
       "priority": 1
+    },
+    {
+      "title": "Stelton: J.P. Crawford again shows immense leadership for Mariners",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/stelton-j-p-crawford-immense-leadership-seattle-mariners",
+      "pubDate": "Sun, 21 Jun 2026 19:05:05 +0000",
+      "isoDate": "2026-06-21T19:05:05.000Z",
+      "excerpt": "\"He's got the respect of that entire clubhouse,\" Bob Stelton said of Crawford following his move to third base.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
     },
     {
       "title": "Kraken trade 25th overall pick, conditional 2nd rounder for F Mackie Samoskevich",
@@ -220,6 +200,16 @@
       "priority": 1
     },
     {
+      "title": "MLS commish: Vancouver needs new stadium to keep Whitecaps",
+      "link": "https://sports.mynorthwest.com/mls/seattle-sounders-fc/mls-commissioner-vancouver-needs-new-stadium-to-keep-whitecaps",
+      "pubDate": "Sun, 21 Jun 2026 06:08:21 +0000",
+      "isoDate": "2026-06-21T06:08:21.000Z",
+      "excerpt": "Financial hurdles and scheduling flexibility issues have hit the Whitecaps despite their on-field success.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
       "title": "Mariners all wrong against another lefty, lose 5-1 to Sox",
       "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/145134/mariners-all-wrong-against-another-lefty-lose-5-1-to-sox",
       "pubDate": "2026-06-21T05:52:25.000Z",
@@ -228,6 +218,16 @@
       "source": "Lookout Landing",
       "team": "mariners",
       "priority": 1
+    },
+    {
+      "title": "Stacy Rost: ESPN’s Barnwell dives into 3 Seahawks storylines",
+      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/stacy-rost-3-seattle-seahawks-storylines-espn-barnwell",
+      "pubDate": "Sun, 21 Jun 2026 05:38:26 +0000",
+      "isoDate": "2026-06-21T05:38:26.000Z",
+      "excerpt": "ESPN's Bill Barnwell discussed what a future Sam Darnold extension could cost, among other topics.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
     },
     {
       "title": "Longtime friends Hancock and Gilbert get a kick out of watching their sons bond",
