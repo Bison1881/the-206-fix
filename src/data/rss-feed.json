@@ -1,18 +1,44 @@
 {
-  "generatedAt": "2026-06-22T19:23:13.430Z",
+  "generatedAt": "2026-06-22T22:00:23.382Z",
   "sourceCount": 10,
-  "successfulSources": 8,
+  "successfulSources": 9,
   "failedSources": [
     {
       "source": "Seattle Times Sports",
       "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
-    },
-    {
-      "source": "Davy Jones' Locker Room",
-      "error": "Status code 415 (lenient retry: Status code 415)"
     }
   ],
   "items": [
+    {
+      "title": "With 2 strong starts (including Father's Day gem), Gilbert earns AL Player of the Week honors",
+      "link": "https://www.mlb.com/mariners/news/pete-crow-armstrong-logan-gilbert-named-players-of-the-week",
+      "pubDate": "Mon, 22 Jun 2026 20:47:27 GMT",
+      "isoDate": "2026-06-22T20:47:27.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "A few buy-low trade targets for Seattle Mariners to consider",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-trade-buy-low-candidate-deadlines",
+      "pubDate": "Mon, 22 Jun 2026 19:12:29 +0000",
+      "isoDate": "2026-06-22T19:12:29.000Z",
+      "excerpt": "Here's a look at four players on struggling teams that could use new scenery and help the Seattle Mariners as trade deadline targets.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "WSU Cougars men’s hoops to face perennial powerhouse Duke",
+      "link": "https://sports.mynorthwest.com/ncaa/wsu/wsu-cougars-mens-basketball-to-face-perennial-powerhouse-duke",
+      "pubDate": "Mon, 22 Jun 2026 18:41:04 +0000",
+      "isoDate": "2026-06-22T18:41:04.000Z",
+      "excerpt": "WSU will square off against five-time national champion Duke on Nov. 21 in Palm Desert, California.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
     {
       "title": "J-Rod, Randy can't let up in razor-thin AL OF All-Star race",
       "link": "https://www.mlb.com/mariners/news/2026-mlb-all-star-ballot-second-update",
@@ -144,16 +170,6 @@
       "priority": 3
     },
     {
-      "title": "ESPN suggests extending star player as final offseason move for Seahawks",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/169822/espn-suggests-leonard-williams-contract-extension-seahawks",
-      "pubDate": "2026-06-22T14:00:00.000Z",
-      "isoDate": "2026-06-22T14:00:00.000Z",
-      "excerpt": "SANTA CLARA, CALIFORNIA - FEBRUARY 8: Leonard Williams #99 of the Seattle Seahawks celebrates after a touchdown during the fourth quarter of the NFL Super Bowl LX football game against the New England Patriots, at...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
-    },
-    {
       "title": "Mariners News: Logan Gilbert, Dominic Canzone, and Jack Leiter",
       "link": "https://www.lookoutlanding.com/seattle-mariners-news/145174/logan-gilbert-dominic-canzone-jack-leiter-rafael-devers-teoscar-hernandez",
       "pubDate": "2026-06-22T14:00:00.000Z",
@@ -164,24 +180,14 @@
       "priority": 1
     },
     {
-      "title": "Seahawks News 6/22: Jake Bobo’s contract presumes a bigger role in 2026",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169824/seahawks-news-6-22-jake-bobos-contract-presumes-a-bigger-role-in-2026",
-      "pubDate": "2026-06-22T13:29:48.000Z",
-      "isoDate": "2026-06-22T13:29:48.000Z",
-      "excerpt": "Jun 9, 2026; Renton, WA, USA; Seattle Seahawks wide receiver Jake Bobo (19) talks to wide receiver Cooper Kupp (10) during minicamp at Virginia Mason Athletic Center. Mandatory Credit: Steven Bisig-Imagn Images | Steven...",
-      "source": "Field Gulls",
-      "team": "seahawks",
+      "title": "Draft Profiles 2k26: Alberts Šmits is Latvia’s ferocious hope",
+      "link": "https://www.davyjoneslockerroom.com/draft-profiles-2k26-alberts-smits-is-latvias-ferocious-hope/",
+      "pubDate": "Mon, 22 Jun 2026 14:00:00 +0000",
+      "isoDate": "2026-06-22T14:00:00.000Z",
+      "excerpt": "The Draft Profiles are back! And we start with a defender! Defenseman Alberts Šmits has one of the more unique paths as a defenseman in this draft; being a Latvian playing in Finland as one of the younger players in the...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
       "priority": 1
-    },
-    {
-      "title": "Win Tickets to See the Jabbawockeez Live at Snoqualmie Casino & Hotel!",
-      "link": "https://sports.mynorthwest.com/contests-events/win-tickets-to-see-the-jabbawockeez-live-at-snoqualmie-casino-hotel",
-      "pubDate": "Mon, 22 Jun 2026 03:46:31 +0000",
-      "isoDate": "2026-06-22T03:46:31.000Z",
-      "excerpt": "Get ready for an unforgettable night of world-class dance, music, and visual energy as the iconic Jabbawockeez bring their electrifying performance to the Snoqualmie Casino & Hotel Ballroom! Seattle Sports is giving you...",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
     },
     {
       "title": "New dad Gilbert twirls Father's Day gem -- and brings baby to the podium",
@@ -224,14 +230,14 @@
       "priority": 6
     },
     {
-      "title": "Gilbert shines as Mariners beat Red Sox 3-1 to avoid sweep",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/gilbert-shines-seattle-mariners-beat-red-sox-3-1-avoid-sweep",
-      "pubDate": "Sun, 21 Jun 2026 23:40:44 +0000",
-      "isoDate": "2026-06-21T23:40:44.000Z",
-      "excerpt": "Logan Gilbert pitched 6 1/3 innings of one-run ball and Dominic Canzone homered in Seattle's win.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
+      "title": "F Bobby McMann re-signs in Seattle for 6 year deal!",
+      "link": "https://www.davyjoneslockerroom.com/f-bobby-mcmann-re-signs-in-seattle-for-6-year-deal/",
+      "pubDate": "Sun, 21 Jun 2026 23:31:11 +0000",
+      "isoDate": "2026-06-21T23:31:11.000Z",
+      "excerpt": "TIME TO GET MCMANNLY The Kraken announced today they have re-signed Bobby McMann for 6 years for $5.75 million a year. BOBBY'S STAYING IN SEATTLE! 🙌 The #SeaKraken have agreed to terms with forward Bobby McMann for a...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
     },
     {
       "title": "40-39: Chart",
@@ -264,6 +270,16 @@
       "priority": 1
     },
     {
+      "title": "Kraken trade 25th overall pick, conditional 2nd rounder for F Mackie Samoskevich",
+      "link": "https://www.davyjoneslockerroom.com/kraken-trade-25th-overall-pick-conditional-2nd-rounder-for-f-mackie-samoskevich/",
+      "pubDate": "Sun, 21 Jun 2026 18:54:56 +0000",
+      "isoDate": "2026-06-21T18:54:56.000Z",
+      "excerpt": "Let’s set the scene with an appropriate song. The Seattle Kraken announced today that they have traded their 25th overall pick this year and a conditional 2nd round for 2027 (which is either going to be Winnipeg or...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
       "title": "Kraken Acquire Mackie Samoskevich",
       "link": "https://www.prohockeyrumors.com/2026/06/kraken-acquire-mackie-samoskevich.html",
       "pubDate": "Sun, 21 Jun 2026 16:48:50 +0000",
@@ -274,16 +290,6 @@
       "priority": 2
     },
     {
-      "title": "SBNation Reacts results: Seahawks fans believe Jadarian Price will outrush Jeremiyah Love in 2026",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/169808/sbnation-reacts-results-seahawks-fans-believe-jadarian-price-will-outrush-jeremiyah-love",
-      "pubDate": "2026-06-21T14:00:00.000Z",
-      "isoDate": "2026-06-21T14:00:00.000Z",
-      "excerpt": "Welcome to SB Nation Reacts, a survey of fans across the NFL. Throughout the year we ask questions of the most plugged-in Seahawks fans and fans across the country. Sign up here to participate in the weekly emailed...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
-    },
-    {
       "title": "Mariners News: Andrew Moore, Bryce Harper, and Jayden Murray",
       "link": "https://www.lookoutlanding.com/seattle-mariners-news/145127/mariners-news-andrew-moore-bryce-harper-and-jayden-murray",
       "pubDate": "2026-06-21T14:00:00.000Z",
@@ -292,26 +298,6 @@
       "source": "Lookout Landing",
       "team": "mariners",
       "priority": 1
-    },
-    {
-      "title": "Seahawks News 6/21: Dante Fowler and the potential of the 2026 Seahawks D",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169812/seahawks-news-6-21-dante-fowler-and-the-potential-of-the-2026-seahawks-d",
-      "pubDate": "2026-06-21T13:00:00.000Z",
-      "isoDate": "2026-06-21T13:00:00.000Z",
-      "excerpt": "Jun 9, 2026; Renton, WA, USA; Seattle Seahawks linebacker Dante Fowler (56) runs a drill against tackle Uso Seumalo (92) during minicamp at Virginia Mason Athletic Center. Mandatory Credit: Steven Bisig-Imagn Images |...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "Longtime friends Hancock and Gilbert get a kick out of watching their sons bond",
-      "link": "https://www.mlb.com/mariners/news/emerson-hancock-and-logan-gilbert-sharing-joy-of-fatherhood",
-      "pubDate": "Sun, 21 Jun 2026 04:49:43 GMT",
-      "isoDate": "2026-06-21T04:49:43.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
     },
     {
       "title": "NFC Front Office Updates: Seahawks, Saints, Lions",
@@ -404,6 +390,36 @@
       "priority": 1
     },
     {
+      "title": "3 Seahawks defensive players who are primed for a breakout season in 2026",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/169728/seattle-seahawks-defenders-primed-breakout-season-nf-2026",
+      "pubDate": "2026-06-19T15:00:00.000Z",
+      "isoDate": "2026-06-19T15:00:00.000Z",
+      "excerpt": "Feb 8, 2026; Santa Clara, CA, USA; Seattle Seahawks defensive tackle Rylie Mills (98) reacts after a play during the second quarter against the New England Patriots in Super Bowl LX at Levi's Stadium. Mandatory Credit:...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
+    {
+      "title": "Seahawks 2026 draft outlook: How does Michael Dansby fit with the Seahawks?",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/169695/seahawks-2026-draft-review-how-does-michael-dansbys-fit-with-seattle-seahawks",
+      "pubDate": "2026-06-19T14:00:00.000Z",
+      "isoDate": "2026-06-19T14:00:00.000Z",
+      "excerpt": "Seattle Seahawks head coach Mike Macdonald sure seems to like to collect versatile defensive backs like Nick Emmanwori, Julian Neal, Bud Clark, amd Andre Fuller. If he could, Macdonald would start 11 defensive backs on...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
+    {
+      "title": "Seahawks News 6/19: Sam Darnold impresses at Seahawks camp",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169733/seahawks-news-6-19-sam-darnold-impresses-at-seahawks-camp",
+      "pubDate": "2026-06-19T13:00:00.000Z",
+      "isoDate": "2026-06-19T13:00:00.000Z",
+      "excerpt": "Jun 9, 2026; Renton, WA, USA; Seattle Seahawks quarterback Sam Darnold (14) during minicamp at Virginia Mason Athletic Center. Mandatory Credit: Steven Bisig-Imagn Images | Steven Bisig-Imagn Images In Today’s Links:...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
+    {
       "title": "Kraken Re-Sign Logan Morrison To One-Year Deal",
       "link": "https://www.prohockeyrumors.com/2026/06/kraken-re-sign-logan-morrison-to-one-year-deal.html",
       "pubDate": "Thu, 18 Jun 2026 23:44:23 +0000",
@@ -424,6 +440,16 @@
       "priority": 2
     },
     {
+      "title": "John Schneider reflects on Seahawks’ big offseason pivots in ‘Making a Champion’",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169698/john-schneider-reflects-seahawks-big-offseason-pivots-making-a-champion-nfl-news",
+      "pubDate": "2026-06-18T19:05:20.000Z",
+      "isoDate": "2026-06-18T19:05:20.000Z",
+      "excerpt": "Remember when the Seattle Seahawks decided to change EVERYTHING last offseason, after a 10-7 record in the previous campaign? Okay, maybe that’s a little dramatic, but it turned out to be a masterclass in roster...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
+    {
       "title": "Mariners Sign Weston Wilson To Minor League Contract",
       "link": "https://www.mlbtraderumors.com/2026/06/mariners-sign-weston-wilson-to-minor-league-contract.html",
       "pubDate": "Thu, 18 Jun 2026 16:57:43 +0000",
@@ -432,6 +458,16 @@
       "source": "MLB Trade Rumors",
       "team": "mariners",
       "priority": 2
+    },
+    {
+      "title": "PWHL Draft Recap: Torrent add goalscoring and controversy to their roster",
+      "link": "https://www.davyjoneslockerroom.com/pwhl-draft-recap-torrent-add-goalscoring-and-controversy-to-their-roster/",
+      "pubDate": "Thu, 18 Jun 2026 13:45:00 +0000",
+      "isoDate": "2026-06-18T13:45:00.000Z",
+      "excerpt": "The PWHL Draft concluded yesterday, with a bunch of depleted lineups changing hopefully for the better with the additions of fresh new talent from all across the globe. 2nd Overall Pick: Abbey Murphy – F Hometown:...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
     },
     {
       "title": "Royals Acquire Randy Dobnak",
@@ -572,46 +608,6 @@
       "source": "Seahawks.com",
       "team": "seahawks",
       "priority": 6
-    },
-    {
-      "title": "Seattle Seahawks Unveil Super Bowl LX Championship Ring, Created By Renowned Jeweler Jason Of Beverly Hills",
-      "link": "https://www.seahawks.com/news/seattle-seahawks-unveil-super-bowl-lx-championship-ring-created-by-renowned-jeweler-jason-of-beverly-hills",
-      "pubDate": "Fri, 12 Jun 2026 03:24:00 GMT",
-      "isoDate": "2026-06-12T03:24:00.000Z",
-      "excerpt": "Ring features a dazzling display of white diamonds and Seahawks blue sapphires, with one of the most technically advanced features ever incorporated into a Super Bowl ring",
-      "source": "Seahawks.com",
-      "team": "seahawks",
-      "priority": 6
-    },
-    {
-      "title": "Seahawks Finish Off Minicamp & Prepare For Super Bowl Ring Ceremony",
-      "link": "https://www.seahawks.com/news/seahawks-finish-off-minicamp-prepare-for-super-bowl-ring-ceremony",
-      "pubDate": "Thu, 11 Jun 2026 21:28:50 GMT",
-      "isoDate": "2026-06-11T21:28:50.000Z",
-      "excerpt": "The Seahawks finished their three-day minicamp and prepare for the Super Bowl ring ceremony as a way to closeout their 2025 chapter.",
-      "source": "Seahawks.com",
-      "team": "seahawks",
-      "priority": 6
-    },
-    {
-      "title": "Afternoon Notes: Tuch, Andersson, Kraken Hires",
-      "link": "https://www.prohockeyrumors.com/2026/06/afternoon-notes-tuch-andersson-kraken-hires.html",
-      "pubDate": "Thu, 11 Jun 2026 17:07:59 +0000",
-      "isoDate": "2026-06-11T17:07:59.000Z",
-      "excerpt": "According to Pierre LeBrun of The Athletic, Alex Tuch appears more likely to be heading to the open market. The 30-year-old winger ended his 2025-26 season scoring 33 goals for 66 points in 79 games played with the...",
-      "source": "Pro Hockey Rumors",
-      "team": "kraken",
-      "priority": 2
-    },
-    {
-      "title": "Minor NFL Transactions: 6/8/26",
-      "link": "https://www.profootballrumors.com/2026/06/minor-nfl-transactions-6-8-26",
-      "pubDate": "Tue, 09 Jun 2026 00:01:55 +0000",
-      "isoDate": "2026-06-09T00:01:55.000Z",
-      "excerpt": "Four teams made minor moves on Monday. Here’s a look… Carolina Panthers Signed: WR Malick Meiga Waived: TE Heinrich Haarberg New York Jets Signed: WR Jalen Walthall Waived/injured: Quentin Skinner Seattle Seahawks...",
-      "source": "Pro Football Rumors",
-      "team": "seahawks",
-      "priority": 2
     }
   ]
 }
