@@ -1,14 +1,58 @@
 {
-  "generatedAt": "2026-06-22T09:46:23.583Z",
+  "generatedAt": "2026-06-22T15:22:20.951Z",
   "sourceCount": 10,
-  "successfulSources": 9,
+  "successfulSources": 8,
   "failedSources": [
     {
       "source": "Seattle Times Sports",
       "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
+    },
+    {
+      "source": "Davy Jones' Locker Room",
+      "error": "Status code 415 (lenient retry: Status code 415)"
     }
   ],
   "items": [
+    {
+      "title": "Mariners' Gilbert, Hancock watching own sons bond",
+      "link": "https://www.mlb.com/mariners/news/logan-gilbert-emerson-hancock-watching-own-sons-bond",
+      "pubDate": "Mon, 22 Jun 2026 14:56:20 GMT",
+      "isoDate": "2026-06-22T14:56:20.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "ESPN suggests extending star player as final offseason move for Seahawks",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/169822/espn-suggests-leonard-williams-contract-extension-seahawks",
+      "pubDate": "2026-06-22T14:00:00.000Z",
+      "isoDate": "2026-06-22T14:00:00.000Z",
+      "excerpt": "SANTA CLARA, CALIFORNIA - FEBRUARY 8: Leonard Williams #99 of the Seattle Seahawks celebrates after a touchdown during the fourth quarter of the NFL Super Bowl LX football game against the New England Patriots, at...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
+    {
+      "title": "Mariners News: Logan Gilbert, Dominic Canzone, and Jack Leiter",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-news/145174/logan-gilbert-dominic-canzone-jack-leiter-rafael-devers-teoscar-hernandez",
+      "pubDate": "2026-06-22T14:00:00.000Z",
+      "isoDate": "2026-06-22T14:00:00.000Z",
+      "excerpt": "Good morning! A Father’s Day gem by Logan Gilbert powered the Mariners to a 3-1 win over the Boston Red Sox yesterday to avoid the series sweep. After an off day today, the Mariners embark on a new series with the...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Seahawks News 6/22: Jake Bobo’s contract presumes a bigger role in 2026",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169824/seahawks-news-6-22-jake-bobos-contract-presumes-a-bigger-role-in-2026",
+      "pubDate": "2026-06-22T13:29:48.000Z",
+      "isoDate": "2026-06-22T13:29:48.000Z",
+      "excerpt": "Jun 9, 2026; Renton, WA, USA; Seattle Seahawks wide receiver Jake Bobo (19) talks to wide receiver Cooper Kupp (10) during minicamp at Virginia Mason Athletic Center. Mandatory Credit: Steven Bisig-Imagn Images | Steven...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
     {
       "title": "Win Tickets to See the Jabbawockeez Live at Snoqualmie Casino & Hotel!",
       "link": "https://sports.mynorthwest.com/contests-events/win-tickets-to-see-the-jabbawockeez-live-at-snoqualmie-casino-hotel",
@@ -68,16 +112,6 @@
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
-    },
-    {
-      "title": "F Bobby McMann re-signs in Seattle for 6 year deal!",
-      "link": "https://www.davyjoneslockerroom.com/f-bobby-mcmann-re-signs-in-seattle-for-6-year-deal/",
-      "pubDate": "Sun, 21 Jun 2026 23:31:11 +0000",
-      "isoDate": "2026-06-21T23:31:11.000Z",
-      "excerpt": "TIME TO GET MCMANNLY The Kraken announced today they have re-signed Bobby McMann for 6 years for $5.75 million a year. BOBBY'S STAYING IN SEATTLE! 🙌 The #SeaKraken have agreed to terms with forward Bobby McMann for a...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
     },
     {
       "title": "40-39: Chart",
@@ -148,16 +182,6 @@
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
-    },
-    {
-      "title": "Kraken trade 25th overall pick, conditional 2nd rounder for F Mackie Samoskevich",
-      "link": "https://www.davyjoneslockerroom.com/kraken-trade-25th-overall-pick-conditional-2nd-rounder-for-f-mackie-samoskevich/",
-      "pubDate": "Sun, 21 Jun 2026 18:54:56 +0000",
-      "isoDate": "2026-06-21T18:54:56.000Z",
-      "excerpt": "Let’s set the scene with an appropriate song. The Seattle Kraken announced today that they have traded their 25th overall pick this year and a conditional 2nd round for 2027 (which is either going to be Winnipeg or...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
     },
     {
       "title": "Kraken Acquire Mackie Samoskevich",
@@ -300,16 +324,6 @@
       "priority": 1
     },
     {
-      "title": "Mariners News: Andrés Muñoz, Justin Verlander, and Jarred Kelenic",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-news/145116/mariners-news-andres-munoz-justin-verlander-and-jarred-kelenic",
-      "pubDate": "2026-06-20T14:00:00.000Z",
-      "isoDate": "2026-06-20T14:00:00.000Z",
-      "excerpt": "Mar 30, 2026; Phoenix, Arizona, USA; Detroit Tigers pitcher Justin Verlander (35) throws against the Arizona Diamondbacks in the first inning at Chase Field. Mandatory Credit: Rick Scuteri-Imagn Images | Rick...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
       "title": "Seahawks News 6/20: Abe Lucas taking a step forward into his contract",
       "link": "https://www.fieldgulls.com/seattle-seahawks-news/169799/seahawks-news-6-20-abe-lucas-taking-a-step-forward-into-his-contract",
       "pubDate": "2026-06-20T13:01:00.000Z",
@@ -324,16 +338,6 @@
       "link": "https://www.mlb.com/mariners/news/mariners-held-hitless-into-7th-inning-in-loss-to-red-sox",
       "pubDate": "Sat, 20 Jun 2026 07:18:06 GMT",
       "isoDate": "2026-06-20T07:18:06.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
-    },
-    {
-      "title": "Julio back in lineup as Mariners add righty bat Wilson, DFA Mastrobuoni",
-      "link": "https://www.mlb.com/mariners/news/julio-rodriguez-returns-as-mariners-call-up-weston-wilson-dfa-miles-mastrobuoni",
-      "pubDate": "Sat, 20 Jun 2026 01:23:34 GMT",
-      "isoDate": "2026-06-20T01:23:34.000Z",
       "excerpt": "",
       "source": "Mariners.com",
       "team": "mariners",
@@ -380,26 +384,6 @@
       "priority": 1
     },
     {
-      "title": "3 Seahawks defensive players who are primed for a breakout season in 2026",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/169728/seattle-seahawks-defenders-primed-breakout-season-nf-2026",
-      "pubDate": "2026-06-19T15:00:00.000Z",
-      "isoDate": "2026-06-19T15:00:00.000Z",
-      "excerpt": "Feb 8, 2026; Santa Clara, CA, USA; Seattle Seahawks defensive tackle Rylie Mills (98) reacts after a play during the second quarter against the New England Patriots in Super Bowl LX at Levi's Stadium. Mandatory Credit:...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "Seahawks 2026 draft outlook: How does Michael Dansby fit with the Seahawks?",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/169695/seahawks-2026-draft-review-how-does-michael-dansbys-fit-with-seattle-seahawks",
-      "pubDate": "2026-06-19T14:00:00.000Z",
-      "isoDate": "2026-06-19T14:00:00.000Z",
-      "excerpt": "Seattle Seahawks head coach Mike Macdonald sure seems to like to collect versatile defensive backs like Nick Emmanwori, Julian Neal, Bud Clark, amd Andre Fuller. If he could, Macdonald would start 11 defensive backs on...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
-    },
-    {
       "title": "Kraken Re-Sign Logan Morrison To One-Year Deal",
       "link": "https://www.prohockeyrumors.com/2026/06/kraken-re-sign-logan-morrison-to-one-year-deal.html",
       "pubDate": "Thu, 18 Jun 2026 23:44:23 +0000",
@@ -428,16 +412,6 @@
       "source": "MLB Trade Rumors",
       "team": "mariners",
       "priority": 2
-    },
-    {
-      "title": "PWHL Draft Recap: Torrent add goalscoring and controversy to their roster",
-      "link": "https://www.davyjoneslockerroom.com/pwhl-draft-recap-torrent-add-goalscoring-and-controversy-to-their-roster/",
-      "pubDate": "Thu, 18 Jun 2026 13:45:00 +0000",
-      "isoDate": "2026-06-18T13:45:00.000Z",
-      "excerpt": "The PWHL Draft concluded yesterday, with a bunch of depleted lineups changing hopefully for the better with the additions of fresh new talent from all across the globe. 2nd Overall Pick: Abbey Murphy – F Hometown:...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
     },
     {
       "title": "Royals Acquire Randy Dobnak",
@@ -580,16 +554,6 @@
       "priority": 6
     },
     {
-      "title": "Kraken add Patrik Allvin as Assistant GM, add Pascal Vincent as Assistant Coach",
-      "link": "https://www.davyjoneslockerroom.com/kraken-add-patrik-allvin-as-assistant-gm-add-pascal-vincent-as-assistant-coach/",
-      "pubDate": "Fri, 12 Jun 2026 05:04:14 +0000",
-      "isoDate": "2026-06-12T05:04:14.000Z",
-      "excerpt": "The plot for both Lane Lambert and Jason Botterill thickens today, as the Kraken have added to their front office with the additions of names both slightly known and slightly unknown. Alison Lukan broke the story: The...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
-    },
-    {
       "title": "Seattle Seahawks Unveil Super Bowl LX Championship Ring, Created By Renowned Jeweler Jason Of Beverly Hills",
       "link": "https://www.seahawks.com/news/seattle-seahawks-unveil-super-bowl-lx-championship-ring-created-by-renowned-jeweler-jason-of-beverly-hills",
       "pubDate": "Fri, 12 Jun 2026 03:24:00 GMT",
@@ -600,14 +564,54 @@
       "priority": 6
     },
     {
-      "title": "Christine Bumstead Named Head Coach of the Seattle Torrent",
-      "link": "https://www.davyjoneslockerroom.com/christine-bumstead-named-head-coach-of-the-seattle-torrent/",
-      "pubDate": "Fri, 12 Jun 2026 02:12:29 +0000",
-      "isoDate": "2026-06-12T02:12:29.000Z",
-      "excerpt": "The Seattle Torrent named Christine Bumstead as the head coach for the franchise’s second year. Bumstead was an assistant coach during the team’s inaugural season and takes over the role from Steve O’Rourke who was let...",
-      "source": "Davy Jones' Locker Room",
+      "title": "Seahawks Finish Off Minicamp & Prepare For Super Bowl Ring Ceremony",
+      "link": "https://www.seahawks.com/news/seahawks-finish-off-minicamp-prepare-for-super-bowl-ring-ceremony",
+      "pubDate": "Thu, 11 Jun 2026 21:28:50 GMT",
+      "isoDate": "2026-06-11T21:28:50.000Z",
+      "excerpt": "The Seahawks finished their three-day minicamp and prepare for the Super Bowl ring ceremony as a way to closeout their 2025 chapter.",
+      "source": "Seahawks.com",
+      "team": "seahawks",
+      "priority": 6
+    },
+    {
+      "title": "Defensive End Cassius Marsh Retires A Seahawk",
+      "link": "https://www.seahawks.com/news/defensive-end-cassius-marsh-retires-a-seahawk",
+      "pubDate": "Thu, 11 Jun 2026 19:16:37 GMT",
+      "isoDate": "2026-06-11T19:16:37.000Z",
+      "excerpt": "The former defensive end, Cassius Marsh, retired on Thursday.",
+      "source": "Seahawks.com",
+      "team": "seahawks",
+      "priority": 6
+    },
+    {
+      "title": "Afternoon Notes: Tuch, Andersson, Kraken Hires",
+      "link": "https://www.prohockeyrumors.com/2026/06/afternoon-notes-tuch-andersson-kraken-hires.html",
+      "pubDate": "Thu, 11 Jun 2026 17:07:59 +0000",
+      "isoDate": "2026-06-11T17:07:59.000Z",
+      "excerpt": "According to Pierre LeBrun of The Athletic, Alex Tuch appears more likely to be heading to the open market. The 30-year-old winger ended his 2025-26 season scoring 33 goals for 66 points in 79 games played with the...",
+      "source": "Pro Hockey Rumors",
       "team": "kraken",
-      "priority": 1
+      "priority": 2
+    },
+    {
+      "title": "Max McCormick Announces Retirement",
+      "link": "https://www.prohockeyrumors.com/2026/06/max-mccormick-announces-retirement.html",
+      "pubDate": "Wed, 10 Jun 2026 22:01:06 +0000",
+      "isoDate": "2026-06-10T22:01:06.000Z",
+      "excerpt": "According to an announcement from the AHL’s Coachella Valley Firebirds, captain Max McCormick has retired from professional hockey. McCormick lost the entire 2025-26 campaign due to a hip injury, and that likely...",
+      "source": "Pro Hockey Rumors",
+      "team": "kraken",
+      "priority": 2
+    },
+    {
+      "title": "Minor NFL Transactions: 6/8/26",
+      "link": "https://www.profootballrumors.com/2026/06/minor-nfl-transactions-6-8-26",
+      "pubDate": "Tue, 09 Jun 2026 00:01:55 +0000",
+      "isoDate": "2026-06-09T00:01:55.000Z",
+      "excerpt": "Four teams made minor moves on Monday. Here’s a look… Carolina Panthers Signed: WR Malick Meiga Waived: TE Heinrich Haarberg New York Jets Signed: WR Jalen Walthall Waived/injured: Quentin Skinner Seattle Seahawks...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
+      "priority": 2
     }
   ]
 }
