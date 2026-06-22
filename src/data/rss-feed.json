@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T15:22:20.951Z",
+  "generatedAt": "2026-06-22T19:23:13.430Z",
   "sourceCount": 10,
   "successfulSources": 8,
   "failedSources": [
@@ -14,6 +14,116 @@
   ],
   "items": [
     {
+      "title": "J-Rod, Randy can't let up in razor-thin AL OF All-Star race",
+      "link": "https://www.mlb.com/mariners/news/2026-mlb-all-star-ballot-second-update",
+      "pubDate": "Mon, 22 Jun 2026 18:04:03 GMT",
+      "isoDate": "2026-06-22T18:04:03.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Mariners prospect Felnin Celesten showcasing newfound power",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-prospect-felnin-celesten-showing-newfound-power",
+      "pubDate": "Mon, 22 Jun 2026 17:31:01 +0000",
+      "isoDate": "2026-06-22T17:31:01.000Z",
+      "excerpt": "Celesten, who had a 25-game hitting streak earlier this year, has homered in four of his past eight games.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Rob Refsnyder: Something’s Gotta Give",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-analysis/145161/rob-refsnyder-somethings-gotta-give",
+      "pubDate": "2026-06-22T17:30:00.000Z",
+      "isoDate": "2026-06-22T17:30:00.000Z",
+      "excerpt": "May 15, 2026; Seattle, Washington, USA; Seattle Mariners designated hitter Rob Refsnyder (30) reacts after striking out during the ninth inning against the San Diego Padres at T-Mobile Park. Mandatory Credit: Stephen...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "NBA’s Mavs hiring coach Dusty May away from national champ Michigan",
+      "link": "https://sports.mynorthwest.com/ncaa/nba-dallas-mavericks-coach-dusty-may-national-champ-michigan",
+      "pubDate": "Mon, 22 Jun 2026 17:11:06 +0000",
+      "isoDate": "2026-06-22T17:11:06.000Z",
+      "excerpt": "The Dallas Mavericks and Dusty May of national champion Michigan are finalizing a deal for the coach to make the jump from college to the NBA, a person with knowledge of the deal told The Associated Press on Monday.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Seahawks officially announce joint practice with Titans",
+      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/seattle-seahawks-officially-announce-joint-practice-titans",
+      "pubDate": "Mon, 22 Jun 2026 16:42:50 +0000",
+      "isoDate": "2026-06-22T16:42:50.000Z",
+      "excerpt": "The joint practice will take place Aug. 21 ahead of the teams' Aug. 23 preseason game in Nashville.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "PWHL seeks to sustain momentum by adding investors Ilitch, Tanenbaum",
+      "link": "https://sports.mynorthwest.com/seattle-sports-pit/pwhl-adding-investors-ilitch-tanenbaum",
+      "pubDate": "Mon, 22 Jun 2026 16:28:49 +0000",
+      "isoDate": "2026-06-22T16:28:49.000Z",
+      "excerpt": "The PWHL is taking on two prominent names in North American sports as its first two investors in reaching a major milestone in the privately-backed league’s fast-rising trajectory, and representing yet another sign of...",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Seahawks Will Have Joint Practice With Titans In Nashville",
+      "link": "https://www.seahawks.com/news/seahawks-will-have-joint-practice-with-titans-in-nashville",
+      "pubDate": "Mon, 22 Jun 2026 16:01:41 GMT",
+      "isoDate": "2026-06-22T16:01:41.000Z",
+      "excerpt": "The Seahawks will have a joint practice with the Titans for the second time in three years.",
+      "source": "Seahawks.com",
+      "team": "seahawks",
+      "priority": 6
+    },
+    {
+      "title": "Logan Gilbert may have turned a corner as he closes in on strikeout #1,000",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-analysis/145164/logan-gilbert-may-have-turned-a-corner-as-he-closes-in-on-strikeout-1000",
+      "pubDate": "2026-06-22T16:00:00.000Z",
+      "isoDate": "2026-06-22T16:00:00.000Z",
+      "excerpt": "Steven Bisig-Imagn Images | Steven Bisig-Imagn Images Logan Gilbert is probably two starts away from recording his 1,000th career strikeout. After adding another eight in yesterday’s win over the Red Sox, he now sits at...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Seattle Mariners Minor League Roundup &#8211; Week Thirteen",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-prospects/145184/seattle-mariners-minor-league-roundup-week-thirteen",
+      "pubDate": "2026-06-22T16:00:00.000Z",
+      "isoDate": "2026-06-22T16:00:00.000Z",
+      "excerpt": "PHOENIX, ARIZONA - MARCH 20, 2026: Kade Anderson #13 of the Seattle Mariners throws a pitch during the fifth inning of a spring training Spring Breakout game against the Milwaukee Brewers at American Family Fields of...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Morning Notes: Sabres, Bobrovsky, Wright",
+      "link": "https://www.prohockeyrumors.com/2026/06/morning-notes-sabres-bobrovsky-wright.html",
+      "pubDate": "Mon, 22 Jun 2026 15:32:03 +0000",
+      "isoDate": "2026-06-22T15:32:03.000Z",
+      "excerpt": "The Buffalo Sabres are seeing developments among their big-name players whose names are among the headlines. Darren Dreger of TSN reports that Sabres defenseman Bowen Byram remains a hot commodity among trade scenarios....",
+      "source": "Pro Hockey Rumors",
+      "team": "kraken",
+      "priority": 2
+    },
+    {
+      "title": "UW Huskies’ Hannes Steinbach among top big men in NBA Draft",
+      "link": "https://sports.mynorthwest.com/ncaa/uw/uw-huskies-hannes-steinbach-among-top-big-men-nba-draft",
+      "pubDate": "Mon, 22 Jun 2026 15:18:28 +0000",
+      "isoDate": "2026-06-22T15:18:28.000Z",
+      "excerpt": "Here's a look at UW's Hannes Steinbach and the other top big men in the NBA Draft, which begins Tuesday night.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
       "title": "Mariners' Gilbert, Hancock watching own sons bond",
       "link": "https://www.mlb.com/mariners/news/logan-gilbert-emerson-hancock-watching-own-sons-bond",
       "pubDate": "Mon, 22 Jun 2026 14:56:20 GMT",
@@ -22,6 +132,16 @@
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
+    },
+    {
+      "title": "Hasselbeck: How Seahawks’ offense can reach next level",
+      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/hasselbeck-how-seattle-seahawks-offense-can-reach-next-level",
+      "pubDate": "Mon, 22 Jun 2026 14:38:49 +0000",
+      "isoDate": "2026-06-22T14:38:49.000Z",
+      "excerpt": "Former NFL QB Matt Hasselbeck discussed one way Seattle's offense can become more dangerous.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
     },
     {
       "title": "ESPN suggests extending star player as final offseason move for Seahawks",
@@ -124,16 +244,6 @@
       "priority": 1
     },
     {
-      "title": "Mariners’ Canzone day to day after exiting with hamstring injury",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-canzone-exits-game-red-sox",
-      "pubDate": "Sun, 21 Jun 2026 22:24:43 +0000",
-      "isoDate": "2026-06-21T22:24:43.000Z",
-      "excerpt": "Canzone hurt his hamstring while trying to beat a throw to first base in the sixth inning.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
       "title": "Kraken Sign Bobby McMann To Six-Year Extension",
       "link": "https://www.prohockeyrumors.com/2026/06/kraken-sign-bobby-mcmann-to-six-year-extension.html",
       "pubDate": "Sun, 21 Jun 2026 21:47:50 +0000",
@@ -144,26 +254,6 @@
       "priority": 2
     },
     {
-      "title": "AL West Check-In: Rangers place RHP Jack Leiter on IL",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/al-west-check-in-rangers-jack-leiter-injured-list",
-      "pubDate": "Sun, 21 Jun 2026 21:20:31 +0000",
-      "isoDate": "2026-06-21T21:20:31.000Z",
-      "excerpt": "Also, star shortstop Corey Seager isn't ready to return from a concussion and right-hander Nathan Eovaldi was scratched from his start.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "Kraken acquire Samoskevich from Panthers, re-sign McMann",
-      "link": "https://sports.mynorthwest.com/nhl/seattle-kraken/seattle-kraken-acquire-mackie-samoskevich-trade-panthers",
-      "pubDate": "Sun, 21 Jun 2026 19:50:38 +0000",
-      "isoDate": "2026-06-21T19:50:38.000Z",
-      "excerpt": "Seattle traded for forward Mackie Samoskevich and re-signed forward Bobby McMann to a long-term contract.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
       "title": "Mariners Game Preview and Discussion: Red Sox at Mariners",
       "link": "https://www.lookoutlanding.com/seattle-mariners-game-information/145141/mariners-game-preview-and-discussion-red-sox-at-mariners",
       "pubDate": "2026-06-21T19:45:00.000Z",
@@ -172,16 +262,6 @@
       "source": "Lookout Landing",
       "team": "mariners",
       "priority": 1
-    },
-    {
-      "title": "Stelton: J.P. Crawford again shows immense leadership for Mariners",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/stelton-j-p-crawford-immense-leadership-seattle-mariners",
-      "pubDate": "Sun, 21 Jun 2026 19:05:05 +0000",
-      "isoDate": "2026-06-21T19:05:05.000Z",
-      "excerpt": "\"He's got the respect of that entire clubhouse,\" Bob Stelton said of Crawford following his move to third base.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
     },
     {
       "title": "Kraken Acquire Mackie Samoskevich",
@@ -224,36 +304,6 @@
       "priority": 1
     },
     {
-      "title": "MLS commish: Vancouver needs new stadium to keep Whitecaps",
-      "link": "https://sports.mynorthwest.com/mls/seattle-sounders-fc/mls-commissioner-vancouver-needs-new-stadium-to-keep-whitecaps",
-      "pubDate": "Sun, 21 Jun 2026 06:08:21 +0000",
-      "isoDate": "2026-06-21T06:08:21.000Z",
-      "excerpt": "Financial hurdles and scheduling flexibility issues have hit the Whitecaps despite their on-field success.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "Mariners all wrong against another lefty, lose 5-1 to Sox",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/145134/mariners-all-wrong-against-another-lefty-lose-5-1-to-sox",
-      "pubDate": "2026-06-21T05:52:25.000Z",
-      "isoDate": "2026-06-21T05:52:25.000Z",
-      "excerpt": "SEATTLE, WASHINGTON - JUNE 20: Connor Joe #9 of the Seattle Mariners commits a fielding error during the fifth inning against the Boston Red Sox at T-Mobile Park on June 20, 2026 in Seattle, Washington. (Photo by Jack...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "Stacy Rost: ESPN’s Barnwell dives into 3 Seahawks storylines",
-      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/stacy-rost-3-seattle-seahawks-storylines-espn-barnwell",
-      "pubDate": "Sun, 21 Jun 2026 05:38:26 +0000",
-      "isoDate": "2026-06-21T05:38:26.000Z",
-      "excerpt": "ESPN's Bill Barnwell discussed what a future Sam Darnold extension could cost, among other topics.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
       "title": "Longtime friends Hancock and Gilbert get a kick out of watching their sons bond",
       "link": "https://www.mlb.com/mariners/news/emerson-hancock-and-logan-gilbert-sharing-joy-of-fatherhood",
       "pubDate": "Sun, 21 Jun 2026 04:49:43 GMT",
@@ -262,26 +312,6 @@
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
-    },
-    {
-      "title": "39-39: Chart",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/145128/39-39-chart",
-      "pubDate": "2026-06-21T04:45:46.000Z",
-      "isoDate": "2026-06-21T04:45:46.000Z",
-      "excerpt": "SEATTLE, WASHINGTON - JUNE 20: Manager Dan Wilson of the Seattle Mariners looks on before the game against the Boston Red Sox at T-Mobile Park on June 20, 2026 in Seattle, Washington. (Photo by Jack Compton/Getty...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "Mariners Game #78 Preview and Discussion: 6/20, BOS at SEA",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-discussion/145119/mariners-game-78-preview-and-discussion-6-20-bos-at-sea",
-      "pubDate": "2026-06-21T01:10:00.000Z",
-      "isoDate": "2026-06-21T01:10:00.000Z",
-      "excerpt": "Speaking of Red Sox southpaws (Photo by Billie Weiss/Boston Red Sox/Getty Images) | Getty Images After taking until the seventh inning to record their first hit last night, the Mariners will look to bounce back today....",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
     },
     {
       "title": "NFC Front Office Updates: Seahawks, Saints, Lions",
@@ -332,16 +362,6 @@
       "source": "Field Gulls",
       "team": "seahawks",
       "priority": 1
-    },
-    {
-      "title": "Piggyback yields mixed results, but cold bats ultimately hurt Mariners",
-      "link": "https://www.mlb.com/mariners/news/mariners-held-hitless-into-7th-inning-in-loss-to-red-sox",
-      "pubDate": "Sat, 20 Jun 2026 07:18:06 GMT",
-      "isoDate": "2026-06-20T07:18:06.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
     },
     {
       "title": "Mariners Designate Miles Mastrobuoni For Assignment, Select Weston Wilson",
@@ -574,31 +594,11 @@
       "priority": 6
     },
     {
-      "title": "Defensive End Cassius Marsh Retires A Seahawk",
-      "link": "https://www.seahawks.com/news/defensive-end-cassius-marsh-retires-a-seahawk",
-      "pubDate": "Thu, 11 Jun 2026 19:16:37 GMT",
-      "isoDate": "2026-06-11T19:16:37.000Z",
-      "excerpt": "The former defensive end, Cassius Marsh, retired on Thursday.",
-      "source": "Seahawks.com",
-      "team": "seahawks",
-      "priority": 6
-    },
-    {
       "title": "Afternoon Notes: Tuch, Andersson, Kraken Hires",
       "link": "https://www.prohockeyrumors.com/2026/06/afternoon-notes-tuch-andersson-kraken-hires.html",
       "pubDate": "Thu, 11 Jun 2026 17:07:59 +0000",
       "isoDate": "2026-06-11T17:07:59.000Z",
       "excerpt": "According to Pierre LeBrun of The Athletic, Alex Tuch appears more likely to be heading to the open market. The 30-year-old winger ended his 2025-26 season scoring 33 goals for 66 points in 79 games played with the...",
-      "source": "Pro Hockey Rumors",
-      "team": "kraken",
-      "priority": 2
-    },
-    {
-      "title": "Max McCormick Announces Retirement",
-      "link": "https://www.prohockeyrumors.com/2026/06/max-mccormick-announces-retirement.html",
-      "pubDate": "Wed, 10 Jun 2026 22:01:06 +0000",
-      "isoDate": "2026-06-10T22:01:06.000Z",
-      "excerpt": "According to an announcement from the AHL’s Coachella Valley Firebirds, captain Max McCormick has retired from professional hockey. McCormick lost the entire 2025-26 campaign due to a hip injury, and that likely...",
       "source": "Pro Hockey Rumors",
       "team": "kraken",
       "priority": 2
