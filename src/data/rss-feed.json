@@ -1,58 +1,33 @@
 {
-  "generatedAt": "2026-06-23T02:53:31.100Z",
+  "generatedAt": "2026-06-23T07:44:19.251Z",
   "sourceCount": 10,
-  "successfulSources": 10,
-  "failedSources": [],
+  "successfulSources": 9,
+  "failedSources": [
+    {
+      "source": "Seattle Times Sports",
+      "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
+    }
+  ],
   "items": [
     {
-      "title": "Erling Haaland scores 2 more goals and Norway beats Senegal 3-2 to reach World Cup round of 32",
-      "link": "https://www.seattletimes.com/sports/world-cup/erling-haaland-scores-2-more-goals-and-norway-beats-senegal-3-2-to-reach-world-cup-round-of-32/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Mon, 22 Jun 2026 19:12:25 -0700",
-      "isoDate": "2026-06-23T02:12:25.000Z",
-      "excerpt": "Erling Haaland scored twice to raise his World Cup goals total to four, and Norway advanced to the round of 32 with a 3-2 win over Senegal.",
-      "source": "Seattle Times Sports",
+      "title": "Bueckers takes over to lift Wings to 112-110 OT win over Storm",
+      "link": "https://sports.mynorthwest.com/wnba/seattle-storm/paige-bueckers-dallas-wings-112-110-ot-seattle-storm",
+      "pubDate": "Tue, 23 Jun 2026 05:01:26 +0000",
+      "isoDate": "2026-06-23T05:01:26.000Z",
+      "excerpt": "Paige Bueckers scored 27 points, Azzi Fudd added a career-high 26, and the Dallas Wings handed the Seattle Storm their 11th straight loss.",
+      "source": "710 Seattle Sports",
       "team": "general",
-      "priority": 1
+      "priority": 3
     },
     {
-      "title": "Mariners determined to make piggyback pitching plan work",
-      "link": "https://www.seattletimes.com/sports/mariners/mariners-determined-to-make-piggyback-pitching-plan-work/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Mon, 22 Jun 2026 18:11:09 -0700",
-      "isoDate": "2026-06-23T01:11:09.000Z",
-      "excerpt": "The Mariners' brain trust has gone through many versions of the piggyback plan, looking for a solution for all six starters. But they're committed to the one they've landed on.",
-      "source": "Seattle Times Sports",
+      "title": "Longtime ESPN SportsCenter anchor Linda Cohn retiring after 34 years",
+      "link": "https://sports.mynorthwest.com/seattle-sports-pit/linda-cohn-espn-retiring-34-years",
+      "pubDate": "Tue, 23 Jun 2026 01:25:54 +0000",
+      "isoDate": "2026-06-23T01:25:54.000Z",
+      "excerpt": "The prolific anchor announced Monday that June 30 will be her last day after she covers the NHL draft with fellow longtime co-host John Buccigross.",
+      "source": "710 Seattle Sports",
       "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Kylian Mbappé scores 2 goals to lead France to 3-0 win over Iraq and into World Cup knockout stage",
-      "link": "https://www.seattletimes.com/sports/world-cup/kylian-mbappe-scores-2-goals-to-lead-france-to-3-0-win-over-iraq-and-into-world-cup-knockout-stage/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Mon, 22 Jun 2026 18:08:01 -0700",
-      "isoDate": "2026-06-23T01:08:01.000Z",
-      "excerpt": "Kylian Mbappé scored twice to move into a tie for second in career World Cup goals with 16, and France played through the tournament’s first rain delay to beat Iraq 3-0 on Monday and advance to the knockout stage.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Police investigation ‘active’ after allegations vs. Jets’ Geno Smith",
-      "link": "https://www.seattletimes.com/sports/seahawks/police-investigation-active-after-geno-smith-battery-allegations/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Mon, 22 Jun 2026 17:49:13 -0700",
-      "isoDate": "2026-06-23T00:49:13.000Z",
-      "excerpt": "A Davie PD spokesperson confirmed that officers responded to Geno Smith’s Florida residence on Sunday after a call reporting alleged battery. No arrests were made, but the case is ongoing.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Kraken trade means two reunions for Mackie Samoskevich in Northwest",
-      "link": "https://www.seattletimes.com/sports/kraken/kraken-trade-means-two-reunions-for-mackie-samoskevich-in-northwest/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Mon, 22 Jun 2026 17:10:36 -0700",
-      "isoDate": "2026-06-23T00:10:36.000Z",
-      "excerpt": "The Kraken trade that brought Mackie Samoskevich to Seattle means a reunion with a teammate from his youth and with his twin sister.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
+      "priority": 3
     },
     {
       "title": "NFL analyst: Seahawks struck gold by zigging when others zagged",
@@ -85,16 +60,6 @@
       "priority": 3
     },
     {
-      "title": "Seattle’s Lumen Field makes strong impression on World Cup stage",
-      "link": "https://www.seattletimes.com/sports/world-cup/seattles-lumen-field-makes-strong-impression-on-world-cup-stage/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Mon, 22 Jun 2026 15:32:00 -0700",
-      "isoDate": "2026-06-22T22:32:00.000Z",
-      "excerpt": "Lumen Field, ahem ... Seattle Stadium earned high praise for several attributes in a recent ranking of World Cup host stadiums.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "LHP Anderson lands on Prospect Team of the Week for third time this year",
       "link": "https://www.mlb.com/mariners/news/prospect-team-of-the-week-june-22-2026",
       "pubDate": "Mon, 22 Jun 2026 22:12:52 GMT",
@@ -103,16 +68,6 @@
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
-    },
-    {
-      "title": "Mariners’ Logan Gilbert named AL Player of the Week",
-      "link": "https://www.seattletimes.com/sports/mariners/mariners-logan-gilbert-named-al-player-of-the-week/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Mon, 22 Jun 2026 14:43:08 -0700",
-      "isoDate": "2026-06-22T21:43:08.000Z",
-      "excerpt": "Logan Gilbert was named the American League Player of the Week on Monday, marking the second time the M's pitcher has won the award in his career.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
     },
     {
       "title": "Mariners RHP Logan Gilbert named AL Player of the Week",
@@ -155,16 +110,6 @@
       "priority": 3
     },
     {
-      "title": "2026 World Cup: Mo Salah, Egypt dancing back to Seattle and could stay",
-      "link": "https://www.seattletimes.com/sports/world-cup/2026-world-cup-mo-salah-egypt-dancing-back-to-seattle-and-could-stay/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Mon, 22 Jun 2026 13:04:46 -0700",
-      "isoDate": "2026-06-22T20:04:46.000Z",
-      "excerpt": "Mohamed Salah helped Egypt to its first World Cup win, and now the Pharaohs are headed back to Seattle where they can clinch their group against Iran on Friday night.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "Seahawks training camp report dates, joint practice vs. Titans confirmed",
       "link": "https://www.fieldgulls.com/seattle-seahawks-preseason/169832/seahawks-training-camp-report-dates-joint-practice-vs-titans-confirmed-nfl-news",
       "pubDate": "2026-06-22T19:25:34.000Z",
@@ -185,16 +130,6 @@
       "priority": 3
     },
     {
-      "title": "WSU Cougars men’s hoops to face perennial powerhouse Duke",
-      "link": "https://sports.mynorthwest.com/ncaa/wsu/wsu-cougars-mens-basketball-to-face-perennial-powerhouse-duke",
-      "pubDate": "Mon, 22 Jun 2026 18:41:04 +0000",
-      "isoDate": "2026-06-22T18:41:04.000Z",
-      "excerpt": "WSU will square off against five-time national champion Duke on Nov. 21 in Palm Desert, California.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
       "title": "J-Rod, Randy can't let up in razor-thin AL OF All-Star race",
       "link": "https://www.mlb.com/mariners/news/2026-mlb-all-star-ballot-second-update",
       "pubDate": "Mon, 22 Jun 2026 18:04:03 GMT",
@@ -203,16 +138,6 @@
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
-    },
-    {
-      "title": "Mariners prospect Felnin Celesten showcasing newfound power",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-prospect-felnin-celesten-showing-newfound-power",
-      "pubDate": "Mon, 22 Jun 2026 17:31:01 +0000",
-      "isoDate": "2026-06-22T17:31:01.000Z",
-      "excerpt": "Celesten, who had a 25-game hitting streak earlier this year, has homered in four of his past eight games.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
     },
     {
       "title": "Rob Refsnyder: Something’s Gotta Give",
@@ -603,6 +528,86 @@
       "source": "Pro Hockey Rumors",
       "team": "kraken",
       "priority": 2
+    },
+    {
+      "title": "Mariners Outright Domingo González",
+      "link": "https://www.mlbtraderumors.com/2026/06/mariners-outright-domingo-gonzalez.html",
+      "pubDate": "Tue, 16 Jun 2026 01:26:34 +0000",
+      "isoDate": "2026-06-16T01:26:34.000Z",
+      "excerpt": "The Mariners announced that right-hander Domingo González has cleared waivers and been assigned outright to Triple-A Tacoma. Seattle also optioned infielder Patrick Wisdom on tonight’s day off, opening an active roster...",
+      "source": "MLB Trade Rumors",
+      "team": "mariners",
+      "priority": 2
+    },
+    {
+      "title": "Randy Dobnak Triggers Upward Mobility Clause In Mariners Deal",
+      "link": "https://www.mlbtraderumors.com/2026/06/randy-dobnak-has-upward-mobility-clause-in-mariners-deal.html",
+      "pubDate": "Mon, 15 Jun 2026 23:37:30 +0000",
+      "isoDate": "2026-06-15T23:37:30.000Z",
+      "excerpt": "June 15: Alexander reports that Dobnak has triggered the assignment clause, as expected. The righty will now await word on whether any team is willing to add him to the 40-man roster. June 8: Randy Dobnak signed a minor...",
+      "source": "MLB Trade Rumors",
+      "team": "mariners",
+      "priority": 2
+    },
+    {
+      "title": "Cubs Acquire Yosver Zulueta",
+      "link": "https://www.mlbtraderumors.com/2026/06/cubs-to-acquire-yosver-zulueta.html",
+      "pubDate": "Mon, 15 Jun 2026 15:32:13 +0000",
+      "isoDate": "2026-06-15T15:32:13.000Z",
+      "excerpt": "10:32 am: Both clubs have officially announced the deal. The Mariners received cash considerations from the Cubs. Chicago designated left-hander Doug Nikhazy for assignment in a corresponding move. 9:41 am: The Cubs are...",
+      "source": "MLB Trade Rumors",
+      "team": "mariners",
+      "priority": 2
+    },
+    {
+      "title": "Seahawks Receive Super Bowl LX Rings",
+      "link": "https://www.seahawks.com/news/seahawks-receive-super-bowl-lx-rings",
+      "pubDate": "Mon, 15 Jun 2026 03:30:00 GMT",
+      "isoDate": "2026-06-15T03:30:00.000Z",
+      "excerpt": "Seahawks players and coaches received their Super Bowl rings at a team celebration on Thursday night.",
+      "source": "Seahawks.com",
+      "team": "seahawks",
+      "priority": 6
+    },
+    {
+      "title": "Latest On Zach Charbonnet, Seahawks’ RBs",
+      "link": "https://www.profootballrumors.com/2026/06/latest-on-zach-charbonnet-seahawks-rbs",
+      "pubDate": "Mon, 15 Jun 2026 03:05:05 +0000",
+      "isoDate": "2026-06-15T03:05:05.000Z",
+      "excerpt": "Seahawks running back Zach Charbonnet is just five months removed from tearing his ACL in a January playoff win over the 49ers, but he is not a lock to miss time in 2026. Head coach Mike Macdonald isn’t closing the door...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
+      "priority": 2
+    },
+    {
+      "title": "Seahawks TE AJ Barner ‘Feeling Good’ After Surgeries",
+      "link": "https://www.profootballrumors.com/2026/06/seahawks-te-aj-barner-feeling-good-after-surgeries",
+      "pubDate": "Mon, 15 Jun 2026 02:06:24 +0000",
+      "isoDate": "2026-06-15T02:06:24.000Z",
+      "excerpt": "Through two years of NFL play, Seahawks tight end AJ Barner has not missed a single game. That doesn’t mean he’s been perfectly healthy. After undergoing two surgeries a week after the team’s Super Bowl LX parade,...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
+      "priority": 2
+    },
+    {
+      "title": "Todd Boehly Considering Seahawks Ownership Bid",
+      "link": "https://www.profootballrumors.com/2026/06/todd-boehly-considering-seahawks-ownership-bid",
+      "pubDate": "Sat, 13 Jun 2026 17:39:06 +0000",
+      "isoDate": "2026-06-13T17:39:06.000Z",
+      "excerpt": "Another billionaire has entered the fray to be the new owner of the Seahawks. Todd Boehly, CEO of holding company Eldridge Industries, is considering a bid to own Seattle’s NFL team, per Semafor’s Liz Offman. The...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
+      "priority": 2
+    },
+    {
+      "title": "'Let's Have A Blast!' Seahawks Celebrate Championship Season With Super Bowl Rings",
+      "link": "https://www.seahawks.com/news/let-s-have-a-blast-seahawks-celebrate-championship-season-with-super-bowl-rings",
+      "pubDate": "Fri, 12 Jun 2026 18:24:35 GMT",
+      "isoDate": "2026-06-12T18:24:35.000Z",
+      "excerpt": "The Seahawks received their Super Bowl rings on Thursday night and celebrated accordingly.",
+      "source": "Seahawks.com",
+      "team": "seahawks",
+      "priority": 6
     }
   ]
 }
