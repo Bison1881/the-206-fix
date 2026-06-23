@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T07:44:19.251Z",
+  "generatedAt": "2026-06-23T11:13:24.515Z",
   "sourceCount": 10,
   "successfulSources": 9,
   "failedSources": [
@@ -78,16 +78,6 @@
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
-    },
-    {
-      "title": "What will make or break Seahawks RG Anthony Bradford in 2026",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169842/what-will-make-or-break-seattle-seahawks-rg-anthony-bradford-2026",
-      "pubDate": "2026-06-22T21:00:00.000Z",
-      "isoDate": "2026-06-22T21:00:00.000Z",
-      "excerpt": "ARLINGTON, TEXAS - NOVEMBER 30: Anthony Bradford #75 of the Seattle Seahawks looks on during an NFL football game against the Dallas Cowboys at AT&T Stadium on November 30, 2023 in Arlington, Texas. (Photo by Ryan...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
     },
     {
       "title": "With 2 strong starts (including Father's Day gem), Gilbert earns AL Player of the Week honors",
@@ -418,6 +408,16 @@
       "source": "MLB Trade Rumors",
       "team": "mariners",
       "priority": 2
+    },
+    {
+      "title": "Seahawks stars and legends take in USA’s historic FIFA World Cup win in Seattle",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169769/seahawks-stars-legends-fifa-world-cup-seattle-usa-lynch-wilson-macdonald",
+      "pubDate": "2026-06-19T22:25:11.000Z",
+      "isoDate": "2026-06-19T22:25:11.000Z",
+      "excerpt": "SEATTLE, WASHINGTON - JUNE 19: Alex Freeman #16 of the United States celebrates with teammates after scoring his team's second goal during the FIFA World Cup 2026 Group D match between USA and Australia at Seattle...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
     },
     {
       "title": "Takeaways From The Seahawks' 2026 Offseason Program & Minicamp",
