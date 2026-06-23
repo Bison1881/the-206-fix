@@ -1,18 +1,149 @@
 {
-  "generatedAt": "2026-06-23T17:49:39.740Z",
+  "generatedAt": "2026-06-23T19:57:57.672Z",
   "sourceCount": 10,
-  "successfulSources": 8,
-  "failedSources": [
+  "successfulSources": 10,
+  "failedSources": [],
+  "items": [
     {
+      "title": "Ronaldo becomes first player to score in six World Cups with two goals against Uzbekistan",
+      "link": "https://www.seattletimes.com/sports/world-cup/ronaldo-becomes-first-player-to-score-in-six-world-cups-with-two-goals-against-uzbekistan/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Tue, 23 Jun 2026 12:49:42 -0700",
+      "isoDate": "2026-06-23T19:49:42.000Z",
+      "excerpt": "Cristiano Ronaldo became the first player to score in six different World Cup tournaments by getting two goals in Portugal’s 5-0 win over Uzbekistan.",
       "source": "Seattle Times Sports",
-      "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
+      "team": "general",
+      "priority": 1
     },
     {
-      "source": "Davy Jones' Locker Room",
-      "error": "Status code 415 (lenient retry: Status code 415)"
-    }
-  ],
-  "items": [
+      "title": "Seattle World Cup ticket prices: What’s cost to get to a game this week?",
+      "link": "https://www.seattletimes.com/sports/world-cup/seattle-world-cup-ticket-prices-whats-cost-to-get-to-a-game-this-week/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Tue, 23 Jun 2026 12:42:59 -0700",
+      "isoDate": "2026-06-23T19:42:59.000Z",
+      "excerpt": "Tickets to this week's matches have generally been the lowest priced options of the six that Seattle is hosting. But they're still higher than they were last month.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Seattle Kraken detail top priority after ‘Phase 1’ of audit",
+      "link": "https://www.seattletimes.com/sports/kraken/seattle-kraken-detail-top-priority-after-phase-1-of-audit/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Tue, 23 Jun 2026 12:34:56 -0700",
+      "isoDate": "2026-06-23T19:34:56.000Z",
+      "excerpt": "The Kraken concluded the two-month “Phase 1” of an audit promised to fans after a third straight playoff miss with an update courtesy of CEO Tod Leiweke.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "The NCAA changed its eligibility rules. What does that mean for transfers, rosters and playing time?",
+      "link": "https://www.seattletimes.com/sports/college/the-ncaa-changed-its-eligibility-rules-what-does-that-mean-for-transfers-rosters-and-playing-time/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Tue, 23 Jun 2026 12:24:39 -0700",
+      "isoDate": "2026-06-23T19:24:39.000Z",
+      "excerpt": "The NCAA has approved a new eligibility model for Division I athletes, limiting them to five years to complete five seasons.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Mariners reinstate Randy Arozarena after IL stint, Connor Joe optioned to Triple-A",
+      "link": "https://www.seattletimes.com/sports/mariners/mariners-reinstate-randy-arozarena-after-il-stint-connor-joe-optioned-to-triple-a/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Tue, 23 Jun 2026 12:22:08 -0700",
+      "isoDate": "2026-06-23T19:22:08.000Z",
+      "excerpt": "Randy Arozarena was reinstated from the 10-day injured list and was back in Tuesday's starting lineup for the Mariners.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "2026 World Cup: After initial denial, Egypt heading to Seattle",
+      "link": "https://www.seattletimes.com/sports/world-cup/2026-world-cup-after-initial-denial-egypt-heading-to-seattle/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Tue, 23 Jun 2026 12:19:54 -0700",
+      "isoDate": "2026-06-23T19:19:54.000Z",
+      "excerpt": "Despite its initial request being denied, Egypt will get a couple of days in Seattle before its final FIFA Men’s World Cup group stage match against Iran.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Mariners get Arozarena (hamstring strain) back from IL",
+      "link": "https://www.mlb.com/mariners/news/randy-arozarena-comes-off-injured-list-after-hamstring-strain",
+      "pubDate": "Tue, 23 Jun 2026 19:11:39 GMT",
+      "isoDate": "2026-06-23T19:11:39.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Latest Mariners injuries and transactions",
+      "link": "https://www.mlb.com/mariners/news/mariners-injuries-and-roster-moves",
+      "pubDate": "Tue, 23 Jun 2026 18:55:00 GMT",
+      "isoDate": "2026-06-23T18:55:00.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Mariners get All-Star Randy Arozarena back from IL; OF optioned to Triple-A",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-randy-arozarena-back-il",
+      "pubDate": "Tue, 23 Jun 2026 18:48:09 +0000",
+      "isoDate": "2026-06-23T18:48:09.000Z",
+      "excerpt": "Arozarena was placed on the IL on June 15 for a left hamstring strain in a move that was retroactive to June 13.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "World Cup: US eases restriction on Iran team before Seattle match",
+      "link": "https://sports.mynorthwest.com/seattle-sports-pit/world-cup-us-restriction-iran-seattle-match",
+      "pubDate": "Tue, 23 Jun 2026 18:47:15 +0000",
+      "isoDate": "2026-06-23T18:47:15.000Z",
+      "excerpt": "The U.S. is easing its restrictions on Iran’s World Cup team, allowing the squad to travel into the country two days before its next match, the U.S. Department of Homeland Security said Tuesday.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "US eases restriction on Iran’s World Cup team, allowing travel 2 days before next match",
+      "link": "https://www.seattletimes.com/seattle-news/irans-world-cup-team-can-travel-to-seattle-2-days-before-friday-match/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Tue, 23 Jun 2026 11:32:38 -0700",
+      "isoDate": "2026-06-23T18:32:38.000Z",
+      "excerpt": "The U.S. is easing its restrictions on Iran’s World Cup team. It can travel to Seattle on Wednesday, ahead of its match Friday, after which it must depart.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Brendan Sorsby has to wait until 2027 to join the NFL",
+      "link": "https://www.seattletimes.com/sports/nfl/nfl-informs-brendan-sorsby-it-will-not-hold-a-supplemental-draft-this-year/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Tue, 23 Jun 2026 11:14:40 -0700",
+      "isoDate": "2026-06-23T18:14:40.000Z",
+      "excerpt": "Brendan Sorsby will have to wait until 2027 to begin his NFL career.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Commish says when potential Seattle NBA expansion team would play",
+      "link": "https://sports.mynorthwest.com/seattle-sports-pit/nba-expansion-seattle-sonics-2028-29-adam-silver-play",
+      "pubDate": "Tue, 23 Jun 2026 18:13:26 +0000",
+      "isoDate": "2026-06-23T18:13:26.000Z",
+      "excerpt": "Commissioner Adam Silver provided an update on NBA expansion and a potential Seattle Sonics team Tuesday on The Dan Patrick Show.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Seahawks linebacker Ernest Jones named to NFL Top 100 for first time",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169876/seahawks-linebacker-ernest-jones-named-nfl-top-100-first-time",
+      "pubDate": "2026-06-23T18:00:44.000Z",
+      "isoDate": "2026-06-23T18:00:44.000Z",
+      "excerpt": "The Seattle Seahawks’ move to acquire linebacker Ernest Jones IV in 2024 was unassuming at the time. Seattle was desperate for help at the position, and the Titans needed picks to rebuild, simple as that. Just over two...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
     {
       "title": "Stacy’s Fact-O-Meter: Panic or not about the Mariners?",
       "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/stacy-rost-fact-o-meter-seattle-mariners",
@@ -114,6 +245,16 @@
       "priority": 1
     },
     {
+      "title": "Draft Profiles 2k26: Ty Lawrence is a 200 foot Center with something to prove",
+      "link": "https://www.davyjoneslockerroom.com/draft-profiles-2k26-ty-lawrence-is-a-200-foot-center-with-something-to-prove/",
+      "pubDate": "Tue, 23 Jun 2026 14:00:00 +0000",
+      "isoDate": "2026-06-23T14:00:00.000Z",
+      "excerpt": "Well, now that we’ve gotten the guy who is probably the consensus #7 pick, give or take a draft ranking or two… …Let’s immediately take a turn left from a perfectly reasonable 7th overall choice in this draft full of...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
       "title": "Seahawks News 6/23: Josh Jobe is the Seahawks&#8217; undisputed No. 2 CB",
       "link": "https://www.fieldgulls.com/seattle-seahawks-news/169857/seahawks-news-6-23-josh-jobe-is-the-seahawks-undisputed-no-2-cb",
       "pubDate": "2026-06-23T13:00:00.000Z",
@@ -149,36 +290,6 @@
       "pubDate": "Tue, 23 Jun 2026 05:01:26 +0000",
       "isoDate": "2026-06-23T05:01:26.000Z",
       "excerpt": "Paige Bueckers scored 27 points, Azzi Fudd added a career-high 26, and the Dallas Wings handed the Seattle Storm their 11th straight loss.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "Longtime ESPN SportsCenter anchor Linda Cohn retiring after 34 years",
-      "link": "https://sports.mynorthwest.com/seattle-sports-pit/linda-cohn-espn-retiring-34-years",
-      "pubDate": "Tue, 23 Jun 2026 01:25:54 +0000",
-      "isoDate": "2026-06-23T01:25:54.000Z",
-      "excerpt": "The prolific anchor announced Monday that June 30 will be her last day after she covers the NHL draft with fellow longtime co-host John Buccigross.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "NFL analyst: Seahawks struck gold by zigging when others zagged",
-      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/tucker-seattle-seahawks-struck-gold-zigging-when-others-zagged",
-      "pubDate": "Mon, 22 Jun 2026 23:24:53 +0000",
-      "isoDate": "2026-06-22T23:24:53.000Z",
-      "excerpt": "NFL analyst Ross Tucker reflected on Seattle's home-run decision to hire Mike Macdonald.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "US star Christian Pulisic returns to training after missing Seattle World Cup win",
-      "link": "https://sports.mynorthwest.com/seattle-sports-pit/us-star-christian-pulisic-returns-to-training-after-missing-seattle-world-cup-win",
-      "pubDate": "Mon, 22 Jun 2026 23:04:00 +0000",
-      "isoDate": "2026-06-22T23:04:00.000Z",
-      "excerpt": "Christian Pulisic returned to training with his U.S. teammates on Monday after missing their most recent match of the World Cup with a calf injury.",
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
@@ -314,6 +425,16 @@
       "priority": 1
     },
     {
+      "title": "Draft Profiles 2k26: Alberts Šmits is Latvia’s ferocious hope",
+      "link": "https://www.davyjoneslockerroom.com/draft-profiles-2k26-alberts-smits-is-latvias-ferocious-hope/",
+      "pubDate": "Mon, 22 Jun 2026 14:00:00 +0000",
+      "isoDate": "2026-06-22T14:00:00.000Z",
+      "excerpt": "The Draft Profiles are back! And we start with a defender! Defenseman Alberts Šmits has one of the more unique paths as a defenseman in this draft; being a Latvian playing in Finland as one of the younger players in the...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
       "title": "Seahawks News 6/22: Jake Bobo’s contract presumes a bigger role in 2026",
       "link": "https://www.fieldgulls.com/seattle-seahawks-news/169824/seahawks-news-6-22-jake-bobos-contract-presumes-a-bigger-role-in-2026",
       "pubDate": "2026-06-22T13:29:48.000Z",
@@ -322,26 +443,6 @@
       "source": "Field Gulls",
       "team": "seahawks",
       "priority": 1
-    },
-    {
-      "title": "New dad Gilbert twirls Father's Day gem -- and brings baby to the podium",
-      "link": "https://www.mlb.com/mariners/news/logan-gilbert-earns-win-on-father-s-day",
-      "pubDate": "Mon, 22 Jun 2026 01:00:00 GMT",
-      "isoDate": "2026-06-22T01:00:00.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
-    },
-    {
-      "title": "Latest Mariners injuries and transactions",
-      "link": "https://www.mlb.com/mariners/news/mariners-injuries-and-roster-moves",
-      "pubDate": "Mon, 22 Jun 2026 00:24:00 GMT",
-      "isoDate": "2026-06-22T00:24:00.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
     },
     {
       "title": "Lefties make it right, Mariners win 3-1 against Red Sox",
@@ -354,6 +455,16 @@
       "priority": 1
     },
     {
+      "title": "F Bobby McMann re-signs in Seattle for 6 year deal!",
+      "link": "https://www.davyjoneslockerroom.com/f-bobby-mcmann-re-signs-in-seattle-for-6-year-deal/",
+      "pubDate": "Sun, 21 Jun 2026 23:31:11 +0000",
+      "isoDate": "2026-06-21T23:31:11.000Z",
+      "excerpt": "TIME TO GET MCMANNLY The Kraken announced today they have re-signed Bobby McMann for 6 years for $5.75 million a year. BOBBY'S STAYING IN SEATTLE! 🙌 The #SeaKraken have agreed to terms with forward Bobby McMann for a...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
       "title": "Kraken Sign Bobby McMann To Six-Year Extension",
       "link": "https://www.prohockeyrumors.com/2026/06/kraken-sign-bobby-mcmann-to-six-year-extension.html",
       "pubDate": "Sun, 21 Jun 2026 21:47:50 +0000",
@@ -362,6 +473,16 @@
       "source": "Pro Hockey Rumors",
       "team": "kraken",
       "priority": 2
+    },
+    {
+      "title": "Kraken trade 25th overall pick, conditional 2nd rounder for F Mackie Samoskevich",
+      "link": "https://www.davyjoneslockerroom.com/kraken-trade-25th-overall-pick-conditional-2nd-rounder-for-f-mackie-samoskevich/",
+      "pubDate": "Sun, 21 Jun 2026 18:54:56 +0000",
+      "isoDate": "2026-06-21T18:54:56.000Z",
+      "excerpt": "Let’s set the scene with an appropriate song. The Seattle Kraken announced today that they have traded their 25th overall pick this year and a conditional 2nd round for 2027 (which is either going to be Winnipeg or...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
     },
     {
       "title": "Kraken Acquire Mackie Samoskevich",
@@ -379,16 +500,6 @@
       "pubDate": "2026-06-21T14:00:00.000Z",
       "isoDate": "2026-06-21T14:00:00.000Z",
       "excerpt": "Welcome to SB Nation Reacts, a survey of fans across the NFL. Throughout the year we ask questions of the most plugged-in Seahawks fans and fans across the country. Sign up here to participate in the weekly emailed...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "Seahawks News 6/21: Dante Fowler and the potential of the 2026 Seahawks D",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169812/seahawks-news-6-21-dante-fowler-and-the-potential-of-the-2026-seahawks-d",
-      "pubDate": "2026-06-21T13:00:00.000Z",
-      "isoDate": "2026-06-21T13:00:00.000Z",
-      "excerpt": "Jun 9, 2026; Renton, WA, USA; Seattle Seahawks linebacker Dante Fowler (56) runs a drill against tackle Uso Seumalo (92) during minicamp at Virginia Mason Athletic Center. Mandatory Credit: Steven Bisig-Imagn Images |...",
       "source": "Field Gulls",
       "team": "seahawks",
       "priority": 1
@@ -474,6 +585,16 @@
       "priority": 2
     },
     {
+      "title": "PWHL Draft Recap: Torrent add goalscoring and controversy to their roster",
+      "link": "https://www.davyjoneslockerroom.com/pwhl-draft-recap-torrent-add-goalscoring-and-controversy-to-their-roster/",
+      "pubDate": "Thu, 18 Jun 2026 13:45:00 +0000",
+      "isoDate": "2026-06-18T13:45:00.000Z",
+      "excerpt": "The PWHL Draft concluded yesterday, with a bunch of depleted lineups changing hopefully for the better with the additions of fresh new talent from all across the globe. 2nd Overall Pick: Abbey Murphy – F Hometown:...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
       "title": "Royals Acquire Randy Dobnak",
       "link": "https://www.mlbtraderumors.com/2026/06/royals-to-acquire-randy-dobnak.html",
       "pubDate": "Wed, 17 Jun 2026 23:52:54 +0000",
@@ -481,136 +602,6 @@
       "excerpt": "6:52pm: Kansas City officially acquired Dobnak for cash considerations and optioned him to Triple-A. They transferred Cole Ragans from the 15-day to the 60-day injured list to open a spot on the 40-man roster. Ragans...",
       "source": "MLB Trade Rumors",
       "team": "mariners",
-      "priority": 2
-    },
-    {
-      "title": "Seahawks Mailbag: Super Bowl Rings, Year 2 Nick Emmanwori & More",
-      "link": "https://www.seahawks.com/news/seahawks-mailbag-super-bowl-rings-year-2-nick-emmanwori-more",
-      "pubDate": "Wed, 17 Jun 2026 23:14:34 GMT",
-      "isoDate": "2026-06-17T23:14:34.000Z",
-      "excerpt": "You had Seahawks questions; we have answers.",
-      "source": "Seahawks.com",
-      "team": "seahawks",
-      "priority": 6
-    },
-    {
-      "title": "Seahawks Announce Front Office Promotions, Including Two New Assistant General Managers",
-      "link": "https://www.seahawks.com/news/seahawks-announce-front-office-promotions-including-two-new-assistant-general-managers",
-      "pubDate": "Wed, 17 Jun 2026 19:58:41 GMT",
-      "isoDate": "2026-06-17T19:58:41.000Z",
-      "excerpt": "The Seahawks announced six promotions on Wednesday, including assistant general manager titles for Matt Berry and Willie Schneider.",
-      "source": "Seahawks.com",
-      "team": "seahawks",
-      "priority": 6
-    },
-    {
-      "title": "Seahawks Promote Willie Schneider, Matt Berry To Assistant GM",
-      "link": "https://www.profootballrumors.com/2026/06/seahawks-promote-willie-schneider-matt-berry-to-assistant-gm",
-      "pubDate": "Wed, 17 Jun 2026 19:05:21 +0000",
-      "isoDate": "2026-06-17T19:05:21.000Z",
-      "excerpt": "The reigning Super Bowl champion Seahawks are making a couple of front office promotions, Tom Pelissero of NFL Network reports. They will elevate director of pro personnel Willie Schneider and vice president/player...",
-      "source": "Pro Football Rumors",
-      "team": "seahawks",
-      "priority": 2
-    },
-    {
-      "title": "Mariners Place Randy Arozarena On Injured List",
-      "link": "https://www.mlbtraderumors.com/2026/06/mariners-to-place-randy-arozarena-on-injured-list.html",
-      "pubDate": "Wed, 17 Jun 2026 01:14:36 +0000",
-      "isoDate": "2026-06-17T01:14:36.000Z",
-      "excerpt": "8:14pm: Seattle has officially announced all three moves: Arozarena’s retroactive IL placement, Washington’s selection, and Wilson’s transfer to the 60-day injured list. Wilson has been out since late April with a...",
-      "source": "MLB Trade Rumors",
-      "team": "mariners",
-      "priority": 2
-    },
-    {
-      "title": "Free Agent Focus: Seattle Kraken",
-      "link": "https://www.prohockeyrumors.com/2026/06/free-agent-focus-seattle-kraken-4.html",
-      "pubDate": "Tue, 16 Jun 2026 22:45:55 +0000",
-      "isoDate": "2026-06-16T22:45:55.000Z",
-      "excerpt": "Free agency is now less than a month away, and teams are looking ahead to when it opens. Even with the UFA crop being thinned out in recent months, there will be some quality veterans set to hit the open market in July,...",
-      "source": "Pro Hockey Rumors",
-      "team": "kraken",
-      "priority": 2
-    },
-    {
-      "title": "Mariners Outright Domingo González",
-      "link": "https://www.mlbtraderumors.com/2026/06/mariners-outright-domingo-gonzalez.html",
-      "pubDate": "Tue, 16 Jun 2026 01:26:34 +0000",
-      "isoDate": "2026-06-16T01:26:34.000Z",
-      "excerpt": "The Mariners announced that right-hander Domingo González has cleared waivers and been assigned outright to Triple-A Tacoma. Seattle also optioned infielder Patrick Wisdom on tonight’s day off, opening an active roster...",
-      "source": "MLB Trade Rumors",
-      "team": "mariners",
-      "priority": 2
-    },
-    {
-      "title": "Randy Dobnak Triggers Upward Mobility Clause In Mariners Deal",
-      "link": "https://www.mlbtraderumors.com/2026/06/randy-dobnak-has-upward-mobility-clause-in-mariners-deal.html",
-      "pubDate": "Mon, 15 Jun 2026 23:37:30 +0000",
-      "isoDate": "2026-06-15T23:37:30.000Z",
-      "excerpt": "June 15: Alexander reports that Dobnak has triggered the assignment clause, as expected. The righty will now await word on whether any team is willing to add him to the 40-man roster. June 8: Randy Dobnak signed a minor...",
-      "source": "MLB Trade Rumors",
-      "team": "mariners",
-      "priority": 2
-    },
-    {
-      "title": "Cubs Acquire Yosver Zulueta",
-      "link": "https://www.mlbtraderumors.com/2026/06/cubs-to-acquire-yosver-zulueta.html",
-      "pubDate": "Mon, 15 Jun 2026 15:32:13 +0000",
-      "isoDate": "2026-06-15T15:32:13.000Z",
-      "excerpt": "10:32 am: Both clubs have officially announced the deal. The Mariners received cash considerations from the Cubs. Chicago designated left-hander Doug Nikhazy for assignment in a corresponding move. 9:41 am: The Cubs are...",
-      "source": "MLB Trade Rumors",
-      "team": "mariners",
-      "priority": 2
-    },
-    {
-      "title": "Latest On Zach Charbonnet, Seahawks’ RBs",
-      "link": "https://www.profootballrumors.com/2026/06/latest-on-zach-charbonnet-seahawks-rbs",
-      "pubDate": "Mon, 15 Jun 2026 03:05:05 +0000",
-      "isoDate": "2026-06-15T03:05:05.000Z",
-      "excerpt": "Seahawks running back Zach Charbonnet is just five months removed from tearing his ACL in a January playoff win over the 49ers, but he is not a lock to miss time in 2026. Head coach Mike Macdonald isn’t closing the door...",
-      "source": "Pro Football Rumors",
-      "team": "seahawks",
-      "priority": 2
-    },
-    {
-      "title": "Seahawks TE AJ Barner ‘Feeling Good’ After Surgeries",
-      "link": "https://www.profootballrumors.com/2026/06/seahawks-te-aj-barner-feeling-good-after-surgeries",
-      "pubDate": "Mon, 15 Jun 2026 02:06:24 +0000",
-      "isoDate": "2026-06-15T02:06:24.000Z",
-      "excerpt": "Through two years of NFL play, Seahawks tight end AJ Barner has not missed a single game. That doesn’t mean he’s been perfectly healthy. After undergoing two surgeries a week after the team’s Super Bowl LX parade,...",
-      "source": "Pro Football Rumors",
-      "team": "seahawks",
-      "priority": 2
-    },
-    {
-      "title": "Todd Boehly Considering Seahawks Ownership Bid",
-      "link": "https://www.profootballrumors.com/2026/06/todd-boehly-considering-seahawks-ownership-bid",
-      "pubDate": "Sat, 13 Jun 2026 17:39:06 +0000",
-      "isoDate": "2026-06-13T17:39:06.000Z",
-      "excerpt": "Another billionaire has entered the fray to be the new owner of the Seahawks. Todd Boehly, CEO of holding company Eldridge Industries, is considering a bid to own Seattle’s NFL team, per Semafor’s Liz Offman. The...",
-      "source": "Pro Football Rumors",
-      "team": "seahawks",
-      "priority": 2
-    },
-    {
-      "title": "Afternoon Notes: Tuch, Andersson, Kraken Hires",
-      "link": "https://www.prohockeyrumors.com/2026/06/afternoon-notes-tuch-andersson-kraken-hires.html",
-      "pubDate": "Thu, 11 Jun 2026 17:07:59 +0000",
-      "isoDate": "2026-06-11T17:07:59.000Z",
-      "excerpt": "According to Pierre LeBrun of The Athletic, Alex Tuch appears more likely to be heading to the open market. The 30-year-old winger ended his 2025-26 season scoring 33 goals for 66 points in 79 games played with the...",
-      "source": "Pro Hockey Rumors",
-      "team": "kraken",
-      "priority": 2
-    },
-    {
-      "title": "Minor NFL Transactions: 6/8/26",
-      "link": "https://www.profootballrumors.com/2026/06/minor-nfl-transactions-6-8-26",
-      "pubDate": "Tue, 09 Jun 2026 00:01:55 +0000",
-      "isoDate": "2026-06-09T00:01:55.000Z",
-      "excerpt": "Four teams made minor moves on Monday. Here’s a look… Carolina Panthers Signed: WR Malick Meiga Waived: TE Heinrich Haarberg New York Jets Signed: WR Jalen Walthall Waived/injured: Quentin Skinner Seattle Seahawks...",
-      "source": "Pro Football Rumors",
-      "team": "seahawks",
       "priority": 2
     }
   ]
