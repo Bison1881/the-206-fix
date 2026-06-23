@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T21:44:52.848Z",
+  "generatedAt": "2026-06-23T23:06:20.539Z",
   "sourceCount": 10,
   "successfulSources": 9,
   "failedSources": [
@@ -9,6 +9,36 @@
     }
   ],
   "items": [
+    {
+      "title": "Latest Mariners injuries and transactions",
+      "link": "https://www.mlb.com/mariners/news/mariners-injuries-and-roster-moves",
+      "pubDate": "Tue, 23 Jun 2026 22:28:00 GMT",
+      "isoDate": "2026-06-23T22:28:00.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Mariners get Arozarena (hamstring strain) back from IL",
+      "link": "https://www.mlb.com/mariners/news/randy-arozarena-comes-off-injured-list-after-hamstring-strain",
+      "pubDate": "Tue, 23 Jun 2026 22:24:00 GMT",
+      "isoDate": "2026-06-23T22:24:00.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Mariners at Pirates: Game Preview and Discussion",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-game-information/145240/mariners-at-pirates-game-preview-and-discussion",
+      "pubDate": "2026-06-23T22:22:30.000Z",
+      "isoDate": "2026-06-23T22:22:30.000Z",
+      "excerpt": "Jul 4, 2025; Seattle, Washington, USA; Seattle Mariners left fielder Randy Arozarena (56) celebrates after hitting a solo home run during the fourth inning against the Pittsburgh Pirates at T-Mobile Park. Mandatory...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
     {
       "title": "The latest on Dominic Canzone’s hamstring injury",
       "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-the-latest-on-dominic-canzones-hamstring-injury",
@@ -48,26 +78,6 @@
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
-    },
-    {
-      "title": "Mariners get Arozarena (hamstring strain) back from IL",
-      "link": "https://www.mlb.com/mariners/news/randy-arozarena-comes-off-injured-list-after-hamstring-strain",
-      "pubDate": "Tue, 23 Jun 2026 19:50:00 GMT",
-      "isoDate": "2026-06-23T19:50:00.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
-    },
-    {
-      "title": "Latest Mariners injuries and transactions",
-      "link": "https://www.mlb.com/mariners/news/mariners-injuries-and-roster-moves",
-      "pubDate": "Tue, 23 Jun 2026 18:55:00 GMT",
-      "isoDate": "2026-06-23T18:55:00.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
     },
     {
       "title": "Mariners get All-Star Randy Arozarena back from IL; OF optioned to Triple-A",
@@ -347,16 +357,6 @@
       "excerpt": "SANTA CLARA, CALIFORNIA - FEBRUARY 8: Leonard Williams #99 of the Seattle Seahawks celebrates after a touchdown during the fourth quarter of the NFL Super Bowl LX football game against the New England Patriots, at...",
       "source": "Field Gulls",
       "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "Mariners News: Logan Gilbert, Dominic Canzone, and Jack Leiter",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-news/145174/logan-gilbert-dominic-canzone-jack-leiter-rafael-devers-teoscar-hernandez",
-      "pubDate": "2026-06-22T14:00:00.000Z",
-      "isoDate": "2026-06-22T14:00:00.000Z",
-      "excerpt": "Good morning! A Father’s Day gem by Logan Gilbert powered the Mariners to a 3-1 win over the Boston Red Sox yesterday to avoid the series sweep. After an off day today, the Mariners embark on a new series with the...",
-      "source": "Lookout Landing",
-      "team": "mariners",
       "priority": 1
     },
     {
