@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T02:54:09.214Z",
+  "generatedAt": "2026-06-24T07:37:11.854Z",
   "sourceCount": 10,
   "successfulSources": 9,
   "failedSources": [
@@ -9,6 +9,16 @@
     }
   ],
   "items": [
+    {
+      "title": "Homer-coming king! Young blasts game-winning dinger in return to Pittsburgh",
+      "link": "https://www.mlb.com/mariners/news/cole-young-hits-game-winning-home-run-vs-pirates",
+      "pubDate": "Wed, 24 Jun 2026 04:08:00 GMT",
+      "isoDate": "2026-06-24T04:08:00.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
     {
       "title": "Prince of Pittsburgh: Cole Young delivers go-ahead homer in 3-2 Mariners win",
       "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/24480540/prince-of-pittsburgh-cole-young-delivers-go-ahead-homer-in-3-2-mariners-win",
@@ -44,16 +54,6 @@
       "link": "https://www.mlb.com/mariners/news/randy-arozarena-comes-off-injured-list-after-hamstring-strain",
       "pubDate": "Wed, 24 Jun 2026 01:43:00 GMT",
       "isoDate": "2026-06-24T01:43:00.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
-    },
-    {
-      "title": "Homer-coming king! Young blasts game-winning dinger in return to Pittsburgh",
-      "link": "https://www.mlb.com/mariners/news/cole-young-hits-game-winning-home-run-vs-pirates",
-      "pubDate": "Wed, 24 Jun 2026 01:31:48 GMT",
-      "isoDate": "2026-06-24T01:31:48.000Z",
       "excerpt": "",
       "source": "Mariners.com",
       "team": "mariners",
