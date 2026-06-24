@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T23:06:20.539Z",
+  "generatedAt": "2026-06-24T02:54:09.214Z",
   "sourceCount": 10,
   "successfulSources": 9,
   "failedSources": [
@@ -10,20 +10,120 @@
   ],
   "items": [
     {
-      "title": "Latest Mariners injuries and transactions",
-      "link": "https://www.mlb.com/mariners/news/mariners-injuries-and-roster-moves",
-      "pubDate": "Tue, 23 Jun 2026 22:28:00 GMT",
-      "isoDate": "2026-06-23T22:28:00.000Z",
+      "title": "Prince of Pittsburgh: Cole Young delivers go-ahead homer in 3-2 Mariners win",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/24480540/prince-of-pittsburgh-cole-young-delivers-go-ahead-homer-in-3-2-mariners-win",
+      "pubDate": "2026-06-24T02:53:08.000Z",
+      "isoDate": "2026-06-24T02:53:08.000Z",
+      "excerpt": "Jun 23, 2026; Pittsburgh, Pennsylvania, USA; Seattle Mariners second baseman Cole Young (2) reacts as he circles the bases on a two run home run against the Pittsburgh Pirates during the seventh inning at PNC Park....",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Recap: Mariners take series opener from Pirates 3-2",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/recap-seattle-mariners-take-series-opener-from-pirates-3-2",
+      "pubDate": "Wed, 24 Jun 2026 02:03:22 +0000",
+      "isoDate": "2026-06-24T02:03:22.000Z",
+      "excerpt": "George Kirby pitched six strong innings and Cole Young hit the go-ahead home run in the seventh.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "NBA Draft: UW’s Hannes Steinbach selected 14th overall by Hornets",
+      "link": "https://sports.mynorthwest.com/ncaa/uw/nba-draft-uw-huskies-hannes-steinbach-selected-14th-overall-by-hornets",
+      "pubDate": "Wed, 24 Jun 2026 01:50:47 +0000",
+      "isoDate": "2026-06-24T01:50:47.000Z",
+      "excerpt": "The standout big man is UW's first first-round pick since 2020.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Mariners get Arozarena (hamstring strain) back from IL",
+      "link": "https://www.mlb.com/mariners/news/randy-arozarena-comes-off-injured-list-after-hamstring-strain",
+      "pubDate": "Wed, 24 Jun 2026 01:43:00 GMT",
+      "isoDate": "2026-06-24T01:43:00.000Z",
       "excerpt": "",
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
     },
     {
-      "title": "Mariners get Arozarena (hamstring strain) back from IL",
-      "link": "https://www.mlb.com/mariners/news/randy-arozarena-comes-off-injured-list-after-hamstring-strain",
-      "pubDate": "Tue, 23 Jun 2026 22:24:00 GMT",
-      "isoDate": "2026-06-23T22:24:00.000Z",
+      "title": "Homer-coming king! Young blasts game-winning dinger in return to Pittsburgh",
+      "link": "https://www.mlb.com/mariners/news/cole-young-hits-game-winning-home-run-vs-pirates",
+      "pubDate": "Wed, 24 Jun 2026 01:31:48 GMT",
+      "isoDate": "2026-06-24T01:31:48.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "41-39: Chart",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/145246/41-39-chart",
+      "pubDate": "2026-06-24T01:31:00.000Z",
+      "isoDate": "2026-06-24T01:31:00.000Z",
+      "excerpt": "Jun 23, 2026; Pittsburgh, Pennsylvania, USA; Seattle Mariners catcher Cal Raleigh (29) reacts after hitting a solo home run against the Pittsburgh Pirates during the fourth inning at PNC Park. Mandatory Credit: Charles...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Welcome Home: M’s Cole Young slugs go-ahead HR at PNC Park",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/welcome-home-seattle-mariners-cole-young-slugs-go-ahead-hr-at-pnc-park",
+      "pubDate": "Wed, 24 Jun 2026 01:25:43 +0000",
+      "isoDate": "2026-06-24T01:25:43.000Z",
+      "excerpt": "The second baseman provided the winning swing in his first game at his hometown ballpark.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Mariners Reacts Survey: The Career Crossroad",
+      "link": "https://www.lookoutlanding.com/mlb-reacts/145217/mariners-reacts-survey-the-career-crossroad",
+      "pubDate": "2026-06-24T00:00:00.000Z",
+      "isoDate": "2026-06-24T00:00:00.000Z",
+      "excerpt": "Jun 20, 2026; Seattle, Washington, USA; Seattle Mariners third baseman J.P. Crawford (3), right, is congratulated by right fielder Rob Refsnyder (30) after scoring a run during the first inning against the Boston Red...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "WSU receives pledge from local 4-star O-lineman",
+      "link": "https://sports.mynorthwest.com/ncaa/wsu/wsu-cougars-receive-pledge-from-local-4-star-o-lineman",
+      "pubDate": "Tue, 23 Jun 2026 23:27:33 +0000",
+      "isoDate": "2026-06-23T23:27:33.000Z",
+      "excerpt": "Curtis High School OT Rashaun Lavata'i is now WSU's highest-rated recruit for the class of 2027.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "NCAA panel approves new 5-year eligibility model for D-I sports",
+      "link": "https://sports.mynorthwest.com/ncaa/uw/ncaa-panel-approves-new-5-year-eligibility-model-college-sports",
+      "pubDate": "Tue, 23 Jun 2026 23:01:13 +0000",
+      "isoDate": "2026-06-23T23:01:13.000Z",
+      "excerpt": "The new model allows five seasons of competition over a five-year period for Division I athletes.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Portland Trail Blazers hire Wolves assistant Micah Nori as head coach",
+      "link": "https://sports.mynorthwest.com/seattle-sports-pit/portland-trail-blazers-hire-wolves-assistant-micah-nori-head-coach",
+      "pubDate": "Tue, 23 Jun 2026 23:01:08 +0000",
+      "isoDate": "2026-06-23T23:01:08.000Z",
+      "excerpt": "Portland reached the playoffs under interim coach Tiago Splitter, who was hired as the Chicago Bulls' head coach last week.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Latest Mariners injuries and transactions",
+      "link": "https://www.mlb.com/mariners/news/mariners-injuries-and-roster-moves",
+      "pubDate": "Tue, 23 Jun 2026 22:28:00 GMT",
+      "isoDate": "2026-06-23T22:28:00.000Z",
       "excerpt": "",
       "source": "Mariners.com",
       "team": "mariners",
@@ -70,46 +170,6 @@
       "priority": 1
     },
     {
-      "title": "Mariners’ biggest problem compounded by bad luck",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/jeff-passan-seattle-mariners-biggest-problem-compounded-by-bad-luck",
-      "pubDate": "Tue, 23 Jun 2026 19:51:46 +0000",
-      "isoDate": "2026-06-23T19:51:46.000Z",
-      "excerpt": "There's reason to believe Seattle's struggles against southpaws could improve a bit, as ESPN's Jeff Passan explained.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "Mariners get All-Star Randy Arozarena back from IL; OF optioned to Triple-A",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-randy-arozarena-back-il",
-      "pubDate": "Tue, 23 Jun 2026 18:48:09 +0000",
-      "isoDate": "2026-06-23T18:48:09.000Z",
-      "excerpt": "Arozarena was placed on the IL on June 15 for a left hamstring strain in a move that was retroactive to June 13.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "World Cup: US eases restriction on Iran team before Seattle match",
-      "link": "https://sports.mynorthwest.com/seattle-sports-pit/world-cup-us-restriction-iran-seattle-match",
-      "pubDate": "Tue, 23 Jun 2026 18:47:15 +0000",
-      "isoDate": "2026-06-23T18:47:15.000Z",
-      "excerpt": "The U.S. is easing its restrictions on Iran’s World Cup team, allowing the squad to travel into the country two days before its next match, the U.S. Department of Homeland Security said Tuesday.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "Commish says when potential Seattle NBA expansion team would play",
-      "link": "https://sports.mynorthwest.com/seattle-sports-pit/nba-expansion-seattle-sonics-2028-29-adam-silver-play",
-      "pubDate": "Tue, 23 Jun 2026 18:13:26 +0000",
-      "isoDate": "2026-06-23T18:13:26.000Z",
-      "excerpt": "Commissioner Adam Silver provided an update on NBA expansion and a potential Seattle Sonics team Tuesday on The Dan Patrick Show.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
       "title": "Seahawks linebacker Ernest Jones named to NFL Top 100 for first time",
       "link": "https://www.fieldgulls.com/seattle-seahawks-news/169876/seahawks-linebacker-ernest-jones-named-nfl-top-100-first-time",
       "pubDate": "2026-06-23T18:00:44.000Z",
@@ -120,16 +180,6 @@
       "priority": 1
     },
     {
-      "title": "Stacy’s Fact-O-Meter: Panic or not about the Mariners?",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/stacy-rost-fact-o-meter-seattle-mariners",
-      "pubDate": "Tue, 23 Jun 2026 17:17:56 +0000",
-      "isoDate": "2026-06-23T17:17:56.000Z",
-      "excerpt": "How serious are the Mariners' problems after a series loss to the worst team in the AL? Stacy Rost makes sense of it all.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
       "title": "Series Preview: Mariners (40-39) at Pirates (39-39)",
       "link": "https://www.lookoutlanding.com/seattle-mariners-game-information/145220/series-preview-seattle-mariners-at-pittsburgh-pirates-june-2026",
       "pubDate": "2026-06-23T17:15:00.000Z",
@@ -138,16 +188,6 @@
       "source": "Lookout Landing",
       "team": "mariners",
       "priority": 1
-    },
-    {
-      "title": "UW Huskies play-by-play voice leaving for Tampa Bay Buccaneers",
-      "link": "https://sports.mynorthwest.com/ncaa/uw/uw-huskies-play-by-play-voice-castricone-leaving-for-buccaneers",
-      "pubDate": "Tue, 23 Jun 2026 17:02:17 +0000",
-      "isoDate": "2026-06-23T17:02:17.000Z",
-      "excerpt": "Tony Castricone spent the past nine years as the UW Huskies' radio play-by-play announcer.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
     },
     {
       "title": "Seahawks Legends Attend Legends Spring Event",
@@ -290,16 +330,6 @@
       "priority": 6
     },
     {
-      "title": "Rob Refsnyder: Something’s Gotta Give",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-analysis/145161/rob-refsnyder-somethings-gotta-give",
-      "pubDate": "2026-06-22T17:30:00.000Z",
-      "isoDate": "2026-06-22T17:30:00.000Z",
-      "excerpt": "May 15, 2026; Seattle, Washington, USA; Seattle Mariners designated hitter Rob Refsnyder (30) reacts after striking out during the ninth inning against the San Diego Padres at T-Mobile Park. Mandatory Credit: Stephen...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
       "title": "Seahawks Will Have Joint Practice With Titans In Nashville",
       "link": "https://www.seahawks.com/news/seahawks-will-have-joint-practice-with-titans-in-nashville",
       "pubDate": "Mon, 22 Jun 2026 16:01:41 GMT",
@@ -310,26 +340,6 @@
       "priority": 6
     },
     {
-      "title": "Logan Gilbert may have turned a corner as he closes in on strikeout #1,000",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-analysis/145164/logan-gilbert-may-have-turned-a-corner-as-he-closes-in-on-strikeout-1000",
-      "pubDate": "2026-06-22T16:00:00.000Z",
-      "isoDate": "2026-06-22T16:00:00.000Z",
-      "excerpt": "Steven Bisig-Imagn Images | Steven Bisig-Imagn Images Logan Gilbert is probably two starts away from recording his 1,000th career strikeout. After adding another eight in yesterday’s win over the Red Sox, he now sits at...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "Seattle Mariners Minor League Roundup &#8211; Week Thirteen",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-prospects/145184/seattle-mariners-minor-league-roundup-week-thirteen",
-      "pubDate": "2026-06-22T16:00:00.000Z",
-      "isoDate": "2026-06-22T16:00:00.000Z",
-      "excerpt": "PHOENIX, ARIZONA - MARCH 20, 2026: Kade Anderson #13 of the Seattle Mariners throws a pitch during the fifth inning of a spring training Spring Breakout game against the Milwaukee Brewers at American Family Fields of...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
       "title": "Morning Notes: Sabres, Bobrovsky, Wright",
       "link": "https://www.prohockeyrumors.com/2026/06/morning-notes-sabres-bobrovsky-wright.html",
       "pubDate": "Mon, 22 Jun 2026 15:32:03 +0000",
@@ -338,16 +348,6 @@
       "source": "Pro Hockey Rumors",
       "team": "kraken",
       "priority": 2
-    },
-    {
-      "title": "Mariners' Gilbert, Hancock watching own sons bond",
-      "link": "https://www.mlb.com/mariners/news/logan-gilbert-emerson-hancock-watching-own-sons-bond",
-      "pubDate": "Mon, 22 Jun 2026 14:56:20 GMT",
-      "isoDate": "2026-06-22T14:56:20.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
     },
     {
       "title": "ESPN suggests extending star player as final offseason move for Seahawks",
