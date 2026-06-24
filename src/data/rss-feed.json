@@ -1,17 +1,52 @@
 {
-  "generatedAt": "2026-06-24T10:45:59.816Z",
+  "generatedAt": "2026-06-24T14:23:47.924Z",
   "sourceCount": 10,
-  "successfulSources": 10,
-  "failedSources": [],
+  "successfulSources": 9,
+  "failedSources": [
+    {
+      "source": "Seattle Times Sports",
+      "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
+    }
+  ],
   "items": [
     {
-      "title": "Daniel Muñoz scores and Colombia edges Congo 1-0 to reach the knockout stage at the World Cup",
-      "link": "https://www.seattletimes.com/sports/world-cup/daniel-munoz-scores-and-colombia-edges-congo-1-0-to-reach-the-knockout-stage-at-the-world-cup/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Tue, 23 Jun 2026 21:34:43 -0700",
-      "isoDate": "2026-06-24T04:34:43.000Z",
-      "excerpt": "Daniel Muñoz helped Colombia break through Congo’s stingy defense and advance to the knockout stage of the World Cup with a 1-0 win.",
-      "source": "Seattle Times Sports",
-      "team": "general",
+      "title": "Seahawks Reacts Survey: Which Seahawk (not named JSN) will have the most catches?",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/169877/seahawks-reacts-survey-which-player-most-catches-not-jaxon-smith-njigba-nfl-discussion",
+      "pubDate": "2026-06-24T14:00:00.000Z",
+      "isoDate": "2026-06-24T14:00:00.000Z",
+      "excerpt": "Dec 8, 2024; Glendale, Arizona, USA; Seattle Seahawks tight end AJ Barner (88) against the Arizona Cardinals at State Farm Stadium. Mandatory Credit: Mark J. Rebilas-Imagn Images | Mark J. Rebilas-Imagn Images Welcome...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
+    {
+      "title": "Mariners News: Randy Arozarena, Jack Leiter, and Cole Ragans",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-news/145254/mariners-news-randy-arozarena-jack-leiter-and-cole-ragans",
+      "pubDate": "2026-06-24T14:00:00.000Z",
+      "isoDate": "2026-06-24T14:00:00.000Z",
+      "excerpt": "Jun 18, 2026; Arlington, Texas, USA; Texas Rangers starting pitcher Jack Leiter (22) pitches against the Minnesota Twins during the third inning at Globe Life Field. Mandatory Credit: Jerome Miron-Imagn Images | Jerome...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Draft Profiles 2k26: Is there any way Caleb Malhotra falls to Seattle?",
+      "link": "https://www.davyjoneslockerroom.com/draft-profiles-2k26-is-there-any-way-caleb-malhotra-falls-to-seattle/",
+      "pubDate": "Wed, 24 Jun 2026 14:00:00 +0000",
+      "isoDate": "2026-06-24T14:00:00.000Z",
+      "excerpt": "Whenever I do these, I always try to have at least one reach ahead and behind, and Caleb Malhotra in any other year would probably be top 3 overall, wingers and defenders this year have such strong representation that...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
+      "title": "Seahawks News 6/24: Drew Lock and the importance of the QB2 for Seahawks",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169890/seahawks-news-6-24-drew-lock-and-the-importance-of-the-qb2-for-seahawks",
+      "pubDate": "2026-06-24T13:00:00.000Z",
+      "isoDate": "2026-06-24T13:00:00.000Z",
+      "excerpt": "RENTON, WASHINGTON - JUNE 11: Drew Lock #2 of the Seattle Seahawks throws the ball during practice at Virginia Mason Athletic Center on June 11, 2026 in Renton, Washington. (Photo by Jack Compton/Getty Images) | Getty...",
+      "source": "Field Gulls",
+      "team": "seahawks",
       "priority": 1
     },
     {
@@ -25,16 +60,6 @@
       "priority": 6
     },
     {
-      "title": "Bosnian fans’ fuel for Seattle World Cup game: 8,000 cups of coffee",
-      "link": "https://www.seattletimes.com/seattle-news/world-cup-seattle/bosnian-fans-fuel-for-seattle-world-cup-game-8000-cups-of-coffee/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Tue, 23 Jun 2026 20:12:19 -0700",
-      "isoDate": "2026-06-24T03:12:19.000Z",
-      "excerpt": "In a moment fit for Seattle, the Guinness World Records-recognized coffee pot, known as a Bosnian džezva, set up at Seattle Center to dole out 8,000 cups.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "Prince of Pittsburgh: Cole Young delivers go-ahead homer in 3-2 Mariners win",
       "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/24480540/prince-of-pittsburgh-cole-young-delivers-go-ahead-homer-in-3-2-mariners-win",
       "pubDate": "2026-06-24T02:53:08.000Z",
@@ -42,26 +67,6 @@
       "excerpt": "Jun 23, 2026; Pittsburgh, Pennsylvania, USA; Seattle Mariners second baseman Cole Young (2) reacts as he circles the bases on a two run home run against the Pittsburgh Pirates during the seventh inning at PNC Park....",
       "source": "Lookout Landing",
       "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "2026 World Cup: Bosnia-Herzegovina continues unlikely run in Seattle",
-      "link": "https://www.seattletimes.com/sports/world-cup/2026-world-cup-bosnia-herzegovina-continues-its-unlikely-run-in-seattle/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Tue, 23 Jun 2026 19:50:44 -0700",
-      "isoDate": "2026-06-24T02:50:44.000Z",
-      "excerpt": "Bosnia-Herzegovina wasn't expected to be a World Cup team. But the Golden Lillies, who will play Qatar in Seattle, are one win away from a spot in the knockout round.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "2026 World Cup: Qatar looks to make history in Seattle",
-      "link": "https://www.seattletimes.com/sports/world-cup/2026-world-cup-qatar-looks-to-make-history-in-seattle/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Tue, 23 Jun 2026 19:37:35 -0700",
-      "isoDate": "2026-06-24T02:37:35.000Z",
-      "excerpt": "Qatar is playing in just its second World Cup. They are looking to make the knockout round for the first time when they play Bosnia-Herzegovina in Seattle.",
-      "source": "Seattle Times Sports",
-      "team": "general",
       "priority": 1
     },
     {
@@ -75,16 +80,6 @@
       "priority": 3
     },
     {
-      "title": "NBA draft: Washington Huskies’ Hannes Steinbach goes to Hornets",
-      "link": "https://www.seattletimes.com/sports/uw-husky-basketball/nba-draft-washington-huskies-hannes-steinbach-goes-to-hornets/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Tue, 23 Jun 2026 18:52:44 -0700",
-      "isoDate": "2026-06-24T01:52:44.000Z",
-      "excerpt": "Former Washington forward Hannes Steinbach went with the No. 14 pick in the NBA draft, taken by the Hornets.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "NBA Draft: UW’s Hannes Steinbach selected 14th overall by Hornets",
       "link": "https://sports.mynorthwest.com/ncaa/uw/nba-draft-uw-huskies-hannes-steinbach-selected-14th-overall-by-hornets",
       "pubDate": "Wed, 24 Jun 2026 01:50:47 +0000",
@@ -93,16 +88,6 @@
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
-    },
-    {
-      "title": "AJ Dybantsa is the No. 1 pick on a big NBA draft night for freshman stars and Michigan’s champions",
-      "link": "https://www.seattletimes.com/sports/nba/the-washington-wizards-select-aj-dybantsa-with-the-no-1-pick-in-the-nba-draft/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Tue, 23 Jun 2026 18:46:42 -0700",
-      "isoDate": "2026-06-24T01:46:42.000Z",
-      "excerpt": "The Washington Wizards selected forward AJ Dybantsa, who led the nation in scoring in his one season at BYU, with the No. 1 pick in the NBA draft.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
     },
     {
       "title": "Mariners get Arozarena (hamstring strain) back from IL",
@@ -125,16 +110,6 @@
       "priority": 1
     },
     {
-      "title": "Cole Young hits clutch homer in homecoming as Mariners beat Pirates",
-      "link": "https://www.seattletimes.com/sports/mariners/cole-young-hits-clutch-homer-in-homecoming-as-mariners-beat-pirates/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Tue, 23 Jun 2026 18:30:44 -0700",
-      "isoDate": "2026-06-24T01:30:44.000Z",
-      "excerpt": "Cole Young hit a go-ahead homer in the seventh inning in his homecoming to Pittsburgh, Cal Raleigh also homered and the Mariners rallied for a win.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "Welcome Home: M’s Cole Young slugs go-ahead HR at PNC Park",
       "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/welcome-home-seattle-mariners-cole-young-slugs-go-ahead-hr-at-pnc-park",
       "pubDate": "Wed, 24 Jun 2026 01:25:43 +0000",
@@ -143,16 +118,6 @@
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
-    },
-    {
-      "title": "Croatia stays alive for World Cup knockout round and eliminates Panama with 1-0 win",
-      "link": "https://www.seattletimes.com/sports/world-cup/croatia-stays-alive-for-world-cup-knockout-round-and-eliminates-panama-with-1-0-win/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Tue, 23 Jun 2026 18:10:36 -0700",
-      "isoDate": "2026-06-24T01:10:36.000Z",
-      "excerpt": "Josip Stanišić lifted a curving cross onto the boot of Ante Budimir, who tapped it into an open net in the 54th minute Tuesday, giving Croatia a 1-0 win over Panama in the World Cup.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
     },
     {
       "title": "Mariners Reacts Survey: The Career Crossroad",
@@ -345,16 +310,6 @@
       "priority": 6
     },
     {
-      "title": "AL West Hate Index: Ranking the rivals",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-discussion/145201/al-west-hate-index-ranking-the-rivals",
-      "pubDate": "2026-06-23T11:30:00.000Z",
-      "isoDate": "2026-06-23T11:30:00.000Z",
-      "excerpt": "extremely rare evidence of Anthony Rendon playing baseball | Getty Images After a rousing review of everyone’s favorite Mariners conspiracy theories last week, I decided to come back to a familiar topic: how much we, as...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
       "title": "LHP Anderson lands on Prospect Team of the Week for third time this year",
       "link": "https://www.mlb.com/mariners/news/prospect-team-of-the-week-june-22-2026",
       "pubDate": "Mon, 22 Jun 2026 22:12:52 GMT",
@@ -445,16 +400,6 @@
       "priority": 1
     },
     {
-      "title": "Seahawks News 6/22: Jake Bobo’s contract presumes a bigger role in 2026",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169824/seahawks-news-6-22-jake-bobos-contract-presumes-a-bigger-role-in-2026",
-      "pubDate": "2026-06-22T13:29:48.000Z",
-      "isoDate": "2026-06-22T13:29:48.000Z",
-      "excerpt": "Jun 9, 2026; Renton, WA, USA; Seattle Seahawks wide receiver Jake Bobo (19) talks to wide receiver Cooper Kupp (10) during minicamp at Virginia Mason Athletic Center. Mandatory Credit: Steven Bisig-Imagn Images | Steven...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
-    },
-    {
       "title": "F Bobby McMann re-signs in Seattle for 6 year deal!",
       "link": "https://www.davyjoneslockerroom.com/f-bobby-mcmann-re-signs-in-seattle-for-6-year-deal/",
       "pubDate": "Sun, 21 Jun 2026 23:31:11 +0000",
@@ -493,16 +438,6 @@
       "source": "Pro Hockey Rumors",
       "team": "kraken",
       "priority": 2
-    },
-    {
-      "title": "SBNation Reacts results: Seahawks fans believe Jadarian Price will outrush Jeremiyah Love in 2026",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/169808/sbnation-reacts-results-seahawks-fans-believe-jadarian-price-will-outrush-jeremiyah-love",
-      "pubDate": "2026-06-21T14:00:00.000Z",
-      "isoDate": "2026-06-21T14:00:00.000Z",
-      "excerpt": "Welcome to SB Nation Reacts, a survey of fans across the NFL. Throughout the year we ask questions of the most plugged-in Seahawks fans and fans across the country. Sign up here to participate in the weekly emailed...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
     },
     {
       "title": "NFC Front Office Updates: Seahawks, Saints, Lions",
@@ -600,6 +535,76 @@
       "pubDate": "Wed, 17 Jun 2026 23:52:54 +0000",
       "isoDate": "2026-06-17T23:52:54.000Z",
       "excerpt": "6:52pm: Kansas City officially acquired Dobnak for cash considerations and optioned him to Triple-A. They transferred Cole Ragans from the 15-day to the 60-day injured list to open a spot on the 40-man roster. Ragans...",
+      "source": "MLB Trade Rumors",
+      "team": "mariners",
+      "priority": 2
+    },
+    {
+      "title": "Seahawks Mailbag: Super Bowl Rings, Year 2 Nick Emmanwori & More",
+      "link": "https://www.seahawks.com/news/seahawks-mailbag-super-bowl-rings-year-2-nick-emmanwori-more",
+      "pubDate": "Wed, 17 Jun 2026 23:14:34 GMT",
+      "isoDate": "2026-06-17T23:14:34.000Z",
+      "excerpt": "You had Seahawks questions; we have answers.",
+      "source": "Seahawks.com",
+      "team": "seahawks",
+      "priority": 6
+    },
+    {
+      "title": "Seahawks Announce Front Office Promotions, Including Two New Assistant General Managers",
+      "link": "https://www.seahawks.com/news/seahawks-announce-front-office-promotions-including-two-new-assistant-general-managers",
+      "pubDate": "Wed, 17 Jun 2026 19:58:41 GMT",
+      "isoDate": "2026-06-17T19:58:41.000Z",
+      "excerpt": "The Seahawks announced six promotions on Wednesday, including assistant general manager titles for Matt Berry and Willie Schneider.",
+      "source": "Seahawks.com",
+      "team": "seahawks",
+      "priority": 6
+    },
+    {
+      "title": "Seahawks Promote Willie Schneider, Matt Berry To Assistant GM",
+      "link": "https://www.profootballrumors.com/2026/06/seahawks-promote-willie-schneider-matt-berry-to-assistant-gm",
+      "pubDate": "Wed, 17 Jun 2026 19:05:21 +0000",
+      "isoDate": "2026-06-17T19:05:21.000Z",
+      "excerpt": "The reigning Super Bowl champion Seahawks are making a couple of front office promotions, Tom Pelissero of NFL Network reports. They will elevate director of pro personnel Willie Schneider and vice president/player...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
+      "priority": 2
+    },
+    {
+      "title": "Mariners Place Randy Arozarena On Injured List",
+      "link": "https://www.mlbtraderumors.com/2026/06/mariners-to-place-randy-arozarena-on-injured-list.html",
+      "pubDate": "Wed, 17 Jun 2026 01:14:36 +0000",
+      "isoDate": "2026-06-17T01:14:36.000Z",
+      "excerpt": "8:14pm: Seattle has officially announced all three moves: Arozarena’s retroactive IL placement, Washington’s selection, and Wilson’s transfer to the 60-day injured list. Wilson has been out since late April with a...",
+      "source": "MLB Trade Rumors",
+      "team": "mariners",
+      "priority": 2
+    },
+    {
+      "title": "Free Agent Focus: Seattle Kraken",
+      "link": "https://www.prohockeyrumors.com/2026/06/free-agent-focus-seattle-kraken-4.html",
+      "pubDate": "Tue, 16 Jun 2026 22:45:55 +0000",
+      "isoDate": "2026-06-16T22:45:55.000Z",
+      "excerpt": "Free agency is now less than a month away, and teams are looking ahead to when it opens. Even with the UFA crop being thinned out in recent months, there will be some quality veterans set to hit the open market in July,...",
+      "source": "Pro Hockey Rumors",
+      "team": "kraken",
+      "priority": 2
+    },
+    {
+      "title": "Mariners Outright Domingo González",
+      "link": "https://www.mlbtraderumors.com/2026/06/mariners-outright-domingo-gonzalez.html",
+      "pubDate": "Tue, 16 Jun 2026 01:26:34 +0000",
+      "isoDate": "2026-06-16T01:26:34.000Z",
+      "excerpt": "The Mariners announced that right-hander Domingo González has cleared waivers and been assigned outright to Triple-A Tacoma. Seattle also optioned infielder Patrick Wisdom on tonight’s day off, opening an active roster...",
+      "source": "MLB Trade Rumors",
+      "team": "mariners",
+      "priority": 2
+    },
+    {
+      "title": "Randy Dobnak Triggers Upward Mobility Clause In Mariners Deal",
+      "link": "https://www.mlbtraderumors.com/2026/06/randy-dobnak-has-upward-mobility-clause-in-mariners-deal.html",
+      "pubDate": "Mon, 15 Jun 2026 23:37:30 +0000",
+      "isoDate": "2026-06-15T23:37:30.000Z",
+      "excerpt": "June 15: Alexander reports that Dobnak has triggered the assignment clause, as expected. The righty will now await word on whether any team is willing to add him to the 40-man roster. June 8: Randy Dobnak signed a minor...",
       "source": "MLB Trade Rumors",
       "team": "mariners",
       "priority": 2
