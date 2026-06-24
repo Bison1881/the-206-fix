@@ -1,9 +1,99 @@
 {
-  "generatedAt": "2026-06-24T21:20:23.337Z",
+  "generatedAt": "2026-06-24T23:01:37.357Z",
   "sourceCount": 10,
   "successfulSources": 10,
   "failedSources": [],
   "items": [
+    {
+      "title": "US likely to face Bosnia in World Cup, and is lined up for Seattle return",
+      "link": "https://sports.mynorthwest.com/seattle-sports-pit/world-cup-seattle-us-bosnia-united-states",
+      "pubDate": "Wed, 24 Jun 2026 22:21:33 +0000",
+      "isoDate": "2026-06-24T22:21:33.000Z",
+      "excerpt": "Bosnia-Herzegovina has a good chance to reach the round of 32 after beating Qatar on Wednesday in Seattle.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Mariners Game #81 Preview and Discussion: SEA at PIT, 6/24",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-game-information/145266/mariners-game-81-preview-and-discussion-sea-at-pit-6-24",
+      "pubDate": "2026-06-24T22:10:00.000Z",
+      "isoDate": "2026-06-24T22:10:00.000Z",
+      "excerpt": "PITTSBURGH, PA - JUNE 23: Cole Young #2 of the Seattle Mariners celebrates after hitting a two run home run in the seventh inning against the Pittsburgh Pirates at PNC Park on June 23, 2026 in Pittsburgh, Pennsylvania....",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "WSU scores biggest recruiting win of 2027 class with commitment from 4-star OL Rashaun Lavata’i",
+      "link": "https://www.seattletimes.com/sports/wsu-cougar-football/wsu-scores-biggest-recruiting-win-of-2027-class-with-commitment-from-4-star-ol-rashaun-lavatai/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Wed, 24 Jun 2026 14:53:48 -0700",
+      "isoDate": "2026-06-24T21:53:48.000Z",
+      "excerpt": "The Cougars landed their biggest recruiting win of the 2027 class Tuesday, landing a commitment from Rashaun Lavata'i, the state's No. 3 player.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Seattle Kraken: Bobby McMann did his homework before signing deal",
+      "link": "https://www.seattletimes.com/sports/kraken/seattle-kraken-bobby-mcmann-did-his-homework-before-signing-deal/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Wed, 24 Jun 2026 14:48:28 -0700",
+      "isoDate": "2026-06-24T21:48:28.000Z",
+      "excerpt": "Bobby McMann did his homework before signing his six-year deal, checking out what the Puget Sound area had to offer and what the Kraken had planned.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Tim Kurkjian details how the WBC didn’t help Cal Raleigh",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/tim-kurkjian-details-how-wbc-may-have-hurt-cal-raleigh",
+      "pubDate": "Wed, 24 Jun 2026 21:44:17 +0000",
+      "isoDate": "2026-06-24T21:44:17.000Z",
+      "excerpt": "The ESPN insider heard from a team source that lack of reps at the tournament threw Cal Raleigh out of rhythm.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Mariners announce new ‘Legacy Plaza’ at T-Mobile Park",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-announce-legacy-plaza-t-mobile-park",
+      "pubDate": "Wed, 24 Jun 2026 21:33:41 +0000",
+      "isoDate": "2026-06-24T21:33:41.000Z",
+      "excerpt": "The plaza offer fans \"a unique opportunity to become a permanent part of Mariners history.\"",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Latest Mariners injuries and transactions",
+      "link": "https://www.mlb.com/mariners/news/mariners-injuries-and-roster-moves",
+      "pubDate": "Wed, 24 Jun 2026 21:31:00 GMT",
+      "isoDate": "2026-06-24T21:31:00.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "World Cup: Bosnia-Herzegovina beats Qatar 3-1 in Seattle",
+      "link": "https://sports.mynorthwest.com/seattle-sports-pit/world-cup-bosnia-herzegovina-beats-qatar-3-1-in-seattle",
+      "pubDate": "Wed, 24 Jun 2026 21:21:27 +0000",
+      "isoDate": "2026-06-24T21:21:27.000Z",
+      "excerpt": "Bosnia-Herzegovina eliminated Qatar and boosted its chances of advancing at the World Cup with a 3-1 victory in a Group B match on Wednesday.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Switzerland wraps up first place in Group B at the World Cup with a 2-1 victory over Canada",
+      "link": "https://www.seattletimes.com/sports/world-cup/switzerland-wraps-up-first-place-in-group-b-at-the-world-cup-with-a-2-1-victory-over-canada/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Wed, 24 Jun 2026 14:20:53 -0700",
+      "isoDate": "2026-06-24T21:20:53.000Z",
+      "excerpt": "Rubén Vargas and Johan Manzambi both scored to give Switzerland a 2-1 victory over Canada at the World Cup as both teams advanced to the knockout round.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
     {
       "title": "2026 World Cup: Bosnia-Herzegovina beats Qatar, likely to face U.S. next",
       "link": "https://www.seattletimes.com/sports/world-cup/2026-world-cup-bosnia-herzegovina-beats-qatar-could-return-to-seattle/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
@@ -115,56 +205,6 @@
       "priority": 6
     },
     {
-      "title": "Seattle World Cup updates: Bosnia-Herzegovina beats Qatar for third place in Group B",
-      "link": "https://www.seattletimes.com/sports/world-cup/seattle-world-cup-updates-qatar-vs-bosnia-herzegovina-sights-and-sounds/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 24 Jun 2026 09:00:00 -0700",
-      "isoDate": "2026-06-24T16:00:00.000Z",
-      "excerpt": "Bosnia-Herzegovina beat Qatar in Seattle and finished third in Group B, very likely advancing to the World Cup knockout stage as a potential U.S. opponent.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "NFL won’t hold supplemental draft for embattled QB Brendan Sorsby",
-      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/nfl-wont-hold-supplemental-draft-embattled-texas-tech-qb-sorsby",
-      "pubDate": "Wed, 24 Jun 2026 15:52:07 +0000",
-      "isoDate": "2026-06-24T15:52:07.000Z",
-      "excerpt": "Texas Tech quarterback Brendan Sorsby was ruled ineligible by the NCAA for making thousands of sports bets.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "Photos: Seattle hosts Bosnia-Herzegovina and Qatar in FIFA World Cup action",
-      "link": "https://www.seattletimes.com/sports/world-cup/photos-seattle-hosts-bosnia-herzegovina-and-qatar-in-fifa-world-cup-action/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 24 Jun 2026 08:50:33 -0700",
-      "isoDate": "2026-06-24T15:50:33.000Z",
-      "excerpt": "Photography from the 2026 FIFA World Cup match between Bosnia-Herzegovina and Qatar at Seattle Stadium in Seattle, Washington.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "2 pitches from Mariners starters jump out to Rowland-Smith",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-pitches-logan-gilbert-emerson-hancock-rowland-smith",
-      "pubDate": "Wed, 24 Jun 2026 14:43:08 +0000",
-      "isoDate": "2026-06-24T14:43:08.000Z",
-      "excerpt": "Logan Gilbert is riding one pitch to success, while Emerson Hancock is struggling with an important offering, according to Ryan Rowland-Smith.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "Brock: Brady Russell was biggest surprise of Seahawks camp",
-      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/brady-russell-biggest-surprise-seattle-seahawks-minicamp-brock-huard",
-      "pubDate": "Wed, 24 Jun 2026 14:14:38 +0000",
-      "isoDate": "2026-06-24T14:14:38.000Z",
-      "excerpt": "Brock Huard thinks Seattle's de facto special teams captain can carve out a larger role on offense.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
       "title": "Seahawks Reacts Survey: Which Seahawk (not named JSN) will have the most catches?",
       "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/169877/seahawks-reacts-survey-which-player-most-catches-not-jaxon-smith-njigba-nfl-discussion",
       "pubDate": "2026-06-24T14:00:00.000Z",
@@ -205,16 +245,6 @@
       "priority": 6
     },
     {
-      "title": "$75 caviar-topped tots. A day’s pay worth of beer. Here’s the World Cup menu — and prices",
-      "link": "https://www.seattletimes.com/business/75-caviar-topped-tots-a-days-pay-worth-of-beer-heres-some-world-cup-menu-and-prices/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 24 Jun 2026 06:00:04 -0700",
-      "isoDate": "2026-06-24T13:00:04.000Z",
-      "excerpt": "Vancouver offers short rib poutine (an iconic Canadian dish of fries loaded with beef gravy, pulled short rib and cheese curds) along with a maple bacon smokie (sausage topped with bacon onion jam).",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "Seahawks News 6/24: Drew Lock and the importance of the QB2 for Seahawks",
       "link": "https://www.fieldgulls.com/seattle-seahawks-news/169890/seahawks-news-6-24-drew-lock-and-the-importance-of-the-qb2-for-seahawks",
       "pubDate": "2026-06-24T13:00:00.000Z",
@@ -245,16 +275,6 @@
       "priority": 1
     },
     {
-      "title": "Recap: Mariners take series opener from Pirates 3-2",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/recap-seattle-mariners-take-series-opener-from-pirates-3-2",
-      "pubDate": "Wed, 24 Jun 2026 02:03:22 +0000",
-      "isoDate": "2026-06-24T02:03:22.000Z",
-      "excerpt": "George Kirby pitched six strong innings and Cole Young hit the go-ahead home run in the seventh.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
       "title": "Mariners get Arozarena (hamstring strain) back from IL",
       "link": "https://www.mlb.com/mariners/news/randy-arozarena-comes-off-injured-list-after-hamstring-strain",
       "pubDate": "Wed, 24 Jun 2026 01:43:00 GMT",
@@ -283,16 +303,6 @@
       "source": "Lookout Landing",
       "team": "mariners",
       "priority": 1
-    },
-    {
-      "title": "Latest Mariners injuries and transactions",
-      "link": "https://www.mlb.com/mariners/news/mariners-injuries-and-roster-moves",
-      "pubDate": "Tue, 23 Jun 2026 22:28:00 GMT",
-      "isoDate": "2026-06-23T22:28:00.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
     },
     {
       "title": "Mariners at Pirates: Game Preview and Discussion",
@@ -372,16 +382,6 @@
       "excerpt": "Feb 11, 2026; Seattle, WA, USA; Seattle Seahawks fullback Brady Russell (38) and guard Josh Jones (74) during the Super Bowl LX trophy celebration at Lumen Field. Mandatory Credit: Kirby Lee-Imagn Images | Kirby...",
       "source": "Field Gulls",
       "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "Mariners News: Logan Gilbert, Kade Anderson, and Sonny Gray",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-news/145199/logan-gilbert-kade-anderson-sonny-gray-kyle-teel-elly-de-la-cruz",
-      "pubDate": "2026-06-23T14:00:00.000Z",
-      "isoDate": "2026-06-23T14:00:00.000Z",
-      "excerpt": "Jun 9, 2026; Baltimore, Maryland, USA; Seattle Mariners pitcher Logan Gilbert (36) delivers during the first inning against the Baltimore Orioles at Oriole Park at Camden Yards. Mandatory Credit: James A. Pittman-Imagn...",
-      "source": "Lookout Landing",
-      "team": "mariners",
       "priority": 1
     },
     {
