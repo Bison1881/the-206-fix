@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T14:23:47.924Z",
+  "generatedAt": "2026-06-24T17:51:37.083Z",
   "sourceCount": 10,
   "successfulSources": 9,
   "failedSources": [
@@ -9,6 +9,46 @@
     }
   ],
   "items": [
+    {
+      "title": "Mariners announce new 'Legacy Plaza,' where fans can leave their mark",
+      "link": "https://www.mlb.com/mariners/news/mariners-announce-new-legacy-plaza",
+      "pubDate": "Wed, 24 Jun 2026 16:14:59 GMT",
+      "isoDate": "2026-06-24T16:14:59.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "NFL won’t hold supplemental draft for embattled QB Brendan Sorsby",
+      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/nfl-wont-hold-supplemental-draft-embattled-texas-tech-qb-sorsby",
+      "pubDate": "Wed, 24 Jun 2026 15:52:07 +0000",
+      "isoDate": "2026-06-24T15:52:07.000Z",
+      "excerpt": "Texas Tech quarterback Brendan Sorsby was ruled ineligible by the NCAA for making thousands of sports bets.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "2 pitches from Mariners starters jump out to Rowland-Smith",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-pitches-logan-gilbert-emerson-hancock-rowland-smith",
+      "pubDate": "Wed, 24 Jun 2026 14:43:08 +0000",
+      "isoDate": "2026-06-24T14:43:08.000Z",
+      "excerpt": "Logan Gilbert is riding one pitch to success, while Emerson Hancock is struggling with an important offering, according to Ryan Rowland-Smith.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Brock: Brady Russell was biggest surprise of Seahawks camp",
+      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/brady-russell-biggest-surprise-seattle-seahawks-minicamp-brock-huard",
+      "pubDate": "Wed, 24 Jun 2026 14:14:38 +0000",
+      "isoDate": "2026-06-24T14:14:38.000Z",
+      "excerpt": "Brock Huard thinks Seattle's de facto special teams captain can carve out a larger role on offense.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
     {
       "title": "Seahawks Reacts Survey: Which Seahawk (not named JSN) will have the most catches?",
       "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/169877/seahawks-reacts-survey-which-player-most-catches-not-jaxon-smith-njigba-nfl-discussion",
@@ -38,6 +78,16 @@
       "source": "Davy Jones' Locker Room",
       "team": "kraken",
       "priority": 1
+    },
+    {
+      "title": "Celesten keeps raking in '26, homers for 3rd straight game",
+      "link": "https://www.mlb.com/mariners/news/mariners-prospect-felnin-celesten-continues-home-run-streak",
+      "pubDate": "Wed, 24 Jun 2026 13:33:52 GMT",
+      "isoDate": "2026-06-24T13:33:52.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
     },
     {
       "title": "Seahawks News 6/24: Drew Lock and the importance of the QB2 for Seahawks",
@@ -150,16 +200,6 @@
       "priority": 3
     },
     {
-      "title": "Portland Trail Blazers hire Wolves assistant Micah Nori as head coach",
-      "link": "https://sports.mynorthwest.com/seattle-sports-pit/portland-trail-blazers-hire-wolves-assistant-micah-nori-head-coach",
-      "pubDate": "Tue, 23 Jun 2026 23:01:08 +0000",
-      "isoDate": "2026-06-23T23:01:08.000Z",
-      "excerpt": "Portland reached the playoffs under interim coach Tiago Splitter, who was hired as the Chicago Bulls' head coach last week.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
       "title": "Latest Mariners injuries and transactions",
       "link": "https://www.mlb.com/mariners/news/mariners-injuries-and-roster-moves",
       "pubDate": "Tue, 23 Jun 2026 22:28:00 GMT",
@@ -178,26 +218,6 @@
       "source": "Lookout Landing",
       "team": "mariners",
       "priority": 1
-    },
-    {
-      "title": "The latest on Dominic Canzone’s hamstring injury",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-the-latest-on-dominic-canzones-hamstring-injury",
-      "pubDate": "Tue, 23 Jun 2026 21:01:04 +0000",
-      "isoDate": "2026-06-23T21:01:04.000Z",
-      "excerpt": "The team plans to evaluate the outfielder's hamstring Wednesday.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "Seahawks LB Ernest Jones IV debuts on NFL Top 100 list",
-      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/seattle-seahawks-ernest-jones-iv-debuts-nfl-top-100-list",
-      "pubDate": "Tue, 23 Jun 2026 20:29:30 +0000",
-      "isoDate": "2026-06-23T20:29:30.000Z",
-      "excerpt": "Jones landed on the NFL's annual Top 100 players ranking after a second-team All-Pro campaign in 2025.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
     },
     {
       "title": "Randyland rejoices as Arozarena returns from hamstring tweak",
@@ -310,16 +330,6 @@
       "priority": 6
     },
     {
-      "title": "LHP Anderson lands on Prospect Team of the Week for third time this year",
-      "link": "https://www.mlb.com/mariners/news/prospect-team-of-the-week-june-22-2026",
-      "pubDate": "Mon, 22 Jun 2026 22:12:52 GMT",
-      "isoDate": "2026-06-22T22:12:52.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
-    },
-    {
       "title": "What will make or break Seahawks RG Anthony Bradford in 2026",
       "link": "https://www.fieldgulls.com/seattle-seahawks-news/169842/what-will-make-or-break-seattle-seahawks-rg-anthony-bradford-2026",
       "pubDate": "2026-06-22T21:00:00.000Z",
@@ -328,16 +338,6 @@
       "source": "Field Gulls",
       "team": "seahawks",
       "priority": 1
-    },
-    {
-      "title": "With 2 strong starts (including Father's Day gem), Gilbert earns AL Player of the Week honors",
-      "link": "https://www.mlb.com/mariners/news/pete-crow-armstrong-logan-gilbert-named-players-of-the-week",
-      "pubDate": "Mon, 22 Jun 2026 20:47:27 GMT",
-      "isoDate": "2026-06-22T20:47:27.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
     },
     {
       "title": "Seahawks training camp report dates, joint practice vs. Titans confirmed",
