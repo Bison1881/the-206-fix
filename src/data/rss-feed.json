@@ -1,14 +1,19 @@
 {
-  "generatedAt": "2026-06-25T07:39:40.120Z",
+  "generatedAt": "2026-06-25T10:39:20.832Z",
   "sourceCount": 10,
-  "successfulSources": 9,
-  "failedSources": [
-    {
-      "source": "Seattle Times Sports",
-      "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
-    }
-  ],
+  "successfulSources": 10,
+  "failedSources": [],
   "items": [
+    {
+      "title": "Brandon Roy to return as Garfield boys basketball coach less than a year after firing, report says",
+      "link": "https://www.seattletimes.com/sports/high-school/report-brandon-roy-to-return-as-garfield-boys-basketball-coach-less-than-a-year-after-firing/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Wed, 24 Jun 2026 23:29:22 -0700",
+      "isoDate": "2026-06-25T06:29:22.000Z",
+      "excerpt": "Brandon Roy will return as the head coach of the boys basketball program at Garfield High School for the 2026-2027 school year, according to a report. He was fired from the same role last September.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
     {
       "title": "Woo finding it hard to 'wipe the slate clean' after latest setback",
       "link": "https://www.mlb.com/mariners/news/bryan-woo-derailed-by-pirates-five-run-fourth-inning",
@@ -20,6 +25,26 @@
       "priority": 6
     },
     {
+      "title": "South Africa reaches World Cup knockout round for 1st time with 1-0 win over South Korea",
+      "link": "https://www.seattletimes.com/sports/world-cup/south-africa-reaches-world-cup-knockout-round-for-1st-time-with-1-0-win-over-south-korea/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Wed, 24 Jun 2026 20:25:17 -0700",
+      "isoDate": "2026-06-25T03:25:17.000Z",
+      "excerpt": "South Africa advanced to the knockout phase of the World Cup for the first time with a 1-0 victory over South Korea on Wednesday night.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Mexico beats Czech Republic 3-0 to win all 3 World Cup group-stage matches for 1st time",
+      "link": "https://www.seattletimes.com/sports/world-cup/mexico-beats-czech-republic-3-0-to-win-all-3-world-cup-group-stage-matches-for-1st-time/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Wed, 24 Jun 2026 20:20:30 -0700",
+      "isoDate": "2026-06-25T03:20:30.000Z",
+      "excerpt": "Mateo Chávez and Julián Quiñones scored goals in a six-minute span early in the second half, and Mexico beat the Czech Republic 3-0 to win all three of its World Cup group-stage matches for the first time.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
       "title": "The Mariners get out-tried, lose 11-1",
       "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/145291/the-mariners-get-out-tried-lose-11-1",
       "pubDate": "2026-06-25T02:41:35.000Z",
@@ -27,6 +52,16 @@
       "excerpt": "Jun 24, 2026; Pittsburgh, Pennsylvania, USA; Pittsburgh Pirates left fielder Bryan Reynolds (10) slides safely into second base with a double against the Seattle Mariners during the eighth inning at PNC Park. Mandatory...",
       "source": "Lookout Landing",
       "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Merlín the duck takes a trip to the stadium, but FIFA rules keep him out of Mexico match",
+      "link": "https://www.seattletimes.com/nation-world/fifa-rules-keep-merlin-the-duck-out-of-mexico-match/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Wed, 24 Jun 2026 19:08:44 -0700",
+      "isoDate": "2026-06-25T02:08:44.000Z",
+      "excerpt": "A viral sensation from this World Cup, Merlín the duck was at Mexico City's stadium before the national team's match against the Czech Republic.",
+      "source": "Seattle Times Sports",
+      "team": "general",
       "priority": 1
     },
     {
@@ -50,6 +85,16 @@
       "priority": 3
     },
     {
+      "title": "Pirates pummel Mariners’ Bryan Woo as road struggles resurface",
+      "link": "https://www.seattletimes.com/sports/mariners/pirates-pummel-mariners-bryan-woo-as-road-struggles-resurface/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Wed, 24 Jun 2026 18:27:28 -0700",
+      "isoDate": "2026-06-25T01:27:28.000Z",
+      "excerpt": "Bryan Woo's season-long road struggles were back in the spotlight Wednesday during an 11-1 trouncing by the Pirates.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
       "title": "41-40: Chart",
       "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/145284/41-40-chart",
       "pubDate": "2026-06-25T01:17:27.000Z",
@@ -70,6 +115,16 @@
       "priority": 6
     },
     {
+      "title": "Seattle-area Bosnian Americans savor historic World Cup match",
+      "link": "https://www.seattletimes.com/seattle-news/world-cup-seattle/seattle-area-bosnian-americans-savor-historic-world-cup-match/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Wed, 24 Jun 2026 17:54:29 -0700",
+      "isoDate": "2026-06-25T00:54:29.000Z",
+      "excerpt": "More than 30 years after a Bosnian couple arrived in Seattle as refugees, having the hometown FIFA World Cup match against Qatar meant more than just a game.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
       "title": "Report: Brandon Roy to return as boys basketball coach at Garfield",
       "link": "https://sports.mynorthwest.com/seattle-sports-pit/report-brandon-roy-to-return-as-boys-basketball-coach-at-garfield",
       "pubDate": "Thu, 25 Jun 2026 00:49:25 +0000",
@@ -78,6 +133,26 @@
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
+    },
+    {
+      "title": "Soufiane Rahimi and Gessime Yassine help Morocco rally to beat Haiti 4-2 at the World Cup",
+      "link": "https://www.seattletimes.com/sports/world-cup/world-cup-2026-soufiane-rahimi-gessime-yassine-help-morocco-rally-to-beat-haiti/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Wed, 24 Jun 2026 17:21:50 -0700",
+      "isoDate": "2026-06-25T00:21:50.000Z",
+      "excerpt": "Soufiane Rahimi and Gessime Yassine came off the bench to help Morocco rally for a 4-2 victory over Haiti and erase the Caribbean nation’s hopes of a first ever point at the World Cup.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Vinícius Júnior scores 2 goals as Brazil beats Scotland 3-0 to win its World Cup group",
+      "link": "https://www.seattletimes.com/sports/world-cup/world-cup-2026-vinicius-junior-scores-twice-as-brazil-beats-scotland-to-reach-knockout-stage/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Wed, 24 Jun 2026 17:17:24 -0700",
+      "isoDate": "2026-06-25T00:17:24.000Z",
+      "excerpt": "Vinícius Júnior scored two goals, Matheus Cunha also scored and five-time World Cup champion Brazil beat Scotland 3-0, advancing to the knockout stage as the Group C winner.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
     },
     {
       "title": "Bobby McMann confident in Kraken’s future after signing extension",
@@ -528,86 +603,6 @@
       "source": "Davy Jones' Locker Room",
       "team": "kraken",
       "priority": 1
-    },
-    {
-      "title": "Royals Acquire Randy Dobnak",
-      "link": "https://www.mlbtraderumors.com/2026/06/royals-to-acquire-randy-dobnak.html",
-      "pubDate": "Wed, 17 Jun 2026 23:52:54 +0000",
-      "isoDate": "2026-06-17T23:52:54.000Z",
-      "excerpt": "6:52pm: Kansas City officially acquired Dobnak for cash considerations and optioned him to Triple-A. They transferred Cole Ragans from the 15-day to the 60-day injured list to open a spot on the 40-man roster. Ragans...",
-      "source": "MLB Trade Rumors",
-      "team": "mariners",
-      "priority": 2
-    },
-    {
-      "title": "Seahawks Mailbag: Super Bowl Rings, Year 2 Nick Emmanwori & More",
-      "link": "https://www.seahawks.com/news/seahawks-mailbag-super-bowl-rings-year-2-nick-emmanwori-more",
-      "pubDate": "Wed, 17 Jun 2026 23:14:34 GMT",
-      "isoDate": "2026-06-17T23:14:34.000Z",
-      "excerpt": "You had Seahawks questions; we have answers.",
-      "source": "Seahawks.com",
-      "team": "seahawks",
-      "priority": 6
-    },
-    {
-      "title": "Seahawks Announce Front Office Promotions, Including Two New Assistant General Managers",
-      "link": "https://www.seahawks.com/news/seahawks-announce-front-office-promotions-including-two-new-assistant-general-managers",
-      "pubDate": "Wed, 17 Jun 2026 19:58:41 GMT",
-      "isoDate": "2026-06-17T19:58:41.000Z",
-      "excerpt": "The Seahawks announced six promotions on Wednesday, including assistant general manager titles for Matt Berry and Willie Schneider.",
-      "source": "Seahawks.com",
-      "team": "seahawks",
-      "priority": 6
-    },
-    {
-      "title": "Seahawks Promote Willie Schneider, Matt Berry To Assistant GM",
-      "link": "https://www.profootballrumors.com/2026/06/seahawks-promote-willie-schneider-matt-berry-to-assistant-gm",
-      "pubDate": "Wed, 17 Jun 2026 19:05:21 +0000",
-      "isoDate": "2026-06-17T19:05:21.000Z",
-      "excerpt": "The reigning Super Bowl champion Seahawks are making a couple of front office promotions, Tom Pelissero of NFL Network reports. They will elevate director of pro personnel Willie Schneider and vice president/player...",
-      "source": "Pro Football Rumors",
-      "team": "seahawks",
-      "priority": 2
-    },
-    {
-      "title": "Mariners Place Randy Arozarena On Injured List",
-      "link": "https://www.mlbtraderumors.com/2026/06/mariners-to-place-randy-arozarena-on-injured-list.html",
-      "pubDate": "Wed, 17 Jun 2026 01:14:36 +0000",
-      "isoDate": "2026-06-17T01:14:36.000Z",
-      "excerpt": "8:14pm: Seattle has officially announced all three moves: Arozarena’s retroactive IL placement, Washington’s selection, and Wilson’s transfer to the 60-day injured list. Wilson has been out since late April with a...",
-      "source": "MLB Trade Rumors",
-      "team": "mariners",
-      "priority": 2
-    },
-    {
-      "title": "Free Agent Focus: Seattle Kraken",
-      "link": "https://www.prohockeyrumors.com/2026/06/free-agent-focus-seattle-kraken-4.html",
-      "pubDate": "Tue, 16 Jun 2026 22:45:55 +0000",
-      "isoDate": "2026-06-16T22:45:55.000Z",
-      "excerpt": "Free agency is now less than a month away, and teams are looking ahead to when it opens. Even with the UFA crop being thinned out in recent months, there will be some quality veterans set to hit the open market in July,...",
-      "source": "Pro Hockey Rumors",
-      "team": "kraken",
-      "priority": 2
-    },
-    {
-      "title": "Mariners Outright Domingo González",
-      "link": "https://www.mlbtraderumors.com/2026/06/mariners-outright-domingo-gonzalez.html",
-      "pubDate": "Tue, 16 Jun 2026 01:26:34 +0000",
-      "isoDate": "2026-06-16T01:26:34.000Z",
-      "excerpt": "The Mariners announced that right-hander Domingo González has cleared waivers and been assigned outright to Triple-A Tacoma. Seattle also optioned infielder Patrick Wisdom on tonight’s day off, opening an active roster...",
-      "source": "MLB Trade Rumors",
-      "team": "mariners",
-      "priority": 2
-    },
-    {
-      "title": "Randy Dobnak Triggers Upward Mobility Clause In Mariners Deal",
-      "link": "https://www.mlbtraderumors.com/2026/06/randy-dobnak-has-upward-mobility-clause-in-mariners-deal.html",
-      "pubDate": "Mon, 15 Jun 2026 23:37:30 +0000",
-      "isoDate": "2026-06-15T23:37:30.000Z",
-      "excerpt": "June 15: Alexander reports that Dobnak has triggered the assignment clause, as expected. The righty will now await word on whether any team is willing to add him to the 40-man roster. June 8: Randy Dobnak signed a minor...",
-      "source": "MLB Trade Rumors",
-      "team": "mariners",
-      "priority": 2
     }
   ]
 }
