@@ -1,9 +1,84 @@
 {
-  "generatedAt": "2026-06-24T23:01:37.357Z",
+  "generatedAt": "2026-06-25T02:53:32.170Z",
   "sourceCount": 10,
-  "successfulSources": 10,
-  "failedSources": [],
+  "successfulSources": 9,
+  "failedSources": [
+    {
+      "source": "Seattle Times Sports",
+      "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
+    }
+  ],
   "items": [
+    {
+      "title": "The Mariners get out-tried, lose 11-1",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/145291/the-mariners-get-out-tried-lose-11-1",
+      "pubDate": "2026-06-25T02:41:35.000Z",
+      "isoDate": "2026-06-25T02:41:35.000Z",
+      "excerpt": "Jun 24, 2026; Pittsburgh, Pennsylvania, USA; Pittsburgh Pirates left fielder Bryan Reynolds (10) slides safely into second base with a double against the Seattle Mariners during the eighth inning at PNC Park. Mandatory...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "World Cup: Pochettino says rebuilding US team tougher than he imagined",
+      "link": "https://sports.mynorthwest.com/seattle-sports-pit/world-cup-pochettino-says-rebuilding-us-team-tougher-than-he-imagined",
+      "pubDate": "Thu, 25 Jun 2026 01:52:41 +0000",
+      "isoDate": "2026-06-25T01:52:41.000Z",
+      "excerpt": "Mauricio Pochettino said he inherited a program saturated by complacency that didn’t match his urgency.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Pirates roll to 11-1 rout of AL West-leading Mariners",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/pirates-roll-to-11-1-rout-of-al-west-leading-seattle-mariners",
+      "pubDate": "Thu, 25 Jun 2026 01:40:11 +0000",
+      "isoDate": "2026-06-25T01:40:11.000Z",
+      "excerpt": "Braxton Ashcraft struck out 10 over six innings and Pittsburgh used two big innings to pull away for the win.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "41-40: Chart",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/145284/41-40-chart",
+      "pubDate": "2026-06-25T01:17:27.000Z",
+      "isoDate": "2026-06-25T01:17:27.000Z",
+      "excerpt": "PITTSBURGH, PA - JUNE 24: Ryan O'Hearn #29 of the Pittsburgh Pirates reacts after hitting a two-run double in the seventh inning during the game between the Seattle Mariners and the Pittsburgh Pirates at PNC Park on...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Report: Brandon Roy to return as boys basketball coach at Garfield",
+      "link": "https://sports.mynorthwest.com/seattle-sports-pit/report-brandon-roy-to-return-as-boys-basketball-coach-at-garfield",
+      "pubDate": "Thu, 25 Jun 2026 00:49:25 +0000",
+      "isoDate": "2026-06-25T00:49:25.000Z",
+      "excerpt": "The former NBA star was fired by Garfield last September after allegations of a recruiting violation.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Bobby McMann confident in Kraken’s future after signing extension",
+      "link": "https://sports.mynorthwest.com/nhl/seattle-kraken/bobby-mcmann-seattle-kraken-future-extension",
+      "pubDate": "Wed, 24 Jun 2026 23:49:23 +0000",
+      "isoDate": "2026-06-24T23:49:23.000Z",
+      "excerpt": "\"They’ve obviously established that this is a great place to be, and I think that that’s the biggest reason why I want to be here.\"",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Here are the hottest pitching prospects right now -- one for each club",
+      "link": "https://www.mlb.com/mariners/news/each-club-s-hottest-pitching-prospect-june-2026",
+      "pubDate": "Wed, 24 Jun 2026 23:38:00 GMT",
+      "isoDate": "2026-06-24T23:38:00.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
     {
       "title": "US likely to face Bosnia in World Cup, and is lined up for Seattle return",
       "link": "https://sports.mynorthwest.com/seattle-sports-pit/world-cup-seattle-us-bosnia-united-states",
@@ -22,26 +97,6 @@
       "excerpt": "PITTSBURGH, PA - JUNE 23: Cole Young #2 of the Seattle Mariners celebrates after hitting a two run home run in the seventh inning against the Pittsburgh Pirates at PNC Park on June 23, 2026 in Pittsburgh, Pennsylvania....",
       "source": "Lookout Landing",
       "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "WSU scores biggest recruiting win of 2027 class with commitment from 4-star OL Rashaun Lavata’i",
-      "link": "https://www.seattletimes.com/sports/wsu-cougar-football/wsu-scores-biggest-recruiting-win-of-2027-class-with-commitment-from-4-star-ol-rashaun-lavatai/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 24 Jun 2026 14:53:48 -0700",
-      "isoDate": "2026-06-24T21:53:48.000Z",
-      "excerpt": "The Cougars landed their biggest recruiting win of the 2027 class Tuesday, landing a commitment from Rashaun Lavata'i, the state's No. 3 player.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Seattle Kraken: Bobby McMann did his homework before signing deal",
-      "link": "https://www.seattletimes.com/sports/kraken/seattle-kraken-bobby-mcmann-did-his-homework-before-signing-deal/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 24 Jun 2026 14:48:28 -0700",
-      "isoDate": "2026-06-24T21:48:28.000Z",
-      "excerpt": "Bobby McMann did his homework before signing his six-year deal, checking out what the Puget Sound area had to offer and what the Kraken had planned.",
-      "source": "Seattle Times Sports",
-      "team": "general",
       "priority": 1
     },
     {
@@ -85,66 +140,6 @@
       "priority": 3
     },
     {
-      "title": "Switzerland wraps up first place in Group B at the World Cup with a 2-1 victory over Canada",
-      "link": "https://www.seattletimes.com/sports/world-cup/switzerland-wraps-up-first-place-in-group-b-at-the-world-cup-with-a-2-1-victory-over-canada/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 24 Jun 2026 14:20:53 -0700",
-      "isoDate": "2026-06-24T21:20:53.000Z",
-      "excerpt": "Rubén Vargas and Johan Manzambi both scored to give Switzerland a 2-1 victory over Canada at the World Cup as both teams advanced to the knockout round.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "2026 World Cup: Bosnia-Herzegovina beats Qatar, likely to face U.S. next",
-      "link": "https://www.seattletimes.com/sports/world-cup/2026-world-cup-bosnia-herzegovina-beats-qatar-could-return-to-seattle/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 24 Jun 2026 14:01:09 -0700",
-      "isoDate": "2026-06-24T21:01:09.000Z",
-      "excerpt": "Bosnia-Herzegovina beat Qatar 3-1 in the third FIFA Men's World Cup match in Seattle, which likely puts them in the knockout round for the first time and against the U.S.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "As eyes are on the men at the World Cup, the Women’s World Cup countdown has begun",
-      "link": "https://www.seattletimes.com/sports/world-cup/as-eyes-are-on-the-men-at-the-world-cup-the-womens-world-cup-countdown-has-begun/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 24 Jun 2026 13:06:00 -0700",
-      "isoDate": "2026-06-24T20:06:00.000Z",
-      "excerpt": "While most of the soccer world is focused on the men at the World Cup, the countdown has begun for the 2027 Women’s World Cup in Brazil.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Mariners announce ‘Legacy Plaza,’ where fans can be part of team’s history",
-      "link": "https://www.seattletimes.com/sports/mariners/mariners-announce-legacy-plaza-where-fans-can-be-part-of-teams-history/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 24 Jun 2026 13:04:41 -0700",
-      "isoDate": "2026-06-24T20:04:41.000Z",
-      "excerpt": "The Mariners announced plans for a new addition to T-Mobile Park on Wednesday morning, giving fans the “opportunity to become a permanent part of Mariners history.”",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Ex-Mariner Marco Gonzales signs minors deal with AL West rival",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/ex-seattle-mariners-marco-gonzales-signs-minors-deal-texas-rangers",
-      "pubDate": "Wed, 24 Jun 2026 20:03:58 +0000",
-      "isoDate": "2026-06-24T20:03:58.000Z",
-      "excerpt": "The Gonzaga product pitched in seven seasons for Seattle, including making three opening day starts.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "Canzone returns as Mariners’ lineup nearly 100% for Game 2 vs Pirates",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-lineup-canzone-game-2-pirates",
-      "pubDate": "Wed, 24 Jun 2026 19:58:02 +0000",
-      "isoDate": "2026-06-24T19:58:02.000Z",
-      "excerpt": "The Mariners are now down to just one regular position player missing from action as they continue their road series in Pittsburgh.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
       "title": "Super Bowl champion Seahawks announce series of public &#8216;Trophy Tour&#8217; dates",
       "link": "https://www.fieldgulls.com/seattle-seahawks-news/169903/super-bowl-champion-seahawks-announce-public-lombardi-trophy-tour-dates",
       "pubDate": "2026-06-24T19:55:46.000Z",
@@ -153,46 +148,6 @@
       "source": "Field Gulls",
       "team": "seahawks",
       "priority": 1
-    },
-    {
-      "title": "Christian Pulisic feels ‘great,’ hopes to play for US in final World Cup group game vs Turkey",
-      "link": "https://www.seattletimes.com/sports/world-cup/christian-pulisic-feels-great-hopes-to-play-for-us-in-final-world-cup-group-game-vs-turkey/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 24 Jun 2026 12:48:07 -0700",
-      "isoDate": "2026-06-24T19:48:07.000Z",
-      "excerpt": "Christian Pulisic says he feels “great” now after missing one World Cup match with a calf injury.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Passan: Kade Anderson a ‘generational gift’ to Mariners",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/kade-anderson-generational-gift-seattle-mariners-jeff-passan",
-      "pubDate": "Wed, 24 Jun 2026 18:31:23 +0000",
-      "isoDate": "2026-06-24T18:31:23.000Z",
-      "excerpt": "“The confluence of things that led Kade Anderson to the Mariners is pretty remarkable,\" Jeff Passan said.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "Dianna Russini was an NFL ‘Insider.’ Was she also out of bounds?",
-      "link": "https://www.seattletimes.com/sports/dianna-russini-was-an-nfl-insider-was-she-also-out-of-bounds/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 24 Jun 2026 11:10:08 -0700",
-      "isoDate": "2026-06-24T18:10:08.000Z",
-      "excerpt": "Dianna Russini's closeness to Mike Vrabel, the head coach of the New England Patriots, led to her resignation from The Athletic. Russini, a face of the sports publication, was paid an annual salary of close to $800,000,...",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "World Cup: What to know as final part of group play begins",
-      "link": "https://sports.mynorthwest.com/seattle-sports-pit/world-cup-what-to-know-group-play-heats-up-seattle",
-      "pubDate": "Wed, 24 Jun 2026 17:09:36 +0000",
-      "isoDate": "2026-06-24T17:09:36.000Z",
-      "excerpt": "Wednesday's World Cup action includes a pivotal match in Seattle between two potential U.S. round-of-32 opponents.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
     },
     {
       "title": "Mariners announce new 'Legacy Plaza,' where fans can leave their mark",
@@ -315,16 +270,6 @@
       "priority": 1
     },
     {
-      "title": "Randyland rejoices as Arozarena returns from hamstring tweak",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-injuries/145226/randyland-seattle-mariners-randy-arozarena-returns-from-hamstring-tweak",
-      "pubDate": "2026-06-23T20:25:29.000Z",
-      "isoDate": "2026-06-23T20:25:29.000Z",
-      "excerpt": "BALTIMORE, MD - JUNE 11: Randy Arozarena #56 of the Seattle Mariners looks on during the game between the Seattle Mariners and the Baltimore Orioles at Oriole Park at Camden Yards on Thursday, June 11, 2026 in...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
       "title": "Seahawks linebacker Ernest Jones named to NFL Top 100 for first time",
       "link": "https://www.fieldgulls.com/seattle-seahawks-news/169876/seahawks-linebacker-ernest-jones-named-nfl-top-100-first-time",
       "pubDate": "2026-06-23T18:00:44.000Z",
@@ -332,16 +277,6 @@
       "excerpt": "The Seattle Seahawks’ move to acquire linebacker Ernest Jones IV in 2024 was unassuming at the time. Seattle was desperate for help at the position, and the Titans needed picks to rebuild, simple as that. Just over two...",
       "source": "Field Gulls",
       "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "Series Preview: Mariners (40-39) at Pirates (39-39)",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-game-information/145220/series-preview-seattle-mariners-at-pittsburgh-pirates-june-2026",
-      "pubDate": "2026-06-23T17:15:00.000Z",
-      "isoDate": "2026-06-23T17:15:00.000Z",
-      "excerpt": "DENVER, COLORADO - JUNE 21: Endy Rodriguez #13 of the Pittsburgh Pirates celebrates his fourth inning two-run home run against the Colorado Rockies with Bryan Reynolds #10 in a game at Coors Field on June 21, 2026 in...",
-      "source": "Lookout Landing",
-      "team": "mariners",
       "priority": 1
     },
     {
@@ -433,16 +368,6 @@
       "source": "Field Gulls",
       "team": "seahawks",
       "priority": 1
-    },
-    {
-      "title": "J-Rod, Randy can't let up in razor-thin AL OF All-Star race",
-      "link": "https://www.mlb.com/mariners/news/2026-mlb-all-star-ballot-second-update",
-      "pubDate": "Mon, 22 Jun 2026 18:04:03 GMT",
-      "isoDate": "2026-06-22T18:04:03.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
     },
     {
       "title": "Seahawks Will Have Joint Practice With Titans In Nashville",
@@ -603,6 +528,86 @@
       "source": "Davy Jones' Locker Room",
       "team": "kraken",
       "priority": 1
+    },
+    {
+      "title": "Royals Acquire Randy Dobnak",
+      "link": "https://www.mlbtraderumors.com/2026/06/royals-to-acquire-randy-dobnak.html",
+      "pubDate": "Wed, 17 Jun 2026 23:52:54 +0000",
+      "isoDate": "2026-06-17T23:52:54.000Z",
+      "excerpt": "6:52pm: Kansas City officially acquired Dobnak for cash considerations and optioned him to Triple-A. They transferred Cole Ragans from the 15-day to the 60-day injured list to open a spot on the 40-man roster. Ragans...",
+      "source": "MLB Trade Rumors",
+      "team": "mariners",
+      "priority": 2
+    },
+    {
+      "title": "Seahawks Mailbag: Super Bowl Rings, Year 2 Nick Emmanwori & More",
+      "link": "https://www.seahawks.com/news/seahawks-mailbag-super-bowl-rings-year-2-nick-emmanwori-more",
+      "pubDate": "Wed, 17 Jun 2026 23:14:34 GMT",
+      "isoDate": "2026-06-17T23:14:34.000Z",
+      "excerpt": "You had Seahawks questions; we have answers.",
+      "source": "Seahawks.com",
+      "team": "seahawks",
+      "priority": 6
+    },
+    {
+      "title": "Seahawks Announce Front Office Promotions, Including Two New Assistant General Managers",
+      "link": "https://www.seahawks.com/news/seahawks-announce-front-office-promotions-including-two-new-assistant-general-managers",
+      "pubDate": "Wed, 17 Jun 2026 19:58:41 GMT",
+      "isoDate": "2026-06-17T19:58:41.000Z",
+      "excerpt": "The Seahawks announced six promotions on Wednesday, including assistant general manager titles for Matt Berry and Willie Schneider.",
+      "source": "Seahawks.com",
+      "team": "seahawks",
+      "priority": 6
+    },
+    {
+      "title": "Seahawks Promote Willie Schneider, Matt Berry To Assistant GM",
+      "link": "https://www.profootballrumors.com/2026/06/seahawks-promote-willie-schneider-matt-berry-to-assistant-gm",
+      "pubDate": "Wed, 17 Jun 2026 19:05:21 +0000",
+      "isoDate": "2026-06-17T19:05:21.000Z",
+      "excerpt": "The reigning Super Bowl champion Seahawks are making a couple of front office promotions, Tom Pelissero of NFL Network reports. They will elevate director of pro personnel Willie Schneider and vice president/player...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
+      "priority": 2
+    },
+    {
+      "title": "Mariners Place Randy Arozarena On Injured List",
+      "link": "https://www.mlbtraderumors.com/2026/06/mariners-to-place-randy-arozarena-on-injured-list.html",
+      "pubDate": "Wed, 17 Jun 2026 01:14:36 +0000",
+      "isoDate": "2026-06-17T01:14:36.000Z",
+      "excerpt": "8:14pm: Seattle has officially announced all three moves: Arozarena’s retroactive IL placement, Washington’s selection, and Wilson’s transfer to the 60-day injured list. Wilson has been out since late April with a...",
+      "source": "MLB Trade Rumors",
+      "team": "mariners",
+      "priority": 2
+    },
+    {
+      "title": "Free Agent Focus: Seattle Kraken",
+      "link": "https://www.prohockeyrumors.com/2026/06/free-agent-focus-seattle-kraken-4.html",
+      "pubDate": "Tue, 16 Jun 2026 22:45:55 +0000",
+      "isoDate": "2026-06-16T22:45:55.000Z",
+      "excerpt": "Free agency is now less than a month away, and teams are looking ahead to when it opens. Even with the UFA crop being thinned out in recent months, there will be some quality veterans set to hit the open market in July,...",
+      "source": "Pro Hockey Rumors",
+      "team": "kraken",
+      "priority": 2
+    },
+    {
+      "title": "Mariners Outright Domingo González",
+      "link": "https://www.mlbtraderumors.com/2026/06/mariners-outright-domingo-gonzalez.html",
+      "pubDate": "Tue, 16 Jun 2026 01:26:34 +0000",
+      "isoDate": "2026-06-16T01:26:34.000Z",
+      "excerpt": "The Mariners announced that right-hander Domingo González has cleared waivers and been assigned outright to Triple-A Tacoma. Seattle also optioned infielder Patrick Wisdom on tonight’s day off, opening an active roster...",
+      "source": "MLB Trade Rumors",
+      "team": "mariners",
+      "priority": 2
+    },
+    {
+      "title": "Randy Dobnak Triggers Upward Mobility Clause In Mariners Deal",
+      "link": "https://www.mlbtraderumors.com/2026/06/randy-dobnak-has-upward-mobility-clause-in-mariners-deal.html",
+      "pubDate": "Mon, 15 Jun 2026 23:37:30 +0000",
+      "isoDate": "2026-06-15T23:37:30.000Z",
+      "excerpt": "June 15: Alexander reports that Dobnak has triggered the assignment clause, as expected. The righty will now await word on whether any team is willing to add him to the 40-man roster. June 8: Randy Dobnak signed a minor...",
+      "source": "MLB Trade Rumors",
+      "team": "mariners",
+      "priority": 2
     }
   ]
 }
