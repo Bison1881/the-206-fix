@@ -1,9 +1,84 @@
 {
-  "generatedAt": "2026-06-25T14:25:00.721Z",
+  "generatedAt": "2026-06-25T18:07:21.750Z",
   "sourceCount": 10,
-  "successfulSources": 10,
-  "failedSources": [],
+  "successfulSources": 9,
+  "failedSources": [
+    {
+      "source": "Seattle Times Sports",
+      "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
+    }
+  ],
   "items": [
+    {
+      "title": "Watch prospects Farmelo, Celesten slug at High-A for FREE tonight",
+      "link": "https://www.mlb.com/mariners/news/watch-minor-league-baseball-games-for-free-2026",
+      "pubDate": "Thu, 25 Jun 2026 18:00:00 GMT",
+      "isoDate": "2026-06-25T18:00:00.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "49ers’ Aiyuk says he’ll sign with Commanders if granted release",
+      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/brandon-aiyuk-san-francisco-49ers-washington-commanders",
+      "pubDate": "Thu, 25 Jun 2026 16:25:11 +0000",
+      "isoDate": "2026-06-25T16:25:11.000Z",
+      "excerpt": "Aiyuk wants to be released, but the Niners have shown no urgency to make a move even though general manager John Lynch has said he doesn’t expect Aiyuk to play for the team again.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Phase 1 of All-Star voting ends; finalists revealed tonight (6 p.m. ET on MLB Network)",
+      "link": "https://www.mlb.com/mariners/news/mlb-2026-all-star-ballot-phase-1-is-over",
+      "pubDate": "Thu, 25 Jun 2026 16:00:58 GMT",
+      "isoDate": "2026-06-25T16:00:58.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Tri-Cities native Tyler Bilodeau selected by Nets in NBA Draft",
+      "link": "https://sports.mynorthwest.com/seattle-sports-pit/tri-cities-native-tyler-bilodeau-nets-nba-draft",
+      "pubDate": "Thu, 25 Jun 2026 15:48:25 +0000",
+      "isoDate": "2026-06-25T15:48:25.000Z",
+      "excerpt": "The former Kamiakin H.S. star had an accomplished four-year college career at Oregon State and UCLA.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Mariners Game #82 Preview and Discussion: SEA at PIT, 6/25",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-game-information/145308/mariners-game-82-preview-and-discussion-sea-at-pit-6-25",
+      "pubDate": "2026-06-25T15:46:47.000Z",
+      "isoDate": "2026-06-25T15:46:47.000Z",
+      "excerpt": "PITTSBURGH, PENNSYLVANIA - JUNE 24: Pittsburgh Pirates fans pose while holding a Topps cards for the 75th anniversary before the game between the Seattle Mariners and the Pittsburgh Pirates at PNC Park on June 24, 2026...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Seahawks 2026 rookie predictions: Why Deven Eastern faces tough path to active roster",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/169929/seahawks-2026-nfl-rookie-predictions-why-deven-eastern-faces-tough-path-active-roster",
+      "pubDate": "2026-06-25T15:00:00.000Z",
+      "isoDate": "2026-06-25T15:00:00.000Z",
+      "excerpt": "MINNEAPOLIS, MINNESOTA - OCTOBER 17: Dylan Raiola #15 of the Nebraska Cornhuskers is sacked by Deven Eastern #91 of the Minnesota Golden Gophers in the first quarter at Huntington Bank Stadium on October 17, 2025 in...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
+    {
+      "title": "Mariners Draft Profile: RHP Logan Reddemann",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-mlb-draft/145300/mariners-draft-profile-rhp-logan-reddemann",
+      "pubDate": "2026-06-25T15:00:00.000Z",
+      "isoDate": "2026-06-25T15:00:00.000Z",
+      "excerpt": "PISCATAWAY, NEW JERSEY - APRIL 10, 2026: Logan Reddemann #24 of the UCLA Bruins warms up prior to a game against the Rutgers Scarlet Knights at Bainton Field on April 10, 2026 in Piscataway, New Jersey. (Photo by Chris...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
     {
       "title": "Salk on Seahawks: The glorification of Rams has to stop",
       "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/seattle-seahawks-los-angeles-rams-glorification-mike-salk",
@@ -15,6 +90,26 @@
       "priority": 3
     },
     {
+      "title": "Seahawks offseason discussion: Which Seahawks veterans can repeat their success in 2026?",
+      "link": "https://www.fieldgulls.com/seahawks-podcast/169906/nfl-discusison-which-seattle-seahawks-veterans-can-repeat-their-success-2026",
+      "pubDate": "2026-06-25T14:00:00.000Z",
+      "isoDate": "2026-06-25T14:00:00.000Z",
+      "excerpt": "Dec 18, 2025; Seattle, Washington, USA; Seattle Seahawks quarterback Sam Darnold (14) throws a pass against the Los Angeles Rams in the second half at Lumen Field. Mandatory Credit: Kevin Ng-Imagn Images | Kevin...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
+    {
+      "title": "Mariners News: Felnin Celesten, Francisco Lindor, and Dansby Swanson",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-news/145289/mariners-news-felnin-celesten-francisco-lindor-and-dansby-swanson",
+      "pubDate": "2026-06-25T14:00:00.000Z",
+      "isoDate": "2026-06-25T14:00:00.000Z",
+      "excerpt": "Jun 24, 2026; New York City, New York, USA; Chicago Cubs shortstop Dansby Swanson (7) hits an RBI triple during the sixth inning against the New York Mets at Citi Field. Mandatory Credit: Vincent Carchietta-Imagn Images...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
       "title": "Draft Profile 2k26: Carson Carels brings a relentless work ethic, scoring touch to the blueline",
       "link": "https://www.davyjoneslockerroom.com/draft-profile-2k26-carson-carels-brings-a-relentless-work-ethic-scoring-touch-to-the-blueline/",
       "pubDate": "Thu, 25 Jun 2026 14:00:00 +0000",
@@ -22,26 +117,6 @@
       "excerpt": "I read about and watched a lot of Mr. Carels game in the lead up to this article, and I must legally inform you like the entire rest of the internet that Carson Carels is from a cattle farm. 500 head Cattle farm out in...",
       "source": "Davy Jones' Locker Room",
       "team": "kraken",
-      "priority": 1
-    },
-    {
-      "title": "NHL draft preview: Who will Seattle Kraken take at No. 7?",
-      "link": "https://www.seattletimes.com/sports/kraken/nhl-draft-preview-who-will-seattle-kraken-take-at-no-7/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Thu, 25 Jun 2026 06:00:00 -0700",
-      "isoDate": "2026-06-25T13:00:00.000Z",
-      "excerpt": "The first round of the 2026 NHL draft is Friday in Buffalo, and the Kraken are picking seventh this time. Here are some of the top names who could be available at No. 7.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "World Cup schedule today, June 25: How to watch USMNT, other games",
-      "link": "https://www.seattletimes.com/sports/world-cup/world-cup-schedule-today-june-25-how-to-watch-usmnt-other-games/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Thu, 25 Jun 2026 06:00:00 -0700",
-      "isoDate": "2026-06-25T13:00:00.000Z",
-      "excerpt": "Another day of World Cup action is upon us, and the U.S. plays today. Here's everything you need to know, and how to watch.",
-      "source": "Seattle Times Sports",
-      "team": "general",
       "priority": 1
     },
     {
@@ -55,16 +130,6 @@
       "priority": 1
     },
     {
-      "title": "Brandon Roy to return as Garfield boys basketball coach less than a year after firing, report says",
-      "link": "https://www.seattletimes.com/sports/high-school/report-brandon-roy-to-return-as-garfield-boys-basketball-coach-less-than-a-year-after-firing/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 24 Jun 2026 23:29:22 -0700",
-      "isoDate": "2026-06-25T06:29:22.000Z",
-      "excerpt": "Brandon Roy will return as the head coach of the boys basketball program at Garfield High School for the 2026-2027 school year, according to a report. He was fired from the same role last September.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "Woo finding it hard to 'wipe the slate clean' after latest setback",
       "link": "https://www.mlb.com/mariners/news/bryan-woo-derailed-by-pirates-five-run-fourth-inning",
       "pubDate": "Thu, 25 Jun 2026 04:29:59 GMT",
@@ -75,26 +140,6 @@
       "priority": 6
     },
     {
-      "title": "South Africa reaches World Cup knockout round for 1st time with 1-0 win over South Korea",
-      "link": "https://www.seattletimes.com/sports/world-cup/south-africa-reaches-world-cup-knockout-round-for-1st-time-with-1-0-win-over-south-korea/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 24 Jun 2026 20:25:17 -0700",
-      "isoDate": "2026-06-25T03:25:17.000Z",
-      "excerpt": "South Africa advanced to the knockout phase of the World Cup for the first time with a 1-0 victory over South Korea on Wednesday night.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Mexico beats Czech Republic 3-0 to win all 3 World Cup group-stage matches for 1st time",
-      "link": "https://www.seattletimes.com/sports/world-cup/mexico-beats-czech-republic-3-0-to-win-all-3-world-cup-group-stage-matches-for-1st-time/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 24 Jun 2026 20:20:30 -0700",
-      "isoDate": "2026-06-25T03:20:30.000Z",
-      "excerpt": "Mateo Chávez and Julián Quiñones scored goals in a six-minute span early in the second half, and Mexico beat the Czech Republic 3-0 to win all three of its World Cup group-stage matches for the first time.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "The Mariners get out-tried, lose 11-1",
       "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/145291/the-mariners-get-out-tried-lose-11-1",
       "pubDate": "2026-06-25T02:41:35.000Z",
@@ -102,16 +147,6 @@
       "excerpt": "Jun 24, 2026; Pittsburgh, Pennsylvania, USA; Pittsburgh Pirates left fielder Bryan Reynolds (10) slides safely into second base with a double against the Seattle Mariners during the eighth inning at PNC Park. Mandatory...",
       "source": "Lookout Landing",
       "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "Merlín the duck takes a trip to the stadium, but FIFA rules keep him out of Mexico match",
-      "link": "https://www.seattletimes.com/nation-world/fifa-rules-keep-merlin-the-duck-out-of-mexico-match/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 24 Jun 2026 19:08:44 -0700",
-      "isoDate": "2026-06-25T02:08:44.000Z",
-      "excerpt": "A viral sensation from this World Cup, Merlín the duck was at Mexico City's stadium before the national team's match against the Czech Republic.",
-      "source": "Seattle Times Sports",
-      "team": "general",
       "priority": 1
     },
     {
@@ -135,16 +170,6 @@
       "priority": 3
     },
     {
-      "title": "Pirates pummel Mariners’ Bryan Woo as road struggles resurface",
-      "link": "https://www.seattletimes.com/sports/mariners/pirates-pummel-mariners-bryan-woo-as-road-struggles-resurface/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 24 Jun 2026 18:27:28 -0700",
-      "isoDate": "2026-06-25T01:27:28.000Z",
-      "excerpt": "Bryan Woo's season-long road struggles were back in the spotlight Wednesday during an 11-1 trouncing by the Pirates.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "41-40: Chart",
       "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/145284/41-40-chart",
       "pubDate": "2026-06-25T01:17:27.000Z",
@@ -152,26 +177,6 @@
       "excerpt": "PITTSBURGH, PA - JUNE 24: Ryan O'Hearn #29 of the Pittsburgh Pirates reacts after hitting a two-run double in the seventh inning during the game between the Seattle Mariners and the Pittsburgh Pirates at PNC Park on...",
       "source": "Lookout Landing",
       "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "Watch prospects Farmelo, Celesten slug at High-A for FREE tonight",
-      "link": "https://www.mlb.com/mariners/news/watch-minor-league-baseball-games-for-free-2026",
-      "pubDate": "Thu, 25 Jun 2026 01:04:00 GMT",
-      "isoDate": "2026-06-25T01:04:00.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
-    },
-    {
-      "title": "Seattle-area Bosnian Americans savor historic World Cup match",
-      "link": "https://www.seattletimes.com/seattle-news/world-cup-seattle/seattle-area-bosnian-americans-savor-historic-world-cup-match/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 24 Jun 2026 17:54:29 -0700",
-      "isoDate": "2026-06-25T00:54:29.000Z",
-      "excerpt": "More than 30 years after a Bosnian couple arrived in Seattle as refugees, having the hometown FIFA World Cup match against Qatar meant more than just a game.",
-      "source": "Seattle Times Sports",
-      "team": "general",
       "priority": 1
     },
     {
@@ -209,7 +214,7 @@
       "link": "https://sports.mynorthwest.com/seattle-sports-pit/world-cup-seattle-us-bosnia-united-states",
       "pubDate": "Wed, 24 Jun 2026 22:21:33 +0000",
       "isoDate": "2026-06-24T22:21:33.000Z",
-      "excerpt": "Bosnia-Herzegovina has a good chance to reach the round of 32 after beating Qatar on Wednesday in Seattle.",
+      "excerpt": "The U.S. will likely face Bosnia in the round of 32, with the winner earning a trip to Seattle for the round of 16.",
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
@@ -223,26 +228,6 @@
       "source": "Lookout Landing",
       "team": "mariners",
       "priority": 1
-    },
-    {
-      "title": "Tim Kurkjian details how the WBC didn’t help Cal Raleigh",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/tim-kurkjian-details-how-wbc-may-have-hurt-cal-raleigh",
-      "pubDate": "Wed, 24 Jun 2026 21:44:17 +0000",
-      "isoDate": "2026-06-24T21:44:17.000Z",
-      "excerpt": "The ESPN insider heard from a team source that lack of reps at the tournament threw Cal Raleigh out of rhythm.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "Mariners announce new ‘Legacy Plaza’ at T-Mobile Park",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-announce-legacy-plaza-t-mobile-park",
-      "pubDate": "Wed, 24 Jun 2026 21:33:41 +0000",
-      "isoDate": "2026-06-24T21:33:41.000Z",
-      "excerpt": "The plaza offer fans \"a unique opportunity to become a permanent part of Mariners history.\"",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
     },
     {
       "title": "Latest Mariners injuries and transactions",
@@ -335,36 +320,6 @@
       "priority": 1
     },
     {
-      "title": "41-39: Chart",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/145246/41-39-chart",
-      "pubDate": "2026-06-24T01:31:00.000Z",
-      "isoDate": "2026-06-24T01:31:00.000Z",
-      "excerpt": "Jun 23, 2026; Pittsburgh, Pennsylvania, USA; Seattle Mariners catcher Cal Raleigh (29) reacts after hitting a solo home run against the Pittsburgh Pirates during the fourth inning at PNC Park. Mandatory Credit: Charles...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "Mariners Reacts Survey: The Career Crossroad",
-      "link": "https://www.lookoutlanding.com/mlb-reacts/145217/mariners-reacts-survey-the-career-crossroad",
-      "pubDate": "2026-06-24T00:00:00.000Z",
-      "isoDate": "2026-06-24T00:00:00.000Z",
-      "excerpt": "Jun 20, 2026; Seattle, Washington, USA; Seattle Mariners third baseman J.P. Crawford (3), right, is congratulated by right fielder Rob Refsnyder (30) after scoring a run during the first inning against the Boston Red...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "Mariners at Pirates: Game Preview and Discussion",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-game-information/145240/mariners-at-pirates-game-preview-and-discussion",
-      "pubDate": "2026-06-23T22:22:30.000Z",
-      "isoDate": "2026-06-23T22:22:30.000Z",
-      "excerpt": "Jul 4, 2025; Seattle, Washington, USA; Seattle Mariners left fielder Randy Arozarena (56) celebrates after hitting a solo home run during the fourth inning against the Pittsburgh Pirates at T-Mobile Park. Mandatory...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
       "title": "Seahawks linebacker Ernest Jones named to NFL Top 100 for first time",
       "link": "https://www.fieldgulls.com/seattle-seahawks-news/169876/seahawks-linebacker-ernest-jones-named-nfl-top-100-first-time",
       "pubDate": "2026-06-23T18:00:44.000Z",
@@ -425,16 +380,6 @@
       "priority": 1
     },
     {
-      "title": "Seahawks News 6/23: Josh Jobe is the Seahawks&#8217; undisputed No. 2 CB",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169857/seahawks-news-6-23-josh-jobe-is-the-seahawks-undisputed-no-2-cb",
-      "pubDate": "2026-06-23T13:00:00.000Z",
-      "isoDate": "2026-06-23T13:00:00.000Z",
-      "excerpt": "SANTA CLARA, CA - FEBRUARY 08: CB Josh Jobe (29) of the Seattle Seahawks warms up prior to the start of the Seattle Seahawks versus the New England Patriots Super Bowl LX game on February 8, 2026, at Levi's Stadium in...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
-    },
-    {
       "title": "Accenture Becomes First-Ever Global Partner of the Seattle Seahawks to Help Reinvent the Future of Football and Present the Lombardi Trophy Tour with Stops Across the Globe",
       "link": "https://www.seahawks.com/news/accenture-becomes-first-ever-global-partner-of-the-seattle-seahawks-to-help-reinvent-the-future-of-football-and-present-the-lombardi-trophy-tour-with-stops-across-the-globe",
       "pubDate": "Tue, 23 Jun 2026 13:00:00 GMT",
@@ -443,16 +388,6 @@
       "source": "Seahawks.com",
       "team": "seahawks",
       "priority": 6
-    },
-    {
-      "title": "What will make or break Seahawks RG Anthony Bradford in 2026",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169842/what-will-make-or-break-seattle-seahawks-rg-anthony-bradford-2026",
-      "pubDate": "2026-06-22T21:00:00.000Z",
-      "isoDate": "2026-06-22T21:00:00.000Z",
-      "excerpt": "ARLINGTON, TEXAS - NOVEMBER 30: Anthony Bradford #75 of the Seattle Seahawks looks on during an NFL football game against the Dallas Cowboys at AT&T Stadium on November 30, 2023 in Arlington, Texas. (Photo by Ryan...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
     },
     {
       "title": "Seahawks Will Have Joint Practice With Titans In Nashville",
@@ -602,6 +537,76 @@
       "excerpt": "Infielder/outfielder Weston Wilson has signed a minor league contract with the Mariners after electing free agency in lieu of an outright assignment from the Orioles late last week. The team never formally announced the...",
       "source": "MLB Trade Rumors",
       "team": "mariners",
+      "priority": 2
+    },
+    {
+      "title": "PWHL Draft Recap: Torrent add goalscoring and controversy to their roster",
+      "link": "https://www.davyjoneslockerroom.com/pwhl-draft-recap-torrent-add-goalscoring-and-controversy-to-their-roster/",
+      "pubDate": "Thu, 18 Jun 2026 13:45:00 +0000",
+      "isoDate": "2026-06-18T13:45:00.000Z",
+      "excerpt": "The PWHL Draft concluded yesterday, with a bunch of depleted lineups changing hopefully for the better with the additions of fresh new talent from all across the globe. 2nd Overall Pick: Abbey Murphy – F Hometown:...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
+      "title": "Royals Acquire Randy Dobnak",
+      "link": "https://www.mlbtraderumors.com/2026/06/royals-to-acquire-randy-dobnak.html",
+      "pubDate": "Wed, 17 Jun 2026 23:52:54 +0000",
+      "isoDate": "2026-06-17T23:52:54.000Z",
+      "excerpt": "6:52pm: Kansas City officially acquired Dobnak for cash considerations and optioned him to Triple-A. They transferred Cole Ragans from the 15-day to the 60-day injured list to open a spot on the 40-man roster. Ragans...",
+      "source": "MLB Trade Rumors",
+      "team": "mariners",
+      "priority": 2
+    },
+    {
+      "title": "Seahawks Mailbag: Super Bowl Rings, Year 2 Nick Emmanwori & More",
+      "link": "https://www.seahawks.com/news/seahawks-mailbag-super-bowl-rings-year-2-nick-emmanwori-more",
+      "pubDate": "Wed, 17 Jun 2026 23:14:34 GMT",
+      "isoDate": "2026-06-17T23:14:34.000Z",
+      "excerpt": "You had Seahawks questions; we have answers.",
+      "source": "Seahawks.com",
+      "team": "seahawks",
+      "priority": 6
+    },
+    {
+      "title": "Seahawks Announce Front Office Promotions, Including Two New Assistant General Managers",
+      "link": "https://www.seahawks.com/news/seahawks-announce-front-office-promotions-including-two-new-assistant-general-managers",
+      "pubDate": "Wed, 17 Jun 2026 19:58:41 GMT",
+      "isoDate": "2026-06-17T19:58:41.000Z",
+      "excerpt": "The Seahawks announced six promotions on Wednesday, including assistant general manager titles for Matt Berry and Willie Schneider.",
+      "source": "Seahawks.com",
+      "team": "seahawks",
+      "priority": 6
+    },
+    {
+      "title": "Seahawks Promote Willie Schneider, Matt Berry To Assistant GM",
+      "link": "https://www.profootballrumors.com/2026/06/seahawks-promote-willie-schneider-matt-berry-to-assistant-gm",
+      "pubDate": "Wed, 17 Jun 2026 19:05:21 +0000",
+      "isoDate": "2026-06-17T19:05:21.000Z",
+      "excerpt": "The reigning Super Bowl champion Seahawks are making a couple of front office promotions, Tom Pelissero of NFL Network reports. They will elevate director of pro personnel Willie Schneider and vice president/player...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
+      "priority": 2
+    },
+    {
+      "title": "Mariners Place Randy Arozarena On Injured List",
+      "link": "https://www.mlbtraderumors.com/2026/06/mariners-to-place-randy-arozarena-on-injured-list.html",
+      "pubDate": "Wed, 17 Jun 2026 01:14:36 +0000",
+      "isoDate": "2026-06-17T01:14:36.000Z",
+      "excerpt": "8:14pm: Seattle has officially announced all three moves: Arozarena’s retroactive IL placement, Washington’s selection, and Wilson’s transfer to the 60-day injured list. Wilson has been out since late April with a...",
+      "source": "MLB Trade Rumors",
+      "team": "mariners",
+      "priority": 2
+    },
+    {
+      "title": "Free Agent Focus: Seattle Kraken",
+      "link": "https://www.prohockeyrumors.com/2026/06/free-agent-focus-seattle-kraken-4.html",
+      "pubDate": "Tue, 16 Jun 2026 22:45:55 +0000",
+      "isoDate": "2026-06-16T22:45:55.000Z",
+      "excerpt": "Free agency is now less than a month away, and teams are looking ahead to when it opens. Even with the UFA crop being thinned out in recent months, there will be some quality veterans set to hit the open market in July,...",
+      "source": "Pro Hockey Rumors",
+      "team": "kraken",
       "priority": 2
     }
   ]
