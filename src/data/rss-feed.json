@@ -1,33 +1,93 @@
 {
-  "generatedAt": "2026-06-25T18:07:21.750Z",
+  "generatedAt": "2026-06-25T21:29:05.404Z",
   "sourceCount": 10,
   "successfulSources": 9,
   "failedSources": [
     {
-      "source": "Seattle Times Sports",
-      "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
+      "source": "710 Seattle Sports",
+      "error": "Request timed out after 10000ms (lenient retry: Status code 403)"
     }
   ],
   "items": [
     {
-      "title": "Watch prospects Farmelo, Celesten slug at High-A for FREE tonight",
-      "link": "https://www.mlb.com/mariners/news/watch-minor-league-baseball-games-for-free-2026",
-      "pubDate": "Thu, 25 Jun 2026 18:00:00 GMT",
-      "isoDate": "2026-06-25T18:00:00.000Z",
+      "title": "Seahawks Travel To Atlanta And Alabama For A Civil Rights Learning Tour",
+      "link": "https://www.seahawks.com/news/seahawks-travel-to-atlanta-and-alabama-for-a-civil-rights-learning-tour",
+      "pubDate": "Thu, 25 Jun 2026 19:57:49 GMT",
+      "isoDate": "2026-06-25T19:57:49.000Z",
+      "excerpt": "Seahawks employees, along with three local educators, took a trip to the South for a learning tour hosted by the Institute for Common Power.",
+      "source": "Seahawks.com",
+      "team": "seahawks",
+      "priority": 6
+    },
+    {
+      "title": "Mariners Outright Miles Mastrobuoni",
+      "link": "https://www.mlbtraderumors.com/2026/06/mariners-outright-miles-mastrobuoni.html",
+      "pubDate": "Thu, 25 Jun 2026 19:34:38 +0000",
+      "isoDate": "2026-06-25T19:34:38.000Z",
+      "excerpt": "The Mariners announced that infielder/outfielder Miles Mastrobuoni cleared waivers and has been outrighted to Triple-A Tacoma. He had been designated for assignment by Seattle last week. He does not have three years of...",
+      "source": "MLB Trade Rumors",
+      "team": "mariners",
+      "priority": 2
+    },
+    {
+      "title": "41-41: Chart",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/145315/41-41-chart",
+      "pubDate": "2026-06-25T19:29:35.000Z",
+      "isoDate": "2026-06-25T19:29:35.000Z",
+      "excerpt": "PITTSBURGH, PA - JUNE 25: Brandon Lowe #5 of the Pittsburgh Pirates rounds the bases after hitting a home run in the first inning during the game between the Seattle Mariners and the Pittsburgh Pirates at PNC Park on...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Mariners continue hitting struggles, lose game and series to Pirates",
+      "link": "https://www.seattletimes.com/sports/mariners/mariners-continue-hitting-struggles-lose-game-and-series-to-pirates/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Thu, 25 Jun 2026 12:25:20 -0700",
+      "isoDate": "2026-06-25T19:25:20.000Z",
+      "excerpt": "The Mariners' bats stayed cold Thursday in a 5-1 loss to the Pirates. The M's have now gone 11 straight games without scoring more than three runs.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "MLB proposes limiting most free agent contracts to 5 years and 15% of a team’s salary cap",
+      "link": "https://www.seattletimes.com/sports/mlb/mlb-proposes-limiting-most-free-agent-contracts-to-5-years-and-15-of-a-teams-salary-cap/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Thu, 25 Jun 2026 12:22:23 -0700",
+      "isoDate": "2026-06-25T19:22:23.000Z",
+      "excerpt": "MLB proposed limiting most free agent contracts to five years and eliminating deferred compensation, fleshing out details of its salary cap plan.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Mariners-Pirates highlights",
+      "link": "https://www.mlb.com/stories/game/823366",
+      "pubDate": "Thu, 25 Jun 2026 19:02:53 GMT",
+      "isoDate": "2026-06-25T19:02:53.000Z",
       "excerpt": "",
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
     },
     {
-      "title": "49ers’ Aiyuk says he’ll sign with Commanders if granted release",
-      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/brandon-aiyuk-san-francisco-49ers-washington-commanders",
-      "pubDate": "Thu, 25 Jun 2026 16:25:11 +0000",
-      "isoDate": "2026-06-25T16:25:11.000Z",
-      "excerpt": "Aiyuk wants to be released, but the Niners have shown no urgency to make a move even though general manager John Lynch has said he doesn’t expect Aiyuk to play for the team again.",
-      "source": "710 Seattle Sports",
+      "title": "Latest Mariners injuries and transactions",
+      "link": "https://www.mlb.com/mariners/news/mariners-injuries-and-roster-moves",
+      "pubDate": "Thu, 25 Jun 2026 18:31:00 GMT",
+      "isoDate": "2026-06-25T18:31:00.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "FAQs on Seattle’s World Cup Pride Match, from flags to watch parties",
+      "link": "https://www.seattletimes.com/seattle-news/world-cup-seattle/seattles-fifa-world-cup-pride-match-between-iran-egypt-what-to-know/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Thu, 25 Jun 2026 10:00:00 -0700",
+      "isoDate": "2026-06-25T17:00:00.000Z",
+      "excerpt": "The Pride Match is set for the June 26 FIFA World Cup game in Seattle between Egypt and Iran. Organizers said festivities will celebrate the LGBTQ+ community.",
+      "source": "Seattle Times Sports",
       "team": "general",
-      "priority": 3
+      "priority": 1
     },
     {
       "title": "Phase 1 of All-Star voting ends; finalists revealed tonight (6 p.m. ET on MLB Network)",
@@ -40,16 +100,6 @@
       "priority": 6
     },
     {
-      "title": "Tri-Cities native Tyler Bilodeau selected by Nets in NBA Draft",
-      "link": "https://sports.mynorthwest.com/seattle-sports-pit/tri-cities-native-tyler-bilodeau-nets-nba-draft",
-      "pubDate": "Thu, 25 Jun 2026 15:48:25 +0000",
-      "isoDate": "2026-06-25T15:48:25.000Z",
-      "excerpt": "The former Kamiakin H.S. star had an accomplished four-year college career at Oregon State and UCLA.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
       "title": "Mariners Game #82 Preview and Discussion: SEA at PIT, 6/25",
       "link": "https://www.lookoutlanding.com/seattle-mariners-game-information/145308/mariners-game-82-preview-and-discussion-sea-at-pit-6-25",
       "pubDate": "2026-06-25T15:46:47.000Z",
@@ -57,6 +107,16 @@
       "excerpt": "PITTSBURGH, PENNSYLVANIA - JUNE 24: Pittsburgh Pirates fans pose while holding a Topps cards for the 75th anniversary before the game between the Seattle Mariners and the Pittsburgh Pirates at PNC Park on June 24, 2026...",
       "source": "Lookout Landing",
       "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Washington Huskies win, Gonzaga, Oregon lose in NBA draft | Analysis",
+      "link": "https://www.seattletimes.com/sports/uw-husky-basketball/washington-huskies-win-gonzaga-oregon-lose-in-nba-draft-analysis/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Thu, 25 Jun 2026 08:43:40 -0700",
+      "isoDate": "2026-06-25T15:43:40.000Z",
+      "excerpt": "Who were the winners of the NBA draft, from a college basketball perspective? Here's why the Husky men won and Gonzaga and Oregon did not, Jon Wilner writes.",
+      "source": "Seattle Times Sports",
+      "team": "general",
       "priority": 1
     },
     {
@@ -78,16 +138,6 @@
       "source": "Lookout Landing",
       "team": "mariners",
       "priority": 1
-    },
-    {
-      "title": "Salk on Seahawks: The glorification of Rams has to stop",
-      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/seattle-seahawks-los-angeles-rams-glorification-mike-salk",
-      "pubDate": "Thu, 25 Jun 2026 14:19:59 +0000",
-      "isoDate": "2026-06-25T14:19:59.000Z",
-      "excerpt": "The Rams are receiving far too much praise this offseason, especially since they're in the same division as the champion Seahawks.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
     },
     {
       "title": "Seahawks offseason discussion: Which Seahawks veterans can repeat their success in 2026?",
@@ -120,6 +170,26 @@
       "priority": 1
     },
     {
+      "title": "NHL draft preview: Who will Seattle Kraken take at No. 7?",
+      "link": "https://www.seattletimes.com/sports/kraken/nhl-draft-preview-who-will-seattle-kraken-take-at-no-7/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Thu, 25 Jun 2026 06:00:00 -0700",
+      "isoDate": "2026-06-25T13:00:00.000Z",
+      "excerpt": "The first round of the 2026 NHL draft is Friday in Buffalo, and the Kraken are picking seventh this time. Here are some of the top names who could be available at No. 7.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "World Cup schedule today, June 25: How to watch USMNT, other games",
+      "link": "https://www.seattletimes.com/sports/world-cup/world-cup-schedule-today-june-25-how-to-watch-usmnt-other-games/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Thu, 25 Jun 2026 06:00:00 -0700",
+      "isoDate": "2026-06-25T13:00:00.000Z",
+      "excerpt": "Another day of World Cup action is upon us, and the U.S. plays today. Here's everything you need to know, and how to watch.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
       "title": "Seahawks News 6/25: Which young Seahawks pass-rusher breaks out in 2026?",
       "link": "https://www.fieldgulls.com/seattle-seahawks-nfl-draft/169959/seahawks-news-6-25-which-young-seahawks-pass-rusher-breaks-out-in-2026",
       "pubDate": "2026-06-25T13:00:00.000Z",
@@ -127,6 +197,16 @@
       "excerpt": "SAN JOSE, CALIFORNIA - FEBRUARY 06: Jamie Sheriff #50 of the Seattle Seahawks during a practice ahead of Super Bowl LX at San Jose State University on February 06, 2026 in San Jose, California. (Photo by Eakin...",
       "source": "Field Gulls",
       "team": "seahawks",
+      "priority": 1
+    },
+    {
+      "title": "Brandon Roy to return as Garfield boys basketball coach less than a year after firing",
+      "link": "https://www.seattletimes.com/sports/high-school/report-brandon-roy-to-return-as-garfield-boys-basketball-coach-less-than-a-year-after-firing/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Wed, 24 Jun 2026 23:29:22 -0700",
+      "isoDate": "2026-06-25T06:29:22.000Z",
+      "excerpt": "Brandon Roy will return as the head coach of the boys basketball program at Garfield High School for the 2026-2027 school year. He was fired from the same role last September.",
+      "source": "Seattle Times Sports",
+      "team": "general",
       "priority": 1
     },
     {
@@ -140,6 +220,16 @@
       "priority": 6
     },
     {
+      "title": "South Africa reaches World Cup knockout round for 1st time with 1-0 win over South Korea",
+      "link": "https://www.seattletimes.com/sports/world-cup/south-africa-reaches-world-cup-knockout-round-for-1st-time-with-1-0-win-over-south-korea/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Wed, 24 Jun 2026 20:25:17 -0700",
+      "isoDate": "2026-06-25T03:25:17.000Z",
+      "excerpt": "South Africa advanced to the knockout phase of the World Cup for the first time with a 1-0 victory over South Korea on Wednesday night.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
       "title": "The Mariners get out-tried, lose 11-1",
       "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/145291/the-mariners-get-out-tried-lose-11-1",
       "pubDate": "2026-06-25T02:41:35.000Z",
@@ -148,26 +238,6 @@
       "source": "Lookout Landing",
       "team": "mariners",
       "priority": 1
-    },
-    {
-      "title": "World Cup: Pochettino says rebuilding US team tougher than he imagined",
-      "link": "https://sports.mynorthwest.com/seattle-sports-pit/world-cup-pochettino-says-rebuilding-us-team-tougher-than-he-imagined",
-      "pubDate": "Thu, 25 Jun 2026 01:52:41 +0000",
-      "isoDate": "2026-06-25T01:52:41.000Z",
-      "excerpt": "Mauricio Pochettino said he inherited a program saturated by complacency that didn’t match his urgency.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "Pirates roll to 11-1 rout of AL West-leading Mariners",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/pirates-roll-to-11-1-rout-of-al-west-leading-seattle-mariners",
-      "pubDate": "Thu, 25 Jun 2026 01:40:11 +0000",
-      "isoDate": "2026-06-25T01:40:11.000Z",
-      "excerpt": "Braxton Ashcraft struck out 10 over six innings and Pittsburgh used two big innings to pull away for the win.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
     },
     {
       "title": "41-40: Chart",
@@ -180,26 +250,6 @@
       "priority": 1
     },
     {
-      "title": "Report: Brandon Roy to return as boys basketball coach at Garfield",
-      "link": "https://sports.mynorthwest.com/seattle-sports-pit/report-brandon-roy-to-return-as-boys-basketball-coach-at-garfield",
-      "pubDate": "Thu, 25 Jun 2026 00:49:25 +0000",
-      "isoDate": "2026-06-25T00:49:25.000Z",
-      "excerpt": "The former NBA star was fired by Garfield last September after allegations of a recruiting violation.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "Bobby McMann confident in Kraken’s future after signing extension",
-      "link": "https://sports.mynorthwest.com/nhl/seattle-kraken/bobby-mcmann-seattle-kraken-future-extension",
-      "pubDate": "Wed, 24 Jun 2026 23:49:23 +0000",
-      "isoDate": "2026-06-24T23:49:23.000Z",
-      "excerpt": "\"They’ve obviously established that this is a great place to be, and I think that that’s the biggest reason why I want to be here.\"",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
       "title": "Here are the hottest pitching prospects right now -- one for each club",
       "link": "https://www.mlb.com/mariners/news/each-club-s-hottest-pitching-prospect-june-2026",
       "pubDate": "Wed, 24 Jun 2026 23:38:00 GMT",
@@ -210,16 +260,6 @@
       "priority": 6
     },
     {
-      "title": "US likely to face Bosnia in World Cup, and is lined up for Seattle return",
-      "link": "https://sports.mynorthwest.com/seattle-sports-pit/world-cup-seattle-us-bosnia-united-states",
-      "pubDate": "Wed, 24 Jun 2026 22:21:33 +0000",
-      "isoDate": "2026-06-24T22:21:33.000Z",
-      "excerpt": "The U.S. will likely face Bosnia in the round of 32, with the winner earning a trip to Seattle for the round of 16.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
       "title": "Mariners Game #81 Preview and Discussion: SEA at PIT, 6/24",
       "link": "https://www.lookoutlanding.com/seattle-mariners-game-information/145266/mariners-game-81-preview-and-discussion-sea-at-pit-6-24",
       "pubDate": "2026-06-24T22:10:00.000Z",
@@ -228,16 +268,6 @@
       "source": "Lookout Landing",
       "team": "mariners",
       "priority": 1
-    },
-    {
-      "title": "Latest Mariners injuries and transactions",
-      "link": "https://www.mlb.com/mariners/news/mariners-injuries-and-roster-moves",
-      "pubDate": "Wed, 24 Jun 2026 21:31:00 GMT",
-      "isoDate": "2026-06-24T21:31:00.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
     },
     {
       "title": "Super Bowl champion Seahawks announce series of public &#8216;Trophy Tour&#8217; dates",
@@ -308,16 +338,6 @@
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
-    },
-    {
-      "title": "Prince of Pittsburgh: Cole Young delivers go-ahead homer in 3-2 Mariners win",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/24480540/prince-of-pittsburgh-cole-young-delivers-go-ahead-homer-in-3-2-mariners-win",
-      "pubDate": "2026-06-24T02:53:08.000Z",
-      "isoDate": "2026-06-24T02:53:08.000Z",
-      "excerpt": "Jun 23, 2026; Pittsburgh, Pennsylvania, USA; Seattle Mariners second baseman Cole Young (2) reacts as he circles the bases on a two run home run against the Pittsburgh Pirates during the seventh inning at PNC Park....",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
     },
     {
       "title": "Seahawks linebacker Ernest Jones named to NFL Top 100 for first time",
@@ -570,16 +590,6 @@
       "priority": 6
     },
     {
-      "title": "Seahawks Announce Front Office Promotions, Including Two New Assistant General Managers",
-      "link": "https://www.seahawks.com/news/seahawks-announce-front-office-promotions-including-two-new-assistant-general-managers",
-      "pubDate": "Wed, 17 Jun 2026 19:58:41 GMT",
-      "isoDate": "2026-06-17T19:58:41.000Z",
-      "excerpt": "The Seahawks announced six promotions on Wednesday, including assistant general manager titles for Matt Berry and Willie Schneider.",
-      "source": "Seahawks.com",
-      "team": "seahawks",
-      "priority": 6
-    },
-    {
       "title": "Seahawks Promote Willie Schneider, Matt Berry To Assistant GM",
       "link": "https://www.profootballrumors.com/2026/06/seahawks-promote-willie-schneider-matt-berry-to-assistant-gm",
       "pubDate": "Wed, 17 Jun 2026 19:05:21 +0000",
@@ -597,16 +607,6 @@
       "excerpt": "8:14pm: Seattle has officially announced all three moves: Arozarena’s retroactive IL placement, Washington’s selection, and Wilson’s transfer to the 60-day injured list. Wilson has been out since late April with a...",
       "source": "MLB Trade Rumors",
       "team": "mariners",
-      "priority": 2
-    },
-    {
-      "title": "Free Agent Focus: Seattle Kraken",
-      "link": "https://www.prohockeyrumors.com/2026/06/free-agent-focus-seattle-kraken-4.html",
-      "pubDate": "Tue, 16 Jun 2026 22:45:55 +0000",
-      "isoDate": "2026-06-16T22:45:55.000Z",
-      "excerpt": "Free agency is now less than a month away, and teams are looking ahead to when it opens. Even with the UFA crop being thinned out in recent months, there will be some quality veterans set to hit the open market in July,...",
-      "source": "Pro Hockey Rumors",
-      "team": "kraken",
       "priority": 2
     }
   ]
