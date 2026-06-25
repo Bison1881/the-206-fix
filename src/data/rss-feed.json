@@ -1,9 +1,59 @@
 {
-  "generatedAt": "2026-06-25T10:39:20.832Z",
+  "generatedAt": "2026-06-25T14:25:00.721Z",
   "sourceCount": 10,
   "successfulSources": 10,
   "failedSources": [],
   "items": [
+    {
+      "title": "Salk on Seahawks: The glorification of Rams has to stop",
+      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/seattle-seahawks-los-angeles-rams-glorification-mike-salk",
+      "pubDate": "Thu, 25 Jun 2026 14:19:59 +0000",
+      "isoDate": "2026-06-25T14:19:59.000Z",
+      "excerpt": "The Rams are receiving far too much praise this offseason, especially since they're in the same division as the champion Seahawks.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Draft Profile 2k26: Carson Carels brings a relentless work ethic, scoring touch to the blueline",
+      "link": "https://www.davyjoneslockerroom.com/draft-profile-2k26-carson-carels-brings-a-relentless-work-ethic-scoring-touch-to-the-blueline/",
+      "pubDate": "Thu, 25 Jun 2026 14:00:00 +0000",
+      "isoDate": "2026-06-25T14:00:00.000Z",
+      "excerpt": "I read about and watched a lot of Mr. Carels game in the lead up to this article, and I must legally inform you like the entire rest of the internet that Carson Carels is from a cattle farm. 500 head Cattle farm out in...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
+      "title": "NHL draft preview: Who will Seattle Kraken take at No. 7?",
+      "link": "https://www.seattletimes.com/sports/kraken/nhl-draft-preview-who-will-seattle-kraken-take-at-no-7/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Thu, 25 Jun 2026 06:00:00 -0700",
+      "isoDate": "2026-06-25T13:00:00.000Z",
+      "excerpt": "The first round of the 2026 NHL draft is Friday in Buffalo, and the Kraken are picking seventh this time. Here are some of the top names who could be available at No. 7.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "World Cup schedule today, June 25: How to watch USMNT, other games",
+      "link": "https://www.seattletimes.com/sports/world-cup/world-cup-schedule-today-june-25-how-to-watch-usmnt-other-games/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Thu, 25 Jun 2026 06:00:00 -0700",
+      "isoDate": "2026-06-25T13:00:00.000Z",
+      "excerpt": "Another day of World Cup action is upon us, and the U.S. plays today. Here's everything you need to know, and how to watch.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Seahawks News 6/25: Which young Seahawks pass-rusher breaks out in 2026?",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-nfl-draft/169959/seahawks-news-6-25-which-young-seahawks-pass-rusher-breaks-out-in-2026",
+      "pubDate": "2026-06-25T13:00:00.000Z",
+      "isoDate": "2026-06-25T13:00:00.000Z",
+      "excerpt": "SAN JOSE, CALIFORNIA - FEBRUARY 06: Jamie Sheriff #50 of the Seattle Seahawks during a practice ahead of Super Bowl LX at San Jose State University on February 06, 2026 in San Jose, California. (Photo by Eakin...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
     {
       "title": "Brandon Roy to return as Garfield boys basketball coach less than a year after firing, report says",
       "link": "https://www.seattletimes.com/sports/high-school/report-brandon-roy-to-return-as-garfield-boys-basketball-coach-less-than-a-year-after-firing/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
@@ -135,26 +185,6 @@
       "priority": 3
     },
     {
-      "title": "Soufiane Rahimi and Gessime Yassine help Morocco rally to beat Haiti 4-2 at the World Cup",
-      "link": "https://www.seattletimes.com/sports/world-cup/world-cup-2026-soufiane-rahimi-gessime-yassine-help-morocco-rally-to-beat-haiti/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 24 Jun 2026 17:21:50 -0700",
-      "isoDate": "2026-06-25T00:21:50.000Z",
-      "excerpt": "Soufiane Rahimi and Gessime Yassine came off the bench to help Morocco rally for a 4-2 victory over Haiti and erase the Caribbean nation’s hopes of a first ever point at the World Cup.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Vinícius Júnior scores 2 goals as Brazil beats Scotland 3-0 to win its World Cup group",
-      "link": "https://www.seattletimes.com/sports/world-cup/world-cup-2026-vinicius-junior-scores-twice-as-brazil-beats-scotland-to-reach-knockout-stage/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 24 Jun 2026 17:17:24 -0700",
-      "isoDate": "2026-06-25T00:17:24.000Z",
-      "excerpt": "Vinícius Júnior scored two goals, Matheus Cunha also scored and five-time World Cup champion Brazil beat Scotland 3-0, advancing to the knockout stage as the Group C winner.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "Bobby McMann confident in Kraken’s future after signing extension",
       "link": "https://sports.mynorthwest.com/nhl/seattle-kraken/bobby-mcmann-seattle-kraken-future-extension",
       "pubDate": "Wed, 24 Jun 2026 23:49:23 +0000",
@@ -223,16 +253,6 @@
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
-    },
-    {
-      "title": "World Cup: Bosnia-Herzegovina beats Qatar 3-1 in Seattle",
-      "link": "https://sports.mynorthwest.com/seattle-sports-pit/world-cup-bosnia-herzegovina-beats-qatar-3-1-in-seattle",
-      "pubDate": "Wed, 24 Jun 2026 21:21:27 +0000",
-      "isoDate": "2026-06-24T21:21:27.000Z",
-      "excerpt": "Bosnia-Herzegovina eliminated Qatar and boosted its chances of advancing at the World Cup with a 3-1 victory in a Group B match on Wednesday.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
     },
     {
       "title": "Super Bowl champion Seahawks announce series of public &#8216;Trophy Tour&#8217; dates",
@@ -435,16 +455,6 @@
       "priority": 1
     },
     {
-      "title": "Seahawks training camp report dates, joint practice vs. Titans confirmed",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-preseason/169832/seahawks-training-camp-report-dates-joint-practice-vs-titans-confirmed-nfl-news",
-      "pubDate": "2026-06-22T19:25:34.000Z",
-      "isoDate": "2026-06-22T19:25:34.000Z",
-      "excerpt": "Jun 9, 2026; Renton, WA, USA; The Seattle Seahawks run drills during minicamp at Virginia Mason Athletic Center. Mandatory Credit: Steven Bisig-Imagn Images | Steven Bisig-Imagn Images Are you ready for some Seattle...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
-    },
-    {
       "title": "Seahawks Will Have Joint Practice With Titans In Nashville",
       "link": "https://www.seahawks.com/news/seahawks-will-have-joint-practice-with-titans-in-nashville",
       "pubDate": "Mon, 22 Jun 2026 16:01:41 GMT",
@@ -593,16 +603,6 @@
       "source": "MLB Trade Rumors",
       "team": "mariners",
       "priority": 2
-    },
-    {
-      "title": "PWHL Draft Recap: Torrent add goalscoring and controversy to their roster",
-      "link": "https://www.davyjoneslockerroom.com/pwhl-draft-recap-torrent-add-goalscoring-and-controversy-to-their-roster/",
-      "pubDate": "Thu, 18 Jun 2026 13:45:00 +0000",
-      "isoDate": "2026-06-18T13:45:00.000Z",
-      "excerpt": "The PWHL Draft concluded yesterday, with a bunch of depleted lineups changing hopefully for the better with the additions of fresh new talent from all across the globe. 2nd Overall Pick: Abbey Murphy – F Hometown:...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
     }
   ]
 }
