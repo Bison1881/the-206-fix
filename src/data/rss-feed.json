@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T19:46:01.690Z",
+  "generatedAt": "2026-06-26T21:16:13.476Z",
   "sourceCount": 10,
   "successfulSources": 9,
   "failedSources": [
@@ -10,6 +10,26 @@
   ],
   "items": [
     {
+      "title": "The NFL’s Assistant General Managers",
+      "link": "https://www.profootballrumors.com/2026/06/the-nfls-assistant-general-managers",
+      "pubDate": "Fri, 26 Jun 2026 19:48:34 +0000",
+      "isoDate": "2026-06-26T19:48:34.000Z",
+      "excerpt": "When the Vikings hired Nolan Teasley late last month, the general manager carousel came to a stop once again. Minnesota has since filled out its assistant GM tier, joining Seattle — which lost Teasley from its AGM post...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
+      "priority": 2
+    },
+    {
+      "title": "Insider: Kraken showing they’re ‘in the business of taking big swings’",
+      "link": "https://sports.mynorthwest.com/nhl/seattle-kraken/seattle-krakens-reported-trade-miss-comes-with-one-good-sign-insider-says",
+      "pubDate": "Fri, 26 Jun 2026 19:30:45 +0000",
+      "isoDate": "2026-06-26T19:30:45.000Z",
+      "excerpt": "The Daily Faceoff's Jeff Marek is seeing a positive trend in Seattle despite the franchise missing out on some talented players.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
       "title": "2026 NHL Draft LIVETHREAD!",
       "link": "https://www.davyjoneslockerroom.com/2026-nhl-draft-livethread/",
       "pubDate": "Fri, 26 Jun 2026 19:30:00 +0000",
@@ -18,6 +38,16 @@
       "source": "Davy Jones' Locker Room",
       "team": "kraken",
       "priority": 1
+    },
+    {
+      "title": "World Cup knockout round hinges on who finishes 3rd",
+      "link": "https://sports.mynorthwest.com/seattle-sports-pit/world-cup-knockout-round-who-finishes-3rd",
+      "pubDate": "Fri, 26 Jun 2026 19:19:41 +0000",
+      "isoDate": "2026-06-26T19:19:41.000Z",
+      "excerpt": "As group play winds down at the World Cup, the biggest intrigue might be not who finishes first in a four-team group. It’s who finishes third.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
     },
     {
       "title": "Seattle Mariners don’t lose veteran utility man after DFA",
@@ -58,26 +88,6 @@
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
-    },
-    {
-      "title": "Series Preview: Mariners (41-41) at Guardians (42-39)",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-game-information/145336/series-preview-seattle-mariners-at-cleveland-guardians-june-2026",
-      "pubDate": "2026-06-26T16:00:00.000Z",
-      "isoDate": "2026-06-26T16:00:00.000Z",
-      "excerpt": "HOUSTON, TEXAS - JUNE 20: Steven Kwan #38 of the Cleveland Guardians celebrates with Brayan Rocchio #4 after defeating the Houston Astros at Daikin Park on June 20, 2026 in Houston, Texas. (Photo by Tim Warner/Getty...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "Top prospects Felnin Celesten, Lazaro Montes headline explosive day of Mariner minor league action",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-prospects/145347/top-prospects-felnin-celesten-lazaro-montes-headline-explosive-day-of-mariner-minor-league-action",
-      "pubDate": "2026-06-26T16:00:00.000Z",
-      "isoDate": "2026-06-26T16:00:00.000Z",
-      "excerpt": "Amidst an overwhelming display of prospect prowess up and down the system, premiere shortstop Felnin Celesten headlined an active AquaSox lineup by hitting for the cycle in just seven innings. This marks the first...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
     },
     {
       "title": "The next evolution? How Seahawks star can baffle opponents even more",
@@ -170,16 +180,6 @@
       "priority": 3
     },
     {
-      "title": "Johnson helps Storm beat Liberty 99-88, snap 11-game skid",
-      "link": "https://sports.mynorthwest.com/wnba/seattle-storm/johnson-helps-storm-beat-liberty-99-88-snap-11-game-skid",
-      "pubDate": "Fri, 26 Jun 2026 04:18:54 +0000",
-      "isoDate": "2026-06-26T04:18:54.000Z",
-      "excerpt": "Rookie Flau'jae Johnson scored a career-high 28 points to help Seattle end the longest losing streak in franchise history.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
       "title": "Jason Robertson Rejects Long-Term Offer From Kraken",
       "link": "https://www.prohockeyrumors.com/2026/06/jason-robertson-rejects-long-term-offer-from-kraken.html",
       "pubDate": "Fri, 26 Jun 2026 01:32:48 +0000",
@@ -188,16 +188,6 @@
       "source": "Pro Hockey Rumors",
       "team": "kraken",
       "priority": 2
-    },
-    {
-      "title": "Is Sam Darnold worth $55M per year? Wyman & Bob’s take",
-      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/seattle-seahawks-sam-darnold-worth-55-million-per-year",
-      "pubDate": "Fri, 26 Jun 2026 00:01:58 +0000",
-      "isoDate": "2026-06-26T00:01:58.000Z",
-      "excerpt": "ESPN's Bill Barwell suggested Darnold's next deal could cost $55M per year. Wyman and Bob discuss whether he's worth that price tag.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
     },
     {
       "title": "Our experts tag-team the latest mock draft from the Combine",
@@ -348,6 +338,26 @@
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
+    },
+    {
+      "title": "The Mariners get out-tried, lose 11-1",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/145291/the-mariners-get-out-tried-lose-11-1",
+      "pubDate": "2026-06-25T02:41:35.000Z",
+      "isoDate": "2026-06-25T02:41:35.000Z",
+      "excerpt": "Jun 24, 2026; Pittsburgh, Pennsylvania, USA; Pittsburgh Pirates left fielder Bryan Reynolds (10) slides safely into second base with a double against the Seattle Mariners during the eighth inning at PNC Park. Mandatory...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "41-40: Chart",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/145284/41-40-chart",
+      "pubDate": "2026-06-25T01:17:27.000Z",
+      "isoDate": "2026-06-25T01:17:27.000Z",
+      "excerpt": "PITTSBURGH, PA - JUNE 24: Ryan O'Hearn #29 of the Pittsburgh Pirates reacts after hitting a two-run double in the seventh inning during the game between the Seattle Mariners and the Pittsburgh Pirates at PNC Park on...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
     },
     {
       "title": "Super Bowl champion Seahawks announce series of public &#8216;Trophy Tour&#8217; dates",
@@ -598,16 +608,6 @@
       "source": "MLB Trade Rumors",
       "team": "mariners",
       "priority": 2
-    },
-    {
-      "title": "Seahawks Mailbag: Super Bowl Rings, Year 2 Nick Emmanwori & More",
-      "link": "https://www.seahawks.com/news/seahawks-mailbag-super-bowl-rings-year-2-nick-emmanwori-more",
-      "pubDate": "Wed, 17 Jun 2026 23:14:34 GMT",
-      "isoDate": "2026-06-17T23:14:34.000Z",
-      "excerpt": "You had Seahawks questions; we have answers.",
-      "source": "Seahawks.com",
-      "team": "seahawks",
-      "priority": 6
     }
   ]
 }
