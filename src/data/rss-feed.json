@@ -1,14 +1,89 @@
 {
-  "generatedAt": "2026-06-26T21:16:13.476Z",
+  "generatedAt": "2026-06-26T23:03:12.726Z",
   "sourceCount": 10,
-  "successfulSources": 9,
-  "failedSources": [
-    {
-      "source": "Seattle Times Sports",
-      "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
-    }
-  ],
+  "successfulSources": 10,
+  "failedSources": [],
   "items": [
+    {
+      "title": "Photos: Seattle hosts Egypt’s Group G finale against Iran",
+      "link": "https://www.seattletimes.com/sports/world-cup/photos-seattle-hosts-egypts-group-g-finale-against-iran/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Fri, 26 Jun 2026 15:37:29 -0700",
+      "isoDate": "2026-06-26T22:37:29.000Z",
+      "excerpt": "",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Mariners Game #83 Preview and Discussion: 6/26, SEA at CLE",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-discussion/145354/mariners-game-83-preview-and-discussion-6-26-sea-at-cle",
+      "pubDate": "2026-06-26T22:02:24.000Z",
+      "isoDate": "2026-06-26T22:02:24.000Z",
+      "excerpt": "SEATTLE, UNITED STATES: Cleveland Indians baserunner Kenny Lofton (L) scores around the tag of Seattle Mariners pitcher Randy Johnson to score on a passed ball in the three-run eighth inning of game six of the American...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Seattle World Cup updates: Egypt-Iran meet amid ‘Pride Match’ celebrations",
+      "link": "https://www.seattletimes.com/sports/world-cup/seattle-world-cup-updates-egypt-iran-meet-amid-pride-match-celebrations/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Fri, 26 Jun 2026 15:00:00 -0700",
+      "isoDate": "2026-06-26T22:00:00.000Z",
+      "excerpt": "Egypt and Iran meet on the pitch at Seattle Stadium on Friday in a World Cup group-stage match, designated as a \"Pride Match\" by Seattle's organizing committee.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "France forward Ousmane Dembélé scores a first-half World Cup hat trick in 4-1 win over Norway",
+      "link": "https://www.seattletimes.com/sports/world-cup/france-forward-ousmane-dembele-scores-a-first-half-world-cup-hat-trick-in-4-1-win-over-norway/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Fri, 26 Jun 2026 14:56:36 -0700",
+      "isoDate": "2026-06-26T21:56:36.000Z",
+      "excerpt": "France forward Ousmane Dembélé scored a first-half hat trick, including one off a feed from Kylian Mbappé, to help his team beat Norway 4-1 at the World Cup.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Senegal routs 10-man Iraq 5-0 to boost hopes of reaching World Cup knockout rounds",
+      "link": "https://www.seattletimes.com/sports/world-cup/senegal-routs-10-man-iraq-5-0-to-boost-hopes-of-reaching-world-cup-knockout-rounds/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Fri, 26 Jun 2026 14:53:59 -0700",
+      "isoDate": "2026-06-26T21:53:59.000Z",
+      "excerpt": "Senegal racked up the goals on 10-man Iraq in a 5-0 victory that boosted its chances of reaching the World Cup knockout stages.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "What Morosi makes of Mariners’ usage of Rob Refsnyder",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-rob-refsnyder-usage-jon-morosi",
+      "pubDate": "Fri, 26 Jun 2026 21:14:07 +0000",
+      "isoDate": "2026-06-26T21:14:07.000Z",
+      "excerpt": "The Seattle Mariners continue to use Rob Refsnyder despite his season-long struggles.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Mariners shake up lineup for series opener against Guardians",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-shake-up-lineup-for-series-opener-against-guardians",
+      "pubDate": "Fri, 26 Jun 2026 20:33:55 +0000",
+      "isoDate": "2026-06-26T20:33:55.000Z",
+      "excerpt": "Seattle moved around several hitters, including batting Randy Arozarena leadoff spot and Dominic Canzone cleanup.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Where do the Kraken go from here after Jason Robertson’s reported snub?",
+      "link": "https://www.seattletimes.com/sports/kraken/where-do-the-kraken-go-from-here-after-jason-robertsons-reported-snub/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Fri, 26 Jun 2026 12:52:24 -0700",
+      "isoDate": "2026-06-26T19:52:24.000Z",
+      "excerpt": "The Kraken are taking big swings, with the latest being a massive offer that was reportedly turned down by Dallas star Jason Robertson. What does it say about the state of the franchise?",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
     {
       "title": "The NFL’s Assistant General Managers",
       "link": "https://www.profootballrumors.com/2026/06/the-nfls-assistant-general-managers",
@@ -90,14 +165,24 @@
       "priority": 3
     },
     {
-      "title": "The next evolution? How Seahawks star can baffle opponents even more",
-      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/emmanwori-next-evolution-seattle-seahawks-star-baffle-opponents-hasselbeck",
-      "pubDate": "Fri, 26 Jun 2026 15:56:43 +0000",
-      "isoDate": "2026-06-26T15:56:43.000Z",
-      "excerpt": "Matt Hasselbeck details how Nick Emmanwori could leave offenses even more flummoxed in Year 2.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
+      "title": "Series Preview: Mariners (41-41) at Guardians (42-39)",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-game-information/145336/series-preview-seattle-mariners-at-cleveland-guardians-june-2026",
+      "pubDate": "2026-06-26T16:00:00.000Z",
+      "isoDate": "2026-06-26T16:00:00.000Z",
+      "excerpt": "HOUSTON, TEXAS - JUNE 20: Steven Kwan #38 of the Cleveland Guardians celebrates with Brayan Rocchio #4 after defeating the Houston Astros at Daikin Park on June 20, 2026 in Houston, Texas. (Photo by Tim Warner/Getty...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Top prospects Felnin Celesten, Lazaro Montes headline explosive day of Mariner minor league action",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-prospects/145347/top-prospects-felnin-celesten-lazaro-montes-headline-explosive-day-of-mariner-minor-league-action",
+      "pubDate": "2026-06-26T16:00:00.000Z",
+      "isoDate": "2026-06-26T16:00:00.000Z",
+      "excerpt": "Amidst an overwhelming display of prospect prowess up and down the system, premiere shortstop Felnin Celesten headlined an active AquaSox lineup by hitting for the cycle in just seven innings. This marks the first...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
     },
     {
       "title": "ESPN ranks Seahawks &#8216;offensive playmakers&#8217; worst in NFC West",
@@ -150,6 +235,36 @@
       "priority": 1
     },
     {
+      "title": "2026 World Cup: What to know when Egypt plays Iran in Seattle",
+      "link": "https://www.seattletimes.com/sports/world-cup/2026-world-cup-what-to-know-when-egypt-plays-iran-in-seattle/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Fri, 26 Jun 2026 06:00:00 -0700",
+      "isoDate": "2026-06-26T13:00:00.000Z",
+      "excerpt": "Egypt has all but clinched their first trip to the World Cup knockout round and could win their group by beating Iran, which also plenty to play for in Seattle.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Mariners were difficult to watch during first half of schedule",
+      "link": "https://www.seattletimes.com/sports/mariners/mariners-were-difficult-to-watch-during-first-half-of-schedule/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Fri, 26 Jun 2026 06:00:00 -0700",
+      "isoDate": "2026-06-26T13:00:00.000Z",
+      "excerpt": "Through the first half of perhaps their most anticipated season, the Mariners (41-41) have been inexcusably, profoundly average.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "World Cup schedule today, June 26: How to watch Egypt vs. Iran Pride Match and more",
+      "link": "https://www.seattletimes.com/sports/world-cup/world-cup-schedule-today-june-26-how-to-watch-egypt-vs-iran-pride-match-and-more/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Fri, 26 Jun 2026 06:00:00 -0700",
+      "isoDate": "2026-06-26T13:00:00.000Z",
+      "excerpt": "Today is another big day for Seattle as Egypt is set to play Iran in the Pride Match. Here's how to watch tonight's game, plus all the other World Cup action on Friday.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
       "title": "Everything's coming up Gilbert: Righty having quite a stretch in rotation",
       "link": "https://www.mlb.com/mariners/news/logan-gilbert-putting-together-strong-2026-season",
       "pubDate": "Fri, 26 Jun 2026 11:57:25 GMT",
@@ -168,16 +283,6 @@
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
-    },
-    {
-      "title": "World Cup: Turkey beats US 3-2 with last-gasp goal",
-      "link": "https://sports.mynorthwest.com/seattle-sports-pit/world-cup-turkey-beats-us-3-2-with-last-gasp-goal",
-      "pubDate": "Fri, 26 Jun 2026 04:25:51 +0000",
-      "isoDate": "2026-06-26T04:25:51.000Z",
-      "excerpt": "Kaan Ayhan scored on the final kick of the match, but the Americans will still head to the knockout round.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
     },
     {
       "title": "Jason Robertson Rejects Long-Term Offer From Kraken",
@@ -300,16 +405,6 @@
       "priority": 1
     },
     {
-      "title": "Mariners News: Felnin Celesten, Francisco Lindor, and Dansby Swanson",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-news/145289/mariners-news-felnin-celesten-francisco-lindor-and-dansby-swanson",
-      "pubDate": "2026-06-25T14:00:00.000Z",
-      "isoDate": "2026-06-25T14:00:00.000Z",
-      "excerpt": "Jun 24, 2026; New York City, New York, USA; Chicago Cubs shortstop Dansby Swanson (7) hits an RBI triple during the sixth inning against the New York Mets at Citi Field. Mandatory Credit: Vincent Carchietta-Imagn Images...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
       "title": "Draft Profile 2k26: Carson Carels brings a relentless work ethic, scoring touch to the blueline",
       "link": "https://www.davyjoneslockerroom.com/draft-profile-2k26-carson-carels-brings-a-relentless-work-ethic-scoring-touch-to-the-blueline/",
       "pubDate": "Thu, 25 Jun 2026 14:00:00 +0000",
@@ -338,26 +433,6 @@
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
-    },
-    {
-      "title": "The Mariners get out-tried, lose 11-1",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/145291/the-mariners-get-out-tried-lose-11-1",
-      "pubDate": "2026-06-25T02:41:35.000Z",
-      "isoDate": "2026-06-25T02:41:35.000Z",
-      "excerpt": "Jun 24, 2026; Pittsburgh, Pennsylvania, USA; Pittsburgh Pirates left fielder Bryan Reynolds (10) slides safely into second base with a double against the Seattle Mariners during the eighth inning at PNC Park. Mandatory...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "41-40: Chart",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/145284/41-40-chart",
-      "pubDate": "2026-06-25T01:17:27.000Z",
-      "isoDate": "2026-06-25T01:17:27.000Z",
-      "excerpt": "PITTSBURGH, PA - JUNE 24: Ryan O'Hearn #29 of the Pittsburgh Pirates reacts after hitting a two-run double in the seventh inning during the game between the Seattle Mariners and the Pittsburgh Pirates at PNC Park on...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
     },
     {
       "title": "Super Bowl champion Seahawks announce series of public &#8216;Trophy Tour&#8217; dates",
@@ -525,86 +600,6 @@
       "pubDate": "Sat, 20 Jun 2026 18:19:13 +0000",
       "isoDate": "2026-06-20T18:19:13.000Z",
       "excerpt": "The Mariners announced that outfielder Curtis Washington Jr. was outrighted to A-level Everett after clearing waivers. There wasn’t any public indication that Washington had also been designated for assignment when he...",
-      "source": "MLB Trade Rumors",
-      "team": "mariners",
-      "priority": 2
-    },
-    {
-      "title": "Justin Schultz Joins Kraken's Development Staff",
-      "link": "https://www.prohockeyrumors.com/2026/06/west-notes-karlsson-schultz-martin.html",
-      "pubDate": "Sat, 20 Jun 2026 18:19:00 +0000",
-      "isoDate": "2026-06-20T18:19:00.000Z",
-      "excerpt": "Notes from the West including surgery for William Karlsson, a long-time defenseman joins Seattle's development staff, and more.",
-      "source": "Pro Hockey Rumors",
-      "team": "kraken",
-      "priority": 2
-    },
-    {
-      "title": "Mariners Designate Miles Mastrobuoni For Assignment, Select Weston Wilson",
-      "link": "https://www.mlbtraderumors.com/2026/06/mariners-designate-miles-mastrobuoni-for-assignment-select-weston-wilson.html",
-      "pubDate": "Fri, 19 Jun 2026 22:30:27 +0000",
-      "isoDate": "2026-06-19T22:30:27.000Z",
-      "excerpt": "The Mariners have selected the contract of infielder/outfielder Weston Wilson. Fellow infielder/outfielder Miles Mastrobuoni has been designated in a corresponding move. Prior to the official announcement, Adam Jude of...",
-      "source": "MLB Trade Rumors",
-      "team": "mariners",
-      "priority": 2
-    },
-    {
-      "title": "Takeaways From The Seahawks' 2026 Offseason Program & Minicamp",
-      "link": "https://www.seahawks.com/news/takeaways-from-the-seahawks-2026-offseason-program-minicamp",
-      "pubDate": "Fri, 19 Jun 2026 20:35:51 GMT",
-      "isoDate": "2026-06-19T20:35:51.000Z",
-      "excerpt": "Looking back at what we learned from the Seahawks’ voluntary offseason workouts and mandatory minicamp.",
-      "source": "Seahawks.com",
-      "team": "seahawks",
-      "priority": 6
-    },
-    {
-      "title": "Kraken Re-Sign Logan Morrison To One-Year Deal",
-      "link": "https://www.prohockeyrumors.com/2026/06/kraken-re-sign-logan-morrison-to-one-year-deal.html",
-      "pubDate": "Thu, 18 Jun 2026 23:44:23 +0000",
-      "isoDate": "2026-06-18T23:44:23.000Z",
-      "excerpt": "The Seattle Kraken have re-signed pending RFA center Logan Morrison to a one-year contract.",
-      "source": "Pro Hockey Rumors",
-      "team": "kraken",
-      "priority": 2
-    },
-    {
-      "title": "Pierre-Edouard Bellemare Announces Retirement",
-      "link": "https://www.prohockeyrumors.com/2026/06/pierre-edouard-bellemare-announces-retirement.html",
-      "pubDate": "Thu, 18 Jun 2026 19:11:42 +0000",
-      "isoDate": "2026-06-18T19:11:42.000Z",
-      "excerpt": "The second-highest scoring French-born player in NHL history has hung up his skates. According to an announcement from the NHL, forward Pierre-Édouard Bellemare has retired from professional hockey. Before his time in...",
-      "source": "Pro Hockey Rumors",
-      "team": "kraken",
-      "priority": 2
-    },
-    {
-      "title": "Mariners Sign Weston Wilson To Minor League Contract",
-      "link": "https://www.mlbtraderumors.com/2026/06/mariners-sign-weston-wilson-to-minor-league-contract.html",
-      "pubDate": "Thu, 18 Jun 2026 16:57:43 +0000",
-      "isoDate": "2026-06-18T16:57:43.000Z",
-      "excerpt": "Infielder/outfielder Weston Wilson has signed a minor league contract with the Mariners after electing free agency in lieu of an outright assignment from the Orioles late last week. The team never formally announced the...",
-      "source": "MLB Trade Rumors",
-      "team": "mariners",
-      "priority": 2
-    },
-    {
-      "title": "PWHL Draft Recap: Torrent add goalscoring and controversy to their roster",
-      "link": "https://www.davyjoneslockerroom.com/pwhl-draft-recap-torrent-add-goalscoring-and-controversy-to-their-roster/",
-      "pubDate": "Thu, 18 Jun 2026 13:45:00 +0000",
-      "isoDate": "2026-06-18T13:45:00.000Z",
-      "excerpt": "The PWHL Draft concluded yesterday, with a bunch of depleted lineups changing hopefully for the better with the additions of fresh new talent from all across the globe. 2nd Overall Pick: Abbey Murphy – F Hometown:...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
-    },
-    {
-      "title": "Royals Acquire Randy Dobnak",
-      "link": "https://www.mlbtraderumors.com/2026/06/royals-to-acquire-randy-dobnak.html",
-      "pubDate": "Wed, 17 Jun 2026 23:52:54 +0000",
-      "isoDate": "2026-06-17T23:52:54.000Z",
-      "excerpt": "6:52pm: Kansas City officially acquired Dobnak for cash considerations and optioned him to Triple-A. They transferred Cole Ragans from the 15-day to the 60-day injured list to open a spot on the 40-man roster. Ragans...",
       "source": "MLB Trade Rumors",
       "team": "mariners",
       "priority": 2
