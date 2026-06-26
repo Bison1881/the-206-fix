@@ -1,13 +1,8 @@
 {
-  "generatedAt": "2026-06-26T07:48:20.370Z",
+  "generatedAt": "2026-06-26T10:48:01.706Z",
   "sourceCount": 10,
-  "successfulSources": 9,
-  "failedSources": [
-    {
-      "source": "Seattle Times Sports",
-      "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
-    }
-  ],
+  "successfulSources": 10,
+  "failedSources": [],
   "items": [
     {
       "title": "Felnin Celesten hits for the cycle at High-A ... in just a 7-inning game!",
@@ -30,6 +25,16 @@
       "priority": 3
     },
     {
+      "title": "Pochettino annoyed by perceived disappointment after US finishes group play with 3-2 loss to Turkey",
+      "link": "https://www.seattletimes.com/sports/world-cup/2026-world-cup-turkey-beats-us-with-last-gasp-goal-as-americans-look-ahead-to-knockout-stage/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Thu, 25 Jun 2026 21:20:09 -0700",
+      "isoDate": "2026-06-26T04:20:09.000Z",
+      "excerpt": "Kaan Ayhan scored on the final kick of the match, and Turkey beat the United States 3-2 for its only win of the World Cup.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
       "title": "Johnson helps Storm beat Liberty 99-88, snap 11-game skid",
       "link": "https://sports.mynorthwest.com/wnba/seattle-storm/johnson-helps-storm-beat-liberty-99-88-snap-11-game-skid",
       "pubDate": "Fri, 26 Jun 2026 04:18:54 +0000",
@@ -40,6 +45,66 @@
       "priority": 3
     },
     {
+      "title": "Australia clinches knockout round spot with 0-0 draw; Paraguay also likely to advance",
+      "link": "https://www.seattletimes.com/sports/world-cup/australia-clinches-knockout-round-spot-with-0-0-draw-paraguay-also-likely-to-advance/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Thu, 25 Jun 2026 21:09:56 -0700",
+      "isoDate": "2026-06-26T04:09:56.000Z",
+      "excerpt": "Australia and Paraguay played to a 0-0 draw in a result that clinched a spot in the knockout round of the World Cup for the Socceroos and will likely be enough for the Paraguayans to advance.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Flau’jae Johnson scores career-high 28, Seattle Storm beat Liberty",
+      "link": "https://www.seattletimes.com/sports/storm/flaujae-johnson-scores-career-high-28-seattle-storm-beat-liberty/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Thu, 25 Jun 2026 21:03:19 -0700",
+      "isoDate": "2026-06-26T04:03:19.000Z",
+      "excerpt": "Flau’jae Johnson’s career-high 28 points helped the Storm shut down a franchise-high losing streak at 11 games with a 99-88 win over New York on Thursday night.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Photos: Liberty at Storm in WNBA Action",
+      "link": "https://www.seattletimes.com/photo-video/photography/photos-liberty-at-storm-in-wnba-action/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Thu, 25 Jun 2026 20:44:03 -0700",
+      "isoDate": "2026-06-26T03:44:03.000Z",
+      "excerpt": "",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "What Mariners stats show at halfway point of 2026 season",
+      "link": "https://www.seattletimes.com/sports/mariners/what-mariners-stats-show-at-halfway-point-of-2026-season/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Thu, 25 Jun 2026 20:27:45 -0700",
+      "isoDate": "2026-06-26T03:27:45.000Z",
+      "excerpt": "At the mathematical halfway point of the regular season, the Mariners are hanging on to their AL West lead. Here's what the numbers show midway through the season.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Local FIFA organizing committee ready to celebrate World Cup Pride Match",
+      "link": "https://www.seattletimes.com/seattle-news/world-cup-seattle/local-fifa-organizing-committee-ready-to-celebrate-world-cup-pride-match/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Thu, 25 Jun 2026 19:45:12 -0700",
+      "isoDate": "2026-06-26T02:45:12.000Z",
+      "excerpt": "Seattle's local FIFA organizing committee long ago decided Friday's World Cup match would be a \"Pride Match\" Despite the protests of the teams involved, it is ready to celebrate.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Marina Mabrey matches WNBA scoring record with 53 points to help Toronto rout Los Angeles",
+      "link": "https://www.seattletimes.com/sports/wnba/marina-mabrey-matches-wnba-scoring-record-with-53-points/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Thu, 25 Jun 2026 19:27:19 -0700",
+      "isoDate": "2026-06-26T02:27:19.000Z",
+      "excerpt": "Marina Mabrey matched the WNBA scoring record with 53 points to help the Toronto Tempo rout the Los Angeles Sparks 125-97 on Thursday night.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
       "title": "Jason Robertson Rejects Long-Term Offer From Kraken",
       "link": "https://www.prohockeyrumors.com/2026/06/jason-robertson-rejects-long-term-offer-from-kraken.html",
       "pubDate": "Fri, 26 Jun 2026 01:32:48 +0000",
@@ -48,6 +113,16 @@
       "source": "Pro Hockey Rumors",
       "team": "kraken",
       "priority": 2
+    },
+    {
+      "title": "What Brandon Roy, Garfield and SPS leaders said about coach’s firing, rehiring",
+      "link": "https://www.seattletimes.com/sports/high-school/what-brandon-roy-garfield-and-sps-leaders-said-about-coachs-firing-and-rehiring/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Thu, 25 Jun 2026 18:23:34 -0700",
+      "isoDate": "2026-06-26T01:23:34.000Z",
+      "excerpt": "After being abruptly fired last September, Brandon Roy was reintroduced as Garfield's boys basketball coach on Thursday. Here's what Roy, and school leaders said about the situation.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
     },
     {
       "title": "Is Sam Darnold worth $55M per year? Wyman & Bob’s take",
@@ -527,86 +602,6 @@
       "excerpt": "The Mariners have selected the contract of infielder/outfielder Weston Wilson. Fellow infielder/outfielder Miles Mastrobuoni has been designated in a corresponding move. Prior to the official announcement, Adam Jude of...",
       "source": "MLB Trade Rumors",
       "team": "mariners",
-      "priority": 2
-    },
-    {
-      "title": "Takeaways From The Seahawks' 2026 Offseason Program & Minicamp",
-      "link": "https://www.seahawks.com/news/takeaways-from-the-seahawks-2026-offseason-program-minicamp",
-      "pubDate": "Fri, 19 Jun 2026 20:35:51 GMT",
-      "isoDate": "2026-06-19T20:35:51.000Z",
-      "excerpt": "Looking back at what we learned from the Seahawks’ voluntary offseason workouts and mandatory minicamp.",
-      "source": "Seahawks.com",
-      "team": "seahawks",
-      "priority": 6
-    },
-    {
-      "title": "Kraken Re-Sign Logan Morrison To One-Year Deal",
-      "link": "https://www.prohockeyrumors.com/2026/06/kraken-re-sign-logan-morrison-to-one-year-deal.html",
-      "pubDate": "Thu, 18 Jun 2026 23:44:23 +0000",
-      "isoDate": "2026-06-18T23:44:23.000Z",
-      "excerpt": "The Seattle Kraken have re-signed pending RFA center Logan Morrison to a one-year contract.",
-      "source": "Pro Hockey Rumors",
-      "team": "kraken",
-      "priority": 2
-    },
-    {
-      "title": "Pierre-Edouard Bellemare Announces Retirement",
-      "link": "https://www.prohockeyrumors.com/2026/06/pierre-edouard-bellemare-announces-retirement.html",
-      "pubDate": "Thu, 18 Jun 2026 19:11:42 +0000",
-      "isoDate": "2026-06-18T19:11:42.000Z",
-      "excerpt": "The second-highest scoring French-born player in NHL history has hung up his skates. According to an announcement from the NHL, forward Pierre-Édouard Bellemare has retired from professional hockey. Before his time in...",
-      "source": "Pro Hockey Rumors",
-      "team": "kraken",
-      "priority": 2
-    },
-    {
-      "title": "Mariners Sign Weston Wilson To Minor League Contract",
-      "link": "https://www.mlbtraderumors.com/2026/06/mariners-sign-weston-wilson-to-minor-league-contract.html",
-      "pubDate": "Thu, 18 Jun 2026 16:57:43 +0000",
-      "isoDate": "2026-06-18T16:57:43.000Z",
-      "excerpt": "Infielder/outfielder Weston Wilson has signed a minor league contract with the Mariners after electing free agency in lieu of an outright assignment from the Orioles late last week. The team never formally announced the...",
-      "source": "MLB Trade Rumors",
-      "team": "mariners",
-      "priority": 2
-    },
-    {
-      "title": "PWHL Draft Recap: Torrent add goalscoring and controversy to their roster",
-      "link": "https://www.davyjoneslockerroom.com/pwhl-draft-recap-torrent-add-goalscoring-and-controversy-to-their-roster/",
-      "pubDate": "Thu, 18 Jun 2026 13:45:00 +0000",
-      "isoDate": "2026-06-18T13:45:00.000Z",
-      "excerpt": "The PWHL Draft concluded yesterday, with a bunch of depleted lineups changing hopefully for the better with the additions of fresh new talent from all across the globe. 2nd Overall Pick: Abbey Murphy – F Hometown:...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
-    },
-    {
-      "title": "Royals Acquire Randy Dobnak",
-      "link": "https://www.mlbtraderumors.com/2026/06/royals-to-acquire-randy-dobnak.html",
-      "pubDate": "Wed, 17 Jun 2026 23:52:54 +0000",
-      "isoDate": "2026-06-17T23:52:54.000Z",
-      "excerpt": "6:52pm: Kansas City officially acquired Dobnak for cash considerations and optioned him to Triple-A. They transferred Cole Ragans from the 15-day to the 60-day injured list to open a spot on the 40-man roster. Ragans...",
-      "source": "MLB Trade Rumors",
-      "team": "mariners",
-      "priority": 2
-    },
-    {
-      "title": "Seahawks Mailbag: Super Bowl Rings, Year 2 Nick Emmanwori & More",
-      "link": "https://www.seahawks.com/news/seahawks-mailbag-super-bowl-rings-year-2-nick-emmanwori-more",
-      "pubDate": "Wed, 17 Jun 2026 23:14:34 GMT",
-      "isoDate": "2026-06-17T23:14:34.000Z",
-      "excerpt": "You had Seahawks questions; we have answers.",
-      "source": "Seahawks.com",
-      "team": "seahawks",
-      "priority": 6
-    },
-    {
-      "title": "Seahawks Promote Willie Schneider, Matt Berry To Assistant GM",
-      "link": "https://www.profootballrumors.com/2026/06/seahawks-promote-willie-schneider-matt-berry-to-assistant-gm",
-      "pubDate": "Wed, 17 Jun 2026 19:05:21 +0000",
-      "isoDate": "2026-06-17T19:05:21.000Z",
-      "excerpt": "The reigning Super Bowl champion Seahawks are making a couple of front office promotions, Tom Pelissero of NFL Network reports. They will elevate director of pro personnel Willie Schneider and vice president/player...",
-      "source": "Pro Football Rumors",
-      "team": "seahawks",
       "priority": 2
     }
   ]
