@@ -1,58 +1,23 @@
 {
-  "generatedAt": "2026-06-26T13:36:49.761Z",
+  "generatedAt": "2026-06-26T14:17:05.510Z",
   "sourceCount": 10,
-  "successfulSources": 10,
-  "failedSources": [],
+  "successfulSources": 9,
+  "failedSources": [
+    {
+      "source": "Seattle Times Sports",
+      "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
+    }
+  ],
   "items": [
     {
-      "title": "Seahawks News 6/26: Sam Darnold unsatisfied with SB LX performance",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-news/170002/seahawks-news-6-26-sam-darnold-unsatisfied-with-sb-lx-performance",
-      "pubDate": "2026-06-26T13:15:46.000Z",
-      "isoDate": "2026-06-26T13:15:46.000Z",
-      "excerpt": "SANTA CLARA, CALIFORNIA - FEBRUARY 08: Sam Darnold #14 of the Seattle Seahawks passes against the New England Patriots during the first quarter in Super Bowl LX at Levi's Stadium on February 08, 2026 in Santa Clara,...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "2026 World Cup: What to know when Egypt plays Iran in Seattle",
-      "link": "https://www.seattletimes.com/sports/world-cup/2026-world-cup-what-to-know-when-egypt-plays-iran-in-seattle/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Fri, 26 Jun 2026 06:00:00 -0700",
-      "isoDate": "2026-06-26T13:00:00.000Z",
-      "excerpt": "Egypt has all but clinched their first trip to the World Cup knockout round and could win their group by beating Iran, which also plenty to play for in Seattle.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Mariners were difficult to watch during first half of schedule",
-      "link": "https://www.seattletimes.com/sports/mariners/mariners-were-difficult-to-watch-during-first-half-of-schedule/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Fri, 26 Jun 2026 06:00:00 -0700",
-      "isoDate": "2026-06-26T13:00:00.000Z",
-      "excerpt": "Through the first half of perhaps their most anticipated season, the Mariners (41-41) have been inexcusably, profoundly average.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "World Cup schedule today, June 26: How to watch Egypt vs. Iran Pride Match and more",
-      "link": "https://www.seattletimes.com/sports/world-cup/world-cup-schedule-today-june-26-how-to-watch-egypt-vs-iran-pride-match-and-more/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Fri, 26 Jun 2026 06:00:00 -0700",
-      "isoDate": "2026-06-26T13:00:00.000Z",
-      "excerpt": "Today is another big day for Seattle as Egypt is set to play Iran in the Pride Match. Here's how to watch tonight's game, plus all the other World Cup action on Friday.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "WNBA suspends Alyssa Thomas 1 game for hit to Caitlin Clark’s throat",
-      "link": "https://www.seattletimes.com/sports/wnba-suspends-alyssa-thomas-1-game-for-hit-to-caitlin-clarks-throat/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Fri, 26 Jun 2026 05:46:53 -0700",
-      "isoDate": "2026-06-26T12:46:53.000Z",
-      "excerpt": "The WNBA has suspended Phoenix’s Alyssa Thomas for one game after she made contact with her fist to Caitlin Clark’s throat in Wednesday night’s matchup against Indiana.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
+      "title": "Montes drives huge Double-A power display with 4-hit, 2-homer day",
+      "link": "https://www.mlb.com/mariners/news/mariners-prospect-lazaro-montes-has-4-hit-2-homer-game",
+      "pubDate": "Fri, 26 Jun 2026 13:54:43 GMT",
+      "isoDate": "2026-06-26T13:54:43.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
     },
     {
       "title": "Everything's coming up Gilbert: Righty having quite a stretch in rotation",
@@ -85,16 +50,6 @@
       "priority": 3
     },
     {
-      "title": "Pochettino annoyed by perceived disappointment after US finishes group play with 3-2 loss to Turkey",
-      "link": "https://www.seattletimes.com/sports/world-cup/2026-world-cup-turkey-beats-us-with-last-gasp-goal-as-americans-look-ahead-to-knockout-stage/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Thu, 25 Jun 2026 21:20:09 -0700",
-      "isoDate": "2026-06-26T04:20:09.000Z",
-      "excerpt": "Kaan Ayhan scored on the final kick of the match, and Turkey beat the United States 3-2 for its only win of the World Cup.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "Johnson helps Storm beat Liberty 99-88, snap 11-game skid",
       "link": "https://sports.mynorthwest.com/wnba/seattle-storm/johnson-helps-storm-beat-liberty-99-88-snap-11-game-skid",
       "pubDate": "Fri, 26 Jun 2026 04:18:54 +0000",
@@ -103,36 +58,6 @@
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
-    },
-    {
-      "title": "Australia clinches knockout round spot with 0-0 draw; Paraguay also likely to advance",
-      "link": "https://www.seattletimes.com/sports/world-cup/australia-clinches-knockout-round-spot-with-0-0-draw-paraguay-also-likely-to-advance/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Thu, 25 Jun 2026 21:09:56 -0700",
-      "isoDate": "2026-06-26T04:09:56.000Z",
-      "excerpt": "Australia and Paraguay played to a 0-0 draw in a result that clinched a spot in the knockout round of the World Cup for the Socceroos and will likely be enough for the Paraguayans to advance.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Flau’jae Johnson scores career-high 28, Seattle Storm beat Liberty",
-      "link": "https://www.seattletimes.com/sports/storm/flaujae-johnson-scores-career-high-28-seattle-storm-beat-liberty/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Thu, 25 Jun 2026 21:03:19 -0700",
-      "isoDate": "2026-06-26T04:03:19.000Z",
-      "excerpt": "Flau’jae Johnson’s career-high 28 points helped the Storm shut down a franchise-high losing streak at 11 games with a 99-88 win over New York on Thursday night.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Photos: Liberty at Storm in WNBA Action",
-      "link": "https://www.seattletimes.com/photo-video/photography/photos-liberty-at-storm-in-wnba-action/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Thu, 25 Jun 2026 20:44:03 -0700",
-      "isoDate": "2026-06-26T03:44:03.000Z",
-      "excerpt": "",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
     },
     {
       "title": "Jason Robertson Rejects Long-Term Offer From Kraken",
@@ -175,7 +100,7 @@
       "priority": 3
     },
     {
-      "title": "Our experts tag-team the latest mock draft, featuring fresh Combine intel",
+      "title": "Our experts tag-team the latest mock draft from the Combine",
       "link": "https://www.mlb.com/mariners/news/mlb-pipeline-2026-mock-draft-june-25",
       "pubDate": "Thu, 25 Jun 2026 23:00:00 GMT",
       "isoDate": "2026-06-25T23:00:00.000Z",
@@ -285,16 +210,6 @@
       "priority": 1
     },
     {
-      "title": "Seahawks 2026 rookie predictions: Why Deven Eastern faces tough path to active roster",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/169929/seahawks-2026-nfl-rookie-predictions-why-deven-eastern-faces-tough-path-active-roster",
-      "pubDate": "2026-06-25T15:00:00.000Z",
-      "isoDate": "2026-06-25T15:00:00.000Z",
-      "excerpt": "MINNEAPOLIS, MINNESOTA - OCTOBER 17: Dylan Raiola #15 of the Nebraska Cornhuskers is sacked by Deven Eastern #91 of the Minnesota Golden Gophers in the first quarter at Huntington Bank Stadium on October 17, 2025 in...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
-    },
-    {
       "title": "Mariners Draft Profile: RHP Logan Reddemann",
       "link": "https://www.lookoutlanding.com/seattle-mariners-mlb-draft/145300/mariners-draft-profile-rhp-logan-reddemann",
       "pubDate": "2026-06-25T15:00:00.000Z",
@@ -302,16 +217,6 @@
       "excerpt": "PISCATAWAY, NEW JERSEY - APRIL 10, 2026: Logan Reddemann #24 of the UCLA Bruins warms up prior to a game against the Rutgers Scarlet Knights at Bainton Field on April 10, 2026 in Piscataway, New Jersey. (Photo by Chris...",
       "source": "Lookout Landing",
       "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "Seahawks offseason discussion: Which Seahawks veterans can repeat their success in 2026?",
-      "link": "https://www.fieldgulls.com/seahawks-podcast/169906/nfl-discusison-which-seattle-seahawks-veterans-can-repeat-their-success-2026",
-      "pubDate": "2026-06-25T14:00:00.000Z",
-      "isoDate": "2026-06-25T14:00:00.000Z",
-      "excerpt": "Dec 18, 2025; Seattle, Washington, USA; Seattle Seahawks quarterback Sam Darnold (14) throws a pass against the Los Angeles Rams in the second half at Lumen Field. Mandatory Credit: Kevin Ng-Imagn Images | Kevin...",
-      "source": "Field Gulls",
-      "team": "seahawks",
       "priority": 1
     },
     {
@@ -332,16 +237,6 @@
       "excerpt": "I read about and watched a lot of Mr. Carels game in the lead up to this article, and I must legally inform you like the entire rest of the internet that Carson Carels is from a cattle farm. 500 head Cattle farm out in...",
       "source": "Davy Jones' Locker Room",
       "team": "kraken",
-      "priority": 1
-    },
-    {
-      "title": "Seahawks News 6/25: Which young Seahawks pass-rusher breaks out in 2026?",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-nfl-draft/169959/seahawks-news-6-25-which-young-seahawks-pass-rusher-breaks-out-in-2026",
-      "pubDate": "2026-06-25T13:00:00.000Z",
-      "isoDate": "2026-06-25T13:00:00.000Z",
-      "excerpt": "SAN JOSE, CALIFORNIA - FEBRUARY 06: Jamie Sheriff #50 of the Seattle Seahawks during a practice ahead of Super Bowl LX at San Jose State University on February 06, 2026 in San Jose, California. (Photo by Eakin...",
-      "source": "Field Gulls",
-      "team": "seahawks",
       "priority": 1
     },
     {
@@ -385,36 +280,6 @@
       "priority": 1
     },
     {
-      "title": "Super Bowl champion Seahawks announce series of public &#8216;Trophy Tour&#8217; dates",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169903/super-bowl-champion-seahawks-announce-public-lombardi-trophy-tour-dates",
-      "pubDate": "2026-06-24T19:55:46.000Z",
-      "isoDate": "2026-06-24T19:55:46.000Z",
-      "excerpt": "The Seattle Seahawks are preparing a year’s worth of fun for Emerald City football fans. On Wednesday, the Seahawks announced a series of dates for a Lombardi Trophy tour, beginning with select dates during training...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "Mariners announce new 'Legacy Plaza,' where fans can leave their mark",
-      "link": "https://www.mlb.com/mariners/news/mariners-announce-new-legacy-plaza",
-      "pubDate": "Wed, 24 Jun 2026 16:14:59 GMT",
-      "isoDate": "2026-06-24T16:14:59.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
-    },
-    {
-      "title": "Seahawks Reacts Survey: Which Seahawk (not named JSN) will have the most catches?",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/169877/seahawks-reacts-survey-which-player-most-catches-not-jaxon-smith-njigba-nfl-discussion",
-      "pubDate": "2026-06-24T14:00:00.000Z",
-      "isoDate": "2026-06-24T14:00:00.000Z",
-      "excerpt": "Dec 8, 2024; Glendale, Arizona, USA; Seattle Seahawks tight end AJ Barner (88) against the Arizona Cardinals at State Farm Stadium. Mandatory Credit: Mark J. Rebilas-Imagn Images | Mark J. Rebilas-Imagn Images Welcome...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
-    },
-    {
       "title": "Draft Profiles 2k26: Is there any way Caleb Malhotra falls to Seattle?",
       "link": "https://www.davyjoneslockerroom.com/draft-profiles-2k26-is-there-any-way-caleb-malhotra-falls-to-seattle/",
       "pubDate": "Wed, 24 Jun 2026 14:00:00 +0000",
@@ -422,16 +287,6 @@
       "excerpt": "Whenever I do these, I always try to have at least one reach ahead and behind, and Caleb Malhotra in any other year would probably be top 3 overall, wingers and defenders this year have such strong representation that...",
       "source": "Davy Jones' Locker Room",
       "team": "kraken",
-      "priority": 1
-    },
-    {
-      "title": "Seahawks News 6/24: Drew Lock and the importance of the QB2 for Seahawks",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169890/seahawks-news-6-24-drew-lock-and-the-importance-of-the-qb2-for-seahawks",
-      "pubDate": "2026-06-24T13:00:00.000Z",
-      "isoDate": "2026-06-24T13:00:00.000Z",
-      "excerpt": "RENTON, WASHINGTON - JUNE 11: Drew Lock #2 of the Seattle Seahawks throws the ball during practice at Virginia Mason Athletic Center on June 11, 2026 in Renton, Washington. (Photo by Jack Compton/Getty Images) | Getty...",
-      "source": "Field Gulls",
-      "team": "seahawks",
       "priority": 1
     },
     {
@@ -475,6 +330,16 @@
       "priority": 6
     },
     {
+      "title": "Seahawks OL Josh Jones says &#8216;I think I&#8217;ll be full-go&#8217; for start of training camp",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169855/seahawks-news-josh-jones-full-go-for-start-training-camp-knee-injury",
+      "pubDate": "2026-06-23T14:00:00.000Z",
+      "isoDate": "2026-06-23T14:00:00.000Z",
+      "excerpt": "Feb 11, 2026; Seattle, WA, USA; Seattle Seahawks fullback Brady Russell (38) and guard Josh Jones (74) during the Super Bowl LX trophy celebration at Lumen Field. Mandatory Credit: Kirby Lee-Imagn Images | Kirby...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
+    {
       "title": "Draft Profiles 2k26: Ty Lawrence is a 200 foot Center with something to prove",
       "link": "https://www.davyjoneslockerroom.com/draft-profiles-2k26-ty-lawrence-is-a-200-foot-center-with-something-to-prove/",
       "pubDate": "Tue, 23 Jun 2026 14:00:00 +0000",
@@ -482,6 +347,16 @@
       "excerpt": "Well, now that we’ve gotten the guy who is probably the consensus #7 pick, give or take a draft ranking or two… …Let’s immediately take a turn left from a perfectly reasonable 7th overall choice in this draft full of...",
       "source": "Davy Jones' Locker Room",
       "team": "kraken",
+      "priority": 1
+    },
+    {
+      "title": "Seahawks News 6/23: Josh Jobe is the Seahawks&#8217; undisputed No. 2 CB",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169857/seahawks-news-6-23-josh-jobe-is-the-seahawks-undisputed-no-2-cb",
+      "pubDate": "2026-06-23T13:00:00.000Z",
+      "isoDate": "2026-06-23T13:00:00.000Z",
+      "excerpt": "SANTA CLARA, CA - FEBRUARY 08: CB Josh Jobe (29) of the Seattle Seahawks warms up prior to the start of the Seattle Seahawks versus the New England Patriots Super Bowl LX game on February 8, 2026, at Levi's Stadium in...",
+      "source": "Field Gulls",
+      "team": "seahawks",
       "priority": 1
     },
     {
@@ -493,6 +368,26 @@
       "source": "Seahawks.com",
       "team": "seahawks",
       "priority": 6
+    },
+    {
+      "title": "What will make or break Seahawks RG Anthony Bradford in 2026",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169842/what-will-make-or-break-seattle-seahawks-rg-anthony-bradford-2026",
+      "pubDate": "2026-06-22T21:00:00.000Z",
+      "isoDate": "2026-06-22T21:00:00.000Z",
+      "excerpt": "ARLINGTON, TEXAS - NOVEMBER 30: Anthony Bradford #75 of the Seattle Seahawks looks on during an NFL football game against the Dallas Cowboys at AT&T Stadium on November 30, 2023 in Arlington, Texas. (Photo by Ryan...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
+    {
+      "title": "Seahawks training camp report dates, joint practice vs. Titans confirmed",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-preseason/169832/seahawks-training-camp-report-dates-joint-practice-vs-titans-confirmed-nfl-news",
+      "pubDate": "2026-06-22T19:25:34.000Z",
+      "isoDate": "2026-06-22T19:25:34.000Z",
+      "excerpt": "Jun 9, 2026; Renton, WA, USA; The Seattle Seahawks run drills during minicamp at Virginia Mason Athletic Center. Mandatory Credit: Steven Bisig-Imagn Images | Steven Bisig-Imagn Images Are you ready for some Seattle...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
     },
     {
       "title": "Seahawks Will Have Joint Practice With Titans In Nashville",
@@ -515,6 +410,16 @@
       "priority": 2
     },
     {
+      "title": "ESPN suggests extending star player as final offseason move for Seahawks",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/169822/espn-suggests-leonard-williams-contract-extension-seahawks",
+      "pubDate": "2026-06-22T14:00:00.000Z",
+      "isoDate": "2026-06-22T14:00:00.000Z",
+      "excerpt": "SANTA CLARA, CALIFORNIA - FEBRUARY 8: Leonard Williams #99 of the Seattle Seahawks celebrates after a touchdown during the fourth quarter of the NFL Super Bowl LX football game against the New England Patriots, at...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
+    {
       "title": "Draft Profiles 2k26: Alberts Šmits is Latvia’s ferocious hope",
       "link": "https://www.davyjoneslockerroom.com/draft-profiles-2k26-alberts-smits-is-latvias-ferocious-hope/",
       "pubDate": "Mon, 22 Jun 2026 14:00:00 +0000",
@@ -522,6 +427,16 @@
       "excerpt": "The Draft Profiles are back! And we start with a defender! Defenseman Alberts Šmits has one of the more unique paths as a defenseman in this draft; being a Latvian playing in Finland as one of the younger players in the...",
       "source": "Davy Jones' Locker Room",
       "team": "kraken",
+      "priority": 1
+    },
+    {
+      "title": "Seahawks News 6/22: Jake Bobo’s contract presumes a bigger role in 2026",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169824/seahawks-news-6-22-jake-bobos-contract-presumes-a-bigger-role-in-2026",
+      "pubDate": "2026-06-22T13:29:48.000Z",
+      "isoDate": "2026-06-22T13:29:48.000Z",
+      "excerpt": "Jun 9, 2026; Renton, WA, USA; Seattle Seahawks wide receiver Jake Bobo (19) talks to wide receiver Cooper Kupp (10) during minicamp at Virginia Mason Athletic Center. Mandatory Credit: Steven Bisig-Imagn Images | Steven...",
+      "source": "Field Gulls",
+      "team": "seahawks",
       "priority": 1
     },
     {
@@ -565,6 +480,16 @@
       "priority": 2
     },
     {
+      "title": "SBNation Reacts results: Seahawks fans believe Jadarian Price will outrush Jeremiyah Love in 2026",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/169808/sbnation-reacts-results-seahawks-fans-believe-jadarian-price-will-outrush-jeremiyah-love",
+      "pubDate": "2026-06-21T14:00:00.000Z",
+      "isoDate": "2026-06-21T14:00:00.000Z",
+      "excerpt": "Welcome to SB Nation Reacts, a survey of fans across the NFL. Throughout the year we ask questions of the most plugged-in Seahawks fans and fans across the country. Sign up here to participate in the weekly emailed...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
+    {
       "title": "NFC Front Office Updates: Seahawks, Saints, Lions",
       "link": "https://www.profootballrumors.com/2026/06/nfc-front-office-updates-seahawks-saints-lions",
       "pubDate": "Sat, 20 Jun 2026 22:53:54 +0000",
@@ -602,6 +527,86 @@
       "excerpt": "The Mariners have selected the contract of infielder/outfielder Weston Wilson. Fellow infielder/outfielder Miles Mastrobuoni has been designated in a corresponding move. Prior to the official announcement, Adam Jude of...",
       "source": "MLB Trade Rumors",
       "team": "mariners",
+      "priority": 2
+    },
+    {
+      "title": "Takeaways From The Seahawks' 2026 Offseason Program & Minicamp",
+      "link": "https://www.seahawks.com/news/takeaways-from-the-seahawks-2026-offseason-program-minicamp",
+      "pubDate": "Fri, 19 Jun 2026 20:35:51 GMT",
+      "isoDate": "2026-06-19T20:35:51.000Z",
+      "excerpt": "Looking back at what we learned from the Seahawks’ voluntary offseason workouts and mandatory minicamp.",
+      "source": "Seahawks.com",
+      "team": "seahawks",
+      "priority": 6
+    },
+    {
+      "title": "Kraken Re-Sign Logan Morrison To One-Year Deal",
+      "link": "https://www.prohockeyrumors.com/2026/06/kraken-re-sign-logan-morrison-to-one-year-deal.html",
+      "pubDate": "Thu, 18 Jun 2026 23:44:23 +0000",
+      "isoDate": "2026-06-18T23:44:23.000Z",
+      "excerpt": "The Seattle Kraken have re-signed pending RFA center Logan Morrison to a one-year contract.",
+      "source": "Pro Hockey Rumors",
+      "team": "kraken",
+      "priority": 2
+    },
+    {
+      "title": "Pierre-Edouard Bellemare Announces Retirement",
+      "link": "https://www.prohockeyrumors.com/2026/06/pierre-edouard-bellemare-announces-retirement.html",
+      "pubDate": "Thu, 18 Jun 2026 19:11:42 +0000",
+      "isoDate": "2026-06-18T19:11:42.000Z",
+      "excerpt": "The second-highest scoring French-born player in NHL history has hung up his skates. According to an announcement from the NHL, forward Pierre-Édouard Bellemare has retired from professional hockey. Before his time in...",
+      "source": "Pro Hockey Rumors",
+      "team": "kraken",
+      "priority": 2
+    },
+    {
+      "title": "Mariners Sign Weston Wilson To Minor League Contract",
+      "link": "https://www.mlbtraderumors.com/2026/06/mariners-sign-weston-wilson-to-minor-league-contract.html",
+      "pubDate": "Thu, 18 Jun 2026 16:57:43 +0000",
+      "isoDate": "2026-06-18T16:57:43.000Z",
+      "excerpt": "Infielder/outfielder Weston Wilson has signed a minor league contract with the Mariners after electing free agency in lieu of an outright assignment from the Orioles late last week. The team never formally announced the...",
+      "source": "MLB Trade Rumors",
+      "team": "mariners",
+      "priority": 2
+    },
+    {
+      "title": "PWHL Draft Recap: Torrent add goalscoring and controversy to their roster",
+      "link": "https://www.davyjoneslockerroom.com/pwhl-draft-recap-torrent-add-goalscoring-and-controversy-to-their-roster/",
+      "pubDate": "Thu, 18 Jun 2026 13:45:00 +0000",
+      "isoDate": "2026-06-18T13:45:00.000Z",
+      "excerpt": "The PWHL Draft concluded yesterday, with a bunch of depleted lineups changing hopefully for the better with the additions of fresh new talent from all across the globe. 2nd Overall Pick: Abbey Murphy – F Hometown:...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
+      "title": "Royals Acquire Randy Dobnak",
+      "link": "https://www.mlbtraderumors.com/2026/06/royals-to-acquire-randy-dobnak.html",
+      "pubDate": "Wed, 17 Jun 2026 23:52:54 +0000",
+      "isoDate": "2026-06-17T23:52:54.000Z",
+      "excerpt": "6:52pm: Kansas City officially acquired Dobnak for cash considerations and optioned him to Triple-A. They transferred Cole Ragans from the 15-day to the 60-day injured list to open a spot on the 40-man roster. Ragans...",
+      "source": "MLB Trade Rumors",
+      "team": "mariners",
+      "priority": 2
+    },
+    {
+      "title": "Seahawks Mailbag: Super Bowl Rings, Year 2 Nick Emmanwori & More",
+      "link": "https://www.seahawks.com/news/seahawks-mailbag-super-bowl-rings-year-2-nick-emmanwori-more",
+      "pubDate": "Wed, 17 Jun 2026 23:14:34 GMT",
+      "isoDate": "2026-06-17T23:14:34.000Z",
+      "excerpt": "You had Seahawks questions; we have answers.",
+      "source": "Seahawks.com",
+      "team": "seahawks",
+      "priority": 6
+    },
+    {
+      "title": "Seahawks Promote Willie Schneider, Matt Berry To Assistant GM",
+      "link": "https://www.profootballrumors.com/2026/06/seahawks-promote-willie-schneider-matt-berry-to-assistant-gm",
+      "pubDate": "Wed, 17 Jun 2026 19:05:21 +0000",
+      "isoDate": "2026-06-17T19:05:21.000Z",
+      "excerpt": "The reigning Super Bowl champion Seahawks are making a couple of front office promotions, Tom Pelissero of NFL Network reports. They will elevate director of pro personnel Willie Schneider and vice president/player...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
       "priority": 2
     }
   ]
