@@ -2,7 +2,7 @@
 title: "Tecmo Super Bowl, Twenty Years Late, Still Knows Seattle"
 deck: "The 2026 hack we used to launch the channel is a love letter to a coaching staff that never quite was. Here is why the rosters still feel right."
 publishDate: 2026-05-14
-tag: "Retro History"
+tag: "Column"
 team: "seahawks"
 readMinutes: 6
 ---

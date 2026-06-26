@@ -17,7 +17,7 @@
 title: "Your Headline Here"                 # the headline.
 deck: "A sentence that sets up the piece."  # optional subtitle. Delete if unused.
 publishDate: 2026-01-01                      # YYYY-MM-DD.
-tag: "Long View"                            # pick ONE (see list below).
+tag: "Column"                            # pick ONE (see list below).
 team: "general"                             # seahawks | mariners | kraken | sonics | general
 lead: false                                # true = the big lead story on the home page.
 featured: false                            # true = highlight in lists.
@@ -26,9 +26,8 @@ draft: true                                # true = hidden. Set false to publish
 ---
 
 # Allowed tag values (copy one exactly into `tag` above):
-#   Long View | Faith & Sports | Retro History | Sonics Watch
-#   Seahawks | Mariners | Kraken | Column | Essay
-#
+# Column | Almanac
+# Seahawks | Mariners | Kraken | Sonics | General
 # Only ONE post should have `lead: true` at a time — that's the front-page
 # headliner. The rest are false.
 

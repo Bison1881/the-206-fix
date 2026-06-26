@@ -1,9 +1,29 @@
 {
-  "generatedAt": "2026-06-26T10:48:01.706Z",
+  "generatedAt": "2026-06-26T12:55:35.079Z",
   "sourceCount": 10,
   "successfulSources": 10,
   "failedSources": [],
   "items": [
+    {
+      "title": "WNBA suspends Alyssa Thomas 1 game for hit to Caitlin Clark’s throat",
+      "link": "https://www.seattletimes.com/sports/wnba-suspends-alyssa-thomas-1-game-for-hit-to-caitlin-clarks-throat/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Fri, 26 Jun 2026 05:46:53 -0700",
+      "isoDate": "2026-06-26T12:46:53.000Z",
+      "excerpt": "The WNBA has suspended Phoenix’s Alyssa Thomas for one game after she made contact with her fist to Caitlin Clark’s throat in Wednesday night’s matchup against Indiana.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Everything's coming up Gilbert: Righty having quite a stretch in rotation",
+      "link": "https://www.mlb.com/mariners/news/logan-gilbert-putting-together-strong-2026-season",
+      "pubDate": "Fri, 26 Jun 2026 11:57:25 GMT",
+      "isoDate": "2026-06-26T11:57:25.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
     {
       "title": "Felnin Celesten hits for the cycle at High-A ... in just a 7-inning game!",
       "link": "https://www.mlb.com/mariners/news/mariners-felnin-celesten-hits-for-cycle-high-a",
@@ -89,7 +109,7 @@
       "link": "https://www.seattletimes.com/seattle-news/world-cup-seattle/local-fifa-organizing-committee-ready-to-celebrate-world-cup-pride-match/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
       "pubDate": "Thu, 25 Jun 2026 19:45:12 -0700",
       "isoDate": "2026-06-26T02:45:12.000Z",
-      "excerpt": "Seattle's local FIFA organizing committee long ago decided Friday's World Cup match would be a \"Pride Match\" Despite the protests of the teams involved, it is ready to celebrate.",
+      "excerpt": "Seattle's local FIFA organizing committee long ago decided Friday's World Cup match would be a \"Pride Match.\" Despite the protests of the teams involved, it is ready to celebrate.",
       "source": "Seattle Times Sports",
       "team": "general",
       "priority": 1
@@ -113,16 +133,6 @@
       "source": "Pro Hockey Rumors",
       "team": "kraken",
       "priority": 2
-    },
-    {
-      "title": "What Brandon Roy, Garfield and SPS leaders said about coach’s firing, rehiring",
-      "link": "https://www.seattletimes.com/sports/high-school/what-brandon-roy-garfield-and-sps-leaders-said-about-coachs-firing-and-rehiring/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Thu, 25 Jun 2026 18:23:34 -0700",
-      "isoDate": "2026-06-26T01:23:34.000Z",
-      "excerpt": "After being abruptly fired last September, Brandon Roy was reintroduced as Garfield's boys basketball coach on Thursday. Here's what Roy, and school leaders said about the situation.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
     },
     {
       "title": "Is Sam Darnold worth $55M per year? Wyman & Bob’s take",
@@ -353,16 +363,6 @@
       "source": "Lookout Landing",
       "team": "mariners",
       "priority": 1
-    },
-    {
-      "title": "Here are the hottest pitching prospects right now -- one for each club",
-      "link": "https://www.mlb.com/mariners/news/each-club-s-hottest-pitching-prospect-june-2026",
-      "pubDate": "Wed, 24 Jun 2026 23:38:00 GMT",
-      "isoDate": "2026-06-24T23:38:00.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
     },
     {
       "title": "Mariners Game #81 Preview and Discussion: SEA at PIT, 6/24",

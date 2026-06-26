@@ -2,7 +2,7 @@
 title: "What a Hard Loss Teaches About a Long Hope"
 deck: "There is a particular kind of stillness in a stadium after the home team has lost the game that mattered most. It is worth sitting with, and worth thinking about clearly."
 publishDate: 2026-05-22
-tag: "Faith & Sports"
+tag: "Column"
 team: "general"
 readMinutes: 8
 ---

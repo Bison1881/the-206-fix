@@ -1,9 +1,10 @@
 ---
-title: "A Short Defense of No-Commentary Gameplay Videos"
-deck: "The genre exists because something was lost. This is what it was and why some of us are trying to recover it."
-publishDate: 2026-05-20
+title: "Welcome To The 206 Fix"
+publishDate: 2026-06-01
 game: "General"
 series: "Editor's Note"
+tag: "Column"
+lead: true
 readMinutes: 4
 ---
 

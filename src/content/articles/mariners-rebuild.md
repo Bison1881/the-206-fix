@@ -2,7 +2,7 @@
 title: "The Quiet Math of a Mariners Rebuild Worth Trusting"
 deck: "For the first time in a long time, the player development pipeline is producing what the front office promised it would. The question is whether ownership will spend like it believes."
 publishDate: 2026-05-18
-tag: "Long View"
+tag: "Column"
 team: "mariners"
 readMinutes: 11
 ---
