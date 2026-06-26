@@ -27,11 +27,9 @@ export interface ManualTickerItem {
 
 export const MANUAL_TICKER_ITEMS: ManualTickerItem[] = [
   // ---- SCORES (from your gameplay) -----------------------------------------
-  { kind: 'score', text: 'TECMO S1 W1 \u00B7 SEA 24  SF 17 \u00B7 FINAL', href: '/retro' },
-  { kind: 'score', text: 'TECMO S1 W2 \u00B7 SEA 31  NO 28 \u00B7 FINAL/OT', href: '/retro' },
-  { kind: 'score', text: 'TECMO S1 W3 \u00B7 SEA 14  LAR 20 \u00B7 FINAL', href: '/retro' },
+  { kind: 'score', text: 'TECMO S1 W1 \u00B7 SEA 35  NE 13 \u00B7 FINAL', href: '/retro/tecmo-week-01' },
 
   // ---- NOTES (your voice — jokes, status, asides) --------------------------
-  { kind: 'note', text: 'Still no commentary. Still no apologies.' },
-  { kind: 'note', text: 'Sonics Watch: the clock is running.', href: '/teams/sonics' },
+  { kind: 'note', text: 'Patriots fan goes viral with wrong Super Bowl tattoo.' },
+  { kind: 'note', text: 'Still didn\'t feel like talking today . . . will it ever change?' },
 ];

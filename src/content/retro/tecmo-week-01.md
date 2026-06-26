@@ -1,23 +1,25 @@
 ---
-title: "Tecmo Super Bowl 2026: Seahawks Season, Week 1 at San Francisco"
-deck: "No talking. No tutorials. Just one team, one season, sixteen weeks, and a quiet camera on the 8-bit field."
-publishDate: 2026-05-23
+title: "Week 1: Seahawks vs Patriots | Super Bowl Rematch"
+publishDate: 2026-06-27
 episodeNumber: 1
-youtubeId: ""
-game: "Tecmo Super Bowl 2026 (community hack)"
-series: "Seahawks Season"
+game: "Tecmo Super Bowl 27 - Training Camp Edition"
+series: "Tecmo Super Bowl 2026-27 Season"
+youtubeId: "MGRyb41Y__M"
 featured: true
-readMinutes: 4
+readMinutes: 2
+draft: false
 ---
 
-Welcome to the first episode of The 206 Fix on YouTube.
+The season opener proved to be the seal of Super Bowl LX as Seattle routed New England, 35 - 13. While Seattle lost Rashid Shaheed early, he's expected to only miss a couple of games. In the meantime, the Hawks picked up exactly where they left off, combining good running and timely passing, seemingly shaking off any rust they may have had in the second half. 
 
-This is the channel I have wanted to make for a long time. The premise is simple. I play one retro sports game, one season at a time, with no commentary and no overlays. The camera sits on the field. The game speaks for itself. You get the silence I miss from the way sports used to be watched.
+After the game, QB Sam Darnold was interviewed, being specifically asked about the teams' seamless transition into the regular season from a successful pre-season and offseason. In his way, Darnold nodded with a grin and said they're just following Head Coach Mike MacDonald's lead. 
 
-The first season is the 2026 Seahawks on a community-built Tecmo Super Bowl hack. The roster has been hand-rated to match the current team. The schedule has been rewritten to match the current NFL. The 8-bit visuals are unchanged because they did not need changing.
+Catching up with LB Ernest Jones and asking him about criticism the team still
+ receives, both of Sam Darnold and their successful Super Bowl run last year, 
+he simply smiled and said, "I still don't give a shoot. Flub 'em." before walking off to join his teammates. *This reporter took the liberty of taming the language for the sake of all things decent.*
 
-Episode 1 is Week 1, on the road at San Francisco. The 49ers were a popular preseason pick to win the NFC West this year. The 8-bit Seahawks are about to have something to say about that.
+Lastly, D-Lineman Leonard Williams was all compliments to the offense while praising his defensive teammates' performance, holding New England to just thirteen points. 
 
-The companion writing on this site will cover the wider context, episode by episode. A piece on why 1991 still teaches football. A position-by-position look at the 2026 Seahawks. An editor's note on why no-commentary gameplay is its own quiet genre. Read along, watch along, or pick one. The channel and the paper are designed to stand on their own.
+"Maybe it has something to do with that guy's tattoo." he quipped after his effusive praise. "I heard things like that can become great sports curses. Maybe it's the next Madden cover?" 
 
-Press start.
+One thing's for sure, Seattle started off its season with a bang, putting the league on notice they intend to repeat as Champs. They also may break the league record for swear jar penalties. Stay tuned. 
