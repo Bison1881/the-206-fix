@@ -1,36 +1,30 @@
 ---
-title: "The Sonics Are Coming Home, and Seattle Is Already Different"
-deck: "Two-and-a-half years out from the first tip-off at Climate Pledge, the city is rehearsing a homecoming that has been written in green and gold for nearly two decades."
+title: "Eighteen Years Later, the NBA Is Reportedly Ready to Return What It Let Get Stolen"
+deck: "Seattle did not lose the Sonics. Seattle had the Sonics taken, in broad daylight, with the league holding the door. Two-and-a-half years from tip-off, we are cautiously optimistic the goods are coming back."
 publishDate: 2026-05-26
 tag: "Column"
 team: "sonics"
-readMinutes: 12
+readMinutes: 7
 ---
 
-The day they took the team was the kind of June afternoon that should have been about baseball. Instead, it was about a moving van, a handshake in Oklahoma, and a phone call to a city that had spent forty-one years calling them ours. You remember where you were. Most people in this town do.
+Let us get the language right before we get sentimental, because the language is the whole argument.
 
-Eighteen years on, the picture has changed in ways nobody could have scripted. Climate Pledge Arena went up on the bones of the old KeyArena. The Kraken arrived and proved a Pacific Northwest hockey market was not a punchline. And quietly, through the long winter of expansion politics, a group calling itself One Roof Sports kept its head down and built the case.
+Seattle did not lose the Sonics. People lose car keys. People lose jobs. People even lose their minds. To lose a thing generally implies you were careless with it, and this city was not careless. This city loved that team for forty-one years and then watched it get loaded into a van by a man from Oklahoma while the league that was supposed to be the adult in the room studied its shoes. That is not a loss. That is hardwood robbery, and I will keep calling it that,. The verb "relocated," is what the guilty always reach for when "stole" is kicked under the carpet.
 
-This is not nostalgia. It is something stranger and more useful. Seattle is being asked to remember itself, and to decide what kind of franchise it wants when the green and gold come back.
+You remember where you were when it happened. Most people in this town do, which is its own quiet indictment. And yet here we all are, able to place ourselves in a specific room in a specific June, because the theft was that clean and that brazen and that permanent-feeling. Ever seen Ocean's Eleven or Inside Man? Yeah, feels a little too familiar, doesn't it?
 
-## What Has Changed Since 2008
+Now, eighteen years on, the news is that the NBA is finally ready to give it back. Maybe.
 
-The city has changed in ways both obvious and quiet. South Lake Union is a different neighborhood. The waterfront is a different waterfront. The light rail runs to places that used to be a long ride or a longer walk. And the sports culture has grown into the absences left behind.
+You will forgive Seattle for not throwing the parade yet. We have learned a thing or two about this particular institution. When the entity that allowed the original robbery comes around offering to return the property, you smile politely and you count the silverware. The league did not develop a conscience by accident. It developed one the way most people do, which is slowly, expensively, and only after the expansion economics started pointing the same direction the conscience was.
 
-The Mariners endured. The Seahawks won a Super Bowl. The Kraken arrived as the city's first major league team to be born in the building it would call home. Each of those stories is its own, but together they answered a question that the Sonics' departure had left hanging: would Seattle still be a sports town without them?
+That's fine. We'll take a conscience of convenience over no conscience at all. We're not picky about why the goods come home. We are picky about whether they come home at all.
 
-The answer turned out to be yes. But the question that has not been answered, that cannot be answered yet, is whether the city that was big enough to survive the loss will still be hungry enough to celebrate the return.
+Because here's the inventory the thieves got away with and it's worth reading aloud so nobody softens it. They got Detlef, Payton and Kemp, by then already legend, the names old fans still say without being asked. They got the franchise's whole history, the banners, the green and the gold. And in the cruelest single line item on the report, they got Durant (and Westbrook if you feel the need to count him), who wore Seattle's colors for exactly one season before the van pulled out, a rookie we got to fall in love with and then immediately had to watch grow into greatness somewhere we will never forgive. That is what the city is owed. Not a participation banner. The whole flippin' thing.
 
-## What Has Not Changed
+Which is why the return has to be done with the right amount of care, and the league should understand that Seattle is going to be watching the chain of custody like a hawk. Climate Pledge Arena is ready, built on the bones of the old Key Arena, the home the team was always supposed to have. The targets are set for the 2028-29 season. Between now and then there is a jersey to unveil, a coach to hire, a general manager whose name we do not yet know, and a first draft pick to love and worry about in the same week. You know, if it's approved.
 
-The thing about losing a franchise is that the love does not leave. It only goes underground. You hear it in the way the old fans talk about Payton and Kemp without prompting, the way they will tell you exactly where they were when they first saw Durant in the green and gold he never got to wear for long.
+Do that part with respect for the lineage and the city will give back something enormous, because the love never actually left. It just went underground in 2008 and kept running down there in the dark, undiminished, seething and waiting. Do that part like a marketing exercise, treat the homecoming like a brand drop instead of the return of stolen property. Then, maybe, just maybe, you might start to see the rise of the Seattle NBA Fan. You can forget forgiveness. But we might be able to coexist again. 
 
-That underground love is the capital this new ownership group has to work with. It is enormous, and it is also fragile. A homecoming that feels mercenary will burn through it in a season. A homecoming that feels like Seattle, that hires the right voices and respects the lineage and remembers that this team was always more than its scoreboard, will compound it.
+So no, this is not a homecoming column yet. It is a column about a robbery, and a city that never once accepted the loss as legitimate, and a league that is finally, cautiously, getting ready to do the one thing that was right all along. Hopefully.
 
-## The 2028-29 Calendar
-
-The targets are clear. Sonics return for the 2028-29 season. Climate Pledge as home court. The arena that was renovated for the Kraken now houses a basketball franchise it was originally built to keep.
-
-Between now and then, there is identity to be built. A jersey to be unveiled. A coach to be hired. A general manager whose name we have not yet heard. A first draft pick. A first night.
-
-Seattle is rehearsing. The 206 Fix will be here for it.
+Bring them home. The 206 Fix will be here when the goods arrive.

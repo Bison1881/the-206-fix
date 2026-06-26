@@ -1,18 +1,24 @@
 ---
-title: "Tecmo Super Bowl, Twenty Years Late, Still Knows Seattle"
-deck: "The 2026 hack we used to launch the channel is a love letter to a coaching staff that never quite was. Here is why the rosters still feel right."
+title: "A 1991 Cartridge Understands the Seahawks Better Than Most People I Pay to Watch on TV"
+deck: "The 2026 hack we used to launch the channel is eight-bit, has nine total animations, and is somehow more emotionally honest than anything on the pregame desk."
 publishDate: 2026-05-14
 tag: "Column"
 team: "seahawks"
 readMinutes: 6
 ---
 
-The original Tecmo Super Bowl came out in 1991. The Seahawks in that game were a Chuck Knox team running ground-and-pound with Cortez Kennedy anchoring the defensive line. They were not good. The cartridge knew it. The Seahawks ranked near the bottom of every passing chart the game tracked.
+The original Tecmo Super Bowl came out in 1991, and it knew the Seahawks were bad. Not in a cruel way. In an honest way, the way a good doctor is honest. It was a Chuck Knox team running the ball into a wall and Cortez Kennedy doing heroic work on a defensive line that needed three of him. The cartridge looked at that roster and rated it accordingly, ranking the Seahawks near the floor of every passing chart it could measure, which was a small act of journalism nobody asked an eight-bit football game to do.
 
-The community hack that fuels the channel's first season is something else. It takes the 1991 engine and pours a 2026 Seahawks roster into it. Every player has been re-rated by hand. Every team has been re-balanced. Every season-mode schedule has been rewritten to match the current NFL alignment. None of it had to be done. Someone, somewhere, did it anyway. That kind of work is the part of retro gaming culture that does not get written about often enough.
+I bring this up because the community hack that launched our first season takes that same honest little 1991 engine and pours a full 2026 Seahawks roster into it. Every player re-rated by hand. Every team re-balanced. Every season schedule rewritten to match the current NFL. None of this had to happen. There is no money in it. Someone, somewhere, a person I will never meet and would happily buy a donut of their choosing, did all of it anyway, for free, because they wanted it to exist. That is the part of retro gaming culture that does not get written about enough, and it is the best part. 
 
-What the hack gets right is not the visual fidelity, which is still the same eight-bit football the cartridge always played. What it gets right is the feel. Watching the Seahawks open their season in 8-bit at Levi's Stadium feels like the right way to celebrate a sport that has spent the last thirty years making itself more spectacular and more bewildering at the same time.
+*Psssst... go see our friends at [TecmoBowl.org](https://tecmobowl.org/)*
 
-I started this channel because I wanted to watch football the way I watched it as a kid. No commentary. No graphics. No camera angle that pretends I am in the huddle. Just the ball, the field, and the score in the corner. The Tecmo hack is the closest thing in the wild to that ideal, and the fact that it is built on a 1991 engine is part of the point.
+Now, is the game accurate? In the ways that matter, more than you would expect. In the ways that do not matter, gloriously not. The defenders still run in tidy straight lines because the quickest route from A to B and all. The quarterback can complete a sixty-yard pass while standing flat-footed, which is technically a foul against physics and possibly the single most fun thing a quarterback has ever been allowed to do. Tackling is a process needing to be mastered. Running is the same motto one uses when evading sniper fire. Everyone on the field moves like they have somewhere to be and only one speed to get there.
 
-Twenty years from now, somebody will be writing about the Seahawks of 2026 the way fans now write about the Knox teams. The Tecmo hack is a sketch of that future memory. I want to be on the channel that records it.
+And its perfect.
+
+Its perfect because I did not start this channel to watch modern football. I started it because I wanted to watch football the way I watched it as a kid. No commentary. No graphics crawling along the bottom telling me about a different game. No camera angle pretending I am crouched in the huddle being yelled at. Just the ball, the field, and the score in the corner where God had Nintendo intend it.
+
+That is the entire pitch for the channel, and I am aware of how it sounds. A grown man films a thirty-five-year-old Nintendo game playing a football season that has not happened yet, says nothing, adds no music, and uploads it. When I describe my hobby to people their faces do a thing. I have made peace with the thing. The thing is fair. The thing is also missing the point, which is that the silence is not laziness, it is the whole product. There is a certain ASMR quality in eight-bit football that modern broadcasts have spent thirty years and untold money successfully eliminating. Friend, I've spent zero dollars getting it back.
+
+Twenty years from now, somebody is going to write about the Seahawks of 2026 the way we now write about the Knox teams, with that particular fondness reserved for the squads that came before the good part. The Tecmo hack is a rough pencil sketch of that future memory, drawn in the only nine animations the engine has. I want to be on the channel that recorded it, saying nothing, letting a 1991 cartridge do what modern day broadcasts cannot do. Just play ball. Oh, and have fun, too.
