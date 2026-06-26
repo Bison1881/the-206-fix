@@ -1,9 +1,49 @@
 {
-  "generatedAt": "2026-06-26T12:55:35.079Z",
+  "generatedAt": "2026-06-26T13:36:49.761Z",
   "sourceCount": 10,
   "successfulSources": 10,
   "failedSources": [],
   "items": [
+    {
+      "title": "Seahawks News 6/26: Sam Darnold unsatisfied with SB LX performance",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-news/170002/seahawks-news-6-26-sam-darnold-unsatisfied-with-sb-lx-performance",
+      "pubDate": "2026-06-26T13:15:46.000Z",
+      "isoDate": "2026-06-26T13:15:46.000Z",
+      "excerpt": "SANTA CLARA, CALIFORNIA - FEBRUARY 08: Sam Darnold #14 of the Seattle Seahawks passes against the New England Patriots during the first quarter in Super Bowl LX at Levi's Stadium on February 08, 2026 in Santa Clara,...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
+    {
+      "title": "2026 World Cup: What to know when Egypt plays Iran in Seattle",
+      "link": "https://www.seattletimes.com/sports/world-cup/2026-world-cup-what-to-know-when-egypt-plays-iran-in-seattle/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Fri, 26 Jun 2026 06:00:00 -0700",
+      "isoDate": "2026-06-26T13:00:00.000Z",
+      "excerpt": "Egypt has all but clinched their first trip to the World Cup knockout round and could win their group by beating Iran, which also plenty to play for in Seattle.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Mariners were difficult to watch during first half of schedule",
+      "link": "https://www.seattletimes.com/sports/mariners/mariners-were-difficult-to-watch-during-first-half-of-schedule/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Fri, 26 Jun 2026 06:00:00 -0700",
+      "isoDate": "2026-06-26T13:00:00.000Z",
+      "excerpt": "Through the first half of perhaps their most anticipated season, the Mariners (41-41) have been inexcusably, profoundly average.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "World Cup schedule today, June 26: How to watch Egypt vs. Iran Pride Match and more",
+      "link": "https://www.seattletimes.com/sports/world-cup/world-cup-schedule-today-june-26-how-to-watch-egypt-vs-iran-pride-match-and-more/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Fri, 26 Jun 2026 06:00:00 -0700",
+      "isoDate": "2026-06-26T13:00:00.000Z",
+      "excerpt": "Today is another big day for Seattle as Egypt is set to play Iran in the Pride Match. Here's how to watch tonight's game, plus all the other World Cup action on Friday.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
     {
       "title": "WNBA suspends Alyssa Thomas 1 game for hit to Caitlin Clark’s throat",
       "link": "https://www.seattletimes.com/sports/wnba-suspends-alyssa-thomas-1-game-for-hit-to-caitlin-clarks-throat/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
@@ -90,36 +130,6 @@
       "pubDate": "Thu, 25 Jun 2026 20:44:03 -0700",
       "isoDate": "2026-06-26T03:44:03.000Z",
       "excerpt": "",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "What Mariners stats show at halfway point of 2026 season",
-      "link": "https://www.seattletimes.com/sports/mariners/what-mariners-stats-show-at-halfway-point-of-2026-season/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Thu, 25 Jun 2026 20:27:45 -0700",
-      "isoDate": "2026-06-26T03:27:45.000Z",
-      "excerpt": "At the mathematical halfway point of the regular season, the Mariners are hanging on to their AL West lead. Here's what the numbers show midway through the season.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Local FIFA organizing committee ready to celebrate World Cup Pride Match",
-      "link": "https://www.seattletimes.com/seattle-news/world-cup-seattle/local-fifa-organizing-committee-ready-to-celebrate-world-cup-pride-match/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Thu, 25 Jun 2026 19:45:12 -0700",
-      "isoDate": "2026-06-26T02:45:12.000Z",
-      "excerpt": "Seattle's local FIFA organizing committee long ago decided Friday's World Cup match would be a \"Pride Match.\" Despite the protests of the teams involved, it is ready to celebrate.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Marina Mabrey matches WNBA scoring record with 53 points to help Toronto rout Los Angeles",
-      "link": "https://www.seattletimes.com/sports/wnba/marina-mabrey-matches-wnba-scoring-record-with-53-points/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Thu, 25 Jun 2026 19:27:19 -0700",
-      "isoDate": "2026-06-26T02:27:19.000Z",
-      "excerpt": "Marina Mabrey matched the WNBA scoring record with 53 points to help the Toronto Tempo rout the Los Angeles Sparks 125-97 on Thursday night.",
       "source": "Seattle Times Sports",
       "team": "general",
       "priority": 1
@@ -463,16 +473,6 @@
       "source": "Seahawks.com",
       "team": "seahawks",
       "priority": 6
-    },
-    {
-      "title": "Seahawks OL Josh Jones says &#8216;I think I&#8217;ll be full-go&#8217; for start of training camp",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169855/seahawks-news-josh-jones-full-go-for-start-training-camp-knee-injury",
-      "pubDate": "2026-06-23T14:00:00.000Z",
-      "isoDate": "2026-06-23T14:00:00.000Z",
-      "excerpt": "Feb 11, 2026; Seattle, WA, USA; Seattle Seahawks fullback Brady Russell (38) and guard Josh Jones (74) during the Super Bowl LX trophy celebration at Lumen Field. Mandatory Credit: Kirby Lee-Imagn Images | Kirby...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
     },
     {
       "title": "Draft Profiles 2k26: Ty Lawrence is a 200 foot Center with something to prove",

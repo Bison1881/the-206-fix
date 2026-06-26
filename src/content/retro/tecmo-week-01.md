@@ -1,5 +1,6 @@
 ---
 title: "Week 1: Seahawks vs Patriots | Super Bowl Rematch"
+deck: "Did Seattle prove its Super Bowl win wasn't a fluke?"
 publishDate: 2026-06-27
 episodeNumber: 1
 game: "Tecmo Super Bowl 27 - Training Camp Edition"
