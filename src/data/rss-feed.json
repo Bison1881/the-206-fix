@@ -1,22 +1,127 @@
 {
-  "generatedAt": "2026-06-27T02:48:49.400Z",
+  "generatedAt": "2026-06-27T06:50:34.606Z",
   "sourceCount": 10,
-  "successfulSources": 9,
-  "failedSources": [
-    {
-      "source": "Seattle Times Sports",
-      "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
-    }
-  ],
+  "successfulSources": 10,
+  "failedSources": [],
   "items": [
     {
-      "title": "Cantillo&#8217;s curveball not enough for Cleveland, M&#8217;s win 3-1",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/145368/cantillos-curveball-not-enough-for-cleveland-ms-win-3-1",
-      "pubDate": "2026-06-27T02:47:18.000Z",
-      "isoDate": "2026-06-27T02:47:18.000Z",
-      "excerpt": "CLEVELAND, OHIO - JUNE 26: Luis Castillo #58 of the Seattle Mariners throws a pitch during the first inning against the Cleveland Guardians at Progressive Field on June 26, 2026 in Cleveland, Ohio. (Photo by Nick...",
-      "source": "Lookout Landing",
+      "title": "Stars like Mohamed Salah make World Cup magical for Seattle sports fans",
+      "link": "https://www.seattletimes.com/sports/world-cup/stars-like-mohamed-salah-make-world-cup-magical-for-seattle-sports-fans/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Fri, 26 Jun 2026 22:48:37 -0700",
+      "isoDate": "2026-06-27T05:48:37.000Z",
+      "excerpt": "Seattle will remember Mohamed Salah after this World Cup comes to an end. This proximity to excellence is part of what makes the tournament so great.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "World Cup: Egypt, Iran play to 1-1 draw in Seattle",
+      "link": "https://sports.mynorthwest.com/seattle-sports-pit/world-cup-egypt-iran-play-to-1-1-draw-in-seattle",
+      "pubDate": "Sat, 27 Jun 2026 05:33:11 +0000",
+      "isoDate": "2026-06-27T05:33:11.000Z",
+      "excerpt": "The draw helped Egypt advance to the knockout round.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Double-A batters have 99 problems and Kade Anderson is certainly one",
+      "link": "https://www.mlb.com/mariners/news/mariners-kade-anderson-racks-up-nine-strikeouts-double-a",
+      "pubDate": "Sat, 27 Jun 2026 05:32:00 GMT",
+      "isoDate": "2026-06-27T05:32:00.000Z",
+      "excerpt": "Mariners' top pitching prospect moves into second place on MiLB K leaderboard",
+      "source": "Mariners.com",
       "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Trossard, De Bruyne score and Belgium defeats New Zealand 5-1 to advance at the World Cup",
+      "link": "https://www.seattletimes.com/sports/world-cup/2026-world-cup-belgium-defeats-new-zealand-to-advance-to-knockout-rounds/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Fri, 26 Jun 2026 22:23:54 -0700",
+      "isoDate": "2026-06-27T05:23:54.000Z",
+      "excerpt": "Leandro Trossard scored a pair of goals and Belgium overcame a slow start at the World Cup to advance to the knockout round with a victory over New Zealand.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "2026 World Cup: Much anticipated Iran vs. Egypt match ends in dramatic draw",
+      "link": "https://www.seattletimes.com/sports/world-cup/2026-world-cup-iran-egypt-match-ends-in-draw/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Fri, 26 Jun 2026 22:09:39 -0700",
+      "isoDate": "2026-06-27T05:09:39.000Z",
+      "excerpt": "A World Cup match at Seattle Stadium that had been circled on the calendar for months, as much for what could happen off the field as on it, ends in a 1-1 tie.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "20-year-old Emerson homers in 'special' Ohio homecoming",
+      "link": "https://www.mlb.com/mariners/news/colt-emerson-homers-in-mariners-win-over-guardians",
+      "pubDate": "Sat, 27 Jun 2026 04:22:00 GMT",
+      "isoDate": "2026-06-27T04:22:00.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Egypt, Iran fans mix with protesters and pride flags in latest Seattle match",
+      "link": "https://www.seattletimes.com/seattle-news/world-cup-seattle/egypt-iran-fans-mix-with-protesters-and-pride-flags-in-latest-seattle-match/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Fri, 26 Jun 2026 20:57:25 -0700",
+      "isoDate": "2026-06-27T03:57:25.000Z",
+      "excerpt": "Friday’s World Cup soccer match in Seattle was colorful, in every sense of the word. The match between Egypt and Iran was anticipated for the soccer and political tensions.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "The NFL’s Assistant General Managers",
+      "link": "https://www.profootballrumors.com/2026/06/the-nfls-assistant-general-managers",
+      "pubDate": "Sat, 27 Jun 2026 03:15:34 +0000",
+      "isoDate": "2026-06-27T03:15:34.000Z",
+      "excerpt": "When the Vikings hired Nolan Teasley late last month, the general manager carousel came to a stop once again. Minnesota has since filled out its assistant GM tier, joining Seattle — which lost Teasley from its AGM post...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
+      "priority": 2
+    },
+    {
+      "title": "Photos: Egypt’s Group G finale against Iran in Seattle",
+      "link": "https://www.seattletimes.com/sports/world-cup/photos-egypts-group-g-finale-against-iran-in-seattle/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Fri, 26 Jun 2026 19:51:28 -0700",
+      "isoDate": "2026-06-27T02:51:28.000Z",
+      "excerpt": "",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Lionel Messi won’t start Argentina’s group finale, but World Cup scoring record holder could sub in",
+      "link": "https://www.seattletimes.com/sports/world-cup/lionel-messi-wont-start-argentinas-group-finale-but-world-cup-scoring-record-holder-could-sub-in/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Fri, 26 Jun 2026 19:42:13 -0700",
+      "isoDate": "2026-06-27T02:42:13.000Z",
+      "excerpt": "Lionel Messi will not start when defending World Cup champion Argentina plays its group finale, but he could be a substitute.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Cape Verde’s dream run continues, becoming smallest country into World Cup knockout round",
+      "link": "https://www.seattletimes.com/sports/world-cup/cape-verdes-dream-run-continues-becoming-smallest-country-into-world-cup-knockout-round/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Fri, 26 Jun 2026 19:35:24 -0700",
+      "isoDate": "2026-06-27T02:35:24.000Z",
+      "excerpt": "Cape Verde completed an improbable run through the group stage with a third World Cup draw to become the smallest country to earn a spot in the knockout round.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Washington Huskies add punter Nolan Balke to 2027 recruiting class",
+      "link": "https://www.seattletimes.com/sports/washington-huskies-football/washington-huskies-add-punter-nolan-balke-to-2027-recruiting-class/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Fri, 26 Jun 2026 19:33:09 -0700",
+      "isoDate": "2026-06-27T02:33:09.000Z",
+      "excerpt": "Nolan Balke, considered among the top punters in the 2027 recruiting class, announced his commitment to Washington on Friday.",
+      "source": "Seattle Times Sports",
+      "team": "general",
       "priority": 1
     },
     {
@@ -28,26 +133,6 @@
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
-    },
-    {
-      "title": "20-year-old Emerson homers in Ohio homecoming",
-      "link": "https://www.mlb.com/mariners/news/colt-emerson-homers-in-mariners-win-over-guardians",
-      "pubDate": "Sat, 27 Jun 2026 02:07:24 GMT",
-      "isoDate": "2026-06-27T02:07:24.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
-    },
-    {
-      "title": "42-41: Chart",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/145362/42-41-chart",
-      "pubDate": "2026-06-27T01:48:44.000Z",
-      "isoDate": "2026-06-27T01:48:44.000Z",
-      "excerpt": "CLEVELAND, OHIO - JUNE 26: Colt Emerson #4 of the Seattle Mariners celebrates with teammates after hitting a solo home run during the third inning against the Cleveland Guardians at Progressive Field on June 26, 2026 in...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
     },
     {
       "title": "AL West: Los Angeles Angels fire GM Perry Minasian",
@@ -125,26 +210,6 @@
       "pubDate": "Fri, 26 Jun 2026 20:33:55 +0000",
       "isoDate": "2026-06-26T20:33:55.000Z",
       "excerpt": "Seattle moved around several hitters, including batting Randy Arozarena leadoff spot and Dominic Canzone cleanup.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "The NFL’s Assistant General Managers",
-      "link": "https://www.profootballrumors.com/2026/06/the-nfls-assistant-general-managers",
-      "pubDate": "Fri, 26 Jun 2026 19:48:34 +0000",
-      "isoDate": "2026-06-26T19:48:34.000Z",
-      "excerpt": "When the Vikings hired Nolan Teasley late last month, the general manager carousel came to a stop once again. Minnesota has since filled out its assistant GM tier, joining Seattle — which lost Teasley from its AGM post...",
-      "source": "Pro Football Rumors",
-      "team": "seahawks",
-      "priority": 2
-    },
-    {
-      "title": "Insider: Kraken showing they’re ‘in the business of taking big swings’",
-      "link": "https://sports.mynorthwest.com/nhl/seattle-kraken/seattle-krakens-reported-trade-miss-comes-with-one-good-sign-insider-says",
-      "pubDate": "Fri, 26 Jun 2026 19:30:45 +0000",
-      "isoDate": "2026-06-26T19:30:45.000Z",
-      "excerpt": "The Daily Faceoff's Jeff Marek is seeing a positive trend in Seattle despite the franchise missing out on some talented players.",
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
@@ -260,16 +325,6 @@
       "priority": 2
     },
     {
-      "title": "Our experts tag-team the latest mock draft from the Combine",
-      "link": "https://www.mlb.com/mariners/news/mlb-pipeline-2026-mock-draft-june-25",
-      "pubDate": "Thu, 25 Jun 2026 23:00:00 GMT",
-      "isoDate": "2026-06-25T23:00:00.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
-    },
-    {
       "title": "Miller's 11-K gem spoiled as Mariners can't cash in",
       "link": "https://www.mlb.com/mariners/news/bryce-miller-11-strikeouts-ties-career-high-in-mariners-loss",
       "pubDate": "Thu, 25 Jun 2026 22:01:12 GMT",
@@ -330,6 +385,16 @@
       "priority": 6
     },
     {
+      "title": "Mariners Game #82 Preview and Discussion: SEA at PIT, 6/25",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-game-information/145308/mariners-game-82-preview-and-discussion-sea-at-pit-6-25",
+      "pubDate": "2026-06-25T15:46:47.000Z",
+      "isoDate": "2026-06-25T15:46:47.000Z",
+      "excerpt": "PITTSBURGH, PENNSYLVANIA - JUNE 24: Pittsburgh Pirates fans pose while holding a Topps cards for the 75th anniversary before the game between the Seattle Mariners and the Pittsburgh Pirates at PNC Park on June 24, 2026...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
       "title": "Seahawks 2026 rookie predictions: Why Deven Eastern faces tough path to active roster",
       "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/169929/seahawks-2026-nfl-rookie-predictions-why-deven-eastern-faces-tough-path-active-roster",
       "pubDate": "2026-06-25T15:00:00.000Z",
@@ -337,6 +402,16 @@
       "excerpt": "MINNEAPOLIS, MINNESOTA - OCTOBER 17: Dylan Raiola #15 of the Nebraska Cornhuskers is sacked by Deven Eastern #91 of the Minnesota Golden Gophers in the first quarter at Huntington Bank Stadium on October 17, 2025 in...",
       "source": "Field Gulls",
       "team": "seahawks",
+      "priority": 1
+    },
+    {
+      "title": "Mariners Draft Profile: RHP Logan Reddemann",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-mlb-draft/145300/mariners-draft-profile-rhp-logan-reddemann",
+      "pubDate": "2026-06-25T15:00:00.000Z",
+      "isoDate": "2026-06-25T15:00:00.000Z",
+      "excerpt": "PISCATAWAY, NEW JERSEY - APRIL 10, 2026: Logan Reddemann #24 of the UCLA Bruins warms up prior to a game against the Rutgers Scarlet Knights at Bainton Field on April 10, 2026 in Piscataway, New Jersey. (Photo by Chris...",
+      "source": "Lookout Landing",
+      "team": "mariners",
       "priority": 1
     },
     {
@@ -527,86 +602,6 @@
       "excerpt": "In their recent announcement disclosing promotions for two staffers to assistant general manager, the Seahawks announced four other promotions in Seattle’s front office. In the player personnel department, Aaron...",
       "source": "Pro Football Rumors",
       "team": "seahawks",
-      "priority": 2
-    },
-    {
-      "title": "Mariners Outright Curtis Washington Jr.",
-      "link": "https://www.mlbtraderumors.com/2026/06/mariners-outright-curtis-washington-jr.html",
-      "pubDate": "Sat, 20 Jun 2026 18:19:13 +0000",
-      "isoDate": "2026-06-20T18:19:13.000Z",
-      "excerpt": "The Mariners announced that outfielder Curtis Washington Jr. was outrighted to A-level Everett after clearing waivers. There wasn’t any public indication that Washington had also been designated for assignment when he...",
-      "source": "MLB Trade Rumors",
-      "team": "mariners",
-      "priority": 2
-    },
-    {
-      "title": "Justin Schultz Joins Kraken's Development Staff",
-      "link": "https://www.prohockeyrumors.com/2026/06/west-notes-karlsson-schultz-martin.html",
-      "pubDate": "Sat, 20 Jun 2026 18:19:00 +0000",
-      "isoDate": "2026-06-20T18:19:00.000Z",
-      "excerpt": "Notes from the West including surgery for William Karlsson, a long-time defenseman joins Seattle's development staff, and more.",
-      "source": "Pro Hockey Rumors",
-      "team": "kraken",
-      "priority": 2
-    },
-    {
-      "title": "Mariners Designate Miles Mastrobuoni For Assignment, Select Weston Wilson",
-      "link": "https://www.mlbtraderumors.com/2026/06/mariners-designate-miles-mastrobuoni-for-assignment-select-weston-wilson.html",
-      "pubDate": "Fri, 19 Jun 2026 22:30:27 +0000",
-      "isoDate": "2026-06-19T22:30:27.000Z",
-      "excerpt": "The Mariners have selected the contract of infielder/outfielder Weston Wilson. Fellow infielder/outfielder Miles Mastrobuoni has been designated in a corresponding move. Prior to the official announcement, Adam Jude of...",
-      "source": "MLB Trade Rumors",
-      "team": "mariners",
-      "priority": 2
-    },
-    {
-      "title": "Takeaways From The Seahawks' 2026 Offseason Program & Minicamp",
-      "link": "https://www.seahawks.com/news/takeaways-from-the-seahawks-2026-offseason-program-minicamp",
-      "pubDate": "Fri, 19 Jun 2026 20:35:51 GMT",
-      "isoDate": "2026-06-19T20:35:51.000Z",
-      "excerpt": "Looking back at what we learned from the Seahawks’ voluntary offseason workouts and mandatory minicamp.",
-      "source": "Seahawks.com",
-      "team": "seahawks",
-      "priority": 6
-    },
-    {
-      "title": "Kraken Re-Sign Logan Morrison To One-Year Deal",
-      "link": "https://www.prohockeyrumors.com/2026/06/kraken-re-sign-logan-morrison-to-one-year-deal.html",
-      "pubDate": "Thu, 18 Jun 2026 23:44:23 +0000",
-      "isoDate": "2026-06-18T23:44:23.000Z",
-      "excerpt": "The Seattle Kraken have re-signed pending RFA center Logan Morrison to a one-year contract.",
-      "source": "Pro Hockey Rumors",
-      "team": "kraken",
-      "priority": 2
-    },
-    {
-      "title": "Pierre-Edouard Bellemare Announces Retirement",
-      "link": "https://www.prohockeyrumors.com/2026/06/pierre-edouard-bellemare-announces-retirement.html",
-      "pubDate": "Thu, 18 Jun 2026 19:11:42 +0000",
-      "isoDate": "2026-06-18T19:11:42.000Z",
-      "excerpt": "The second-highest scoring French-born player in NHL history has hung up his skates. According to an announcement from the NHL, forward Pierre-Édouard Bellemare has retired from professional hockey. Before his time in...",
-      "source": "Pro Hockey Rumors",
-      "team": "kraken",
-      "priority": 2
-    },
-    {
-      "title": "Mariners Sign Weston Wilson To Minor League Contract",
-      "link": "https://www.mlbtraderumors.com/2026/06/mariners-sign-weston-wilson-to-minor-league-contract.html",
-      "pubDate": "Thu, 18 Jun 2026 16:57:43 +0000",
-      "isoDate": "2026-06-18T16:57:43.000Z",
-      "excerpt": "Infielder/outfielder Weston Wilson has signed a minor league contract with the Mariners after electing free agency in lieu of an outright assignment from the Orioles late last week. The team never formally announced the...",
-      "source": "MLB Trade Rumors",
-      "team": "mariners",
-      "priority": 2
-    },
-    {
-      "title": "Royals Acquire Randy Dobnak",
-      "link": "https://www.mlbtraderumors.com/2026/06/royals-to-acquire-randy-dobnak.html",
-      "pubDate": "Wed, 17 Jun 2026 23:52:54 +0000",
-      "isoDate": "2026-06-17T23:52:54.000Z",
-      "excerpt": "6:52pm: Kansas City officially acquired Dobnak for cash considerations and optioned him to Triple-A. They transferred Cole Ragans from the 15-day to the 60-day injured list to open a spot on the 40-man roster. Ragans...",
-      "source": "MLB Trade Rumors",
-      "team": "mariners",
       "priority": 2
     }
   ]
