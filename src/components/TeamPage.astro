@@ -51,11 +51,11 @@ function formatDate(date: Date): string {
     <div class="flex items-baseline justify-between gap-6 max-md:flex-col max-md:items-start max-md:gap-3 pb-6 border-b border-ink">
       <div>
         <div class="kicker mb-2">Section &middot; {sport}</div>
-        <h1 class="font-display text-[46px] leading-[1.05] tracking-[0.01em] text-ink max-md:text-[32px]">
+        <h1 class="font-display text-[23px] leading-[1.25] tracking-[0.01em] text-ink max-md:text-[17px]">
           {teamName}
         </h1>
       </div>
-      <p class="font-caslon italic text-[20px] text-slate max-w-[420px] text-right max-md:text-left">
+      <p class="font-caslon text-[10px] leading-relaxed text-slate max-w-[420px] text-right max-md:text-left">
         {tagline}
       </p>
     </div>
@@ -81,11 +81,11 @@ function formatDate(date: Date): string {
             {articles.map((article) => (
               <article class="pb-8 border-b border-black/15 last:border-b-0">
                 <div class="kicker mb-2">{article.tag}</div>
-                <h3 class="font-display text-[24px] leading-[1.15] tracking-[0.01em] mb-3 text-ink max-md:text-[20px]">
+                <h3 class="font-display text-[13px] leading-[1.4] tracking-[0.01em] mb-3 text-ink max-md:text-[11px]">
                   <a href={`/articles/${article.slug}`} class="hover:text-rust">{article.title}</a>
                 </h3>
                 {article.deck && (
-                  <p class="font-caslon italic text-[18px] text-slate mb-3 leading-snug">
+                  <p class="font-caslon text-[9px] text-slate mb-3 leading-relaxed">
                     {article.deck}
                   </p>
                 )}
@@ -103,7 +103,7 @@ function formatDate(date: Date): string {
       <aside>
         <div class="section-label-tag mb-[14px]">From the Wires &middot; {teamName}</div>
         {wires.length === 0 ? (
-          <p class="font-body text-slate italic text-[14px] py-4">
+          <p class="font-body text-slate italic text-[9px] leading-[1.6] py-4">
             No recent {teamName} items in the wires. The aggregator refreshes every two hours.
           </p>
         ) : (
@@ -113,7 +113,7 @@ function formatDate(date: Date): string {
                 <div class="font-ui text-[10px] uppercase tracking-[0.12em] text-rust font-bold mb-1">
                   {item.source}
                 </div>
-                <div class="font-caslon text-[16px] leading-[1.25] font-bold">
+                <div class="font-caslon text-[9px] leading-[1.5] font-bold">
                   <a href={item.link} target="_blank" rel="noopener noreferrer" class="hover:text-rust">
                     {item.title}
                   </a>

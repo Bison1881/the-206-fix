@@ -42,11 +42,11 @@ const sidebarItems = rssData.items.slice(0, 6);
         {lead ? (
           <>
             <div class="kicker mb-3">Lead Story &middot; {lead.tag}</div>
-            <h1 class="font-display text-[40px] leading-[1.1] tracking-[0.01em] mb-4 text-ink max-md:text-[30px]">
+            <h1 class="font-display text-[20px] leading-[1.3] tracking-[0.01em] mb-4 text-ink max-md:text-[16px]">
               <a href={`/articles/${lead.slug}`} class="hover:text-rust">{lead.title}</a>
             </h1>
             {lead.deck && (
-              <p class="font-caslon italic text-[22px] leading-snug text-slate mb-5 pb-4 border-b border-ink">
+              <p class="font-caslon text-[11px] leading-relaxed text-slate mb-5 pb-4 border-b border-ink">
                 {lead.deck}
               </p>
             )}
@@ -54,18 +54,18 @@ const sidebarItems = rssData.items.slice(0, 6);
               By <a href={authorHref(lead.author)} class="text-ink font-bold hover:text-rust">{lead.author}</a>
               {lead.readMinutes && <> &middot; {lead.readMinutes} min read</>}
             </div>
-            <div class="lead-body font-body text-[17px]" set:html={lead.bodyHtml} />
+            <div class="lead-body font-body text-[10px]" set:html={lead.bodyHtml} />
           </>
         ) : (
           <>
             <div class="kicker mb-3">Lead Story</div>
-            <h1 class="font-display text-[40px] leading-[1.1] tracking-[0.01em] mb-4 text-ink max-md:text-[30px]">
+            <h1 class="font-display text-[20px] leading-[1.3] tracking-[0.01em] mb-4 text-ink max-md:text-[16px]">
               The Front Page Will Print Here
             </h1>
-            <p class="font-caslon italic text-[22px] text-slate mb-5 pb-4 border-b border-ink">
+            <p class="font-caslon text-[11px] leading-relaxed text-slate mb-5 pb-4 border-b border-ink">
               Mark an article as <code>lead: true</code> in its frontmatter to feature it here.
             </p>
-            <p class="font-body text-[17px] text-slate">
+            <p class="font-body text-[10px] leading-relaxed text-slate">
               The lead slot is reserved for the weekly column or whatever original piece deserves above-the-fold real estate.
             </p>
           </>

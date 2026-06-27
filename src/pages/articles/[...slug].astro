@@ -31,11 +31,11 @@ const publishedString = entry.data.publishDate.toLocaleDateString('en-US', {
 <BaseLayout title={`${entry.data.title} — The 206 Fix`} description={entry.data.deck} activeNav="columns">
   <article class="container-fix py-12 max-w-[800px]">
     <div class="kicker mb-3">{entry.data.tag}</div>
-    <h1 class="font-display text-[38px] leading-[1.1] tracking-[0.01em] mb-4 text-ink max-md:text-[28px]">
+    <h1 class="font-display text-[20px] leading-[1.3] tracking-[0.01em] mb-4 text-ink max-md:text-[16px]">
       {entry.data.title}
     </h1>
     {entry.data.deck && (
-      <p class="font-caslon italic text-[22px] text-slate mb-6 pb-5 border-b border-ink">
+      <p class="font-caslon text-[11px] leading-relaxed text-slate mb-6 pb-5 border-b border-ink">
         {entry.data.deck}
       </p>
     )}
@@ -46,7 +46,7 @@ const publishedString = entry.data.publishDate.toLocaleDateString('en-US', {
       {entry.data.readMinutes && <span>{entry.data.readMinutes} min read</span>}
     </div>
 
-    <div class="prose-article font-body text-[19px] leading-[1.7]">
+    <div class="prose-article font-body text-[10px] leading-[1.8]">
       <Content />
     </div>
 
@@ -61,19 +61,21 @@ const publishedString = entry.data.publishDate.toLocaleDateString('en-US', {
     margin-bottom: 1.2em;
   }
   .prose-article h2 {
-    font-family: 'Bitcount Grid Single', system-ui, sans-serif;
+    font-family: 'Press Start 2P', monospace;
     font-weight: 800;
-    font-size: 30px;
+    font-size: 15px;
+    line-height: 1.4;
     margin-top: 2em;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.6em;
     color: var(--forest);
   }
   .prose-article h3 {
-    font-family: 'Bitcount Grid Single', system-ui, sans-serif;
+    font-family: 'Press Start 2P', monospace;
     font-weight: 700;
-    font-size: 22px;
+    font-size: 12px;
+    line-height: 1.4;
     margin-top: 1.5em;
-    margin-bottom: 0.4em;
+    margin-bottom: 0.5em;
   }
   .prose-article blockquote {
     border-left: 3px solid var(--rust);

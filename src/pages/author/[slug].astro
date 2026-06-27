@@ -78,11 +78,11 @@ function formatDate(date: Date): string {
   <section class="border-b-4 border-double border-ink py-10">
     <div class="container-fix">
       <div class="kicker mb-2">The Byline</div>
-      <h1 class="font-display text-[46px] leading-[1.05] tracking-[0.01em] text-ink max-md:text-[32px]">
+      <h1 class="font-display text-[23px] leading-[1.25] tracking-[0.01em] text-ink max-md:text-[17px]">
         {author}
       </h1>
       {bio && (
-        <p class="font-caslon italic text-[20px] text-slate mt-3 max-w-[640px]">{bio}</p>
+        <p class="font-caslon text-[10px] leading-relaxed text-slate mt-3 max-w-[640px]">{bio}</p>
       )}
       <div class="meta-line mt-4">{posts.length} {posts.length === 1 ? 'piece' : 'pieces'} published</div>
     </div>
@@ -99,11 +99,11 @@ function formatDate(date: Date): string {
               <div class="meta-line pt-1">{formatDate(post.date)}</div>
               <div>
                 <div class="kicker mb-1">{post.kicker}</div>
-                <h3 class="font-display text-[22px] leading-[1.15] tracking-[0.01em] mb-2 text-ink max-md:text-[19px]">
+                <h3 class="font-display text-[12px] leading-[1.4] tracking-[0.01em] mb-2 text-ink max-md:text-[11px]">
                   <a href={post.href} class="hover:text-rust">{post.title}</a>
                 </h3>
                 {post.deck && (
-                  <p class="font-caslon italic text-[17px] text-slate mb-2 leading-snug">{post.deck}</p>
+                  <p class="font-caslon text-[9px] text-slate mb-2 leading-relaxed">{post.deck}</p>
                 )}
                 {post.readMinutes && (
                   <div class="meta-line">{post.readMinutes} min read</div>

@@ -37,10 +37,10 @@ const { stories } = Astro.props;
             ]}
           >
             <div class="font-ui text-[10px] uppercase tracking-[0.18em] text-rust font-bold mb-[10px]">{story.tag}</div>
-            <h3 class="font-display text-[21px] leading-[1.15] tracking-[0.01em] mb-[10px] text-ink">
+            <h3 class="font-display text-[12px] leading-[1.4] tracking-[0.01em] mb-[10px] text-ink">
               <a href={`/articles/${story.slug}`} class="hover:text-rust">{story.title}</a>
             </h3>
-            <p class="font-body text-[15px] leading-[1.5] text-slate mb-3">{story.excerpt}</p>
+            <p class="font-body text-[9px] leading-[1.6] text-slate mb-3">{story.excerpt}</p>
             <div class="meta-line">
               By <a href={authorHref(story.author)} class="text-ink font-bold hover:text-rust">{story.author}</a>
               {story.readMinutes && <> &middot; {story.readMinutes} min read</>}

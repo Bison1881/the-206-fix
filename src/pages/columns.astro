@@ -25,10 +25,10 @@ const years = [...byYear.keys()].sort((a, b) => b - a);
   <section class="border-b-4 border-double border-ink py-10">
     <div class="container-fix">
       <div class="kicker mb-2">The Archive</div>
-      <h1 class="font-display text-[46px] leading-[1.05] tracking-[0.01em] text-ink max-md:text-[32px]">
+      <h1 class="font-display text-[23px] leading-[1.25] tracking-[0.01em] text-ink max-md:text-[17px]">
         Columns
       </h1>
-      <p class="font-caslon italic text-[20px] text-slate mt-3 max-w-[640px]">
+      <p class="font-caslon text-[10px] leading-relaxed text-slate mt-3 max-w-[640px]">
         Original writing. Long-view reflection, faith and sports, and the retro history that ties the channel to the page.
       </p>
     </div>
@@ -52,11 +52,11 @@ const years = [...byYear.keys()].sort((a, b) => b - a);
                   <div class="meta-line pt-1">{formatDate(article.data.publishDate)}</div>
                   <div>
                     <div class="kicker mb-1">{article.data.tag}</div>
-                    <h3 class="font-display text-[22px] leading-[1.15] tracking-[0.01em] mb-2 text-ink max-md:text-[19px]">
+                    <h3 class="font-display text-[12px] leading-[1.4] tracking-[0.01em] mb-2 text-ink max-md:text-[11px]">
                       <a href={`/articles/${article.slug}`} class="hover:text-rust">{article.data.title}</a>
                     </h3>
                     {article.data.deck && (
-                      <p class="font-caslon italic text-[17px] text-slate mb-2 leading-snug">{article.data.deck}</p>
+                      <p class="font-caslon text-[9px] text-slate mb-2 leading-relaxed">{article.data.deck}</p>
                     )}
                     <div class="meta-line">
                       By <a href={authorHref(article.data.author)} class="text-ink font-bold hover:text-rust">{article.data.author}</a>

@@ -56,17 +56,17 @@ const youtubeUrl = feature?.youtubeId
           <div class="font-mast text-[10px] text-rust mb-[14px] tracking-[0.05em] relative">
             &#9658; NOW PLAYING
           </div>
-          <h3 class="font-display text-[30px] leading-[1.1] tracking-[0.01em] mb-3 text-cream relative">
+          <h3 class="font-display text-[15px] leading-[1.35] tracking-[0.01em] mb-3 text-cream relative">
             <a href={`/retro/${feature.slug}`} class="hover:text-fog">{feature.title}</a>
           </h3>
           {feature.deck && (
-            <p class="font-caslon italic text-[17px] text-fog mb-[18px] relative">{feature.deck}</p>
+            <p class="font-caslon text-[9px] leading-relaxed text-fog mb-[18px] relative">{feature.deck}</p>
           )}
           <a
             href={youtubeUrl}
             target="_blank"
             rel="noopener noreferrer"
-            class="inline-block bg-rust text-cream font-pixel text-[16px] px-[18px] py-[10px] tracking-[0.05em] hover:bg-cream hover:text-ink relative"
+            class="inline-block bg-rust text-cream font-pixel text-[10px] px-[18px] py-[10px] tracking-[0.05em] hover:bg-cream hover:text-ink relative"
           >
             Watch on YouTube &#9654;
           </a>
@@ -79,7 +79,7 @@ const youtubeUrl = feature?.youtubeId
         <div class="bg-ink text-cream p-7 relative">
           <div class="absolute inset-2 border-2 border-dashed border-fog pointer-events-none"></div>
           <div class="font-mast text-[10px] text-rust mb-[14px] relative">&#9658; LOADING</div>
-          <h3 class="font-display text-[24px] leading-[1.15] text-cream relative">
+          <h3 class="font-display text-[13px] leading-[1.4] text-cream relative">
             No retro feature published yet. Add a Markdown file to <code>src/content/retro/</code>.
           </h3>
         </div>
@@ -93,7 +93,7 @@ const youtubeUrl = feature?.youtubeId
         ) : (
           companions.slice(0, 4).map((item) => (
             <div class="dashed-border border-x-0 border-t-0 py-[14px] first:pt-0 last:border-b-0">
-              <h4 class="font-display text-[18px] leading-[1.2] tracking-[0.01em] text-ink mb-1">
+              <h4 class="font-display text-[10px] leading-[1.4] tracking-[0.01em] text-ink mb-1">
                 <a href={`/retro/${item.slug}`} class="hover:text-rust">{item.title}</a>
               </h4>
               <div class="meta-line">
