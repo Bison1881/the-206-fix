@@ -1,52 +1,56 @@
 {
-  "generatedAt": "2026-06-27T20:59:07.972Z",
+  "generatedAt": "2026-06-27T22:59:45.987Z",
   "sourceCount": 10,
-  "successfulSources": 9,
+  "successfulSources": 8,
   "failedSources": [
     {
       "source": "Seattle Times Sports",
       "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
+    },
+    {
+      "source": "Davy Jones' Locker Room",
+      "error": "Status code 415 (lenient retry: Status code 415)"
     }
   ],
   "items": [
     {
-      "title": "Kraken Select F William Tomko 204th Overall!",
-      "link": "https://www.davyjoneslockerroom.com/kraken-select-f-william-tomko-204th-overall/",
-      "pubDate": "Sat, 27 Jun 2026 20:28:34 +0000",
-      "isoDate": "2026-06-27T20:28:34.000Z",
-      "excerpt": "The Kraken’s final selection is here! Meet William Tomko! Tomko appears before us as a Right shot Forward at 6’0, 198 pounds, playing for the Sioux Falls Musketeers, who will be heading to his first season at Ohio...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
-    },
-    {
-      "title": "Kraken Select D Rylan Singh 198th Overall!",
-      "link": "https://www.davyjoneslockerroom.com/kraken-select-d-rylan-singh-198th-overall/",
-      "pubDate": "Sat, 27 Jun 2026 20:09:21 +0000",
-      "isoDate": "2026-06-27T20:09:21.000Z",
-      "excerpt": "The 1st of the last round of the playoffs involves a young man from Pickering! Rylan Singh plays for the Guelph Storm, having a respectable line for a defenseman in OHL time, and stands at 6’0, 187 pounds; shooting...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
-    },
-    {
-      "title": "Mariners shift from piggyback, giving Gilbert long runway vs. Guardians",
-      "link": "https://www.mlb.com/mariners/news/logan-gilbert-to-start-for-mariners-without-piggyback-method",
-      "pubDate": "Sat, 27 Jun 2026 19:46:00 GMT",
-      "isoDate": "2026-06-27T19:46:00.000Z",
+      "title": "Latest Mariners injuries and transactions",
+      "link": "https://www.mlb.com/mariners/news/mariners-injuries-and-roster-moves",
+      "pubDate": "Sat, 27 Jun 2026 22:38:00 GMT",
+      "isoDate": "2026-06-27T22:38:00.000Z",
       "excerpt": "",
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
     },
     {
-      "title": "Kraken Select D Ola Palme 166th Overall!",
-      "link": "https://www.davyjoneslockerroom.com/kraken-select-d-ola-palme-166th-overall/",
-      "pubDate": "Sat, 27 Jun 2026 19:28:09 +0000",
-      "isoDate": "2026-06-27T19:28:09.000Z",
-      "excerpt": "Another swede! This one having fallen quite a bit according to the prognosticators! Palme comes from the Växjö Lakers HC U20 team, where his smart, sensible game as well as quick passing gave him a respectable point...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
+      "title": "Mariners shift from piggyback, giving Gilbert long runway vs. Guardians",
+      "link": "https://www.mlb.com/mariners/news/logan-gilbert-to-start-for-mariners-without-piggyback-method",
+      "pubDate": "Sat, 27 Jun 2026 22:37:00 GMT",
+      "isoDate": "2026-06-27T22:37:00.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Morosi: Mariners’ slumping offense needs stars to step up",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/morosi-mariners-slumping-offense-needs-stars-to-step-up",
+      "pubDate": "Sat, 27 Jun 2026 20:50:52 +0000",
+      "isoDate": "2026-06-27T20:50:52.000Z",
+      "excerpt": "The MLB Network insider is looking for more from the likes of Julio Rodríguez and Cal Raleigh.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Mariners shuffle their bullpen pile &#038; rotation/piggyback plans",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-roster/145397/mariners-shuffle-bullpen-pile-rotation-plans-josh-simpson-alex-hoppe-piggyback",
+      "pubDate": "2026-06-27T19:28:46.000Z",
+      "isoDate": "2026-06-27T19:28:46.000Z",
+      "excerpt": "PITTSBURGH, PENNSYLVANIA - JUNE 25: Alex Hoppe #48 of the Seattle Mariners gets a new ball after giving up an RBI single to Ryan O'Hearn #29 of the Pittsburgh Pirates (not pictured) in the eighth inning during the game...",
+      "source": "Lookout Landing",
+      "team": "mariners",
       "priority": 1
     },
     {
@@ -58,26 +62,6 @@
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
-    },
-    {
-      "title": "Kraken Select Luken “Hawke” Huff 148th Overall!",
-      "link": "https://www.davyjoneslockerroom.com/kraken-select-luken-hawke-huff-148th-overall/",
-      "pubDate": "Sat, 27 Jun 2026 19:05:15 +0000",
-      "isoDate": "2026-06-27T19:05:15.000Z",
-      "excerpt": "I do not mean this lightly. Hawke Huff might be in the top 10 of names in this draft, and there are some good names in this draft. Huff comes to us from the Cedar Rapids Roughriders in the USHL, where he stands at 6’3,...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
-    },
-    {
-      "title": "Kraken Select Defender Finn Kearns 131st Overall!",
-      "link": "https://www.davyjoneslockerroom.com/kraken-select-defender-finn-kearns-132nd-overall/",
-      "pubDate": "Sat, 27 Jun 2026 18:47:48 +0000",
-      "isoDate": "2026-06-27T18:47:48.000Z",
-      "excerpt": "Now this is an interesting pick. Seattle traded down for this pick with the New York Rangers, and selected a player from Prep High School, who is now committed to playing at Umass Amherst for the Minutemen this Fall. He...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
     },
     {
       "title": "First things worst &#8211; the Mariners&#8217; trouble with the first pitch",
@@ -98,26 +82,6 @@
       "source": "Pro Football Rumors",
       "team": "seahawks",
       "priority": 2
-    },
-    {
-      "title": "Kraken Select F Viktor Fedorov 99th Overall!",
-      "link": "https://www.davyjoneslockerroom.com/kraken-select-f-viktor-fedorov-99th-overall/",
-      "pubDate": "Sat, 27 Jun 2026 17:53:17 +0000",
-      "isoDate": "2026-06-27T17:53:17.000Z",
-      "excerpt": "The Kraken used their 99th overall pick to get a little russian flair in their draft class! Fedorov comes from Tomsk, Russia, sitting at 5’10 and 183 pounds, shooting left. He plays in the Torpedo Nizhny Novgorod club;...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
-    },
-    {
-      "title": "Kraken Select F Casey Mutryn 38th Overall!",
-      "link": "https://www.davyjoneslockerroom.com/kraken-select-f-casey-mutryn-38th-overall/",
-      "pubDate": "Sat, 27 Jun 2026 17:38:22 +0000",
-      "isoDate": "2026-06-27T17:38:22.000Z",
-      "excerpt": "The Kraken’s 2nd rounder was used on USNTDP winger Casey Mutryn! Mutryn hails from Norwood, MA and is 6’3, 203 pounds, shooting Right. He’s primarily known in the USNTDP circles for his defensive game, which has made...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
     },
     {
       "title": "Seattle Mariners change up starting pitching plans",
@@ -250,26 +214,6 @@
       "priority": 3
     },
     {
-      "title": "Kraken take defenseman Chase Reid with No. 7 pick in NHL Draft",
-      "link": "https://sports.mynorthwest.com/nhl/seattle-kraken/kraken-take-defenseman-chase-reid-with-no-7-pick-in-nhl-draft",
-      "pubDate": "Sat, 27 Jun 2026 00:30:26 +0000",
-      "isoDate": "2026-06-27T00:30:26.000Z",
-      "excerpt": "Seattle took a defenseman in the first round for the first time in franchise history.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "Kraken pick Chase Reid 7th Overall!",
-      "link": "https://www.davyjoneslockerroom.com/kraken-pick-chase-reid-7th-overall/",
-      "pubDate": "Sat, 27 Jun 2026 00:30:07 +0000",
-      "isoDate": "2026-06-27T00:30:07.000Z",
-      "excerpt": "OH MY GOD CHASE REID WAS AVAILABLE FOR THE KRAKEN AND THEY TOOK HIM Chase Reid is a Michigan born defender who stands at 6’2, and weighs in at 194 pounds, shooting Right. He was considered one of the better skaters in...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
-    },
-    {
       "title": "Mariners Game #83 Preview and Discussion: 6/26, SEA at CLE",
       "link": "https://www.lookoutlanding.com/seattle-mariners-discussion/145354/mariners-game-83-preview-and-discussion-6-26-sea-at-cle",
       "pubDate": "2026-06-26T22:02:24.000Z",
@@ -327,16 +271,6 @@
       "excerpt": "It is the quiet time of year in the NFL. No training camps, no games, generally no big trades or free agent signings. There’s a lot to look forward to, and as the reigning Super Bowl Champions, the Seattle Seahawks sit...",
       "source": "Field Gulls",
       "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "Mariners News: Andrés Muñoz, Miles Mastrobuoni, and Corey Seager",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-news/145331/mariners-news-andres-munoz-miles-mastrobuoni-and-corey-seager",
-      "pubDate": "2026-06-26T14:00:00.000Z",
-      "isoDate": "2026-06-26T14:00:00.000Z",
-      "excerpt": "Jun 25, 2026; Toronto, Ontario, CAN; Texas Rangers shortstop Corey Seager (5) turns a double play against Toronto Blue Jays shortstop Ernie Clement (not pictured) first baseman Vladimir Guerrero Jr. (not pictured)...",
-      "source": "Lookout Landing",
-      "team": "mariners",
       "priority": 1
     },
     {
@@ -398,16 +332,6 @@
       "source": "MLB Trade Rumors",
       "team": "mariners",
       "priority": 2
-    },
-    {
-      "title": "Latest Mariners injuries and transactions",
-      "link": "https://www.mlb.com/mariners/news/mariners-injuries-and-roster-moves",
-      "pubDate": "Thu, 25 Jun 2026 18:31:00 GMT",
-      "isoDate": "2026-06-25T18:31:00.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
     },
     {
       "title": "Seahawks 2026 rookie predictions: Why Deven Eastern faces tough path to active roster",
@@ -607,6 +531,86 @@
       "excerpt": "Infielder/outfielder Weston Wilson has signed a minor league contract with the Mariners after electing free agency in lieu of an outright assignment from the Orioles late last week. The team never formally announced the...",
       "source": "MLB Trade Rumors",
       "team": "mariners",
+      "priority": 2
+    },
+    {
+      "title": "Royals Acquire Randy Dobnak",
+      "link": "https://www.mlbtraderumors.com/2026/06/royals-to-acquire-randy-dobnak.html",
+      "pubDate": "Wed, 17 Jun 2026 23:52:54 +0000",
+      "isoDate": "2026-06-17T23:52:54.000Z",
+      "excerpt": "6:52pm: Kansas City officially acquired Dobnak for cash considerations and optioned him to Triple-A. They transferred Cole Ragans from the 15-day to the 60-day injured list to open a spot on the 40-man roster. Ragans...",
+      "source": "MLB Trade Rumors",
+      "team": "mariners",
+      "priority": 2
+    },
+    {
+      "title": "Seahawks Mailbag: Super Bowl Rings, Year 2 Nick Emmanwori & More",
+      "link": "https://www.seahawks.com/news/seahawks-mailbag-super-bowl-rings-year-2-nick-emmanwori-more",
+      "pubDate": "Wed, 17 Jun 2026 23:14:34 GMT",
+      "isoDate": "2026-06-17T23:14:34.000Z",
+      "excerpt": "You had Seahawks questions; we have answers.",
+      "source": "Seahawks.com",
+      "team": "seahawks",
+      "priority": 6
+    },
+    {
+      "title": "Seahawks Promote Willie Schneider, Matt Berry To Assistant GM",
+      "link": "https://www.profootballrumors.com/2026/06/seahawks-promote-willie-schneider-matt-berry-to-assistant-gm",
+      "pubDate": "Wed, 17 Jun 2026 19:05:21 +0000",
+      "isoDate": "2026-06-17T19:05:21.000Z",
+      "excerpt": "The reigning Super Bowl champion Seahawks are making a couple of front office promotions, Tom Pelissero of NFL Network reports. They will elevate director of pro personnel Willie Schneider and vice president/player...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
+      "priority": 2
+    },
+    {
+      "title": "Mariners Place Randy Arozarena On Injured List",
+      "link": "https://www.mlbtraderumors.com/2026/06/mariners-to-place-randy-arozarena-on-injured-list.html",
+      "pubDate": "Wed, 17 Jun 2026 01:14:36 +0000",
+      "isoDate": "2026-06-17T01:14:36.000Z",
+      "excerpt": "8:14pm: Seattle has officially announced all three moves: Arozarena’s retroactive IL placement, Washington’s selection, and Wilson’s transfer to the 60-day injured list. Wilson has been out since late April with a...",
+      "source": "MLB Trade Rumors",
+      "team": "mariners",
+      "priority": 2
+    },
+    {
+      "title": "Free Agent Focus: Seattle Kraken",
+      "link": "https://www.prohockeyrumors.com/2026/06/free-agent-focus-seattle-kraken-4.html",
+      "pubDate": "Tue, 16 Jun 2026 22:45:55 +0000",
+      "isoDate": "2026-06-16T22:45:55.000Z",
+      "excerpt": "Free agency is now less than a month away, and teams are looking ahead to when it opens. Even with the UFA crop being thinned out in recent months, there will be some quality veterans set to hit the open market in July,...",
+      "source": "Pro Hockey Rumors",
+      "team": "kraken",
+      "priority": 2
+    },
+    {
+      "title": "Mariners Outright Domingo González",
+      "link": "https://www.mlbtraderumors.com/2026/06/mariners-outright-domingo-gonzalez.html",
+      "pubDate": "Tue, 16 Jun 2026 01:26:34 +0000",
+      "isoDate": "2026-06-16T01:26:34.000Z",
+      "excerpt": "The Mariners announced that right-hander Domingo González has cleared waivers and been assigned outright to Triple-A Tacoma. Seattle also optioned infielder Patrick Wisdom on tonight’s day off, opening an active roster...",
+      "source": "MLB Trade Rumors",
+      "team": "mariners",
+      "priority": 2
+    },
+    {
+      "title": "Randy Dobnak Triggers Upward Mobility Clause In Mariners Deal",
+      "link": "https://www.mlbtraderumors.com/2026/06/randy-dobnak-has-upward-mobility-clause-in-mariners-deal.html",
+      "pubDate": "Mon, 15 Jun 2026 23:37:30 +0000",
+      "isoDate": "2026-06-15T23:37:30.000Z",
+      "excerpt": "June 15: Alexander reports that Dobnak has triggered the assignment clause, as expected. The righty will now await word on whether any team is willing to add him to the 40-man roster. June 8: Randy Dobnak signed a minor...",
+      "source": "MLB Trade Rumors",
+      "team": "mariners",
+      "priority": 2
+    },
+    {
+      "title": "Latest On Zach Charbonnet, Seahawks’ RBs",
+      "link": "https://www.profootballrumors.com/2026/06/latest-on-zach-charbonnet-seahawks-rbs",
+      "pubDate": "Mon, 15 Jun 2026 03:05:05 +0000",
+      "isoDate": "2026-06-15T03:05:05.000Z",
+      "excerpt": "Seahawks running back Zach Charbonnet is just five months removed from tearing his ACL in a January playoff win over the 49ers, but he is not a lock to miss time in 2026. Head coach Mike Macdonald isn’t closing the door...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
       "priority": 2
     }
   ]
