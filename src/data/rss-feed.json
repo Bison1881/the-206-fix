@@ -1,14 +1,49 @@
 {
-  "generatedAt": "2026-06-27T10:04:02.025Z",
+  "generatedAt": "2026-06-27T13:25:42.622Z",
   "sourceCount": 10,
-  "successfulSources": 9,
-  "failedSources": [
-    {
-      "source": "Seattle Times Sports",
-      "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
-    }
-  ],
+  "successfulSources": 10,
+  "failedSources": [],
   "items": [
+    {
+      "title": "2026 World Cup: Iran earns tie — and immediately needs to leave U.S.",
+      "link": "https://www.seattletimes.com/sports/world-cup/2026-world-cup-iran-earns-tie-and-immediately-needs-to-leave-u-s/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Sat, 27 Jun 2026 06:00:00 -0700",
+      "isoDate": "2026-06-27T13:00:00.000Z",
+      "excerpt": "Iran tied Egypt 1-1 at Seattle Stadium, and had to quickly leave the country. But the team let it be known how they feel about the situation before it left.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "MLB trade deadline: 10 players Mariners could pursue this summer",
+      "link": "https://www.seattletimes.com/sports/mariners/mlb-trade-deadline-10-players-mariners-could-pursue-this-summer/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Sat, 27 Jun 2026 06:00:00 -0700",
+      "isoDate": "2026-06-27T13:00:00.000Z",
+      "excerpt": "The Mariners have identified two areas of need for their roster, and the club has cast a wide net in scouting potential trade targets.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "2026 World Cup: Egypt celebrates first-ever trip to knockout round",
+      "link": "https://www.seattletimes.com/sports/world-cup/2026-world-cup-egypt-celebrates-first-ever-trip-to-knockout-round/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Sat, 27 Jun 2026 00:45:17 -0700",
+      "isoDate": "2026-06-27T07:45:17.000Z",
+      "excerpt": "Egypt earned a 1-1 tie with Iran after a late goal was reversed, and they started celebrating their first-ever trip to the FIFA Men's World Cup knockout round.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Stars like Mohamed Salah make World Cup magical for Seattle sports fans",
+      "link": "https://www.seattletimes.com/sports/world-cup/stars-like-mohamed-salah-make-world-cup-magical-for-seattle-sports-fans/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Fri, 26 Jun 2026 22:48:37 -0700",
+      "isoDate": "2026-06-27T05:48:37.000Z",
+      "excerpt": "Seattle will remember Mohamed Salah after this World Cup comes to an end. This proximity to excellence is part of what makes the tournament so great.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
     {
       "title": "World Cup: Egypt, Iran play to 1-1 draw in Seattle",
       "link": "https://sports.mynorthwest.com/seattle-sports-pit/world-cup-egypt-iran-play-to-1-1-draw-in-seattle",
@@ -30,6 +65,26 @@
       "priority": 6
     },
     {
+      "title": "Trossard, De Bruyne score and Belgium defeats New Zealand 5-1 to advance at the World Cup",
+      "link": "https://www.seattletimes.com/sports/world-cup/2026-world-cup-belgium-defeats-new-zealand-to-advance-to-knockout-rounds/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Fri, 26 Jun 2026 22:23:54 -0700",
+      "isoDate": "2026-06-27T05:23:54.000Z",
+      "excerpt": "Leandro Trossard scored a pair of goals and Belgium overcame a slow start at the World Cup to advance to the knockout round with a victory over New Zealand.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "2026 World Cup: Much anticipated Iran vs. Egypt match ends in dramatic draw",
+      "link": "https://www.seattletimes.com/sports/world-cup/2026-world-cup-iran-egypt-match-ends-in-draw/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Fri, 26 Jun 2026 22:09:39 -0700",
+      "isoDate": "2026-06-27T05:09:39.000Z",
+      "excerpt": "A World Cup match at Seattle Stadium that had been circled on the calendar for months, as much for what could happen off the field as on it, ends in a 1-1 tie.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
       "title": "20-year-old Emerson homers in 'special' Ohio homecoming",
       "link": "https://www.mlb.com/mariners/news/colt-emerson-homers-in-mariners-win-over-guardians",
       "pubDate": "Sat, 27 Jun 2026 04:22:00 GMT",
@@ -40,6 +95,16 @@
       "priority": 6
     },
     {
+      "title": "Egypt, Iran fans mix with protesters and pride flags in latest Seattle match",
+      "link": "https://www.seattletimes.com/seattle-news/world-cup-seattle/egypt-iran-fans-mix-with-protesters-and-pride-flags-in-latest-seattle-match/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Fri, 26 Jun 2026 20:57:25 -0700",
+      "isoDate": "2026-06-27T03:57:25.000Z",
+      "excerpt": "Friday’s World Cup soccer match in Seattle was colorful, in every sense of the word. The match between Egypt and Iran was anticipated for the soccer and political tensions.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
       "title": "The NFL’s Assistant General Managers",
       "link": "https://www.profootballrumors.com/2026/06/the-nfls-assistant-general-managers",
       "pubDate": "Sat, 27 Jun 2026 03:15:34 +0000",
@@ -48,6 +113,16 @@
       "source": "Pro Football Rumors",
       "team": "seahawks",
       "priority": 2
+    },
+    {
+      "title": "Photos: Egypt’s Group G finale against Iran in Seattle",
+      "link": "https://www.seattletimes.com/sports/world-cup/photos-egypts-group-g-finale-against-iran-in-seattle/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Fri, 26 Jun 2026 19:51:28 -0700",
+      "isoDate": "2026-06-27T02:51:28.000Z",
+      "excerpt": "",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
     },
     {
       "title": "Cantillo&#8217;s curveball not enough for Cleveland, M&#8217;s win 3-1",
@@ -527,86 +602,6 @@
       "excerpt": "In their recent announcement disclosing promotions for two staffers to assistant general manager, the Seahawks announced four other promotions in Seattle’s front office. In the player personnel department, Aaron...",
       "source": "Pro Football Rumors",
       "team": "seahawks",
-      "priority": 2
-    },
-    {
-      "title": "Mariners Outright Curtis Washington Jr.",
-      "link": "https://www.mlbtraderumors.com/2026/06/mariners-outright-curtis-washington-jr.html",
-      "pubDate": "Sat, 20 Jun 2026 18:19:13 +0000",
-      "isoDate": "2026-06-20T18:19:13.000Z",
-      "excerpt": "The Mariners announced that outfielder Curtis Washington Jr. was outrighted to A-level Everett after clearing waivers. There wasn’t any public indication that Washington had also been designated for assignment when he...",
-      "source": "MLB Trade Rumors",
-      "team": "mariners",
-      "priority": 2
-    },
-    {
-      "title": "Justin Schultz Joins Kraken's Development Staff",
-      "link": "https://www.prohockeyrumors.com/2026/06/west-notes-karlsson-schultz-martin.html",
-      "pubDate": "Sat, 20 Jun 2026 18:19:00 +0000",
-      "isoDate": "2026-06-20T18:19:00.000Z",
-      "excerpt": "Notes from the West including surgery for William Karlsson, a long-time defenseman joins Seattle's development staff, and more.",
-      "source": "Pro Hockey Rumors",
-      "team": "kraken",
-      "priority": 2
-    },
-    {
-      "title": "Mariners Designate Miles Mastrobuoni For Assignment, Select Weston Wilson",
-      "link": "https://www.mlbtraderumors.com/2026/06/mariners-designate-miles-mastrobuoni-for-assignment-select-weston-wilson.html",
-      "pubDate": "Fri, 19 Jun 2026 22:30:27 +0000",
-      "isoDate": "2026-06-19T22:30:27.000Z",
-      "excerpt": "The Mariners have selected the contract of infielder/outfielder Weston Wilson. Fellow infielder/outfielder Miles Mastrobuoni has been designated in a corresponding move. Prior to the official announcement, Adam Jude of...",
-      "source": "MLB Trade Rumors",
-      "team": "mariners",
-      "priority": 2
-    },
-    {
-      "title": "Takeaways From The Seahawks' 2026 Offseason Program & Minicamp",
-      "link": "https://www.seahawks.com/news/takeaways-from-the-seahawks-2026-offseason-program-minicamp",
-      "pubDate": "Fri, 19 Jun 2026 20:35:51 GMT",
-      "isoDate": "2026-06-19T20:35:51.000Z",
-      "excerpt": "Looking back at what we learned from the Seahawks’ voluntary offseason workouts and mandatory minicamp.",
-      "source": "Seahawks.com",
-      "team": "seahawks",
-      "priority": 6
-    },
-    {
-      "title": "Kraken Re-Sign Logan Morrison To One-Year Deal",
-      "link": "https://www.prohockeyrumors.com/2026/06/kraken-re-sign-logan-morrison-to-one-year-deal.html",
-      "pubDate": "Thu, 18 Jun 2026 23:44:23 +0000",
-      "isoDate": "2026-06-18T23:44:23.000Z",
-      "excerpt": "The Seattle Kraken have re-signed pending RFA center Logan Morrison to a one-year contract.",
-      "source": "Pro Hockey Rumors",
-      "team": "kraken",
-      "priority": 2
-    },
-    {
-      "title": "Pierre-Edouard Bellemare Announces Retirement",
-      "link": "https://www.prohockeyrumors.com/2026/06/pierre-edouard-bellemare-announces-retirement.html",
-      "pubDate": "Thu, 18 Jun 2026 19:11:42 +0000",
-      "isoDate": "2026-06-18T19:11:42.000Z",
-      "excerpt": "The second-highest scoring French-born player in NHL history has hung up his skates. According to an announcement from the NHL, forward Pierre-Édouard Bellemare has retired from professional hockey. Before his time in...",
-      "source": "Pro Hockey Rumors",
-      "team": "kraken",
-      "priority": 2
-    },
-    {
-      "title": "Mariners Sign Weston Wilson To Minor League Contract",
-      "link": "https://www.mlbtraderumors.com/2026/06/mariners-sign-weston-wilson-to-minor-league-contract.html",
-      "pubDate": "Thu, 18 Jun 2026 16:57:43 +0000",
-      "isoDate": "2026-06-18T16:57:43.000Z",
-      "excerpt": "Infielder/outfielder Weston Wilson has signed a minor league contract with the Mariners after electing free agency in lieu of an outright assignment from the Orioles late last week. The team never formally announced the...",
-      "source": "MLB Trade Rumors",
-      "team": "mariners",
-      "priority": 2
-    },
-    {
-      "title": "Royals Acquire Randy Dobnak",
-      "link": "https://www.mlbtraderumors.com/2026/06/royals-to-acquire-randy-dobnak.html",
-      "pubDate": "Wed, 17 Jun 2026 23:52:54 +0000",
-      "isoDate": "2026-06-17T23:52:54.000Z",
-      "excerpt": "6:52pm: Kansas City officially acquired Dobnak for cash considerations and optioned him to Triple-A. They transferred Cole Ragans from the 15-day to the 60-day injured list to open a spot on the 40-man roster. Ragans...",
-      "source": "MLB Trade Rumors",
-      "team": "mariners",
       "priority": 2
     }
   ]
