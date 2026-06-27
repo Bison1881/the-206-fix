@@ -1,9 +1,19 @@
 {
-  "generatedAt": "2026-06-27T13:25:42.622Z",
+  "generatedAt": "2026-06-27T15:13:31.617Z",
   "sourceCount": 10,
   "successfulSources": 10,
   "failedSources": [],
   "items": [
+    {
+      "title": "Mariners News: Perry Minasian, Carlos Mendoza, and Mike Trout",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-news/145376/mariners-news-perry-minasian-carlos-mendoza-and-mike-trout",
+      "pubDate": "2026-06-27T14:00:00.000Z",
+      "isoDate": "2026-06-27T14:00:00.000Z",
+      "excerpt": "Jun 11, 2026; New York City, New York, USA; New York Mets manager Carlos Mendoza (64) watches from the dugout during the third inning against the St. Louis Cardinals at Citi Field. Mandatory Credit: Brad Penner-Imagn...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
     {
       "title": "2026 World Cup: Iran earns tie — and immediately needs to leave U.S.",
       "link": "https://www.seattletimes.com/sports/world-cup/2026-world-cup-iran-earns-tie-and-immediately-needs-to-leave-u-s/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
@@ -22,6 +32,16 @@
       "excerpt": "The Mariners have identified two areas of need for their roster, and the club has cast a wide net in scouting potential trade targets.",
       "source": "Seattle Times Sports",
       "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Seahawks News 6/27: Seahawks WR room needs some work",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-news/170016/seahawks-news-6-27-seahawks-wr-room-needs-some-work",
+      "pubDate": "2026-06-27T13:00:00.000Z",
+      "isoDate": "2026-06-27T13:00:00.000Z",
+      "excerpt": "Jun 9, 2026; Renton, WA, USA; Seattle Seahawks wide receiver Rashid Shaheed (22) during minicamp at Virginia Mason Athletic Center. Mandatory Credit: Steven Bisig-Imagn Images | Steven Bisig-Imagn Images In Today’s...",
+      "source": "Field Gulls",
+      "team": "seahawks",
       "priority": 1
     },
     {
@@ -385,16 +405,6 @@
       "priority": 2
     },
     {
-      "title": "41-41: Chart",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/145315/41-41-chart",
-      "pubDate": "2026-06-25T19:29:35.000Z",
-      "isoDate": "2026-06-25T19:29:35.000Z",
-      "excerpt": "PITTSBURGH, PA - JUNE 25: Brandon Lowe #5 of the Pittsburgh Pirates rounds the bases after hitting a home run in the first inning during the game between the Seattle Mariners and the Pittsburgh Pirates at PNC Park on...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
       "title": "Latest Mariners injuries and transactions",
       "link": "https://www.mlb.com/mariners/news/mariners-injuries-and-roster-moves",
       "pubDate": "Thu, 25 Jun 2026 18:31:00 GMT",
@@ -450,16 +460,6 @@
       "pubDate": "2026-06-24T19:55:46.000Z",
       "isoDate": "2026-06-24T19:55:46.000Z",
       "excerpt": "The Seattle Seahawks are preparing a year’s worth of fun for Emerald City football fans. On Wednesday, the Seahawks announced a series of dates for a Lombardi Trophy tour, beginning with select dates during training...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "Seahawks Reacts Survey: Which Seahawk (not named JSN) will have the most catches?",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/169877/seahawks-reacts-survey-which-player-most-catches-not-jaxon-smith-njigba-nfl-discussion",
-      "pubDate": "2026-06-24T14:00:00.000Z",
-      "isoDate": "2026-06-24T14:00:00.000Z",
-      "excerpt": "Dec 8, 2024; Glendale, Arizona, USA; Seattle Seahawks tight end AJ Barner (88) against the Arizona Cardinals at State Farm Stadium. Mandatory Credit: Mark J. Rebilas-Imagn Images | Mark J. Rebilas-Imagn Images Welcome...",
       "source": "Field Gulls",
       "team": "seahawks",
       "priority": 1
