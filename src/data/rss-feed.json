@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T17:05:46.729Z",
+  "generatedAt": "2026-06-28T19:14:11.727Z",
   "sourceCount": 10,
   "successfulSources": 9,
   "failedSources": [
@@ -9,6 +9,26 @@
     }
   ],
   "items": [
+    {
+      "title": "Mariners OF Luke Raley out of lineup with sore elbow",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-luke-raley-out-lineup-sore-elbow-guardians",
+      "pubDate": "Sun, 28 Jun 2026 17:42:25 +0000",
+      "isoDate": "2026-06-28T17:42:25.000Z",
+      "excerpt": "Seattle Mariners outfielder Luke Raley is out of Sunday's lineup with a sore elbow, but M's insider Shannon Drayer said it doesn't appear to be serious.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Mariners Game #85 Preview and Discussion, 6/28/26: SEA at CLE",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-discussion/145430/mariners-game-85-preview-and-discussion-6-28-26-sea-at-cle",
+      "pubDate": "2026-06-28T17:22:37.000Z",
+      "isoDate": "2026-06-28T17:22:37.000Z",
+      "excerpt": "Jun 20, 2026; Seattle, Washington, USA; Seattle Mariners starter Emerson Hancock (26) delivers a pitch second inning against the Boston Red Sox at T-Mobile Park. Mandatory Credit: Stephen Brashear-Imagn Images | Stephen...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
     {
       "title": "Latest Mariners injuries and transactions",
       "link": "https://www.mlb.com/mariners/news/mariners-injuries-and-roster-moves",
@@ -20,6 +40,16 @@
       "priority": 6
     },
     {
+      "title": "As Rams get the attention, Seahawks can’t forget about 49ers",
+      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/seattle-seahawks-la-rams-cant-forget-san-francisco-49ers",
+      "pubDate": "Sun, 28 Jun 2026 16:13:34 +0000",
+      "isoDate": "2026-06-28T16:13:34.000Z",
+      "excerpt": "\"The Rams are scary on paper. The team that might scare me a little more is the 49ers,\" Seattle Sports' Bob Stelton said.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
       "title": "Mariners No. 3 prospect Sloan keeps racking up the K's at Double-A",
       "link": "https://www.mlb.com/mariners/news/mariners-prospect-ryan-sloan-gets-nine-strikeouts-at-double-a",
       "pubDate": "Sun, 28 Jun 2026 16:04:17 GMT",
@@ -28,6 +58,16 @@
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
+    },
+    {
+      "title": "Jaxon Smith-Njigba, Seahawks nominated for ESPY awards",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-news/170038/seattle-seahawks-nominated-two-espy-awards-super-bowl-smith-njigba",
+      "pubDate": "2026-06-28T15:00:00.000Z",
+      "isoDate": "2026-06-28T15:00:00.000Z",
+      "excerpt": "Seattle Seahawks star wideout Jaxon Smith-Njigba hasn’t had the best luck with awards this offseason. From the incident at the NFL award show to the league accidentally donning him the Defensive Player of the Year, the...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
     },
     {
       "title": "Seahawks fan discussion: Where in the world have you attended a Seahawks road game?",
@@ -280,26 +320,6 @@
       "priority": 3
     },
     {
-      "title": "Seattle Kraken 2026 NHL Draft Tracker: Follow every pick",
-      "link": "https://sports.mynorthwest.com/nhl/seattle-kraken/seattle-kraken-2026-nhl-draft-tracker-follow-every-pick",
-      "pubDate": "Sat, 27 Jun 2026 16:40:26 +0000",
-      "isoDate": "2026-06-27T16:40:26.000Z",
-      "excerpt": "Keep up with every Kraken pick by following along on our 2026 NHL Draft Tracker.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "Brock: Seahawks linebacker has key trait that ‘maximizes’ skills",
-      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/brock-seahawks-linebacker-has-key-trait-that-maximizes-skills",
-      "pubDate": "Sat, 27 Jun 2026 16:05:02 +0000",
-      "isoDate": "2026-06-27T16:05:02.000Z",
-      "excerpt": "Brock Huard sees similarities between Drake Thomas and some past Seahawks greats like Doug Baldwin and Mack Strong.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
       "title": "Mariners News: Perry Minasian, Carlos Mendoza, and Mike Trout",
       "link": "https://www.lookoutlanding.com/seattle-mariners-news/145376/mariners-news-perry-minasian-carlos-mendoza-and-mike-trout",
       "pubDate": "2026-06-27T14:00:00.000Z",
@@ -348,16 +368,6 @@
       "source": "Pro Football Rumors",
       "team": "seahawks",
       "priority": 2
-    },
-    {
-      "title": "Cantillo&#8217;s curveball not enough for Cleveland, M&#8217;s win 3-1",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/145368/cantillos-curveball-not-enough-for-cleveland-ms-win-3-1",
-      "pubDate": "2026-06-27T02:47:18.000Z",
-      "isoDate": "2026-06-27T02:47:18.000Z",
-      "excerpt": "CLEVELAND, OHIO - JUNE 26: Luis Castillo #58 of the Seattle Mariners throws a pitch during the first inning against the Cleveland Guardians at Progressive Field on June 26, 2026 in Cleveland, Ohio. (Photo by Nick...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
     },
     {
       "title": "Kraken pick Chase Reid 7th Overall!",
@@ -438,16 +448,6 @@
       "source": "MLB Trade Rumors",
       "team": "mariners",
       "priority": 2
-    },
-    {
-      "title": "Seahawks 2026 rookie predictions: Why Deven Eastern faces tough path to active roster",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/169929/seahawks-2026-nfl-rookie-predictions-why-deven-eastern-faces-tough-path-active-roster",
-      "pubDate": "2026-06-25T15:00:00.000Z",
-      "isoDate": "2026-06-25T15:00:00.000Z",
-      "excerpt": "MINNEAPOLIS, MINNESOTA - OCTOBER 17: Dylan Raiola #15 of the Nebraska Cornhuskers is sacked by Deven Eastern #91 of the Minnesota Golden Gophers in the first quarter at Huntington Bank Stadium on October 17, 2025 in...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
     },
     {
       "title": "Seahawks Legends Attend Legends Spring Event",
