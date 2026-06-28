@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T19:14:11.727Z",
+  "generatedAt": "2026-06-28T20:57:56.567Z",
   "sourceCount": 10,
   "successfulSources": 9,
   "failedSources": [
@@ -9,6 +9,26 @@
     }
   ],
   "items": [
+    {
+      "title": "Former Bears GM Ryan Pace Headlines Vikings’ Front Office Hires",
+      "link": "https://www.profootballrumors.com/2026/06/former-bears-gm-ryan-pace-headlines-vikings-front-office-hires",
+      "pubDate": "Sun, 28 Jun 2026 19:33:26 +0000",
+      "isoDate": "2026-06-28T19:33:26.000Z",
+      "excerpt": "The Vikings took their time finding a new general manager after firing Kwesi Adofo-Mensah in February. Vice president of football operations Rob Brzezinski steered Minnesota through free agency and the draft, which...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
+      "priority": 2
+    },
+    {
+      "title": "Mariners’ Patrick Wisdom has eventful weekend in Triple-A Tacoma",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-patrick-wisdom-eventful-weekend-triple-a-tacoma",
+      "pubDate": "Sun, 28 Jun 2026 19:16:12 +0000",
+      "isoDate": "2026-06-28T19:16:12.000Z",
+      "excerpt": "Seattle Mariners infielder Patrick Wisdom had a three-homer game at Triple-A Tacoma – one night after a brawl that stemmed from him getting hit by two pitches.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
     {
       "title": "Mariners OF Luke Raley out of lineup with sore elbow",
       "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-luke-raley-out-lineup-sore-elbow-guardians",
@@ -310,16 +330,6 @@
       "priority": 1
     },
     {
-      "title": "Seattle Mariners change up starting pitching plans",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-change-up-starting-pitching-plans",
-      "pubDate": "Sat, 27 Jun 2026 17:31:14 +0000",
-      "isoDate": "2026-06-27T17:31:14.000Z",
-      "excerpt": "The team will no longer be using a piggyback start on Saturday, per M's insider Shannon Drayer.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
       "title": "Mariners News: Perry Minasian, Carlos Mendoza, and Mike Trout",
       "link": "https://www.lookoutlanding.com/seattle-mariners-news/145376/mariners-news-perry-minasian-carlos-mendoza-and-mike-trout",
       "pubDate": "2026-06-27T14:00:00.000Z",
@@ -597,16 +607,6 @@
       "excerpt": "The second-highest scoring French-born player in NHL history has hung up his skates. According to an announcement from the NHL, forward Pierre-Édouard Bellemare has retired from professional hockey. Before his time in...",
       "source": "Pro Hockey Rumors",
       "team": "kraken",
-      "priority": 2
-    },
-    {
-      "title": "Mariners Sign Weston Wilson To Minor League Contract",
-      "link": "https://www.mlbtraderumors.com/2026/06/mariners-sign-weston-wilson-to-minor-league-contract.html",
-      "pubDate": "Thu, 18 Jun 2026 16:57:43 +0000",
-      "isoDate": "2026-06-18T16:57:43.000Z",
-      "excerpt": "Infielder/outfielder Weston Wilson has signed a minor league contract with the Mariners after electing free agency in lieu of an outright assignment from the Orioles late last week. The team never formally announced the...",
-      "source": "MLB Trade Rumors",
-      "team": "mariners",
       "priority": 2
     }
   ]
