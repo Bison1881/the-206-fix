@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T20:57:56.567Z",
+  "generatedAt": "2026-06-28T22:59:28.828Z",
   "sourceCount": 10,
   "successfulSources": 9,
   "failedSources": [
@@ -10,7 +10,37 @@
   ],
   "items": [
     {
-      "title": "Former Bears GM Ryan Pace Headlines Vikings’ Front Office Hires",
+      "title": "Disaster inning undoes Mariners in 6-5 loss to Guardians",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/145437/disaster-inning-undoes-mariners-in-6-5-loss-to-guardians",
+      "pubDate": "2026-06-28T22:25:34.000Z",
+      "isoDate": "2026-06-28T22:25:34.000Z",
+      "excerpt": "Jun 28, 2026; Cleveland, Ohio, USA; Cleveland Guardians shortstop Brayan Rocchio (4) bobbles the ball looking to turn the double play as Seattle Mariners designated hitter Cal Raleigh (29) is out at second base during...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "42-43: Chart",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/145438/42-43-chart",
+      "pubDate": "2026-06-28T21:00:29.000Z",
+      "isoDate": "2026-06-28T21:00:29.000Z",
+      "excerpt": "The 'Endeavour' on the reef, Australia, 1770 (1886). The 'Endeavour', commanded by Captain James Cook ran aground on the Great Barrier Reef on 10 June 1770. Wood engraving from 'Picturesque Atlas of Australasia, Vol I',...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "AL West Check-In: Rangers OF Wyatt Langford headed back to IL",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/al-west-check-in-rangers-wyatt-langford-injured-list",
+      "pubDate": "Sun, 28 Jun 2026 20:29:55 +0000",
+      "isoDate": "2026-06-28T20:29:55.000Z",
+      "excerpt": "Langford hit seven home runs in 20 games since returning from his previous IL stint.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Vikings Announce Front Office Hires",
       "link": "https://www.profootballrumors.com/2026/06/former-bears-gm-ryan-pace-headlines-vikings-front-office-hires",
       "pubDate": "Sun, 28 Jun 2026 19:33:26 +0000",
       "isoDate": "2026-06-28T19:33:26.000Z",
@@ -250,16 +280,6 @@
       "priority": 1
     },
     {
-      "title": "Roster Moves: Mariners recall LHP Josh Simpson, option reliever",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/roster-moves-mariners-recall-lhp-josh-simpson-option-reliever",
-      "pubDate": "Sat, 27 Jun 2026 19:09:16 +0000",
-      "isoDate": "2026-06-27T19:09:16.000Z",
-      "excerpt": "Right-hander Alex Hoppe was sent down to Triple-A Tacoma.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
       "title": "Kraken Select Luken “Hawke” Huff 148th Overall!",
       "link": "https://www.davyjoneslockerroom.com/kraken-select-luken-hawke-huff-148th-overall/",
       "pubDate": "Sat, 27 Jun 2026 19:05:15 +0000",
@@ -277,16 +297,6 @@
       "excerpt": "Now this is an interesting pick. Seattle traded down for this pick with the New York Rangers, and selected a player from Prep High School, who is now committed to playing at Umass Amherst for the Minutemen this Fall. He...",
       "source": "Davy Jones' Locker Room",
       "team": "kraken",
-      "priority": 1
-    },
-    {
-      "title": "First things worst &#8211; the Mariners&#8217; trouble with the first pitch",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-analysis/145386/first-things-worst-seattle-mariners-trouble-with-first-pitches",
-      "pubDate": "2026-06-27T18:42:59.000Z",
-      "isoDate": "2026-06-27T18:42:59.000Z",
-      "excerpt": "TORONTO, ON - OCTOBER 13: Josh Naylor #12 and Julio Rodriguez #44 of the Seattle Mariners celebrate after Rodriguez's three-run home run in the first inning of Game Two of the American League Championship Series...",
-      "source": "Lookout Landing",
-      "team": "mariners",
       "priority": 1
     },
     {
@@ -327,16 +337,6 @@
       "excerpt": "The Kraken’s 2nd rounder was used on USNTDP winger Casey Mutryn! Mutryn hails from Norwood, MA and is 6’3, 203 pounds, shooting Right. He’s primarily known in the USNTDP circles for his defensive game, which has made...",
       "source": "Davy Jones' Locker Room",
       "team": "kraken",
-      "priority": 1
-    },
-    {
-      "title": "Mariners News: Perry Minasian, Carlos Mendoza, and Mike Trout",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-news/145376/mariners-news-perry-minasian-carlos-mendoza-and-mike-trout",
-      "pubDate": "2026-06-27T14:00:00.000Z",
-      "isoDate": "2026-06-27T14:00:00.000Z",
-      "excerpt": "Jun 11, 2026; New York City, New York, USA; New York Mets manager Carlos Mendoza (64) watches from the dugout during the third inning against the St. Louis Cardinals at Citi Field. Mandatory Credit: Brad Penner-Imagn...",
-      "source": "Lookout Landing",
-      "team": "mariners",
       "priority": 1
     },
     {
