@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T15:15:36.362Z",
+  "generatedAt": "2026-06-28T17:05:46.729Z",
   "sourceCount": 10,
   "successfulSources": 9,
   "failedSources": [
@@ -10,14 +10,24 @@
   ],
   "items": [
     {
-      "title": "Jaxon Smith-Njigba, Seahawks nominated for ESPY awards",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-news/170038/seattle-seahawks-nominated-two-espy-awards-super-bowl-smith-njigba",
-      "pubDate": "2026-06-28T15:00:00.000Z",
-      "isoDate": "2026-06-28T15:00:00.000Z",
-      "excerpt": "Seattle Seahawks star wideout Jaxon Smith-Njigba hasn’t had the best luck with awards this offseason. From the incident at the NFL award show to the league accidentally donning him the Defensive Player of the Year, the...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
+      "title": "Latest Mariners injuries and transactions",
+      "link": "https://www.mlb.com/mariners/news/mariners-injuries-and-roster-moves",
+      "pubDate": "Sun, 28 Jun 2026 16:48:00 GMT",
+      "isoDate": "2026-06-28T16:48:00.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Mariners No. 3 prospect Sloan keeps racking up the K's at Double-A",
+      "link": "https://www.mlb.com/mariners/news/mariners-prospect-ryan-sloan-gets-nine-strikeouts-at-double-a",
+      "pubDate": "Sun, 28 Jun 2026 16:04:17 GMT",
+      "isoDate": "2026-06-28T16:04:17.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
     },
     {
       "title": "Seahawks fan discussion: Where in the world have you attended a Seahawks road game?",
@@ -128,16 +138,6 @@
       "source": "Lookout Landing",
       "team": "mariners",
       "priority": 1
-    },
-    {
-      "title": "Latest Mariners injuries and transactions",
-      "link": "https://www.mlb.com/mariners/news/mariners-injuries-and-roster-moves",
-      "pubDate": "Sat, 27 Jun 2026 22:38:00 GMT",
-      "isoDate": "2026-06-27T22:38:00.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
     },
     {
       "title": "Morosi: Mariners’ slumping offense needs stars to step up",
@@ -410,16 +410,6 @@
       "priority": 6
     },
     {
-      "title": "Felnin Celesten hits for the cycle at High-A ... in just a 7-inning game!",
-      "link": "https://www.mlb.com/mariners/news/mariners-felnin-celesten-hits-for-cycle-high-a",
-      "pubDate": "Fri, 26 Jun 2026 06:07:00 GMT",
-      "isoDate": "2026-06-26T06:07:00.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
-    },
-    {
       "title": "Jason Robertson Rejects Long-Term Offer From Kraken",
       "link": "https://www.prohockeyrumors.com/2026/06/jason-robertson-rejects-long-term-offer-from-kraken.html",
       "pubDate": "Fri, 26 Jun 2026 01:32:48 +0000",
@@ -448,6 +438,16 @@
       "source": "MLB Trade Rumors",
       "team": "mariners",
       "priority": 2
+    },
+    {
+      "title": "Seahawks 2026 rookie predictions: Why Deven Eastern faces tough path to active roster",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/169929/seahawks-2026-nfl-rookie-predictions-why-deven-eastern-faces-tough-path-active-roster",
+      "pubDate": "2026-06-25T15:00:00.000Z",
+      "isoDate": "2026-06-25T15:00:00.000Z",
+      "excerpt": "MINNEAPOLIS, MINNESOTA - OCTOBER 17: Dylan Raiola #15 of the Nebraska Cornhuskers is sacked by Deven Eastern #91 of the Minnesota Golden Gophers in the first quarter at Huntington Bank Stadium on October 17, 2025 in...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
     },
     {
       "title": "Seahawks Legends Attend Legends Spring Event",
