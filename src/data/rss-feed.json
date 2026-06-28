@@ -1,14 +1,34 @@
 {
-  "generatedAt": "2026-06-28T03:29:43.884Z",
+  "generatedAt": "2026-06-28T07:48:17.917Z",
   "sourceCount": 10,
   "successfulSources": 9,
   "failedSources": [
     {
-      "source": "Davy Jones' Locker Room",
-      "error": "Status code 415 (lenient retry: Status code 415)"
+      "source": "Seattle Times Sports",
+      "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
     }
   ],
   "items": [
+    {
+      "title": "Mariners' search for runs continues despite quality contact in Cleveland",
+      "link": "https://www.mlb.com/mariners/news/mariners-three-runs-loss-guardians",
+      "pubDate": "Sun, 28 Jun 2026 04:34:06 GMT",
+      "isoDate": "2026-06-28T04:34:06.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Rookies Johnson, Fam lead Storm to 105-90 win over Dream",
+      "link": "https://sports.mynorthwest.com/wnba/seattle-storm/rookies-johnson-fam-lead-storm-to-105-90-win-over-dream",
+      "pubDate": "Sun, 28 Jun 2026 03:35:27 +0000",
+      "isoDate": "2026-06-28T03:35:27.000Z",
+      "excerpt": "Flau'jae Johnson scored 24 points and Awa Fam added 21 as Seattle won its second straight.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
     {
       "title": "Mariners shift from piggyback, giving Gilbert long runway vs. Guardians",
       "link": "https://www.mlb.com/mariners/news/logan-gilbert-to-start-for-mariners-without-piggyback-method",
@@ -30,36 +50,6 @@
       "priority": 1
     },
     {
-      "title": "Congo rallies to a 3-1 win against Uzbekistan to seal place in the World Cup knockouts",
-      "link": "https://www.seattletimes.com/sports/world-cup/congo-rallies-to-a-3-1-win-against-uzbekistan-to-seal-place-in-the-world-cup-knockouts/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sat, 27 Jun 2026 19:29:12 -0700",
-      "isoDate": "2026-06-28T02:29:12.000Z",
-      "excerpt": "Congo has advanced to the knockout stage of the World Cup for the first time by rallying to a 3-1 win against Uzbekistan.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Colombia wins Group K after 0-0 draw with Portugal; both squads already into World Cup knockouts",
-      "link": "https://www.seattletimes.com/sports/world-cup/colombia-wins-group-k-after-0-0-draw-with-portugal-both-squads-already-into-world-cup-knockouts/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sat, 27 Jun 2026 19:26:22 -0700",
-      "isoDate": "2026-06-28T02:26:22.000Z",
-      "excerpt": "Colombia finished the World Cup’s opening round as the Group K winner after playing Portugal to a scoreless draw.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Mariners set franchise record for offensive futility in loss to Guardians",
-      "link": "https://www.seattletimes.com/sports/mariners/seattle-mariners-offense-continues-to-be-anemic-in-loss-to-guardians/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sat, 27 Jun 2026 19:12:01 -0700",
-      "isoDate": "2026-06-28T02:12:01.000Z",
-      "excerpt": "On a night when they needed four runs instead of their ongoing streak of three or fewer, the Mariners couldn’t scale that seemingly impossible mountain, losing 4-3 to the Guardians on the road.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "Mariners’ comeback falls short in 4-3 loss to Guardians",
       "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-comeback-falls-short-in-4-3-loss-to-guardians",
       "pubDate": "Sun, 28 Jun 2026 02:07:09 +0000",
@@ -68,16 +58,6 @@
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
-    },
-    {
-      "title": "2026 World Cup: Belgium, Senegal to play in Seattle’s round of 32 match",
-      "link": "https://www.seattletimes.com/sports/world-cup/2026-world-cup-belgium-senegal-to-play-in-seattles-round-of-32-match/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sat, 27 Jun 2026 19:03:23 -0700",
-      "isoDate": "2026-06-28T02:03:23.000Z",
-      "excerpt": "The teams are set. Belgium will face Senegal in a round of 32 match at Seattle Stadium next Wednesday.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
     },
     {
       "title": "World Cup: Teams set for first knockout match in Seattle",
@@ -100,36 +80,6 @@
       "priority": 1
     },
     {
-      "title": "Luis Castillo’s resurgence leaves Mariners with tricky dilemma",
-      "link": "https://www.seattletimes.com/sports/mariners/luis-castillos-resurgence-leaves-mariners-with-tricky-dilemma/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sat, 27 Jun 2026 18:05:39 -0700",
-      "isoDate": "2026-06-28T01:05:39.000Z",
-      "excerpt": "The Mariners’ starting pitching dilemma has gotten trickier in the best possible way. Over his last six starts, the once rocky Luis Castillo has morphed back into “The Rock.”",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Vlašić scores winner as Croatia beats Ghana 2-1 to reach World Cup knockout stage",
-      "link": "https://www.seattletimes.com/sports/world-cup/vlasic-scores-winner-as-croatia-beats-ghana-2-1-to-reach-world-cup-knockout-stage/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sat, 27 Jun 2026 16:21:36 -0700",
-      "isoDate": "2026-06-27T23:21:36.000Z",
-      "excerpt": "Croatia has earned a spot in the World Cup knockout round by defeating Ghana on Saturday.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "England beats Panama 2-0 on goals by Bellingham and Kane to win its World Cup group",
-      "link": "https://www.seattletimes.com/sports/world-cup/england-beats-panama-2-0-on-goals-by-bellingham-and-kane-to-win-its-world-cup-group/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sat, 27 Jun 2026 16:04:27 -0700",
-      "isoDate": "2026-06-27T23:04:27.000Z",
-      "excerpt": "Jude Bellingham and Harry Kane scored early in the second half, lifting England over Panama and into what appears to be a more favorable World Cup bracket.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "Mariners Game #84 Preview and Discussion, 6/27/26: SEA at CLE",
       "link": "https://www.lookoutlanding.com/seattle-mariners-discussion/145404/mariners-game-84-preview-and-discussion-6-27-26-sea-at-cle",
       "pubDate": "2026-06-27T22:57:36.000Z",
@@ -137,16 +87,6 @@
       "excerpt": "Jun 21, 2026; Seattle, Washington, USA; Seattle Mariners starting pitcher Logan Gilbert (36) throws against the Boston Red Sox during the first inning at T-Mobile Park. Mandatory Credit: Joe Nicholson-Imagn Images | Joe...",
       "source": "Lookout Landing",
       "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "Mariners prospects Felnin Celesten, Lazaro Montes continue torrid run",
-      "link": "https://www.seattletimes.com/sports/mariners/mariners-prospects-felnin-celesten-lazaro-montes-continue-torrid-run/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sat, 27 Jun 2026 15:52:13 -0700",
-      "isoDate": "2026-06-27T22:52:13.000Z",
-      "excerpt": "Mariners prospects Lazaro Montes and Felnin Celesten are putting together big years. They each turned in a monster performance in their respective games Thursday.",
-      "source": "Seattle Times Sports",
-      "team": "general",
       "priority": 1
     },
     {
@@ -170,6 +110,26 @@
       "priority": 3
     },
     {
+      "title": "Kraken Select F William Tomko 204th Overall!",
+      "link": "https://www.davyjoneslockerroom.com/kraken-select-f-william-tomko-204th-overall/",
+      "pubDate": "Sat, 27 Jun 2026 20:28:34 +0000",
+      "isoDate": "2026-06-27T20:28:34.000Z",
+      "excerpt": "The Kraken’s final selection is here! Meet William Tomko! Tomko appears before us as a Right shot Forward at 6’0, 198 pounds, playing for the Sioux Falls Musketeers, who will be heading to his first season at Ohio...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
+      "title": "Kraken Select D Rylan Singh 198th Overall!",
+      "link": "https://www.davyjoneslockerroom.com/kraken-select-d-rylan-singh-198th-overall/",
+      "pubDate": "Sat, 27 Jun 2026 20:09:21 +0000",
+      "isoDate": "2026-06-27T20:09:21.000Z",
+      "excerpt": "The 1st of the last round of the playoffs involves a young man from Pickering! Rylan Singh plays for the Guelph Storm, having a respectable line for a defenseman in OHL time, and stands at 6’0, 187 pounds; shooting...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
       "title": "Mariners shuffle their bullpen pile &#038; rotation/piggyback plans",
       "link": "https://www.lookoutlanding.com/seattle-mariners-roster/145397/mariners-shuffle-bullpen-pile-rotation-plans-josh-simpson-alex-hoppe-piggyback",
       "pubDate": "2026-06-27T19:28:46.000Z",
@@ -177,6 +137,16 @@
       "excerpt": "PITTSBURGH, PENNSYLVANIA - JUNE 25: Alex Hoppe #48 of the Seattle Mariners gets a new ball after giving up an RBI single to Ryan O'Hearn #29 of the Pittsburgh Pirates (not pictured) in the eighth inning during the game...",
       "source": "Lookout Landing",
       "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Kraken Select D Ola Palme 166th Overall!",
+      "link": "https://www.davyjoneslockerroom.com/kraken-select-d-ola-palme-166th-overall/",
+      "pubDate": "Sat, 27 Jun 2026 19:28:09 +0000",
+      "isoDate": "2026-06-27T19:28:09.000Z",
+      "excerpt": "Another swede! This one having fallen quite a bit according to the prognosticators! Palme comes from the Växjö Lakers HC U20 team, where his smart, sensible game as well as quick passing gave him a respectable point...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
       "priority": 1
     },
     {
@@ -188,6 +158,26 @@
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
+    },
+    {
+      "title": "Kraken Select Luken “Hawke” Huff 148th Overall!",
+      "link": "https://www.davyjoneslockerroom.com/kraken-select-luken-hawke-huff-148th-overall/",
+      "pubDate": "Sat, 27 Jun 2026 19:05:15 +0000",
+      "isoDate": "2026-06-27T19:05:15.000Z",
+      "excerpt": "I do not mean this lightly. Hawke Huff might be in the top 10 of names in this draft, and there are some good names in this draft. Huff comes to us from the Cedar Rapids Roughriders in the USHL, where he stands at 6’3,...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
+      "title": "Kraken Select Defender Finn Kearns 131st Overall!",
+      "link": "https://www.davyjoneslockerroom.com/kraken-select-defender-finn-kearns-132nd-overall/",
+      "pubDate": "Sat, 27 Jun 2026 18:47:48 +0000",
+      "isoDate": "2026-06-27T18:47:48.000Z",
+      "excerpt": "Now this is an interesting pick. Seattle traded down for this pick with the New York Rangers, and selected a player from Prep High School, who is now committed to playing at Umass Amherst for the Minutemen this Fall. He...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
     },
     {
       "title": "First things worst &#8211; the Mariners&#8217; trouble with the first pitch",
@@ -217,6 +207,26 @@
       "excerpt": "INGLEWOOD, CALIFORNIA - DECEMBER 27: Bobby Hart #66 of the Los Angeles Chargers gets set during the third quarter of an NFL football game against the Houston Texans at SoFi Stadium on December 27, 2025 in Inglewood,...",
       "source": "Field Gulls",
       "team": "seahawks",
+      "priority": 1
+    },
+    {
+      "title": "Kraken Select F Viktor Fedorov 99th Overall!",
+      "link": "https://www.davyjoneslockerroom.com/kraken-select-f-viktor-fedorov-99th-overall/",
+      "pubDate": "Sat, 27 Jun 2026 17:53:17 +0000",
+      "isoDate": "2026-06-27T17:53:17.000Z",
+      "excerpt": "The Kraken used their 99th overall pick to get a little russian flair in their draft class! Fedorov comes from Tomsk, Russia, sitting at 5’10 and 183 pounds, shooting left. He plays in the Torpedo Nizhny Novgorod club;...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
+      "title": "Kraken Select F Casey Mutryn 38th Overall!",
+      "link": "https://www.davyjoneslockerroom.com/kraken-select-f-casey-mutryn-38th-overall/",
+      "pubDate": "Sat, 27 Jun 2026 17:38:22 +0000",
+      "isoDate": "2026-06-27T17:38:22.000Z",
+      "excerpt": "The Kraken’s 2nd rounder was used on USNTDP winger Casey Mutryn! Mutryn hails from Norwood, MA and is 6’3, 203 pounds, shooting Right. He’s primarily known in the USNTDP circles for his defensive game, which has made...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
       "priority": 1
     },
     {
@@ -270,16 +280,6 @@
       "priority": 1
     },
     {
-      "title": "World Cup: Egypt, Iran play to 1-1 draw in Seattle",
-      "link": "https://sports.mynorthwest.com/seattle-sports-pit/world-cup-egypt-iran-play-to-1-1-draw-in-seattle",
-      "pubDate": "Sat, 27 Jun 2026 05:33:11 +0000",
-      "isoDate": "2026-06-27T05:33:11.000Z",
-      "excerpt": "The draw helped Egypt advance to the knockout round.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
       "title": "Double-A batters have 99 problems and Kade Anderson is certainly one",
       "link": "https://www.mlb.com/mariners/news/mariners-kade-anderson-racks-up-nine-strikeouts-double-a",
       "pubDate": "Sat, 27 Jun 2026 05:32:00 GMT",
@@ -330,6 +330,16 @@
       "priority": 1
     },
     {
+      "title": "Kraken pick Chase Reid 7th Overall!",
+      "link": "https://www.davyjoneslockerroom.com/kraken-pick-chase-reid-7th-overall/",
+      "pubDate": "Sat, 27 Jun 2026 00:30:07 +0000",
+      "isoDate": "2026-06-27T00:30:07.000Z",
+      "excerpt": "OH MY GOD CHASE REID WAS AVAILABLE FOR THE KRAKEN AND THEY TOOK HIM Chase Reid is a Michigan born defender who stands at 6’2, and weighs in at 194 pounds, shooting Right. He was considered one of the better skaters in...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
       "title": "ESPN ranks Seahawks &#8216;offensive playmakers&#8217; worst in NFC West",
       "link": "https://www.fieldgulls.com/seattle-seahawks-news/169995/espn-ranks-seahawks-offensive-playmakers-worst-nfc-west",
       "pubDate": "2026-06-26T15:00:00.000Z",
@@ -338,16 +348,6 @@
       "source": "Field Gulls",
       "team": "seahawks",
       "priority": 1
-    },
-    {
-      "title": "Montes drives huge Double-A power display with 4-hit, 2-homer day",
-      "link": "https://www.mlb.com/mariners/news/mariners-prospect-lazaro-montes-has-4-hit-2-homer-game",
-      "pubDate": "Fri, 26 Jun 2026 14:54:00 GMT",
-      "isoDate": "2026-06-26T14:54:00.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
     },
     {
       "title": "Preseason power rankings! Where do the Seahawks rank entering training camp?",
