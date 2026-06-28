@@ -1,12 +1,8 @@
 {
-  "generatedAt": "2026-06-27T22:59:45.987Z",
+  "generatedAt": "2026-06-28T03:29:43.884Z",
   "sourceCount": 10,
-  "successfulSources": 8,
+  "successfulSources": 9,
   "failedSources": [
-    {
-      "source": "Seattle Times Sports",
-      "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
-    },
     {
       "source": "Davy Jones' Locker Room",
       "error": "Status code 415 (lenient retry: Status code 415)"
@@ -14,20 +10,150 @@
   ],
   "items": [
     {
-      "title": "Latest Mariners injuries and transactions",
-      "link": "https://www.mlb.com/mariners/news/mariners-injuries-and-roster-moves",
-      "pubDate": "Sat, 27 Jun 2026 22:38:00 GMT",
-      "isoDate": "2026-06-27T22:38:00.000Z",
+      "title": "Mariners shift from piggyback, giving Gilbert long runway vs. Guardians",
+      "link": "https://www.mlb.com/mariners/news/logan-gilbert-to-start-for-mariners-without-piggyback-method",
+      "pubDate": "Sun, 28 Jun 2026 03:17:00 GMT",
+      "isoDate": "2026-06-28T03:17:00.000Z",
       "excerpt": "",
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
     },
     {
-      "title": "Mariners shift from piggyback, giving Gilbert long runway vs. Guardians",
-      "link": "https://www.mlb.com/mariners/news/logan-gilbert-to-start-for-mariners-without-piggyback-method",
-      "pubDate": "Sat, 27 Jun 2026 22:37:00 GMT",
-      "isoDate": "2026-06-27T22:37:00.000Z",
+      "title": "Mariners lose 4-3 to Guardians, fail to find answers to life&#8217;s ultimate questions",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/145410/mariners-lose-4-3-to-guardians-fail-to-find-answers-to-lifes-ultimate-questions",
+      "pubDate": "2026-06-28T02:35:33.000Z",
+      "isoDate": "2026-06-28T02:35:33.000Z",
+      "excerpt": "CLEVELAND, OHIO - JUNE 27: Julio Rodríguez #44 of the Seattle Mariners reacts after being hit by a pitch during the eighth inning against the Cleveland Guardians at Progressive Field on June 27, 2026 in Cleveland, Ohio....",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Congo rallies to a 3-1 win against Uzbekistan to seal place in the World Cup knockouts",
+      "link": "https://www.seattletimes.com/sports/world-cup/congo-rallies-to-a-3-1-win-against-uzbekistan-to-seal-place-in-the-world-cup-knockouts/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Sat, 27 Jun 2026 19:29:12 -0700",
+      "isoDate": "2026-06-28T02:29:12.000Z",
+      "excerpt": "Congo has advanced to the knockout stage of the World Cup for the first time by rallying to a 3-1 win against Uzbekistan.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Colombia wins Group K after 0-0 draw with Portugal; both squads already into World Cup knockouts",
+      "link": "https://www.seattletimes.com/sports/world-cup/colombia-wins-group-k-after-0-0-draw-with-portugal-both-squads-already-into-world-cup-knockouts/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Sat, 27 Jun 2026 19:26:22 -0700",
+      "isoDate": "2026-06-28T02:26:22.000Z",
+      "excerpt": "Colombia finished the World Cup’s opening round as the Group K winner after playing Portugal to a scoreless draw.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Mariners set franchise record for offensive futility in loss to Guardians",
+      "link": "https://www.seattletimes.com/sports/mariners/seattle-mariners-offense-continues-to-be-anemic-in-loss-to-guardians/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Sat, 27 Jun 2026 19:12:01 -0700",
+      "isoDate": "2026-06-28T02:12:01.000Z",
+      "excerpt": "On a night when they needed four runs instead of their ongoing streak of three or fewer, the Mariners couldn’t scale that seemingly impossible mountain, losing 4-3 to the Guardians on the road.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Mariners’ comeback falls short in 4-3 loss to Guardians",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-comeback-falls-short-in-4-3-loss-to-guardians",
+      "pubDate": "Sun, 28 Jun 2026 02:07:09 +0000",
+      "isoDate": "2026-06-28T02:07:09.000Z",
+      "excerpt": "Slade Cecconi pitched six shutout innings and Brayan Rocchio hit a key RBI double in the fifth for Cleveland.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "2026 World Cup: Belgium, Senegal to play in Seattle’s round of 32 match",
+      "link": "https://www.seattletimes.com/sports/world-cup/2026-world-cup-belgium-senegal-to-play-in-seattles-round-of-32-match/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Sat, 27 Jun 2026 19:03:23 -0700",
+      "isoDate": "2026-06-28T02:03:23.000Z",
+      "excerpt": "The teams are set. Belgium will face Senegal in a round of 32 match at Seattle Stadium next Wednesday.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "World Cup: Teams set for first knockout match in Seattle",
+      "link": "https://sports.mynorthwest.com/seattle-sports-pit/world-cup-teams-set-for-first-knockout-match-in-seattle",
+      "pubDate": "Sun, 28 Jun 2026 02:01:04 +0000",
+      "isoDate": "2026-06-28T02:01:04.000Z",
+      "excerpt": "Belgium will face Senegal in the round of 32 at the temporarily renamed Seattle Stadium.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "42-42: Chart",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/145411/42-42-chart",
+      "pubDate": "2026-06-28T01:48:41.000Z",
+      "isoDate": "2026-06-28T01:48:41.000Z",
+      "excerpt": "Jun 27, 2026; Cleveland, Ohio, USA; Seattle Mariners starting pitcher Logan Gilbert (36) delivers a pitch in the first inning against the Cleveland Guardians at Progressive Field. Mandatory Credit: David Richard-Imagn...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Luis Castillo’s resurgence leaves Mariners with tricky dilemma",
+      "link": "https://www.seattletimes.com/sports/mariners/luis-castillos-resurgence-leaves-mariners-with-tricky-dilemma/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Sat, 27 Jun 2026 18:05:39 -0700",
+      "isoDate": "2026-06-28T01:05:39.000Z",
+      "excerpt": "The Mariners’ starting pitching dilemma has gotten trickier in the best possible way. Over his last six starts, the once rocky Luis Castillo has morphed back into “The Rock.”",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Vlašić scores winner as Croatia beats Ghana 2-1 to reach World Cup knockout stage",
+      "link": "https://www.seattletimes.com/sports/world-cup/vlasic-scores-winner-as-croatia-beats-ghana-2-1-to-reach-world-cup-knockout-stage/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Sat, 27 Jun 2026 16:21:36 -0700",
+      "isoDate": "2026-06-27T23:21:36.000Z",
+      "excerpt": "Croatia has earned a spot in the World Cup knockout round by defeating Ghana on Saturday.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "England beats Panama 2-0 on goals by Bellingham and Kane to win its World Cup group",
+      "link": "https://www.seattletimes.com/sports/world-cup/england-beats-panama-2-0-on-goals-by-bellingham-and-kane-to-win-its-world-cup-group/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Sat, 27 Jun 2026 16:04:27 -0700",
+      "isoDate": "2026-06-27T23:04:27.000Z",
+      "excerpt": "Jude Bellingham and Harry Kane scored early in the second half, lifting England over Panama and into what appears to be a more favorable World Cup bracket.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Mariners Game #84 Preview and Discussion, 6/27/26: SEA at CLE",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-discussion/145404/mariners-game-84-preview-and-discussion-6-27-26-sea-at-cle",
+      "pubDate": "2026-06-27T22:57:36.000Z",
+      "isoDate": "2026-06-27T22:57:36.000Z",
+      "excerpt": "Jun 21, 2026; Seattle, Washington, USA; Seattle Mariners starting pitcher Logan Gilbert (36) throws against the Boston Red Sox during the first inning at T-Mobile Park. Mandatory Credit: Joe Nicholson-Imagn Images | Joe...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Mariners prospects Felnin Celesten, Lazaro Montes continue torrid run",
+      "link": "https://www.seattletimes.com/sports/mariners/mariners-prospects-felnin-celesten-lazaro-montes-continue-torrid-run/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Sat, 27 Jun 2026 15:52:13 -0700",
+      "isoDate": "2026-06-27T22:52:13.000Z",
+      "excerpt": "Mariners prospects Lazaro Montes and Felnin Celesten are putting together big years. They each turned in a monster performance in their respective games Thursday.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Latest Mariners injuries and transactions",
+      "link": "https://www.mlb.com/mariners/news/mariners-injuries-and-roster-moves",
+      "pubDate": "Sat, 27 Jun 2026 22:38:00 GMT",
+      "isoDate": "2026-06-27T22:38:00.000Z",
       "excerpt": "",
       "source": "Mariners.com",
       "team": "mariners",
@@ -82,6 +208,16 @@
       "source": "Pro Football Rumors",
       "team": "seahawks",
       "priority": 2
+    },
+    {
+      "title": "The contract details of new Seahawks offensive lineman Bobby Hart",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-nfl-salary-cap/170024/nfl-seahawks-contract-details-offensive-lineman-bobby-hart",
+      "pubDate": "2026-06-27T17:53:21.000Z",
+      "isoDate": "2026-06-27T17:53:21.000Z",
+      "excerpt": "INGLEWOOD, CALIFORNIA - DECEMBER 27: Bobby Hart #66 of the Los Angeles Chargers gets set during the third quarter of an NFL football game against the Houston Texans at SoFi Stadium on December 27, 2025 in Inglewood,...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
     },
     {
       "title": "Seattle Mariners change up starting pitching plans",
@@ -184,61 +320,11 @@
       "priority": 1
     },
     {
-      "title": "Colt Emerson homers in homecoming, M’s beat Guardians 3-1",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/colt-emerson-homers-in-homecoming-seattle-mariners-beat-guardians-3-1",
-      "pubDate": "Sat, 27 Jun 2026 02:11:41 +0000",
-      "isoDate": "2026-06-27T02:11:41.000Z",
-      "excerpt": "J.P. Crawford hit the go-ahead single in the seventh and Luis Castillo earned his first win this month.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
       "title": "42-41: Chart",
       "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/145362/42-41-chart",
       "pubDate": "2026-06-27T01:48:44.000Z",
       "isoDate": "2026-06-27T01:48:44.000Z",
       "excerpt": "CLEVELAND, OHIO - JUNE 26: Colt Emerson #4 of the Seattle Mariners celebrates with teammates after hitting a solo home run during the third inning against the Cleveland Guardians at Progressive Field on June 26, 2026 in...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "AL West: Los Angeles Angels fire GM Perry Minasian",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/al-west-los-angeles-angels-fire-gm-perry-minasian",
-      "pubDate": "Sat, 27 Jun 2026 01:04:23 +0000",
-      "isoDate": "2026-06-27T01:04:23.000Z",
-      "excerpt": "The Los Angeles Angels have fired general manager Perry Minasian midway through their sixth consecutive disappointing season under his leadership.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "Mariners Game #83 Preview and Discussion: 6/26, SEA at CLE",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-discussion/145354/mariners-game-83-preview-and-discussion-6-26-sea-at-cle",
-      "pubDate": "2026-06-26T22:02:24.000Z",
-      "isoDate": "2026-06-26T22:02:24.000Z",
-      "excerpt": "SEATTLE, UNITED STATES: Cleveland Indians baserunner Kenny Lofton (L) scores around the tag of Seattle Mariners pitcher Randy Johnson to score on a passed ball in the three-run eighth inning of game six of the American...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "Series Preview: Mariners (41-41) at Guardians (42-39)",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-game-information/145336/series-preview-seattle-mariners-at-cleveland-guardians-june-2026",
-      "pubDate": "2026-06-26T16:00:00.000Z",
-      "isoDate": "2026-06-26T16:00:00.000Z",
-      "excerpt": "HOUSTON, TEXAS - JUNE 20: Steven Kwan #38 of the Cleveland Guardians celebrates with Brayan Rocchio #4 after defeating the Houston Astros at Daikin Park on June 20, 2026 in Houston, Texas. (Photo by Tim Warner/Getty...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "Top prospects Felnin Celesten, Lazaro Montes headline explosive day of Mariner minor league action",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-prospects/145347/top-prospects-felnin-celesten-lazaro-montes-headline-explosive-day-of-mariner-minor-league-action",
-      "pubDate": "2026-06-26T16:00:00.000Z",
-      "isoDate": "2026-06-26T16:00:00.000Z",
-      "excerpt": "Amidst an overwhelming display of prospect prowess up and down the system, premiere shortstop Felnin Celesten headlined an active AquaSox lineup by hitting for the cycle in just seven innings. This marks the first...",
       "source": "Lookout Landing",
       "team": "mariners",
       "priority": 1
@@ -359,16 +445,6 @@
       "pubDate": "2026-06-25T13:00:00.000Z",
       "isoDate": "2026-06-25T13:00:00.000Z",
       "excerpt": "SAN JOSE, CALIFORNIA - FEBRUARY 06: Jamie Sheriff #50 of the Seattle Seahawks during a practice ahead of Super Bowl LX at San Jose State University on February 06, 2026 in San Jose, California. (Photo by Eakin...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "Super Bowl champion Seahawks announce series of public &#8216;Trophy Tour&#8217; dates",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-news/169903/super-bowl-champion-seahawks-announce-public-lombardi-trophy-tour-dates",
-      "pubDate": "2026-06-24T19:55:46.000Z",
-      "isoDate": "2026-06-24T19:55:46.000Z",
-      "excerpt": "The Seattle Seahawks are preparing a year’s worth of fun for Emerald City football fans. On Wednesday, the Seahawks announced a series of dates for a Lombardi Trophy tour, beginning with select dates during training...",
       "source": "Field Gulls",
       "team": "seahawks",
       "priority": 1
@@ -531,86 +607,6 @@
       "excerpt": "Infielder/outfielder Weston Wilson has signed a minor league contract with the Mariners after electing free agency in lieu of an outright assignment from the Orioles late last week. The team never formally announced the...",
       "source": "MLB Trade Rumors",
       "team": "mariners",
-      "priority": 2
-    },
-    {
-      "title": "Royals Acquire Randy Dobnak",
-      "link": "https://www.mlbtraderumors.com/2026/06/royals-to-acquire-randy-dobnak.html",
-      "pubDate": "Wed, 17 Jun 2026 23:52:54 +0000",
-      "isoDate": "2026-06-17T23:52:54.000Z",
-      "excerpt": "6:52pm: Kansas City officially acquired Dobnak for cash considerations and optioned him to Triple-A. They transferred Cole Ragans from the 15-day to the 60-day injured list to open a spot on the 40-man roster. Ragans...",
-      "source": "MLB Trade Rumors",
-      "team": "mariners",
-      "priority": 2
-    },
-    {
-      "title": "Seahawks Mailbag: Super Bowl Rings, Year 2 Nick Emmanwori & More",
-      "link": "https://www.seahawks.com/news/seahawks-mailbag-super-bowl-rings-year-2-nick-emmanwori-more",
-      "pubDate": "Wed, 17 Jun 2026 23:14:34 GMT",
-      "isoDate": "2026-06-17T23:14:34.000Z",
-      "excerpt": "You had Seahawks questions; we have answers.",
-      "source": "Seahawks.com",
-      "team": "seahawks",
-      "priority": 6
-    },
-    {
-      "title": "Seahawks Promote Willie Schneider, Matt Berry To Assistant GM",
-      "link": "https://www.profootballrumors.com/2026/06/seahawks-promote-willie-schneider-matt-berry-to-assistant-gm",
-      "pubDate": "Wed, 17 Jun 2026 19:05:21 +0000",
-      "isoDate": "2026-06-17T19:05:21.000Z",
-      "excerpt": "The reigning Super Bowl champion Seahawks are making a couple of front office promotions, Tom Pelissero of NFL Network reports. They will elevate director of pro personnel Willie Schneider and vice president/player...",
-      "source": "Pro Football Rumors",
-      "team": "seahawks",
-      "priority": 2
-    },
-    {
-      "title": "Mariners Place Randy Arozarena On Injured List",
-      "link": "https://www.mlbtraderumors.com/2026/06/mariners-to-place-randy-arozarena-on-injured-list.html",
-      "pubDate": "Wed, 17 Jun 2026 01:14:36 +0000",
-      "isoDate": "2026-06-17T01:14:36.000Z",
-      "excerpt": "8:14pm: Seattle has officially announced all three moves: Arozarena’s retroactive IL placement, Washington’s selection, and Wilson’s transfer to the 60-day injured list. Wilson has been out since late April with a...",
-      "source": "MLB Trade Rumors",
-      "team": "mariners",
-      "priority": 2
-    },
-    {
-      "title": "Free Agent Focus: Seattle Kraken",
-      "link": "https://www.prohockeyrumors.com/2026/06/free-agent-focus-seattle-kraken-4.html",
-      "pubDate": "Tue, 16 Jun 2026 22:45:55 +0000",
-      "isoDate": "2026-06-16T22:45:55.000Z",
-      "excerpt": "Free agency is now less than a month away, and teams are looking ahead to when it opens. Even with the UFA crop being thinned out in recent months, there will be some quality veterans set to hit the open market in July,...",
-      "source": "Pro Hockey Rumors",
-      "team": "kraken",
-      "priority": 2
-    },
-    {
-      "title": "Mariners Outright Domingo González",
-      "link": "https://www.mlbtraderumors.com/2026/06/mariners-outright-domingo-gonzalez.html",
-      "pubDate": "Tue, 16 Jun 2026 01:26:34 +0000",
-      "isoDate": "2026-06-16T01:26:34.000Z",
-      "excerpt": "The Mariners announced that right-hander Domingo González has cleared waivers and been assigned outright to Triple-A Tacoma. Seattle also optioned infielder Patrick Wisdom on tonight’s day off, opening an active roster...",
-      "source": "MLB Trade Rumors",
-      "team": "mariners",
-      "priority": 2
-    },
-    {
-      "title": "Randy Dobnak Triggers Upward Mobility Clause In Mariners Deal",
-      "link": "https://www.mlbtraderumors.com/2026/06/randy-dobnak-has-upward-mobility-clause-in-mariners-deal.html",
-      "pubDate": "Mon, 15 Jun 2026 23:37:30 +0000",
-      "isoDate": "2026-06-15T23:37:30.000Z",
-      "excerpt": "June 15: Alexander reports that Dobnak has triggered the assignment clause, as expected. The righty will now await word on whether any team is willing to add him to the 40-man roster. June 8: Randy Dobnak signed a minor...",
-      "source": "MLB Trade Rumors",
-      "team": "mariners",
-      "priority": 2
-    },
-    {
-      "title": "Latest On Zach Charbonnet, Seahawks’ RBs",
-      "link": "https://www.profootballrumors.com/2026/06/latest-on-zach-charbonnet-seahawks-rbs",
-      "pubDate": "Mon, 15 Jun 2026 03:05:05 +0000",
-      "isoDate": "2026-06-15T03:05:05.000Z",
-      "excerpt": "Seahawks running back Zach Charbonnet is just five months removed from tearing his ACL in a January playoff win over the 49ers, but he is not a lock to miss time in 2026. Head coach Mike Macdonald isn’t closing the door...",
-      "source": "Pro Football Rumors",
-      "team": "seahawks",
       "priority": 2
     }
   ]
