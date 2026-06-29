@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T08:56:07.836Z",
+  "generatedAt": "2026-06-29T14:01:37.808Z",
   "sourceCount": 10,
   "successfulSources": 9,
   "failedSources": [
@@ -9,6 +9,16 @@
     }
   ],
   "items": [
+    {
+      "title": "Sam Darnold on an element of the Super Bowl that he was disappointed in",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-news/170057/sam-darnold-element-seahawks-super-bowl-win-disappointed-nfl-news",
+      "pubDate": "2026-06-29T14:00:00.000Z",
+      "isoDate": "2026-06-29T14:00:00.000Z",
+      "excerpt": "Quarterbacks that win Vince Lombardi trophies can usually talk their talk and walk their walks free of judgement. They’ve earned it, no matter the box score. Someone tell that to Seattle Seahawks quarterback, Sam...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
     {
       "title": "Morosi: Where Mariners can look for help at trade deadline",
       "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/morosi-where-seattle-mariners-can-look-for-help-trade-deadline",
@@ -435,16 +445,6 @@
       "pubDate": "2026-06-26T14:00:00.000Z",
       "isoDate": "2026-06-26T14:00:00.000Z",
       "excerpt": "It is the quiet time of year in the NFL. No training camps, no games, generally no big trades or free agent signings. There’s a lot to look forward to, and as the reigning Super Bowl Champions, the Seattle Seahawks sit...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "Seahawks News 6/26: Sam Darnold unsatisfied with SB LX performance",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-news/170002/seahawks-news-6-26-sam-darnold-unsatisfied-with-sb-lx-performance",
-      "pubDate": "2026-06-26T13:15:46.000Z",
-      "isoDate": "2026-06-26T13:15:46.000Z",
-      "excerpt": "SANTA CLARA, CALIFORNIA - FEBRUARY 08: Sam Darnold #14 of the Seattle Seahawks passes against the New England Patriots during the first quarter in Super Bowl LX at Levi's Stadium on February 08, 2026 in Santa Clara,...",
       "source": "Field Gulls",
       "team": "seahawks",
       "priority": 1
