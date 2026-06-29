@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T22:59:28.828Z",
+  "generatedAt": "2026-06-29T03:34:30.218Z",
   "sourceCount": 10,
   "successfulSources": 9,
   "failedSources": [
@@ -10,24 +10,74 @@
   ],
   "items": [
     {
-      "title": "Disaster inning undoes Mariners in 6-5 loss to Guardians",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/145437/disaster-inning-undoes-mariners-in-6-5-loss-to-guardians",
-      "pubDate": "2026-06-28T22:25:34.000Z",
-      "isoDate": "2026-06-28T22:25:34.000Z",
-      "excerpt": "Jun 28, 2026; Cleveland, Ohio, USA; Cleveland Guardians shortstop Brayan Rocchio (4) bobbles the ball looking to turn the double play as Seattle Mariners designated hitter Cal Raleigh (29) is out at second base during...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
+      "title": "Mariners acquire INF Buddy Kennedy from Giants",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-acquire-buddy-kennedy-trade-giants",
+      "pubDate": "Mon, 29 Jun 2026 03:06:41 +0000",
+      "isoDate": "2026-06-29T03:06:41.000Z",
+      "excerpt": "Kennedy has appeared in 74 MLB games for six different franchises over parts of five seasons.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
     },
     {
-      "title": "42-43: Chart",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/145438/42-43-chart",
-      "pubDate": "2026-06-28T21:00:29.000Z",
-      "isoDate": "2026-06-28T21:00:29.000Z",
-      "excerpt": "The 'Endeavour' on the reef, Australia, 1770 (1886). The 'Endeavour', commanded by Captain James Cook ran aground on the Great Barrier Reef on 10 June 1770. Wood engraving from 'Picturesque Atlas of Australasia, Vol I',...",
-      "source": "Lookout Landing",
+      "title": "Mariners Acquire Buddy Kennedy",
+      "link": "https://www.mlbtraderumors.com/2026/06/mariners-acquire-buddy-kennedy.html",
+      "pubDate": "Mon, 29 Jun 2026 02:39:34 +0000",
+      "isoDate": "2026-06-29T02:39:34.000Z",
+      "excerpt": "The Mariners announced that infielder Buddy Kennedy has been acquired from the Giants for cash considerations. No further transaction was needed since Seattle already had an open spot on its 40-man roster. San Francisco...",
+      "source": "MLB Trade Rumors",
       "team": "mariners",
-      "priority": 1
+      "priority": 2
+    },
+    {
+      "title": "Mariners Looking To Add Relief Pitching, Right-Handed Bat",
+      "link": "https://www.mlbtraderumors.com/2026/06/mariners-looking-to-add-relief-pitching-right-handed-bat.html",
+      "pubDate": "Mon, 29 Jun 2026 00:46:21 +0000",
+      "isoDate": "2026-06-29T00:46:21.000Z",
+      "excerpt": "The Mariners dropped back below the .500 mark today, as their 6-5 loss to the Guardians put Seattle’s record at 42-43. Despite the lackluster record, the M’s are only a half-game behind the Rangers for the AL West lead,...",
+      "source": "MLB Trade Rumors",
+      "team": "mariners",
+      "priority": 2
+    },
+    {
+      "title": "Seahawks star JSN will get gold jersey patch for OPOY award",
+      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/seattle-seahawks-jaxon-smith-njigba-gold-jersey-shield-opoy-award",
+      "pubDate": "Mon, 29 Jun 2026 00:32:13 +0000",
+      "isoDate": "2026-06-29T00:32:13.000Z",
+      "excerpt": "JSN is one of five reigning NFL award winners whose jersey collar will feature a gold shield this fall.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Troublesome 8th inning for Mariners' 'pen caps road trip with tough loss",
+      "link": "https://www.mlb.com/mariners/news/mariners-bullpen-collapse-leads-to-series-finale-loss-to-guardians",
+      "pubDate": "Mon, 29 Jun 2026 00:09:08 GMT",
+      "isoDate": "2026-06-29T00:09:08.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "World Cup: Canada earns 1st-ever trip to round of 16",
+      "link": "https://sports.mynorthwest.com/seattle-sports-pit/world-cup-canada-earns-1st-ever-trip-round-of-16",
+      "pubDate": "Sun, 28 Jun 2026 22:29:33 +0000",
+      "isoDate": "2026-06-28T22:29:33.000Z",
+      "excerpt": "Stephen Eustáquio's 92nd-minute goal gave Canada its first-ever World Cup knockout stage win.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "M’s blow late lead, fall out of 1st place with 6-5 loss to Guardians",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-blow-late-lead-fall-out-1st-place-6-5-loss-guardians",
+      "pubDate": "Sun, 28 Jun 2026 21:49:48 +0000",
+      "isoDate": "2026-06-28T21:49:48.000Z",
+      "excerpt": "Seattle gave up five runs in the eighth inning and lost its spot atop the AL West standings.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
     },
     {
       "title": "AL West Check-In: Rangers OF Wyatt Langford headed back to IL",
@@ -68,16 +118,6 @@
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
-    },
-    {
-      "title": "Mariners Game #85 Preview and Discussion, 6/28/26: SEA at CLE",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-discussion/145430/mariners-game-85-preview-and-discussion-6-28-26-sea-at-cle",
-      "pubDate": "2026-06-28T17:22:37.000Z",
-      "isoDate": "2026-06-28T17:22:37.000Z",
-      "excerpt": "Jun 20, 2026; Seattle, Washington, USA; Seattle Mariners starter Emerson Hancock (26) delivers a pitch second inning against the Boston Red Sox at T-Mobile Park. Mandatory Credit: Stephen Brashear-Imagn Images | Stephen...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
     },
     {
       "title": "Latest Mariners injuries and transactions",
@@ -130,16 +170,6 @@
       "priority": 1
     },
     {
-      "title": "Mariners News: Kade Anderson, Jacob Misiorowski, and Tim Lincecum",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-news/145384/mariners-news-kade-anderson-jacob-misiorowski-and-tim-lincecum",
-      "pubDate": "2026-06-28T14:00:00.000Z",
-      "isoDate": "2026-06-28T14:00:00.000Z",
-      "excerpt": "Apr 15, 2014; San Francisco, CA, USA; San Francisco Giants starting pitcher Tim Lincecum pitches against the Los Angeles Dodgers during the first inning at AT&T Park. Mandatory Credit: Ed Szczepanski-Imagn Images Happy...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
       "title": "Seahawks News 6/28: How wide open is the Seahawks&#8217; Super Bowl window?",
       "link": "https://www.fieldgulls.com/seattle-seahawks-news/170047/seahawks-news-6-28-how-wide-open-is-the-seahawks-super-bowl-window",
       "pubDate": "2026-06-28T13:00:00.000Z",
@@ -160,16 +190,6 @@
       "priority": 6
     },
     {
-      "title": "Rookies Johnson, Fam lead Storm to 105-90 win over Dream",
-      "link": "https://sports.mynorthwest.com/wnba/seattle-storm/rookies-johnson-fam-lead-storm-to-105-90-win-over-dream",
-      "pubDate": "Sun, 28 Jun 2026 03:35:27 +0000",
-      "isoDate": "2026-06-28T03:35:27.000Z",
-      "excerpt": "Flau'jae Johnson scored 24 points and Awa Fam added 21 as Seattle won its second straight.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
       "title": "Mariners shift from piggyback, giving Gilbert long runway vs. Guardians",
       "link": "https://www.mlb.com/mariners/news/logan-gilbert-to-start-for-mariners-without-piggyback-method",
       "pubDate": "Sun, 28 Jun 2026 03:17:00 GMT",
@@ -178,66 +198,6 @@
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
-    },
-    {
-      "title": "Mariners lose 4-3 to Guardians, fail to find answers to life&#8217;s ultimate questions",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/145410/mariners-lose-4-3-to-guardians-fail-to-find-answers-to-lifes-ultimate-questions",
-      "pubDate": "2026-06-28T02:35:33.000Z",
-      "isoDate": "2026-06-28T02:35:33.000Z",
-      "excerpt": "CLEVELAND, OHIO - JUNE 27: Julio Rodríguez #44 of the Seattle Mariners reacts after being hit by a pitch during the eighth inning against the Cleveland Guardians at Progressive Field on June 27, 2026 in Cleveland, Ohio....",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "Mariners’ comeback falls short in 4-3 loss to Guardians",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-comeback-falls-short-in-4-3-loss-to-guardians",
-      "pubDate": "Sun, 28 Jun 2026 02:07:09 +0000",
-      "isoDate": "2026-06-28T02:07:09.000Z",
-      "excerpt": "Slade Cecconi pitched six shutout innings and Brayan Rocchio hit a key RBI double in the fifth for Cleveland.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "World Cup: Teams set for first knockout match in Seattle",
-      "link": "https://sports.mynorthwest.com/seattle-sports-pit/world-cup-teams-set-for-first-knockout-match-in-seattle",
-      "pubDate": "Sun, 28 Jun 2026 02:01:04 +0000",
-      "isoDate": "2026-06-28T02:01:04.000Z",
-      "excerpt": "Belgium will face Senegal in the round of 32 at the temporarily renamed Seattle Stadium.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "42-42: Chart",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/145411/42-42-chart",
-      "pubDate": "2026-06-28T01:48:41.000Z",
-      "isoDate": "2026-06-28T01:48:41.000Z",
-      "excerpt": "Jun 27, 2026; Cleveland, Ohio, USA; Seattle Mariners starting pitcher Logan Gilbert (36) delivers a pitch in the first inning against the Cleveland Guardians at Progressive Field. Mandatory Credit: David Richard-Imagn...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "Mariners Game #84 Preview and Discussion, 6/27/26: SEA at CLE",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-discussion/145404/mariners-game-84-preview-and-discussion-6-27-26-sea-at-cle",
-      "pubDate": "2026-06-27T22:57:36.000Z",
-      "isoDate": "2026-06-27T22:57:36.000Z",
-      "excerpt": "Jun 21, 2026; Seattle, Washington, USA; Seattle Mariners starting pitcher Logan Gilbert (36) throws against the Boston Red Sox during the first inning at T-Mobile Park. Mandatory Credit: Joe Nicholson-Imagn Images | Joe...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "Morosi: Mariners’ slumping offense needs stars to step up",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/morosi-mariners-slumping-offense-needs-stars-to-step-up",
-      "pubDate": "Sat, 27 Jun 2026 20:50:52 +0000",
-      "isoDate": "2026-06-27T20:50:52.000Z",
-      "excerpt": "The MLB Network insider is looking for more from the likes of Julio Rodríguez and Cal Raleigh.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
     },
     {
       "title": "Kraken Select F William Tomko 204th Overall!",
@@ -257,16 +217,6 @@
       "excerpt": "The 1st of the last round of the playoffs involves a young man from Pickering! Rylan Singh plays for the Guelph Storm, having a respectable line for a defenseman in OHL time, and stands at 6’0, 187 pounds; shooting...",
       "source": "Davy Jones' Locker Room",
       "team": "kraken",
-      "priority": 1
-    },
-    {
-      "title": "Mariners shuffle their bullpen pile &#038; rotation/piggyback plans",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-roster/145397/mariners-shuffle-bullpen-pile-rotation-plans-josh-simpson-alex-hoppe-piggyback",
-      "pubDate": "2026-06-27T19:28:46.000Z",
-      "isoDate": "2026-06-27T19:28:46.000Z",
-      "excerpt": "PITTSBURGH, PENNSYLVANIA - JUNE 25: Alex Hoppe #48 of the Seattle Mariners gets a new ball after giving up an RBI single to Ryan O'Hearn #29 of the Pittsburgh Pirates (not pictured) in the eighth inning during the game...",
-      "source": "Lookout Landing",
-      "team": "mariners",
       "priority": 1
     },
     {
@@ -350,16 +300,6 @@
       "priority": 1
     },
     {
-      "title": "Double-A batters have 99 problems and Kade Anderson is certainly one",
-      "link": "https://www.mlb.com/mariners/news/mariners-kade-anderson-racks-up-nine-strikeouts-double-a",
-      "pubDate": "Sat, 27 Jun 2026 05:32:00 GMT",
-      "isoDate": "2026-06-27T05:32:00.000Z",
-      "excerpt": "Mariners' top pitching prospect moves into second place on MiLB K leaderboard",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
-    },
-    {
       "title": "20-year-old Emerson homers in 'special' Ohio homecoming",
       "link": "https://www.mlb.com/mariners/news/colt-emerson-homers-in-mariners-win-over-guardians",
       "pubDate": "Sat, 27 Jun 2026 04:22:00 GMT",
@@ -390,6 +330,26 @@
       "priority": 1
     },
     {
+      "title": "Series Preview: Mariners (41-41) at Guardians (42-39)",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-game-information/145336/series-preview-seattle-mariners-at-cleveland-guardians-june-2026",
+      "pubDate": "2026-06-26T16:00:00.000Z",
+      "isoDate": "2026-06-26T16:00:00.000Z",
+      "excerpt": "HOUSTON, TEXAS - JUNE 20: Steven Kwan #38 of the Cleveland Guardians celebrates with Brayan Rocchio #4 after defeating the Houston Astros at Daikin Park on June 20, 2026 in Houston, Texas. (Photo by Tim Warner/Getty...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Top prospects Felnin Celesten, Lazaro Montes headline explosive day of Mariner minor league action",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-prospects/145347/top-prospects-felnin-celesten-lazaro-montes-headline-explosive-day-of-mariner-minor-league-action",
+      "pubDate": "2026-06-26T16:00:00.000Z",
+      "isoDate": "2026-06-26T16:00:00.000Z",
+      "excerpt": "Amidst an overwhelming display of prospect prowess up and down the system, premiere shortstop Felnin Celesten headlined an active AquaSox lineup by hitting for the cycle in just seven innings. This marks the first...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
       "title": "ESPN ranks Seahawks &#8216;offensive playmakers&#8217; worst in NFC West",
       "link": "https://www.fieldgulls.com/seattle-seahawks-news/169995/espn-ranks-seahawks-offensive-playmakers-worst-nfc-west",
       "pubDate": "2026-06-26T15:00:00.000Z",
@@ -407,6 +367,16 @@
       "excerpt": "It is the quiet time of year in the NFL. No training camps, no games, generally no big trades or free agent signings. There’s a lot to look forward to, and as the reigning Super Bowl Champions, the Seattle Seahawks sit...",
       "source": "Field Gulls",
       "team": "seahawks",
+      "priority": 1
+    },
+    {
+      "title": "Mariners News: Andrés Muñoz, Miles Mastrobuoni, and Corey Seager",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-news/145331/mariners-news-andres-munoz-miles-mastrobuoni-and-corey-seager",
+      "pubDate": "2026-06-26T14:00:00.000Z",
+      "isoDate": "2026-06-26T14:00:00.000Z",
+      "excerpt": "Jun 25, 2026; Toronto, Ontario, CAN; Texas Rangers shortstop Corey Seager (5) turns a double play against Toronto Blue Jays shortstop Ernie Clement (not pictured) first baseman Vladimir Guerrero Jr. (not pictured)...",
+      "source": "Lookout Landing",
+      "team": "mariners",
       "priority": 1
     },
     {
@@ -440,6 +410,16 @@
       "priority": 2
     },
     {
+      "title": "Broadcast castaways, Mariners sunk as Pirates win series 5-1",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/145313/broadcast-castaways-mariners-sunk-in-pirates-sweep-5-1",
+      "pubDate": "2026-06-25T21:19:20.000Z",
+      "isoDate": "2026-06-25T21:19:20.000Z",
+      "excerpt": "PITTSBURGH, PA - JUNE 25: Cal Raleigh #29 of the Seattle Mariners looks on during the game between the Seattle Mariners and the Pittsburgh Pirates at PNC Park on Thursday, June 25, 2026 in Pittsburgh, Pennsylvania....",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
       "title": "Seahawks Travel To Atlanta And Alabama For A Civil Rights Learning Tour",
       "link": "https://www.seahawks.com/news/seahawks-travel-to-atlanta-and-alabama-for-a-civil-rights-learning-tour",
       "pubDate": "Thu, 25 Jun 2026 19:57:49 GMT",
@@ -458,6 +438,46 @@
       "source": "MLB Trade Rumors",
       "team": "mariners",
       "priority": 2
+    },
+    {
+      "title": "41-41: Chart",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/145315/41-41-chart",
+      "pubDate": "2026-06-25T19:29:35.000Z",
+      "isoDate": "2026-06-25T19:29:35.000Z",
+      "excerpt": "PITTSBURGH, PA - JUNE 25: Brandon Lowe #5 of the Pittsburgh Pirates rounds the bases after hitting a home run in the first inning during the game between the Seattle Mariners and the Pittsburgh Pirates at PNC Park on...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Mariners Game #82 Preview and Discussion: SEA at PIT, 6/25",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-game-information/145308/mariners-game-82-preview-and-discussion-sea-at-pit-6-25",
+      "pubDate": "2026-06-25T15:46:47.000Z",
+      "isoDate": "2026-06-25T15:46:47.000Z",
+      "excerpt": "PITTSBURGH, PENNSYLVANIA - JUNE 24: Pittsburgh Pirates fans pose while holding a Topps cards for the 75th anniversary before the game between the Seattle Mariners and the Pittsburgh Pirates at PNC Park on June 24, 2026...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Mariners Draft Profile: RHP Logan Reddemann",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-mlb-draft/145300/mariners-draft-profile-rhp-logan-reddemann",
+      "pubDate": "2026-06-25T15:00:00.000Z",
+      "isoDate": "2026-06-25T15:00:00.000Z",
+      "excerpt": "PISCATAWAY, NEW JERSEY - APRIL 10, 2026: Logan Reddemann #24 of the UCLA Bruins warms up prior to a game against the Rutgers Scarlet Knights at Bainton Field on April 10, 2026 in Piscataway, New Jersey. (Photo by Chris...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Mariners News: Felnin Celesten, Francisco Lindor, and Dansby Swanson",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-news/145289/mariners-news-felnin-celesten-francisco-lindor-and-dansby-swanson",
+      "pubDate": "2026-06-25T14:00:00.000Z",
+      "isoDate": "2026-06-25T14:00:00.000Z",
+      "excerpt": "Jun 24, 2026; New York City, New York, USA; Chicago Cubs shortstop Dansby Swanson (7) hits an RBI triple during the sixth inning against the New York Mets at Citi Field. Mandatory Credit: Vincent Carchietta-Imagn Images...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
     },
     {
       "title": "Seahawks Legends Attend Legends Spring Event",
@@ -588,26 +608,6 @@
       "source": "Seahawks.com",
       "team": "seahawks",
       "priority": 6
-    },
-    {
-      "title": "Kraken Re-Sign Logan Morrison To One-Year Deal",
-      "link": "https://www.prohockeyrumors.com/2026/06/kraken-re-sign-logan-morrison-to-one-year-deal.html",
-      "pubDate": "Thu, 18 Jun 2026 23:44:23 +0000",
-      "isoDate": "2026-06-18T23:44:23.000Z",
-      "excerpt": "The Seattle Kraken have re-signed pending RFA center Logan Morrison to a one-year contract.",
-      "source": "Pro Hockey Rumors",
-      "team": "kraken",
-      "priority": 2
-    },
-    {
-      "title": "Pierre-Edouard Bellemare Announces Retirement",
-      "link": "https://www.prohockeyrumors.com/2026/06/pierre-edouard-bellemare-announces-retirement.html",
-      "pubDate": "Thu, 18 Jun 2026 19:11:42 +0000",
-      "isoDate": "2026-06-18T19:11:42.000Z",
-      "excerpt": "The second-highest scoring French-born player in NHL history has hung up his skates. According to an announcement from the NHL, forward Pierre-Édouard Bellemare has retired from professional hockey. Before his time in...",
-      "source": "Pro Hockey Rumors",
-      "team": "kraken",
-      "priority": 2
     }
   ]
 }
