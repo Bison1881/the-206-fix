@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T19:50:41.346Z",
+  "generatedAt": "2026-06-30T21:25:29.391Z",
   "sourceCount": 10,
   "successfulSources": 8,
   "failedSources": [
@@ -13,6 +13,26 @@
     }
   ],
   "items": [
+    {
+      "title": "Seahawks 'Mayor' Julian Love 'Exemplifies The Mentality We're Looking For'",
+      "link": "https://www.seahawks.com/news/seahawks-mayor-julian-love-exemplifies-the-mentality-we-re-looking-for",
+      "pubDate": "Tue, 30 Jun 2026 20:20:12 GMT",
+      "isoDate": "2026-06-30T20:20:12.000Z",
+      "excerpt": "Heading into his fourth season with the Seahawks, safety Julian Love is again exemplifying the leadership and selflessness that helps make Seattle’s defense great.",
+      "source": "Seahawks.com",
+      "team": "seahawks",
+      "priority": 6
+    },
+    {
+      "title": "The crazy Mariners trade idea that just might work: George Springer",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-trade-idea-george-springer",
+      "pubDate": "Tue, 30 Jun 2026 20:08:16 +0000",
+      "isoDate": "2026-06-30T20:08:16.000Z",
+      "excerpt": "Why George Springer, a longtime thorn in the Mariners' side, would make perfect sense at the MLB trade deadline for Seattle.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
     {
       "title": "ESPN insider gives update on Seahawks RB Charbonnet’s ACL recovery",
       "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/espn-insider-update-seattle-seahawks-charbonnet-acl-recovery",
@@ -142,16 +162,6 @@
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
-    },
-    {
-      "title": "World Cup Roundup: Paraguay, Morocco win in shootouts; Brazil advances",
-      "link": "https://sports.mynorthwest.com/seattle-sports-pit/world-cup-roundup-paraguay-morocco-win-in-shootouts-brazil-advances",
-      "pubDate": "Tue, 30 Jun 2026 04:46:45 +0000",
-      "isoDate": "2026-06-30T04:46:45.000Z",
-      "excerpt": "Recaps from the three World Cup Round of 32 games to be played Monday.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
     },
     {
       "title": "Anderson named new No. 1 pitching prospect; Mariners have 3 in top 10",
@@ -602,16 +612,6 @@
       "source": "MLB Trade Rumors",
       "team": "mariners",
       "priority": 2
-    },
-    {
-      "title": "Seahawks Mailbag: Super Bowl Rings, Year 2 Nick Emmanwori & More",
-      "link": "https://www.seahawks.com/news/seahawks-mailbag-super-bowl-rings-year-2-nick-emmanwori-more",
-      "pubDate": "Wed, 17 Jun 2026 23:14:34 GMT",
-      "isoDate": "2026-06-17T23:14:34.000Z",
-      "excerpt": "You had Seahawks questions; we have answers.",
-      "source": "Seahawks.com",
-      "team": "seahawks",
-      "priority": 6
     }
   ]
 }
