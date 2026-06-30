@@ -1,14 +1,108 @@
 {
-  "generatedAt": "2026-06-29T22:53:21.637Z",
+  "generatedAt": "2026-06-30T02:58:04.051Z",
   "sourceCount": 10,
-  "successfulSources": 9,
+  "successfulSources": 8,
   "failedSources": [
+    {
+      "source": "Seattle Times Sports",
+      "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
+    },
     {
       "source": "Davy Jones' Locker Room",
       "error": "Status code 415 (lenient retry: Status code 415)"
     }
   ],
   "items": [
+    {
+      "title": "Latest Mariners injuries and transactions",
+      "link": "https://www.mlb.com/mariners/news/mariners-injuries-and-roster-moves",
+      "pubDate": "Tue, 30 Jun 2026 02:01:00 GMT",
+      "isoDate": "2026-06-30T02:01:00.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Refsnyder goes on IL with knee inflammation; Kennedy added to roster",
+      "link": "https://www.mlb.com/mariners/news/rob-refsnyder-goes-on-injured-list-with-knee-issue",
+      "pubDate": "Tue, 30 Jun 2026 01:49:28 GMT",
+      "isoDate": "2026-06-30T01:49:28.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Seahawks’ Ty Okada, Bud Clark To Compete For Starting Safety Job",
+      "link": "https://www.profootballrumors.com/2026/06/seahawks-ty-okada-bud-clark-to-compete-for-starting-safety-job",
+      "pubDate": "Tue, 30 Jun 2026 01:32:43 +0000",
+      "isoDate": "2026-06-30T01:32:43.000Z",
+      "excerpt": "The Seahawks are returning most of their starters from last season’s Super Bowl-winning roster, but safety is one of the few exceptions. After Coby Bryant left in free agency for the Bears’ three-year, $40MM offer, Ty...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
+      "priority": 2
+    },
+    {
+      "title": "Mariners Game #86 Preview and Discussion, 6/29/26: SEA vs LAA",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-discussion/145503/mariners-game-86-preview-and-discussion-6-29-26-sea-vs-laa",
+      "pubDate": "2026-06-30T01:00:00.000Z",
+      "isoDate": "2026-06-30T01:00:00.000Z",
+      "excerpt": "Jun 17, 2026; Seattle, Washington, USA; Seattle Mariners starting pitcher George Kirby (68) pitches to the Baltimore Orioles during the second inning at T-Mobile Park. Mandatory Credit: Steven Bisig-Imagn Images |...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Mariners Acquire Buddy Kennedy",
+      "link": "https://www.mlbtraderumors.com/2026/06/mariners-acquire-buddy-kennedy.html",
+      "pubDate": "Tue, 30 Jun 2026 00:14:34 +0000",
+      "isoDate": "2026-06-30T00:14:34.000Z",
+      "excerpt": "June 29: Kennedy has reported to the team and is active for tonight’s series opener against the Angels. Seattle placed Refsnyder on the 10-day injured list, retroactive to June 27, with right knee inflammation to open a...",
+      "source": "MLB Trade Rumors",
+      "team": "mariners",
+      "priority": 2
+    },
+    {
+      "title": "Latest on injury concerns for Mariners’ Dominic Canzone, Luke Raley",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-injury-concerns-dominic-canzone-luke-raley",
+      "pubDate": "Mon, 29 Jun 2026 23:41:33 +0000",
+      "isoDate": "2026-06-29T23:41:33.000Z",
+      "excerpt": "Seattle's two slugging outfielders are planning to play through injuries with the MLB All-Star break coming in two weeks.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Rob Refsnyder placed on the injured list amid series of injury updates for Seattle Mariners",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-injuries/145497/rob-refsnyder-placed-on-the-injured-list-amid-series-of-injury-updates-for-seattle-mariners",
+      "pubDate": "2026-06-29T23:30:14.000Z",
+      "isoDate": "2026-06-29T23:30:14.000Z",
+      "excerpt": "SEATTLE, WASHINGTON - JUNE 19: Rob Refsnyder #30 of the Seattle Mariners waits for the pitch during the eighth inning against the Boston Red Sox at T-Mobile Park on June 19, 2026 in Seattle, Washington. (Photo by Jack...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Mariners place struggling Rob Refsnyder on IL, activate new pick-up",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-rob-refsnyder-injured-list",
+      "pubDate": "Mon, 29 Jun 2026 23:07:45 +0000",
+      "isoDate": "2026-06-29T23:07:45.000Z",
+      "excerpt": "Struggling offseason addition Rob Refsnyder is going on the Seattle Mariners' 10-day injured list with a knee injury.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "First Bids For Seahawks Due Monday",
+      "link": "https://www.profootballrumors.com/2026/06/first-bids-for-seahawks-due-monday",
+      "pubDate": "Mon, 29 Jun 2026 22:55:10 +0000",
+      "isoDate": "2026-06-29T22:55:10.000Z",
+      "excerpt": "The Seahawks officially went up for sale on Feb. 18, less than two weeks after they won their second Super Bowl. The process is taking an important step forward four-plus months later, as Bloomberg’s Randall Williams...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
+      "priority": 2
+    },
     {
       "title": "Kraken Re-Sign J.R. Avon, Lleyton Roed",
       "link": "https://www.prohockeyrumors.com/2026/06/kraken-re-sign-j-r-avon-lleyton-roed.html",
@@ -20,14 +114,14 @@
       "priority": 2
     },
     {
-      "title": "Mariners place Rob Refsnyder on injured list ahead of homestand",
-      "link": "https://www.seattletimes.com/sports/mariners/mariners-place-rob-refsnyder-on-injured-list-ahead-of-homestand/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Mon, 29 Jun 2026 15:31:57 -0700",
-      "isoDate": "2026-06-29T22:31:57.000Z",
-      "excerpt": "The Mariners placed Rob Refsnyder, who is dealing with knee discomfort, on the 10-day injured list before Monday's home opener vs. the Angels.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
+      "title": "NEW: Updated Top 100 Prospects list -- highest risers, new faces and more",
+      "link": "https://www.mlb.com/mariners/news/updated-top-100-prospects-list-june-2026",
+      "pubDate": "Mon, 29 Jun 2026 22:38:18 GMT",
+      "isoDate": "2026-06-29T22:38:18.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
     },
     {
       "title": "Portland Trail Blazers landing star guard Ja Morant in trade with Grizzlies",
@@ -50,16 +144,6 @@
       "priority": 3
     },
     {
-      "title": "Bids to buy Seahawks reportedly due Monday",
-      "link": "https://www.seattletimes.com/sports/seahawks/bids-to-buy-seahawks-reportedly-due-monday/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Mon, 29 Jun 2026 13:40:18 -0700",
-      "isoDate": "2026-06-29T20:40:18.000Z",
-      "excerpt": "Those interested in making a bid for the Seahawks have until Monday to get it sorted out, according to a new report.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "Disrespect of Super Bowl champion Seahawks ‘getting ridiculous’",
       "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/analyst-seattle-seahawks-among-most-disrespected-super-bowl-champs",
       "pubDate": "Mon, 29 Jun 2026 20:31:32 +0000",
@@ -78,26 +162,6 @@
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
-    },
-    {
-      "title": "Will Trump attend Seattle World Cup match if USMNT advances?",
-      "link": "https://www.seattletimes.com/seattle-news/world-cup-seattle/will-trump-attend-seattle-world-cup-match-if-usmnt-advances/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Mon, 29 Jun 2026 12:32:23 -0700",
-      "isoDate": "2026-06-29T19:32:23.000Z",
-      "excerpt": "King County International Airport has advised a local company about the possibility of a presidential temporary flight restriction on July 6 in Seattle. Here’s what we know.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Gabriel Martinelli scores late in injury time to help Brazil beat Japan 2-1 at World Cup",
-      "link": "https://www.seattletimes.com/sports/world-cup/gabriel-martinelli-scores-late-in-injury-time-as-brazil-beats-japan-at-world-cup/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Mon, 29 Jun 2026 12:11:58 -0700",
-      "isoDate": "2026-06-29T19:11:58.000Z",
-      "excerpt": "Gabriel Martinelli scored the winning goal late in injury time to give five-time champion Brazil a 2-1 win over Japan in the round of 32 at the World Cup.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
     },
     {
       "title": "The Mariners’ biggest problem has taken a turn for the worse",
@@ -120,14 +184,14 @@
       "priority": 3
     },
     {
-      "title": "Former NFL star running back Chris Johnson reveals he has ALS",
-      "link": "https://sports.mynorthwest.com/nfl/chris-johnson-als-nfl-running-back",
-      "pubDate": "Mon, 29 Jun 2026 16:41:40 +0000",
-      "isoDate": "2026-06-29T16:41:40.000Z",
-      "excerpt": "Chris Johnson, one of nine players in NFL history to rush for more than 2,000 yards in a season, revealed in a television interview aired Monday that he has ALS.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
+      "title": "Series Preview: Mariners (42-43) vs. Angels (36-49)",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-game-information/145487/series-preview-seattle-mariners-vs-los-angeles-angels-june-2026",
+      "pubDate": "2026-06-29T17:06:20.000Z",
+      "isoDate": "2026-06-29T17:06:20.000Z",
+      "excerpt": "ANAHEIM, CALIFORNIA - JUNE 24: Logan O'Hoppe #14 of the Los Angeles Angels is congratulated after hitting a walk-off single during the 10th inning against the Baltimore Orioles at Angel Stadium of Anaheim on June 24,...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
     },
     {
       "title": "Seattle Mariners Minor League Roundup &#8211; Week Fourteen",
@@ -138,16 +202,6 @@
       "source": "Lookout Landing",
       "team": "mariners",
       "priority": 1
-    },
-    {
-      "title": "The get-in prices for Seattle’s World Cup knockout matches",
-      "link": "https://sports.mynorthwest.com/seattle-sports-pit/get-in-prices-seattle-world-cup-knockout-matches",
-      "pubDate": "Mon, 29 Jun 2026 15:36:51 +0000",
-      "isoDate": "2026-06-29T15:36:51.000Z",
-      "excerpt": "Here's what it costs to get into the stadium for Seattle's round-of-32 and round-of-16 matches.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
     },
     {
       "title": "'We've just got to be better': Cal candid after gut-punch loss",
@@ -170,16 +224,6 @@
       "priority": 1
     },
     {
-      "title": "Former NBA players Malik Beasley, Ed Davis are latest to be charged in gambling scandal",
-      "link": "https://www.seattletimes.com/nation-world/nation/former-nba-players-malik-beasley-ed-davis-are-latest-to-be-charged-in-gambling-scandal/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Mon, 29 Jun 2026 07:43:22 -0700",
-      "isoDate": "2026-06-29T14:43:22.000Z",
-      "excerpt": "Former NBA players Malik Beasley and Ed Davis have been indicted in the latest round of charges in the government’s gambling investigation.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "Seahawks News 6/29: Zach Charbonnet, other fighting for extensions in 2026",
       "link": "https://www.fieldgulls.com/seattle-seahawks-news/170069/seahawks-news-6-29-zach-charbonnet-other-fighting-for-extensions-in-2026",
       "pubDate": "2026-06-29T14:34:51.000Z",
@@ -187,16 +231,6 @@
       "excerpt": "SANTA CLARA, CALIFORNIA - JANUARY 03: Zach Charbonnet #26 of the Seattle Seahawks runs the ball against Deommodore Lenoir #2 of the San Francisco 49ers in the third quarter against the San Francisco 49ers at Levi's...",
       "source": "Field Gulls",
       "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "Former NFL RB Chris Johnson, known as CJ2K for his 2,000 yards for Titans in ’09, reveals he has ALS",
-      "link": "https://www.seattletimes.com/sports/nfl/former-tennessee-titans-running-back-chris-johnson-reveals-he-has-been-diagnosed-with-als/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Mon, 29 Jun 2026 07:26:41 -0700",
-      "isoDate": "2026-06-29T14:26:41.000Z",
-      "excerpt": "Chris Johnson, one of nine players in NFL history to rush for more than 2,000 yards in a season who made the Pro Bowl in each of his first three years with the Tennessee Titans, has revealed in a television interview...",
-      "source": "Seattle Times Sports",
-      "team": "general",
       "priority": 1
     },
     {
@@ -220,40 +254,10 @@
       "priority": 1
     },
     {
-      "title": "Emerald Downs bets on more than the adrenaline rush of horse races",
-      "link": "https://www.seattletimes.com/pacific-nw-magazine/emerald-downs-bets-on-more-than-the-adrenaline-rush-of-horse-races/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Mon, 29 Jun 2026 06:00:00 -0700",
-      "isoDate": "2026-06-29T13:00:00.000Z",
-      "excerpt": "The backstretch at Emerald Downs reveals a vast equine facility, but the racetrack is not all horses and jockeys. It also provides visitors with a dash of whimsy between races.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "2026 World Cup: Lumen Field earns positive reviews from visitors",
-      "link": "https://www.seattletimes.com/sports/world-cup/2026-world-cup-lumen-field-earns-positive-reviews-from-visitors/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Mon, 29 Jun 2026 06:00:00 -0700",
-      "isoDate": "2026-06-29T13:00:00.000Z",
-      "excerpt": "A report last month speculated a new Seahawks owner could want to replace Lumen Field, but World Cup fans gave the stadium, which opened in 2002, positive reviews.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "Mariners acquire infielder Kennedy from Giants",
       "link": "https://www.mlb.com/mariners/news/mariners-acquire-infielder-buddy-kennedy-from-giants",
       "pubDate": "Mon, 29 Jun 2026 05:05:27 GMT",
       "isoDate": "2026-06-29T05:05:27.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
-    },
-    {
-      "title": "Latest Mariners injuries and transactions",
-      "link": "https://www.mlb.com/mariners/news/mariners-injuries-and-roster-moves",
-      "pubDate": "Mon, 29 Jun 2026 04:52:00 GMT",
-      "isoDate": "2026-06-29T04:52:00.000Z",
       "excerpt": "",
       "source": "Mariners.com",
       "team": "mariners",
@@ -278,16 +282,6 @@
       "source": "Lookout Landing",
       "team": "mariners",
       "priority": 1
-    },
-    {
-      "title": "Mariners Acquire Buddy Kennedy",
-      "link": "https://www.mlbtraderumors.com/2026/06/mariners-acquire-buddy-kennedy.html",
-      "pubDate": "Mon, 29 Jun 2026 02:39:34 +0000",
-      "isoDate": "2026-06-29T02:39:34.000Z",
-      "excerpt": "The Mariners announced that infielder Buddy Kennedy has been acquired from the Giants for cash considerations. No further transaction was needed since Seattle already had an open spot on its 40-man roster. San Francisco...",
-      "source": "MLB Trade Rumors",
-      "team": "mariners",
-      "priority": 2
     },
     {
       "title": "Troublesome 8th inning for Mariners' 'pen caps road trip with tough loss",
@@ -330,16 +324,6 @@
       "priority": 2
     },
     {
-      "title": "Mariners Game #85 Preview and Discussion, 6/28/26: SEA at CLE",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-discussion/145430/mariners-game-85-preview-and-discussion-6-28-26-sea-at-cle",
-      "pubDate": "2026-06-28T17:22:37.000Z",
-      "isoDate": "2026-06-28T17:22:37.000Z",
-      "excerpt": "Jun 20, 2026; Seattle, Washington, USA; Seattle Mariners starter Emerson Hancock (26) delivers a pitch second inning against the Boston Red Sox at T-Mobile Park. Mandatory Credit: Stephen Brashear-Imagn Images | Stephen...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
       "title": "Mariners No. 3 prospect Sloan keeps racking up the K's at Double-A",
       "link": "https://www.mlb.com/mariners/news/mariners-prospect-ryan-sloan-gets-nine-strikeouts-at-double-a",
       "pubDate": "Sun, 28 Jun 2026 16:04:17 GMT",
@@ -370,16 +354,6 @@
       "priority": 1
     },
     {
-      "title": "Mariners News: Kade Anderson, Jacob Misiorowski, and Tim Lincecum",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-news/145384/mariners-news-kade-anderson-jacob-misiorowski-and-tim-lincecum",
-      "pubDate": "2026-06-28T14:00:00.000Z",
-      "isoDate": "2026-06-28T14:00:00.000Z",
-      "excerpt": "Apr 15, 2014; San Francisco, CA, USA; San Francisco Giants starting pitcher Tim Lincecum pitches against the Los Angeles Dodgers during the first inning at AT&T Park. Mandatory Credit: Ed Szczepanski-Imagn Images Happy...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
       "title": "Seahawks News 6/28: How wide open is the Seahawks&#8217; Super Bowl window?",
       "link": "https://www.fieldgulls.com/seattle-seahawks-news/170047/seahawks-news-6-28-how-wide-open-is-the-seahawks-super-bowl-window",
       "pubDate": "2026-06-28T13:00:00.000Z",
@@ -387,36 +361,6 @@
       "excerpt": "Feb 11, 2026; Seattle, WA, USA; Seattle Seahawks wide receiver Jaxon Smith-Njigba (11) reacts during the Super Bowl LX parade. Mandatory Credit: Kevin Ng-Imagn Images | Kevin Ng-Imagn Images In Today’s Links: more Jaxon...",
       "source": "Field Gulls",
       "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "Mariners' search for runs continues despite quality contact in Cleveland",
-      "link": "https://www.mlb.com/mariners/news/mariners-three-runs-loss-guardians",
-      "pubDate": "Sun, 28 Jun 2026 04:34:06 GMT",
-      "isoDate": "2026-06-28T04:34:06.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
-    },
-    {
-      "title": "Mariners shift from piggyback, giving Gilbert long runway vs. Guardians",
-      "link": "https://www.mlb.com/mariners/news/logan-gilbert-to-start-for-mariners-without-piggyback-method",
-      "pubDate": "Sun, 28 Jun 2026 03:17:00 GMT",
-      "isoDate": "2026-06-28T03:17:00.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
-    },
-    {
-      "title": "Mariners lose 4-3 to Guardians, fail to find answers to life&#8217;s ultimate questions",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/145410/mariners-lose-4-3-to-guardians-fail-to-find-answers-to-lifes-ultimate-questions",
-      "pubDate": "2026-06-28T02:35:33.000Z",
-      "isoDate": "2026-06-28T02:35:33.000Z",
-      "excerpt": "CLEVELAND, OHIO - JUNE 27: Julio Rodríguez #44 of the Seattle Mariners reacts after being hit by a pitch during the eighth inning against the Cleveland Guardians at Progressive Field on June 27, 2026 in Cleveland, Ohio....",
-      "source": "Lookout Landing",
-      "team": "mariners",
       "priority": 1
     },
     {
@@ -608,6 +552,66 @@
       "source": "MLB Trade Rumors",
       "team": "mariners",
       "priority": 2
+    },
+    {
+      "title": "Takeaways From The Seahawks' 2026 Offseason Program & Minicamp",
+      "link": "https://www.seahawks.com/news/takeaways-from-the-seahawks-2026-offseason-program-minicamp",
+      "pubDate": "Fri, 19 Jun 2026 20:35:51 GMT",
+      "isoDate": "2026-06-19T20:35:51.000Z",
+      "excerpt": "Looking back at what we learned from the Seahawks’ voluntary offseason workouts and mandatory minicamp.",
+      "source": "Seahawks.com",
+      "team": "seahawks",
+      "priority": 6
+    },
+    {
+      "title": "Kraken Re-Sign Logan Morrison To One-Year Deal",
+      "link": "https://www.prohockeyrumors.com/2026/06/kraken-re-sign-logan-morrison-to-one-year-deal.html",
+      "pubDate": "Thu, 18 Jun 2026 23:44:23 +0000",
+      "isoDate": "2026-06-18T23:44:23.000Z",
+      "excerpt": "The Seattle Kraken have re-signed pending RFA center Logan Morrison to a one-year contract.",
+      "source": "Pro Hockey Rumors",
+      "team": "kraken",
+      "priority": 2
+    },
+    {
+      "title": "Pierre-Edouard Bellemare Announces Retirement",
+      "link": "https://www.prohockeyrumors.com/2026/06/pierre-edouard-bellemare-announces-retirement.html",
+      "pubDate": "Thu, 18 Jun 2026 19:11:42 +0000",
+      "isoDate": "2026-06-18T19:11:42.000Z",
+      "excerpt": "The second-highest scoring French-born player in NHL history has hung up his skates. According to an announcement from the NHL, forward Pierre-Édouard Bellemare has retired from professional hockey. Before his time in...",
+      "source": "Pro Hockey Rumors",
+      "team": "kraken",
+      "priority": 2
+    },
+    {
+      "title": "Mariners Sign Weston Wilson To Minor League Contract",
+      "link": "https://www.mlbtraderumors.com/2026/06/mariners-sign-weston-wilson-to-minor-league-contract.html",
+      "pubDate": "Thu, 18 Jun 2026 16:57:43 +0000",
+      "isoDate": "2026-06-18T16:57:43.000Z",
+      "excerpt": "Infielder/outfielder Weston Wilson has signed a minor league contract with the Mariners after electing free agency in lieu of an outright assignment from the Orioles late last week. The team never formally announced the...",
+      "source": "MLB Trade Rumors",
+      "team": "mariners",
+      "priority": 2
+    },
+    {
+      "title": "Royals Acquire Randy Dobnak",
+      "link": "https://www.mlbtraderumors.com/2026/06/royals-to-acquire-randy-dobnak.html",
+      "pubDate": "Wed, 17 Jun 2026 23:52:54 +0000",
+      "isoDate": "2026-06-17T23:52:54.000Z",
+      "excerpt": "6:52pm: Kansas City officially acquired Dobnak for cash considerations and optioned him to Triple-A. They transferred Cole Ragans from the 15-day to the 60-day injured list to open a spot on the 40-man roster. Ragans...",
+      "source": "MLB Trade Rumors",
+      "team": "mariners",
+      "priority": 2
+    },
+    {
+      "title": "Seahawks Mailbag: Super Bowl Rings, Year 2 Nick Emmanwori & More",
+      "link": "https://www.seahawks.com/news/seahawks-mailbag-super-bowl-rings-year-2-nick-emmanwori-more",
+      "pubDate": "Wed, 17 Jun 2026 23:14:34 GMT",
+      "isoDate": "2026-06-17T23:14:34.000Z",
+      "excerpt": "You had Seahawks questions; we have answers.",
+      "source": "Seahawks.com",
+      "team": "seahawks",
+      "priority": 6
     }
   ]
 }
