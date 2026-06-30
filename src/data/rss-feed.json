@@ -1,14 +1,119 @@
 {
-  "generatedAt": "2026-06-30T14:11:40.759Z",
+  "generatedAt": "2026-06-30T17:50:13.900Z",
   "sourceCount": 10,
-  "successfulSources": 9,
-  "failedSources": [
-    {
-      "source": "Seattle Times Sports",
-      "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
-    }
-  ],
+  "successfulSources": 10,
+  "failedSources": [],
   "items": [
+    {
+      "title": "Seattle Storm nominated for ESPN’s Humanitarian Team of the Year Award",
+      "link": "https://sports.mynorthwest.com/wnba/seattle-storm/seattle-storm-nominated-espn-humanitarian-team-of-the-year-award",
+      "pubDate": "Tue, 30 Jun 2026 17:03:31 +0000",
+      "isoDate": "2026-06-30T17:03:31.000Z",
+      "excerpt": "The Storm are one of four nominees for the award, which honors teams for their community impact.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Mexico fans blast horns outside Ecuador’s hotel on eve of World Cup match",
+      "link": "https://sports.mynorthwest.com/seattle-sports-pit/mexico-fans-blast-horns-ecuador-hotel-world-cup",
+      "pubDate": "Tue, 30 Jun 2026 17:02:44 +0000",
+      "isoDate": "2026-06-30T17:02:44.000Z",
+      "excerpt": "Mexican soccer fans pulled out all the stops to give Ecuador a sleepless night ahead of their World Cup clash for the round of 32 late Tuesday at Mexico City stadium.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "When will these Seattle Mariners get hot again? We rate your takes!",
+      "link": "https://www.lookoutlanding.com/mlb-playbook-2026/145528/when-will-these-seattle-mariners-get-hot-again-we-rate-your-takes",
+      "pubDate": "2026-06-30T17:00:00.000Z",
+      "isoDate": "2026-06-30T17:00:00.000Z",
+      "excerpt": "Jun 29, 2026; Seattle, Washington, USA; Seattle Mariners third baseman J.P. Crawford (3) throws to first base for a groundout against the Los Angeles Angels during the first inning at T-Mobile Park. Mandatory Credit:...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "LeBron James tells Lakers he won’t be back next season",
+      "link": "https://www.seattletimes.com/sports/lebron-james-tells-lakers-he-wont-be-back-next-season/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Tue, 30 Jun 2026 09:58:18 -0700",
+      "isoDate": "2026-06-30T16:58:18.000Z",
+      "excerpt": "After eight years with the Lakers, LeBron James is continuing his career, but it will not be with the Lakers.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Ex-Mariners OF Jarred Kelenic DFA’d by AL West rival",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/ex-seattle-mariners-jarred-kelenic-dfa-rangers",
+      "pubDate": "Tue, 30 Jun 2026 16:31:53 +0000",
+      "isoDate": "2026-06-30T16:31:53.000Z",
+      "excerpt": "It marks the second time this season that Kelenic has been designated for assignment.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Mexican fans blast horns outside Ecuador’s hotel, fueling a sleepless World Cup eve",
+      "link": "https://www.seattletimes.com/sports/world-cup/mexican-fans-blast-horns-outside-ecuadors-hotel-fueling-a-sleepless-world-cup-eve/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Tue, 30 Jun 2026 09:05:06 -0700",
+      "isoDate": "2026-06-30T16:05:06.000Z",
+      "excerpt": "Mexican soccer fans have given Ecuador a sleepless night ahead of their World Cup clash.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "ESPN analyst gives Seahawks higher offseason grade than Rams",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/170115/espn-analyst-seattle-seahawks-offseason-grade-higher-than-rams",
+      "pubDate": "2026-06-30T15:47:25.000Z",
+      "isoDate": "2026-06-30T15:47:25.000Z",
+      "excerpt": "SEATTLE, WASHINGTON - JANUARY 25: Jaxon Smith-Njigba #11 of the Seattle Seahawks pulls in a one handed catch in front of Cobie Durant #14 of the Los Angeles Rams during the first quarter in the NFC Championship game at...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
+    {
+      "title": "US riding wave of confidence into World Cup knockout rounds",
+      "link": "https://sports.mynorthwest.com/seattle-sports-pit/us-riding-wave-of-confidence-into-world-cup-knockout-rounds",
+      "pubDate": "Tue, 30 Jun 2026 15:14:06 +0000",
+      "isoDate": "2026-06-30T15:14:06.000Z",
+      "excerpt": "After a rousing start to the World Cup, the U.S. has a chance to make a historic run as it enters the knockout stage.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Seahawks News 6/30: Bids to buy Seahawks due today",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-news/170102/seahawks-news-6-30-bids-to-buy-seahawks-due-today",
+      "pubDate": "2026-06-30T15:13:19.000Z",
+      "isoDate": "2026-06-30T15:13:19.000Z",
+      "excerpt": "Workers cover up a Seahawks logo at Seattle Stadium, temporarily renamed from Lumen Field, ahead of the FIFA World Cup 2026 in Seattle, Washington, on May 27, 2026. The stadium will host six matches during the 2026 FIFA...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
+    {
+      "title": "Latest updates on 4 Mariners working back from the IL",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-4-updates-il-brendan-donovan-matt-brash",
+      "pubDate": "Tue, 30 Jun 2026 14:16:26 +0000",
+      "isoDate": "2026-06-30T14:16:26.000Z",
+      "excerpt": "Mariners GM Justin Hollander provided the latest on Brendan Donovan and three relievers who are recovering on the IL.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Supreme Court upholds state laws banning transgender girls and women from school athletic teams",
+      "link": "https://www.seattletimes.com/nation-world/nation/supreme-court-upholds-state-laws-banning-transgender-girls-and-women-from-school-athletic-teams/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Tue, 30 Jun 2026 07:09:09 -0700",
+      "isoDate": "2026-06-30T14:09:09.000Z",
+      "excerpt": "The Supreme Court is upholding state laws barring transgender girls and women from playing on school athletic teams, in another setback for transgender people.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
     {
       "title": "Mariners News: George Kirby, Rob Refsnyder, and Kade Anderson",
       "link": "https://www.lookoutlanding.com/seattle-mariners-news/145526/george-kirby-rob-refsnyder-kade-anderson-marcus-semien-jeremy-pena",
@@ -17,6 +122,26 @@
       "excerpt": "Jun 29, 2026; Seattle, Washington, USA; Seattle Mariners starting pitcher George Kirby (68) celebrates a victory against the Los Angeles Angels with second baseman Cole Young (2, right) during the ninth inning at...",
       "source": "Lookout Landing",
       "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "NHL free agency: Seattle Kraken could lose vets Jamie Oleksiak, Jaden Schwartz",
+      "link": "https://www.seattletimes.com/sports/kraken/nhl-free-agency-seattle-kraken-could-lose-vets-jamie-oleksiak-jaden-schwartz/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Tue, 30 Jun 2026 06:00:00 -0700",
+      "isoDate": "2026-06-30T13:00:00.000Z",
+      "excerpt": "Two original members of the Kraken, Jamie Oleksiak and Jaden Schwartz, are set to hit free agency on Wednesday. Who will be available to replace them if needed?",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "The return of the Pac-12: How Oregon State and Washington State stuck together and saved the conference",
+      "link": "https://www.seattletimes.com/sports/wsu-cougar-football/the-return-of-the-pac-12-how-oregon-state-and-washington-state-stuck-together-and-saved-the-conference/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Tue, 30 Jun 2026 06:00:00 -0700",
+      "isoDate": "2026-06-30T13:00:00.000Z",
+      "excerpt": "On Aug. 4, 2023, the Pac-12 was on the verge of total collapse. Here’s how the leaders of Washington State and Oregon State banded together and saved the conference.",
+      "source": "Seattle Times Sports",
+      "team": "general",
       "priority": 1
     },
     {
@@ -70,6 +195,26 @@
       "priority": 3
     },
     {
+      "title": "Saibari’s shootout winner sends Morocco past the Netherlands, earliest World Cup exit for the Dutch",
+      "link": "https://www.seattletimes.com/sports/world-cup/saibaris-shootout-winner-sends-morocco-past-the-netherlands-earliest-world-cup-exit-for-the-dutch/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Mon, 29 Jun 2026 21:17:26 -0700",
+      "isoDate": "2026-06-30T04:17:26.000Z",
+      "excerpt": "Ismael Saibari scored the decisive goal in a penalty shootout, and Morocco sent the Netherlands to its earliest World Cup exit, eliminating the Dutch 3-2 after a 1-1 draw.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Cole Young homers twice, George Kirby goes 8 strong as Mariners top Angels",
+      "link": "https://www.seattletimes.com/sports/mariners/cole-young-homers-twice-george-kirby-tosses-8-brilliant-innings-as-mariners-top-angels/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Mon, 29 Jun 2026 21:00:05 -0700",
+      "isoDate": "2026-06-30T04:00:05.000Z",
+      "excerpt": "Cole Young clobbered two home runs for the first multi-homer game of his career, George Kirby was brilliant over eight strong innings and the Mariners beat the Angels 6-2.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
       "title": "43-43: Chart",
       "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/145518/43-43-chart",
       "pubDate": "2026-06-30T03:55:28.000Z",
@@ -97,6 +242,16 @@
       "excerpt": "SANTA CLARA, CALIFORNIA - FEBRUARY 8: AJ Barner #88 of the Seattle Seahawks catches a touchdown pass during the NFL Super Bowl LX football game against the New England Patriots at Levi's Stadium on February 8, 2026 in...",
       "source": "Field Gulls",
       "team": "seahawks",
+      "priority": 1
+    },
+    {
+      "title": "Photos: Angels at Mariners",
+      "link": "https://www.seattletimes.com/photo-video/photography/photos-angels-at-mariners/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Mon, 29 Jun 2026 19:37:34 -0700",
+      "isoDate": "2026-06-30T02:37:34.000Z",
+      "excerpt": "",
+      "source": "Seattle Times Sports",
+      "team": "general",
       "priority": 1
     },
     {
@@ -150,16 +305,6 @@
       "priority": 2
     },
     {
-      "title": "Latest on injury concerns for Mariners’ Dominic Canzone, Luke Raley",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-injury-concerns-dominic-canzone-luke-raley",
-      "pubDate": "Mon, 29 Jun 2026 23:41:33 +0000",
-      "isoDate": "2026-06-29T23:41:33.000Z",
-      "excerpt": "Seattle's two slugging outfielders are planning to play through injuries with the MLB All-Star break coming in two weeks.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
       "title": "Rob Refsnyder placed on the injured list amid series of injury updates for Seattle Mariners",
       "link": "https://www.lookoutlanding.com/seattle-mariners-injuries/145497/rob-refsnyder-placed-on-the-injured-list-amid-series-of-injury-updates-for-seattle-mariners",
       "pubDate": "2026-06-29T23:30:14.000Z",
@@ -168,16 +313,6 @@
       "source": "Lookout Landing",
       "team": "mariners",
       "priority": 1
-    },
-    {
-      "title": "Mariners place struggling Rob Refsnyder on IL, activate new pick-up",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-rob-refsnyder-injured-list",
-      "pubDate": "Mon, 29 Jun 2026 23:07:45 +0000",
-      "isoDate": "2026-06-29T23:07:45.000Z",
-      "excerpt": "Struggling offseason addition Rob Refsnyder is going on the Seattle Mariners' 10-day injured list with a knee injury.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
     },
     {
       "title": "First Bids For Seahawks Due Monday",
@@ -208,36 +343,6 @@
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
-    },
-    {
-      "title": "Portland Trail Blazers landing star guard Ja Morant in trade with Grizzlies",
-      "link": "https://sports.mynorthwest.com/seattle-sports-pit/portland-trail-blazers-trade-ja-morant-grizzlies",
-      "pubDate": "Mon, 29 Jun 2026 21:59:49 +0000",
-      "isoDate": "2026-06-29T21:59:49.000Z",
-      "excerpt": "Ja Morant is headed to Portland, after the Trail Blazers and Memphis agreed on a trade Monday that sees the Grizzlies starting anew and gives the two-time All-Star a chance to revive his career.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "Report: First round of bids to buy Seahawks due today",
-      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/report-1st-round-bids-to-buy-seattle-seahawks-due-today",
-      "pubDate": "Mon, 29 Jun 2026 21:56:56 +0000",
-      "isoDate": "2026-06-29T21:56:56.000Z",
-      "excerpt": "The Seahawks' sale is expected to be the largest ever for an NFL franchise, per the report.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "Disrespect of Super Bowl champion Seahawks ‘getting ridiculous’",
-      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/analyst-seattle-seahawks-among-most-disrespected-super-bowl-champs",
-      "pubDate": "Mon, 29 Jun 2026 20:31:32 +0000",
-      "isoDate": "2026-06-29T20:31:32.000Z",
-      "excerpt": "ESPN's Kevin Clark called the Seahawks one of the \"most disrespected Super Bowl champions of my lifetime.\"",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
     },
     {
       "title": "Series Preview: Mariners (42-43) vs. Angels (36-49)",
@@ -300,16 +405,6 @@
       "priority": 1
     },
     {
-      "title": "Mariners News: Luis Castillo, Wyatt Langford, and Carter Jensen",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-news/145461/luis-castillo-wyatt-langford-carter-jensen-kyle-schwarber-adley-rutschman",
-      "pubDate": "2026-06-29T14:00:00.000Z",
-      "isoDate": "2026-06-29T14:00:00.000Z",
-      "excerpt": "Jun 26, 2026; Cleveland, Ohio, USA; Seattle Mariners starting pitcher Luis Castillo (58) reacts at the end of the fourth inning against the Cleveland Guardians at Progressive Field. Mandatory Credit: David Richard-Imagn...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
       "title": "Mariners Looking To Add Relief Pitching, Right-Handed Bat",
       "link": "https://www.mlbtraderumors.com/2026/06/mariners-looking-to-add-relief-pitching-right-handed-bat.html",
       "pubDate": "Mon, 29 Jun 2026 04:44:21 +0000",
@@ -355,16 +450,6 @@
       "pubDate": "2026-06-28T14:00:00.000Z",
       "isoDate": "2026-06-28T14:00:00.000Z",
       "excerpt": "INGLEWOOD, CALIFORNIA - OCTOBER 23: A Seattle Seahawks fan holds a flag in the stands during the game against the Los Angeles Chargers at SoFi Stadium on October 23, 2022 in Inglewood, California. (Photo by Katelyn...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "Seahawks News 6/28: How wide open is the Seahawks&#8217; Super Bowl window?",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-news/170047/seahawks-news-6-28-how-wide-open-is-the-seahawks-super-bowl-window",
-      "pubDate": "2026-06-28T13:00:00.000Z",
-      "isoDate": "2026-06-28T13:00:00.000Z",
-      "excerpt": "Feb 11, 2026; Seattle, WA, USA; Seattle Seahawks wide receiver Jaxon Smith-Njigba (11) reacts during the Super Bowl LX parade. Mandatory Credit: Kevin Ng-Imagn Images | Kevin Ng-Imagn Images In Today’s Links: more Jaxon...",
       "source": "Field Gulls",
       "team": "seahawks",
       "priority": 1
@@ -428,16 +513,6 @@
       "source": "Pro Football Rumors",
       "team": "seahawks",
       "priority": 2
-    },
-    {
-      "title": "The contract details of new Seahawks offensive lineman Bobby Hart",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-nfl-salary-cap/170024/nfl-seahawks-contract-details-offensive-lineman-bobby-hart",
-      "pubDate": "2026-06-27T17:53:21.000Z",
-      "isoDate": "2026-06-27T17:53:21.000Z",
-      "excerpt": "INGLEWOOD, CALIFORNIA - DECEMBER 27: Bobby Hart #66 of the Los Angeles Chargers gets set during the third quarter of an NFL football game against the Houston Texans at SoFi Stadium on December 27, 2025 in Inglewood,...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
     },
     {
       "title": "Kraken Select F Viktor Fedorov 99th Overall!",
@@ -528,86 +603,6 @@
       "source": "Seahawks.com",
       "team": "seahawks",
       "priority": 6
-    },
-    {
-      "title": "Ernest Jones IV Named To NFL Top 100 Players Of 2026",
-      "link": "https://www.seahawks.com/news/ernest-jones-iv-named-to-nfl-top-100-players-of-2026",
-      "pubDate": "Tue, 23 Jun 2026 15:00:07 GMT",
-      "isoDate": "2026-06-23T15:00:07.000Z",
-      "excerpt": "Seahawks linebacker Ernest Jones IV was voted as one of the NFL’s top 100 players, checking in at No. 97 on the annual list.",
-      "source": "Seahawks.com",
-      "team": "seahawks",
-      "priority": 6
-    },
-    {
-      "title": "Accenture Becomes First-Ever Global Partner of the Seattle Seahawks to Help Reinvent the Future of Football and Present the Lombardi Trophy Tour with Stops Across the Globe",
-      "link": "https://www.seahawks.com/news/accenture-becomes-first-ever-global-partner-of-the-seattle-seahawks-to-help-reinvent-the-future-of-football-and-present-the-lombardi-trophy-tour-with-stops-across-the-globe",
-      "pubDate": "Tue, 23 Jun 2026 13:00:00 GMT",
-      "isoDate": "2026-06-23T13:00:00.000Z",
-      "excerpt": "New alliance combines technology consulting, data and AI to modernize the business of football, accelerate global growth and deepen community impact in Seattle",
-      "source": "Seahawks.com",
-      "team": "seahawks",
-      "priority": 6
-    },
-    {
-      "title": "Seahawks Will Have Joint Practice With Titans In Nashville",
-      "link": "https://www.seahawks.com/news/seahawks-will-have-joint-practice-with-titans-in-nashville",
-      "pubDate": "Mon, 22 Jun 2026 16:01:41 GMT",
-      "isoDate": "2026-06-22T16:01:41.000Z",
-      "excerpt": "The Seahawks will have a joint practice with the Titans for the second time in three years.",
-      "source": "Seahawks.com",
-      "team": "seahawks",
-      "priority": 6
-    },
-    {
-      "title": "Morning Notes: Sabres, Bobrovsky, Wright",
-      "link": "https://www.prohockeyrumors.com/2026/06/morning-notes-sabres-bobrovsky-wright.html",
-      "pubDate": "Mon, 22 Jun 2026 15:32:03 +0000",
-      "isoDate": "2026-06-22T15:32:03.000Z",
-      "excerpt": "The Buffalo Sabres are seeing developments among their big-name players whose names are among the headlines. Darren Dreger of TSN reports that Sabres defenseman Bowen Byram remains a hot commodity among trade scenarios....",
-      "source": "Pro Hockey Rumors",
-      "team": "kraken",
-      "priority": 2
-    },
-    {
-      "title": "Kraken Sign Bobby McMann To Six-Year Extension",
-      "link": "https://www.prohockeyrumors.com/2026/06/kraken-sign-bobby-mcmann-to-six-year-extension.html",
-      "pubDate": "Sun, 21 Jun 2026 21:47:50 +0000",
-      "isoDate": "2026-06-21T21:47:50.000Z",
-      "excerpt": "The Kraken made a move to add a winger when they acquired Mackie Samoskevich from Florida. Now, they’ve made a move to keep another one. The team announced that they’ve re-signed winger Bobby McMann to a six-year,...",
-      "source": "Pro Hockey Rumors",
-      "team": "kraken",
-      "priority": 2
-    },
-    {
-      "title": "Kraken Acquire Mackie Samoskevich",
-      "link": "https://www.prohockeyrumors.com/2026/06/kraken-acquire-mackie-samoskevich.html",
-      "pubDate": "Sun, 21 Jun 2026 16:48:50 +0000",
-      "isoDate": "2026-06-21T16:48:50.000Z",
-      "excerpt": "The Kraken have acquired winger Mackie Samoskevich from the Panthers. Seattle is sending the 25th overall pick in this year’s draft plus a conditional second-rounder in 2027 the other way. Both Seattle and Florida have...",
-      "source": "Pro Hockey Rumors",
-      "team": "kraken",
-      "priority": 2
-    },
-    {
-      "title": "NFC Front Office Updates: Seahawks, Saints, Lions",
-      "link": "https://www.profootballrumors.com/2026/06/nfc-front-office-updates-seahawks-saints-lions",
-      "pubDate": "Sat, 20 Jun 2026 22:53:54 +0000",
-      "isoDate": "2026-06-20T22:53:54.000Z",
-      "excerpt": "In their recent announcement disclosing promotions for two staffers to assistant general manager, the Seahawks announced four other promotions in Seattle’s front office. In the player personnel department, Aaron...",
-      "source": "Pro Football Rumors",
-      "team": "seahawks",
-      "priority": 2
-    },
-    {
-      "title": "Mariners Outright Curtis Washington Jr.",
-      "link": "https://www.mlbtraderumors.com/2026/06/mariners-outright-curtis-washington-jr.html",
-      "pubDate": "Sat, 20 Jun 2026 18:19:13 +0000",
-      "isoDate": "2026-06-20T18:19:13.000Z",
-      "excerpt": "The Mariners announced that outfielder Curtis Washington Jr. was outrighted to A-level Everett after clearing waivers. There wasn’t any public indication that Washington had also been designated for assignment when he...",
-      "source": "MLB Trade Rumors",
-      "team": "mariners",
-      "priority": 2
     }
   ]
 }
