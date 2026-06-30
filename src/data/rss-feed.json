@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T10:54:23.613Z",
+  "generatedAt": "2026-06-30T14:11:40.759Z",
   "sourceCount": 10,
   "successfulSources": 9,
   "failedSources": [
@@ -9,6 +9,16 @@
     }
   ],
   "items": [
+    {
+      "title": "Mariners News: George Kirby, Rob Refsnyder, and Kade Anderson",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-news/145526/george-kirby-rob-refsnyder-kade-anderson-marcus-semien-jeremy-pena",
+      "pubDate": "2026-06-30T14:00:00.000Z",
+      "isoDate": "2026-06-30T14:00:00.000Z",
+      "excerpt": "Jun 29, 2026; Seattle, Washington, USA; Seattle Mariners starting pitcher George Kirby (68) celebrates a victory against the Los Angeles Angels with second baseman Cole Young (2, right) during the ninth inning at...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
     {
       "title": "Mariners Slug Homers, Angels in 6-2 Win",
       "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/145530/mariners-slug-homers-angels-in-6-2-win",
@@ -308,16 +318,6 @@
       "source": "MLB Trade Rumors",
       "team": "mariners",
       "priority": 2
-    },
-    {
-      "title": "Seattle Mariners acquire INF Buddy Kennedy from San Francisco",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-news/145456/seattle-mariners-acquire-inf-buddy-kennedy-from-san-francisco",
-      "pubDate": "2026-06-29T03:04:10.000Z",
-      "isoDate": "2026-06-29T03:04:10.000Z",
-      "excerpt": "Jun 1, 2026; Milwaukee, Wisconsin, USA; San Francisco Giants infielder Buddy Kennedy delivers a pitch against the Milwaukee Brewers in the eighth inning at American Family Field. Mandatory Credit: Michael McLoone-Imagn...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
     },
     {
       "title": "Troublesome 8th inning for Mariners' 'pen caps road trip with tough loss",
