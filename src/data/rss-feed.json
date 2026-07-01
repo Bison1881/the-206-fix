@@ -1,9 +1,29 @@
 {
-  "generatedAt": "2026-07-01T21:24:50.940Z",
+  "generatedAt": "2026-07-01T23:11:34.671Z",
   "sourceCount": 10,
   "successfulSources": 10,
   "failedSources": [],
   "items": [
+    {
+      "title": "2026 World Cup: Belgium completes late rally, will return to Seattle",
+      "link": "https://www.seattletimes.com/sports/world-cup/2026-world-cup-belgium-completes-late-rally-will-return-to-seattle/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Wed, 01 Jul 2026 15:55:58 -0700",
+      "isoDate": "2026-07-01T22:55:58.000Z",
+      "excerpt": "Belgium was down 2-0 until the 85th minute against Senegal in its World Cup Round-of-32 match. Three minutes later it was tied. The Red Devils won 3-2 on a penalty kick.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "One Extraordinary Photo: France’s Kylian Mbappe stands alone",
+      "link": "https://www.seattletimes.com/sports/world-cup/one-extraordinary-photo-frances-kylian-mbappe-stands-alone/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Wed, 01 Jul 2026 15:09:19 -0700",
+      "isoDate": "2026-07-01T22:09:19.000Z",
+      "excerpt": "Shooting from a catwalk can be tricky, even for a veteran photographer like the AP's Petr Josek.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
     {
       "title": "Son of former UW great commits to Huskies football program",
       "link": "https://sports.mynorthwest.com/ncaa/uw/son-of-former-great-commits-to-uw-huskies-football-program",
@@ -165,16 +185,6 @@
       "priority": 1
     },
     {
-      "title": "Photos: World Cup scenes as Seattle hosts Belgium, Senegal",
-      "link": "https://www.seattletimes.com/sports/world-cup/photos-world-cup-scenes-from-seattle/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 01 Jul 2026 10:40:00 -0700",
-      "isoDate": "2026-07-01T17:40:00.000Z",
-      "excerpt": "Seattle Times photographers capture FIFA World Cup scenes around Seattle on Belgium vs. Senegal match day in the Round of 32.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "Zach Charbonnet injury update: Seahawks running back ‘progressing well’ from ACL surgery",
       "link": "https://www.fieldgulls.com/seattle-seahawks-injury-report/170157/zach-charbonnet-injury-update-seahawks-running-back-progressing-well-acl-surgery",
       "pubDate": "2026-07-01T17:30:33.000Z",
@@ -182,16 +192,6 @@
       "excerpt": "Jan 3, 2026; Santa Clara, California, USA;Seattle Seahawks running back Zach Charbonnet (26) rushes for a touchdown against the San Francisco 49ers during the first half at Levi's Stadium. Mandatory Credit: Sergio...",
       "source": "Field Gulls",
       "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "Seattle World Cup updates: Senegal extends lead to 2-0 over Belgium",
-      "link": "https://www.seattletimes.com/sports/world-cup/seattle-world-cup-updates-belgium-vs-senegal-in-round-of-32/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 01 Jul 2026 10:00:00 -0700",
-      "isoDate": "2026-07-01T17:00:00.000Z",
-      "excerpt": "Senegal quickly extended its lead over Belgium to 2-0 early in the second half at Seattle Stadium in the World Cup round-of-32 match.",
-      "source": "Seattle Times Sports",
-      "team": "general",
       "priority": 1
     },
     {
