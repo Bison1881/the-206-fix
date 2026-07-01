@@ -1,13 +1,8 @@
 {
-  "generatedAt": "2026-07-01T08:08:37.315Z",
+  "generatedAt": "2026-07-01T12:31:31.428Z",
   "sourceCount": 10,
-  "successfulSources": 9,
-  "failedSources": [
-    {
-      "source": "Seattle Times Sports",
-      "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
-    }
-  ],
+  "successfulSources": 10,
+  "failedSources": [],
   "items": [
     {
       "title": "Woo sets scoreless IP record at T-Mobile Park as home/road splits continue to confound",
@@ -60,6 +55,16 @@
       "priority": 3
     },
     {
+      "title": "Bryan Woo sets franchise record for home dominance as Mariners top Angels",
+      "link": "https://www.seattletimes.com/sports/mariners/bryan-woo-turns-in-another-outstanding-outing-at-home-as-mariners-beat-angels/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Tue, 30 Jun 2026 21:45:42 -0700",
+      "isoDate": "2026-07-01T04:45:42.000Z",
+      "excerpt": "After a special pregame event for kids, Bryan Woo continued his record-setting dominance at T-Mobile Park this season as the M's rolled to an 8-3 win.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
       "title": "44-43: Chart",
       "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/145572/44-43-chart",
       "pubDate": "2026-07-01T04:36:44.000Z",
@@ -67,6 +72,16 @@
       "excerpt": "Jun 30, 2026; Seattle, Washington, USA; Seattle Mariners shortstop Colt Emerson (4) hits a 2-RBI single against the Los Angeles Angels during the seventh inning at T-Mobile Park. Mandatory Credit: Steven Bisig-Imagn...",
       "source": "Lookout Landing",
       "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Mexico ends a 40-year knockout drought, beats Ecuador 2-0 to reach the round of 16",
+      "link": "https://www.seattletimes.com/sports/world-cup/mexico-ends-a-40-year-knockout-drought-beats-ecuador-2-0-to-reach-the-round-of-16/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Tue, 30 Jun 2026 21:28:30 -0700",
+      "isoDate": "2026-07-01T04:28:30.000Z",
+      "excerpt": "Mexico defeats Ecuador 2-0 to break a 40-year drought in the World Cup knockout stage.",
+      "source": "Seattle Times Sports",
+      "team": "general",
       "priority": 1
     },
     {
@@ -78,6 +93,26 @@
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
+    },
+    {
+      "title": "Photos: Angels at Mariners",
+      "link": "https://www.seattletimes.com/photo-video/photography/photos-angels-at-mariners-2/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Tue, 30 Jun 2026 20:08:36 -0700",
+      "isoDate": "2026-07-01T03:08:36.000Z",
+      "excerpt": "",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "2026 World Cup: Underdog Senegal seeks to take down another powerhouse",
+      "link": "https://www.seattletimes.com/sports/world-cup/2026-world-cup-underdog-senegal-seeks-to-take-down-another-powerhouse/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Tue, 30 Jun 2026 19:23:09 -0700",
+      "isoDate": "2026-07-01T02:23:09.000Z",
+      "excerpt": "Senegal will look to add another big name to the list of powerhouse countries it has taken down when it faces Belgium in the round of 32 on Wednesday at Seattle Stadium.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
     },
     {
       "title": "As NHL free agency begins, these are the top players",
@@ -120,6 +155,16 @@
       "priority": 3
     },
     {
+      "title": "2026 World Cup: Belgium hoping to avoid ranks of European upsets",
+      "link": "https://www.seattletimes.com/sports/world-cup/2026-world-cup-belgium-hoping-to-avoid-ranks-of-european-upsets/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Tue, 30 Jun 2026 18:02:29 -0700",
+      "isoDate": "2026-07-01T01:02:29.000Z",
+      "excerpt": "After Germany and Netherlands were upset in the round of 32, six UEFA teams have been knocked out of the World Cup. Belgium is looking to avoid that fate vs. Senegal.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
       "title": "Latest Mariners injuries and transactions",
       "link": "https://www.mlb.com/mariners/news/mariners-injuries-and-roster-moves",
       "pubDate": "Wed, 01 Jul 2026 01:01:00 GMT",
@@ -128,6 +173,26 @@
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
+    },
+    {
+      "title": "Here’s the timeline for Brendan Donovan’s return to Mariners’ lineup",
+      "link": "https://www.seattletimes.com/sports/mariners/heres-the-timeline-for-brendan-donovans-return-to-mariners-lineup/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Tue, 30 Jun 2026 17:37:55 -0700",
+      "isoDate": "2026-07-01T00:37:55.000Z",
+      "excerpt": "Tuesday was one of Brendan Donovan’s most intense workouts in his recovery, and he expects to start a formal rehab assignment next week. Here's the latest.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Mbappé scores twice to tie Messi for World Cup lead with 6 goals, France beats Sweden 3-0",
+      "link": "https://www.seattletimes.com/sports/world-cup/mbappe-scores-twice-to-tie-messi-for-world-cup-lead-with-6-goals-france-beats-sweden-3-0/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Tue, 30 Jun 2026 17:23:49 -0700",
+      "isoDate": "2026-07-01T00:23:49.000Z",
+      "excerpt": "Kylian Mbappé put France ahead with a brilliant crossover step in the 45th minute and added a second-half goal to beat Sweden 3-0 in the Round of 32.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
     },
     {
       "title": "The Boeing Classic Tees Off August 14-16 at the Club at Snoqualmie Ridge",
@@ -147,6 +212,16 @@
       "excerpt": "SEATTLE, WASHINGTON - MAY 03: Cole Wilcox #43 of the Seattle Mariners pitches against the Kansas City Royals at T-Mobile Park on May 03, 2026 in Seattle, Washington. (Photo by Olivia Vanni/Getty Images) | Getty Images...",
       "source": "Lookout Landing",
       "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Seattle Storm nominated for ESPYs Humanitarian Team of Year award",
+      "link": "https://www.seattletimes.com/sports/storm/seattle-storm-nominated-for-espys-humanitarian-team-of-year-award/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Tue, 30 Jun 2026 16:47:38 -0700",
+      "isoDate": "2026-06-30T23:47:38.000Z",
+      "excerpt": "The Storm are finalists for the ESPYs Sports Humanitarian Team of the Year Award, as announced by ESPN.",
+      "source": "Seattle Times Sports",
+      "team": "general",
       "priority": 1
     },
     {
@@ -527,86 +602,6 @@
       "excerpt": "The Mariners announced that infielder/outfielder Miles Mastrobuoni cleared waivers and has been outrighted to Triple-A Tacoma. He had been designated for assignment by Seattle last week. He does not have three years of...",
       "source": "MLB Trade Rumors",
       "team": "mariners",
-      "priority": 2
-    },
-    {
-      "title": "Seahawks Legends Attend Legends Spring Event",
-      "link": "https://www.seahawks.com/news/seahawks-legends-attend-legends-spring-event",
-      "pubDate": "Tue, 23 Jun 2026 17:00:30 GMT",
-      "isoDate": "2026-06-23T17:00:30.000Z",
-      "excerpt": "Seahawks Legends were back in town for the Legends Spring Event, presented by Columbia Bank, for a cruise along Lake Washington.",
-      "source": "Seahawks.com",
-      "team": "seahawks",
-      "priority": 6
-    },
-    {
-      "title": "Seattle Seahawks Announce Trophy Tour, presented by Accenture",
-      "link": "https://www.seahawks.com/news/seattle-seahawks-announce-trophy-tour-presented-by-accenture",
-      "pubDate": "Tue, 23 Jun 2026 17:00:00 GMT",
-      "isoDate": "2026-06-23T17:00:00.000Z",
-      "excerpt": "In celebration of the team’s Super Bowl LX victory, the Seattle Seahawks invite 12s Everywhere to join them on an official Trophy Tour.",
-      "source": "Seahawks.com",
-      "team": "seahawks",
-      "priority": 6
-    },
-    {
-      "title": "Ernest Jones IV Named To NFL Top 100 Players Of 2026",
-      "link": "https://www.seahawks.com/news/ernest-jones-iv-named-to-nfl-top-100-players-of-2026",
-      "pubDate": "Tue, 23 Jun 2026 15:00:07 GMT",
-      "isoDate": "2026-06-23T15:00:07.000Z",
-      "excerpt": "Seahawks linebacker Ernest Jones IV was voted as one of the NFL’s top 100 players, checking in at No. 97 on the annual list.",
-      "source": "Seahawks.com",
-      "team": "seahawks",
-      "priority": 6
-    },
-    {
-      "title": "Accenture Becomes First-Ever Global Partner of the Seattle Seahawks to Help Reinvent the Future of Football and Present the Lombardi Trophy Tour with Stops Across the Globe",
-      "link": "https://www.seahawks.com/news/accenture-becomes-first-ever-global-partner-of-the-seattle-seahawks-to-help-reinvent-the-future-of-football-and-present-the-lombardi-trophy-tour-with-stops-across-the-globe",
-      "pubDate": "Tue, 23 Jun 2026 13:00:00 GMT",
-      "isoDate": "2026-06-23T13:00:00.000Z",
-      "excerpt": "New alliance combines technology consulting, data and AI to modernize the business of football, accelerate global growth and deepen community impact in Seattle",
-      "source": "Seahawks.com",
-      "team": "seahawks",
-      "priority": 6
-    },
-    {
-      "title": "Seahawks Will Have Joint Practice With Titans In Nashville",
-      "link": "https://www.seahawks.com/news/seahawks-will-have-joint-practice-with-titans-in-nashville",
-      "pubDate": "Mon, 22 Jun 2026 16:01:41 GMT",
-      "isoDate": "2026-06-22T16:01:41.000Z",
-      "excerpt": "The Seahawks will have a joint practice with the Titans for the second time in three years.",
-      "source": "Seahawks.com",
-      "team": "seahawks",
-      "priority": 6
-    },
-    {
-      "title": "Morning Notes: Sabres, Bobrovsky, Wright",
-      "link": "https://www.prohockeyrumors.com/2026/06/morning-notes-sabres-bobrovsky-wright.html",
-      "pubDate": "Mon, 22 Jun 2026 15:32:03 +0000",
-      "isoDate": "2026-06-22T15:32:03.000Z",
-      "excerpt": "The Buffalo Sabres are seeing developments among their big-name players whose names are among the headlines. Darren Dreger of TSN reports that Sabres defenseman Bowen Byram remains a hot commodity among trade scenarios....",
-      "source": "Pro Hockey Rumors",
-      "team": "kraken",
-      "priority": 2
-    },
-    {
-      "title": "Kraken Sign Bobby McMann To Six-Year Extension",
-      "link": "https://www.prohockeyrumors.com/2026/06/kraken-sign-bobby-mcmann-to-six-year-extension.html",
-      "pubDate": "Sun, 21 Jun 2026 21:47:50 +0000",
-      "isoDate": "2026-06-21T21:47:50.000Z",
-      "excerpt": "The Kraken made a move to add a winger when they acquired Mackie Samoskevich from Florida. Now, they’ve made a move to keep another one. The team announced that they’ve re-signed winger Bobby McMann to a six-year,...",
-      "source": "Pro Hockey Rumors",
-      "team": "kraken",
-      "priority": 2
-    },
-    {
-      "title": "Kraken Acquire Mackie Samoskevich",
-      "link": "https://www.prohockeyrumors.com/2026/06/kraken-acquire-mackie-samoskevich.html",
-      "pubDate": "Sun, 21 Jun 2026 16:48:50 +0000",
-      "isoDate": "2026-06-21T16:48:50.000Z",
-      "excerpt": "The Kraken have acquired winger Mackie Samoskevich from the Panthers. Seattle is sending the 25th overall pick in this year’s draft plus a conditional second-rounder in 2027 the other way. Both Seattle and Florida have...",
-      "source": "Pro Hockey Rumors",
-      "team": "kraken",
       "priority": 2
     }
   ]
