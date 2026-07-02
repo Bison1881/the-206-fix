@@ -1,14 +1,38 @@
 {
-  "generatedAt": "2026-07-02T19:19:35.402Z",
+  "generatedAt": "2026-07-02T21:02:02.639Z",
   "sourceCount": 10,
-  "successfulSources": 9,
+  "successfulSources": 8,
   "failedSources": [
     {
       "source": "Seattle Times Sports",
       "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
+    },
+    {
+      "source": "Davy Jones' Locker Room",
+      "error": "Status code 415 (lenient retry: Status code 415)"
     }
   ],
   "items": [
+    {
+      "title": "On The Farm: These Mariners prospects shined in June",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/on-the-farm-these-mariners-prospects-shined-in-june",
+      "pubDate": "Thu, 02 Jul 2026 20:10:37 +0000",
+      "isoDate": "2026-07-02T20:10:37.000Z",
+      "excerpt": "Several of Seattle's highly regarded farmhands had monster months.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "United States fans seeing red over Balogun’s World Cup red card",
+      "link": "https://sports.mynorthwest.com/seattle-sports-pit/united-states-fans-falorin-balogun-world-cup-red-card",
+      "pubDate": "Thu, 02 Jul 2026 19:56:10 +0000",
+      "isoDate": "2026-07-02T19:56:10.000Z",
+      "excerpt": "United States fans and players are frustrated by a second-half red card that sent off star striker Falorin Balogun and will sideline him for Monday's match in Seattle against Belgium.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
     {
       "title": "Seahawks, Jaxon Smith-Njigba Nominated For 2026 ESPY Awards",
       "link": "https://www.seahawks.com/news/seahawks-jaxon-smith-njigba-nominated-for-2026-espy-awards",
@@ -18,6 +42,16 @@
       "source": "Seahawks.com",
       "team": "seahawks",
       "priority": 6
+    },
+    {
+      "title": "Why the Mariners should have an All-Star surprise in 2B Cole Young",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-should-all-star-surprise-cole-young",
+      "pubDate": "Thu, 02 Jul 2026 18:33:46 +0000",
+      "isoDate": "2026-07-02T18:33:46.000Z",
+      "excerpt": "Not only is Cole Young having a strong season, but there's opportunity at his position to make the AL All-Star team.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
     },
     {
       "title": "AL West: A’s slugger Brent Rooker to have season-ending surgery",
@@ -48,46 +82,6 @@
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
-    },
-    {
-      "title": "Arizona Cardinals star Trey McBride names Seahawks as NFC West rival he dislikes most",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-news/170177/arizona-cardinals-star-trey-mcbride-has-seahawks-nfc-west-rival-most-dislikes",
-      "pubDate": "2026-07-02T15:00:00.000Z",
-      "isoDate": "2026-07-02T15:00:00.000Z",
-      "excerpt": "SEATTLE, WASHINGTON - NOVEMBER 09: Trey McBride #85 of the Arizona Cardinals runs against Nick Emmanwori #3 of the Seattle Seahawks in the second quarter of a game at Lumen Field on November 09, 2025 in Seattle,...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "Seahawks News 7/2: Breakout candidate for 2026 Seahawks",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-news/170187/seahawks-news-7-2-breakout-candidate-for-2026-seahawks",
-      "pubDate": "2026-07-02T14:14:34.000Z",
-      "isoDate": "2026-07-02T14:14:34.000Z",
-      "excerpt": "Feb 8, 2026; Santa Clara, CA, USA; Seattle Seahawks defensive tackle Rylie Mills (98) against the New England Patriots during Super Bowl LX at Levi's Stadium. Mandatory Credit: Mark J. Rebilas-Imagn Images | Mark J....",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "Can Brian Fleury keep the Seahawks offense rolling after Klint Kubiak’s departure?",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/170155/how-can-brian-fleury-keep-seattle-seahawks-offense-rolling-klint-kubiak-departure",
-      "pubDate": "2026-07-02T14:00:00.000Z",
-      "isoDate": "2026-07-02T14:00:00.000Z",
-      "excerpt": "Jun 9, 2026; Renton, WA, USA; Seattle Seahawks quarterback Sam Darnold (14) and offensive coordinator Brian Fleury during minicamp at Virginia Mason Athletic Center. Mandatory Credit: Steven Bisig-Imagn Images | Steven...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "Mariners News: Futures Game, Cade Cavalli, and Brent Rooker",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-news/145608/mariners-news-futures-game-cade-cavalli-and-brent-rooker",
-      "pubDate": "2026-07-02T14:00:00.000Z",
-      "isoDate": "2026-07-02T14:00:00.000Z",
-      "excerpt": "May 25, 2026; West Sacramento, California, USA; Athletics designated hitter Brent Rooker (25) walks to the dugout after striking out during the sixth inning against the Seattle Mariners at Sutter Health Park. Mandatory...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
     },
     {
       "title": "The NFL’s Longest-Tenured GMs",
@@ -130,16 +124,6 @@
       "priority": 3
     },
     {
-      "title": "Kraken add Curtis Douglas in FA on 2-year, 1.25m AAV contract",
-      "link": "https://www.davyjoneslockerroom.com/kraken-add-curtis-douglas-in-fa-on-2-year-1-25m-aav-contract/",
-      "pubDate": "Thu, 02 Jul 2026 02:13:48 +0000",
-      "isoDate": "2026-07-02T02:13:48.000Z",
-      "excerpt": "Cue up Manny Fresh, because the Kraken like their forwards Real Big this free agency. The Kraken announced the signing of Forward Curtis Douglas to a 2 year deal worth $1.25 million. WELCOME ABOARD! 🦑The #SeaKraken...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
-    },
-    {
       "title": "Seattle Kraken Free Agency Check-In: 2 originals leave",
       "link": "https://sports.mynorthwest.com/nhl/seattle-kraken/seattle-kraken-moves-jamie-oleksiak-jaden-schwartz-gone",
       "pubDate": "Thu, 02 Jul 2026 01:28:25 +0000",
@@ -155,36 +139,6 @@
       "pubDate": "Thu, 02 Jul 2026 00:42:04 +0000",
       "isoDate": "2026-07-02T00:42:04.000Z",
       "excerpt": "Seattle's pitching depth could open the door for a trade with another contender, according to USA Today's Bob Nightengale.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "Mariners Mock Draft Roundup: 4 names to know",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-mock-draft-roundup-4-names-to-know",
-      "pubDate": "Wed, 01 Jul 2026 23:25:34 +0000",
-      "isoDate": "2026-07-01T23:25:34.000Z",
-      "excerpt": "A look at players projected to go to the Mariners with the 24th overall pick.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "Seattle Kraken sign a 6-foot-9 bruiser who fights – a lot",
-      "link": "https://sports.mynorthwest.com/nhl/seattle-kraken/seattle-kraken-sign-6-9-curtis-douglas-who-fights",
-      "pubDate": "Wed, 01 Jul 2026 23:22:36 +0000",
-      "isoDate": "2026-07-01T23:22:36.000Z",
-      "excerpt": "Curtis Douglas is one of the tallest players in NHL history and tied for the league lead with 10 fights in just 43 games as a rookie last season.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "Seattle World Cup: Belgium beats Senegal 3-2 on late penalty",
-      "link": "https://sports.mynorthwest.com/seattle-sports-pit/seattle-world-cup-belgium-senegal-3-2-late-penalty",
-      "pubDate": "Wed, 01 Jul 2026 23:19:34 +0000",
-      "isoDate": "2026-07-01T23:19:34.000Z",
-      "excerpt": "Youri Tielemans scored from the penalty spot in stoppage time of extra time, and Belgium came back from two goals down to beat Senegal 3-2 Wednesday.",
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
@@ -237,16 +191,6 @@
       "excerpt": "Jan 3, 2026; Santa Clara, California, USA;Seattle Seahawks running back Zach Charbonnet (26) rushes for a touchdown against the San Francisco 49ers during the first half at Levi's Stadium. Mandatory Credit: Sergio...",
       "source": "Field Gulls",
       "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "DJLR Free Agency Frenzy LIVETHREAD",
-      "link": "https://www.davyjoneslockerroom.com/djlr-free-agency-primer/",
-      "pubDate": "Wed, 01 Jul 2026 16:49:53 +0000",
-      "isoDate": "2026-07-01T16:49:53.000Z",
-      "excerpt": "Welcome to free agent frenzy, friends. The NHL has already begun making goofy trades all over the place after the Kraken made a perfectly reasonable call for Mackie Samoskevich, so let’s enjoy the magic as it unfolds!...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
       "priority": 1
     },
     {
@@ -410,6 +354,46 @@
       "priority": 6
     },
     {
+      "title": "When will these Seattle Mariners get hot again? We rate your takes!",
+      "link": "https://www.lookoutlanding.com/mlb-playbook-2026/145528/when-will-these-seattle-mariners-get-hot-again-we-rate-your-takes",
+      "pubDate": "2026-06-30T17:00:00.000Z",
+      "isoDate": "2026-06-30T17:00:00.000Z",
+      "excerpt": "Jun 29, 2026; Seattle, Washington, USA; Seattle Mariners third baseman J.P. Crawford (3) throws to first base for a groundout against the Los Angeles Angels during the first inning at T-Mobile Park. Mandatory Credit:...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "ESPN analyst gives Seahawks higher offseason grade than Rams",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/170115/espn-analyst-seattle-seahawks-offseason-grade-higher-than-rams",
+      "pubDate": "2026-06-30T15:47:25.000Z",
+      "isoDate": "2026-06-30T15:47:25.000Z",
+      "excerpt": "SEATTLE, WASHINGTON - JANUARY 25: Jaxon Smith-Njigba #11 of the Seattle Seahawks pulls in a one handed catch in front of Cobie Durant #14 of the Los Angeles Rams during the first quarter in the NFC Championship game at...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
+    {
+      "title": "Seahawks News 6/30: Bids to buy Seahawks due today",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-news/170102/seahawks-news-6-30-bids-to-buy-seahawks-due-today",
+      "pubDate": "2026-06-30T15:13:19.000Z",
+      "isoDate": "2026-06-30T15:13:19.000Z",
+      "excerpt": "Workers cover up a Seahawks logo at Seattle Stadium, temporarily renamed from Lumen Field, ahead of the FIFA World Cup 2026 in Seattle, Washington, on May 27, 2026. The stadium will host six matches during the 2026 FIFA...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
+    {
+      "title": "Seahawks Reacts Survey results: Fans predict another big year for A.J. Barner",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-roster/170093/seahawks-reacts-survey-results-fans-predict-another-big-year-aj-barner",
+      "pubDate": "2026-06-30T03:11:49.000Z",
+      "isoDate": "2026-06-30T03:11:49.000Z",
+      "excerpt": "SANTA CLARA, CALIFORNIA - FEBRUARY 8: AJ Barner #88 of the Seattle Seahawks catches a touchdown pass during the NFL Super Bowl LX football game against the New England Patriots at Levi's Stadium on February 8, 2026 in...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
+    {
       "title": "Seahawks’ Ty Okada, Bud Clark To Compete For Starting Safety Job",
       "link": "https://www.profootballrumors.com/2026/06/seahawks-ty-okada-bud-clark-to-compete-for-starting-safety-job",
       "pubDate": "Tue, 30 Jun 2026 01:32:43 +0000",
@@ -470,56 +454,6 @@
       "priority": 2
     },
     {
-      "title": "Kraken Select F William Tomko 204th Overall!",
-      "link": "https://www.davyjoneslockerroom.com/kraken-select-f-william-tomko-204th-overall/",
-      "pubDate": "Sat, 27 Jun 2026 20:28:34 +0000",
-      "isoDate": "2026-06-27T20:28:34.000Z",
-      "excerpt": "The Kraken’s final selection is here! Meet William Tomko! Tomko appears before us as a Right shot Forward at 6’0, 198 pounds, playing for the Sioux Falls Musketeers, who will be heading to his first season at Ohio...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
-    },
-    {
-      "title": "Kraken Select D Rylan Singh 198th Overall!",
-      "link": "https://www.davyjoneslockerroom.com/kraken-select-d-rylan-singh-198th-overall/",
-      "pubDate": "Sat, 27 Jun 2026 20:09:21 +0000",
-      "isoDate": "2026-06-27T20:09:21.000Z",
-      "excerpt": "The 1st of the last round of the playoffs involves a young man from Pickering! Rylan Singh plays for the Guelph Storm, having a respectable line for a defenseman in OHL time, and stands at 6’0, 187 pounds; shooting...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
-    },
-    {
-      "title": "Kraken Select D Ola Palme 166th Overall!",
-      "link": "https://www.davyjoneslockerroom.com/kraken-select-d-ola-palme-166th-overall/",
-      "pubDate": "Sat, 27 Jun 2026 19:28:09 +0000",
-      "isoDate": "2026-06-27T19:28:09.000Z",
-      "excerpt": "Another swede! This one having fallen quite a bit according to the prognosticators! Palme comes from the Växjö Lakers HC U20 team, where his smart, sensible game as well as quick passing gave him a respectable point...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
-    },
-    {
-      "title": "Kraken Select Luken “Hawke” Huff 148th Overall!",
-      "link": "https://www.davyjoneslockerroom.com/kraken-select-luken-hawke-huff-148th-overall/",
-      "pubDate": "Sat, 27 Jun 2026 19:05:15 +0000",
-      "isoDate": "2026-06-27T19:05:15.000Z",
-      "excerpt": "I do not mean this lightly. Hawke Huff might be in the top 10 of names in this draft, and there are some good names in this draft. Huff comes to us from the Cedar Rapids Roughriders in the USHL, where he stands at 6’3,...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
-    },
-    {
-      "title": "Kraken Select Defender Finn Kearns 131st Overall!",
-      "link": "https://www.davyjoneslockerroom.com/kraken-select-defender-finn-kearns-132nd-overall/",
-      "pubDate": "Sat, 27 Jun 2026 18:47:48 +0000",
-      "isoDate": "2026-06-27T18:47:48.000Z",
-      "excerpt": "Now this is an interesting pick. Seattle traded down for this pick with the New York Rangers, and selected a player from Prep High School, who is now committed to playing at Umass Amherst for the Minutemen this Fall. He...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
-    },
-    {
       "title": "No Movement On Seahawks-Devon Witherspoon Extension",
       "link": "https://www.profootballrumors.com/2026/06/no-movement-on-seahawks-devon-witherspoon-extension",
       "pubDate": "Sat, 27 Jun 2026 18:05:15 +0000",
@@ -528,16 +462,6 @@
       "source": "Pro Football Rumors",
       "team": "seahawks",
       "priority": 2
-    },
-    {
-      "title": "Kraken Select F Viktor Fedorov 99th Overall!",
-      "link": "https://www.davyjoneslockerroom.com/kraken-select-f-viktor-fedorov-99th-overall/",
-      "pubDate": "Sat, 27 Jun 2026 17:53:17 +0000",
-      "isoDate": "2026-06-27T17:53:17.000Z",
-      "excerpt": "The Kraken used their 99th overall pick to get a little russian flair in their draft class! Fedorov comes from Tomsk, Russia, sitting at 5’10 and 183 pounds, shooting left. He plays in the Torpedo Nizhny Novgorod club;...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
     },
     {
       "title": "The NFL’s Assistant General Managers",
@@ -608,6 +532,86 @@
       "source": "Seahawks.com",
       "team": "seahawks",
       "priority": 6
+    },
+    {
+      "title": "Accenture Becomes First-Ever Global Partner of the Seattle Seahawks to Help Reinvent the Future of Football and Present the Lombardi Trophy Tour with Stops Across the Globe",
+      "link": "https://www.seahawks.com/news/accenture-becomes-first-ever-global-partner-of-the-seattle-seahawks-to-help-reinvent-the-future-of-football-and-present-the-lombardi-trophy-tour-with-stops-across-the-globe",
+      "pubDate": "Tue, 23 Jun 2026 13:00:00 GMT",
+      "isoDate": "2026-06-23T13:00:00.000Z",
+      "excerpt": "New alliance combines technology consulting, data and AI to modernize the business of football, accelerate global growth and deepen community impact in Seattle",
+      "source": "Seahawks.com",
+      "team": "seahawks",
+      "priority": 6
+    },
+    {
+      "title": "Morning Notes: Sabres, Bobrovsky, Wright",
+      "link": "https://www.prohockeyrumors.com/2026/06/morning-notes-sabres-bobrovsky-wright.html",
+      "pubDate": "Mon, 22 Jun 2026 15:32:03 +0000",
+      "isoDate": "2026-06-22T15:32:03.000Z",
+      "excerpt": "The Buffalo Sabres are seeing developments among their big-name players whose names are among the headlines. Darren Dreger of TSN reports that Sabres defenseman Bowen Byram remains a hot commodity among trade scenarios....",
+      "source": "Pro Hockey Rumors",
+      "team": "kraken",
+      "priority": 2
+    },
+    {
+      "title": "Kraken Sign Bobby McMann To Six-Year Extension",
+      "link": "https://www.prohockeyrumors.com/2026/06/kraken-sign-bobby-mcmann-to-six-year-extension.html",
+      "pubDate": "Sun, 21 Jun 2026 21:47:50 +0000",
+      "isoDate": "2026-06-21T21:47:50.000Z",
+      "excerpt": "The Kraken made a move to add a winger when they acquired Mackie Samoskevich from Florida. Now, they’ve made a move to keep another one. The team announced that they’ve re-signed winger Bobby McMann to a six-year,...",
+      "source": "Pro Hockey Rumors",
+      "team": "kraken",
+      "priority": 2
+    },
+    {
+      "title": "Kraken Acquire Mackie Samoskevich",
+      "link": "https://www.prohockeyrumors.com/2026/06/kraken-acquire-mackie-samoskevich.html",
+      "pubDate": "Sun, 21 Jun 2026 16:48:50 +0000",
+      "isoDate": "2026-06-21T16:48:50.000Z",
+      "excerpt": "The Kraken have acquired winger Mackie Samoskevich from the Panthers. Seattle is sending the 25th overall pick in this year’s draft plus a conditional second-rounder in 2027 the other way. Both Seattle and Florida have...",
+      "source": "Pro Hockey Rumors",
+      "team": "kraken",
+      "priority": 2
+    },
+    {
+      "title": "NFC Front Office Updates: Seahawks, Saints, Lions",
+      "link": "https://www.profootballrumors.com/2026/06/nfc-front-office-updates-seahawks-saints-lions",
+      "pubDate": "Sat, 20 Jun 2026 22:53:54 +0000",
+      "isoDate": "2026-06-20T22:53:54.000Z",
+      "excerpt": "In their recent announcement disclosing promotions for two staffers to assistant general manager, the Seahawks announced four other promotions in Seattle’s front office. In the player personnel department, Aaron...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
+      "priority": 2
+    },
+    {
+      "title": "Mariners Outright Curtis Washington Jr.",
+      "link": "https://www.mlbtraderumors.com/2026/06/mariners-outright-curtis-washington-jr.html",
+      "pubDate": "Sat, 20 Jun 2026 18:19:13 +0000",
+      "isoDate": "2026-06-20T18:19:13.000Z",
+      "excerpt": "The Mariners announced that outfielder Curtis Washington Jr. was outrighted to A-level Everett after clearing waivers. There wasn’t any public indication that Washington had also been designated for assignment when he...",
+      "source": "MLB Trade Rumors",
+      "team": "mariners",
+      "priority": 2
+    },
+    {
+      "title": "Justin Schultz Joins Kraken's Development Staff",
+      "link": "https://www.prohockeyrumors.com/2026/06/west-notes-karlsson-schultz-martin.html",
+      "pubDate": "Sat, 20 Jun 2026 18:19:00 +0000",
+      "isoDate": "2026-06-20T18:19:00.000Z",
+      "excerpt": "Notes from the West including surgery for William Karlsson, a long-time defenseman joins Seattle's development staff, and more.",
+      "source": "Pro Hockey Rumors",
+      "team": "kraken",
+      "priority": 2
+    },
+    {
+      "title": "Mariners Designate Miles Mastrobuoni For Assignment, Select Weston Wilson",
+      "link": "https://www.mlbtraderumors.com/2026/06/mariners-designate-miles-mastrobuoni-for-assignment-select-weston-wilson.html",
+      "pubDate": "Fri, 19 Jun 2026 22:30:27 +0000",
+      "isoDate": "2026-06-19T22:30:27.000Z",
+      "excerpt": "The Mariners have selected the contract of infielder/outfielder Weston Wilson. Fellow infielder/outfielder Miles Mastrobuoni has been designated in a corresponding move. Prior to the official announcement, Adam Jude of...",
+      "source": "MLB Trade Rumors",
+      "team": "mariners",
+      "priority": 2
     }
   ]
 }
