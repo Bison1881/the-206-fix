@@ -1,18 +1,43 @@
 {
-  "generatedAt": "2026-07-02T16:03:46.574Z",
+  "generatedAt": "2026-07-02T19:19:35.402Z",
   "sourceCount": 10,
-  "successfulSources": 10,
-  "failedSources": [],
+  "successfulSources": 9,
+  "failedSources": [
+    {
+      "source": "Seattle Times Sports",
+      "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
+    }
+  ],
   "items": [
     {
-      "title": "Donald Trump, JD Vance won’t attend U.S.-Belgium World Cup match in Seattle, King County spokesperson says",
-      "link": "https://www.seattletimes.com/seattle-news/world-cup-seattle/donald-trump-jd-vance-wont-attend-u-s-belgium-world-cup-match-in-seattle-king-county-spokesperson-says/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Thu, 02 Jul 2026 08:34:11 -0700",
-      "isoDate": "2026-07-02T15:34:11.000Z",
-      "excerpt": "A King County spokesperson said, \"We've been told that neither the president nor the vice president will be attending\" Monday's U.S.-Belgium World Cup match.",
-      "source": "Seattle Times Sports",
+      "title": "Seahawks, Jaxon Smith-Njigba Nominated For 2026 ESPY Awards",
+      "link": "https://www.seahawks.com/news/seahawks-jaxon-smith-njigba-nominated-for-2026-espy-awards",
+      "pubDate": "Thu, 02 Jul 2026 18:40:52 GMT",
+      "isoDate": "2026-07-02T18:40:52.000Z",
+      "excerpt": "Fans can vote for the Seahawks and receiver Jaxon Smith-Njigba, who were nominated for 2026 ESPY Awards.",
+      "source": "Seahawks.com",
+      "team": "seahawks",
+      "priority": 6
+    },
+    {
+      "title": "AL West: A’s slugger Brent Rooker to have season-ending surgery",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/al-west-athletics-slugger-brent-rooker-season-ending",
+      "pubDate": "Thu, 02 Jul 2026 16:52:46 +0000",
+      "isoDate": "2026-07-02T16:52:46.000Z",
+      "excerpt": "Athletics designated hitter Brent Rooker will undergo surgery to repair a cartilage tear in his left knee and miss the remainder of the season.",
+      "source": "710 Seattle Sports",
       "team": "general",
-      "priority": 1
+      "priority": 3
+    },
+    {
+      "title": "Team-by-team breakdown of every player headed to Futures Game",
+      "link": "https://www.mlb.com/mariners/news/each-team-s-prospects-headed-to-2026-futures-game",
+      "pubDate": "Thu, 02 Jul 2026 16:00:00 GMT",
+      "isoDate": "2026-07-02T16:00:00.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
     },
     {
       "title": "How a Mariners legend is helping Donovan through injury rehab",
@@ -75,16 +100,6 @@
       "priority": 2
     },
     {
-      "title": "This World Cup isn’t just living up to the hype. It could be the best ever",
-      "link": "https://www.seattletimes.com/sports/world-cup/this-world-cup-isnt-just-living-up-to-the-hype-it-could-be-the-best-ever/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 01 Jul 2026 19:55:34 -0700",
-      "isoDate": "2026-07-02T02:55:34.000Z",
-      "excerpt": "You want a recipe for an all-time tournament? Blend comebacks, underdogs and maximum output from the superstars. That's what this World Cup has provided so far.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "World Cup: US to face Belgium in Seattle during Round of 16",
       "link": "https://sports.mynorthwest.com/seattle-sports-pit/world-cup-u-s-to-face-belgium-in-seattle-during-round-of-16",
       "pubDate": "Thu, 02 Jul 2026 02:34:03 +0000",
@@ -95,16 +110,6 @@
       "priority": 3
     },
     {
-      "title": "How much will World Cup tickets cost for US in Seattle in round of 16?",
-      "link": "https://www.seattletimes.com/sports/world-cup/how-much-tickets-will-cost-to-see-usmnt-in-seattle-in-round-of-16/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 01 Jul 2026 19:33:59 -0700",
-      "isoDate": "2026-07-02T02:33:59.000Z",
-      "excerpt": "The U.S. men’s national team will return to Seattle on Monday for a World Cup matchup against Belgium in the round of 16. Just how much will it cost to see it live?",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "USA men returning to Seahawks stadium with World Cup quarterfinals berth at stake",
       "link": "https://www.fieldgulls.com/seattle-seahawks-news/170110/world-cup-2026-usa-men-returning-to-seahawks-stadium-quarterfinals-berth-belgium",
       "pubDate": "2026-07-02T02:30:01.000Z",
@@ -112,16 +117,6 @@
       "excerpt": "SANTA CLARA, CALIFORNIA - JULY 01: Malik Tillman #17 of the United States celebrates scoring his team's second goal during the FIFA World Cup 2026 Round of 32 match between USA and Bosnia and Herzegovina at San...",
       "source": "Field Gulls",
       "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "U.S. beats Bosnia-Herzegovina 2-0 to advance to round of 16 and keep its World Cup dreams alive",
-      "link": "https://www.seattletimes.com/sports/world-cup/2026-world-cup-u-s-beats-bosnia-herzegovina-to-reach-round-of-16/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 01 Jul 2026 19:20:44 -0700",
-      "isoDate": "2026-07-02T02:20:44.000Z",
-      "excerpt": "Folarin Balogun scored his third goal of the World Cup before being sent off with a red card in the second half, and Malik Tillman converted on a free kick to give the United States a 2-0 win over Bosnia-Herzegovina.",
-      "source": "Seattle Times Sports",
-      "team": "general",
       "priority": 1
     },
     {
@@ -142,36 +137,6 @@
       "excerpt": "Cue up Manny Fresh, because the Kraken like their forwards Real Big this free agency. The Kraken announced the signing of Forward Curtis Douglas to a 2 year deal worth $1.25 million. WELCOME ABOARD! 🦑The #SeaKraken...",
       "source": "Davy Jones' Locker Room",
       "team": "kraken",
-      "priority": 1
-    },
-    {
-      "title": "2026 World Cup: Team USA earns Round of 16 game vs. Belgium in Seattle",
-      "link": "https://www.seattletimes.com/sports/world-cup/2026-world-cup-team-usa-earns-round-of-16-game-vs-belgium-in-seattle/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 01 Jul 2026 19:06:25 -0700",
-      "isoDate": "2026-07-02T02:06:25.000Z",
-      "excerpt": "The matchup most fans in the Pacific Northwest hoped would come to fruition during the FIFA Men’s World Cup is coming to pass as Belgium plays Team USA in Round of 16.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "2026 World Cup: Belgium wins, can continue to call Puget Sound home",
-      "link": "https://www.seattletimes.com/sports/world-cup/2026-world-cup-belgium-wins-can-continue-to-call-puget-sound-home/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 01 Jul 2026 18:51:19 -0700",
-      "isoDate": "2026-07-02T01:51:19.000Z",
-      "excerpt": "The Belgians have been in the Puget Sound area since June 13, and thanks to their World Cup win over Senegal, they can continue to live and train in Renton.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "2026 World Cup: For Senegal, loss to Belgium was cruel case of déjà vu",
-      "link": "https://www.seattletimes.com/sports/world-cup/2026-world-cup-for-senegal-loss-to-belgium-was-cruel-case-of-deja-vu/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 01 Jul 2026 18:35:34 -0700",
-      "isoDate": "2026-07-02T01:35:34.000Z",
-      "excerpt": "Senegal's World Cup ended in Seattle in heartbreaking fashion after leading most of the game against Belgium. It was a major case of déjà vu for the Lions of Teranga.",
-      "source": "Seattle Times Sports",
-      "team": "general",
       "priority": 1
     },
     {
@@ -220,36 +185,6 @@
       "pubDate": "Wed, 01 Jul 2026 23:19:34 +0000",
       "isoDate": "2026-07-01T23:19:34.000Z",
       "excerpt": "Youri Tielemans scored from the penalty spot in stoppage time of extra time, and Belgium came back from two goals down to beat Senegal 3-2 Wednesday.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "Team-by-team breakdown of every player headed to Futures Game",
-      "link": "https://www.mlb.com/mariners/news/each-team-s-prospects-headed-to-2026-futures-game",
-      "pubDate": "Wed, 01 Jul 2026 23:00:00 GMT",
-      "isoDate": "2026-07-01T23:00:00.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
-    },
-    {
-      "title": "2026 World Cup: Belgium completes late rally, will return to Seattle",
-      "link": "https://www.seattletimes.com/sports/world-cup/2026-world-cup-belgium-completes-late-rally-will-return-to-seattle/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 01 Jul 2026 15:55:58 -0700",
-      "isoDate": "2026-07-01T22:55:58.000Z",
-      "excerpt": "Belgium was down 2-0 until the 85th minute against Senegal in its World Cup Round-of-32 match. Three minutes later it was tied. The Red Devils won 3-2 on a penalty kick.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Son of former UW great commits to Huskies football program",
-      "link": "https://sports.mynorthwest.com/ncaa/uw/son-of-former-great-commits-to-uw-huskies-football-program",
-      "pubDate": "Wed, 01 Jul 2026 21:11:51 +0000",
-      "isoDate": "2026-07-01T21:11:51.000Z",
-      "excerpt": "Tye Kennedy, the son of College Football Hall of Fame member Lincoln Kennedy, is UW's third OL recruit for the '27 class.",
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
@@ -603,6 +538,76 @@
       "source": "Davy Jones' Locker Room",
       "team": "kraken",
       "priority": 1
+    },
+    {
+      "title": "The NFL’s Assistant General Managers",
+      "link": "https://www.profootballrumors.com/2026/06/the-nfls-assistant-general-managers",
+      "pubDate": "Sat, 27 Jun 2026 03:15:34 +0000",
+      "isoDate": "2026-06-27T03:15:34.000Z",
+      "excerpt": "When the Vikings hired Nolan Teasley late last month, the general manager carousel came to a stop once again. Minnesota has since filled out its assistant GM tier, joining Seattle — which lost Teasley from its AGM post...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
+      "priority": 2
+    },
+    {
+      "title": "Jason Robertson Rejects Long-Term Offer From Kraken",
+      "link": "https://www.prohockeyrumors.com/2026/06/jason-robertson-rejects-long-term-offer-from-kraken.html",
+      "pubDate": "Fri, 26 Jun 2026 01:32:48 +0000",
+      "isoDate": "2026-06-26T01:32:48.000Z",
+      "excerpt": "Pending Dallas Stars restricted free agent has reportedly declined a long-term offer from the Seattle Kraken.",
+      "source": "Pro Hockey Rumors",
+      "team": "kraken",
+      "priority": 2
+    },
+    {
+      "title": "Seahawks Travel To Atlanta And Alabama For A Civil Rights Learning Tour",
+      "link": "https://www.seahawks.com/news/seahawks-travel-to-atlanta-and-alabama-for-a-civil-rights-learning-tour",
+      "pubDate": "Thu, 25 Jun 2026 19:57:49 GMT",
+      "isoDate": "2026-06-25T19:57:49.000Z",
+      "excerpt": "Seahawks employees, along with three local educators, took a trip to the South for a learning tour hosted by the Institute for Common Power.",
+      "source": "Seahawks.com",
+      "team": "seahawks",
+      "priority": 6
+    },
+    {
+      "title": "Mariners Outright Miles Mastrobuoni",
+      "link": "https://www.mlbtraderumors.com/2026/06/mariners-outright-miles-mastrobuoni.html",
+      "pubDate": "Thu, 25 Jun 2026 19:34:38 +0000",
+      "isoDate": "2026-06-25T19:34:38.000Z",
+      "excerpt": "The Mariners announced that infielder/outfielder Miles Mastrobuoni cleared waivers and has been outrighted to Triple-A Tacoma. He had been designated for assignment by Seattle last week. He does not have three years of...",
+      "source": "MLB Trade Rumors",
+      "team": "mariners",
+      "priority": 2
+    },
+    {
+      "title": "Seahawks Legends Attend Legends Spring Event",
+      "link": "https://www.seahawks.com/news/seahawks-legends-attend-legends-spring-event",
+      "pubDate": "Tue, 23 Jun 2026 17:00:30 GMT",
+      "isoDate": "2026-06-23T17:00:30.000Z",
+      "excerpt": "Seahawks Legends were back in town for the Legends Spring Event, presented by Columbia Bank, for a cruise along Lake Washington.",
+      "source": "Seahawks.com",
+      "team": "seahawks",
+      "priority": 6
+    },
+    {
+      "title": "Seattle Seahawks Announce Trophy Tour, presented by Accenture",
+      "link": "https://www.seahawks.com/news/seattle-seahawks-announce-trophy-tour-presented-by-accenture",
+      "pubDate": "Tue, 23 Jun 2026 17:00:00 GMT",
+      "isoDate": "2026-06-23T17:00:00.000Z",
+      "excerpt": "In celebration of the team’s Super Bowl LX victory, the Seattle Seahawks invite 12s Everywhere to join them on an official Trophy Tour.",
+      "source": "Seahawks.com",
+      "team": "seahawks",
+      "priority": 6
+    },
+    {
+      "title": "Ernest Jones IV Named To NFL Top 100 Players Of 2026",
+      "link": "https://www.seahawks.com/news/ernest-jones-iv-named-to-nfl-top-100-players-of-2026",
+      "pubDate": "Tue, 23 Jun 2026 15:00:07 GMT",
+      "isoDate": "2026-06-23T15:00:07.000Z",
+      "excerpt": "Seahawks linebacker Ernest Jones IV was voted as one of the NFL’s top 100 players, checking in at No. 97 on the annual list.",
+      "source": "Seahawks.com",
+      "team": "seahawks",
+      "priority": 6
     }
   ]
 }
