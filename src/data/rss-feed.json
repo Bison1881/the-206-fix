@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T02:54:58.169Z",
+  "generatedAt": "2026-07-02T07:27:53.430Z",
   "sourceCount": 10,
   "successfulSources": 9,
   "failedSources": [
@@ -10,6 +10,46 @@
   ],
   "items": [
     {
+      "title": "The NFL’s Longest-Tenured GMs",
+      "link": "https://www.profootballrumors.com/2026/07/the-nfls-longest-tenured-gms-4",
+      "pubDate": "Thu, 02 Jul 2026 03:58:04 +0000",
+      "isoDate": "2026-07-02T03:58:04.000Z",
+      "excerpt": "Only three general manager vacancies emerged this offseason. One of them came from the removal of longtime Dolphins GM Chris Grier, whom the team dismissed last October. Grier had been in Miami’s GM chair since 2016 and...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
+      "priority": 2
+    },
+    {
+      "title": "World Cup: US to face Belgium in Seattle during Round of 16",
+      "link": "https://sports.mynorthwest.com/seattle-sports-pit/world-cup-u-s-to-face-belgium-in-seattle-during-round-of-16",
+      "pubDate": "Thu, 02 Jul 2026 02:34:03 +0000",
+      "isoDate": "2026-07-02T02:34:03.000Z",
+      "excerpt": "The Americans are looking for a historic win in their return to Seattle.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "USA men returning to Seahawks stadium with World Cup quarterfinals berth at stake",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-news/170110/world-cup-2026-usa-men-returning-to-seahawks-stadium-quarterfinals-berth-belgium",
+      "pubDate": "2026-07-02T02:30:01.000Z",
+      "isoDate": "2026-07-02T02:30:01.000Z",
+      "excerpt": "SANTA CLARA, CALIFORNIA - JULY 01: Malik Tillman #17 of the United States celebrates scoring his team's second goal during the FIFA World Cup 2026 Round of 32 match between USA and Bosnia and Herzegovina at San...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
+    {
+      "title": "World Cup: US beats Bosnia 2-0, reaches first quarterfinal in 24 years",
+      "link": "https://sports.mynorthwest.com/seattle-sports-pit/world-cup-u-s-beats-bosnia-2-0-reaches-first-quarterfinal-in-24-years",
+      "pubDate": "Thu, 02 Jul 2026 02:15:44 +0000",
+      "isoDate": "2026-07-02T02:15:44.000Z",
+      "excerpt": "The Americans, who were down to 10 players for much of the second half, advanced to face Belgium in Seattle during the round of 16.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
       "title": "Kraken add Curtis Douglas in FA on 2-year, 1.25m AAV contract",
       "link": "https://www.davyjoneslockerroom.com/kraken-add-curtis-douglas-in-fa-on-2-year-1-25m-aav-contract/",
       "pubDate": "Thu, 02 Jul 2026 02:13:48 +0000",
@@ -18,6 +58,16 @@
       "source": "Davy Jones' Locker Room",
       "team": "kraken",
       "priority": 1
+    },
+    {
+      "title": "Seattle Kraken Free Agency Check-In: 2 originals leave",
+      "link": "https://sports.mynorthwest.com/nhl/seattle-kraken/seattle-kraken-moves-jamie-oleksiak-jaden-schwartz-gone",
+      "pubDate": "Thu, 02 Jul 2026 01:28:25 +0000",
+      "isoDate": "2026-07-02T01:28:25.000Z",
+      "excerpt": "Here's a look at who the Seattle Kraken added, lost and extended Wednesday, plus a list of their remaining free agents.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
     },
     {
       "title": "Mariners can cast a wider net than others at trade deadline",
@@ -60,6 +110,16 @@
       "priority": 3
     },
     {
+      "title": "Team-by-team breakdown of every player headed to Futures Game",
+      "link": "https://www.mlb.com/mariners/news/each-team-s-prospects-headed-to-2026-futures-game",
+      "pubDate": "Wed, 01 Jul 2026 23:00:00 GMT",
+      "isoDate": "2026-07-01T23:00:00.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
       "title": "Son of former UW great commits to Huskies football program",
       "link": "https://sports.mynorthwest.com/ncaa/uw/son-of-former-great-commits-to-uw-huskies-football-program",
       "pubDate": "Wed, 01 Jul 2026 21:11:51 +0000",
@@ -80,34 +140,24 @@
       "priority": 2
     },
     {
-      "title": "The Pac-12 is officially back: What to know about the revamped league",
-      "link": "https://sports.mynorthwest.com/ncaa/pac-12-officially-back-what-to-know",
-      "pubDate": "Wed, 01 Jul 2026 20:27:56 +0000",
-      "isoDate": "2026-07-01T20:27:56.000Z",
-      "excerpt": "The new-look Pac-12 launched on Wednesday with nine full-time members, including WSU and Gonzaga.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
+      "title": "Kade Anderson and Ryan Sloan highlight MLB Futures Game rosters",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-prospects/145600/kade-anderson-and-ryan-sloan-highlight-mlb-futures-game-rosters",
+      "pubDate": "2026-07-01T19:52:28.000Z",
+      "isoDate": "2026-07-01T19:52:28.000Z",
+      "excerpt": "TULSA, OKLAHOMA - APRIL 19: Kade Anderson #32 of the Arkansas Travelers sits in the dugout during a game against the Tulsa Drillers at ONEOK Field on April 19, 2026 in Tulsa, Oklahoma. (Photo by Brandon Sloter/Getty...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
     },
     {
-      "title": "AL West-leading Rangers place Corey Seager on IL again",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/al-west-leading-texas-rangers-place-corey-seager-on-il-again",
-      "pubDate": "Wed, 01 Jul 2026 19:44:50 +0000",
-      "isoDate": "2026-07-01T19:44:50.000Z",
-      "excerpt": "The five-time All-Star shortstop is dealing with lower back inflammation.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "Kane’s 2 goals send England past Congo 2-1, into World Cup Round of 16",
-      "link": "https://sports.mynorthwest.com/seattle-sports-pit/world-cup-harry-kane-england-congo",
-      "pubDate": "Wed, 01 Jul 2026 19:08:26 +0000",
-      "isoDate": "2026-07-01T19:08:26.000Z",
-      "excerpt": "Harry Kane scored two second-half goals to help England rally for a 2-1 victory over Congo and a spot in the round of 16 at the World Cup on Wednesday.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
+      "title": "Seahawks 2026 training camp: Field Gulls’ on-site coverage plans!",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-preseason/170164/seahawks-2026-training-camp-field-gulls-coverage-plans",
+      "pubDate": "2026-07-01T19:25:28.000Z",
+      "isoDate": "2026-07-01T19:25:28.000Z",
+      "excerpt": "We’ve reached July, which means Seattle Seahawks training camp is on the horizon! Seattle’s first public practice will be July 25 and wrap up on Aug. 13, just before the preseason opener against the Dallas Cowboys. As...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
     },
     {
       "title": "Searching for answers to Raleigh’s mysterious struggles",
@@ -118,6 +168,16 @@
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
+    },
+    {
+      "title": "Zach Charbonnet injury update: Seahawks running back ‘progressing well’ from ACL surgery",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-injury-report/170157/zach-charbonnet-injury-update-seahawks-running-back-progressing-well-acl-surgery",
+      "pubDate": "2026-07-01T17:30:33.000Z",
+      "isoDate": "2026-07-01T17:30:33.000Z",
+      "excerpt": "Jan 3, 2026; Santa Clara, California, USA;Seattle Seahawks running back Zach Charbonnet (26) rushes for a touchdown against the San Francisco 49ers during the first half at Levi's Stadium. Mandatory Credit: Sergio...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
     },
     {
       "title": "DJLR Free Agency Frenzy LIVETHREAD",
@@ -160,16 +220,6 @@
       "priority": 6
     },
     {
-      "title": "The NFL’s Longest-Tenured GMs",
-      "link": "https://www.profootballrumors.com/2026/07/the-nfls-longest-tenured-gms-4",
-      "pubDate": "Wed, 01 Jul 2026 15:58:04 +0000",
-      "isoDate": "2026-07-01T15:58:04.000Z",
-      "excerpt": "Only three general manager vacancies emerged this offseason. One of them came from the removal of longtime Dolphins GM Chris Grier, whom the team dismissed last October. Grier had been in Miami’s GM chair since 2016 and...",
-      "source": "Pro Football Rumors",
-      "team": "seahawks",
-      "priority": 2
-    },
-    {
       "title": "2026 All-Star Futures Game rosters revealed",
       "link": "https://www.mlb.com/mariners/news/2026-futures-game-rosters",
       "pubDate": "Wed, 01 Jul 2026 15:10:58 GMT",
@@ -178,6 +228,26 @@
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
+    },
+    {
+      "title": "June: Chart",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-analysis/145552/june-chart",
+      "pubDate": "2026-07-01T14:58:00.000Z",
+      "isoDate": "2026-07-01T14:58:00.000Z",
+      "excerpt": "SEATTLE, WASHINGTON - JUNE 19: Dominic Canzone #8 of the Seattle Mariners makes a diving catch during the seventh inning against the Boston Red Sox at T-Mobile Park on June 19, 2026 in Seattle, Washington. (Photo by...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Mariners News: Brendan Donovan, Willson Contreras, and Pete Crow-Armstrong",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-news/145558/mariners-news-brendan-donovan-willson-contreras-and-pete-crow-armstrong",
+      "pubDate": "2026-07-01T14:00:00.000Z",
+      "isoDate": "2026-07-01T14:00:00.000Z",
+      "excerpt": "Jun 30, 2026; Boston, Massachusetts, USA; Washington Nationals catcher Keibert Ruiz (20) and Boston Red Sox first baseman Willson Contreras (40) enter an altercation in the fourth inning at Fenway Park. Mandatory...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
     },
     {
       "title": "Seahawks News 7/1: Brian Fleury and the potential of the Seahawks O",
@@ -238,16 +308,6 @@
       "source": "Lookout Landing",
       "team": "mariners",
       "priority": 1
-    },
-    {
-      "title": "Canzone, Raley sit as Mariners give duo a breather before Wednesday's off-day",
-      "link": "https://www.mlb.com/mariners/news/dominic-canzone-luke-raley-get-day-off-vs-angels",
-      "pubDate": "Wed, 01 Jul 2026 01:14:16 GMT",
-      "isoDate": "2026-07-01T01:14:16.000Z",
-      "excerpt": "Seattle recalls reliever Cole Wilcox from Triple-A",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
     },
     {
       "title": "Latest Mariners injuries and transactions",
@@ -330,36 +390,6 @@
       "priority": 1
     },
     {
-      "title": "Mariners News: George Kirby, Rob Refsnyder, and Kade Anderson",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-news/145526/george-kirby-rob-refsnyder-kade-anderson-marcus-semien-jeremy-pena",
-      "pubDate": "2026-06-30T14:00:00.000Z",
-      "isoDate": "2026-06-30T14:00:00.000Z",
-      "excerpt": "Jun 29, 2026; Seattle, Washington, USA; Seattle Mariners starting pitcher George Kirby (68) celebrates a victory against the Los Angeles Angels with second baseman Cole Young (2, right) during the ninth inning at...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "Mariners Slug Homers, Angels in 6-2 Win",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/145530/mariners-slug-homers-angels-in-6-2-win",
-      "pubDate": "2026-06-30T05:47:20.000Z",
-      "isoDate": "2026-06-30T05:47:20.000Z",
-      "excerpt": "Jun 29, 2026; Seattle, Washington, USA; Seattle Mariners second baseman Cole Young (2) hits a two-run home run against the Los Angeles Angels during the sixth inning at T-Mobile Park. Mandatory Credit: Joe...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "43-43: Chart",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/145518/43-43-chart",
-      "pubDate": "2026-06-30T03:55:28.000Z",
-      "isoDate": "2026-06-30T03:55:28.000Z",
-      "excerpt": "SEATTLE, WASHINGTON - JUNE 29: George Kirby #68 of the Seattle Mariners reacts after getting a strikeout during the eighth inning against the Los Angeles Angels at T-Mobile Park on June 29, 2026 in Seattle, Washington....",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
       "title": "Seahawks Reacts Survey results: Fans predict another big year for A.J. Barner",
       "link": "https://www.fieldgulls.com/seattle-seahawks-roster/170093/seahawks-reacts-survey-results-fans-predict-another-big-year-aj-barner",
       "pubDate": "2026-06-30T03:11:49.000Z",
@@ -408,36 +438,6 @@
       "source": "Pro Hockey Rumors",
       "team": "kraken",
       "priority": 2
-    },
-    {
-      "title": "ESPN analyst Kevin Clark: Seahawks among &#8216;most disrespected Super Bowl champions of my lifetime&#8217;",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/170036/espn-analyst-kevin-clark-seahawks-among-most-disrespected-super-bowl-champions-lifetime",
-      "pubDate": "2026-06-29T15:00:00.000Z",
-      "isoDate": "2026-06-29T15:00:00.000Z",
-      "excerpt": "SANTA CLARA, CALIFORNIA - FEBRUARY 08: Sam Darnold #14 of the Seattle Seahawks celebrates with the Vince Lombardi Trophy after winning Super Bowl LX against the New England Patriots at Levi's Stadium on February 08,...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "Seahawks News 6/29: Zach Charbonnet, other fighting for extensions in 2026",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-news/170069/seahawks-news-6-29-zach-charbonnet-other-fighting-for-extensions-in-2026",
-      "pubDate": "2026-06-29T14:34:51.000Z",
-      "isoDate": "2026-06-29T14:34:51.000Z",
-      "excerpt": "SANTA CLARA, CALIFORNIA - JANUARY 03: Zach Charbonnet #26 of the Seattle Seahawks runs the ball against Deommodore Lenoir #2 of the San Francisco 49ers in the third quarter against the San Francisco 49ers at Levi's...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "Sam Darnold on an element of the Super Bowl that he was disappointed in",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-news/170057/sam-darnold-element-seahawks-super-bowl-win-disappointed-nfl-news",
-      "pubDate": "2026-06-29T14:00:00.000Z",
-      "isoDate": "2026-06-29T14:00:00.000Z",
-      "excerpt": "Quarterbacks that win Vince Lombardi trophies can usually talk their talk and walk their walks free of judgement. They’ve earned it, no matter the box score. Someone tell that to Seattle Seahawks quarterback, Sam...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
     },
     {
       "title": "Mariners Looking To Add Relief Pitching, Right-Handed Bat",
