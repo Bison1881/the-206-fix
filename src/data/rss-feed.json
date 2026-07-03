@@ -1,14 +1,79 @@
 {
-  "generatedAt": "2026-07-03T21:01:23.938Z",
+  "generatedAt": "2026-07-03T22:58:38.070Z",
   "sourceCount": 10,
-  "successfulSources": 9,
-  "failedSources": [
-    {
-      "source": "Seattle Times Sports",
-      "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
-    }
-  ],
+  "successfulSources": 10,
+  "failedSources": [],
   "items": [
+    {
+      "title": "Mariners Place Julio Rodríguez On Concussion IL",
+      "link": "https://www.mlbtraderumors.com/2026/07/mariners-place-julio-rodriguez-on-concussion-il.html",
+      "pubDate": "Fri, 03 Jul 2026 22:50:31 +0000",
+      "isoDate": "2026-07-03T22:50:31.000Z",
+      "excerpt": "The Mariners announced that outfielder Julio Rodríguez has been placed on the seven-day concussion injured list. Infielder/outfielder Miles Mastrobuoni has been selected to take his place on the roster. Right-hander...",
+      "source": "MLB Trade Rumors",
+      "team": "mariners",
+      "priority": 2
+    },
+    {
+      "title": "J-Rod placed on seven-day concussion injured list",
+      "link": "https://www.mlb.com/mariners/news/julio-rodriguez-seven-day-concussion-injured-list",
+      "pubDate": "Fri, 03 Jul 2026 22:34:24 GMT",
+      "isoDate": "2026-07-03T22:34:24.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Mariners Trade Deadline: What’s the market for right-handed bats?",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-trade-deadline-whats-the-market-for-right-handed-bats",
+      "pubDate": "Fri, 03 Jul 2026 21:38:57 +0000",
+      "isoDate": "2026-07-03T21:38:57.000Z",
+      "excerpt": "USA Today's Bob Nightengale on who the M's could target to address a big need.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Egypt wins in World Cup knockout round debut with 4-2 penalty shootout edge over Australia",
+      "link": "https://www.seattletimes.com/sports/world-cup/egypt-wins-in-world-cup-knockout-round-debut-with-4-2-penalty-shootout-edge-over-australia/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Fri, 03 Jul 2026 14:26:13 -0700",
+      "isoDate": "2026-07-03T21:26:13.000Z",
+      "excerpt": "Egypt won its debut in the World Cup knockout round by beating Australia 4-2 on penalty kicks after a 1-1 draw.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Folarin Balogun talks red card, suspension for USMNT’s next World Cup match",
+      "link": "https://www.seattletimes.com/sports/world-cup/folarin-balogun-talks-red-card-suspension-for-usmnts-next-world-cup-match/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Fri, 03 Jul 2026 14:20:48 -0700",
+      "isoDate": "2026-07-03T21:20:48.000Z",
+      "excerpt": "Folarin Balogun said \"a yellow card would have been fair\" for the foul for which he was given a red card and a suspension for USA's World Cup match in Seattle.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "World Cup: Egypt outlasts Australia in PKs to advance",
+      "link": "https://sports.mynorthwest.com/seattle-sports-pit/world-cup-egypt-outlasts-australia-in-pks-to-advance",
+      "pubDate": "Fri, 03 Jul 2026 21:15:38 +0000",
+      "isoDate": "2026-07-03T21:15:38.000Z",
+      "excerpt": "The Pharaohs advanced in the knockout stage for the first time ever.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "NBC, Peacock will show all 15 MLB games on Sunday",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/nbc-peacock-will-show-all-15-mlb-games-on-sunday",
+      "pubDate": "Fri, 03 Jul 2026 20:34:22 +0000",
+      "isoDate": "2026-07-03T20:34:22.000Z",
+      "excerpt": "All of the games during “Star-Spangled Sunday” will be available nationally and without blackout restrictions.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
     {
       "title": "USMNT coach Pochettino to throw out first pitch at Mariners game",
       "link": "https://www.mlb.com/mariners/news/usmnt-coach-mauricio-pochettino-throws-first-pitch-at-mariners-game",
@@ -20,6 +85,16 @@
       "priority": 6
     },
     {
+      "title": "Taylor Swift and Travis Kelce’s wedding buzz peaks at Madison Square Garden",
+      "link": "https://www.seattletimes.com/entertainment/a-fairytale-at-msg-taylor-swift-and-travis-kelces-wedding-set-to-take-place/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Fri, 03 Jul 2026 11:16:46 -0700",
+      "isoDate": "2026-07-03T18:16:46.000Z",
+      "excerpt": "Taylor Swift and Travis Kelce's wedding day has arrived at Madison Square Garden.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
       "title": "Former WSU Cougars football coach Jim Walden dies at 88",
       "link": "https://sports.mynorthwest.com/ncaa/wsu/former-wsu-cougars-football-coach-jim-walden-dies-at-88",
       "pubDate": "Fri, 03 Jul 2026 17:50:46 +0000",
@@ -28,6 +103,16 @@
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
+    },
+    {
+      "title": "Jim Walden, WSU Cougars Hall of Fame coach, dies at 88",
+      "link": "https://www.seattletimes.com/sports/wsu-cougar-football/jim-walden-wsu-cougars-hall-of-fame-coach-dies-at-88/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Fri, 03 Jul 2026 10:32:30 -0700",
+      "isoDate": "2026-07-03T17:32:30.000Z",
+      "excerpt": "Former Washington State football coach Jim Walden, who in 1981 led the Cougars to their first bowl appearance in 50 years, died Thursday at age 88.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
     },
     {
       "title": "MLB players propose limiting optional assignments to minors",
@@ -100,6 +185,26 @@
       "priority": 1
     },
     {
+      "title": "Seattle Kraken focusing on youth, investing in prospect Jake O’Brien",
+      "link": "https://www.seattletimes.com/sports/kraken/seattle-kraken-focusing-on-youth-investing-in-prospect-jake-obrien/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Fri, 03 Jul 2026 06:00:00 -0700",
+      "isoDate": "2026-07-03T13:00:00.000Z",
+      "excerpt": "As the Seattle Kraken double down on youth, their investment in 19-year-old prospect Jake O'Brien stands out. And O'Brien could be the team's first beneficiary of an NHL rule change this season.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "As U.S. hits Seattle for World Cup, Sounders still embracing Belgium",
+      "link": "https://www.seattletimes.com/sports/world-cup/as-u-s-hits-seattle-for-world-cup-sounders-still-embracing-belgium/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Fri, 03 Jul 2026 06:00:00 -0700",
+      "isoDate": "2026-07-03T13:00:00.000Z",
+      "excerpt": "The Sounders say \"it's an honor\" to have hosted Belgium for much of the World Cup, even as the U.S. arrives as Belgium's opponent for their big matchup in Seattle.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
       "title": "Seahawks News 7/3: Eric Saubert is a valuable member of a loaded Seahawks team",
       "link": "https://www.fieldgulls.com/seattle-seahawks-news/170249/seahawks-news-7-3-eric-saubert-is-a-valuable-member-of-a-stellar-seahawks-team",
       "pubDate": "2026-07-03T13:00:00.000Z",
@@ -160,34 +265,24 @@
       "priority": 3
     },
     {
-      "title": "J-Rod in concussion protocol after getting hit by throw; X-rays negative on Robles' arm",
-      "link": "https://www.mlb.com/mariners/news/julio-rodriguez-victor-robles-leave-mariners-game-with-injuries",
-      "pubDate": "Fri, 03 Jul 2026 05:03:00 GMT",
-      "isoDate": "2026-07-03T05:03:00.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
+      "title": "Embolo, Ndoye score and Switzerland moves on at the World Cup with a 2-0 win over Algeria",
+      "link": "https://www.seattletimes.com/sports/world-cup/embolo-ndoye-score-and-switzerland-moves-on-at-the-world-cup-with-a-2-0-win-over-algeria/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Thu, 02 Jul 2026 22:12:57 -0700",
+      "isoDate": "2026-07-03T05:12:57.000Z",
+      "excerpt": "Breel Embolo and Dan Ndoye both scored as Switzerland advanced to the round of 16 at the World Cup with a 2-0 victory over Algeria on Thursday.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
     },
     {
-      "title": "Miller takes no-hitter into 7th, M’s sweep Angels with 1-0 win",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/miller-takes-no-hitter-into-7th-seattle-mariners-sweep-angels-with-1-0-win",
-      "pubDate": "Fri, 03 Jul 2026 04:43:11 +0000",
-      "isoDate": "2026-07-03T04:43:11.000Z",
-      "excerpt": "Bryce Miller turned in seven shutout innings and Seattle scored the game's only run on a bases-loaded walk.",
-      "source": "710 Seattle Sports",
+      "title": "Bryce Miller twirls another gem as Mariners sweep Angels",
+      "link": "https://www.seattletimes.com/sports/mariners/bryce-miller-twirls-another-gem-as-mariners-sweep-angels/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Thu, 02 Jul 2026 21:17:44 -0700",
+      "isoDate": "2026-07-03T04:17:44.000Z",
+      "excerpt": "Bryce Miller took a no-hitter into the seventh inning in another dominant start, Cal Raleigh scored the game's only run on a bases-loaded walk and the Mariners swept the Angels on Thursday night.",
+      "source": "Seattle Times Sports",
       "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "Phoenix Mercury race past Seattle Storm 90-67",
-      "link": "https://sports.mynorthwest.com/wnba/seattle-storm/phoenix-mercury-race-past-seattle-storm-90-67",
-      "pubDate": "Fri, 03 Jul 2026 04:14:49 +0000",
-      "isoDate": "2026-07-03T04:14:49.000Z",
-      "excerpt": "Phoenix's Kahleah Copper scored 23 of her game-high 30 points in the first half.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
+      "priority": 1
     },
     {
       "title": "45-43: Chart",
@@ -208,16 +303,6 @@
       "source": "Lookout Landing",
       "team": "mariners",
       "priority": 1
-    },
-    {
-      "title": "Julio Rodríguez leaves game after throw to back of helmet",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/julio-rodriguez-leaves-game-after-throw-to-back-of-helmet",
-      "pubDate": "Fri, 03 Jul 2026 02:44:37 +0000",
-      "isoDate": "2026-07-03T02:44:37.000Z",
-      "excerpt": "Victor Robles, who came in as a replacement, also exited early after being hit by a 98 mph fastball.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
     },
     {
       "title": "Mariners Game #88 Preview and Discussion, 7/2/26: SEA vs LAA",
@@ -518,96 +603,6 @@
       "source": "Davy Jones' Locker Room",
       "team": "kraken",
       "priority": 1
-    },
-    {
-      "title": "No Movement On Seahawks-Devon Witherspoon Extension",
-      "link": "https://www.profootballrumors.com/2026/06/no-movement-on-seahawks-devon-witherspoon-extension",
-      "pubDate": "Sat, 27 Jun 2026 18:05:15 +0000",
-      "isoDate": "2026-06-27T18:05:15.000Z",
-      "excerpt": "The Seahawks wasted no time rewarding reigning Offensive Player of the Year Jaxon Smith-Njigba with the biggest wide receiver contract in NFL history this offseason. Negotiations with fellow 2023 first-rounder Devon...",
-      "source": "Pro Football Rumors",
-      "team": "seahawks",
-      "priority": 2
-    },
-    {
-      "title": "Kraken Select F Viktor Fedorov 99th Overall!",
-      "link": "https://www.davyjoneslockerroom.com/kraken-select-f-viktor-fedorov-99th-overall/",
-      "pubDate": "Sat, 27 Jun 2026 17:53:17 +0000",
-      "isoDate": "2026-06-27T17:53:17.000Z",
-      "excerpt": "The Kraken used their 99th overall pick to get a little russian flair in their draft class! Fedorov comes from Tomsk, Russia, sitting at 5’10 and 183 pounds, shooting left. He plays in the Torpedo Nizhny Novgorod club;...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
-    },
-    {
-      "title": "The NFL’s Assistant General Managers",
-      "link": "https://www.profootballrumors.com/2026/06/the-nfls-assistant-general-managers",
-      "pubDate": "Sat, 27 Jun 2026 03:15:34 +0000",
-      "isoDate": "2026-06-27T03:15:34.000Z",
-      "excerpt": "When the Vikings hired Nolan Teasley late last month, the general manager carousel came to a stop once again. Minnesota has since filled out its assistant GM tier, joining Seattle — which lost Teasley from its AGM post...",
-      "source": "Pro Football Rumors",
-      "team": "seahawks",
-      "priority": 2
-    },
-    {
-      "title": "Jason Robertson Rejects Long-Term Offer From Kraken",
-      "link": "https://www.prohockeyrumors.com/2026/06/jason-robertson-rejects-long-term-offer-from-kraken.html",
-      "pubDate": "Fri, 26 Jun 2026 01:32:48 +0000",
-      "isoDate": "2026-06-26T01:32:48.000Z",
-      "excerpt": "Pending Dallas Stars restricted free agent has reportedly declined a long-term offer from the Seattle Kraken.",
-      "source": "Pro Hockey Rumors",
-      "team": "kraken",
-      "priority": 2
-    },
-    {
-      "title": "Seahawks Travel To Atlanta And Alabama For A Civil Rights Learning Tour",
-      "link": "https://www.seahawks.com/news/seahawks-travel-to-atlanta-and-alabama-for-a-civil-rights-learning-tour",
-      "pubDate": "Thu, 25 Jun 2026 19:57:49 GMT",
-      "isoDate": "2026-06-25T19:57:49.000Z",
-      "excerpt": "Seahawks employees, along with three local educators, took a trip to the South for a learning tour hosted by the Institute for Common Power.",
-      "source": "Seahawks.com",
-      "team": "seahawks",
-      "priority": 6
-    },
-    {
-      "title": "Mariners Outright Miles Mastrobuoni",
-      "link": "https://www.mlbtraderumors.com/2026/06/mariners-outright-miles-mastrobuoni.html",
-      "pubDate": "Thu, 25 Jun 2026 19:34:38 +0000",
-      "isoDate": "2026-06-25T19:34:38.000Z",
-      "excerpt": "The Mariners announced that infielder/outfielder Miles Mastrobuoni cleared waivers and has been outrighted to Triple-A Tacoma. He had been designated for assignment by Seattle last week. He does not have three years of...",
-      "source": "MLB Trade Rumors",
-      "team": "mariners",
-      "priority": 2
-    },
-    {
-      "title": "Seahawks Legends Attend Legends Spring Event",
-      "link": "https://www.seahawks.com/news/seahawks-legends-attend-legends-spring-event",
-      "pubDate": "Tue, 23 Jun 2026 17:00:30 GMT",
-      "isoDate": "2026-06-23T17:00:30.000Z",
-      "excerpt": "Seahawks Legends were back in town for the Legends Spring Event, presented by Columbia Bank, for a cruise along Lake Washington.",
-      "source": "Seahawks.com",
-      "team": "seahawks",
-      "priority": 6
-    },
-    {
-      "title": "Seattle Seahawks Announce Trophy Tour, presented by Accenture",
-      "link": "https://www.seahawks.com/news/seattle-seahawks-announce-trophy-tour-presented-by-accenture",
-      "pubDate": "Tue, 23 Jun 2026 17:00:00 GMT",
-      "isoDate": "2026-06-23T17:00:00.000Z",
-      "excerpt": "In celebration of the team’s Super Bowl LX victory, the Seattle Seahawks invite 12s Everywhere to join them on an official Trophy Tour.",
-      "source": "Seahawks.com",
-      "team": "seahawks",
-      "priority": 6
-    },
-    {
-      "title": "Ernest Jones IV Named To NFL Top 100 Players Of 2026",
-      "link": "https://www.seahawks.com/news/ernest-jones-iv-named-to-nfl-top-100-players-of-2026",
-      "pubDate": "Tue, 23 Jun 2026 15:00:07 GMT",
-      "isoDate": "2026-06-23T15:00:07.000Z",
-      "excerpt": "Seahawks linebacker Ernest Jones IV was voted as one of the NFL’s top 100 players, checking in at No. 97 on the annual list.",
-      "source": "Seahawks.com",
-      "team": "seahawks",
-      "priority": 6
     }
   ]
 }
