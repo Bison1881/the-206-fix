@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-03T02:38:07.805Z",
+  "generatedAt": "2026-07-03T06:58:59.308Z",
   "sourceCount": 10,
   "successfulSources": 9,
   "failedSources": [
@@ -9,6 +9,116 @@
     }
   ],
   "items": [
+    {
+      "title": "Latest Mariners injuries and transactions",
+      "link": "https://www.mlb.com/mariners/news/mariners-injuries-and-roster-moves",
+      "pubDate": "Fri, 03 Jul 2026 06:13:00 GMT",
+      "isoDate": "2026-07-03T06:13:00.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Big Tex, All-Star? Miller shines once again with 7 scoreless innings, 8 K's",
+      "link": "https://www.mlb.com/mariners/news/bryce-miller-bolsters-all-star-resume-with-8-strikeouts-in-win",
+      "pubDate": "Fri, 03 Jul 2026 06:04:00 GMT",
+      "isoDate": "2026-07-03T06:04:00.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "USMNT coach to throw first pitch for M’s game Friday",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/usmnt-coach-to-throw-first-pitch-for-ms-game-friday",
+      "pubDate": "Fri, 03 Jul 2026 05:23:29 +0000",
+      "isoDate": "2026-07-03T05:23:29.000Z",
+      "excerpt": "Mauricio Pochettino and the U.S. squad will be at T-Mobile Park on Friday night.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Angels Prove So Bad as To Be Dangerous, Swept by Mariners 1-0",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/145615/angels-prove-so-bad-as-to-be-dangerous-swept-by-mariners-1-0",
+      "pubDate": "2026-07-03T05:16:39.000Z",
+      "isoDate": "2026-07-03T05:16:39.000Z",
+      "excerpt": "SEATTLE, WASHINGTON - JULY 02: Manager Dan Wilson of the Seattle Mariners (R) checks on Julio Rodriguez #44 during the first inning against the Los Angeles Angels at T-Mobile Park on July 02, 2026 in Seattle,...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Switzerland moves on at the World Cup with 2-0 win over Algeria",
+      "link": "https://sports.mynorthwest.com/seattle-sports-pit/switzerland-moves-on-at-the-world-cup-with-a-2-0-win-over-algeria",
+      "pubDate": "Fri, 03 Jul 2026 05:15:12 +0000",
+      "isoDate": "2026-07-03T05:15:12.000Z",
+      "excerpt": "Breel Embolo and Dan Ndoye both scored for Switzerland.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "J-Rod in concussion protocol after getting hit by throw; X-rays negative on Robles' arm",
+      "link": "https://www.mlb.com/mariners/news/julio-rodriguez-victor-robles-leave-mariners-game-with-injuries",
+      "pubDate": "Fri, 03 Jul 2026 05:03:00 GMT",
+      "isoDate": "2026-07-03T05:03:00.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Miller takes no-hitter into 7th, M’s sweep Angels with 1-0 win",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/miller-takes-no-hitter-into-7th-seattle-mariners-sweep-angels-with-1-0-win",
+      "pubDate": "Fri, 03 Jul 2026 04:43:11 +0000",
+      "isoDate": "2026-07-03T04:43:11.000Z",
+      "excerpt": "Bryce Miller turned in seven shutout innings and Seattle scored the game's only run on a bases-loaded walk.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Phoenix Mercury race past Seattle Storm 90-67",
+      "link": "https://sports.mynorthwest.com/wnba/seattle-storm/phoenix-mercury-race-past-seattle-storm-90-67",
+      "pubDate": "Fri, 03 Jul 2026 04:14:49 +0000",
+      "isoDate": "2026-07-03T04:14:49.000Z",
+      "excerpt": "Phoenix's Kahleah Copper scored 23 of her game-high 30 points in the first half.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "45-43: Chart",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/145619/45-43-chart",
+      "pubDate": "2026-07-03T04:13:44.000Z",
+      "isoDate": "2026-07-03T04:13:44.000Z",
+      "excerpt": "Jul 2, 2026; Seattle, Washington, USA; Seattle Mariners starting pitcher Bryce Miller (50) pitches to the Los Angeles Angels during the first inning at T-Mobile Park. Mandatory Credit: Steven Bisig-Imagn Images | Steven...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Mariners injury update: Julio Rodríguez, Victor Robles both depart Thursday’s game against Angels [updated]",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-injuries/145622/mariners-injury-update-julio-rodriguez-victor-robles-both-depart-thursdays-game-against-angels",
+      "pubDate": "2026-07-03T02:51:47.000Z",
+      "isoDate": "2026-07-03T02:51:47.000Z",
+      "excerpt": "SEATTLE, WASHINGTON - JULY 02: Manager Dan Wilson of the Seattle Mariners (R) checks on Julio Rodriguez #44 during the first inning against the Los Angeles Angels at T-Mobile Park on July 02, 2026 in Seattle,...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Julio Rodríguez leaves game after throw to back of helmet",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/julio-rodriguez-leaves-game-after-throw-to-back-of-helmet",
+      "pubDate": "Fri, 03 Jul 2026 02:44:37 +0000",
+      "isoDate": "2026-07-03T02:44:37.000Z",
+      "excerpt": "Victor Robles, who came in as a replacement, also exited early after being hit by a 98 mph fastball.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
     {
       "title": "World Cup: Portugal comes back to beat Croatia 2-1 in controversial finish",
       "link": "https://sports.mynorthwest.com/seattle-sports-pit/world-cup-portugal-comes-back-to-beat-croatia-2-1-in-controversial-finish",
@@ -65,56 +175,6 @@
       "pubDate": "Thu, 02 Jul 2026 22:39:36 +0000",
       "isoDate": "2026-07-02T22:39:36.000Z",
       "excerpt": "Logan Gilbert and Emerson Hancock will pitch in a piggyback start against Toronto on Saturday.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "Dominant Spain blows past Austria 3-0, into World Cup round of 16",
-      "link": "https://sports.mynorthwest.com/seattle-sports-pit/dominant-spain-austria-3-0-world-cup",
-      "pubDate": "Thu, 02 Jul 2026 21:58:34 +0000",
-      "isoDate": "2026-07-02T21:58:34.000Z",
-      "excerpt": "Spain put on its most impressive performance of the tournament while dominating possession and demonstrating the offensive creativity across its vaunted lineup.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "Mariners get two key bats back in lineup for finale vs Angels",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-lineup-dominic-canzone-luke-raley-back",
-      "pubDate": "Thu, 02 Jul 2026 21:41:16 +0000",
-      "isoDate": "2026-07-02T21:41:16.000Z",
-      "excerpt": "The Mariners have their pair of lefty sluggers back as they go for a series sweep over the Los Angeles Angels.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "Get-in price for US’s World Cup knockout match in Seattle is huge",
-      "link": "https://sports.mynorthwest.com/seattle-sports-pit/get-in-price-us-world-cup-knockout-match-seattle",
-      "pubDate": "Thu, 02 Jul 2026 21:19:38 +0000",
-      "isoDate": "2026-07-02T21:19:38.000Z",
-      "excerpt": "Here's what it costs to get into the stadium for the United States vs. Belgium round-of-16 match in Seattle.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "Mount Vernon product Xavier Neyens added to MLB All-Star Futures Game",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/mt-vernon-xavier-neyens-prospect-mlb-all-star-futures-game",
-      "pubDate": "Thu, 02 Jul 2026 20:52:14 +0000",
-      "isoDate": "2026-07-02T20:52:14.000Z",
-      "excerpt": "A native of Washington state is joining the All-Star festivities in Philadelphia set for next week.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "On The Farm: These Mariners prospects shined in June",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/on-the-farm-these-mariners-prospects-shined-in-june",
-      "pubDate": "Thu, 02 Jul 2026 20:10:37 +0000",
-      "isoDate": "2026-07-02T20:10:37.000Z",
-      "excerpt": "Several of Seattle's highly regarded farmhands had monster months.",
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
@@ -250,16 +310,6 @@
       "priority": 1
     },
     {
-      "title": "Searching for answers to Raleigh’s mysterious struggles",
-      "link": "https://www.mlb.com/mariners/news/cal-raleigh-offensive-slump-discussion-2026",
-      "pubDate": "Wed, 01 Jul 2026 18:00:26 GMT",
-      "isoDate": "2026-07-01T18:00:26.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
-    },
-    {
       "title": "Zach Charbonnet injury update: Seahawks running back ‘progressing well’ from ACL surgery",
       "link": "https://www.fieldgulls.com/seattle-seahawks-injury-report/170157/zach-charbonnet-injury-update-seahawks-running-back-progressing-well-acl-surgery",
       "pubDate": "2026-07-01T17:30:33.000Z",
@@ -328,56 +378,6 @@
       "source": "Field Gulls",
       "team": "seahawks",
       "priority": 1
-    },
-    {
-      "title": "No homers, no problem: Mariners rack up 12 singles in win over Angels",
-      "link": "https://www.mlb.com/mariners/news/mariners-collect-12-singles-to-back-bryan-woo-in-win-over-angels",
-      "pubDate": "Wed, 01 Jul 2026 06:35:00 GMT",
-      "isoDate": "2026-07-01T06:35:00.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
-    },
-    {
-      "title": "Mariners rack up eight runs without a homer, defeat Angels 8-3",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/145570/mariners-rack-up-eight-runs-without-a-homer-defeat-angels-8-3",
-      "pubDate": "2026-07-01T06:12:42.000Z",
-      "isoDate": "2026-07-01T06:12:42.000Z",
-      "excerpt": "SEATTLE, WASHINGTON - JUNE 30: Julio Rodríguez #44 of the Seattle Mariners celebrates an 8-3 win over the Los Angeles Angels at T-Mobile Park on June 30, 2026 in Seattle, Washington. (Photo by Olivia Vanni/Getty Images)...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "44-43: Chart",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/145572/44-43-chart",
-      "pubDate": "2026-07-01T04:36:44.000Z",
-      "isoDate": "2026-07-01T04:36:44.000Z",
-      "excerpt": "Jun 30, 2026; Seattle, Washington, USA; Seattle Mariners shortstop Colt Emerson (4) hits a 2-RBI single against the Los Angeles Angels during the seventh inning at T-Mobile Park. Mandatory Credit: Steven Bisig-Imagn...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "Mariners vs. Angels: Game Preview and Discussion",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-game-information/145563/mariners-vs-angels-game-preview-and-discussion",
-      "pubDate": "2026-07-01T01:18:00.000Z",
-      "isoDate": "2026-07-01T01:18:00.000Z",
-      "excerpt": "SEATTLE, WASHINGTON - JUNE 18: Bryan Woo #22 of the Seattle Mariners prepares to deliver a pitch during the fourth inning against the Baltimore Orioles at T-Mobile Park on June 18, 2026 in Seattle, Washington. (Photo by...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "Latest Mariners injuries and transactions",
-      "link": "https://www.mlb.com/mariners/news/mariners-injuries-and-roster-moves",
-      "pubDate": "Wed, 01 Jul 2026 01:01:00 GMT",
-      "isoDate": "2026-07-01T01:01:00.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
     },
     {
       "title": "The Boeing Classic Tees Off August 14-16 at the Club at Snoqualmie Ridge",
