@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T23:01:52.423Z",
+  "generatedAt": "2026-07-03T02:38:07.805Z",
   "sourceCount": 10,
   "successfulSources": 9,
   "failedSources": [
@@ -9,6 +9,66 @@
     }
   ],
   "items": [
+    {
+      "title": "World Cup: Portugal comes back to beat Croatia 2-1 in controversial finish",
+      "link": "https://sports.mynorthwest.com/seattle-sports-pit/world-cup-portugal-comes-back-to-beat-croatia-2-1-in-controversial-finish",
+      "pubDate": "Fri, 03 Jul 2026 01:32:03 +0000",
+      "isoDate": "2026-07-03T01:32:03.000Z",
+      "excerpt": "Goncalo Ramos scored the decisive goal on a header in stoppage time.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Mariners Game #88 Preview and Discussion, 7/2/26: SEA vs LAA",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-discussion/24480541/mariners-game-88-preview-and-discussion-7-2-26-sea-vs-laa",
+      "pubDate": "2026-07-03T01:00:00.000Z",
+      "isoDate": "2026-07-03T01:00:00.000Z",
+      "excerpt": "SEATTLE, WASHINGTON - JUNE 30: Julio Rodríguez #44 of the Seattle Mariners runs toward home plate to score during the sixth inning against the Los Angeles Angels at T-Mobile Park on June 30, 2026 in Seattle, Washington....",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "World Cup: US win sets record for most-watched soccer telecast in English",
+      "link": "https://sports.mynorthwest.com/seattle-sports-pit/world-cup-us-win-sets-record-for-most-watched-soccer-telecast-in-english",
+      "pubDate": "Fri, 03 Jul 2026 00:49:49 +0000",
+      "isoDate": "2026-07-03T00:49:49.000Z",
+      "excerpt": "The match drew in more than 24.4 million viewers, according to Fox Sports.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "The Draft Top 250 is out! For the 1st time all year, there's a new No. 1",
+      "link": "https://www.mlb.com/mariners/news/top-250-draft-prospects-for-2026",
+      "pubDate": "Fri, 03 Jul 2026 00:29:00 GMT",
+      "isoDate": "2026-07-03T00:29:00.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Mariners set for pre-fireworks piggyback with Gilbert, Hancock pairing up Saturday",
+      "link": "https://www.mlb.com/mariners/news/logan-gilbert-emerson-hancock-piggyback-start-july-4",
+      "pubDate": "Fri, 03 Jul 2026 00:22:08 GMT",
+      "isoDate": "2026-07-03T00:22:08.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Piggyback Returns: Mariners announce weekend pitching plans",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/piggyback-returns-seattle-mariners-announce-weekend-pitching-plans",
+      "pubDate": "Thu, 02 Jul 2026 22:39:36 +0000",
+      "isoDate": "2026-07-02T22:39:36.000Z",
+      "excerpt": "Logan Gilbert and Emerson Hancock will pitch in a piggyback start against Toronto on Saturday.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
     {
       "title": "Dominant Spain blows past Austria 3-0, into World Cup round of 16",
       "link": "https://sports.mynorthwest.com/seattle-sports-pit/dominant-spain-austria-3-0-world-cup",
@@ -60,16 +120,6 @@
       "priority": 3
     },
     {
-      "title": "United States fans seeing red over Balogun’s World Cup red card",
-      "link": "https://sports.mynorthwest.com/seattle-sports-pit/united-states-fans-falorin-balogun-world-cup-red-card",
-      "pubDate": "Thu, 02 Jul 2026 19:56:10 +0000",
-      "isoDate": "2026-07-02T19:56:10.000Z",
-      "excerpt": "United States fans and players are frustrated by a second-half red card that sent off star striker Falorin Balogun and will sideline him for Monday's match in Seattle against Belgium.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
       "title": "Seahawks, Jaxon Smith-Njigba Nominated For 2026 ESPY Awards",
       "link": "https://www.seahawks.com/news/seahawks-jaxon-smith-njigba-nominated-for-2026-espy-awards",
       "pubDate": "Thu, 02 Jul 2026 18:40:52 GMT",
@@ -80,28 +130,8 @@
       "priority": 6
     },
     {
-      "title": "Why the Mariners should have an All-Star surprise in 2B Cole Young",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-should-all-star-surprise-cole-young",
-      "pubDate": "Thu, 02 Jul 2026 18:33:46 +0000",
-      "isoDate": "2026-07-02T18:33:46.000Z",
-      "excerpt": "Not only is Cole Young having a strong season, but there's opportunity at his position to make the AL All-Star team.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "AL West: A’s slugger Brent Rooker to have season-ending surgery",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/al-west-athletics-slugger-brent-rooker-season-ending",
-      "pubDate": "Thu, 02 Jul 2026 16:52:46 +0000",
-      "isoDate": "2026-07-02T16:52:46.000Z",
-      "excerpt": "Athletics designated hitter Brent Rooker will undergo surgery to repair a cartilage tear in his left knee and miss the remainder of the season.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "Team-by-team breakdown of every player headed to Futures Game",
-      "link": "https://www.mlb.com/mariners/news/each-team-s-prospects-headed-to-2026-futures-game",
+      "title": "With voting over, here’s how the All-Star teams are selected",
+      "link": "https://www.mlb.com/mariners/news/all-star-game-roster-rules-faq-c239654292",
       "pubDate": "Thu, 02 Jul 2026 16:00:00 GMT",
       "isoDate": "2026-07-02T16:00:00.000Z",
       "excerpt": "",
@@ -250,16 +280,6 @@
       "priority": 1
     },
     {
-      "title": "All you need to know for Star-Spangled Sunday",
-      "link": "https://www.mlb.com/mariners/news/star-spangled-sunday-2026-broadcast-schedule-times",
-      "pubDate": "Wed, 01 Jul 2026 16:34:34 GMT",
-      "isoDate": "2026-07-01T16:34:34.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
-    },
-    {
       "title": "Kraken Sign Mackie Samoskevich To Three-Year Deal",
       "link": "https://www.prohockeyrumors.com/2026/07/kraken-sign-mackie-samoskevich-to-three-year-deal.html",
       "pubDate": "Wed, 01 Jul 2026 16:19:07 +0000",
@@ -308,16 +328,6 @@
       "source": "Field Gulls",
       "team": "seahawks",
       "priority": 1
-    },
-    {
-      "title": "Woo sets scoreless IP record at T-Mobile Park as home/road splits continue to confound",
-      "link": "https://www.mlb.com/mariners/news/bryan-woo-sets-franchise-record-for-scoreless-innings-at-home",
-      "pubDate": "Wed, 01 Jul 2026 07:23:09 GMT",
-      "isoDate": "2026-07-01T07:23:09.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
     },
     {
       "title": "No homers, no problem: Mariners rack up 12 singles in win over Angels",
@@ -378,16 +388,6 @@
       "source": "Seahawks.com",
       "team": "seahawks",
       "priority": 6
-    },
-    {
-      "title": "Mariners make roster move, recall RHP Cole Wilcox and option LHP Josh Simpson",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-roster/145560/mariners-make-roster-move-select-rhp-cole-wilcox-and-option-lhp-josh-simpson",
-      "pubDate": "2026-06-30T23:59:07.000Z",
-      "isoDate": "2026-06-30T23:59:07.000Z",
-      "excerpt": "SEATTLE, WASHINGTON - MAY 03: Cole Wilcox #43 of the Seattle Mariners pitches against the Kansas City Royals at T-Mobile Park on May 03, 2026 in Seattle, Washington. (Photo by Olivia Vanni/Getty Images) | Getty Images...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
     },
     {
       "title": "Seahawks Reacts Survey: Who will be Seattle&#8217;s sack leader in 2026?",
