@@ -1,9 +1,34 @@
 {
-  "generatedAt": "2026-07-04T17:00:58.985Z",
+  "generatedAt": "2026-07-04T19:05:48.593Z",
   "sourceCount": 10,
-  "successfulSources": 10,
-  "failedSources": [],
+  "successfulSources": 9,
+  "failedSources": [
+    {
+      "source": "Seattle Times Sports",
+      "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
+    }
+  ],
   "items": [
+    {
+      "title": "Report: Seattle Kraken, Shane Wright agree to part ways",
+      "link": "https://sports.mynorthwest.com/nhl/seattle-kraken/report-seattle-kraken-shane-wright-to-part-ways",
+      "pubDate": "Sat, 04 Jul 2026 17:10:39 +0000",
+      "isoDate": "2026-07-04T17:10:39.000Z",
+      "excerpt": "Shane Wright has been at the center of trade rumors throughout the year for the Seattle Kraken.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Kraken Working With Shane Wright To Find A Suitable Trade",
+      "link": "https://www.prohockeyrumors.com/2026/07/kraken-working-with-shane-wright-to-find-a-suitable-trade.html",
+      "pubDate": "Sat, 04 Jul 2026 16:59:35 +0000",
+      "isoDate": "2026-07-04T16:59:35.000Z",
+      "excerpt": "Shane Wright's agent indicated that the Seattle Kraken are working to move the center this summer.",
+      "source": "Pro Hockey Rumors",
+      "team": "kraken",
+      "priority": 2
+    },
     {
       "title": "Each NFC Team’s Largest 2026 Cap Hit",
       "link": "https://www.profootballrumors.com/2026/07/each-nfc-teams-largest-2026-cap-hit",
@@ -22,36 +47,6 @@
       "excerpt": "Jun 17, 2026; Seattle, Washington, USA; Baltimore Orioles relief pitcher Ryan Helsley (21) pitches to the Seattle Mariners during the ninth inning at T-Mobile Park. Mandatory Credit: Steven Bisig-Imagn Images | Steven...",
       "source": "Lookout Landing",
       "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "As the World Cup grows more global, many fans still struggle to get there",
-      "link": "https://www.seattletimes.com/sports/world-cup/as-the-world-cup-grows-more-global-many-fans-still-struggle-to-get-there/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sat, 04 Jul 2026 06:30:02 -0700",
-      "isoDate": "2026-07-04T13:30:02.000Z",
-      "excerpt": "FIFA has spent decades expanding the World Cup, but qualifying for the tournament did not guarantee that supporters, journalists or tournament personnel could enter the host countries",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Behind the scenes: Seattle Times’ World Cup photo team takes the pitch",
-      "link": "https://www.seattletimes.com/seattle-news/world-cup-seattle/behind-the-scenes-seattle-times-world-cup-photo-team-takes-the-pitch/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sat, 04 Jul 2026 06:00:00 -0700",
-      "isoDate": "2026-07-04T13:00:00.000Z",
-      "excerpt": "A look at how some of The Seattle Times' photographers prepare for and shoot the World Cup games taking place in the city.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Reasons to believe USMNT can win Seattle World Cup match vs. Belgium",
-      "link": "https://www.seattletimes.com/sports/world-cup/reasons-to-believe-usmnt-can-win-seattle-world-cup-match-vs-belgium/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sat, 04 Jul 2026 06:00:00 -0700",
-      "isoDate": "2026-07-04T13:00:00.000Z",
-      "excerpt": "Belief is risky. It’s contagious, too. Here are the reasons to believe the USMNT can beat Belgium in Monday's FIFA Men's World Cup match at Seattle Stadium.",
-      "source": "Seattle Times Sports",
-      "team": "general",
       "priority": 1
     },
     {
@@ -95,16 +90,6 @@
       "priority": 6
     },
     {
-      "title": "Mariners fall to Blue Jays to put damper on patriotic pregame vibes",
-      "link": "https://www.seattletimes.com/sports/mariners/mariners-fall-to-blue-jays-to-put-damper-on-patriotic-pregame-vibes/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Fri, 03 Jul 2026 21:59:01 -0700",
-      "isoDate": "2026-07-04T04:59:01.000Z",
-      "excerpt": "Blue Jays starter Dylan Cease quickly silenced the \"USA! USA! USA!\" chants and the Mariners offense never awoke in a 2-0 loss at sold out T-Mobile Park.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "J-Rod placed on seven-day concussion injured list",
       "link": "https://www.mlb.com/mariners/news/julio-rodriguez-seven-day-concussion-injured-list",
       "pubDate": "Sat, 04 Jul 2026 04:58:00 GMT",
@@ -125,36 +110,6 @@
       "priority": 1
     },
     {
-      "title": "4 UW crews in semifinals at Henley Royal Regatta",
-      "link": "https://www.seattletimes.com/sports/4-uw-crews-in-semifinals-at-henley-royal-regatta/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Fri, 03 Jul 2026 21:38:11 -0700",
-      "isoDate": "2026-07-04T04:38:11.000Z",
-      "excerpt": "Four UW crews — two men’s and two women’s — will row in semifinals Saturday at Henley Royal Regatta in the United Kingdom. UW opened its quarterfinal races Friday with a win in the Island Challenge Cup. The Husky...",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Photos: Seattle Mariners take on the Toronto Blue Jays",
-      "link": "https://www.seattletimes.com/sports/mariners/photos-seattle-mariners-take-on-the-toronto-blue-jays/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Fri, 03 Jul 2026 20:53:50 -0700",
-      "isoDate": "2026-07-04T03:53:50.000Z",
-      "excerpt": "",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Jhon Arias scores and Colombia beats Ghana 1-0 to reach the World Cup Round of 16",
-      "link": "https://www.seattletimes.com/sports/world-cup/jhon-arias-scores-and-colombia-beats-ghana-1-0-to-reach-the-world-cup-round-of-16/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Fri, 03 Jul 2026 20:52:22 -0700",
-      "isoDate": "2026-07-04T03:52:22.000Z",
-      "excerpt": "Jhon Arias scored in the opening minutes for Colombia, and Los Cafeteros held on the rest of the way for a 1-0 win over Ghana and a spot in the round of 16 of the World Cup.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "World Cup: Jhon Arias scores, Colombia beats Ghana 1-0",
       "link": "https://sports.mynorthwest.com/seattle-sports-pit/world-cup-jhon-arias-scores-colombia-beats-ghana-1-0",
       "pubDate": "Sat, 04 Jul 2026 03:52:15 +0000",
@@ -163,16 +118,6 @@
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
-    },
-    {
-      "title": "2026 World Cup: U.S. men honored by Mariners in festive pregame ceremony",
-      "link": "https://www.seattletimes.com/sports/mariners/2026-world-cup-u-s-men-honored-by-mariners-in-festive-pregame-ceremony/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Fri, 03 Jul 2026 20:11:41 -0700",
-      "isoDate": "2026-07-04T03:11:41.000Z",
-      "excerpt": "The Mariners-Blue Jays matchup already carried heightened anticipation, and the presence of the men’s team added to the excitement, and the stakes, before July Fourth.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
     },
     {
       "title": "Latest Mariners injuries and transactions",
@@ -270,16 +215,6 @@
       "pubDate": "Fri, 03 Jul 2026 20:34:22 +0000",
       "isoDate": "2026-07-03T20:34:22.000Z",
       "excerpt": "All of the games during “Star-Spangled Sunday” will be available nationally and without blackout restrictions.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "Former WSU Cougars football coach Jim Walden dies at 88",
-      "link": "https://sports.mynorthwest.com/ncaa/wsu/former-wsu-cougars-football-coach-jim-walden-dies-at-88",
-      "pubDate": "Fri, 03 Jul 2026 17:50:46 +0000",
-      "isoDate": "2026-07-03T17:50:46.000Z",
-      "excerpt": "Jim Walden led WSU to the Holiday Bowl in 1981 and was inducted into the school's Hall of Fame in 2009.",
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
@@ -603,6 +538,76 @@
       "source": "Davy Jones' Locker Room",
       "team": "kraken",
       "priority": 1
+    },
+    {
+      "title": "Kraken Select Luken “Hawke” Huff 148th Overall!",
+      "link": "https://www.davyjoneslockerroom.com/kraken-select-luken-hawke-huff-148th-overall/",
+      "pubDate": "Sat, 27 Jun 2026 19:05:15 +0000",
+      "isoDate": "2026-06-27T19:05:15.000Z",
+      "excerpt": "I do not mean this lightly. Hawke Huff might be in the top 10 of names in this draft, and there are some good names in this draft. Huff comes to us from the Cedar Rapids Roughriders in the USHL, where he stands at 6’3,...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
+      "title": "Kraken Select Defender Finn Kearns 131st Overall!",
+      "link": "https://www.davyjoneslockerroom.com/kraken-select-defender-finn-kearns-132nd-overall/",
+      "pubDate": "Sat, 27 Jun 2026 18:47:48 +0000",
+      "isoDate": "2026-06-27T18:47:48.000Z",
+      "excerpt": "Now this is an interesting pick. Seattle traded down for this pick with the New York Rangers, and selected a player from Prep High School, who is now committed to playing at Umass Amherst for the Minutemen this Fall. He...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
+      "title": "No Movement On Seahawks-Devon Witherspoon Extension",
+      "link": "https://www.profootballrumors.com/2026/06/no-movement-on-seahawks-devon-witherspoon-extension",
+      "pubDate": "Sat, 27 Jun 2026 18:05:15 +0000",
+      "isoDate": "2026-06-27T18:05:15.000Z",
+      "excerpt": "The Seahawks wasted no time rewarding reigning Offensive Player of the Year Jaxon Smith-Njigba with the biggest wide receiver contract in NFL history this offseason. Negotiations with fellow 2023 first-rounder Devon...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
+      "priority": 2
+    },
+    {
+      "title": "Kraken Select F Viktor Fedorov 99th Overall!",
+      "link": "https://www.davyjoneslockerroom.com/kraken-select-f-viktor-fedorov-99th-overall/",
+      "pubDate": "Sat, 27 Jun 2026 17:53:17 +0000",
+      "isoDate": "2026-06-27T17:53:17.000Z",
+      "excerpt": "The Kraken used their 99th overall pick to get a little russian flair in their draft class! Fedorov comes from Tomsk, Russia, sitting at 5’10 and 183 pounds, shooting left. He plays in the Torpedo Nizhny Novgorod club;...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
+      "title": "The NFL’s Assistant General Managers",
+      "link": "https://www.profootballrumors.com/2026/06/the-nfls-assistant-general-managers",
+      "pubDate": "Sat, 27 Jun 2026 03:15:34 +0000",
+      "isoDate": "2026-06-27T03:15:34.000Z",
+      "excerpt": "When the Vikings hired Nolan Teasley late last month, the general manager carousel came to a stop once again. Minnesota has since filled out its assistant GM tier, joining Seattle — which lost Teasley from its AGM post...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
+      "priority": 2
+    },
+    {
+      "title": "Jason Robertson Rejects Long-Term Offer From Kraken",
+      "link": "https://www.prohockeyrumors.com/2026/06/jason-robertson-rejects-long-term-offer-from-kraken.html",
+      "pubDate": "Fri, 26 Jun 2026 01:32:48 +0000",
+      "isoDate": "2026-06-26T01:32:48.000Z",
+      "excerpt": "Pending Dallas Stars restricted free agent has reportedly declined a long-term offer from the Seattle Kraken.",
+      "source": "Pro Hockey Rumors",
+      "team": "kraken",
+      "priority": 2
+    },
+    {
+      "title": "Seahawks Travel To Atlanta And Alabama For A Civil Rights Learning Tour",
+      "link": "https://www.seahawks.com/news/seahawks-travel-to-atlanta-and-alabama-for-a-civil-rights-learning-tour",
+      "pubDate": "Thu, 25 Jun 2026 19:57:49 GMT",
+      "isoDate": "2026-06-25T19:57:49.000Z",
+      "excerpt": "Seahawks employees, along with three local educators, took a trip to the South for a learning tour hosted by the Institute for Common Power.",
+      "source": "Seahawks.com",
+      "team": "seahawks",
+      "priority": 6
     }
   ]
 }
