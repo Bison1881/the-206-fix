@@ -1,8 +1,13 @@
 {
-  "generatedAt": "2026-07-04T10:06:03.015Z",
+  "generatedAt": "2026-07-04T13:17:05.320Z",
   "sourceCount": 10,
-  "successfulSources": 10,
-  "failedSources": [],
+  "successfulSources": 9,
+  "failedSources": [
+    {
+      "source": "Seattle Times Sports",
+      "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
+    }
+  ],
   "items": [
     {
       "title": "Cease won’t desist, Jays beat M’s 2-0",
@@ -35,16 +40,6 @@
       "priority": 6
     },
     {
-      "title": "Mariners fall to Blue Jays to put damper on patriotic pregame vibes",
-      "link": "https://www.seattletimes.com/sports/mariners/mariners-fall-to-blue-jays-to-put-damper-on-patriotic-pregame-vibes/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Fri, 03 Jul 2026 21:59:01 -0700",
-      "isoDate": "2026-07-04T04:59:01.000Z",
-      "excerpt": "Blue Jays starter Dylan Cease quickly silenced the \"USA! USA! USA!\" chants and the Mariners offense never awoke in a 2-0 loss at sold out T-Mobile Park.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "J-Rod placed on seven-day concussion injured list",
       "link": "https://www.mlb.com/mariners/news/julio-rodriguez-seven-day-concussion-injured-list",
       "pubDate": "Sat, 04 Jul 2026 04:58:00 GMT",
@@ -65,36 +60,6 @@
       "priority": 1
     },
     {
-      "title": "4 UW crews in semifinals at Henley Royal Regatta",
-      "link": "https://www.seattletimes.com/sports/4-uw-crews-in-semifinals-at-henley-royal-regatta/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Fri, 03 Jul 2026 21:38:11 -0700",
-      "isoDate": "2026-07-04T04:38:11.000Z",
-      "excerpt": "Four UW crews — two men’s and two women’s — will row in semifinals Saturday at Henley Royal Regatta in the United Kingdom. UW opened its quarterfinal races Friday with a win in the Island Challenge Cup. The Husky...",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Photos: Seattle Mariners take on the Toronto Blue Jays",
-      "link": "https://www.seattletimes.com/sports/mariners/photos-seattle-mariners-take-on-the-toronto-blue-jays/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Fri, 03 Jul 2026 20:53:50 -0700",
-      "isoDate": "2026-07-04T03:53:50.000Z",
-      "excerpt": "",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Jhon Arias scores and Colombia beats Ghana 1-0 to reach the World Cup Round of 16",
-      "link": "https://www.seattletimes.com/sports/world-cup/jhon-arias-scores-and-colombia-beats-ghana-1-0-to-reach-the-world-cup-round-of-16/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Fri, 03 Jul 2026 20:52:22 -0700",
-      "isoDate": "2026-07-04T03:52:22.000Z",
-      "excerpt": "Jhon Arias scored in the opening minutes for Colombia, and Los Cafeteros held on the rest of the way for a 1-0 win over Ghana and a spot in the round of 16 of the World Cup.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "World Cup: Jhon Arias scores, Colombia beats Ghana 1-0",
       "link": "https://sports.mynorthwest.com/seattle-sports-pit/world-cup-jhon-arias-scores-colombia-beats-ghana-1-0",
       "pubDate": "Sat, 04 Jul 2026 03:52:15 +0000",
@@ -103,26 +68,6 @@
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
-    },
-    {
-      "title": "2026 World Cup: U.S. men honored by Mariners in festive pregame ceremony",
-      "link": "https://www.seattletimes.com/sports/mariners/2026-world-cup-u-s-men-honored-by-mariners-in-festive-pregame-ceremony/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Fri, 03 Jul 2026 20:11:41 -0700",
-      "isoDate": "2026-07-04T03:11:41.000Z",
-      "excerpt": "The Mariners-Blue Jays matchup already carried heightened anticipation, and the presence of the men’s team added to the excitement, and the stakes, before July Fourth.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Seattle Storm face expansion Fire much healthier than in first matchup",
-      "link": "https://www.seattletimes.com/sports/storm/seattle-storm-face-expansion-fire-much-healthier-than-in-first-matchup/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Fri, 03 Jul 2026 19:34:47 -0700",
-      "isoDate": "2026-07-04T02:34:47.000Z",
-      "excerpt": "The Storm fell to the expansion Fire in their first matchup, but have since had key players return in Ezi Magbegor and Jordan Horston.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
     },
     {
       "title": "Latest Mariners injuries and transactions",
@@ -142,16 +87,6 @@
       "excerpt": "TORONTO, ON - MAY 10: James Paxton #65 of the Seattle Mariners poses with the ball used to record the final out of his no-hitter two days earlier before the start of MLB game action against the Toronto Blue Jays at...",
       "source": "Lookout Landing",
       "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "Messi and Argentina beat Cape Verde 3-2 in extra time thriller, advancing to World Cup Round of 16",
-      "link": "https://www.seattletimes.com/sports/world-cup/messi-and-argentina-beat-cape-verde-3-2-in-extra-time-thriller-advancing-to-world-cup-round-of-16/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Fri, 03 Jul 2026 17:53:50 -0700",
-      "isoDate": "2026-07-04T00:53:50.000Z",
-      "excerpt": "Lionel Messi and Argentina beat Cape Verde 3-2 on Friday and advanced to the World Cup Round of 16 in a thrilling match in which the tiny island nation challenged the reigning champion until the final minutes of extra...",
-      "source": "Seattle Times Sports",
-      "team": "general",
       "priority": 1
     },
     {
@@ -182,16 +117,6 @@
       "excerpt": "Jul 2, 2026; Seattle, Washington, USA; Seattle Mariners center fielder Julio Rodriguez (44) reacts to getting hit in the back of the helmet by a thrown ball during the first inning against the Los Angeles Angels at...",
       "source": "Lookout Landing",
       "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "Seattle Reign return from break but face Courage without goalie Claudia Dickey",
-      "link": "https://www.seattletimes.com/sports/reign/seattle-reign-return-from-break-but-face-courage-without-goalie-claudia-dickey/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Fri, 03 Jul 2026 16:14:26 -0700",
-      "isoDate": "2026-07-03T23:14:26.000Z",
-      "excerpt": "The Reign return from hiatus and travel to face the Courage on Saturday but will be without starting keeper Claudia Dickey. However, midfielder Jess Fishlock is available.",
-      "source": "Seattle Times Sports",
-      "team": "general",
       "priority": 1
     },
     {
@@ -262,16 +187,6 @@
       "excerpt": "TORONTO, ON - JUNE 29: Vladimir Guerrero Jr. #27 of the Toronto Blue Jays reacts after lining out in the third inning of a game against the New York Mets at Rogers Centre on June 29, 2026 in Toronto, Ontario, Canada....",
       "source": "Lookout Landing",
       "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "A look at the Seahawks salary cap as training camp approaches",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/170219/a-look-at-the-seahawks-salary-cap-as-training-camp-approaches",
-      "pubDate": "2026-07-03T17:00:00.000Z",
-      "isoDate": "2026-07-03T17:00:00.000Z",
-      "excerpt": "SEATTLE, WASHINGTON - JANUARY 25: General manager John Schneider of the Seattle Seahawks celebrates after Seattle defeated the Los Angeles Rams 31-27 in the NFC Championship game at Lumen Field on January 25, 2026 in...",
-      "source": "Field Gulls",
-      "team": "seahawks",
       "priority": 1
     },
     {
@@ -455,6 +370,16 @@
       "priority": 1
     },
     {
+      "title": "Zach Charbonnet injury update: Seahawks running back ‘progressing well’ from ACL surgery",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-injury-report/170157/zach-charbonnet-injury-update-seahawks-running-back-progressing-well-acl-surgery",
+      "pubDate": "2026-07-01T17:30:33.000Z",
+      "isoDate": "2026-07-01T17:30:33.000Z",
+      "excerpt": "Jan 3, 2026; Santa Clara, California, USA;Seattle Seahawks running back Zach Charbonnet (26) rushes for a touchdown against the San Francisco 49ers during the first half at Levi's Stadium. Mandatory Credit: Sergio...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
+    {
       "title": "DJLR Free Agency Frenzy LIVETHREAD",
       "link": "https://www.davyjoneslockerroom.com/djlr-free-agency-primer/",
       "pubDate": "Wed, 01 Jul 2026 16:49:53 +0000",
@@ -603,6 +528,86 @@
       "source": "Davy Jones' Locker Room",
       "team": "kraken",
       "priority": 1
+    },
+    {
+      "title": "Kraken Select Defender Finn Kearns 131st Overall!",
+      "link": "https://www.davyjoneslockerroom.com/kraken-select-defender-finn-kearns-132nd-overall/",
+      "pubDate": "Sat, 27 Jun 2026 18:47:48 +0000",
+      "isoDate": "2026-06-27T18:47:48.000Z",
+      "excerpt": "Now this is an interesting pick. Seattle traded down for this pick with the New York Rangers, and selected a player from Prep High School, who is now committed to playing at Umass Amherst for the Minutemen this Fall. He...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
+      "title": "No Movement On Seahawks-Devon Witherspoon Extension",
+      "link": "https://www.profootballrumors.com/2026/06/no-movement-on-seahawks-devon-witherspoon-extension",
+      "pubDate": "Sat, 27 Jun 2026 18:05:15 +0000",
+      "isoDate": "2026-06-27T18:05:15.000Z",
+      "excerpt": "The Seahawks wasted no time rewarding reigning Offensive Player of the Year Jaxon Smith-Njigba with the biggest wide receiver contract in NFL history this offseason. Negotiations with fellow 2023 first-rounder Devon...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
+      "priority": 2
+    },
+    {
+      "title": "Kraken Select F Viktor Fedorov 99th Overall!",
+      "link": "https://www.davyjoneslockerroom.com/kraken-select-f-viktor-fedorov-99th-overall/",
+      "pubDate": "Sat, 27 Jun 2026 17:53:17 +0000",
+      "isoDate": "2026-06-27T17:53:17.000Z",
+      "excerpt": "The Kraken used their 99th overall pick to get a little russian flair in their draft class! Fedorov comes from Tomsk, Russia, sitting at 5’10 and 183 pounds, shooting left. He plays in the Torpedo Nizhny Novgorod club;...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
+      "title": "The NFL’s Assistant General Managers",
+      "link": "https://www.profootballrumors.com/2026/06/the-nfls-assistant-general-managers",
+      "pubDate": "Sat, 27 Jun 2026 03:15:34 +0000",
+      "isoDate": "2026-06-27T03:15:34.000Z",
+      "excerpt": "When the Vikings hired Nolan Teasley late last month, the general manager carousel came to a stop once again. Minnesota has since filled out its assistant GM tier, joining Seattle — which lost Teasley from its AGM post...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
+      "priority": 2
+    },
+    {
+      "title": "Jason Robertson Rejects Long-Term Offer From Kraken",
+      "link": "https://www.prohockeyrumors.com/2026/06/jason-robertson-rejects-long-term-offer-from-kraken.html",
+      "pubDate": "Fri, 26 Jun 2026 01:32:48 +0000",
+      "isoDate": "2026-06-26T01:32:48.000Z",
+      "excerpt": "Pending Dallas Stars restricted free agent has reportedly declined a long-term offer from the Seattle Kraken.",
+      "source": "Pro Hockey Rumors",
+      "team": "kraken",
+      "priority": 2
+    },
+    {
+      "title": "Seahawks Travel To Atlanta And Alabama For A Civil Rights Learning Tour",
+      "link": "https://www.seahawks.com/news/seahawks-travel-to-atlanta-and-alabama-for-a-civil-rights-learning-tour",
+      "pubDate": "Thu, 25 Jun 2026 19:57:49 GMT",
+      "isoDate": "2026-06-25T19:57:49.000Z",
+      "excerpt": "Seahawks employees, along with three local educators, took a trip to the South for a learning tour hosted by the Institute for Common Power.",
+      "source": "Seahawks.com",
+      "team": "seahawks",
+      "priority": 6
+    },
+    {
+      "title": "Mariners Outright Miles Mastrobuoni",
+      "link": "https://www.mlbtraderumors.com/2026/06/mariners-outright-miles-mastrobuoni.html",
+      "pubDate": "Thu, 25 Jun 2026 19:34:38 +0000",
+      "isoDate": "2026-06-25T19:34:38.000Z",
+      "excerpt": "The Mariners announced that infielder/outfielder Miles Mastrobuoni cleared waivers and has been outrighted to Triple-A Tacoma. He had been designated for assignment by Seattle last week. He does not have three years of...",
+      "source": "MLB Trade Rumors",
+      "team": "mariners",
+      "priority": 2
+    },
+    {
+      "title": "Seahawks Legends Attend Legends Spring Event",
+      "link": "https://www.seahawks.com/news/seahawks-legends-attend-legends-spring-event",
+      "pubDate": "Tue, 23 Jun 2026 17:00:30 GMT",
+      "isoDate": "2026-06-23T17:00:30.000Z",
+      "excerpt": "Seahawks Legends were back in town for the Legends Spring Event, presented by Columbia Bank, for a cruise along Lake Washington.",
+      "source": "Seahawks.com",
+      "team": "seahawks",
+      "priority": 6
     }
   ]
 }
