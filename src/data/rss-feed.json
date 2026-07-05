@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-05T19:12:29.000Z",
+  "generatedAt": "2026-07-05T20:55:36.051Z",
   "sourceCount": 10,
   "successfulSources": 9,
   "failedSources": [
@@ -12,8 +12,18 @@
     {
       "title": "Latest Mariners injuries and transactions",
       "link": "https://www.mlb.com/mariners/news/mariners-injuries-and-roster-moves",
-      "pubDate": "Sun, 05 Jul 2026 18:53:00 GMT",
-      "isoDate": "2026-07-05T18:53:00.000Z",
+      "pubDate": "Sun, 05 Jul 2026 20:38:00 GMT",
+      "isoDate": "2026-07-05T20:38:00.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "J-Rod 'progressing each day' with on-field activity; Canzone gets extra rest",
+      "link": "https://www.mlb.com/mariners/news/julio-rodriguez-plays-catch-ahead-of-finale-against-blue-jays",
+      "pubDate": "Sun, 05 Jul 2026 20:34:58 GMT",
+      "isoDate": "2026-07-05T20:34:58.000Z",
       "excerpt": "",
       "source": "Mariners.com",
       "team": "mariners",
@@ -38,6 +48,16 @@
       "source": "Pro Football Rumors",
       "team": "seahawks",
       "priority": 2
+    },
+    {
+      "title": "Mariners &#8211; Blue Jays Game Preview and Discussion",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-game-information/145752/mariners-blue-jays-game-preview-and-discussion",
+      "pubDate": "2026-07-05T17:10:00.000Z",
+      "isoDate": "2026-07-05T17:10:00.000Z",
+      "excerpt": "May 2, 2026; Seattle, Washington, USA; Seattle Mariners starting pitcher Emerson Hancock (26) stands on the mound during the third inning against the Kansas City Royals at T-Mobile Park. Mandatory Credit: Joe...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
     },
     {
       "title": "Sports world spotlight shows Seattle is ready for NBA expansion",
@@ -288,26 +308,6 @@
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
-    },
-    {
-      "title": "J-Rod placed on seven-day concussion injured list",
-      "link": "https://www.mlb.com/mariners/news/julio-rodriguez-seven-day-concussion-injured-list",
-      "pubDate": "Sat, 04 Jul 2026 04:58:00 GMT",
-      "isoDate": "2026-07-04T04:58:00.000Z",
-      "excerpt": "Robles (wrist) returns to lineup; Mastrobuoni selected from Triple-A",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
-    },
-    {
-      "title": "45-44: Chart",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/145696/45-44-chart",
-      "pubDate": "2026-07-04T04:39:50.000Z",
-      "isoDate": "2026-07-04T04:39:50.000Z",
-      "excerpt": "SEATTLE, WASHINGTON - JULY 03: Randy Arozarena #56 of the Seattle Mariners reacts after striking out during the sixth inning against the Toronto Blue Jays at T-Mobile Park on July 03, 2026 in Seattle, Washington. (Photo...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
     },
     {
       "title": "Seahawks RB George Holani Ahead Of Jadarian Price?",
