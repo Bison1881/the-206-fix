@@ -1,9 +1,49 @@
 {
-  "generatedAt": "2026-07-05T02:45:25.945Z",
+  "generatedAt": "2026-07-05T07:22:07.405Z",
   "sourceCount": 10,
   "successfulSources": 10,
   "failedSources": [],
   "items": [
+    {
+      "title": "UW men’s rowing reaches Temple Challenge Cup final at Henley Royal Regatta",
+      "link": "https://www.seattletimes.com/sports/uw-mens-rowing-reaches-temple-challenge-cup-final-at-henley-royal-regatta/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Sat, 04 Jul 2026 22:09:30 -0700",
+      "isoDate": "2026-07-05T05:09:30.000Z",
+      "excerpt": "Washington will take on the Cambridge University “A” crew in The Temple Challenge Cup final on Sunday.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Carla Leite scores 20, Portland Fire beat Seattle Storm 77-72",
+      "link": "https://sports.mynorthwest.com/wnba/seattle-storm/carla-leite-20-portland-fire-beat-seattle-storm",
+      "pubDate": "Sun, 05 Jul 2026 03:40:35 +0000",
+      "isoDate": "2026-07-05T03:40:35.000Z",
+      "excerpt": "Dominique Malonga had 22 points to pace Seattle while Natisha Hiedeman scored 15.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Each NFC Team’s Largest 2026 Cap Hit",
+      "link": "https://www.profootballrumors.com/2026/07/each-nfc-teams-largest-2026-cap-hit",
+      "pubDate": "Sun, 05 Jul 2026 03:32:15 +0000",
+      "isoDate": "2026-07-05T03:32:15.000Z",
+      "excerpt": "With training camp a few weeks away and the NFL in the midst of a rare quiet period, this is a good time to examine each team’s largest 2026 cap hit. This exercise will take a look at players who are still on their...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
+      "priority": 2
+    },
+    {
+      "title": "Dominique Malonga scores 22, but Seattle Storm lose to Portland Fire",
+      "link": "https://www.seattletimes.com/sports/storm/dominique-malonga-scores-22-but-seattle-storm-lose-to-portland-fire/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Sat, 04 Jul 2026 20:17:59 -0700",
+      "isoDate": "2026-07-05T03:17:59.000Z",
+      "excerpt": "Dominique Malonga had a game-high 22 points, but the Storm lost to the Portland Fire 77-72 and fell to 0-12 against Western Conference foes.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
     {
       "title": "Seattle Reign return from hiatus, fall to Courage in sizzling heat",
       "link": "https://www.seattletimes.com/sports/reign/seattle-reign-fall-to-courage-in-sizzling-heat-in-return-from-hiatus/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
@@ -165,26 +205,6 @@
       "priority": 1
     },
     {
-      "title": "Mariners scrap piggyback plan for Logan Gilbert, Emerson Hancock",
-      "link": "https://www.seattletimes.com/sports/mariners/mariners-scrap-piggyback-plan-for-logan-gilbert-emerson-hancock/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sat, 04 Jul 2026 14:33:45 -0700",
-      "isoDate": "2026-07-04T21:33:45.000Z",
-      "excerpt": "For at least the next few weeks, Mariners manager Dan Wilson won't have to say the word \"piggyback\" after the team scrapped the plan for Saturday's game.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "For Cape Verde, there’s victory in defeat",
-      "link": "https://www.seattletimes.com/sports/for-cape-verde-theres-victory-in-defeat/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sat, 04 Jul 2026 13:50:56 -0700",
-      "isoDate": "2026-07-04T20:50:56.000Z",
-      "excerpt": "An archipelago off the coast of West Africa with a population of about 500,000, it was making its first World Cup appearance with a team cobbled together from a diaspora of players.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "Latest Mariners injuries and transactions",
       "link": "https://www.mlb.com/mariners/news/mariners-injuries-and-roster-moves",
       "pubDate": "Sat, 04 Jul 2026 20:18:00 GMT",
@@ -245,16 +265,6 @@
       "priority": 2
     },
     {
-      "title": "Each NFC Team’s Largest 2026 Cap Hit",
-      "link": "https://www.profootballrumors.com/2026/07/each-nfc-teams-largest-2026-cap-hit",
-      "pubDate": "Sat, 04 Jul 2026 14:32:15 +0000",
-      "isoDate": "2026-07-04T14:32:15.000Z",
-      "excerpt": "With training camp a few weeks away and the NFL in the midst of a rare quiet period, this is a good time to examine each team’s largest 2026 cap hit. This exercise will take a look at players who are still on their...",
-      "source": "Pro Football Rumors",
-      "team": "seahawks",
-      "priority": 2
-    },
-    {
       "title": "Mariners News: Carlos Rodón, Ryan Helsley, and Kris Bubic",
       "link": "https://www.lookoutlanding.com/seattle-mariners-news/145680/mariners-news-carlos-rodon-ryan-helsley-and-kris-bubic",
       "pubDate": "2026-07-04T14:00:00.000Z",
@@ -283,16 +293,6 @@
       "source": "Lookout Landing",
       "team": "mariners",
       "priority": 1
-    },
-    {
-      "title": "Cease shuts down Mariners, leads Blue Jays to 2-0 win",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/cease-shuts-down-mariners-leads-blue-jays-to-2-0-win",
-      "pubDate": "Sat, 04 Jul 2026 05:15:04 +0000",
-      "isoDate": "2026-07-04T05:15:04.000Z",
-      "excerpt": "Seattle had just four hits in its first game against Toronto since the 2025 ALCS.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
     },
     {
       "title": "He's a natural! USMNT coach Pochettino throws out 1st pitch at Mariners game",
