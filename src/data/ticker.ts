@@ -27,9 +27,9 @@ export interface ManualTickerItem {
 
 export const MANUAL_TICKER_ITEMS: ManualTickerItem[] = [
   // ---- SCORES (from your gameplay) -----------------------------------------
-  { kind: 'score', text: 'TECMO S1 W1 \u00B7 SEA 35  NE 13 \u00B7 FINAL', href: '/retro/tecmo-week-01' },
+  { kind: 'score', text: 'TECMO S1 W1 \u00B7 SEA 35  AZ 21 \u00B7 FINAL', href: '/retro/tecmo-week-02' },
 
   // ---- NOTES (your voice — jokes, status, asides) --------------------------
-  { kind: 'note', text: 'Patriots fan goes viral with wrong Super Bowl tattoo.' },
-  { kind: 'note', text: 'Still didn\'t feel like talking today . . . will it ever change?' },
+  { kind: 'note', text: 'Cardinal Sin? Better ask Ernest...' },
+  { kind: 'note', text: 'Crowd questions weird disappearing squares while watching the game.' },
 ];

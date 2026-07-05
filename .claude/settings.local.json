@@ -9,7 +9,8 @@
       "Bash(Select-String -Pattern \"rss\\\\]\")",
       "Bash(git pull *)",
       "Bash(git stash *)",
-      "Bash(git push *)"
+      "Bash(git push *)",
+      "PowerShell(git *)"
     ]
   }
 }
