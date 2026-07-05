@@ -6,7 +6,7 @@ episodeNumber: 1
 game: "Tecmo Super Bowl 27 - Training Camp Edition"
 series: "Tecmo Super Bowl 2026-27 Season"
 youtubeId: "MGRyb41Y__M"
-featured: true
+featured: false
 readMinutes: 2
 draft: false
 ---
