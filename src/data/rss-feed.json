@@ -1,15 +1,125 @@
 {
-  "generatedAt": "2026-07-04T22:55:35.167Z",
+  "generatedAt": "2026-07-05T02:45:25.945Z",
   "sourceCount": 10,
   "successfulSources": 10,
   "failedSources": [],
   "items": [
     {
+      "title": "Seattle Reign return from hiatus, fall to Courage in sizzling heat",
+      "link": "https://www.seattletimes.com/sports/reign/seattle-reign-fall-to-courage-in-sizzling-heat-in-return-from-hiatus/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Sat, 04 Jul 2026 18:54:02 -0700",
+      "isoDate": "2026-07-05T01:54:02.000Z",
+      "excerpt": "In sizzling 95-degree heat, the Reign fade in the second half and fall to the Courage 3-1 on the road in their return from a monthlong hiatus.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Randy earns All-Star nod for 2nd consecutive season with Mariners",
+      "link": "https://www.mlb.com/mariners/news/randy-arozarena-named-2026-american-league-all-star",
+      "pubDate": "Sun, 05 Jul 2026 00:26:06 GMT",
+      "isoDate": "2026-07-05T00:26:06.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "MLB All-Star Game: Mariners’ Randy Arozarena selected to AL team for 2nd straight year",
+      "link": "https://www.seattletimes.com/sports/mariners/mariners-randy-arozarena-selected-to-al-all-star-team-for-2nd-straight-season/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Sat, 04 Jul 2026 17:22:15 -0700",
+      "isoDate": "2026-07-05T00:22:15.000Z",
+      "excerpt": "The Mariners landed only one player on the AL All-Star team when MLB revealed rosters Saturday.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
       "title": "Arozarena, Mariners celebrate America's birthday in grand fashion",
       "link": "https://www.mlb.com/mariners/news/randy-arozarena-hits-grand-slam-as-mariners-romp",
-      "pubDate": "Sat, 04 Jul 2026 22:50:08 GMT",
-      "isoDate": "2026-07-04T22:50:08.000Z",
+      "pubDate": "Sun, 05 Jul 2026 00:21:00 GMT",
+      "isoDate": "2026-07-05T00:21:00.000Z",
       "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Randy Arozarena Named to 2026 American League All-Star Team",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-news/24480542/randy-arozarena-named-to-2026-american-league-all-star-team",
+      "pubDate": "2026-07-05T00:10:29.000Z",
+      "isoDate": "2026-07-05T00:10:29.000Z",
+      "excerpt": "ATLANTA, GA - JULY 14: Randy Arozarena #56 of the Seattle Mariners poses for a photo during the 2025 MLB All-Star player photo shoot at Truist Park on Monday, July 14, 2025 in Atlanta, Georgia. (Photo by Rob...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Mariners’ Randy Arozarena selected to AL All-Star team",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-randy-arozarena-all-star-2026",
+      "pubDate": "Sat, 04 Jul 2026 23:59:40 +0000",
+      "isoDate": "2026-07-04T23:59:40.000Z",
+      "excerpt": "Randy Arozarena is an American League All-Star for the third time, chosen Saturday as the lone Mariners representative thus far.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Mariners hold 4th of July BBQ, smoke Blue Jays 11-0",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/145724/mariners-hold-4th-of-july-bbq-smoke-blue-jays-11-0",
+      "pubDate": "2026-07-04T23:58:15.000Z",
+      "isoDate": "2026-07-04T23:58:15.000Z",
+      "excerpt": "Jul 4, 2026; Seattle, Washington, USA; Seattle Mariners starting pitcher Logan Gilbert (36) acknowledges the crowd as he walks off the field during the eighth inning against the Toronto Blue Jays at T-Mobile Park....",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Mbappé leads France over Paraguay 1-0, into World Cup quarterfinals",
+      "link": "https://sports.mynorthwest.com/seattle-sports-pit/mbappe-france-over-paraguay-1-0-world-cup",
+      "pubDate": "Sat, 04 Jul 2026 23:31:14 +0000",
+      "isoDate": "2026-07-04T23:31:14.000Z",
+      "excerpt": "Kylian Mbappé scored his 19th career World Cup goal, and France survived stifling heat to beat Paraguay 1-0 on Saturday, sending Les Bleus into the quarterfinals for the fourth straight time.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Gilbert gem helps M’s pound Blue Jays 11-0, return to AL West lead",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-logan-gilbert-pound-blue-jays-11-0",
+      "pubDate": "Sat, 04 Jul 2026 23:17:40 +0000",
+      "isoDate": "2026-07-04T23:17:40.000Z",
+      "excerpt": "Logan Gilbert threw 7 1/3 innings of one-hit, shutout ball, and Randy Arozarena's grand slam was one of three Mariners homers.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "World Cup: US team represents diversity of America on 4th of July",
+      "link": "https://sports.mynorthwest.com/seattle-sports-pit/us-players-coach-diversity-america-4th-of-july",
+      "pubDate": "Sat, 04 Jul 2026 23:12:53 +0000",
+      "isoDate": "2026-07-04T23:12:53.000Z",
+      "excerpt": "Six players on the roster were born abroad, while others like forward Folarin Balogun were raised in Europe.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Kylian Mbappé scores again and France reaches World Cup quarterfinals with 1-0 win over Paraguay",
+      "link": "https://www.seattletimes.com/sports/world-cup/kylian-mbappe-scores-again-and-france-reaches-world-cup-quarterfinals-with-1-0-win-over-paraguay/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Sat, 04 Jul 2026 16:11:50 -0700",
+      "isoDate": "2026-07-04T23:11:50.000Z",
+      "excerpt": "Kylian Mbappé scored his 19th career World Cup goal, and France survived stifling heat to beat Paraguay 1-0, sending Les Bleus into the quarterfinals for the fourth straight time.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Mariners put Gilbert-Hancock piggyback on ice, for now",
+      "link": "https://www.mlb.com/mariners/news/logan-gilbert-emerson-hancock-won-t-piggyback",
+      "pubDate": "Sat, 04 Jul 2026 23:06:00 GMT",
+      "isoDate": "2026-07-04T23:06:00.000Z",
+      "excerpt": "Donovan set to begin rehab assignment; J-Rod still feeling headache",
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
@@ -75,31 +185,11 @@
       "priority": 1
     },
     {
-      "title": "Jonny Farmelo’s five-hit night continues his recent surge | Mariners extra",
-      "link": "https://www.seattletimes.com/sports/mariners/jonny-farmelos-five-hit-night-continues-his-recent-surge-mariners-extra/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sat, 04 Jul 2026 13:32:26 -0700",
-      "isoDate": "2026-07-04T20:32:26.000Z",
-      "excerpt": "Mariners prospect Jonny Farmelo is enjoying a breakthrough season in Everett and collected five hits during Friday night's game at Tri-City.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "Latest Mariners injuries and transactions",
       "link": "https://www.mlb.com/mariners/news/mariners-injuries-and-roster-moves",
       "pubDate": "Sat, 04 Jul 2026 20:18:00 GMT",
       "isoDate": "2026-07-04T20:18:00.000Z",
       "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
-    },
-    {
-      "title": "Mariners put Gilbert-Hancock piggyback on ice, for now",
-      "link": "https://www.mlb.com/mariners/news/logan-gilbert-emerson-hancock-won-t-piggyback",
-      "pubDate": "Sat, 04 Jul 2026 19:57:39 GMT",
-      "isoDate": "2026-07-04T19:57:39.000Z",
-      "excerpt": "Donovan set to begin rehab assignment; J-Rod still feeling headache",
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
@@ -133,26 +223,6 @@
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
-    },
-    {
-      "title": "Morocco beats World Cup co-host Canada 3-0 and advances to the quarterfinals",
-      "link": "https://www.seattletimes.com/sports/world-cup/morocco-beats-world-cup-co-host-canada-3-0-and-advances-to-the-quarterfinals/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sat, 04 Jul 2026 12:14:31 -0700",
-      "isoDate": "2026-07-04T19:14:31.000Z",
-      "excerpt": "Azzedine Ounahi scored twice to lead Morocco to a 3-0 win over Canada in the World Cup round of 16 Saturday to make the country the first African nation to reach the quarterfinals more than once.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Joey Chestnut wins Nathan’s Hot-Dog Eating Contest for 18th time",
-      "link": "https://www.seattletimes.com/nation-world/joey-chestnut-wins-nathans-hot-dog-eating-contest-for-18th-time/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sat, 04 Jul 2026 10:48:53 -0700",
-      "isoDate": "2026-07-04T17:48:53.000Z",
-      "excerpt": "Joey Chestnut downed 66 hot dogs with buns Saturday to capture the Nathan’s Hot Dog Eating Contest for the 18th time in his Major League Eating career.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
     },
     {
       "title": "Report: Seattle Kraken, Shane Wright agree to part ways",
@@ -192,6 +262,16 @@
       "excerpt": "Jun 17, 2026; Seattle, Washington, USA; Baltimore Orioles relief pitcher Ryan Helsley (21) pitches to the Seattle Mariners during the ninth inning at T-Mobile Park. Mandatory Credit: Steven Bisig-Imagn Images | Steven...",
       "source": "Lookout Landing",
       "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Seahawks News 7/4: Happy 4th of July from Field Gulls!",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-news/170267/seahawks-news-7-4-happy-4th-of-july-from-field-gulls",
+      "pubDate": "2026-07-04T13:00:00.000Z",
+      "isoDate": "2026-07-04T13:00:00.000Z",
+      "excerpt": "[UNVERIFIED CONTENT] 4th of July Seattle 2012, Fourth of July Seattle, Fourth of July Space Needle, 4th of July Space Needle, Lake Union Fireworks, Washington State, Pacific Northwest, Firework Shows, 4th of July,...",
+      "source": "Field Gulls",
+      "team": "seahawks",
       "priority": 1
     },
     {
@@ -245,16 +325,6 @@
       "priority": 1
     },
     {
-      "title": "World Cup: Jhon Arias scores, Colombia beats Ghana 1-0",
-      "link": "https://sports.mynorthwest.com/seattle-sports-pit/world-cup-jhon-arias-scores-colombia-beats-ghana-1-0",
-      "pubDate": "Sat, 04 Jul 2026 03:52:15 +0000",
-      "isoDate": "2026-07-04T03:52:15.000Z",
-      "excerpt": "Jhon Arias netted his goal in the opening minutes to help Colombia reach the Round of 16.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
       "title": "Mariners Game #89 Preview and Discussion: 7/3, TOR at SEA",
       "link": "https://www.lookoutlanding.com/seattle-mariners-discussion/145690/mariners-game-89-preview-and-discussion-7-3-tor-at-sea",
       "pubDate": "2026-07-04T00:56:34.000Z",
@@ -263,16 +333,6 @@
       "source": "Lookout Landing",
       "team": "mariners",
       "priority": 1
-    },
-    {
-      "title": "World Cup: Defending champ Argentina survives Cape Verde 3-2 in extra time",
-      "link": "https://sports.mynorthwest.com/seattle-sports-pit/world-cup-defending-champ-argentina-survives-cape-verde-3-2-in-extra-time",
-      "pubDate": "Sat, 04 Jul 2026 00:53:30 +0000",
-      "isoDate": "2026-07-04T00:53:30.000Z",
-      "excerpt": "Argentina advanced to face Egypt, which beat Australia in a penalty shootout.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
     },
     {
       "title": "Seahawks RB George Holani Ahead Of Jadarian Price?",
@@ -285,16 +345,6 @@
       "priority": 2
     },
     {
-      "title": "Julio Rodríguez to 7-day concussion IL; Miles Mastrobuoni selected from Tacoma",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-injuries/145686/julio-rodriguez-to-7-day-concussion-il-miles-mastrobuoni-selected-from-tacoma",
-      "pubDate": "2026-07-04T00:27:17.000Z",
-      "isoDate": "2026-07-04T00:27:17.000Z",
-      "excerpt": "Jul 2, 2026; Seattle, Washington, USA; Seattle Mariners center fielder Julio Rodriguez (44) reacts to getting hit in the back of the helmet by a thrown ball during the first inning against the Los Angeles Angels at...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
       "title": "Mariners Place Julio Rodríguez On Concussion IL",
       "link": "https://www.mlbtraderumors.com/2026/07/mariners-place-julio-rodriguez-on-concussion-il.html",
       "pubDate": "Fri, 03 Jul 2026 22:55:31 +0000",
@@ -305,33 +355,13 @@
       "priority": 2
     },
     {
-      "title": "Mariners place Julio Rodríguez on concussion IL",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-place-julio-rodriguez-on-il-with-concussion",
-      "pubDate": "Fri, 03 Jul 2026 22:27:06 +0000",
-      "isoDate": "2026-07-03T22:27:06.000Z",
-      "excerpt": "The center fielder will miss at least the next week after being struck in the helmet by a throw Thursday night.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "Mariners Trade Deadline: What’s the market for right-handed bats?",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-trade-deadline-whats-the-market-for-right-handed-bats",
-      "pubDate": "Fri, 03 Jul 2026 21:38:57 +0000",
-      "isoDate": "2026-07-03T21:38:57.000Z",
-      "excerpt": "USA Today's Bob Nightengale on who the M's could target to address a big need.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "Series Preview: Mariners (45-43) vs. Blue Jays (41-46)",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-game-information/145661/series-preview-seattle-mariners-vs-toronto-blue-jays-july-2026",
-      "pubDate": "2026-07-03T17:07:55.000Z",
-      "isoDate": "2026-07-03T17:07:55.000Z",
-      "excerpt": "TORONTO, ON - JUNE 29: Vladimir Guerrero Jr. #27 of the Toronto Blue Jays reacts after lining out in the third inning of a game against the New York Mets at Rogers Centre on June 29, 2026 in Toronto, Ontario, Canada....",
-      "source": "Lookout Landing",
-      "team": "mariners",
+      "title": "A look at the Seahawks salary cap as training camp approaches",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/170219/a-look-at-the-seahawks-salary-cap-as-training-camp-approaches",
+      "pubDate": "2026-07-03T17:00:00.000Z",
+      "isoDate": "2026-07-03T17:00:00.000Z",
+      "excerpt": "SEATTLE, WASHINGTON - JANUARY 25: General manager John Schneider of the Seattle Seahawks celebrates after Seattle defeated the Los Angeles Rams 31-27 in the NFC Championship game at Lumen Field on January 25, 2026 in...",
+      "source": "Field Gulls",
+      "team": "seahawks",
       "priority": 1
     },
     {
@@ -353,16 +383,6 @@
       "source": "Field Gulls",
       "team": "seahawks",
       "priority": 1
-    },
-    {
-      "title": "Big Tex, All-Star? Miller shines once again with 7 scoreless innings, 8 K's",
-      "link": "https://www.mlb.com/mariners/news/bryce-miller-bolsters-all-star-resume-with-8-strikeouts-in-win",
-      "pubDate": "Fri, 03 Jul 2026 06:04:00 GMT",
-      "isoDate": "2026-07-03T06:04:00.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
     },
     {
       "title": "The Draft is just over a week away! Find out if the landscape has changed with our latest mock",
@@ -453,26 +473,6 @@
       "source": "Pro Hockey Rumors",
       "team": "kraken",
       "priority": 2
-    },
-    {
-      "title": "Seahawks 2026 training camp: Field Gulls’ on-site coverage plans!",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-preseason/170164/seahawks-2026-training-camp-field-gulls-coverage-plans",
-      "pubDate": "2026-07-01T19:25:28.000Z",
-      "isoDate": "2026-07-01T19:25:28.000Z",
-      "excerpt": "We’ve reached July, which means Seattle Seahawks training camp is on the horizon! Seattle’s first public practice will be July 25 and wrap up on Aug. 13, just before the preseason opener against the Dallas Cowboys. As...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "Zach Charbonnet injury update: Seahawks running back ‘progressing well’ from ACL surgery",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-injury-report/170157/zach-charbonnet-injury-update-seahawks-running-back-progressing-well-acl-surgery",
-      "pubDate": "2026-07-01T17:30:33.000Z",
-      "isoDate": "2026-07-01T17:30:33.000Z",
-      "excerpt": "Jan 3, 2026; Santa Clara, California, USA;Seattle Seahawks running back Zach Charbonnet (26) rushes for a touchdown against the San Francisco 49ers during the first half at Levi's Stadium. Mandatory Credit: Sergio...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
     },
     {
       "title": "DJLR Free Agency Frenzy LIVETHREAD",
