@@ -1,18 +1,23 @@
 {
-  "generatedAt": "2026-07-05T10:09:07.308Z",
+  "generatedAt": "2026-07-05T13:23:38.287Z",
   "sourceCount": 10,
-  "successfulSources": 10,
-  "failedSources": [],
+  "successfulSources": 9,
+  "failedSources": [
+    {
+      "source": "Seattle Times Sports",
+      "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
+    }
+  ],
   "items": [
     {
-      "title": "UW men’s rowing reaches Temple Challenge Cup final at Henley Royal Regatta",
-      "link": "https://www.seattletimes.com/sports/uw-mens-rowing-reaches-temple-challenge-cup-final-at-henley-royal-regatta/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sat, 04 Jul 2026 22:09:30 -0700",
-      "isoDate": "2026-07-05T05:09:30.000Z",
-      "excerpt": "Washington will take on the Cambridge University “A” crew in The Temple Challenge Cup final on Sunday.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
+      "title": "All you need to know for Star-Spangled Sunday on NBC/Peacock",
+      "link": "https://www.mlb.com/mariners/news/star-spangled-sunday-2026-broadcast-schedule-times",
+      "pubDate": "Sun, 05 Jul 2026 07:13:00 GMT",
+      "isoDate": "2026-07-05T07:13:00.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
     },
     {
       "title": "Carla Leite scores 20, Portland Fire beat Seattle Storm 77-72",
@@ -35,26 +40,6 @@
       "priority": 2
     },
     {
-      "title": "Dominique Malonga scores 22, but Seattle Storm lose to Portland Fire",
-      "link": "https://www.seattletimes.com/sports/storm/dominique-malonga-scores-22-but-seattle-storm-lose-to-portland-fire/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sat, 04 Jul 2026 20:17:59 -0700",
-      "isoDate": "2026-07-05T03:17:59.000Z",
-      "excerpt": "Dominique Malonga had a game-high 22 points, but the Storm lost to the Portland Fire 77-72 and fell to 0-12 against Western Conference foes.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Seattle Reign return from hiatus, fall to Courage in sizzling heat",
-      "link": "https://www.seattletimes.com/sports/reign/seattle-reign-fall-to-courage-in-sizzling-heat-in-return-from-hiatus/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sat, 04 Jul 2026 18:54:02 -0700",
-      "isoDate": "2026-07-05T01:54:02.000Z",
-      "excerpt": "In sizzling 95-degree heat, the Reign fade in the second half and fall to the Courage 3-1 on the road in their return from a monthlong hiatus.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "Randy earns All-Star nod for 2nd consecutive season with Mariners",
       "link": "https://www.mlb.com/mariners/news/randy-arozarena-named-2026-american-league-all-star",
       "pubDate": "Sun, 05 Jul 2026 00:26:06 GMT",
@@ -63,16 +48,6 @@
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
-    },
-    {
-      "title": "MLB All-Star Game: Mariners’ Randy Arozarena selected to AL team for 2nd straight year",
-      "link": "https://www.seattletimes.com/sports/mariners/mariners-randy-arozarena-selected-to-al-all-star-team-for-2nd-straight-season/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sat, 04 Jul 2026 17:22:15 -0700",
-      "isoDate": "2026-07-05T00:22:15.000Z",
-      "excerpt": "The Mariners landed only one player on the AL All-Star team when MLB revealed rosters Saturday.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
     },
     {
       "title": "Arozarena, Mariners celebrate America's birthday in grand fashion",
@@ -145,16 +120,6 @@
       "priority": 3
     },
     {
-      "title": "Kylian Mbappé scores again and France reaches World Cup quarterfinals with 1-0 win over Paraguay",
-      "link": "https://www.seattletimes.com/sports/world-cup/kylian-mbappe-scores-again-and-france-reaches-world-cup-quarterfinals-with-1-0-win-over-paraguay/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sat, 04 Jul 2026 16:11:50 -0700",
-      "isoDate": "2026-07-04T23:11:50.000Z",
-      "excerpt": "Kylian Mbappé scored his 19th career World Cup goal, and France survived stifling heat to beat Paraguay 1-0, sending Les Bleus into the quarterfinals for the fourth straight time.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "Mariners put Gilbert-Hancock piggyback on ice, for now",
       "link": "https://www.mlb.com/mariners/news/logan-gilbert-emerson-hancock-won-t-piggyback",
       "pubDate": "Sat, 04 Jul 2026 23:06:00 GMT",
@@ -165,16 +130,6 @@
       "priority": 6
     },
     {
-      "title": "Randy Arozarena belts grand slam, Logan Gilbert shines as Mariners rout Blue Jays",
-      "link": "https://www.seattletimes.com/sports/mariners/randy-arozarena-belts-grand-slam-logan-gilbert-shines-as-mariners-rout-blue-jays/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sat, 04 Jul 2026 15:47:52 -0700",
-      "isoDate": "2026-07-04T22:47:52.000Z",
-      "excerpt": "Randy Arozarena's second-inning grand slam gave the Mariners a sizable lead early and Logan Gilbert did the rest to lead the Mariners to an 11-0 shutout of the Blue Jays.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "46-44: Chart",
       "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/145728/46-44-chart",
       "pubDate": "2026-07-04T22:39:01.000Z",
@@ -182,26 +137,6 @@
       "excerpt": "Jul 4, 2026; Seattle, Washington, USA; Seattle Mariners designated hitter Dominic Canzone (8) rounds the bases after hitting a two-run home run during the fifth inning against the Toronto Blue Jays at T-Mobile Park....",
       "source": "Lookout Landing",
       "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "World Cup 2026: Team USA celebrates Fourth of July ahead of Belgium match",
-      "link": "https://www.seattletimes.com/sports/world-cup/world-cup-2026-team-usa-celebrates-fourth-of-july-ahead-of-belgium-match/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sat, 04 Jul 2026 15:07:51 -0700",
-      "isoDate": "2026-07-04T22:07:51.000Z",
-      "excerpt": "July 4 arrived with the World Cup again being played in the U.S., the national team still alive and the chance to ignite another step in the growth of the game.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Photos: Seattle Mariners defeat Toronto Blue Jays, 11-0",
-      "link": "https://www.seattletimes.com/sports/mariners/photos-seattle-mariners-take-on-toronto-blue-jays/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sat, 04 Jul 2026 14:49:08 -0700",
-      "isoDate": "2026-07-04T21:49:08.000Z",
-      "excerpt": "",
-      "source": "Seattle Times Sports",
-      "team": "general",
       "priority": 1
     },
     {
@@ -383,16 +318,6 @@
       "source": "Field Gulls",
       "team": "seahawks",
       "priority": 1
-    },
-    {
-      "title": "The Draft is just over a week away! Find out if the landscape has changed with our latest mock",
-      "link": "https://www.mlb.com/mariners/news/mlb-pipeline-2026-mock-draft-july-2",
-      "pubDate": "Thu, 02 Jul 2026 23:45:00 GMT",
-      "isoDate": "2026-07-02T23:45:00.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
     },
     {
       "title": "Seahawks, Jaxon Smith-Njigba Nominated For 2026 ESPY Awards",
@@ -603,6 +528,86 @@
       "source": "Davy Jones' Locker Room",
       "team": "kraken",
       "priority": 1
+    },
+    {
+      "title": "Kraken Select D Ola Palme 166th Overall!",
+      "link": "https://www.davyjoneslockerroom.com/kraken-select-d-ola-palme-166th-overall/",
+      "pubDate": "Sat, 27 Jun 2026 19:28:09 +0000",
+      "isoDate": "2026-06-27T19:28:09.000Z",
+      "excerpt": "Another swede! This one having fallen quite a bit according to the prognosticators! Palme comes from the Växjö Lakers HC U20 team, where his smart, sensible game as well as quick passing gave him a respectable point...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
+      "title": "Kraken Select Luken “Hawke” Huff 148th Overall!",
+      "link": "https://www.davyjoneslockerroom.com/kraken-select-luken-hawke-huff-148th-overall/",
+      "pubDate": "Sat, 27 Jun 2026 19:05:15 +0000",
+      "isoDate": "2026-06-27T19:05:15.000Z",
+      "excerpt": "I do not mean this lightly. Hawke Huff might be in the top 10 of names in this draft, and there are some good names in this draft. Huff comes to us from the Cedar Rapids Roughriders in the USHL, where he stands at 6’3,...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
+      "title": "Kraken Select Defender Finn Kearns 131st Overall!",
+      "link": "https://www.davyjoneslockerroom.com/kraken-select-defender-finn-kearns-132nd-overall/",
+      "pubDate": "Sat, 27 Jun 2026 18:47:48 +0000",
+      "isoDate": "2026-06-27T18:47:48.000Z",
+      "excerpt": "Now this is an interesting pick. Seattle traded down for this pick with the New York Rangers, and selected a player from Prep High School, who is now committed to playing at Umass Amherst for the Minutemen this Fall. He...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
+      "title": "No Movement On Seahawks-Devon Witherspoon Extension",
+      "link": "https://www.profootballrumors.com/2026/06/no-movement-on-seahawks-devon-witherspoon-extension",
+      "pubDate": "Sat, 27 Jun 2026 18:05:15 +0000",
+      "isoDate": "2026-06-27T18:05:15.000Z",
+      "excerpt": "The Seahawks wasted no time rewarding reigning Offensive Player of the Year Jaxon Smith-Njigba with the biggest wide receiver contract in NFL history this offseason. Negotiations with fellow 2023 first-rounder Devon...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
+      "priority": 2
+    },
+    {
+      "title": "Kraken Select F Viktor Fedorov 99th Overall!",
+      "link": "https://www.davyjoneslockerroom.com/kraken-select-f-viktor-fedorov-99th-overall/",
+      "pubDate": "Sat, 27 Jun 2026 17:53:17 +0000",
+      "isoDate": "2026-06-27T17:53:17.000Z",
+      "excerpt": "The Kraken used their 99th overall pick to get a little russian flair in their draft class! Fedorov comes from Tomsk, Russia, sitting at 5’10 and 183 pounds, shooting left. He plays in the Torpedo Nizhny Novgorod club;...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
+      "title": "The NFL’s Assistant General Managers",
+      "link": "https://www.profootballrumors.com/2026/06/the-nfls-assistant-general-managers",
+      "pubDate": "Sat, 27 Jun 2026 03:15:34 +0000",
+      "isoDate": "2026-06-27T03:15:34.000Z",
+      "excerpt": "When the Vikings hired Nolan Teasley late last month, the general manager carousel came to a stop once again. Minnesota has since filled out its assistant GM tier, joining Seattle — which lost Teasley from its AGM post...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
+      "priority": 2
+    },
+    {
+      "title": "Jason Robertson Rejects Long-Term Offer From Kraken",
+      "link": "https://www.prohockeyrumors.com/2026/06/jason-robertson-rejects-long-term-offer-from-kraken.html",
+      "pubDate": "Fri, 26 Jun 2026 01:32:48 +0000",
+      "isoDate": "2026-06-26T01:32:48.000Z",
+      "excerpt": "Pending Dallas Stars restricted free agent has reportedly declined a long-term offer from the Seattle Kraken.",
+      "source": "Pro Hockey Rumors",
+      "team": "kraken",
+      "priority": 2
+    },
+    {
+      "title": "Seahawks Travel To Atlanta And Alabama For A Civil Rights Learning Tour",
+      "link": "https://www.seahawks.com/news/seahawks-travel-to-atlanta-and-alabama-for-a-civil-rights-learning-tour",
+      "pubDate": "Thu, 25 Jun 2026 19:57:49 GMT",
+      "isoDate": "2026-06-25T19:57:49.000Z",
+      "excerpt": "Seahawks employees, along with three local educators, took a trip to the South for a learning tour hosted by the Institute for Common Power.",
+      "source": "Seahawks.com",
+      "team": "seahawks",
+      "priority": 6
     }
   ]
 }
