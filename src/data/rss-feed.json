@@ -1,18 +1,74 @@
 {
-  "generatedAt": "2026-07-06T16:50:19.332Z",
+  "generatedAt": "2026-07-06T19:50:56.516Z",
   "sourceCount": 10,
-  "successfulSources": 8,
+  "successfulSources": 9,
   "failedSources": [
     {
       "source": "Seattle Times Sports",
       "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
-    },
-    {
-      "source": "710 Seattle Sports",
-      "error": "Request timed out after 10000ms (lenient retry: Status code 403)"
     }
   ],
   "items": [
+    {
+      "title": "Randy's All-Star selection a combo of trademark consistency and new mindset",
+      "link": "https://www.mlb.com/mariners/news/randy-arozarena-s-approach-in-all-star-first-half",
+      "pubDate": "Mon, 06 Jul 2026 19:40:08 GMT",
+      "isoDate": "2026-07-06T19:40:08.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Seahawks RB George Holani Ahead Of Jadarian Price?",
+      "link": "https://www.profootballrumors.com/2026/07/seahawks-rb-george-holani-ahead-of-jadarian-price",
+      "pubDate": "Mon, 06 Jul 2026 18:05:22 +0000",
+      "isoDate": "2026-07-06T18:05:22.000Z",
+      "excerpt": "JULY 6: The Athletic’s Saad Yousuf writes Price will, in fact, be “tasked with taking over a starring role” on Seattle’s offense moving forward. It remains to be seen if that will include the No. 1 gig right away, but...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
+      "priority": 2
+    },
+    {
+      "title": "US seeks ‘revenge’ in Seattle for 2014 World Cup loss to Belgium",
+      "link": "https://sports.mynorthwest.com/seattle-sports-pit/world-cup-seattle-us-revenge-2014-loss-belgium",
+      "pubDate": "Mon, 06 Jul 2026 17:52:12 +0000",
+      "isoDate": "2026-07-06T17:52:12.000Z",
+      "excerpt": "Since that thrilling match over a decade ago, American soccer has made significant strides.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Breakdown: How Seahawks have rare continuity for Super Bowl champ",
+      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/breakdown-seattle-seahawks-have-rare-continuity-for-super-bowl-champ",
+      "pubDate": "Mon, 06 Jul 2026 17:35:55 +0000",
+      "isoDate": "2026-07-06T17:35:55.000Z",
+      "excerpt": "The Seahawks have the third-highest rate of returning snaps for a reigning Super Bowl champion since 2010.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "A second Mariners top prospect promoted to Triple-A",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-top-prospect-michael-arroyo-triple-a-tacoma",
+      "pubDate": "Mon, 06 Jul 2026 16:55:20 +0000",
+      "isoDate": "2026-07-06T16:55:20.000Z",
+      "excerpt": "Second baseman/left fielder Michael Arroyo is getting promoted on the heels of a four-hit game Saturday in Double-A.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "How will Mariners build for long-term success in Draft?",
+      "link": "https://www.mlb.com/mariners/news/mariners-2026-draft-preview",
+      "pubDate": "Mon, 06 Jul 2026 16:53:01 GMT",
+      "isoDate": "2026-07-06T16:53:01.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
     {
       "title": "Top 2026 Training Camp Storylines: Does Rashid Shaheed Still Handle Both Return Jobs?",
       "link": "https://www.seahawks.com/news/top-2026-training-camp-storylines-does-rashid-shaheed-still-handle-both-return-jobs",
@@ -22,6 +78,36 @@
       "source": "Seahawks.com",
       "team": "seahawks",
       "priority": 6
+    },
+    {
+      "title": "Seattle Mariners Minor League Roundup &#8211; Week Fifteen",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-prospects/145774/seattle-mariners-minor-league-roundup-week-fifteen",
+      "pubDate": "2026-07-06T16:00:00.000Z",
+      "isoDate": "2026-07-06T16:00:00.000Z",
+      "excerpt": "Tacoma Rainiers The Rainiers dropped the series to a poor Reno team, unable to best the Arizona affiliate that’s struggled for much of the 2026 season. There’s reason for optimism for the Rainiers and they should have a...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Which Seahawks rookies could make the biggest impact in 2026?",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/170279/which-seahawks-rookies-could-make-biggest-impact-2026-nfl-season",
+      "pubDate": "2026-07-06T15:00:00.000Z",
+      "isoDate": "2026-07-06T15:00:00.000Z",
+      "excerpt": "RENTON, WASHINGTON - JUNE 11: Julian Neal #1 of the Seattle Seahawks runs during practice at Virginia Mason Athletic Center on June 11, 2026 in Renton, Washington. (Photo by Jack Compton/Getty Images) | Getty Images The...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
+    {
+      "title": "Controversy raging at World Cup ahead of US-Belgium match in Seattle",
+      "link": "https://sports.mynorthwest.com/seattle-sports-pit/controversy-raging-world-cup-us-belgium-balogun-red-card-seattle",
+      "pubDate": "Mon, 06 Jul 2026 14:52:03 +0000",
+      "isoDate": "2026-07-06T14:52:03.000Z",
+      "excerpt": "Belgium is challenging FIFA's stunning move to lift U.S. star Folarin Balogun's red-card suspension.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
     },
     {
       "title": "Seahawks players are all in lockstep about what made the Super Bowl team special",
@@ -44,14 +130,44 @@
       "priority": 1
     },
     {
-      "title": "Mariners promote prospects Montes, Arroyo to Triple-A (sources)",
-      "link": "https://www.mlb.com/mariners/news/mariners-promote-lazaro-montes-michael-arroyo-to-triple-a",
-      "pubDate": "Mon, 06 Jul 2026 06:28:11 GMT",
-      "isoDate": "2026-07-06T06:28:11.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
+      "title": "Seahawks News 7/6: Seahawks still need Jarran Reed in 2026",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-news/170311/seahawks-news-7-6-seahawks-still-need-jarran-reed-in-2026",
+      "pubDate": "2026-07-06T13:00:00.000Z",
+      "isoDate": "2026-07-06T13:00:00.000Z",
+      "excerpt": "Dec 22, 2024; Seattle, Washington, USA; Seattle Seahawks defensive tackle Jarran Reed (90) celebrates after sacking Minnesota Vikings quarterback Sam Darnold (14) (not pictured) during the first half at Lumen Field....",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
+    {
+      "title": "Preview: US eyeing landmark World Cup win vs Belgium in Seattle",
+      "link": "https://sports.mynorthwest.com/seattle-sports-pit/preview-us-eyeing-landmark-world-cup-win-belgium-seattle",
+      "pubDate": "Mon, 06 Jul 2026 05:37:17 +0000",
+      "isoDate": "2026-07-06T05:37:17.000Z",
+      "excerpt": "The U.S. faces Belgium in Seattle with a chance to reach the World Cup quarterfinals for the second time ever.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Mariners promoting top prospect Lazaro Montes to Triple-A Tacoma",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-promoting-prospect-lazaro-montes-triple-a-tacoma",
+      "pubDate": "Mon, 06 Jul 2026 04:21:00 +0000",
+      "isoDate": "2026-07-06T04:21:00.000Z",
+      "excerpt": "Lazaro Montes is returning to the Pacific Northwest after blasting 25 home runs in 79 games in Double-A.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "A thriller at Azteca: England beats Mexico 3-2 to reach World Cup quarters",
+      "link": "https://sports.mynorthwest.com/seattle-sports-pit/england-beats-mexico-3-2-reach-world-cup-quarterfinals",
+      "pubDate": "Mon, 06 Jul 2026 03:41:57 +0000",
+      "isoDate": "2026-07-06T03:41:57.000Z",
+      "excerpt": "England prevailed for a wild victory and handed Mexico its first-ever World Cup loss at the famed Estadio Azteca.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
     },
     {
       "title": "Sundays are for the Garv: Mitch Garver homers in 4-0 Mariners win",
@@ -72,6 +188,16 @@
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
+    },
+    {
+      "title": "Mariners blank Blue Jays 4-0 for 2nd straight shutout win",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-blank-blue-jays-4-0-2nd-straight-shutout-win",
+      "pubDate": "Sun, 05 Jul 2026 23:49:18 +0000",
+      "isoDate": "2026-07-05T23:49:18.000Z",
+      "excerpt": "Seattle's pitching staff has allowed just two runs combined over its past four games.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
     },
     {
       "title": "47-44: Chart",
@@ -194,16 +320,6 @@
       "priority": 6
     },
     {
-      "title": "Arozarena, Mariners celebrate America's birthday in grand fashion",
-      "link": "https://www.mlb.com/mariners/news/randy-arozarena-hits-grand-slam-as-mariners-romp",
-      "pubDate": "Sun, 05 Jul 2026 00:21:00 GMT",
-      "isoDate": "2026-07-05T00:21:00.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
-    },
-    {
       "title": "Randy Arozarena Named to 2026 American League All-Star Team",
       "link": "https://www.lookoutlanding.com/seattle-mariners-news/24480542/randy-arozarena-named-to-2026-american-league-all-star-team",
       "pubDate": "2026-07-05T00:10:29.000Z",
@@ -219,16 +335,6 @@
       "pubDate": "2026-07-04T23:58:15.000Z",
       "isoDate": "2026-07-04T23:58:15.000Z",
       "excerpt": "Jul 4, 2026; Seattle, Washington, USA; Seattle Mariners starting pitcher Logan Gilbert (36) acknowledges the crowd as he walks off the field during the eighth inning against the Toronto Blue Jays at T-Mobile Park....",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "46-44: Chart",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/145728/46-44-chart",
-      "pubDate": "2026-07-04T22:39:01.000Z",
-      "isoDate": "2026-07-04T22:39:01.000Z",
-      "excerpt": "Jul 4, 2026; Seattle, Washington, USA; Seattle Mariners designated hitter Dominic Canzone (8) rounds the bases after hitting a two-run home run during the fifth inning against the Toronto Blue Jays at T-Mobile Park....",
       "source": "Lookout Landing",
       "team": "mariners",
       "priority": 1
@@ -254,16 +360,6 @@
       "priority": 1
     },
     {
-      "title": "Seahawks RB George Holani Ahead Of Jadarian Price?",
-      "link": "https://www.profootballrumors.com/2026/07/seahawks-rb-george-holani-ahead-of-jadarian-price",
-      "pubDate": "Sat, 04 Jul 2026 00:30:22 +0000",
-      "isoDate": "2026-07-04T00:30:22.000Z",
-      "excerpt": "As we usually see with Super Bowl champions, the Seahawks experienced a good amount of turnover on their staff and roster after reaching the pinnacle of the sport. A number of changes threaten to affect the team’s...",
-      "source": "Pro Football Rumors",
-      "team": "seahawks",
-      "priority": 2
-    },
-    {
       "title": "Mariners Place Julio Rodríguez On Concussion IL",
       "link": "https://www.mlbtraderumors.com/2026/07/mariners-place-julio-rodriguez-on-concussion-il.html",
       "pubDate": "Fri, 03 Jul 2026 22:55:31 +0000",
@@ -279,26 +375,6 @@
       "pubDate": "2026-07-03T17:00:00.000Z",
       "isoDate": "2026-07-03T17:00:00.000Z",
       "excerpt": "SEATTLE, WASHINGTON - JANUARY 25: General manager John Schneider of the Seattle Seahawks celebrates after Seattle defeated the Los Angeles Rams 31-27 in the NFC Championship game at Lumen Field on January 25, 2026 in...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "The case for Sam Darnold as a top 10 quarterback",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/170167/nfl-stats-the-case-sam-darnold-seattle-seahawks-top-10-nfl-quarterback",
-      "pubDate": "2026-07-03T14:00:00.000Z",
-      "isoDate": "2026-07-03T14:00:00.000Z",
-      "excerpt": "If you spend anytime online watching or listening to national analysts ranking and explaining quarterback rankings, you will probably have noted that where to putSeattle Seahawks starting quarterback Sam Darnold is a...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "Seahawks News 7/3: Eric Saubert is a valuable member of a loaded Seahawks team",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-news/170249/seahawks-news-7-3-eric-saubert-is-a-valuable-member-of-a-stellar-seahawks-team",
-      "pubDate": "2026-07-03T13:00:00.000Z",
-      "isoDate": "2026-07-03T13:00:00.000Z",
-      "excerpt": "Jun 9, 2026; Renton, WA, USA; Seattle Seahawks tight end Eric Saubert (81) during minicamp at Virginia Mason Athletic Center. Mandatory Credit: Steven Bisig-Imagn Images | Steven Bisig-Imagn Images In Today’s Links:...",
       "source": "Field Gulls",
       "team": "seahawks",
       "priority": 1
@@ -529,86 +605,6 @@
       "pubDate": "Fri, 26 Jun 2026 01:32:48 +0000",
       "isoDate": "2026-06-26T01:32:48.000Z",
       "excerpt": "Pending Dallas Stars restricted free agent has reportedly declined a long-term offer from the Seattle Kraken.",
-      "source": "Pro Hockey Rumors",
-      "team": "kraken",
-      "priority": 2
-    },
-    {
-      "title": "Seahawks Travel To Atlanta And Alabama For A Civil Rights Learning Tour",
-      "link": "https://www.seahawks.com/news/seahawks-travel-to-atlanta-and-alabama-for-a-civil-rights-learning-tour",
-      "pubDate": "Thu, 25 Jun 2026 19:57:49 GMT",
-      "isoDate": "2026-06-25T19:57:49.000Z",
-      "excerpt": "Seahawks employees, along with three local educators, took a trip to the South for a learning tour hosted by the Institute for Common Power.",
-      "source": "Seahawks.com",
-      "team": "seahawks",
-      "priority": 6
-    },
-    {
-      "title": "Mariners Outright Miles Mastrobuoni",
-      "link": "https://www.mlbtraderumors.com/2026/06/mariners-outright-miles-mastrobuoni.html",
-      "pubDate": "Thu, 25 Jun 2026 19:34:38 +0000",
-      "isoDate": "2026-06-25T19:34:38.000Z",
-      "excerpt": "The Mariners announced that infielder/outfielder Miles Mastrobuoni cleared waivers and has been outrighted to Triple-A Tacoma. He had been designated for assignment by Seattle last week. He does not have three years of...",
-      "source": "MLB Trade Rumors",
-      "team": "mariners",
-      "priority": 2
-    },
-    {
-      "title": "Seahawks Legends Attend Legends Spring Event",
-      "link": "https://www.seahawks.com/news/seahawks-legends-attend-legends-spring-event",
-      "pubDate": "Tue, 23 Jun 2026 17:00:30 GMT",
-      "isoDate": "2026-06-23T17:00:30.000Z",
-      "excerpt": "Seahawks Legends were back in town for the Legends Spring Event, presented by Columbia Bank, for a cruise along Lake Washington.",
-      "source": "Seahawks.com",
-      "team": "seahawks",
-      "priority": 6
-    },
-    {
-      "title": "Seattle Seahawks Announce Trophy Tour, presented by Accenture",
-      "link": "https://www.seahawks.com/news/seattle-seahawks-announce-trophy-tour-presented-by-accenture",
-      "pubDate": "Tue, 23 Jun 2026 17:00:00 GMT",
-      "isoDate": "2026-06-23T17:00:00.000Z",
-      "excerpt": "In celebration of the team’s Super Bowl LX victory, the Seattle Seahawks invite 12s Everywhere to join them on an official Trophy Tour.",
-      "source": "Seahawks.com",
-      "team": "seahawks",
-      "priority": 6
-    },
-    {
-      "title": "Ernest Jones IV Named To NFL Top 100 Players Of 2026",
-      "link": "https://www.seahawks.com/news/ernest-jones-iv-named-to-nfl-top-100-players-of-2026",
-      "pubDate": "Tue, 23 Jun 2026 15:00:07 GMT",
-      "isoDate": "2026-06-23T15:00:07.000Z",
-      "excerpt": "Seahawks linebacker Ernest Jones IV was voted as one of the NFL’s top 100 players, checking in at No. 97 on the annual list.",
-      "source": "Seahawks.com",
-      "team": "seahawks",
-      "priority": 6
-    },
-    {
-      "title": "Morning Notes: Sabres, Bobrovsky, Wright",
-      "link": "https://www.prohockeyrumors.com/2026/06/morning-notes-sabres-bobrovsky-wright.html",
-      "pubDate": "Mon, 22 Jun 2026 15:32:03 +0000",
-      "isoDate": "2026-06-22T15:32:03.000Z",
-      "excerpt": "The Buffalo Sabres are seeing developments among their big-name players whose names are among the headlines. Darren Dreger of TSN reports that Sabres defenseman Bowen Byram remains a hot commodity among trade scenarios....",
-      "source": "Pro Hockey Rumors",
-      "team": "kraken",
-      "priority": 2
-    },
-    {
-      "title": "Kraken Sign Bobby McMann To Six-Year Extension",
-      "link": "https://www.prohockeyrumors.com/2026/06/kraken-sign-bobby-mcmann-to-six-year-extension.html",
-      "pubDate": "Sun, 21 Jun 2026 21:47:50 +0000",
-      "isoDate": "2026-06-21T21:47:50.000Z",
-      "excerpt": "The Kraken made a move to add a winger when they acquired Mackie Samoskevich from Florida. Now, they’ve made a move to keep another one. The team announced that they’ve re-signed winger Bobby McMann to a six-year,...",
-      "source": "Pro Hockey Rumors",
-      "team": "kraken",
-      "priority": 2
-    },
-    {
-      "title": "Kraken Acquire Mackie Samoskevich",
-      "link": "https://www.prohockeyrumors.com/2026/06/kraken-acquire-mackie-samoskevich.html",
-      "pubDate": "Sun, 21 Jun 2026 16:48:50 +0000",
-      "isoDate": "2026-06-21T16:48:50.000Z",
-      "excerpt": "The Kraken have acquired winger Mackie Samoskevich from the Panthers. Seattle is sending the 25th overall pick in this year’s draft plus a conditional second-rounder in 2027 the other way. Both Seattle and Florida have...",
       "source": "Pro Hockey Rumors",
       "team": "kraken",
       "priority": 2
