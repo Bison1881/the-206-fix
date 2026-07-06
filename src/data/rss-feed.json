@@ -1,32 +1,46 @@
 {
-  "generatedAt": "2026-07-06T13:41:44.492Z",
+  "generatedAt": "2026-07-06T16:50:19.332Z",
   "sourceCount": 10,
-  "successfulSources": 9,
+  "successfulSources": 8,
   "failedSources": [
     {
-      "source": "Davy Jones' Locker Room",
-      "error": "Status code 415 (lenient retry: Status code 415)"
+      "source": "Seattle Times Sports",
+      "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
+    },
+    {
+      "source": "710 Seattle Sports",
+      "error": "Request timed out after 10000ms (lenient retry: Status code 403)"
     }
   ],
   "items": [
     {
-      "title": "USA vs. Belgium: How to watch Seattle’s round of 16 match",
-      "link": "https://www.seattletimes.com/sports/world-cup/usa-vs-belgium-how-to-watch-seattles-round-of-16-match/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Mon, 06 Jul 2026 06:00:00 -0700",
-      "isoDate": "2026-07-06T13:00:00.000Z",
-      "excerpt": "Seattle Stadium will host its final match of the FIFA Men's World Cup as Team USA takes on Belgium in the round of 16. Here's how to watch.",
-      "source": "Seattle Times Sports",
-      "team": "general",
+      "title": "Top 2026 Training Camp Storylines: Does Rashid Shaheed Still Handle Both Return Jobs?",
+      "link": "https://www.seahawks.com/news/top-2026-training-camp-storylines-does-rashid-shaheed-still-handle-both-return-jobs",
+      "pubDate": "Mon, 06 Jul 2026 16:06:56 GMT",
+      "isoDate": "2026-07-06T16:06:56.000Z",
+      "excerpt": "Rashid Shaheed boosted Seattle’s return game last season, how does he fit in in the return game, with the expectation of a larger role in the offense.",
+      "source": "Seahawks.com",
+      "team": "seahawks",
+      "priority": 6
+    },
+    {
+      "title": "Seahawks players are all in lockstep about what made the Super Bowl team special",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-news/170144/nfl-seahawks-players-what-made-super-bowl-2025-team-special",
+      "pubDate": "2026-07-06T14:00:00.000Z",
+      "isoDate": "2026-07-06T14:00:00.000Z",
+      "excerpt": "What made the 2025 Seattle Seahawks a championship team? I love that the new “Making a Champion” video series explores the magical Super Bowl run from many different perspectives, then finally boils it down to solely...",
+      "source": "Field Gulls",
+      "team": "seahawks",
       "priority": 1
     },
     {
-      "title": "2026 World Cup: What to know as Team USA plays Belgium in Seattle",
-      "link": "https://www.seattletimes.com/sports/world-cup/2026-world-cup-what-to-know-as-team-usa-plays-belgium-in-seattle/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Mon, 06 Jul 2026 06:00:00 -0700",
-      "isoDate": "2026-07-06T13:00:00.000Z",
-      "excerpt": "It’s time for Seattle to take its final bow on the FIFA Men’s World Cup stage, and it's going out with huge game as Team USA plays Belgium in the round of 16.",
-      "source": "Seattle Times Sports",
-      "team": "general",
+      "title": "Mariners News: Julio Rodriguez, Ranger Suárez, and Byron Buxton",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-news/145778/julio-rodriguez-ranger-suarez-byron-buxton-brandon-woodruff-eury-perez",
+      "pubDate": "2026-07-06T14:00:00.000Z",
+      "isoDate": "2026-07-06T14:00:00.000Z",
+      "excerpt": "SEATTLE, WA - JULY 02: Julio Rodríguez #44 of the Seattle Mariners looks on during the game between the Los Angeles Angels and the Seattle Mariners at T-Mobile Park on Thursday, July 2, 2026 in Seattle, Washington....",
+      "source": "Lookout Landing",
+      "team": "mariners",
       "priority": 1
     },
     {
@@ -38,56 +52,6 @@
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
-    },
-    {
-      "title": "Preview: US eyeing landmark World Cup win vs Belgium in Seattle",
-      "link": "https://sports.mynorthwest.com/seattle-sports-pit/preview-us-eyeing-landmark-world-cup-win-belgium-seattle",
-      "pubDate": "Mon, 06 Jul 2026 05:37:17 +0000",
-      "isoDate": "2026-07-06T05:37:17.000Z",
-      "excerpt": "The U.S. faces Belgium in Seattle with a chance to reach the World Cup quarterfinals for the second time ever.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "Report: Mariners promoting top prospect to Triple-A Tacoma",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-promoting-prospect-lazaro-montes-triple-a-tacoma",
-      "pubDate": "Mon, 06 Jul 2026 04:21:00 +0000",
-      "isoDate": "2026-07-06T04:21:00.000Z",
-      "excerpt": "Lazaro Montes is returning to the Pacific Northwest after blasting 25 home runs in 79 games in Double-A.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "A thriller at Azteca: England beats Mexico 3-2 to reach World Cup quarters",
-      "link": "https://sports.mynorthwest.com/seattle-sports-pit/england-beats-mexico-3-2-reach-world-cup-quarterfinals",
-      "pubDate": "Mon, 06 Jul 2026 03:41:57 +0000",
-      "isoDate": "2026-07-06T03:41:57.000Z",
-      "excerpt": "England prevailed for a wild victory and handed Mexico its first-ever World Cup loss at the famed Estadio Azteca.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "England hands Mexico its first World Cup loss at Estadio Azteca, winning 3-2 to reach quarterfinals",
-      "link": "https://www.seattletimes.com/sports/world-cup/england-hands-mexico-its-first-world-cup-loss-at-estadio-azteca-winning-3-2-to-reach-quarterfinals/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sun, 05 Jul 2026 20:23:44 -0700",
-      "isoDate": "2026-07-06T03:23:44.000Z",
-      "excerpt": "Jude Bellingham scored two goals 98 seconds apart, Harry Kane converted a penalty when England was down to 10 men, and England handed Mexico its first World Cup loss at Estadio Azteca, a wild 3-2 victory to reach the...",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Mariners host annual Play Ball Challenger Little League Game: ‘Best day of the season’",
-      "link": "https://www.seattletimes.com/sports/mariners/mariners-host-annual-play-ball-challenger-little-league-game-best-day-of-the-season/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sun, 05 Jul 2026 19:20:45 -0700",
-      "isoDate": "2026-07-06T02:20:45.000Z",
-      "excerpt": "Almost of all of the Mariners players and coaches were out on the field Sunday for the team's annual Play Ball Challenger Little League Game.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
     },
     {
       "title": "Sundays are for the Garv: Mitch Garver homers in 4-0 Mariners win",
@@ -110,46 +74,6 @@
       "priority": 6
     },
     {
-      "title": "Jimmy Shane returns to unlimited hydroplane racing, wins Gold Cup",
-      "link": "https://www.seattletimes.com/sports/other-sports/jimmy-shane-returns-to-unlimited-hydroplane-racing-wins-gold-cup/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sun, 05 Jul 2026 17:46:21 -0700",
-      "isoDate": "2026-07-06T00:46:21.000Z",
-      "excerpt": "Jimmy Shane returned from a four-year absence from unlimited hydroplane racing to drive the U-27 Miss Apollo to a win in the season-opening Gold Cup race.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Mariners blank Blue Jays 4-0 for 2nd straight shutout win",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-blank-blue-jays-4-0-2nd-straight-shutout-win",
-      "pubDate": "Sun, 05 Jul 2026 23:49:18 +0000",
-      "isoDate": "2026-07-05T23:49:18.000Z",
-      "excerpt": "Seattle's pitching staff has allowed just two runs combined over its past four games.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "2026 World Cup: Seattle is stage for one of Team USA’s biggest moments",
-      "link": "https://www.seattletimes.com/sports/world-cup/2026-world-cup-seattle-is-stage-for-one-of-team-usas-biggest-moments/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sun, 05 Jul 2026 16:32:37 -0700",
-      "isoDate": "2026-07-05T23:32:37.000Z",
-      "excerpt": "All the ingredients are there — hype, drama, significance — to make this World Cup match one of the most memorable nights in the annals of U.S. men’s soccer.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Emerson Hancock dominates, Mariners shut out Blue Jays for 2nd straight day",
-      "link": "https://www.seattletimes.com/sports/mariners/emerson-hancock-dominates-mariners-shut-out-blue-jays-for-2nd-straight-day/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sun, 05 Jul 2026 16:30:12 -0700",
-      "isoDate": "2026-07-05T23:30:12.000Z",
-      "excerpt": "Buoyed by yet another dominant pitching performance led by Emerson Hancock, the Mariners shut out the Blue Jays for the second straight game Sunday.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "47-44: Chart",
       "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/145759/47-44-chart",
       "pubDate": "2026-07-05T23:17:38.000Z",
@@ -157,26 +81,6 @@
       "excerpt": "Jul 5, 2026; Seattle, Washington, USA; Seattle Mariners starting pitcher Emerson Hancock (26) throws against the Toronto Blue Jays during the first inning at T-Mobile Park. Mandatory Credit: Joe Nicholson-Imagn Images |...",
       "source": "Lookout Landing",
       "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "Norway beats Brazil 2-1, earns 1st trip to World Cup quarterfinals",
-      "link": "https://sports.mynorthwest.com/seattle-sports-pit/norway-beats-brazil-2-1-for-1st-trip-world-cup-quarterfinals",
-      "pubDate": "Sun, 05 Jul 2026 23:05:00 +0000",
-      "isoDate": "2026-07-05T23:05:00.000Z",
-      "excerpt": "Erling Haaland scored two late goals as Norway notched a historic win over the five-time world champs.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "2026 World Cup: Belgium goes from hosted to hunted against Team USA",
-      "link": "https://www.seattletimes.com/sports/world-cup/2026-world-cup-belgium-goes-from-hosted-to-hunted-against-team-usa/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sun, 05 Jul 2026 16:01:44 -0700",
-      "isoDate": "2026-07-05T23:01:44.000Z",
-      "excerpt": "For the bulk of its month stay in the U.S., and at its base camp at Sounders HQ, Belgium has enjoyed a downright hospitable experience. That is about to change.",
-      "source": "Seattle Times Sports",
-      "team": "general",
       "priority": 1
     },
     {
@@ -188,16 +92,6 @@
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
-    },
-    {
-      "title": "The get-in price for US World Cup knockout match in Seattle",
-      "link": "https://sports.mynorthwest.com/seattle-sports-pit/get-in-price-us-belgium-world-cup-knockout-match-seattle",
-      "pubDate": "Sun, 05 Jul 2026 22:22:09 +0000",
-      "isoDate": "2026-07-05T22:22:09.000Z",
-      "excerpt": "The price has dipped, but fans still have to dig deep into their wallets for a chance to witness history.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
     },
     {
       "title": "Latest Mariners injuries and transactions",
@@ -218,26 +112,6 @@
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
-    },
-    {
-      "title": "Mariners now have 6 of MLB Pipeline’s top 75 prospects",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-6-mlb-pipeline-top-75-prospects",
-      "pubDate": "Sun, 05 Jul 2026 19:57:58 +0000",
-      "isoDate": "2026-07-05T19:57:58.000Z",
-      "excerpt": "The arrow continues to point upward for the Mariners' talent-rich farm system.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "FIFA lifts Balogun’s suspension, freeing US star to play in Seattle",
-      "link": "https://sports.mynorthwest.com/seattle-sports-pit/fifa-suspends-red-card-us-star-balogun-free-to-play-world-cup",
-      "pubDate": "Sun, 05 Jul 2026 17:29:45 +0000",
-      "isoDate": "2026-07-05T17:29:45.000Z",
-      "excerpt": "U.S. star Folarin Balogun is now eligible to play in Monday's World Cup round-of-16 match in Seattle.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
     },
     {
       "title": "Seahawks Expect Increased Workload For WR Rashid Shaheed",
@@ -360,16 +234,6 @@
       "priority": 1
     },
     {
-      "title": "Mariners vs. Blue Jays: Game preview and discussion",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-game-information/145714/mariners-vs-blue-jays-game-preview-and-discussion",
-      "pubDate": "2026-07-04T19:47:00.000Z",
-      "isoDate": "2026-07-04T19:47:00.000Z",
-      "excerpt": "Jul 4, 2023; San Francisco, California, USA; Seattle Mariners pitcher Logan Gilbert (36) reacts after the final out of the ninth inning against the San Francisco Giants at Oracle Park. Mandatory Credit: Robert...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
       "title": "Kraken Working With Shane Wright To Find A Suitable Trade",
       "link": "https://www.prohockeyrumors.com/2026/07/kraken-working-with-shane-wright-to-find-a-suitable-trade.html",
       "pubDate": "Sat, 04 Jul 2026 16:59:35 +0000",
@@ -450,16 +314,6 @@
       "priority": 6
     },
     {
-      "title": "Arizona Cardinals star Trey McBride names Seahawks as NFC West rival he dislikes most",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-news/170177/arizona-cardinals-star-trey-mcbride-has-seahawks-nfc-west-rival-most-dislikes",
-      "pubDate": "2026-07-02T15:00:00.000Z",
-      "isoDate": "2026-07-02T15:00:00.000Z",
-      "excerpt": "SEATTLE, WASHINGTON - NOVEMBER 09: Trey McBride #85 of the Arizona Cardinals runs against Nick Emmanwori #3 of the Seattle Seahawks in the second quarter of a game at Lumen Field on November 09, 2025 in Seattle,...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
-    },
-    {
       "title": "The NFL’s Longest-Tenured GMs",
       "link": "https://www.profootballrumors.com/2026/07/the-nfls-longest-tenured-gms-4",
       "pubDate": "Thu, 02 Jul 2026 03:58:04 +0000",
@@ -470,6 +324,16 @@
       "priority": 2
     },
     {
+      "title": "Kraken add Curtis Douglas in FA on 2-year, 1.25m AAV contract",
+      "link": "https://www.davyjoneslockerroom.com/kraken-add-curtis-douglas-in-fa-on-2-year-1-25m-aav-contract/",
+      "pubDate": "Thu, 02 Jul 2026 02:13:48 +0000",
+      "isoDate": "2026-07-02T02:13:48.000Z",
+      "excerpt": "Cue up Manny Fresh, because the Kraken like their forwards Real Big this free agency. The Kraken announced the signing of Forward Curtis Douglas to a 2 year deal worth $1.25 million. WELCOME ABOARD! 🦑The #SeaKraken...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
       "title": "Kraken Sign Curtis Douglas",
       "link": "https://www.prohockeyrumors.com/2026/07/kraken-sign-curtis-douglas.html",
       "pubDate": "Wed, 01 Jul 2026 20:29:44 +0000",
@@ -478,6 +342,16 @@
       "source": "Pro Hockey Rumors",
       "team": "kraken",
       "priority": 2
+    },
+    {
+      "title": "DJLR Free Agency Frenzy LIVETHREAD",
+      "link": "https://www.davyjoneslockerroom.com/djlr-free-agency-primer/",
+      "pubDate": "Wed, 01 Jul 2026 16:49:53 +0000",
+      "isoDate": "2026-07-01T16:49:53.000Z",
+      "excerpt": "Welcome to free agent frenzy, friends. The NHL has already begun making goofy trades all over the place after the Kraken made a perfectly reasonable call for Mackie Samoskevich, so let’s enjoy the magic as it unfolds!...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
     },
     {
       "title": "Kraken Sign Mackie Samoskevich To Three-Year Deal",
@@ -580,6 +454,56 @@
       "priority": 2
     },
     {
+      "title": "Kraken Select F William Tomko 204th Overall!",
+      "link": "https://www.davyjoneslockerroom.com/kraken-select-f-william-tomko-204th-overall/",
+      "pubDate": "Sat, 27 Jun 2026 20:28:34 +0000",
+      "isoDate": "2026-06-27T20:28:34.000Z",
+      "excerpt": "The Kraken’s final selection is here! Meet William Tomko! Tomko appears before us as a Right shot Forward at 6’0, 198 pounds, playing for the Sioux Falls Musketeers, who will be heading to his first season at Ohio...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
+      "title": "Kraken Select D Rylan Singh 198th Overall!",
+      "link": "https://www.davyjoneslockerroom.com/kraken-select-d-rylan-singh-198th-overall/",
+      "pubDate": "Sat, 27 Jun 2026 20:09:21 +0000",
+      "isoDate": "2026-06-27T20:09:21.000Z",
+      "excerpt": "The 1st of the last round of the playoffs involves a young man from Pickering! Rylan Singh plays for the Guelph Storm, having a respectable line for a defenseman in OHL time, and stands at 6’0, 187 pounds; shooting...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
+      "title": "Kraken Select D Ola Palme 166th Overall!",
+      "link": "https://www.davyjoneslockerroom.com/kraken-select-d-ola-palme-166th-overall/",
+      "pubDate": "Sat, 27 Jun 2026 19:28:09 +0000",
+      "isoDate": "2026-06-27T19:28:09.000Z",
+      "excerpt": "Another swede! This one having fallen quite a bit according to the prognosticators! Palme comes from the Växjö Lakers HC U20 team, where his smart, sensible game as well as quick passing gave him a respectable point...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
+      "title": "Kraken Select Luken “Hawke” Huff 148th Overall!",
+      "link": "https://www.davyjoneslockerroom.com/kraken-select-luken-hawke-huff-148th-overall/",
+      "pubDate": "Sat, 27 Jun 2026 19:05:15 +0000",
+      "isoDate": "2026-06-27T19:05:15.000Z",
+      "excerpt": "I do not mean this lightly. Hawke Huff might be in the top 10 of names in this draft, and there are some good names in this draft. Huff comes to us from the Cedar Rapids Roughriders in the USHL, where he stands at 6’3,...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
+      "title": "Kraken Select Defender Finn Kearns 131st Overall!",
+      "link": "https://www.davyjoneslockerroom.com/kraken-select-defender-finn-kearns-132nd-overall/",
+      "pubDate": "Sat, 27 Jun 2026 18:47:48 +0000",
+      "isoDate": "2026-06-27T18:47:48.000Z",
+      "excerpt": "Now this is an interesting pick. Seattle traded down for this pick with the New York Rangers, and selected a player from Prep High School, who is now committed to playing at Umass Amherst for the Minutemen this Fall. He...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
       "title": "No Movement On Seahawks-Devon Witherspoon Extension",
       "link": "https://www.profootballrumors.com/2026/06/no-movement-on-seahawks-devon-witherspoon-extension",
       "pubDate": "Sat, 27 Jun 2026 18:05:15 +0000",
@@ -588,6 +512,16 @@
       "source": "Pro Football Rumors",
       "team": "seahawks",
       "priority": 2
+    },
+    {
+      "title": "Kraken Select F Viktor Fedorov 99th Overall!",
+      "link": "https://www.davyjoneslockerroom.com/kraken-select-f-viktor-fedorov-99th-overall/",
+      "pubDate": "Sat, 27 Jun 2026 17:53:17 +0000",
+      "isoDate": "2026-06-27T17:53:17.000Z",
+      "excerpt": "The Kraken used their 99th overall pick to get a little russian flair in their draft class! Fedorov comes from Tomsk, Russia, sitting at 5’10 and 183 pounds, shooting left. He plays in the Torpedo Nizhny Novgorod club;...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
     },
     {
       "title": "Jason Robertson Rejects Long-Term Offer From Kraken",
@@ -608,6 +542,76 @@
       "source": "Seahawks.com",
       "team": "seahawks",
       "priority": 6
+    },
+    {
+      "title": "Mariners Outright Miles Mastrobuoni",
+      "link": "https://www.mlbtraderumors.com/2026/06/mariners-outright-miles-mastrobuoni.html",
+      "pubDate": "Thu, 25 Jun 2026 19:34:38 +0000",
+      "isoDate": "2026-06-25T19:34:38.000Z",
+      "excerpt": "The Mariners announced that infielder/outfielder Miles Mastrobuoni cleared waivers and has been outrighted to Triple-A Tacoma. He had been designated for assignment by Seattle last week. He does not have three years of...",
+      "source": "MLB Trade Rumors",
+      "team": "mariners",
+      "priority": 2
+    },
+    {
+      "title": "Seahawks Legends Attend Legends Spring Event",
+      "link": "https://www.seahawks.com/news/seahawks-legends-attend-legends-spring-event",
+      "pubDate": "Tue, 23 Jun 2026 17:00:30 GMT",
+      "isoDate": "2026-06-23T17:00:30.000Z",
+      "excerpt": "Seahawks Legends were back in town for the Legends Spring Event, presented by Columbia Bank, for a cruise along Lake Washington.",
+      "source": "Seahawks.com",
+      "team": "seahawks",
+      "priority": 6
+    },
+    {
+      "title": "Seattle Seahawks Announce Trophy Tour, presented by Accenture",
+      "link": "https://www.seahawks.com/news/seattle-seahawks-announce-trophy-tour-presented-by-accenture",
+      "pubDate": "Tue, 23 Jun 2026 17:00:00 GMT",
+      "isoDate": "2026-06-23T17:00:00.000Z",
+      "excerpt": "In celebration of the team’s Super Bowl LX victory, the Seattle Seahawks invite 12s Everywhere to join them on an official Trophy Tour.",
+      "source": "Seahawks.com",
+      "team": "seahawks",
+      "priority": 6
+    },
+    {
+      "title": "Ernest Jones IV Named To NFL Top 100 Players Of 2026",
+      "link": "https://www.seahawks.com/news/ernest-jones-iv-named-to-nfl-top-100-players-of-2026",
+      "pubDate": "Tue, 23 Jun 2026 15:00:07 GMT",
+      "isoDate": "2026-06-23T15:00:07.000Z",
+      "excerpt": "Seahawks linebacker Ernest Jones IV was voted as one of the NFL’s top 100 players, checking in at No. 97 on the annual list.",
+      "source": "Seahawks.com",
+      "team": "seahawks",
+      "priority": 6
+    },
+    {
+      "title": "Morning Notes: Sabres, Bobrovsky, Wright",
+      "link": "https://www.prohockeyrumors.com/2026/06/morning-notes-sabres-bobrovsky-wright.html",
+      "pubDate": "Mon, 22 Jun 2026 15:32:03 +0000",
+      "isoDate": "2026-06-22T15:32:03.000Z",
+      "excerpt": "The Buffalo Sabres are seeing developments among their big-name players whose names are among the headlines. Darren Dreger of TSN reports that Sabres defenseman Bowen Byram remains a hot commodity among trade scenarios....",
+      "source": "Pro Hockey Rumors",
+      "team": "kraken",
+      "priority": 2
+    },
+    {
+      "title": "Kraken Sign Bobby McMann To Six-Year Extension",
+      "link": "https://www.prohockeyrumors.com/2026/06/kraken-sign-bobby-mcmann-to-six-year-extension.html",
+      "pubDate": "Sun, 21 Jun 2026 21:47:50 +0000",
+      "isoDate": "2026-06-21T21:47:50.000Z",
+      "excerpt": "The Kraken made a move to add a winger when they acquired Mackie Samoskevich from Florida. Now, they’ve made a move to keep another one. The team announced that they’ve re-signed winger Bobby McMann to a six-year,...",
+      "source": "Pro Hockey Rumors",
+      "team": "kraken",
+      "priority": 2
+    },
+    {
+      "title": "Kraken Acquire Mackie Samoskevich",
+      "link": "https://www.prohockeyrumors.com/2026/06/kraken-acquire-mackie-samoskevich.html",
+      "pubDate": "Sun, 21 Jun 2026 16:48:50 +0000",
+      "isoDate": "2026-06-21T16:48:50.000Z",
+      "excerpt": "The Kraken have acquired winger Mackie Samoskevich from the Panthers. Seattle is sending the 25th overall pick in this year’s draft plus a conditional second-rounder in 2027 the other way. Both Seattle and Florida have...",
+      "source": "Pro Hockey Rumors",
+      "team": "kraken",
+      "priority": 2
     }
   ]
 }
