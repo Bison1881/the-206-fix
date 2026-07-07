@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T23:03:49.866Z",
+  "generatedAt": "2026-07-07T02:45:58.753Z",
   "sourceCount": 10,
   "successfulSources": 9,
   "failedSources": [
@@ -9,6 +9,26 @@
     }
   ],
   "items": [
+    {
+      "title": "The NFL’s Longest-Tenured Head Coaches",
+      "link": "https://www.profootballrumors.com/2026/07/the-nfls-longest-tenured-head-coaches-5",
+      "pubDate": "Tue, 07 Jul 2026 00:08:38 +0000",
+      "isoDate": "2026-07-07T00:08:38.000Z",
+      "excerpt": "More than a quarter of the NFL changed coaches this offseason, with a record-tying 10 jobs opening up. Two of those changes shook up the top of his annual midyear list. Mike Tomlin resigned as Steelers head coach after...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
+      "priority": 2
+    },
+    {
+      "title": "World Cup Photo Gallery: US vs Belgium in Seattle",
+      "link": "https://sports.mynorthwest.com/seattle-sports-pit/world-cup-photo-gallery-usa-belgium-seattle",
+      "pubDate": "Mon, 06 Jul 2026 22:59:55 +0000",
+      "isoDate": "2026-07-06T22:59:55.000Z",
+      "excerpt": "See what the scene looks like for one of the biggest sporting events in Seattle history.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
     {
       "title": "Mariners No. 7 prospect makes Team of the Week",
       "link": "https://www.mlb.com/mariners/news/prospect-team-of-the-week-july-6-2026",
@@ -115,16 +135,6 @@
       "pubDate": "Mon, 06 Jul 2026 17:35:55 +0000",
       "isoDate": "2026-07-06T17:35:55.000Z",
       "excerpt": "The Seahawks have the third-highest rate of returning snaps for a reigning Super Bowl champion since 2010.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "A second Mariners top prospect promoted to Triple-A",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-top-prospect-michael-arroyo-triple-a-tacoma",
-      "pubDate": "Mon, 06 Jul 2026 16:55:20 +0000",
-      "isoDate": "2026-07-06T16:55:20.000Z",
-      "excerpt": "Second baseman/left fielder Michael Arroyo is getting promoted on the heels of a four-hit game Saturday in Double-A.",
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
@@ -578,16 +588,6 @@
       "source": "Davy Jones' Locker Room",
       "team": "kraken",
       "priority": 1
-    },
-    {
-      "title": "No Movement On Seahawks-Devon Witherspoon Extension",
-      "link": "https://www.profootballrumors.com/2026/06/no-movement-on-seahawks-devon-witherspoon-extension",
-      "pubDate": "Sat, 27 Jun 2026 18:05:15 +0000",
-      "isoDate": "2026-06-27T18:05:15.000Z",
-      "excerpt": "The Seahawks wasted no time rewarding reigning Offensive Player of the Year Jaxon Smith-Njigba with the biggest wide receiver contract in NFL history this offseason. Negotiations with fellow 2023 first-rounder Devon...",
-      "source": "Pro Football Rumors",
-      "team": "seahawks",
-      "priority": 2
     },
     {
       "title": "Kraken Select F Viktor Fedorov 99th Overall!",
