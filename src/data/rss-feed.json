@@ -1,17 +1,8 @@
 {
-  "generatedAt": "2026-07-07T07:34:32.872Z",
+  "generatedAt": "2026-07-07T10:52:12.733Z",
   "sourceCount": 10,
-  "successfulSources": 8,
-  "failedSources": [
-    {
-      "source": "Seattle Times Sports",
-      "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
-    },
-    {
-      "source": "Davy Jones' Locker Room",
-      "error": "Status code 415 (lenient retry: Status code 415)"
-    }
-  ],
+  "successfulSources": 10,
+  "failedSources": [],
   "items": [
     {
       "title": "Watch recently promoted prospects Montes, Arroyo take cuts at Triple-A for FREE on Thursday",
@@ -24,6 +15,46 @@
       "priority": 6
     },
     {
+      "title": "2026 World Cup: Belgium finds bump from younger lineup, not red card",
+      "link": "https://www.seattletimes.com/sports/world-cup/2026-world-cup-belgium-finds-bump-from-younger-lineup-not-red-card/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Mon, 06 Jul 2026 22:16:58 -0700",
+      "isoDate": "2026-07-07T05:16:58.000Z",
+      "excerpt": "The Belgians made four lineup changes for their World Cup round-of-16 match against USMNT, and it certainly did the trick as the Red Devils advanced.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "2026 World Cup: USMNT’s Matt Freese will struggle to forget finale",
+      "link": "https://www.seattletimes.com/sports/world-cup/2026-world-cup-usmnts-matt-freese-will-struggle-to-forget-finale/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Mon, 06 Jul 2026 21:53:50 -0700",
+      "isoDate": "2026-07-07T04:53:50.000Z",
+      "excerpt": "The defining image of a day that saw the U.S. men's national team eliminated from the World Cup might be goalie Matt Freese's second-half miscue in a 4-1 loss.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "USMNT still far off from World Cup breakthrough after Belgium loss",
+      "link": "https://www.seattletimes.com/sports/world-cup/usmnt-still-far-off-from-world-cup-breakthrough-after-belgium-loss/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Mon, 06 Jul 2026 21:50:42 -0700",
+      "isoDate": "2026-07-07T04:50:42.000Z",
+      "excerpt": "There is nothing to review in the USMNT's FIFA Men's World Cup game loss Monday in Seattle. Belgium was the better team by approximately three galaxies.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "2026 World Cup: After uproar, a quiet night for USMNT’s Folarin Balogun",
+      "link": "https://www.seattletimes.com/sports/world-cup/2026-world-cup-after-uproar-a-quiet-night-for-usmnts-folarin-balogun/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Mon, 06 Jul 2026 21:33:49 -0700",
+      "isoDate": "2026-07-07T04:33:49.000Z",
+      "excerpt": "Considering all the uproar around his circumstances, it was a rather quiet night for Folarin Balogun in the 4-1 loss suffered by the U.S. vs. Belgium at the World Cup.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
       "title": "Flau’jae Johnson scores 23, Seattle Storm beat LA Sparks 82-64",
       "link": "https://sports.mynorthwest.com/wnba/seattle-storm/flaujae-johnson-23-seattle-storm-la-sparks-82-64",
       "pubDate": "Tue, 07 Jul 2026 04:26:25 +0000",
@@ -32,6 +63,16 @@
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
+    },
+    {
+      "title": "Flau’jae Johnson scores 23, Seattle Storm beat Sparks to snap skid",
+      "link": "https://www.seattletimes.com/sports/storm/flaujae-johnson-scores-23-seattle-storm-beat-spark-to-snap-skid/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Mon, 06 Jul 2026 21:08:12 -0700",
+      "isoDate": "2026-07-07T04:08:12.000Z",
+      "excerpt": "Flau'jae Johnson scored a game-high 23 points, and the Storm nearly led wire-to-wire to beat the Sparks 82-64 for their first win against a Western Conference foe.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
     },
     {
       "title": "Balogun has little impact in US World Cup loss after suspension lifted",
@@ -74,6 +115,26 @@
       "priority": 2
     },
     {
+      "title": "USMNT’s World Cup run ends vs. Belgium in Seattle’s final match",
+      "link": "https://www.seattletimes.com/sports/world-cup/usmnts-world-cup-run-ends-vs-belgium-in-seattles-final-match/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Mon, 06 Jul 2026 19:01:00 -0700",
+      "isoDate": "2026-07-07T02:01:00.000Z",
+      "excerpt": "The FIFA Men’s World Cup came to an end in Seattle on a night when the soccer community showed up in force, only to watch the U.S. men get eliminated by Belgium 4-1.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "2026 World Cup: Sounders’ Cristian Roldan won’t see field in Seattle",
+      "link": "https://www.seattletimes.com/sports/world-cup/2026-world-cup-sounders-cristian-roldan-wont-see-field-in-seattle/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Mon, 06 Jul 2026 16:37:15 -0700",
+      "isoDate": "2026-07-06T23:37:15.000Z",
+      "excerpt": "Sounders star Cristian Roldan is still hoping to see the World Cup field for the USMNT, but it won't come in Seattle as the midfielder is sideline with an injury.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
       "title": "World Cup Photo Gallery: US vs Belgium in Seattle",
       "link": "https://sports.mynorthwest.com/seattle-sports-pit/world-cup-photo-gallery-usa-belgium-seattle",
       "pubDate": "Mon, 06 Jul 2026 22:59:55 +0000",
@@ -82,6 +143,16 @@
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
+    },
+    {
+      "title": "Photos: U.S. faces Belgium in World Cup round of 16 in Seattle",
+      "link": "https://www.seattletimes.com/sports/world-cup/photos-u-s-faces-belgium-in-world-cup-round-of-16-in-seattle/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Mon, 06 Jul 2026 15:59:26 -0700",
+      "isoDate": "2026-07-06T22:59:26.000Z",
+      "excerpt": "",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
     },
     {
       "title": "Mariners No. 7 prospect makes Team of the Week",
@@ -414,6 +485,16 @@
       "priority": 2
     },
     {
+      "title": "Kraken add Curtis Douglas in FA on 2-year, 1.25m AAV contract",
+      "link": "https://www.davyjoneslockerroom.com/kraken-add-curtis-douglas-in-fa-on-2-year-1-25m-aav-contract/",
+      "pubDate": "Thu, 02 Jul 2026 02:13:48 +0000",
+      "isoDate": "2026-07-02T02:13:48.000Z",
+      "excerpt": "Cue up Manny Fresh, because the Kraken like their forwards Real Big this free agency. The Kraken announced the signing of Forward Curtis Douglas to a 2 year deal worth $1.25 million. WELCOME ABOARD! 🦑The #SeaKraken...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
       "title": "Kraken Sign Curtis Douglas",
       "link": "https://www.prohockeyrumors.com/2026/07/kraken-sign-curtis-douglas.html",
       "pubDate": "Wed, 01 Jul 2026 20:29:44 +0000",
@@ -422,6 +503,16 @@
       "source": "Pro Hockey Rumors",
       "team": "kraken",
       "priority": 2
+    },
+    {
+      "title": "DJLR Free Agency Frenzy LIVETHREAD",
+      "link": "https://www.davyjoneslockerroom.com/djlr-free-agency-primer/",
+      "pubDate": "Wed, 01 Jul 2026 16:49:53 +0000",
+      "isoDate": "2026-07-01T16:49:53.000Z",
+      "excerpt": "Welcome to free agent frenzy, friends. The NHL has already begun making goofy trades all over the place after the Kraken made a perfectly reasonable call for Mackie Samoskevich, so let’s enjoy the magic as it unfolds!...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
     },
     {
       "title": "Kraken Sign Mackie Samoskevich To Three-Year Deal",
@@ -511,106 +602,6 @@
       "excerpt": "The Mariners dropped back below the .500 mark today, as their 6-5 loss to the Guardians put Seattle’s record at 42-43. Despite the lackluster record, the M’s are only a half-game behind the Rangers for the AL West lead,...",
       "source": "MLB Trade Rumors",
       "team": "mariners",
-      "priority": 2
-    },
-    {
-      "title": "Vikings Announce Front Office Hires",
-      "link": "https://www.profootballrumors.com/2026/06/former-bears-gm-ryan-pace-headlines-vikings-front-office-hires",
-      "pubDate": "Sun, 28 Jun 2026 19:33:26 +0000",
-      "isoDate": "2026-06-28T19:33:26.000Z",
-      "excerpt": "The Vikings took their time finding a new general manager after firing Kwesi Adofo-Mensah in February. Vice president of football operations Rob Brzezinski steered Minnesota through free agency and the draft, which...",
-      "source": "Pro Football Rumors",
-      "team": "seahawks",
-      "priority": 2
-    },
-    {
-      "title": "Jason Robertson Rejects Long-Term Offer From Kraken",
-      "link": "https://www.prohockeyrumors.com/2026/06/jason-robertson-rejects-long-term-offer-from-kraken.html",
-      "pubDate": "Fri, 26 Jun 2026 01:32:48 +0000",
-      "isoDate": "2026-06-26T01:32:48.000Z",
-      "excerpt": "Pending Dallas Stars restricted free agent has reportedly declined a long-term offer from the Seattle Kraken.",
-      "source": "Pro Hockey Rumors",
-      "team": "kraken",
-      "priority": 2
-    },
-    {
-      "title": "Seahawks Travel To Atlanta And Alabama For A Civil Rights Learning Tour",
-      "link": "https://www.seahawks.com/news/seahawks-travel-to-atlanta-and-alabama-for-a-civil-rights-learning-tour",
-      "pubDate": "Thu, 25 Jun 2026 19:57:49 GMT",
-      "isoDate": "2026-06-25T19:57:49.000Z",
-      "excerpt": "Seahawks employees, along with three local educators, took a trip to the South for a learning tour hosted by the Institute for Common Power.",
-      "source": "Seahawks.com",
-      "team": "seahawks",
-      "priority": 6
-    },
-    {
-      "title": "Mariners Outright Miles Mastrobuoni",
-      "link": "https://www.mlbtraderumors.com/2026/06/mariners-outright-miles-mastrobuoni.html",
-      "pubDate": "Thu, 25 Jun 2026 19:34:38 +0000",
-      "isoDate": "2026-06-25T19:34:38.000Z",
-      "excerpt": "The Mariners announced that infielder/outfielder Miles Mastrobuoni cleared waivers and has been outrighted to Triple-A Tacoma. He had been designated for assignment by Seattle last week. He does not have three years of...",
-      "source": "MLB Trade Rumors",
-      "team": "mariners",
-      "priority": 2
-    },
-    {
-      "title": "Seahawks Legends Attend Legends Spring Event",
-      "link": "https://www.seahawks.com/news/seahawks-legends-attend-legends-spring-event",
-      "pubDate": "Tue, 23 Jun 2026 17:00:30 GMT",
-      "isoDate": "2026-06-23T17:00:30.000Z",
-      "excerpt": "Seahawks Legends were back in town for the Legends Spring Event, presented by Columbia Bank, for a cruise along Lake Washington.",
-      "source": "Seahawks.com",
-      "team": "seahawks",
-      "priority": 6
-    },
-    {
-      "title": "Seattle Seahawks Announce Trophy Tour, presented by Accenture",
-      "link": "https://www.seahawks.com/news/seattle-seahawks-announce-trophy-tour-presented-by-accenture",
-      "pubDate": "Tue, 23 Jun 2026 17:00:00 GMT",
-      "isoDate": "2026-06-23T17:00:00.000Z",
-      "excerpt": "In celebration of the team’s Super Bowl LX victory, the Seattle Seahawks invite 12s Everywhere to join them on an official Trophy Tour.",
-      "source": "Seahawks.com",
-      "team": "seahawks",
-      "priority": 6
-    },
-    {
-      "title": "Ernest Jones IV Named To NFL Top 100 Players Of 2026",
-      "link": "https://www.seahawks.com/news/ernest-jones-iv-named-to-nfl-top-100-players-of-2026",
-      "pubDate": "Tue, 23 Jun 2026 15:00:07 GMT",
-      "isoDate": "2026-06-23T15:00:07.000Z",
-      "excerpt": "Seahawks linebacker Ernest Jones IV was voted as one of the NFL’s top 100 players, checking in at No. 97 on the annual list.",
-      "source": "Seahawks.com",
-      "team": "seahawks",
-      "priority": 6
-    },
-    {
-      "title": "Morning Notes: Sabres, Bobrovsky, Wright",
-      "link": "https://www.prohockeyrumors.com/2026/06/morning-notes-sabres-bobrovsky-wright.html",
-      "pubDate": "Mon, 22 Jun 2026 15:32:03 +0000",
-      "isoDate": "2026-06-22T15:32:03.000Z",
-      "excerpt": "The Buffalo Sabres are seeing developments among their big-name players whose names are among the headlines. Darren Dreger of TSN reports that Sabres defenseman Bowen Byram remains a hot commodity among trade scenarios....",
-      "source": "Pro Hockey Rumors",
-      "team": "kraken",
-      "priority": 2
-    },
-    {
-      "title": "Kraken Sign Bobby McMann To Six-Year Extension",
-      "link": "https://www.prohockeyrumors.com/2026/06/kraken-sign-bobby-mcmann-to-six-year-extension.html",
-      "pubDate": "Sun, 21 Jun 2026 21:47:50 +0000",
-      "isoDate": "2026-06-21T21:47:50.000Z",
-      "excerpt": "The Kraken made a move to add a winger when they acquired Mackie Samoskevich from Florida. Now, they’ve made a move to keep another one. The team announced that they’ve re-signed winger Bobby McMann to a six-year,...",
-      "source": "Pro Hockey Rumors",
-      "team": "kraken",
-      "priority": 2
-    },
-    {
-      "title": "Kraken Acquire Mackie Samoskevich",
-      "link": "https://www.prohockeyrumors.com/2026/06/kraken-acquire-mackie-samoskevich.html",
-      "pubDate": "Sun, 21 Jun 2026 16:48:50 +0000",
-      "isoDate": "2026-06-21T16:48:50.000Z",
-      "excerpt": "The Kraken have acquired winger Mackie Samoskevich from the Panthers. Seattle is sending the 25th overall pick in this year’s draft plus a conditional second-rounder in 2027 the other way. Both Seattle and Florida have...",
-      "source": "Pro Hockey Rumors",
-      "team": "kraken",
       "priority": 2
     }
   ]
