@@ -1,9 +1,64 @@
 {
-  "generatedAt": "2026-07-07T10:52:12.733Z",
+  "generatedAt": "2026-07-07T14:24:39.378Z",
   "sourceCount": 10,
-  "successfulSources": 10,
-  "failedSources": [],
+  "successfulSources": 9,
+  "failedSources": [
+    {
+      "source": "Seattle Times Sports",
+      "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
+    }
+  ],
   "items": [
+    {
+      "title": "Brock: An area where Seahawks need young players to ascend",
+      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/brock-an-area-seattle-seahawks-need-young-players-to-ascend",
+      "pubDate": "Tue, 07 Jul 2026 14:21:06 +0000",
+      "isoDate": "2026-07-07T14:21:06.000Z",
+      "excerpt": "Brock Huard explained why it's particularly important for Seattle to establish a young core along its defensive front.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "2026 Cap Space, By Team",
+      "link": "https://www.profootballrumors.com/2026/07/2026-cap-space-by-team",
+      "pubDate": "Tue, 07 Jul 2026 14:00:26 +0000",
+      "isoDate": "2026-07-07T14:00:26.000Z",
+      "excerpt": "With training camps not far away, teams around the NFL will soon witness an influx of signings. Veteran free agents will line up new deals in advance of the 2026 campaign. As a result, this represents a good time to...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
+      "priority": 2
+    },
+    {
+      "title": "5 Seahawks position battle questions heading into training camp",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/170278/5-seattle-seahawks-position-battle-questions-training-camp-preview",
+      "pubDate": "2026-07-07T14:00:00.000Z",
+      "isoDate": "2026-07-07T14:00:00.000Z",
+      "excerpt": "LANDOVER, MARYLAND - NOVEMBER 02: Connor O'Toole #57 of the Seattle Seahawks celebrates during an NFL football game against the Washington Commanders at Northwest Stadium on November 2, 2025 in Landover, Maryland....",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
+    {
+      "title": "Mariners News: Cade Cavalli, Heliot Ramos, and Giancarlo Stanton",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-news/145818/ade-cavalli-heliot-ramos-giancarlo-stanton-lazaro-montes",
+      "pubDate": "2026-07-07T14:00:00.000Z",
+      "isoDate": "2026-07-07T14:00:00.000Z",
+      "excerpt": "SAN FRANCISCO, CA - JULY 06: Heliot Ramos #17 of the San Francisco Giants get doused with Gatorade after the Giants defeated the Toronto Blue Jays at Oracle Park on Monday, July 6, 2026 in San Francisco, California....",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Seahawks News 7/7: How the Seahawks have maintained continuity",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-news/170342/seahawks-news-7-7-how-the-seahawks-have-maintained-continuity",
+      "pubDate": "2026-07-07T13:00:00.000Z",
+      "isoDate": "2026-07-07T13:00:00.000Z",
+      "excerpt": "In Today’s Links: a look at the dreaded Bucaneers game from last season by Seaside Joe, cool Seattle Seahawks videos, more player rankings, and a little bit more. There’s something on the bone, but I hope you brought a...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
     {
       "title": "Watch recently promoted prospects Montes, Arroyo take cuts at Triple-A for FREE on Thursday",
       "link": "https://www.mlb.com/mariners/news/watch-minor-league-baseball-games-for-free-2026",
@@ -15,46 +70,6 @@
       "priority": 6
     },
     {
-      "title": "2026 World Cup: Belgium finds bump from younger lineup, not red card",
-      "link": "https://www.seattletimes.com/sports/world-cup/2026-world-cup-belgium-finds-bump-from-younger-lineup-not-red-card/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Mon, 06 Jul 2026 22:16:58 -0700",
-      "isoDate": "2026-07-07T05:16:58.000Z",
-      "excerpt": "The Belgians made four lineup changes for their World Cup round-of-16 match against USMNT, and it certainly did the trick as the Red Devils advanced.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "2026 World Cup: USMNT’s Matt Freese will struggle to forget finale",
-      "link": "https://www.seattletimes.com/sports/world-cup/2026-world-cup-usmnts-matt-freese-will-struggle-to-forget-finale/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Mon, 06 Jul 2026 21:53:50 -0700",
-      "isoDate": "2026-07-07T04:53:50.000Z",
-      "excerpt": "The defining image of a day that saw the U.S. men's national team eliminated from the World Cup might be goalie Matt Freese's second-half miscue in a 4-1 loss.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "USMNT still far off from World Cup breakthrough after Belgium loss",
-      "link": "https://www.seattletimes.com/sports/world-cup/usmnt-still-far-off-from-world-cup-breakthrough-after-belgium-loss/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Mon, 06 Jul 2026 21:50:42 -0700",
-      "isoDate": "2026-07-07T04:50:42.000Z",
-      "excerpt": "There is nothing to review in the USMNT's FIFA Men's World Cup game loss Monday in Seattle. Belgium was the better team by approximately three galaxies.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "2026 World Cup: After uproar, a quiet night for USMNT’s Folarin Balogun",
-      "link": "https://www.seattletimes.com/sports/world-cup/2026-world-cup-after-uproar-a-quiet-night-for-usmnts-folarin-balogun/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Mon, 06 Jul 2026 21:33:49 -0700",
-      "isoDate": "2026-07-07T04:33:49.000Z",
-      "excerpt": "Considering all the uproar around his circumstances, it was a rather quiet night for Folarin Balogun in the 4-1 loss suffered by the U.S. vs. Belgium at the World Cup.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "Flau’jae Johnson scores 23, Seattle Storm beat LA Sparks 82-64",
       "link": "https://sports.mynorthwest.com/wnba/seattle-storm/flaujae-johnson-23-seattle-storm-la-sparks-82-64",
       "pubDate": "Tue, 07 Jul 2026 04:26:25 +0000",
@@ -63,16 +78,6 @@
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
-    },
-    {
-      "title": "Flau’jae Johnson scores 23, Seattle Storm beat Sparks to snap skid",
-      "link": "https://www.seattletimes.com/sports/storm/flaujae-johnson-scores-23-seattle-storm-beat-spark-to-snap-skid/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Mon, 06 Jul 2026 21:08:12 -0700",
-      "isoDate": "2026-07-07T04:08:12.000Z",
-      "excerpt": "Flau'jae Johnson scored a game-high 23 points, and the Storm nearly led wire-to-wire to beat the Sparks 82-64 for their first win against a Western Conference foe.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
     },
     {
       "title": "Balogun has little impact in US World Cup loss after suspension lifted",
@@ -115,26 +120,6 @@
       "priority": 2
     },
     {
-      "title": "USMNT’s World Cup run ends vs. Belgium in Seattle’s final match",
-      "link": "https://www.seattletimes.com/sports/world-cup/usmnts-world-cup-run-ends-vs-belgium-in-seattles-final-match/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Mon, 06 Jul 2026 19:01:00 -0700",
-      "isoDate": "2026-07-07T02:01:00.000Z",
-      "excerpt": "The FIFA Men’s World Cup came to an end in Seattle on a night when the soccer community showed up in force, only to watch the U.S. men get eliminated by Belgium 4-1.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "2026 World Cup: Sounders’ Cristian Roldan won’t see field in Seattle",
-      "link": "https://www.seattletimes.com/sports/world-cup/2026-world-cup-sounders-cristian-roldan-wont-see-field-in-seattle/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Mon, 06 Jul 2026 16:37:15 -0700",
-      "isoDate": "2026-07-06T23:37:15.000Z",
-      "excerpt": "Sounders star Cristian Roldan is still hoping to see the World Cup field for the USMNT, but it won't come in Seattle as the midfielder is sideline with an injury.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "World Cup Photo Gallery: US vs Belgium in Seattle",
       "link": "https://sports.mynorthwest.com/seattle-sports-pit/world-cup-photo-gallery-usa-belgium-seattle",
       "pubDate": "Mon, 06 Jul 2026 22:59:55 +0000",
@@ -143,16 +128,6 @@
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
-    },
-    {
-      "title": "Photos: U.S. faces Belgium in World Cup round of 16 in Seattle",
-      "link": "https://www.seattletimes.com/sports/world-cup/photos-u-s-faces-belgium-in-world-cup-round-of-16-in-seattle/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Mon, 06 Jul 2026 15:59:26 -0700",
-      "isoDate": "2026-07-06T22:59:26.000Z",
-      "excerpt": "",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
     },
     {
       "title": "Mariners No. 7 prospect makes Team of the Week",
@@ -213,16 +188,6 @@
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
-    },
-    {
-      "title": "Mariners’ Dipoto drops a big hint about MLB trade deadline",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-jerry-dipoto-hint-mlb-trade-deadline",
-      "pubDate": "Mon, 06 Jul 2026 19:20:58 +0000",
-      "isoDate": "2026-07-06T19:20:58.000Z",
-      "excerpt": "M's president of baseball operations Jerry Dipoto expects something that he says is \"not a common thing in history at the trade deadline.\"",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
     },
     {
       "title": "Seahawks RB George Holani Ahead Of Jadarian Price?",
@@ -395,16 +360,6 @@
       "priority": 1
     },
     {
-      "title": "Seahawks News 7/5: Cooper Kupp has a little bit more left in the tank",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-news/170297/seahawks-news-7-5-cooper-kupp-has-a-little-bit-more-left-in-the-tank",
-      "pubDate": "2026-07-05T13:00:00.000Z",
-      "isoDate": "2026-07-05T13:00:00.000Z",
-      "excerpt": "In Today’s Links: not a whole lot, but we’ve got spirit. Thanks for being here with at Field Gulls as we slowly roll through the offseason. Happy Sunday. Go, ‘Hawks! #np Magnolia by J.J. Cale Seattle Seahawks News How...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
-    },
-    {
       "title": "Each NFC Team’s Largest 2026 Cap Hit",
       "link": "https://www.profootballrumors.com/2026/07/each-nfc-teams-largest-2026-cap-hit",
       "pubDate": "Sun, 05 Jul 2026 03:32:15 +0000",
@@ -425,16 +380,6 @@
       "priority": 6
     },
     {
-      "title": "Randy Arozarena Named to 2026 American League All-Star Team",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-news/24480542/randy-arozarena-named-to-2026-american-league-all-star-team",
-      "pubDate": "2026-07-05T00:10:29.000Z",
-      "isoDate": "2026-07-05T00:10:29.000Z",
-      "excerpt": "ATLANTA, GA - JULY 14: Randy Arozarena #56 of the Seattle Mariners poses for a photo during the 2025 MLB All-Star player photo shoot at Truist Park on Monday, July 14, 2025 in Atlanta, Georgia. (Photo by Rob...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
       "title": "Kraken Working With Shane Wright To Find A Suitable Trade",
       "link": "https://www.prohockeyrumors.com/2026/07/kraken-working-with-shane-wright-to-find-a-suitable-trade.html",
       "pubDate": "Sat, 04 Jul 2026 16:59:35 +0000",
@@ -443,16 +388,6 @@
       "source": "Pro Hockey Rumors",
       "team": "kraken",
       "priority": 2
-    },
-    {
-      "title": "Seahawks News 7/4: Happy 4th of July from Field Gulls!",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-news/170267/seahawks-news-7-4-happy-4th-of-july-from-field-gulls",
-      "pubDate": "2026-07-04T13:00:00.000Z",
-      "isoDate": "2026-07-04T13:00:00.000Z",
-      "excerpt": "[UNVERIFIED CONTENT] 4th of July Seattle 2012, Fourth of July Seattle, Fourth of July Space Needle, 4th of July Space Needle, Lake Union Fireworks, Washington State, Pacific Northwest, Firework Shows, 4th of July,...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
     },
     {
       "title": "Mariners Place Julio Rodríguez On Concussion IL",
@@ -602,6 +537,76 @@
       "excerpt": "The Mariners dropped back below the .500 mark today, as their 6-5 loss to the Guardians put Seattle’s record at 42-43. Despite the lackluster record, the M’s are only a half-game behind the Rangers for the AL West lead,...",
       "source": "MLB Trade Rumors",
       "team": "mariners",
+      "priority": 2
+    },
+    {
+      "title": "Kraken Select F William Tomko 204th Overall!",
+      "link": "https://www.davyjoneslockerroom.com/kraken-select-f-william-tomko-204th-overall/",
+      "pubDate": "Sat, 27 Jun 2026 20:28:34 +0000",
+      "isoDate": "2026-06-27T20:28:34.000Z",
+      "excerpt": "The Kraken’s final selection is here! Meet William Tomko! Tomko appears before us as a Right shot Forward at 6’0, 198 pounds, playing for the Sioux Falls Musketeers, who will be heading to his first season at Ohio...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
+      "title": "Kraken Select D Rylan Singh 198th Overall!",
+      "link": "https://www.davyjoneslockerroom.com/kraken-select-d-rylan-singh-198th-overall/",
+      "pubDate": "Sat, 27 Jun 2026 20:09:21 +0000",
+      "isoDate": "2026-06-27T20:09:21.000Z",
+      "excerpt": "The 1st of the last round of the playoffs involves a young man from Pickering! Rylan Singh plays for the Guelph Storm, having a respectable line for a defenseman in OHL time, and stands at 6’0, 187 pounds; shooting...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
+      "title": "Kraken Select D Ola Palme 166th Overall!",
+      "link": "https://www.davyjoneslockerroom.com/kraken-select-d-ola-palme-166th-overall/",
+      "pubDate": "Sat, 27 Jun 2026 19:28:09 +0000",
+      "isoDate": "2026-06-27T19:28:09.000Z",
+      "excerpt": "Another swede! This one having fallen quite a bit according to the prognosticators! Palme comes from the Växjö Lakers HC U20 team, where his smart, sensible game as well as quick passing gave him a respectable point...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
+      "title": "Kraken Select Luken “Hawke” Huff 148th Overall!",
+      "link": "https://www.davyjoneslockerroom.com/kraken-select-luken-hawke-huff-148th-overall/",
+      "pubDate": "Sat, 27 Jun 2026 19:05:15 +0000",
+      "isoDate": "2026-06-27T19:05:15.000Z",
+      "excerpt": "I do not mean this lightly. Hawke Huff might be in the top 10 of names in this draft, and there are some good names in this draft. Huff comes to us from the Cedar Rapids Roughriders in the USHL, where he stands at 6’3,...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
+      "title": "Kraken Select Defender Finn Kearns 131st Overall!",
+      "link": "https://www.davyjoneslockerroom.com/kraken-select-defender-finn-kearns-132nd-overall/",
+      "pubDate": "Sat, 27 Jun 2026 18:47:48 +0000",
+      "isoDate": "2026-06-27T18:47:48.000Z",
+      "excerpt": "Now this is an interesting pick. Seattle traded down for this pick with the New York Rangers, and selected a player from Prep High School, who is now committed to playing at Umass Amherst for the Minutemen this Fall. He...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
+      "title": "Kraken Select F Viktor Fedorov 99th Overall!",
+      "link": "https://www.davyjoneslockerroom.com/kraken-select-f-viktor-fedorov-99th-overall/",
+      "pubDate": "Sat, 27 Jun 2026 17:53:17 +0000",
+      "isoDate": "2026-06-27T17:53:17.000Z",
+      "excerpt": "The Kraken used their 99th overall pick to get a little russian flair in their draft class! Fedorov comes from Tomsk, Russia, sitting at 5’10 and 183 pounds, shooting left. He plays in the Torpedo Nizhny Novgorod club;...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
+      "title": "Jason Robertson Rejects Long-Term Offer From Kraken",
+      "link": "https://www.prohockeyrumors.com/2026/06/jason-robertson-rejects-long-term-offer-from-kraken.html",
+      "pubDate": "Fri, 26 Jun 2026 01:32:48 +0000",
+      "isoDate": "2026-06-26T01:32:48.000Z",
+      "excerpt": "Pending Dallas Stars restricted free agent has reportedly declined a long-term offer from the Seattle Kraken.",
+      "source": "Pro Hockey Rumors",
+      "team": "kraken",
       "priority": 2
     }
   ]
