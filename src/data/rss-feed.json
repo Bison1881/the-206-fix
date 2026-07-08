@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-07T22:58:00.856Z",
+  "generatedAt": "2026-07-08T02:24:29.450Z",
   "sourceCount": 10,
   "successfulSources": 9,
   "failedSources": [
@@ -9,6 +9,46 @@
     }
   ],
   "items": [
+    {
+      "title": "47-45: Chart",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/145856/47-45-chart",
+      "pubDate": "2026-07-08T02:06:11.000Z",
+      "isoDate": "2026-07-08T02:06:11.000Z",
+      "excerpt": "Jul 7, 2026; Miami, Florida, USA; Seattle Mariners second baseman Cole Young (2) celebrates with teammates after hitting a home run against the Miami Marlins during the fifth inning at loanDepot Park. Mandatory Credit:...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Seattle Storm’s Dominique Malonga named WNBA All-Star reserve",
+      "link": "https://sports.mynorthwest.com/wnba/seattle-storm/seattle-storm-dominique-malonga-wnba-all-star-reserves",
+      "pubDate": "Wed, 08 Jul 2026 00:01:27 +0000",
+      "isoDate": "2026-07-08T00:01:27.000Z",
+      "excerpt": "Second-year Seattle Storm center Dominique Malonga is a first-time WNBA All-Star after being voted in by the league's coaches.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Switzerland beats Colombia in shootout for spot in World Cup quarterfinals",
+      "link": "https://sports.mynorthwest.com/seattle-sports-pit/switzerland-beats-colombia-in-shootout-for-spot-in-world-cup-quarterfinals",
+      "pubDate": "Tue, 07 Jul 2026 23:38:31 +0000",
+      "isoDate": "2026-07-07T23:38:31.000Z",
+      "excerpt": "Ruben Vargas converted his penalty and Switzerland advanced to the World Cup quarterfinals with a 4-3 shootout win over Colombia after a scoreless draw on Tuesday.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Mariners Game #92 Preview and Discussion, 7/7/26: SEA at MIA",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-discussion/145850/mariners-game-92-preview-and-discussion-7-7-26-sea-at-mia",
+      "pubDate": "2026-07-07T22:15:54.000Z",
+      "isoDate": "2026-07-07T22:15:54.000Z",
+      "excerpt": "Jun 30, 2026; Seattle, Washington, USA; Seattle Mariners starting pitcher Bryan Woo (22) pitches to the Los Angeles Angels during the seventh inning at T-Mobile Park. Mandatory Credit: Steven Bisig-Imagn Images | Steven...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
     {
       "title": "Seattle World Cup match most-watched US TV soccer broadcast ever",
       "link": "https://sports.mynorthwest.com/seattle-sports-pit/world-cup-seattle-most-watched-us-soccer-telecast",
@@ -140,16 +180,6 @@
       "priority": 1
     },
     {
-      "title": "Why Morosi says Mariners have a leg up on last year’s team",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-jon-morosi-cal-raleigh-leg-up",
-      "pubDate": "Tue, 07 Jul 2026 17:13:02 +0000",
-      "isoDate": "2026-07-07T17:13:02.000Z",
-      "excerpt": "Not only are the Mariners in control of their division this year, but they're in a better spot in terms of depth.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
       "title": "The 2026 Seattle Mariners as framers of the United States constitution",
       "link": "https://www.lookoutlanding.com/seattle-mariners-discussion/145809/the-2026-seattle-mariners-as-framers-of-the-united-states-constitution",
       "pubDate": "2026-07-07T17:00:00.000Z",
@@ -158,16 +188,6 @@
       "source": "Lookout Landing",
       "team": "mariners",
       "priority": 1
-    },
-    {
-      "title": "US star Christian Pulisic concludes disappointing World Cup",
-      "link": "https://sports.mynorthwest.com/seattle-sports-pit/us-star-christian-pulisic-concludes-disappointing-world-cup",
-      "pubDate": "Tue, 07 Jul 2026 16:04:42 +0000",
-      "isoDate": "2026-07-07T16:04:42.000Z",
-      "excerpt": "Pulisic, the most accomplished U.S. striker, was hobbled by injuries and held scoreless in his second World Cup.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
     },
     {
       "title": "2026 Cap Space, By Team",
@@ -320,16 +340,6 @@
       "priority": 1
     },
     {
-      "title": "Mariners News: Julio Rodriguez, Ranger Suárez, and Byron Buxton",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-news/145778/julio-rodriguez-ranger-suarez-byron-buxton-brandon-woodruff-eury-perez",
-      "pubDate": "2026-07-06T14:00:00.000Z",
-      "isoDate": "2026-07-06T14:00:00.000Z",
-      "excerpt": "SEATTLE, WA - JULY 02: Julio Rodríguez #44 of the Seattle Mariners looks on during the game between the Los Angeles Angels and the Seattle Mariners at T-Mobile Park on Thursday, July 2, 2026 in Seattle, Washington....",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
       "title": "Seahawks News 7/6: Seahawks still need Jarran Reed in 2026",
       "link": "https://www.fieldgulls.com/seattle-seahawks-news/170311/seahawks-news-7-6-seahawks-still-need-jarran-reed-in-2026",
       "pubDate": "2026-07-06T13:00:00.000Z",
@@ -337,16 +347,6 @@
       "excerpt": "Dec 22, 2024; Seattle, Washington, USA; Seattle Seahawks defensive tackle Jarran Reed (90) celebrates after sacking Minnesota Vikings quarterback Sam Darnold (14) (not pictured) during the first half at Lumen Field....",
       "source": "Field Gulls",
       "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "Sundays are for the Garv: Mitch Garver homers in 4-0 Mariners win",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/145758/sundays-are-for-the-garv-mitch-garver-homers-in-4-0-mariners-win",
-      "pubDate": "2026-07-06T00:57:33.000Z",
-      "isoDate": "2026-07-06T00:57:33.000Z",
-      "excerpt": "Jul 5, 2026; Seattle, Washington, USA; Seattle Mariners catcher Mitch Garver (18) runs the bases after hitting a two-run home run against the Toronto Blue Jays during the fourth inning at T-Mobile Park. Mandatory...",
-      "source": "Lookout Landing",
-      "team": "mariners",
       "priority": 1
     },
     {
