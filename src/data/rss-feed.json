@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-08T02:24:29.450Z",
+  "generatedAt": "2026-07-08T06:25:16.674Z",
   "sourceCount": 10,
   "successfulSources": 9,
   "failedSources": [
@@ -9,6 +9,46 @@
     }
   ],
   "items": [
+    {
+      "title": "Mariners' comeback bid falls short as they drop 10-inning thriller",
+      "link": "https://www.mlb.com/mariners/news/mariners-lose-to-marlins-in-10-innings",
+      "pubDate": "Wed, 08 Jul 2026 05:45:36 GMT",
+      "isoDate": "2026-07-08T05:45:36.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "2026 Cap Space, By Team",
+      "link": "https://www.profootballrumors.com/2026/07/2026-cap-space-by-team",
+      "pubDate": "Wed, 08 Jul 2026 03:15:26 +0000",
+      "isoDate": "2026-07-08T03:15:26.000Z",
+      "excerpt": "With training camps not far away, teams around the NFL will soon witness an influx of signings. Veteran free agents will line up new deals in advance of the 2026 campaign. As a result, this represents a good time to...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
+      "priority": 2
+    },
+    {
+      "title": "Marlins walk off Mariners for 6-5 win in 10 innings",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/miami-marlins-walk-off-seattle-mariners-6-5",
+      "pubDate": "Wed, 08 Jul 2026 02:44:37 +0000",
+      "isoDate": "2026-07-08T02:44:37.000Z",
+      "excerpt": "Jakob Marsee hit a game-ending single off the wall in right field in the 10th inning.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Mariners fail to take advantage of opportunities, lose 6-5",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/145855/mariners-fail-to-take-advantage-of-opportunities-lose-6-5",
+      "pubDate": "2026-07-08T02:29:46.000Z",
+      "isoDate": "2026-07-08T02:29:46.000Z",
+      "excerpt": "Jul 7, 2026; Miami, Florida, USA; Seattle Mariners shortstop Colt Emerson (4) is forced out at home plate against the Miami Marlins during the sixth inning at loanDepot Park. Mandatory Credit: Sam Navarro-Imagn Images |...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
     {
       "title": "47-45: Chart",
       "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/145856/47-45-chart",
@@ -160,16 +200,6 @@
       "priority": 3
     },
     {
-      "title": "Mariners prospects sweep Double-A Texas League monthly awards",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-prospects-sweep-texas-league-awards-anderson-montes-june",
-      "pubDate": "Tue, 07 Jul 2026 17:36:04 +0000",
-      "isoDate": "2026-07-07T17:36:04.000Z",
-      "excerpt": "Kade Anderson and Lazaro Montes were rewarded for their dominance in Double-A Arkansas over the month of June.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
       "title": "Series Preview: Mariners (47-44) at Marlins (49-42)",
       "link": "https://www.lookoutlanding.com/seattle-mariners-game-information/145828/series-preview-seattle-mariners-at-miami-marlins-july-2026",
       "pubDate": "2026-07-07T17:30:00.000Z",
@@ -180,7 +210,7 @@
       "priority": 1
     },
     {
-      "title": "The 2026 Seattle Mariners as framers of the United States constitution",
+      "title": "The 2026 Seattle Mariners as framers of the United States Constitution",
       "link": "https://www.lookoutlanding.com/seattle-mariners-discussion/145809/the-2026-seattle-mariners-as-framers-of-the-united-states-constitution",
       "pubDate": "2026-07-07T17:00:00.000Z",
       "isoDate": "2026-07-07T17:00:00.000Z",
@@ -188,16 +218,6 @@
       "source": "Lookout Landing",
       "team": "mariners",
       "priority": 1
-    },
-    {
-      "title": "2026 Cap Space, By Team",
-      "link": "https://www.profootballrumors.com/2026/07/2026-cap-space-by-team",
-      "pubDate": "Tue, 07 Jul 2026 14:00:26 +0000",
-      "isoDate": "2026-07-07T14:00:26.000Z",
-      "excerpt": "With training camps not far away, teams around the NFL will soon witness an influx of signings. Veteran free agents will line up new deals in advance of the 2026 campaign. As a result, this represents a good time to...",
-      "source": "Pro Football Rumors",
-      "team": "seahawks",
-      "priority": 2
     },
     {
       "title": "5 Seahawks position battle questions heading into training camp",
@@ -250,16 +270,6 @@
       "priority": 2
     },
     {
-      "title": "Mariners No. 7 prospect makes Team of the Week",
-      "link": "https://www.mlb.com/mariners/news/prospect-team-of-the-week-july-6-2026",
-      "pubDate": "Mon, 06 Jul 2026 21:27:05 GMT",
-      "isoDate": "2026-07-06T21:27:05.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
-    },
-    {
       "title": "Lookout Landing’s who, what, where, and when for the 2026 MLB draft",
       "link": "https://www.lookoutlanding.com/seattle-mariners-mlb-draft/145803/lookout-landings-who-what-where-and-when-for-the-2026-mlb-draft",
       "pubDate": "2026-07-06T20:16:19.000Z",
@@ -308,16 +318,6 @@
       "source": "Seahawks.com",
       "team": "seahawks",
       "priority": 6
-    },
-    {
-      "title": "Seattle Mariners Minor League Roundup &#8211; Week Fifteen",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-prospects/145774/seattle-mariners-minor-league-roundup-week-fifteen",
-      "pubDate": "2026-07-06T16:00:00.000Z",
-      "isoDate": "2026-07-06T16:00:00.000Z",
-      "excerpt": "Tacoma Rainiers The Rainiers dropped the series to a poor Reno team, unable to best the Arizona affiliate that’s struggled for much of the 2026 season. There’s reason for optimism for the Rainiers and they should have a...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
     },
     {
       "title": "Which Seahawks rookies could make the biggest impact in 2026?",
