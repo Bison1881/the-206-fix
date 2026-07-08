@@ -1,9 +1,94 @@
 {
-  "generatedAt": "2026-07-08T16:01:27.546Z",
+  "generatedAt": "2026-07-08T19:19:46.953Z",
   "sourceCount": 10,
-  "successfulSources": 10,
-  "failedSources": [],
+  "successfulSources": 9,
+  "failedSources": [
+    {
+      "source": "Davy Jones' Locker Room",
+      "error": "Status code 415 (lenient retry: Status code 415)"
+    }
+  ],
   "items": [
+    {
+      "title": "Sounders’ Jackson Ragen earns MLS All-Star nod",
+      "link": "https://www.seattletimes.com/sports/sounders/sounders-jackson-ragen-earns-mls-all-star-nod/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Wed, 08 Jul 2026 11:59:56 -0700",
+      "isoDate": "2026-07-08T18:59:56.000Z",
+      "excerpt": "Major League soccer announced the full roster for its All-Star Game, and Sounders defender Jackson Ragen was among the reserves.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "FIFA’s Infantino targeted by complaint to Olympic ethics body after Trump lobbying on Balogun ban",
+      "link": "https://www.seattletimes.com/sports/fifas-infantino-targeted-by-complaint-to-olympic-ethics-body-after-trump-lobbying-on-balogun-ban/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Wed, 08 Jul 2026 10:57:18 -0700",
+      "isoDate": "2026-07-08T17:57:18.000Z",
+      "excerpt": "FIFA President Gianni Infantino is being referred to Olympic ethics investigators for a possible breach of political neutrality.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "What Seahawks Players Have Been Up To This Offseason",
+      "link": "https://www.seahawks.com/news/what-seahawks-players-have-been-up-to-this-offseason",
+      "pubDate": "Wed, 08 Jul 2026 17:36:44 GMT",
+      "isoDate": "2026-07-08T17:36:44.000Z",
+      "excerpt": "From traveling, to getting married, here’s what some Seahawks players have been up to this offseason.",
+      "source": "Seahawks.com",
+      "team": "seahawks",
+      "priority": 6
+    },
+    {
+      "title": "Von Miller Reflects On 2025 FA Decision",
+      "link": "https://www.profootballrumors.com/2026/07/von-miller-reflects-on-2025-fa-decision",
+      "pubDate": "Wed, 08 Jul 2026 17:21:32 +0000",
+      "isoDate": "2026-07-08T17:21:32.000Z",
+      "excerpt": "Future Hall of Fame pass rusher Von Miller has spent a solid portion of his 15-year career playing for contenders. Miller won a Super Bowl apiece with the Broncos and Rams (he took home Super Bowl 50 MVP honors with...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
+      "priority": 2
+    },
+    {
+      "title": "Seahawks coach Macdonald playing in star-studded celebrity golf tourney",
+      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/seattle-seahawks-macdonald-star-studded-celebrity-golf-tourney",
+      "pubDate": "Wed, 08 Jul 2026 16:23:25 +0000",
+      "isoDate": "2026-07-08T16:23:25.000Z",
+      "excerpt": "Mike Macdonald is slated to compete in the biggest celebrity golf tournament of the year this weekend at Lake Tahoe.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "World Cup quarterfinals: It’s Messi, Morocco, and 6 teams from Europe. And that’s not unusual",
+      "link": "https://www.seattletimes.com/sports/world-cup/world-cup-quarterfinals-its-messi-morocco-and-6-teams-from-europe-and-thats-not-unusual/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Wed, 08 Jul 2026 09:20:30 -0700",
+      "isoDate": "2026-07-08T16:20:30.000Z",
+      "excerpt": "Unless Morocco pulls off a series of surprising outcomes over the final two weeks, the World Cup champion will come from Europe or South America. Again. As always.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Why World Cup game balls always make their way back onto the pitch during matches",
+      "link": "https://www.seattletimes.com/sports/world-cup/why-world-cup-game-balls-always-make-their-way-back-onto-the-pitch-during-matches/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Wed, 08 Jul 2026 09:14:39 -0700",
+      "isoDate": "2026-07-08T16:14:39.000Z",
+      "excerpt": "The ball has made headlines with its embedded technology and raised questions among fans, including: Why is everyone expected to toss the ball back onto the pitch?",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Queen Camilla visits Wimbledon and is joined by actor who played her husband",
+      "link": "https://www.seattletimes.com/nation-world/queen-camilla-visits-wimbledon-and-is-joined-by-actor-who-played-her-husband/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Wed, 08 Jul 2026 09:12:58 -0700",
+      "isoDate": "2026-07-08T16:12:58.000Z",
+      "excerpt": "Britain’s Queen Camilla is making her customary visit to Wimbledon and was joined in the Royal Box by an actor who once portrayed her husband.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
     {
       "title": "Seahawks Reacts Survey: Which position group are you most interested in during training camp?",
       "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/170351/seahawks-reacts-survey-which-position-group-training-camp-most-attention-nfl-discussion",
@@ -29,7 +114,7 @@
       "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/huard-what-makes-seattle-seahawks-offensive-coaching-staff-unique",
       "pubDate": "Wed, 08 Jul 2026 14:50:29 +0000",
       "isoDate": "2026-07-08T14:50:29.000Z",
-      "excerpt": "Brock Huard highlighted the \"tremendous diversity of skill sets and backgrounds\" on Seattle's offensive coaching staff.",
+      "excerpt": "Brock Huard highlighted the staff's \"tremendous diversity of skill sets and backgrounds.\"",
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
@@ -52,6 +137,16 @@
       "excerpt": "For years, one of the biggest questions surrounding the Seattle Seahawks has been the offensive line. Coaching staffs have changed, quarterbacks have changed, offfensive coordinators have come and gone. Seattle has...",
       "source": "Field Gulls",
       "team": "seahawks",
+      "priority": 1
+    },
+    {
+      "title": "Mariners News: Dominic Canzone, Stuart Fairchild, and Luis Lara",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-news/145849/mariners-news-dominic-canzone-stuart-fairchild-and-luis-lara",
+      "pubDate": "2026-07-08T14:00:00.000Z",
+      "isoDate": "2026-07-08T14:00:00.000Z",
+      "excerpt": "Jul 7, 2026; St. Louis, Missouri, USA; Milwaukee Brewers center fielder Luis Lara (18) hits a two run single in his Major League debut during the fifth inning against the St. Louis Cardinals at Busch Stadium. Mandatory...",
+      "source": "Lookout Landing",
+      "team": "mariners",
       "priority": 1
     },
     {
@@ -125,43 +220,23 @@
       "priority": 3
     },
     {
-      "title": "Pirates’ Ryan O’Hearn sets club record with 10 RBIs during 3-homer night vs. Braves",
-      "link": "https://www.seattletimes.com/sports/mlb/pirates-ryan-ohearn-sets-club-record-with-10-rbis-during-3-homer-night-vs-braves/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Tue, 07 Jul 2026 19:38:03 -0700",
-      "isoDate": "2026-07-08T02:38:03.000Z",
-      "excerpt": "Pittsburgh Pirates first baseman Ryan O'Hearn set a franchise record by driving in 10 runs on three homers against Atlanta.",
-      "source": "Seattle Times Sports",
-      "team": "general",
+      "title": "Mariners fail to take advantage of opportunities, lose 6-5",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/145855/mariners-fail-to-take-advantage-of-opportunities-lose-6-5",
+      "pubDate": "2026-07-08T02:29:46.000Z",
+      "isoDate": "2026-07-08T02:29:46.000Z",
+      "excerpt": "Jul 7, 2026; Miami, Florida, USA; Seattle Mariners shortstop Colt Emerson (4) is forced out at home plate against the Miami Marlins during the sixth inning at loanDepot Park. Mandatory Credit: Sam Navarro-Imagn Images |...",
+      "source": "Lookout Landing",
+      "team": "mariners",
       "priority": 1
     },
     {
-      "title": "Seattle Mariners can’t execute in extras, fall to Marlins on walkoff hit",
-      "link": "https://www.seattletimes.com/sports/mariners/seattle-mariners-cant-execute-in-extras-fall-to-marlins-on-walkoff-hit/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Tue, 07 Jul 2026 19:16:13 -0700",
-      "isoDate": "2026-07-08T02:16:13.000Z",
-      "excerpt": "The Mariners failed to score in the top of the 10th inning thanks to a costly baserunning mistake, and the Marlins took advantage, winning on a walkoff.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Photos: Mariners at Marlins",
-      "link": "https://www.seattletimes.com/photo-video/photography/photos-mariners-at-marlins-3/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Tue, 07 Jul 2026 17:17:38 -0700",
-      "isoDate": "2026-07-08T00:17:38.000Z",
-      "excerpt": "",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "IOC lifts Russia’s Olympic suspension, clearing the way for 2028",
-      "link": "https://www.seattletimes.com/sports/ioc-lifts-russias-olympic-suspension-clearing-the-way-for-2028/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Tue, 07 Jul 2026 17:14:58 -0700",
-      "isoDate": "2026-07-08T00:14:58.000Z",
-      "excerpt": "The International Olympic Committee lifted its suspension of Russia related to its invasion of Ukraine, clearing the way for Russia to send a team to the 2028 Summer Olympics in Los Angeles.",
-      "source": "Seattle Times Sports",
-      "team": "general",
+      "title": "47-45: Chart",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/145856/47-45-chart",
+      "pubDate": "2026-07-08T02:06:11.000Z",
+      "isoDate": "2026-07-08T02:06:11.000Z",
+      "excerpt": "Jul 7, 2026; Miami, Florida, USA; Seattle Mariners second baseman Cole Young (2) celebrates with teammates after hitting a home run against the Miami Marlins during the fifth inning at loanDepot Park. Mandatory Credit:...",
+      "source": "Lookout Landing",
+      "team": "mariners",
       "priority": 1
     },
     {
@@ -173,16 +248,6 @@
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
-    },
-    {
-      "title": "What’s next for Seattle as the FIFA World Cup winds down in the city?",
-      "link": "https://www.seattletimes.com/business/whats-next-for-seattle-as-the-fifa-world-cup-winds-down-in-the-city/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Tue, 07 Jul 2026 16:50:00 -0700",
-      "isoDate": "2026-07-07T23:50:00.000Z",
-      "excerpt": "One day after the last Seattle-based match of the soccer tournament, local leaders are tantalized by the prospect of hosting the 2031 FIFA Women's World Cup.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
     },
     {
       "title": "Switzerland beats Colombia in shootout for spot in World Cup quarterfinals",
@@ -215,31 +280,11 @@
       "priority": 3
     },
     {
-      "title": "Shane Wright wants out, and his development is the key to why",
-      "link": "https://www.davyjoneslockerroom.com/shane-wright-wants-out-and-his-development-is-the-key-to-why/",
-      "pubDate": "Tue, 07 Jul 2026 21:00:00 +0000",
-      "isoDate": "2026-07-07T21:00:00.000Z",
-      "excerpt": "Elliote Friedman of SportsNet revealed in a bombshell that the Kraken were once again exploring all options with Center Shane Wright, as according to Wright’s Agent that he could “…confirm that we have had positive...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
-    },
-    {
       "title": "Seattle World Cup: 2 US staff members suspended; Belgium player injured",
       "link": "https://sports.mynorthwest.com/seattle-sports-pit/seattle-world-cup-us-staff-suspended-belgium-player-injured",
       "pubDate": "Tue, 07 Jul 2026 20:57:08 +0000",
       "isoDate": "2026-07-07T20:57:08.000Z",
       "excerpt": "A few pieces of news came out Tuesday stemming from Monday's World Cup match between the US and Belgium in Seattle.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "Passan: Trade deadline comment by Mariners’ Dipoto ‘interesting’",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-jeff-passan-jerry-dipoto-trade-deadline",
-      "pubDate": "Tue, 07 Jul 2026 20:36:07 +0000",
-      "isoDate": "2026-07-07T20:36:07.000Z",
-      "excerpt": "\"Buyer-buyer trades are like the hardest thing to execute at the deadline,\" ESPN's Jeff Passan responded to Brock and Salk.",
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
@@ -305,7 +350,7 @@
       "priority": 1
     },
     {
-      "title": "The 2026 Seattle Mariners as framers of the United States constitution",
+      "title": "The 2026 Seattle Mariners as framers of the United States Constitution",
       "link": "https://www.lookoutlanding.com/seattle-mariners-discussion/145809/the-2026-seattle-mariners-as-framers-of-the-united-states-constitution",
       "pubDate": "2026-07-07T17:00:00.000Z",
       "isoDate": "2026-07-07T17:00:00.000Z",
@@ -365,16 +410,6 @@
       "priority": 2
     },
     {
-      "title": "Lookout Landing’s who, what, where, and when for the 2026 MLB draft",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-mlb-draft/145803/lookout-landings-who-what-where-and-when-for-the-2026-mlb-draft",
-      "pubDate": "2026-07-06T20:16:19.000Z",
-      "isoDate": "2026-07-06T20:16:19.000Z",
-      "excerpt": "PHOENIX, AZ - JUNE 26: Max Bayles #57 warms up during the 2026 Draft Combine at Chase Field on Friday, June 26, 2026 in Phoenix, Arizona. (Photo by Jill Weisleder/MLB Photos via Getty Images) | MLB Photos via Getty...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
       "title": "Randy's All-Star selection a combo of trademark consistency and new mindset",
       "link": "https://www.mlb.com/mariners/news/randy-arozarena-s-approach-in-all-star-first-half",
       "pubDate": "Mon, 06 Jul 2026 19:40:08 GMT",
@@ -415,16 +450,6 @@
       "priority": 6
     },
     {
-      "title": "Seattle Mariners Minor League Roundup &#8211; Week Fifteen",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-prospects/145774/seattle-mariners-minor-league-roundup-week-fifteen",
-      "pubDate": "2026-07-06T16:00:00.000Z",
-      "isoDate": "2026-07-06T16:00:00.000Z",
-      "excerpt": "Tacoma Rainiers The Rainiers dropped the series to a poor Reno team, unable to best the Arizona affiliate that’s struggled for much of the 2026 season. There’s reason for optimism for the Rainiers and they should have a...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
       "title": "Which Seahawks rookies could make the biggest impact in 2026?",
       "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/170279/which-seahawks-rookies-could-make-biggest-impact-2026-nfl-season",
       "pubDate": "2026-07-06T15:00:00.000Z",
@@ -432,16 +457,6 @@
       "excerpt": "RENTON, WASHINGTON - JUNE 11: Julian Neal #1 of the Seattle Seahawks runs during practice at Virginia Mason Athletic Center on June 11, 2026 in Renton, Washington. (Photo by Jack Compton/Getty Images) | Getty Images The...",
       "source": "Field Gulls",
       "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "Mariners News: Julio Rodriguez, Ranger Suárez, and Byron Buxton",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-news/145778/julio-rodriguez-ranger-suarez-byron-buxton-brandon-woodruff-eury-perez",
-      "pubDate": "2026-07-06T14:00:00.000Z",
-      "isoDate": "2026-07-06T14:00:00.000Z",
-      "excerpt": "SEATTLE, WA - JULY 02: Julio Rodríguez #44 of the Seattle Mariners looks on during the game between the Los Angeles Angels and the Seattle Mariners at T-Mobile Park on Thursday, July 2, 2026 in Seattle, Washington....",
-      "source": "Lookout Landing",
-      "team": "mariners",
       "priority": 1
     },
     {
@@ -535,16 +550,6 @@
       "priority": 2
     },
     {
-      "title": "Kraken add Curtis Douglas in FA on 2-year, 1.25m AAV contract",
-      "link": "https://www.davyjoneslockerroom.com/kraken-add-curtis-douglas-in-fa-on-2-year-1-25m-aav-contract/",
-      "pubDate": "Thu, 02 Jul 2026 02:13:48 +0000",
-      "isoDate": "2026-07-02T02:13:48.000Z",
-      "excerpt": "Cue up Manny Fresh, because the Kraken like their forwards Real Big this free agency. The Kraken announced the signing of Forward Curtis Douglas to a 2 year deal worth $1.25 million. WELCOME ABOARD! 🦑The #SeaKraken...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
-    },
-    {
       "title": "Kraken Sign Curtis Douglas",
       "link": "https://www.prohockeyrumors.com/2026/07/kraken-sign-curtis-douglas.html",
       "pubDate": "Wed, 01 Jul 2026 20:29:44 +0000",
@@ -553,16 +558,6 @@
       "source": "Pro Hockey Rumors",
       "team": "kraken",
       "priority": 2
-    },
-    {
-      "title": "DJLR Free Agency Frenzy LIVETHREAD",
-      "link": "https://www.davyjoneslockerroom.com/djlr-free-agency-primer/",
-      "pubDate": "Wed, 01 Jul 2026 16:49:53 +0000",
-      "isoDate": "2026-07-01T16:49:53.000Z",
-      "excerpt": "Welcome to free agent frenzy, friends. The NHL has already begun making goofy trades all over the place after the Kraken made a perfectly reasonable call for Mackie Samoskevich, so let’s enjoy the magic as it unfolds!...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
     },
     {
       "title": "Kraken Sign Mackie Samoskevich To Three-Year Deal",
@@ -603,6 +598,16 @@
       "source": "Seahawks.com",
       "team": "seahawks",
       "priority": 6
+    },
+    {
+      "title": "Seahawks’ Ty Okada, Bud Clark To Compete For Starting Safety Job",
+      "link": "https://www.profootballrumors.com/2026/06/seahawks-ty-okada-bud-clark-to-compete-for-starting-safety-job",
+      "pubDate": "Tue, 30 Jun 2026 01:32:43 +0000",
+      "isoDate": "2026-06-30T01:32:43.000Z",
+      "excerpt": "The Seahawks are returning most of their starters from last season’s Super Bowl-winning roster, but safety is one of the few exceptions. After Coby Bryant left in free agency for the Bears’ three-year, $40MM offer, Ty...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
+      "priority": 2
     }
   ]
 }
