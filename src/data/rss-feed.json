@@ -1,14 +1,29 @@
 {
-  "generatedAt": "2026-07-08T10:12:47.875Z",
+  "generatedAt": "2026-07-08T13:56:02.329Z",
   "sourceCount": 10,
-  "successfulSources": 9,
-  "failedSources": [
-    {
-      "source": "Seattle Times Sports",
-      "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
-    }
-  ],
+  "successfulSources": 10,
+  "failedSources": [],
   "items": [
+    {
+      "title": "Seahawks News 7/8: Do the Seahawks have another trade in them?",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-news/170358/seahawks-news-7-8-do-the-seahawks-have-another-trade-in-them",
+      "pubDate": "2026-07-08T13:28:52.000Z",
+      "isoDate": "2026-07-08T13:28:52.000Z",
+      "excerpt": "Jun 9, 2026; Renton, WA, USA; Seattle Seahawks quarterback Jalen Milroe (6) during minicamp at Virginia Mason Athletic Center. Mandatory Credit: Steven Bisig-Imagn Images | Steven Bisig-Imagn Images In Today’s Links:...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
+    {
+      "title": "Seahawks coach Mike Macdonald teeing it up at celebrity golf event",
+      "link": "https://www.seattletimes.com/sports/seahawks/seahawks-coach-mike-macdonald-teeing-it-up-at-celebrity-golf-event/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Wed, 08 Jul 2026 06:00:00 -0700",
+      "isoDate": "2026-07-08T13:00:00.000Z",
+      "excerpt": "In another sign the life of Seahawks coach Mike Macdonald has changed with a Super Bowl win, he'll be part of the American Century Championship celebrity golf tournament.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
     {
       "title": "Mariners' comeback bid falls short as they drop 10-inning thriller",
       "link": "https://www.mlb.com/mariners/news/mariners-lose-to-marlins-in-10-innings",
@@ -18,6 +33,16 @@
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
+    },
+    {
+      "title": "Royals’ Tyler Tolbert ties MLB record with hits in 12 straight plate appearances",
+      "link": "https://www.seattletimes.com/sports/mlb/royals-tyler-tolbert-ties-mlb-record-with-hits-in-12-straight-plate-appearances/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Tue, 07 Jul 2026 20:36:36 -0700",
+      "isoDate": "2026-07-08T03:36:36.000Z",
+      "excerpt": "Tyler Tolbert of the Kansas City Royals has tied a major league record with hits in 12 consecutive plate appearances.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
     },
     {
       "title": "2026 Cap Space, By Team",
@@ -40,6 +65,16 @@
       "priority": 3
     },
     {
+      "title": "Pirates’ Ryan O’Hearn sets club record with 10 RBIs during 3-homer night vs. Braves",
+      "link": "https://www.seattletimes.com/sports/mlb/pirates-ryan-ohearn-sets-club-record-with-10-rbis-during-3-homer-night-vs-braves/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Tue, 07 Jul 2026 19:38:03 -0700",
+      "isoDate": "2026-07-08T02:38:03.000Z",
+      "excerpt": "Pittsburgh Pirates first baseman Ryan O'Hearn set a franchise record by driving in 10 runs on three homers against Atlanta.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
       "title": "Mariners fail to take advantage of opportunities, lose 6-5",
       "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/145855/mariners-fail-to-take-advantage-of-opportunities-lose-6-5",
       "pubDate": "2026-07-08T02:29:46.000Z",
@@ -47,6 +82,16 @@
       "excerpt": "Jul 7, 2026; Miami, Florida, USA; Seattle Mariners shortstop Colt Emerson (4) is forced out at home plate against the Miami Marlins during the sixth inning at loanDepot Park. Mandatory Credit: Sam Navarro-Imagn Images |...",
       "source": "Lookout Landing",
       "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Seattle Mariners can’t execute in extras, fall to Marlins on walkoff hit",
+      "link": "https://www.seattletimes.com/sports/mariners/seattle-mariners-cant-execute-in-extras-fall-to-marlins-on-walkoff-hit/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Tue, 07 Jul 2026 19:16:13 -0700",
+      "isoDate": "2026-07-08T02:16:13.000Z",
+      "excerpt": "The Mariners failed to score in the top of the 10th inning thanks to a costly baserunning mistake, and the Marlins took advantage, winning on a walkoff.",
+      "source": "Seattle Times Sports",
+      "team": "general",
       "priority": 1
     },
     {
@@ -60,6 +105,26 @@
       "priority": 1
     },
     {
+      "title": "Photos: Mariners at Marlins",
+      "link": "https://www.seattletimes.com/photo-video/photography/photos-mariners-at-marlins-3/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Tue, 07 Jul 2026 17:17:38 -0700",
+      "isoDate": "2026-07-08T00:17:38.000Z",
+      "excerpt": "",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "IOC lifts Russia’s Olympic suspension, clearing the way for 2028",
+      "link": "https://www.seattletimes.com/sports/ioc-lifts-russias-olympic-suspension-clearing-the-way-for-2028/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Tue, 07 Jul 2026 17:14:58 -0700",
+      "isoDate": "2026-07-08T00:14:58.000Z",
+      "excerpt": "The International Olympic Committee lifted its suspension of Russia related to its invasion of Ukraine, clearing the way for Russia to send a team to the 2028 Summer Olympics in Los Angeles.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
       "title": "Seattle Storm’s Dominique Malonga named WNBA All-Star reserve",
       "link": "https://sports.mynorthwest.com/wnba/seattle-storm/seattle-storm-dominique-malonga-wnba-all-star-reserves",
       "pubDate": "Wed, 08 Jul 2026 00:01:27 +0000",
@@ -70,6 +135,16 @@
       "priority": 3
     },
     {
+      "title": "What’s next for Seattle as the FIFA World Cup winds down in the city?",
+      "link": "https://www.seattletimes.com/business/whats-next-for-seattle-as-the-fifa-world-cup-winds-down-in-the-city/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Tue, 07 Jul 2026 16:50:00 -0700",
+      "isoDate": "2026-07-07T23:50:00.000Z",
+      "excerpt": "One day after the last Seattle-based match of the soccer tournament, local leaders are tantalized by the prospect of hosting the 2031 FIFA Women's World Cup.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
       "title": "Switzerland beats Colombia in shootout for spot in World Cup quarterfinals",
       "link": "https://sports.mynorthwest.com/seattle-sports-pit/switzerland-beats-colombia-in-shootout-for-spot-in-world-cup-quarterfinals",
       "pubDate": "Tue, 07 Jul 2026 23:38:31 +0000",
@@ -78,6 +153,16 @@
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
+    },
+    {
+      "title": "Storm’s Dominique Malonga named WNBA All-Star reserve",
+      "link": "https://www.seattletimes.com/sports/storm/storms-dominique-malonga-named-wnba-all-star-reserve/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Tue, 07 Jul 2026 16:37:47 -0700",
+      "isoDate": "2026-07-07T23:37:47.000Z",
+      "excerpt": "The Storm's budding star Dominique Malonga was named a WNBA All-Star reserve for the first time, becoming the third-youngest All-Star in league history.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
     },
     {
       "title": "Mariners Game #92 Preview and Discussion, 7/7/26: SEA at MIA",
@@ -380,16 +465,6 @@
       "priority": 2
     },
     {
-      "title": "Seahawks Reacts results: Who will be Seattle’s sack leader in 2026?",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/170284/seahawks-reacts-results-who-will-be-seattle-sack-leader-2026",
-      "pubDate": "2026-07-05T15:00:00.000Z",
-      "isoDate": "2026-07-05T15:00:00.000Z",
-      "excerpt": "Welcome to SB Nation Reacts, a survey of fans across the NFL. Throughout the year we ask questions of the most plugged-in Seattle Seahawks fans and fans across the country We are nearing the halfway point of the summer,...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
-    },
-    {
       "title": "Each NFC Team’s Largest 2026 Cap Hit",
       "link": "https://www.profootballrumors.com/2026/07/each-nfc-teams-largest-2026-cap-hit",
       "pubDate": "Sun, 05 Jul 2026 03:32:15 +0000",
@@ -528,86 +603,6 @@
       "source": "Pro Football Rumors",
       "team": "seahawks",
       "priority": 2
-    },
-    {
-      "title": "Mariners Acquire Buddy Kennedy",
-      "link": "https://www.mlbtraderumors.com/2026/06/mariners-acquire-buddy-kennedy.html",
-      "pubDate": "Tue, 30 Jun 2026 00:14:34 +0000",
-      "isoDate": "2026-06-30T00:14:34.000Z",
-      "excerpt": "June 29: Kennedy has reported to the team and is active for tonight’s series opener against the Angels. Seattle placed Refsnyder on the 10-day injured list, retroactive to June 27, with right knee inflammation to open a...",
-      "source": "MLB Trade Rumors",
-      "team": "mariners",
-      "priority": 2
-    },
-    {
-      "title": "First Bids For Seahawks Due Monday",
-      "link": "https://www.profootballrumors.com/2026/06/first-bids-for-seahawks-due-monday",
-      "pubDate": "Mon, 29 Jun 2026 22:55:10 +0000",
-      "isoDate": "2026-06-29T22:55:10.000Z",
-      "excerpt": "The Seahawks officially went up for sale on Feb. 18, less than two weeks after they won their second Super Bowl. The process is taking an important step forward four-plus months later, as Bloomberg’s Randall Williams...",
-      "source": "Pro Football Rumors",
-      "team": "seahawks",
-      "priority": 2
-    },
-    {
-      "title": "Kraken Re-Sign J.R. Avon, Lleyton Roed",
-      "link": "https://www.prohockeyrumors.com/2026/06/kraken-re-sign-j-r-avon-lleyton-roed.html",
-      "pubDate": "Mon, 29 Jun 2026 22:46:33 +0000",
-      "isoDate": "2026-06-29T22:46:33.000Z",
-      "excerpt": "The Seattle Kraken announced that forwards Jon-Randall Avon and Lleyton Roed have each been re-signed to one-year, two-way contract extensions. The Kraken revealed that each deal will carry a league-minimum $850K NHL...",
-      "source": "Pro Hockey Rumors",
-      "team": "kraken",
-      "priority": 2
-    },
-    {
-      "title": "Mariners Looking To Add Relief Pitching, Right-Handed Bat",
-      "link": "https://www.mlbtraderumors.com/2026/06/mariners-looking-to-add-relief-pitching-right-handed-bat.html",
-      "pubDate": "Mon, 29 Jun 2026 04:44:21 +0000",
-      "isoDate": "2026-06-29T04:44:21.000Z",
-      "excerpt": "The Mariners dropped back below the .500 mark today, as their 6-5 loss to the Guardians put Seattle’s record at 42-43. Despite the lackluster record, the M’s are only a half-game behind the Rangers for the AL West lead,...",
-      "source": "MLB Trade Rumors",
-      "team": "mariners",
-      "priority": 2
-    },
-    {
-      "title": "Kraken Select F William Tomko 204th Overall!",
-      "link": "https://www.davyjoneslockerroom.com/kraken-select-f-william-tomko-204th-overall/",
-      "pubDate": "Sat, 27 Jun 2026 20:28:34 +0000",
-      "isoDate": "2026-06-27T20:28:34.000Z",
-      "excerpt": "The Kraken’s final selection is here! Meet William Tomko! Tomko appears before us as a Right shot Forward at 6’0, 198 pounds, playing for the Sioux Falls Musketeers, who will be heading to his first season at Ohio...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
-    },
-    {
-      "title": "Kraken Select D Rylan Singh 198th Overall!",
-      "link": "https://www.davyjoneslockerroom.com/kraken-select-d-rylan-singh-198th-overall/",
-      "pubDate": "Sat, 27 Jun 2026 20:09:21 +0000",
-      "isoDate": "2026-06-27T20:09:21.000Z",
-      "excerpt": "The 1st of the last round of the playoffs involves a young man from Pickering! Rylan Singh plays for the Guelph Storm, having a respectable line for a defenseman in OHL time, and stands at 6’0, 187 pounds; shooting...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
-    },
-    {
-      "title": "Kraken Select D Ola Palme 166th Overall!",
-      "link": "https://www.davyjoneslockerroom.com/kraken-select-d-ola-palme-166th-overall/",
-      "pubDate": "Sat, 27 Jun 2026 19:28:09 +0000",
-      "isoDate": "2026-06-27T19:28:09.000Z",
-      "excerpt": "Another swede! This one having fallen quite a bit according to the prognosticators! Palme comes from the Växjö Lakers HC U20 team, where his smart, sensible game as well as quick passing gave him a respectable point...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
-    },
-    {
-      "title": "Kraken Select Luken “Hawke” Huff 148th Overall!",
-      "link": "https://www.davyjoneslockerroom.com/kraken-select-luken-hawke-huff-148th-overall/",
-      "pubDate": "Sat, 27 Jun 2026 19:05:15 +0000",
-      "isoDate": "2026-06-27T19:05:15.000Z",
-      "excerpt": "I do not mean this lightly. Hawke Huff might be in the top 10 of names in this draft, and there are some good names in this draft. Huff comes to us from the Cedar Rapids Roughriders in the USHL, where he stands at 6’3,...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
     }
   ]
 }
