@@ -1,33 +1,73 @@
 {
-  "generatedAt": "2026-07-08T19:19:46.953Z",
+  "generatedAt": "2026-07-08T21:03:41.531Z",
   "sourceCount": 10,
   "successfulSources": 9,
   "failedSources": [
     {
-      "source": "Davy Jones' Locker Room",
-      "error": "Status code 415 (lenient retry: Status code 415)"
+      "source": "Seattle Times Sports",
+      "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
     }
   ],
   "items": [
     {
-      "title": "Sounders’ Jackson Ragen earns MLS All-Star nod",
-      "link": "https://www.seattletimes.com/sports/sounders/sounders-jackson-ragen-earns-mls-all-star-nod/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 08 Jul 2026 11:59:56 -0700",
-      "isoDate": "2026-07-08T18:59:56.000Z",
-      "excerpt": "Major League soccer announced the full roster for its All-Star Game, and Sounders defender Jackson Ragen was among the reserves.",
-      "source": "Seattle Times Sports",
-      "team": "general",
+      "title": "Top 2026 Training Camp Storylines: Who Steps Up As The Third Cornerback?",
+      "link": "https://www.seahawks.com/news/top-2026-training-camp-storylines-who-steps-up-as-the-third-cornerback",
+      "pubDate": "Wed, 08 Jul 2026 20:36:53 GMT",
+      "isoDate": "2026-07-08T20:36:53.000Z",
+      "excerpt": "The Seahawks are in good hands at cornerback with Devon Witherspoon and Josh Jobe, but they’ll need a third corner to step up and play a significant role.",
+      "source": "Seahawks.com",
+      "team": "seahawks",
+      "priority": 6
+    },
+    {
+      "title": "Where do the Seahawks land in ESPN’s best roster rankings?",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/170367/where-seattle-seahawks-land-espn-best-roster-rankings",
+      "pubDate": "2026-07-08T20:20:55.000Z",
+      "isoDate": "2026-07-08T20:20:55.000Z",
+      "excerpt": "We are in full theory crafting season. With the preseason right around the corner, many are trying to predict team rosters and where teams rank heading into the preseason. ESPN has released their roster rankings for all...",
+      "source": "Field Gulls",
+      "team": "seahawks",
       "priority": 1
     },
     {
-      "title": "FIFA’s Infantino targeted by complaint to Olympic ethics body after Trump lobbying on Balogun ban",
-      "link": "https://www.seattletimes.com/sports/fifas-infantino-targeted-by-complaint-to-olympic-ethics-body-after-trump-lobbying-on-balogun-ban/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 08 Jul 2026 10:57:18 -0700",
-      "isoDate": "2026-07-08T17:57:18.000Z",
-      "excerpt": "FIFA President Gianni Infantino is being referred to Olympic ethics investigators for a possible breach of political neutrality.",
-      "source": "Seattle Times Sports",
+      "title": "Mariners Sign Stuart Fairchild To Minor League Deal",
+      "link": "https://www.mlbtraderumors.com/2026/07/mariners-sign-stuart-fairchild-to-minor-league-deal.html",
+      "pubDate": "Wed, 08 Jul 2026 19:58:07 +0000",
+      "isoDate": "2026-07-08T19:58:07.000Z",
+      "excerpt": "The Mariners added outfielder Stuart Fairchild on a minor league contract after he rejected an outright assignment with the Guardians earlier this week and instead opted for free agency. The Mariners didn’t formally...",
+      "source": "MLB Trade Rumors",
+      "team": "mariners",
+      "priority": 2
+    },
+    {
+      "title": "Former All-Star pitcher, longtime coach Regan dies at 89",
+      "link": "https://www.mlb.com/mariners/news/phil-regan-dead-at-89",
+      "pubDate": "Wed, 08 Jul 2026 19:16:06 GMT",
+      "isoDate": "2026-07-08T19:16:06.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Stacy: Do Mariners have case to be aggressive at trade deadline?",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/stacyrost-do-seattle-mariners-have-case-to-be-aggressive-at-trade-deadline",
+      "pubDate": "Wed, 08 Jul 2026 19:02:34 +0000",
+      "isoDate": "2026-07-08T19:02:34.000Z",
+      "excerpt": "Seattle's bats have lacked, but it's stellar pitching staff has earned the right to get some help.",
+      "source": "710 Seattle Sports",
       "team": "general",
-      "priority": 1
+      "priority": 3
+    },
+    {
+      "title": "Mariners sign Seattle Prep alum to minor league deal",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-sign-seattle-prep-alum-fairchild-minor-league-deal",
+      "pubDate": "Wed, 08 Jul 2026 17:47:26 +0000",
+      "isoDate": "2026-07-08T17:47:26.000Z",
+      "excerpt": "Stuart Fairchild has appeared in 291 career MLB games, including three with the M's back in 2022.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
     },
     {
       "title": "What Seahawks Players Have Been Up To This Offseason",
@@ -58,36 +98,6 @@
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
-    },
-    {
-      "title": "World Cup quarterfinals: It’s Messi, Morocco, and 6 teams from Europe. And that’s not unusual",
-      "link": "https://www.seattletimes.com/sports/world-cup/world-cup-quarterfinals-its-messi-morocco-and-6-teams-from-europe-and-thats-not-unusual/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 08 Jul 2026 09:20:30 -0700",
-      "isoDate": "2026-07-08T16:20:30.000Z",
-      "excerpt": "Unless Morocco pulls off a series of surprising outcomes over the final two weeks, the World Cup champion will come from Europe or South America. Again. As always.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Why World Cup game balls always make their way back onto the pitch during matches",
-      "link": "https://www.seattletimes.com/sports/world-cup/why-world-cup-game-balls-always-make-their-way-back-onto-the-pitch-during-matches/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 08 Jul 2026 09:14:39 -0700",
-      "isoDate": "2026-07-08T16:14:39.000Z",
-      "excerpt": "The ball has made headlines with its embedded technology and raised questions among fans, including: Why is everyone expected to toss the ball back onto the pitch?",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Queen Camilla visits Wimbledon and is joined by actor who played her husband",
-      "link": "https://www.seattletimes.com/nation-world/queen-camilla-visits-wimbledon-and-is-joined-by-actor-who-played-her-husband/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 08 Jul 2026 09:12:58 -0700",
-      "isoDate": "2026-07-08T16:12:58.000Z",
-      "excerpt": "Britain’s Queen Camilla is making her customary visit to Wimbledon and was joined in the Royal Box by an actor who once portrayed her husband.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
     },
     {
       "title": "Seahawks Reacts Survey: Which position group are you most interested in during training camp?",
@@ -150,16 +160,6 @@
       "priority": 1
     },
     {
-      "title": "Friends remember Whitworth football player who died while skateboarding",
-      "link": "https://www.seattletimes.com/seattle-news/northwest/friends-remember-whitworth-football-player-who-died-while-skateboarding/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 08 Jul 2026 06:54:20 -0700",
-      "isoDate": "2026-07-08T13:54:20.000Z",
-      "excerpt": "Tanner Hart had been on a skateboard being towed by a golf cart before his skateboard struck the tire of the golf cart and sent him off his board.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "Seahawks News 7/8: Do the Seahawks have another trade in them?",
       "link": "https://www.fieldgulls.com/seattle-seahawks-news/170358/seahawks-news-7-8-do-the-seahawks-have-another-trade-in-them",
       "pubDate": "2026-07-08T13:28:52.000Z",
@@ -167,16 +167,6 @@
       "excerpt": "Jun 9, 2026; Renton, WA, USA; Seattle Seahawks quarterback Jalen Milroe (6) during minicamp at Virginia Mason Athletic Center. Mandatory Credit: Steven Bisig-Imagn Images | Steven Bisig-Imagn Images In Today’s Links:...",
       "source": "Field Gulls",
       "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "Seahawks coach Mike Macdonald teeing it up at celebrity golf event",
-      "link": "https://www.seattletimes.com/sports/seahawks/seahawks-coach-mike-macdonald-teeing-it-up-at-celebrity-golf-event/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Wed, 08 Jul 2026 06:00:00 -0700",
-      "isoDate": "2026-07-08T13:00:00.000Z",
-      "excerpt": "In another sign the life of Seahawks coach Mike Macdonald has changed with a Super Bowl win, he'll be part of the American Century Championship celebrity golf tournament.",
-      "source": "Seattle Times Sports",
-      "team": "general",
       "priority": 1
     },
     {
@@ -188,16 +178,6 @@
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
-    },
-    {
-      "title": "Royals’ Tyler Tolbert ties MLB record with hits in 12 straight plate appearances",
-      "link": "https://www.seattletimes.com/sports/mlb/royals-tyler-tolbert-ties-mlb-record-with-hits-in-12-straight-plate-appearances/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Tue, 07 Jul 2026 20:36:36 -0700",
-      "isoDate": "2026-07-08T03:36:36.000Z",
-      "excerpt": "Tyler Tolbert of the Kansas City Royals has tied a major league record with hits in 12 consecutive plate appearances.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
     },
     {
       "title": "2026 Cap Space, By Team",
@@ -270,24 +250,14 @@
       "priority": 1
     },
     {
-      "title": "Seattle World Cup match most-watched US TV soccer broadcast ever",
-      "link": "https://sports.mynorthwest.com/seattle-sports-pit/world-cup-seattle-most-watched-us-soccer-telecast",
-      "pubDate": "Tue, 07 Jul 2026 21:27:48 +0000",
-      "isoDate": "2026-07-07T21:27:48.000Z",
-      "excerpt": "The 2026 World Cup set another record with the most-watched soccer telecast in U.S. history.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "Seattle World Cup: 2 US staff members suspended; Belgium player injured",
-      "link": "https://sports.mynorthwest.com/seattle-sports-pit/seattle-world-cup-us-staff-suspended-belgium-player-injured",
-      "pubDate": "Tue, 07 Jul 2026 20:57:08 +0000",
-      "isoDate": "2026-07-07T20:57:08.000Z",
-      "excerpt": "A few pieces of news came out Tuesday stemming from Monday's World Cup match between the US and Belgium in Seattle.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
+      "title": "Shane Wright wants out, and his development is the key to why",
+      "link": "https://www.davyjoneslockerroom.com/shane-wright-wants-out-and-his-development-is-the-key-to-why/",
+      "pubDate": "Tue, 07 Jul 2026 21:00:00 +0000",
+      "isoDate": "2026-07-07T21:00:00.000Z",
+      "excerpt": "Elliote Friedman of SportsNet revealed in a bombshell that the Kraken were once again exploring all options with Center Shane Wright, as according to Wright’s Agent that he could “…confirm that we have had positive...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
     },
     {
       "title": "Top 2026 Training Camp Storylines: Who Wins The Open Starting Spot?",
@@ -430,16 +400,6 @@
       "priority": 2
     },
     {
-      "title": "How will Mariners build for long-term success in Draft?",
-      "link": "https://www.mlb.com/mariners/news/mariners-2026-draft-preview",
-      "pubDate": "Mon, 06 Jul 2026 16:53:01 GMT",
-      "isoDate": "2026-07-06T16:53:01.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
-    },
-    {
       "title": "Top 2026 Training Camp Storylines: Does Rashid Shaheed Still Handle Both Return Jobs?",
       "link": "https://www.seahawks.com/news/top-2026-training-camp-storylines-does-rashid-shaheed-still-handle-both-return-jobs",
       "pubDate": "Mon, 06 Jul 2026 16:06:56 GMT",
@@ -448,16 +408,6 @@
       "source": "Seahawks.com",
       "team": "seahawks",
       "priority": 6
-    },
-    {
-      "title": "Which Seahawks rookies could make the biggest impact in 2026?",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/170279/which-seahawks-rookies-could-make-biggest-impact-2026-nfl-season",
-      "pubDate": "2026-07-06T15:00:00.000Z",
-      "isoDate": "2026-07-06T15:00:00.000Z",
-      "excerpt": "RENTON, WASHINGTON - JUNE 11: Julian Neal #1 of the Seattle Seahawks runs during practice at Virginia Mason Athletic Center on June 11, 2026 in Renton, Washington. (Photo by Jack Compton/Getty Images) | Getty Images The...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
     },
     {
       "title": "How all 30 teams can upgrade at Trade Deadline",
@@ -550,6 +500,16 @@
       "priority": 2
     },
     {
+      "title": "Kraken add Curtis Douglas in FA on 2-year, 1.25m AAV contract",
+      "link": "https://www.davyjoneslockerroom.com/kraken-add-curtis-douglas-in-fa-on-2-year-1-25m-aav-contract/",
+      "pubDate": "Thu, 02 Jul 2026 02:13:48 +0000",
+      "isoDate": "2026-07-02T02:13:48.000Z",
+      "excerpt": "Cue up Manny Fresh, because the Kraken like their forwards Real Big this free agency. The Kraken announced the signing of Forward Curtis Douglas to a 2 year deal worth $1.25 million. WELCOME ABOARD! 🦑The #SeaKraken...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
       "title": "Kraken Sign Curtis Douglas",
       "link": "https://www.prohockeyrumors.com/2026/07/kraken-sign-curtis-douglas.html",
       "pubDate": "Wed, 01 Jul 2026 20:29:44 +0000",
@@ -558,6 +518,16 @@
       "source": "Pro Hockey Rumors",
       "team": "kraken",
       "priority": 2
+    },
+    {
+      "title": "DJLR Free Agency Frenzy LIVETHREAD",
+      "link": "https://www.davyjoneslockerroom.com/djlr-free-agency-primer/",
+      "pubDate": "Wed, 01 Jul 2026 16:49:53 +0000",
+      "isoDate": "2026-07-01T16:49:53.000Z",
+      "excerpt": "Welcome to free agent frenzy, friends. The NHL has already begun making goofy trades all over the place after the Kraken made a perfectly reasonable call for Mackie Samoskevich, so let’s enjoy the magic as it unfolds!...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
     },
     {
       "title": "Kraken Sign Mackie Samoskevich To Three-Year Deal",
@@ -607,6 +577,36 @@
       "excerpt": "The Seahawks are returning most of their starters from last season’s Super Bowl-winning roster, but safety is one of the few exceptions. After Coby Bryant left in free agency for the Bears’ three-year, $40MM offer, Ty...",
       "source": "Pro Football Rumors",
       "team": "seahawks",
+      "priority": 2
+    },
+    {
+      "title": "Mariners Acquire Buddy Kennedy",
+      "link": "https://www.mlbtraderumors.com/2026/06/mariners-acquire-buddy-kennedy.html",
+      "pubDate": "Tue, 30 Jun 2026 00:14:34 +0000",
+      "isoDate": "2026-06-30T00:14:34.000Z",
+      "excerpt": "June 29: Kennedy has reported to the team and is active for tonight’s series opener against the Angels. Seattle placed Refsnyder on the 10-day injured list, retroactive to June 27, with right knee inflammation to open a...",
+      "source": "MLB Trade Rumors",
+      "team": "mariners",
+      "priority": 2
+    },
+    {
+      "title": "Kraken Re-Sign J.R. Avon, Lleyton Roed",
+      "link": "https://www.prohockeyrumors.com/2026/06/kraken-re-sign-j-r-avon-lleyton-roed.html",
+      "pubDate": "Mon, 29 Jun 2026 22:46:33 +0000",
+      "isoDate": "2026-06-29T22:46:33.000Z",
+      "excerpt": "The Seattle Kraken announced that forwards Jon-Randall Avon and Lleyton Roed have each been re-signed to one-year, two-way contract extensions. The Kraken revealed that each deal will carry a league-minimum $850K NHL...",
+      "source": "Pro Hockey Rumors",
+      "team": "kraken",
+      "priority": 2
+    },
+    {
+      "title": "Mariners Looking To Add Relief Pitching, Right-Handed Bat",
+      "link": "https://www.mlbtraderumors.com/2026/06/mariners-looking-to-add-relief-pitching-right-handed-bat.html",
+      "pubDate": "Mon, 29 Jun 2026 04:44:21 +0000",
+      "isoDate": "2026-06-29T04:44:21.000Z",
+      "excerpt": "The Mariners dropped back below the .500 mark today, as their 6-5 loss to the Guardians put Seattle’s record at 42-43. Despite the lackluster record, the M’s are only a half-game behind the Rangers for the AL West lead,...",
+      "source": "MLB Trade Rumors",
+      "team": "mariners",
       "priority": 2
     }
   ]
