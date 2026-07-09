@@ -1,11 +1,15 @@
 {
-  "generatedAt": "2026-07-09T07:34:29.458Z",
+  "generatedAt": "2026-07-09T10:51:13.689Z",
   "sourceCount": 10,
-  "successfulSources": 9,
+  "successfulSources": 8,
   "failedSources": [
     {
       "source": "Seattle Times Sports",
       "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
+    },
+    {
+      "source": "Davy Jones' Locker Room",
+      "error": "Status code 415 (lenient retry: Status code 415)"
     }
   ],
   "items": [
@@ -80,6 +84,26 @@
       "priority": 3
     },
     {
+      "title": "Mariners Play Boring Game in Boring Stadium, Lose 2-0",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/145886/mariners-play-boring-game-in-boring-stadium-lose-2-0",
+      "pubDate": "2026-07-09T01:23:51.000Z",
+      "isoDate": "2026-07-09T01:23:51.000Z",
+      "excerpt": "Jul 8, 2026; Miami, Florida, USA; Seattle Mariners catcher Cal Raleigh (29) tags out Miami Marlins’ Otto Lopez (6) at home plate to end the fifth inning at loanDepot Park. Mandatory Credit: Jim Rassol-Imagn Images | Jim...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "47-46: Chart",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/145880/47-46-chart",
+      "pubDate": "2026-07-09T01:00:41.000Z",
+      "isoDate": "2026-07-09T01:00:41.000Z",
+      "excerpt": "Jul 8, 2026; Miami, Florida, USA; Miami Marlins’ Heriberto Hernandez (13) gets tagged out by Seattle Mariners shortstop Colt Emerson (4) in the fifth inning at loanDepot Park. Mandatory Credit: Jim Rassol-Imagn Images |...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
       "title": "Former Mariners pitching coach Phil Regan dies at 89",
       "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/former-seattle-mariners-pitching-coach-phil-regan-dies-at-89",
       "pubDate": "Thu, 09 Jul 2026 00:17:13 +0000",
@@ -108,6 +132,16 @@
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
+    },
+    {
+      "title": "Mariners Game #93 Preview and Discussion, 7/8/26: SEA vs MIA",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-discussion/145874/mariners-game-93-preview-and-discussion-7-8-26-sea-vs-mia",
+      "pubDate": "2026-07-08T22:30:45.000Z",
+      "isoDate": "2026-07-08T22:30:45.000Z",
+      "excerpt": "MIAMI, FLORIDA - MAY 01: Julio Rodriguez #44 of the Seattle Mariners hits his first professional home run during the sixth inning against the Miami Marlins at loanDepot park on May 01, 2022 in Miami, Florida. (Photo by...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
     },
     {
       "title": "World Cup quarterfinals: It’s Messi, Morocco and 6 European teams",
@@ -310,16 +344,6 @@
       "priority": 1
     },
     {
-      "title": "Shane Wright wants out, and his development is the key to why",
-      "link": "https://www.davyjoneslockerroom.com/shane-wright-wants-out-and-his-development-is-the-key-to-why/",
-      "pubDate": "Tue, 07 Jul 2026 21:00:00 +0000",
-      "isoDate": "2026-07-07T21:00:00.000Z",
-      "excerpt": "Elliote Friedman of SportsNet revealed in a bombshell that the Kraken were once again exploring all options with Center Shane Wright, as according to Wright’s Agent that he could “…confirm that we have had positive...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
-    },
-    {
       "title": "Top 2026 Training Camp Storylines: Who Wins The Open Starting Spot?",
       "link": "https://www.seahawks.com/news/top-2026-training-camp-storylines-who-wins-the-open-starting-spot",
       "pubDate": "Tue, 07 Jul 2026 20:16:31 GMT",
@@ -360,26 +384,6 @@
       "priority": 1
     },
     {
-      "title": "Series Preview: Mariners (47-44) at Marlins (49-42)",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-game-information/145828/series-preview-seattle-mariners-at-miami-marlins-july-2026",
-      "pubDate": "2026-07-07T17:30:00.000Z",
-      "isoDate": "2026-07-07T17:30:00.000Z",
-      "excerpt": "SACRAMENTO, CALIFORNIA - JULY 05: Heriberto Hernandez #13 of the Miami Marlins celebrates in the dugout after hitting a solo home run in the top of the first inning against the Athletics at Sutter Health Park on July...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "The 2026 Seattle Mariners as framers of the United States Constitution",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-discussion/145809/the-2026-seattle-mariners-as-framers-of-the-united-states-constitution",
-      "pubDate": "2026-07-07T17:00:00.000Z",
-      "isoDate": "2026-07-07T17:00:00.000Z",
-      "excerpt": "CHICAGO, IL - JULY 04: Chicago White Sox groundskeepers check out Joseph Bowman's Company a Revolutionary War re-enactment unit before they present the colors on July 4, 2014 at U.S. Cellular Field in Chicago, Illinois....",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
       "title": "5 Seahawks position battle questions heading into training camp",
       "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/170278/5-seattle-seahawks-position-battle-questions-training-camp-preview",
       "pubDate": "2026-07-07T14:00:00.000Z",
@@ -387,16 +391,6 @@
       "excerpt": "LANDOVER, MARYLAND - NOVEMBER 02: Connor O'Toole #57 of the Seattle Seahawks celebrates during an NFL football game against the Washington Commanders at Northwest Stadium on November 2, 2025 in Landover, Maryland....",
       "source": "Field Gulls",
       "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "Mariners News: Cade Cavalli, Heliot Ramos, and Giancarlo Stanton",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-news/145818/ade-cavalli-heliot-ramos-giancarlo-stanton-lazaro-montes",
-      "pubDate": "2026-07-07T14:00:00.000Z",
-      "isoDate": "2026-07-07T14:00:00.000Z",
-      "excerpt": "SAN FRANCISCO, CA - JULY 06: Heliot Ramos #17 of the San Francisco Giants get doused with Gatorade after the Giants defeated the Toronto Blue Jays at Oracle Park on Monday, July 6, 2026 in San Francisco, California....",
-      "source": "Lookout Landing",
-      "team": "mariners",
       "priority": 1
     },
     {
@@ -520,16 +514,6 @@
       "priority": 6
     },
     {
-      "title": "Kraken add Curtis Douglas in FA on 2-year, 1.25m AAV contract",
-      "link": "https://www.davyjoneslockerroom.com/kraken-add-curtis-douglas-in-fa-on-2-year-1-25m-aav-contract/",
-      "pubDate": "Thu, 02 Jul 2026 02:13:48 +0000",
-      "isoDate": "2026-07-02T02:13:48.000Z",
-      "excerpt": "Cue up Manny Fresh, because the Kraken like their forwards Real Big this free agency. The Kraken announced the signing of Forward Curtis Douglas to a 2 year deal worth $1.25 million. WELCOME ABOARD! 🦑The #SeaKraken...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
-    },
-    {
       "title": "Kraken Sign Curtis Douglas",
       "link": "https://www.prohockeyrumors.com/2026/07/kraken-sign-curtis-douglas.html",
       "pubDate": "Wed, 01 Jul 2026 20:29:44 +0000",
@@ -538,16 +522,6 @@
       "source": "Pro Hockey Rumors",
       "team": "kraken",
       "priority": 2
-    },
-    {
-      "title": "DJLR Free Agency Frenzy LIVETHREAD",
-      "link": "https://www.davyjoneslockerroom.com/djlr-free-agency-primer/",
-      "pubDate": "Wed, 01 Jul 2026 16:49:53 +0000",
-      "isoDate": "2026-07-01T16:49:53.000Z",
-      "excerpt": "Welcome to free agent frenzy, friends. The NHL has already begun making goofy trades all over the place after the Kraken made a perfectly reasonable call for Mackie Samoskevich, so let’s enjoy the magic as it unfolds!...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
     },
     {
       "title": "Kraken Sign Mackie Samoskevich To Three-Year Deal",
@@ -607,6 +581,36 @@
       "excerpt": "The Seattle Kraken announced that forwards Jon-Randall Avon and Lleyton Roed have each been re-signed to one-year, two-way contract extensions. The Kraken revealed that each deal will carry a league-minimum $850K NHL...",
       "source": "Pro Hockey Rumors",
       "team": "kraken",
+      "priority": 2
+    },
+    {
+      "title": "Mariners Looking To Add Relief Pitching, Right-Handed Bat",
+      "link": "https://www.mlbtraderumors.com/2026/06/mariners-looking-to-add-relief-pitching-right-handed-bat.html",
+      "pubDate": "Mon, 29 Jun 2026 04:44:21 +0000",
+      "isoDate": "2026-06-29T04:44:21.000Z",
+      "excerpt": "The Mariners dropped back below the .500 mark today, as their 6-5 loss to the Guardians put Seattle’s record at 42-43. Despite the lackluster record, the M’s are only a half-game behind the Rangers for the AL West lead,...",
+      "source": "MLB Trade Rumors",
+      "team": "mariners",
+      "priority": 2
+    },
+    {
+      "title": "Jason Robertson Rejects Long-Term Offer From Kraken",
+      "link": "https://www.prohockeyrumors.com/2026/06/jason-robertson-rejects-long-term-offer-from-kraken.html",
+      "pubDate": "Fri, 26 Jun 2026 01:32:48 +0000",
+      "isoDate": "2026-06-26T01:32:48.000Z",
+      "excerpt": "Pending Dallas Stars restricted free agent has reportedly declined a long-term offer from the Seattle Kraken.",
+      "source": "Pro Hockey Rumors",
+      "team": "kraken",
+      "priority": 2
+    },
+    {
+      "title": "Mariners Outright Miles Mastrobuoni",
+      "link": "https://www.mlbtraderumors.com/2026/06/mariners-outright-miles-mastrobuoni.html",
+      "pubDate": "Thu, 25 Jun 2026 19:34:38 +0000",
+      "isoDate": "2026-06-25T19:34:38.000Z",
+      "excerpt": "The Mariners announced that infielder/outfielder Miles Mastrobuoni cleared waivers and has been outrighted to Triple-A Tacoma. He had been designated for assignment by Seattle last week. He does not have three years of...",
+      "source": "MLB Trade Rumors",
+      "team": "mariners",
       "priority": 2
     }
   ]
