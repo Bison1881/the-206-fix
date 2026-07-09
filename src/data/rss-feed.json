@@ -1,14 +1,49 @@
 {
-  "generatedAt": "2026-07-09T21:20:08.045Z",
+  "generatedAt": "2026-07-09T23:08:18.503Z",
   "sourceCount": 10,
-  "successfulSources": 9,
-  "failedSources": [
-    {
-      "source": "Seattle Times Sports",
-      "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
-    }
-  ],
+  "successfulSources": 10,
+  "failedSources": [],
   "items": [
+    {
+      "title": "Kylian Mbappé leads France over Morocco in World Cup quarterfinals",
+      "link": "https://www.seattletimes.com/sports/world-cup/kylian-mbappe-scores-his-eighth-goal-of-the-world-cup-equaling-lionel-messi-for-the-tournament-lead/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Thu, 09 Jul 2026 15:58:34 -0700",
+      "isoDate": "2026-07-09T22:58:34.000Z",
+      "excerpt": "Kylian Mbappé had a goal and an assist after missing a first-half penalty kick, Ousmane Dembélé also scored and France beat Morocco 2-0 Thursday in the World Cup quarterfinals.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Mariners Game #94 Preview and Discussion: SEA at MIA, 7/9",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-game-information/145902/mariners-game-94-preview-and-discussion-sea-at-mia-7-9",
+      "pubDate": "2026-07-09T22:31:08.000Z",
+      "isoDate": "2026-07-09T22:31:08.000Z",
+      "excerpt": "SEATTLE, WASHINGTON - JULY 02: Bryce Miller #50 of the Seattle Mariners delivers a pitch during the first inning against the Los Angeles Angels at T-Mobile Park on July 02, 2026 in Seattle, Washington. (Photo by Jack...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Two Groups Competing To Buy Seahawks",
+      "link": "https://www.profootballrumors.com/2026/07/two-groups-competing-to-buy-seahawks",
+      "pubDate": "Thu, 09 Jul 2026 21:34:34 +0000",
+      "isoDate": "2026-07-09T21:34:34.000Z",
+      "excerpt": "Seahawks owner Jody Allen put the franchise up for sale on Feb. 18. First bids were due June 29, and in the time since then, two groups have become clear front-runners to buy the Seahawks, sources told Ben Horney of...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
+      "priority": 2
+    },
+    {
+      "title": "Report: 2 front-runners emerge in Seahawks sale process",
+      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/report-2-front-runners-emerge-seattle-seahawks-sale-process",
+      "pubDate": "Thu, 09 Jul 2026 21:25:42 +0000",
+      "isoDate": "2026-07-09T21:25:42.000Z",
+      "excerpt": "One of the two leading groups reportedly includes a former Seahawks player.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
     {
       "title": "Trade Deadline Outlook: Seattle Mariners",
       "link": "https://www.mlbtraderumors.com/2026/07/trade-deadline-outlook-seattle-mariners-2.html",
@@ -60,6 +95,16 @@
       "priority": 1
     },
     {
+      "title": "Seahawks’ sale process down to two groups, report says",
+      "link": "https://www.seattletimes.com/sports/seahawks/seahawks-sale-process-down-to-two-groups-report-says/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Thu, 09 Jul 2026 12:43:14 -0700",
+      "isoDate": "2026-07-09T19:43:14.000Z",
+      "excerpt": "The two remaining groups in the Seahawks’ sale process are the first two reported as being interested in submitting a bid, Front Office Sports reported.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
       "title": "WR Brandin Cooks Wants To Rejoin Bills",
       "link": "https://www.profootballrumors.com/2026/07/wr-brandin-cooks-wants-to-rejoin-bills",
       "pubDate": "Thu, 09 Jul 2026 19:10:55 +0000",
@@ -88,6 +133,26 @@
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
+    },
+    {
+      "title": "VAR changes are the worst thing about the best World Cup",
+      "link": "https://www.seattletimes.com/sports/world-cup/var-changes-are-the-worst-thing-about-the-best-world-cup/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Thu, 09 Jul 2026 11:49:48 -0700",
+      "isoDate": "2026-07-09T18:49:48.000Z",
+      "excerpt": "The video assistant referee (VAR), with its incessant replays and gutting goal reversals, is the worst thing about the best World Cup.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Seahawks’ Leonard Williams earns No. 1 spot in ranking of NFL defensive tackles",
+      "link": "https://www.seattletimes.com/sports/seahawks/seahawks-leonard-williams-earns-no-1-spot-in-ranking-of-nfl-defensive-tackles/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Thu, 09 Jul 2026 11:26:17 -0700",
+      "isoDate": "2026-07-09T18:26:17.000Z",
+      "excerpt": "Leonard Williams was ranked the top defensive tackle in the NFL, according to an ESPN ranking based on surveys from league executives, coaches and scouts.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
     },
     {
       "title": "US star Pulisic fractured leg during World Cup loss in Seattle",
@@ -120,21 +185,21 @@
       "priority": 3
     },
     {
+      "title": "US star Christian Pulisic fractured his leg in World Cup loss to Belgium",
+      "link": "https://www.seattletimes.com/sports/us-star-christian-pulisic-fractured-leg-in-world-cup-loss-to-belgium/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Thu, 09 Jul 2026 09:25:57 -0700",
+      "isoDate": "2026-07-09T16:25:57.000Z",
+      "excerpt": "U.S. star Christian Pulisic fractured his right leg during the Americans’ World Cup loss to Belgium and will be sidelined for several weeks.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
       "title": "The dream-big trade target for the Mariners",
       "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/the-dream-big-trade-target-for-the-seattle-mariners",
       "pubDate": "Thu, 09 Jul 2026 15:03:28 +0000",
       "isoDate": "2026-07-09T15:03:28.000Z",
       "excerpt": "In a trade market expected to be thin for right-handed bats, Boston's Willson Contreras could be the best.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "When could top pitching prospects join Mariners? An expert’s prediction",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/top-pitching-prospects-timeline-seattle-mariners-anderson-sloan",
-      "pubDate": "Thu, 09 Jul 2026 14:27:55 +0000",
-      "isoDate": "2026-07-09T14:27:55.000Z",
-      "excerpt": "Joe Doyle of Over-Slot Baseball gave his take on when Kade Anderson and Ryan Sloan could get called up.",
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
@@ -157,6 +222,26 @@
       "excerpt": "Detroit Tigers pitcher Justin Verlander watches a play from the dugout during the second inning against the Athletics at Comerica Park in Detroit on Wednesday, July 8, 2026. | Junfu Han / USA TODAY NETWORK via Imagn...",
       "source": "Lookout Landing",
       "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "These two Single-A affiliates combined for offensive showing not seen in at least 2 decades",
+      "link": "https://www.mlb.com/mariners/news/dodgers-mariners-single-a-teams-combine-for-43-run-outburst",
+      "pubDate": "Thu, 09 Jul 2026 13:44:09 GMT",
+      "isoDate": "2026-07-09T13:44:09.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "UW athletics projected $16 million deficit for approved 2027 fiscal year budget",
+      "link": "https://www.seattletimes.com/sports/washington-huskies-football/uw-athletics-projected-16-million-deficit-for-approved-2027-fiscal-year-budget/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Thu, 09 Jul 2026 06:00:00 -0700",
+      "isoDate": "2026-07-09T13:00:00.000Z",
+      "excerpt": "Washington athletics projected a $16 million negative cash flow in its 2027 fiscal year budget approved by the UW Board of Regents in June.",
+      "source": "Seattle Times Sports",
+      "team": "general",
       "priority": 1
     },
     {
@@ -240,6 +325,16 @@
       "priority": 1
     },
     {
+      "title": "Mariners come up empty in shutout loss to Marlins",
+      "link": "https://www.seattletimes.com/sports/mariners/mariners-come-up-empty-in-shutout-loss-to-marlins/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Wed, 08 Jul 2026 18:07:34 -0700",
+      "isoDate": "2026-07-09T01:07:34.000Z",
+      "excerpt": "The Mariners managed only five singles Wednesday and were shut out for the eighth time this season with a 2-0 loss to the Miami Marlins.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
       "title": "47-46: Chart",
       "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/145880/47-46-chart",
       "pubDate": "2026-07-09T01:00:41.000Z",
@@ -247,6 +342,16 @@
       "excerpt": "Jul 8, 2026; Miami, Florida, USA; Miami Marlins’ Heriberto Hernandez (13) gets tagged out by Seattle Mariners shortstop Colt Emerson (4) in the fifth inning at loanDepot Park. Mandatory Credit: Jim Rassol-Imagn Images |...",
       "source": "Lookout Landing",
       "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Could Bryan Woo pitch out of the bullpen for Mariners this weekend?",
+      "link": "https://www.seattletimes.com/sports/mariners/could-bryan-woo-pitch-out-of-the-bullpen-for-mariners-this-weekend/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Wed, 08 Jul 2026 16:50:34 -0700",
+      "isoDate": "2026-07-08T23:50:34.000Z",
+      "excerpt": "Bryan Woo won't get another start until after the All-Star break, but there is a chance he might pitch out of the bullpen on the current road trip.",
+      "source": "Seattle Times Sports",
+      "team": "general",
       "priority": 1
     },
     {
@@ -400,16 +505,6 @@
       "priority": 1
     },
     {
-      "title": "Mariners Game #92 Preview and Discussion, 7/7/26: SEA at MIA",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-discussion/145850/mariners-game-92-preview-and-discussion-7-7-26-sea-at-mia",
-      "pubDate": "2026-07-07T22:15:54.000Z",
-      "isoDate": "2026-07-07T22:15:54.000Z",
-      "excerpt": "Jun 30, 2026; Seattle, Washington, USA; Seattle Mariners starting pitcher Bryan Woo (22) pitches to the Los Angeles Angels during the seventh inning at T-Mobile Park. Mandatory Credit: Steven Bisig-Imagn Images | Steven...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
       "title": "Shane Wright wants out, and his development is the key to why",
       "link": "https://www.davyjoneslockerroom.com/shane-wright-wants-out-and-his-development-is-the-key-to-why/",
       "pubDate": "Tue, 07 Jul 2026 21:00:00 +0000",
@@ -460,16 +555,6 @@
       "priority": 2
     },
     {
-      "title": "Randy's All-Star selection a combo of trademark consistency and new mindset",
-      "link": "https://www.mlb.com/mariners/news/randy-arozarena-s-approach-in-all-star-first-half",
-      "pubDate": "Mon, 06 Jul 2026 19:40:08 GMT",
-      "isoDate": "2026-07-06T19:40:08.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
-    },
-    {
       "title": "Seahawks RB George Holani Ahead Of Jadarian Price?",
       "link": "https://www.profootballrumors.com/2026/07/seahawks-rb-george-holani-ahead-of-jadarian-price",
       "pubDate": "Mon, 06 Jul 2026 18:05:22 +0000",
@@ -500,16 +585,6 @@
       "priority": 6
     },
     {
-      "title": "Seahawks Expect Increased Workload For WR Rashid Shaheed",
-      "link": "https://www.profootballrumors.com/2026/07/seahawks-expect-increased-workload-for-wr-rashid-shaheed",
-      "pubDate": "Sun, 05 Jul 2026 17:25:02 +0000",
-      "isoDate": "2026-07-05T17:25:02.000Z",
-      "excerpt": "This offseason, the Seahawks authorized a three-year, $51MM deal for wide receiver Rashid Shaheed to keep him from hitting free agency. That suggests the defending champions believe he will have more of a role on...",
-      "source": "Pro Football Rumors",
-      "team": "seahawks",
-      "priority": 2
-    },
-    {
       "title": "Kraken Working With Shane Wright To Find A Suitable Trade",
       "link": "https://www.prohockeyrumors.com/2026/07/kraken-working-with-shane-wright-to-find-a-suitable-trade.html",
       "pubDate": "Sat, 04 Jul 2026 16:59:35 +0000",
@@ -525,86 +600,6 @@
       "pubDate": "Fri, 03 Jul 2026 22:55:31 +0000",
       "isoDate": "2026-07-03T22:55:31.000Z",
       "excerpt": "The Mariners announced that outfielder Julio Rodríguez has been placed on the seven-day concussion injured list. Infielder/outfielder Miles Mastrobuoni has been selected to take his place on the roster. Right-hander...",
-      "source": "MLB Trade Rumors",
-      "team": "mariners",
-      "priority": 2
-    },
-    {
-      "title": "Seahawks, Jaxon Smith-Njigba Nominated For 2026 ESPY Awards",
-      "link": "https://www.seahawks.com/news/seahawks-jaxon-smith-njigba-nominated-for-2026-espy-awards",
-      "pubDate": "Thu, 02 Jul 2026 18:40:52 GMT",
-      "isoDate": "2026-07-02T18:40:52.000Z",
-      "excerpt": "Fans can vote for the Seahawks and receiver Jaxon Smith-Njigba, who were nominated for 2026 ESPY Awards.",
-      "source": "Seahawks.com",
-      "team": "seahawks",
-      "priority": 6
-    },
-    {
-      "title": "Kraken add Curtis Douglas in FA on 2-year, 1.25m AAV contract",
-      "link": "https://www.davyjoneslockerroom.com/kraken-add-curtis-douglas-in-fa-on-2-year-1-25m-aav-contract/",
-      "pubDate": "Thu, 02 Jul 2026 02:13:48 +0000",
-      "isoDate": "2026-07-02T02:13:48.000Z",
-      "excerpt": "Cue up Manny Fresh, because the Kraken like their forwards Real Big this free agency. The Kraken announced the signing of Forward Curtis Douglas to a 2 year deal worth $1.25 million. WELCOME ABOARD! 🦑The #SeaKraken...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
-    },
-    {
-      "title": "Kraken Sign Curtis Douglas",
-      "link": "https://www.prohockeyrumors.com/2026/07/kraken-sign-curtis-douglas.html",
-      "pubDate": "Wed, 01 Jul 2026 20:29:44 +0000",
-      "isoDate": "2026-07-01T20:29:44.000Z",
-      "excerpt": "The Seattle Kraken have signed UFA winger Curtis Douglas to a two-year contract.",
-      "source": "Pro Hockey Rumors",
-      "team": "kraken",
-      "priority": 2
-    },
-    {
-      "title": "DJLR Free Agency Frenzy LIVETHREAD",
-      "link": "https://www.davyjoneslockerroom.com/djlr-free-agency-primer/",
-      "pubDate": "Wed, 01 Jul 2026 16:49:53 +0000",
-      "isoDate": "2026-07-01T16:49:53.000Z",
-      "excerpt": "Welcome to free agent frenzy, friends. The NHL has already begun making goofy trades all over the place after the Kraken made a perfectly reasonable call for Mackie Samoskevich, so let’s enjoy the magic as it unfolds!...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
-    },
-    {
-      "title": "Kraken Sign Mackie Samoskevich To Three-Year Deal",
-      "link": "https://www.prohockeyrumors.com/2026/07/kraken-sign-mackie-samoskevich-to-three-year-deal.html",
-      "pubDate": "Wed, 01 Jul 2026 16:19:07 +0000",
-      "isoDate": "2026-07-01T16:19:07.000Z",
-      "excerpt": "The Seattle Kraken announced that they have signed restricted free agent forward Mackie Samoskevich to a three-year deal. Per Elliotte Friedman, the deal carries a $3.85MM AAV ($11.55MM Total Value) and which will have...",
-      "source": "Pro Hockey Rumors",
-      "team": "kraken",
-      "priority": 2
-    },
-    {
-      "title": "Stream Mariners games on Mariners.TV for low price of $54.99",
-      "link": "https://www.mlb.com/mariners/news/mariners-tv-is-here-for-2026-season",
-      "pubDate": "Wed, 01 Jul 2026 16:04:00 GMT",
-      "isoDate": "2026-07-01T16:04:00.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
-    },
-    {
-      "title": "The Boeing Classic Tees Off August 14-16 at the Club at Snoqualmie Ridge",
-      "link": "https://www.seahawks.com/news/the-boeing-classic-tees-off-august-14-16-at-the-club-at-snoqualmie-ridge",
-      "pubDate": "Tue, 30 Jun 2026 23:59:26 GMT",
-      "isoDate": "2026-06-30T23:59:26.000Z",
-      "excerpt": "Tickets on sale now for golf enthusiasts and family fun.",
-      "source": "Seahawks.com",
-      "team": "seahawks",
-      "priority": 6
-    },
-    {
-      "title": "Mariners Acquire Buddy Kennedy",
-      "link": "https://www.mlbtraderumors.com/2026/06/mariners-acquire-buddy-kennedy.html",
-      "pubDate": "Tue, 30 Jun 2026 00:14:34 +0000",
-      "isoDate": "2026-06-30T00:14:34.000Z",
-      "excerpt": "June 29: Kennedy has reported to the team and is active for tonight’s series opener against the Angels. Seattle placed Refsnyder on the 10-day injured list, retroactive to June 27, with right knee inflammation to open a...",
       "source": "MLB Trade Rumors",
       "team": "mariners",
       "priority": 2
