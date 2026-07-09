@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-09T17:52:33.761Z",
+  "generatedAt": "2026-07-09T19:40:00.738Z",
   "sourceCount": 10,
   "successfulSources": 9,
   "failedSources": [
@@ -9,6 +9,56 @@
     }
   ],
   "items": [
+    {
+      "title": "WR Brandin Cooks Wants To Rejoin Bills",
+      "link": "https://www.profootballrumors.com/2026/07/wr-brandin-cooks-wants-to-rejoin-bills",
+      "pubDate": "Thu, 09 Jul 2026 19:10:55 +0000",
+      "isoDate": "2026-07-09T19:10:55.000Z",
+      "excerpt": "Despite a 12-year resume that includes 734 receptions and 60 touchdowns, wide receiver Brandin Cooks has not found a team since free agency opened in March. It apparently hasn’t been for lack of interest around the NFL,...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
+      "priority": 2
+    },
+    {
+      "title": "Top 2026 Training Camp Storylines: What's next for Ernest Jones IV After A Standout 2025 Season?",
+      "link": "https://www.seahawks.com/news/top-2026-training-camp-storylines-what-s-next-for-ernest-jones-iv-after-a-standout-2025-season",
+      "pubDate": "Thu, 09 Jul 2026 19:04:53 GMT",
+      "isoDate": "2026-07-09T19:04:53.000Z",
+      "excerpt": "Ernest Jones IV emerged as one of the league’s top linebackers and leaders on a Super Bowl-winning defense in 2025, so what’s next for the sixth-year ‘backer?",
+      "source": "Seahawks.com",
+      "team": "seahawks",
+      "priority": 6
+    },
+    {
+      "title": "US star Pulisic fractured leg during World Cup loss in Seattle",
+      "link": "https://sports.mynorthwest.com/seattle-sports-pit/us-star-christian-pulisic-fractured-leg-world-cup-loss-seattle",
+      "pubDate": "Thu, 09 Jul 2026 18:11:03 +0000",
+      "isoDate": "2026-07-09T18:11:03.000Z",
+      "excerpt": "Christian Pulisic exited in the 59th minute of Monday's 4-1 World Cup knockout loss to Belgium in Seattle.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Seattle Sports, WSU Cougars announce new multi-year partnership",
+      "link": "https://sports.mynorthwest.com/ncaa/wsu/seattle-sports-wsu-cougars-announce-new-multi-year-partnership",
+      "pubDate": "Thu, 09 Jul 2026 17:33:54 +0000",
+      "isoDate": "2026-07-09T17:33:54.000Z",
+      "excerpt": "Seattle Sports 710 AM will once again serve as the Seattle flagship station for WSU football and men's basketball.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Seahawks’ Leonard Williams ranked NFL’s No. 1 DT by ESPN",
+      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/seattle-seahawks-leonard-williams-no-1-defensive-tackle-espn-ranking",
+      "pubDate": "Thu, 09 Jul 2026 16:53:25 +0000",
+      "isoDate": "2026-07-09T16:53:25.000Z",
+      "excerpt": "Williams has piled up 18 sacks over the past two seasons, the most among all NFL defensive tackles.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
     {
       "title": "The dream-big trade target for the Mariners",
       "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/the-dream-big-trade-target-for-the-seattle-mariners",
@@ -195,36 +245,6 @@
       "pubDate": "Wed, 08 Jul 2026 22:13:47 +0000",
       "isoDate": "2026-07-08T22:13:47.000Z",
       "excerpt": "Unless Morocco pulls off a series of surprising outcomes, the champion will once again come from Europe or South America.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "Half of MLB’s Home Run Derby field is now set",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/half-mlb-home-run-derby-field-set-2026",
-      "pubDate": "Wed, 08 Jul 2026 22:13:12 +0000",
-      "isoDate": "2026-07-08T22:13:12.000Z",
-      "excerpt": "Four of the eight participants have been announced for next week's MLB Home Run Derby in Philadelphia.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "Pitcher who gave up Cal Raleigh’s iconic HR suspended for PED",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/pitcher-who-gave-up-cal-raleighs-iconic-hr-suspended-for-ped",
-      "pubDate": "Wed, 08 Jul 2026 22:10:19 +0000",
-      "isoDate": "2026-07-08T22:10:19.000Z",
-      "excerpt": "Domingo Acevedo was suspended for 80 games Wednesday. He surrendered the homer that broke Seattle's playoff drought in 2022.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "2 Takes: How insiders view Colt Emerson’s recent hitting woes",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/2-takes-how-insiders-view-seattle-mariners-colt-emersons-recent-hitting-woes",
-      "pubDate": "Wed, 08 Jul 2026 21:00:33 +0000",
-      "isoDate": "2026-07-08T21:00:33.000Z",
-      "excerpt": "Jeff Passan and Keith Law shared their levels of concern about the shortstop's high strikeout numbers and current slump.",
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
@@ -480,16 +500,6 @@
       "priority": 2
     },
     {
-      "title": "Each NFC Team’s Largest 2026 Cap Hit",
-      "link": "https://www.profootballrumors.com/2026/07/each-nfc-teams-largest-2026-cap-hit",
-      "pubDate": "Sun, 05 Jul 2026 03:32:15 +0000",
-      "isoDate": "2026-07-05T03:32:15.000Z",
-      "excerpt": "With training camp a few weeks away and the NFL in the midst of a rare quiet period, this is a good time to examine each team’s largest 2026 cap hit. This exercise will take a look at players who are still on their...",
-      "source": "Pro Football Rumors",
-      "team": "seahawks",
-      "priority": 2
-    },
-    {
       "title": "Kraken Working With Shane Wright To Find A Suitable Trade",
       "link": "https://www.prohockeyrumors.com/2026/07/kraken-working-with-shane-wright-to-find-a-suitable-trade.html",
       "pubDate": "Sat, 04 Jul 2026 16:59:35 +0000",
@@ -575,16 +585,6 @@
       "pubDate": "Tue, 30 Jun 2026 23:59:26 GMT",
       "isoDate": "2026-06-30T23:59:26.000Z",
       "excerpt": "Tickets on sale now for golf enthusiasts and family fun.",
-      "source": "Seahawks.com",
-      "team": "seahawks",
-      "priority": 6
-    },
-    {
-      "title": "Seahawks 'Mayor' Julian Love 'Exemplifies The Mentality We're Looking For'",
-      "link": "https://www.seahawks.com/news/seahawks-mayor-julian-love-exemplifies-the-mentality-we-re-looking-for",
-      "pubDate": "Tue, 30 Jun 2026 20:20:12 GMT",
-      "isoDate": "2026-06-30T20:20:12.000Z",
-      "excerpt": "Heading into his fourth season with the Seahawks, safety Julian Love is again exemplifying the leadership and selflessness that helps make Seattle’s defense great.",
       "source": "Seahawks.com",
       "team": "seahawks",
       "priority": 6
