@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T02:40:25.014Z",
+  "generatedAt": "2026-07-10T07:32:12.930Z",
   "sourceCount": 10,
   "successfulSources": 9,
   "failedSources": [
@@ -10,14 +10,54 @@
   ],
   "items": [
     {
-      "title": "Watch LIVE as recently promoted prospects Montes, Arroyo take cuts at Triple-A",
-      "link": "https://www.mlb.com/mariners/news/watch-minor-league-baseball-games-for-free-2026",
-      "pubDate": "Fri, 10 Jul 2026 01:58:00 GMT",
-      "isoDate": "2026-07-10T01:58:00.000Z",
+      "title": "Mariners eager to exit Miami after low-scoring series",
+      "link": "https://www.mlb.com/mariners/news/mariners-lose-series-finale-vs-marlins",
+      "pubDate": "Fri, 10 Jul 2026 05:01:00 GMT",
+      "isoDate": "2026-07-10T05:01:00.000Z",
       "excerpt": "",
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
+    },
+    {
+      "title": "Two Groups Competing To Buy Seahawks",
+      "link": "https://www.profootballrumors.com/2026/07/two-groups-competing-to-buy-seahawks",
+      "pubDate": "Fri, 10 Jul 2026 03:14:34 +0000",
+      "isoDate": "2026-07-10T03:14:34.000Z",
+      "excerpt": "Seahawks owner Jody Allen put the franchise up for sale on Feb. 18. First bids were due June 29, and in the time since then, two groups have become clear front-runners to buy the Seahawks, sources told Ben Horney of...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
+      "priority": 2
+    },
+    {
+      "title": "Mariners pay for their mistakes, get swept in Miami",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/145919/mariners-pay-for-their-mistakes-get-swept-in-miami",
+      "pubDate": "2026-07-10T03:05:42.000Z",
+      "isoDate": "2026-07-10T03:05:42.000Z",
+      "excerpt": "Jul 9, 2026; Miami, Florida, USA; Miami Marlins mascot Billy the Marlin celebrates after the game against the Seattle Mariners at loanDepot Park. Mandatory Credit: Sam Navarro-Imagn Images | Sam Navarro-Imagn Images At...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Gray scores 22 to lead Dream past Storm 89-78",
+      "link": "https://sports.mynorthwest.com/wnba/seattle-storm/gray-scores-22-to-lead-dream-past-storm-89-78",
+      "pubDate": "Fri, 10 Jul 2026 02:48:36 +0000",
+      "isoDate": "2026-07-10T02:48:36.000Z",
+      "excerpt": "Angel Reese added her league-best 15th double-double to help Atlanta.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Marlins beat Mariners 8-4 to earn series sweep",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/marlins-beat-mariners-8-4-to-earn-series-sweep",
+      "pubDate": "Fri, 10 Jul 2026 01:55:13 +0000",
+      "isoDate": "2026-07-10T01:55:13.000Z",
+      "excerpt": "Seattle fell back to .500 after losing its third straight game in Miami.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
     },
     {
       "title": "47-47: Chart",
@@ -38,6 +78,16 @@
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
+    },
+    {
+      "title": "Seattle Seahawks sale update: Two front-runners emerge, ex-Seahawk involved in one group",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-news/170414/seattle-seahawks-sale-update-two-front-runners-emerge-ex-seahawk-involved-nfl-news",
+      "pubDate": "2026-07-10T00:55:24.000Z",
+      "isoDate": "2026-07-10T00:55:24.000Z",
+      "excerpt": "With the start of the NFL’s regular season drawing ever closer, there remains one question hanging over the head of the Seattle Seahawks’ organization: Who will our next owner be? It’s a question that could soon have...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
     },
     {
       "title": "Motors & Movies at America’s Car Museum in July — Pixar’s Cars Under the Stars!",
@@ -68,16 +118,6 @@
       "source": "Lookout Landing",
       "team": "mariners",
       "priority": 1
-    },
-    {
-      "title": "Two Groups Competing To Buy Seahawks",
-      "link": "https://www.profootballrumors.com/2026/07/two-groups-competing-to-buy-seahawks",
-      "pubDate": "Thu, 09 Jul 2026 21:34:34 +0000",
-      "isoDate": "2026-07-09T21:34:34.000Z",
-      "excerpt": "Seahawks owner Jody Allen put the franchise up for sale on Feb. 18. First bids were due June 29, and in the time since then, two groups have become clear front-runners to buy the Seahawks, sources told Ben Horney of...",
-      "source": "Pro Football Rumors",
-      "team": "seahawks",
-      "priority": 2
     },
     {
       "title": "Report: 2 front-runners emerge in Seahawks sale process",
@@ -130,6 +170,16 @@
       "priority": 3
     },
     {
+      "title": "Seahawks’ Leonard Williams ranked as NFL’s best defensive tackle in ESPN survey",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/170407/seahawks-leonard-williams-ranked-nfl-best-defensive-tackle-espn-survey",
+      "pubDate": "2026-07-09T19:54:03.000Z",
+      "isoDate": "2026-07-09T19:54:03.000Z",
+      "excerpt": "CHICAGO, ILLINOIS - DECEMBER 26: Leonard Williams #99 of the Seattle Seahawks reacts after a sack during the second quarter against the Chicago Bears at Soldier Field on December 26, 2024 in Chicago, Illinois. (Photo by...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
+    {
       "title": "WR Brandin Cooks Wants To Rejoin Bills",
       "link": "https://www.profootballrumors.com/2026/07/wr-brandin-cooks-wants-to-rejoin-bills",
       "pubDate": "Thu, 09 Jul 2026 19:10:55 +0000",
@@ -155,26 +205,6 @@
       "pubDate": "Thu, 09 Jul 2026 19:00:29 +0000",
       "isoDate": "2026-07-09T19:00:29.000Z",
       "excerpt": "Seattle's Aug. 7 game against Tampa Bay and Aug. 28 game against Toronto will air on the streaming service.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "US star Pulisic fractured leg during World Cup loss in Seattle",
-      "link": "https://sports.mynorthwest.com/seattle-sports-pit/us-star-christian-pulisic-fractured-leg-world-cup-loss-seattle",
-      "pubDate": "Thu, 09 Jul 2026 18:11:03 +0000",
-      "isoDate": "2026-07-09T18:11:03.000Z",
-      "excerpt": "Christian Pulisic exited in the 59th minute of Monday's 4-1 World Cup knockout loss to Belgium in Seattle.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "Seattle Sports, WSU Cougars announce new multi-year partnership",
-      "link": "https://sports.mynorthwest.com/ncaa/wsu/seattle-sports-wsu-cougars-announce-new-multi-year-partnership",
-      "pubDate": "Thu, 09 Jul 2026 17:33:54 +0000",
-      "isoDate": "2026-07-09T17:33:54.000Z",
-      "excerpt": "Seattle Sports 710 AM will once again serve as the Seattle flagship station for WSU football and men's basketball.",
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
@@ -410,16 +440,6 @@
       "priority": 2
     },
     {
-      "title": "Mariners fail to take advantage of opportunities, lose 6-5",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/145855/mariners-fail-to-take-advantage-of-opportunities-lose-6-5",
-      "pubDate": "2026-07-08T02:29:46.000Z",
-      "isoDate": "2026-07-08T02:29:46.000Z",
-      "excerpt": "Jul 7, 2026; Miami, Florida, USA; Seattle Mariners shortstop Colt Emerson (4) is forced out at home plate against the Miami Marlins during the sixth inning at loanDepot Park. Mandatory Credit: Sam Navarro-Imagn Images |...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
       "title": "Shane Wright wants out, and his development is the key to why",
       "link": "https://www.davyjoneslockerroom.com/shane-wright-wants-out-and-his-development-is-the-key-to-why/",
       "pubDate": "Tue, 07 Jul 2026 21:00:00 +0000",
@@ -448,26 +468,6 @@
       "source": "Seahawks.com",
       "team": "seahawks",
       "priority": 6
-    },
-    {
-      "title": "Seahawks fan discussion: What’s the best move Seattle made this offseason?",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/170348/seahawks-fan-discussion-whats-the-best-move-seattle-made-offseason",
-      "pubDate": "2026-07-07T19:27:51.000Z",
-      "isoDate": "2026-07-07T19:27:51.000Z",
-      "excerpt": "SEATTLE, WASHINGTON - FEBRUARY 11: General manager John Schneider of the Seattle Seahawks celebrates with fans during the Seattle Seahawks Super Bowl LX victory celebration and parade at Lumen Field on February 11, 2026...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "5 Seahawks position battle questions heading into training camp",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/170278/5-seattle-seahawks-position-battle-questions-training-camp-preview",
-      "pubDate": "2026-07-07T14:00:00.000Z",
-      "isoDate": "2026-07-07T14:00:00.000Z",
-      "excerpt": "LANDOVER, MARYLAND - NOVEMBER 02: Connor O'Toole #57 of the Seattle Seahawks celebrates during an NFL football game against the Washington Commanders at Northwest Stadium on November 2, 2025 in Landover, Maryland....",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
     },
     {
       "title": "The NFL’s Longest-Tenured Head Coaches",
