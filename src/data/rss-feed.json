@@ -1,9 +1,104 @@
 {
-  "generatedAt": "2026-07-10T14:15:13.038Z",
+  "generatedAt": "2026-07-10T17:44:49.251Z",
   "sourceCount": 10,
-  "successfulSources": 10,
-  "failedSources": [],
+  "successfulSources": 9,
+  "failedSources": [
+    {
+      "source": "Seattle Times Sports",
+      "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
+    }
+  ],
   "items": [
+    {
+      "title": "Another prospect who could help the Mariners this season",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/another-prospect-who-could-help-seattle-mariners-this-season",
+      "pubDate": "Fri, 10 Jul 2026 17:09:59 +0000",
+      "isoDate": "2026-07-10T17:09:59.000Z",
+      "excerpt": "Over-Slot Baseball's Joe Doyle on why there's a clearer path to the big leagues for Michael Arroyo than Lazaro Montes in 2026.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "2026 MLB Mock Draft, Lookout Landing-style",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-mlb-draft/145954/2026-mlb-mock-draft-lookout-landing-style",
+      "pubDate": "2026-07-10T16:53:00.000Z",
+      "isoDate": "2026-07-10T16:53:00.000Z",
+      "excerpt": "ATLANTA, GA - JULY 13: Atlanta Braves mascot Blooper and Philadelphia Phillies mascot Phillie Phanatic interact during the 2025 MLB Draft presented by Nike at Coca-Cola Roxy on Sunday, July 13, 2025 in Atlanta, Georgia....",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Seahawks Leonard Williams & Devon Witherspoon Ranked Highly By Coaches, Executives & Scouts",
+      "link": "https://www.seahawks.com/news/seahawks-leonard-williams-devon-witherspoon-ranked-highly-by-coaches-executives-scouts",
+      "pubDate": "Fri, 10 Jul 2026 16:34:49 GMT",
+      "isoDate": "2026-07-10T16:34:49.000Z",
+      "excerpt": "ESPN’s annual position rankings had Seahawks defensive tackle Leonard Williams ranked atop his position group, while Devon Witherspoon ranked fourth among corners.",
+      "source": "Seahawks.com",
+      "team": "seahawks",
+      "priority": 6
+    },
+    {
+      "title": "Seven-win Seahawks? NFL analyst explains his take",
+      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/seven-win-seattle-seahawks-nfl-analyst-explains-his-take",
+      "pubDate": "Fri, 10 Jul 2026 16:04:52 +0000",
+      "isoDate": "2026-07-10T16:04:52.000Z",
+      "excerpt": "FOX NFL analyst Bucky Brooks pointed to a tough division and lack of faith in Seattle's offense for his prediction.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Series Preview: Mariners (47-47) at Rays (54-37)",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-game-information/145945/series-preview-seattle-mariners-at-tampa-bay-rays-july-2026",
+      "pubDate": "2026-07-10T16:00:00.000Z",
+      "isoDate": "2026-07-10T16:00:00.000Z",
+      "excerpt": "ST PETERSBURG, FLORIDA - JULY 08: (L-R) Junior Caminero #13 of the Tampa Bay Rays celebrates with Jonathan Aranda #8 after defeating the New York Yankees 3-0 at Tropicana Field on July 08, 2026 in St Petersburg,...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Texans Work Out CB Terrion Arnold; Colts, Jets, Seahawks Showing Interest",
+      "link": "https://www.profootballrumors.com/2026/07/texans-work-out-cb-terrion-arnold-colts-jets-seahawks-showing-interest",
+      "pubDate": "Fri, 10 Jul 2026 15:17:37 +0000",
+      "isoDate": "2026-07-10T15:17:37.000Z",
+      "excerpt": "10:17am: Arnold took a physical during his workout in Houston on Thursday, per ESPN’s Adam Schefter, who adds the corner is scheduled to visit two more teams next week. 9:34am: A few days after Terrion Arnold was...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
+      "priority": 2
+    },
+    {
+      "title": "Former Seahawks scout Bucky Brooks defends 7-10 record prediction for 2026 Seahawks",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/170413/former-seahawks-scout-bucky-brooks-defends-7-10-record-prediction-nfl-news",
+      "pubDate": "2026-07-10T15:00:00.000Z",
+      "isoDate": "2026-07-10T15:00:00.000Z",
+      "excerpt": "INDIANAPOLIS, INDIANA - FEBRUARY 24: Bucky Brooks of NFL Network looks on during the 2026 NFL Scouting Combine at Lucas Oil Stadium on February 26, 2026 in Indianapolis, Indiana. (Photo by Lauren Leigh Bacho/Getty...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
+    {
+      "title": "The Seattle Mariners 2026 mock draft roundup",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-mlb-draft/145950/the-seattle-mariners-2026-mock-draft-roundup",
+      "pubDate": "2026-07-10T14:15:00.000Z",
+      "isoDate": "2026-07-10T14:15:00.000Z",
+      "excerpt": "04 March 2026, Bavaria, Munich: Jens Spahn (Thomas Limpinsel) performs at the \"Starkbieranstich\" at the Nockherberg. The strong beer season in Bavaria is traditionally opened with the traditional mockery, the...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Seahawks News: Leonard Williams is the best at his position",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-news/170432/seahawks-news-leonard-williams-is-the-best-at-his-position",
+      "pubDate": "2026-07-10T14:09:57.000Z",
+      "isoDate": "2026-07-10T14:09:57.000Z",
+      "excerpt": "Jun 9, 2026; Renton, WA, USA; Seattle Seahawks defensive end Leonard Williams (99) during minicamp at Virginia Mason Athletic Center. Mandatory Credit: Steven Bisig-Imagn Images | Steven Bisig-Imagn Images In Today’s...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
     {
       "title": "Jaxon Smith-Njigba and A.J. Barner’s comments highlight role of veteran leadership",
       "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/170146/jaxon-smith-njigba-aj-barner-comments-highlight-role-seahawks-veteran-leadership",
@@ -33,46 +128,6 @@
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
-    },
-    {
-      "title": "Mariners ‘open to anything’ with No. 24 pick in MLB draft",
-      "link": "https://www.seattletimes.com/sports/mariners/mariners-open-to-anything-with-no-24-pick-in-mlb-draft/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Fri, 10 Jul 2026 06:00:00 -0700",
-      "isoDate": "2026-07-10T13:00:00.000Z",
-      "excerpt": "The Mariners were delivered an unexpected gift in Kade Anderson during last year's MLB draft. But this year, \"it's a little more difficult\" to predict what will happen.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Pubs have 275 million reasons to hope England beats Norway",
-      "link": "https://www.seattletimes.com/business/pubs-have-275-million-reasons-to-hope-england-beats-norway/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Fri, 10 Jul 2026 04:44:46 -0700",
-      "isoDate": "2026-07-10T11:44:46.000Z",
-      "excerpt": "Saturday's quarterfinal against Norway will mean the busiest night of the year for many of England's 35,000-odd pubs.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "How World Cup stars pushing 40 are defying their biological clocks",
-      "link": "https://www.seattletimes.com/sports/world-cup/how-world-cup-stars-pushing-40-are-defying-their-biological-clocks/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Fri, 10 Jul 2026 04:44:34 -0700",
-      "isoDate": "2026-07-10T11:44:34.000Z",
-      "excerpt": "Players in their mid-30s and older used to be rare. In 2026, they made up about 6% of the 48 national team squads.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Patrick Wisdom, Michael Arroyo lead Tacoma Rainiers in 18-4 win",
-      "link": "https://www.seattletimes.com/sports/patrick-wisdom-michael-arroyo-lead-rainiers-in-18-4-win/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Thu, 09 Jul 2026 22:27:21 -0700",
-      "isoDate": "2026-07-10T05:27:21.000Z",
-      "excerpt": "The Tacoma Rainiers scored in all but one inning, racked up 22 hits and five home runs in an 18-4 win at Las Vegas on Thursday night.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
     },
     {
       "title": "Mariners eager to exit Miami after low-scoring series",
@@ -115,16 +170,6 @@
       "priority": 3
     },
     {
-      "title": "Seattle Storm fall to Atlanta Dream in Flau’jae Johnson’s homecoming",
-      "link": "https://www.seattletimes.com/sports/storm/seattle-storm-fall-to-atlanta-dream-in-flaujae-johnsons-homecoming/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Thu, 09 Jul 2026 19:31:15 -0700",
-      "isoDate": "2026-07-10T02:31:15.000Z",
-      "excerpt": "In Flau’jae Johnson's Georgia homecoming, the Seattle Storm struggled against the Atlanta Dream, falling 89-78 on Thursday night.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "Marlins beat Mariners 8-4 to earn series sweep",
       "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/marlins-beat-mariners-8-4-to-earn-series-sweep",
       "pubDate": "Fri, 10 Jul 2026 01:55:13 +0000",
@@ -133,16 +178,6 @@
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
-    },
-    {
-      "title": "Mariners swept in Miami as Bryce Miller struggles vs. red-hot Marlins",
-      "link": "https://www.seattletimes.com/sports/mariners/mariners-swept-in-miami-as-bryce-miller-struggles-vs-red-hot-marlins/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Thu, 09 Jul 2026 18:43:44 -0700",
-      "isoDate": "2026-07-10T01:43:44.000Z",
-      "excerpt": "Bryce Miller struggled to find rhythm and consistency, and the Mariners were swept in Miami after an 8-4 loss to the red-hot Marlins on Thursday night.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
     },
     {
       "title": "47-47: Chart",
@@ -172,26 +207,6 @@
       "excerpt": "With the start of the NFL’s regular season drawing ever closer, there remains one question hanging over the head of the Seattle Seahawks’ organization: Who will our next owner be? It’s a question that could soon have...",
       "source": "Field Gulls",
       "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "Cristian Roldan not expected back for Sounders until after Portland match",
-      "link": "https://www.seattletimes.com/sports/sounders/cristian-roldans-status-for-sounders-vs-portland-timbers-up-in-air/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Thu, 09 Jul 2026 16:51:12 -0700",
-      "isoDate": "2026-07-09T23:51:12.000Z",
-      "excerpt": "The status of Cristian Roldan is one of the big questions that remains for the Sounders as they return to MLS action next Thursday, hosting Portland.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Mariners’ Cole Young ‘upset’ over game-ending strikeout: ‘I should’ve challenged’",
-      "link": "https://www.seattletimes.com/sports/mariners/mariners-cole-young-upset-over-game-ending-strikeout-i-shouldve-challenged/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Thu, 09 Jul 2026 16:21:30 -0700",
-      "isoDate": "2026-07-09T23:21:30.000Z",
-      "excerpt": "Cole Young acknowledged he should have challenged the called strike that ended Wednesday's game. But, in the moment, he was kicking himself for not swinging at a pitch he thought was down the middle.",
-      "source": "Seattle Times Sports",
-      "team": "general",
       "priority": 1
     },
     {
@@ -265,16 +280,6 @@
       "priority": 3
     },
     {
-      "title": "Mariners coach details how WBC led to Cal Raleigh’s injury",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/mariners-coach-details-how-wbc-led-to-cal-raleighs-injury",
-      "pubDate": "Thu, 09 Jul 2026 20:31:48 +0000",
-      "isoDate": "2026-07-09T20:31:48.000Z",
-      "excerpt": "Bench coach Manny Acta said the slugger overworked himself after returning to spring training.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
       "title": "Seahawks’ Leonard Williams ranked as NFL’s best defensive tackle in ESPN survey",
       "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/170407/seahawks-leonard-williams-ranked-nfl-best-defensive-tackle-espn-survey",
       "pubDate": "2026-07-09T19:54:03.000Z",
@@ -303,16 +308,6 @@
       "source": "Seahawks.com",
       "team": "seahawks",
       "priority": 6
-    },
-    {
-      "title": "Apple TV picks up 2 Mariners games in August",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/apple-tv-picks-up-2-mariners-games-in-august",
-      "pubDate": "Thu, 09 Jul 2026 19:00:29 +0000",
-      "isoDate": "2026-07-09T19:00:29.000Z",
-      "excerpt": "Seattle's Aug. 7 game against Tampa Bay and Aug. 28 game against Toronto will air on the streaming service.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
     },
     {
       "title": "Seahawks bring back former draft pick, longtime scout Eric Stokes",
@@ -405,36 +400,6 @@
       "priority": 2
     },
     {
-      "title": "Mariners Play Boring Game in Boring Stadium, Lose 2-0",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/145886/mariners-play-boring-game-in-boring-stadium-lose-2-0",
-      "pubDate": "2026-07-09T01:23:51.000Z",
-      "isoDate": "2026-07-09T01:23:51.000Z",
-      "excerpt": "Jul 8, 2026; Miami, Florida, USA; Seattle Mariners catcher Cal Raleigh (29) tags out Miami Marlins’ Otto Lopez (6) at home plate to end the fifth inning at loanDepot Park. Mandatory Credit: Jim Rassol-Imagn Images | Jim...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "47-46: Chart",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/145880/47-46-chart",
-      "pubDate": "2026-07-09T01:00:41.000Z",
-      "isoDate": "2026-07-09T01:00:41.000Z",
-      "excerpt": "Jul 8, 2026; Miami, Florida, USA; Miami Marlins’ Heriberto Hernandez (13) gets tagged out by Seattle Mariners shortstop Colt Emerson (4) in the fifth inning at loanDepot Park. Mandatory Credit: Jim Rassol-Imagn Images |...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "Mariners Game #93 Preview and Discussion, 7/8/26: SEA vs MIA",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-discussion/145874/mariners-game-93-preview-and-discussion-7-8-26-sea-vs-mia",
-      "pubDate": "2026-07-08T22:30:45.000Z",
-      "isoDate": "2026-07-08T22:30:45.000Z",
-      "excerpt": "MIAMI, FLORIDA - MAY 01: Julio Rodriguez #44 of the Seattle Mariners hits his first professional home run during the sixth inning against the Miami Marlins at loanDepot park on May 01, 2022 in Miami, Florida. (Photo by...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
       "title": "Top 2026 Training Camp Storylines: Who Steps Up As The Third Cornerback?",
       "link": "https://www.seahawks.com/news/top-2026-training-camp-storylines-who-steps-up-as-the-third-cornerback",
       "pubDate": "Wed, 08 Jul 2026 20:36:53 GMT",
@@ -483,26 +448,6 @@
       "source": "Pro Football Rumors",
       "team": "seahawks",
       "priority": 2
-    },
-    {
-      "title": "Seahawks Reacts Survey: Which position group are you most interested in during training camp?",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/170351/seahawks-reacts-survey-which-position-group-training-camp-most-attention-nfl-discussion",
-      "pubDate": "2026-07-08T15:00:00.000Z",
-      "isoDate": "2026-07-08T15:00:00.000Z",
-      "excerpt": "Jun 9, 2026; Renton, WA, USA; Seattle Seahawks defensive line coach Justin Hinds during minicamp at Virginia Mason Athletic Center. Mandatory Credit: Steven Bisig-Imagn Images | Steven Bisig-Imagn Images Welcome to SB...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "Why the Seahawks&#8217; offensive line could determine their 2026 ceiling",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/170277/nfl-opinion-why-seattle-seahawks-offensive-line-could-determine-2026-ceiling",
-      "pubDate": "2026-07-08T14:00:00.000Z",
-      "isoDate": "2026-07-08T14:00:00.000Z",
-      "excerpt": "For years, one of the biggest questions surrounding the Seattle Seahawks has been the offensive line. Coaching staffs have changed, quarterbacks have changed, offfensive coordinators have come and gone. Seattle has...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
     },
     {
       "title": "2026 Cap Space, By Team",
@@ -555,16 +500,6 @@
       "priority": 2
     },
     {
-      "title": "Seahawks RB George Holani Ahead Of Jadarian Price?",
-      "link": "https://www.profootballrumors.com/2026/07/seahawks-rb-george-holani-ahead-of-jadarian-price",
-      "pubDate": "Mon, 06 Jul 2026 18:05:22 +0000",
-      "isoDate": "2026-07-06T18:05:22.000Z",
-      "excerpt": "JULY 6: The Athletic’s Saad Yousuf writes Price will, in fact, be “tasked with taking over a starring role” on Seattle’s offense moving forward. It remains to be seen if that will include the No. 1 gig right away, but...",
-      "source": "Pro Football Rumors",
-      "team": "seahawks",
-      "priority": 2
-    },
-    {
       "title": "How will Mariners build for long-term success in Draft?",
       "link": "https://www.mlb.com/mariners/news/mariners-2026-draft-preview",
       "pubDate": "Mon, 06 Jul 2026 16:53:01 GMT",
@@ -600,6 +535,76 @@
       "pubDate": "Fri, 03 Jul 2026 22:55:31 +0000",
       "isoDate": "2026-07-03T22:55:31.000Z",
       "excerpt": "The Mariners announced that outfielder Julio Rodríguez has been placed on the seven-day concussion injured list. Infielder/outfielder Miles Mastrobuoni has been selected to take his place on the roster. Right-hander...",
+      "source": "MLB Trade Rumors",
+      "team": "mariners",
+      "priority": 2
+    },
+    {
+      "title": "Seahawks, Jaxon Smith-Njigba Nominated For 2026 ESPY Awards",
+      "link": "https://www.seahawks.com/news/seahawks-jaxon-smith-njigba-nominated-for-2026-espy-awards",
+      "pubDate": "Thu, 02 Jul 2026 18:40:52 GMT",
+      "isoDate": "2026-07-02T18:40:52.000Z",
+      "excerpt": "Fans can vote for the Seahawks and receiver Jaxon Smith-Njigba, who were nominated for 2026 ESPY Awards.",
+      "source": "Seahawks.com",
+      "team": "seahawks",
+      "priority": 6
+    },
+    {
+      "title": "Kraken add Curtis Douglas in FA on 2-year, 1.25m AAV contract",
+      "link": "https://www.davyjoneslockerroom.com/kraken-add-curtis-douglas-in-fa-on-2-year-1-25m-aav-contract/",
+      "pubDate": "Thu, 02 Jul 2026 02:13:48 +0000",
+      "isoDate": "2026-07-02T02:13:48.000Z",
+      "excerpt": "Cue up Manny Fresh, because the Kraken like their forwards Real Big this free agency. The Kraken announced the signing of Forward Curtis Douglas to a 2 year deal worth $1.25 million. WELCOME ABOARD! 🦑The #SeaKraken...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
+      "title": "Kraken Sign Curtis Douglas",
+      "link": "https://www.prohockeyrumors.com/2026/07/kraken-sign-curtis-douglas.html",
+      "pubDate": "Wed, 01 Jul 2026 20:29:44 +0000",
+      "isoDate": "2026-07-01T20:29:44.000Z",
+      "excerpt": "The Seattle Kraken have signed UFA winger Curtis Douglas to a two-year contract.",
+      "source": "Pro Hockey Rumors",
+      "team": "kraken",
+      "priority": 2
+    },
+    {
+      "title": "DJLR Free Agency Frenzy LIVETHREAD",
+      "link": "https://www.davyjoneslockerroom.com/djlr-free-agency-primer/",
+      "pubDate": "Wed, 01 Jul 2026 16:49:53 +0000",
+      "isoDate": "2026-07-01T16:49:53.000Z",
+      "excerpt": "Welcome to free agent frenzy, friends. The NHL has already begun making goofy trades all over the place after the Kraken made a perfectly reasonable call for Mackie Samoskevich, so let’s enjoy the magic as it unfolds!...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
+      "title": "Kraken Sign Mackie Samoskevich To Three-Year Deal",
+      "link": "https://www.prohockeyrumors.com/2026/07/kraken-sign-mackie-samoskevich-to-three-year-deal.html",
+      "pubDate": "Wed, 01 Jul 2026 16:19:07 +0000",
+      "isoDate": "2026-07-01T16:19:07.000Z",
+      "excerpt": "The Seattle Kraken announced that they have signed restricted free agent forward Mackie Samoskevich to a three-year deal. Per Elliotte Friedman, the deal carries a $3.85MM AAV ($11.55MM Total Value) and which will have...",
+      "source": "Pro Hockey Rumors",
+      "team": "kraken",
+      "priority": 2
+    },
+    {
+      "title": "Stream Mariners games on Mariners.TV for low price of $54.99",
+      "link": "https://www.mlb.com/mariners/news/mariners-tv-is-here-for-2026-season",
+      "pubDate": "Wed, 01 Jul 2026 16:04:00 GMT",
+      "isoDate": "2026-07-01T16:04:00.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Mariners Acquire Buddy Kennedy",
+      "link": "https://www.mlbtraderumors.com/2026/06/mariners-acquire-buddy-kennedy.html",
+      "pubDate": "Tue, 30 Jun 2026 00:14:34 +0000",
+      "isoDate": "2026-06-30T00:14:34.000Z",
+      "excerpt": "June 29: Kennedy has reported to the team and is active for tonight’s series opener against the Angels. Seattle placed Refsnyder on the 10-day injured list, retroactive to June 27, with right knee inflammation to open a...",
       "source": "MLB Trade Rumors",
       "team": "mariners",
       "priority": 2
