@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T21:03:20.299Z",
+  "generatedAt": "2026-07-10T22:57:07.252Z",
   "sourceCount": 10,
   "successfulSources": 9,
   "failedSources": [
@@ -9,6 +9,46 @@
     }
   ],
   "items": [
+    {
+      "title": "Mariners Game #95 Preview and Discussion, 7/10/26: SEA vs TBR",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-discussion/145971/mariners-game-95-preview-and-discussion-7-10-26-sea-vs-tbr",
+      "pubDate": "2026-07-10T22:00:00.000Z",
+      "isoDate": "2026-07-10T22:00:00.000Z",
+      "excerpt": "Oct 27, 2020; Arlington, Texas, USA; Tampa Bay Rays left fielder Randy Arozarena (56) celebrates after hitting home run during the first inning against the Los Angeles Dodgers during game six of the 2020 World Series at...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Dodgers star Shohei Ohtani to miss All-Star Game",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/dodgers-star-shohei-ohtani-to-miss-all-star-game",
+      "pubDate": "Fri, 10 Jul 2026 20:47:22 +0000",
+      "isoDate": "2026-07-10T20:47:22.000Z",
+      "excerpt": "The two-way phenom is dealing with continued irritation in his left knee.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Mariners Lineup: Latest trade pickup gets first start",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-lineup-latest-trade-pickup-gets-first-start",
+      "pubDate": "Fri, 10 Jul 2026 20:23:14 +0000",
+      "isoDate": "2026-07-10T20:23:14.000Z",
+      "excerpt": "Buddy Kennedy, who was acquired in late June, is playing third base and batting ninth against Tampa Bay on Friday.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Seahawks expressed interest in troubled CB, per agent",
+      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/seahawks-expressed-interest-in-troubled-cb-per-agent",
+      "pubDate": "Fri, 10 Jul 2026 19:27:48 +0000",
+      "isoDate": "2026-07-10T19:27:48.000Z",
+      "excerpt": "The agent of Terrion Arnold during a court hearing named Seattle as one four teams to inquire about the defensive back.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
     {
       "title": "Kraken Re-Sign Victor Ostman, Ville Ottavainen",
       "link": "https://www.prohockeyrumors.com/2026/07/kraken-re-sign-victor-ostman-ville-ottavainen.html",
@@ -84,7 +124,7 @@
       "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/seven-win-seattle-seahawks-nfl-analyst-explains-his-take",
       "pubDate": "Fri, 10 Jul 2026 16:04:52 +0000",
       "isoDate": "2026-07-10T16:04:52.000Z",
-      "excerpt": "FOX NFL analyst Bucky Brooks pointed to a tough division and lack of faith in Seattle's offense for his prediction.",
+      "excerpt": "NFL analyst Bucky Brooks pointed to a tough division and lack of faith in Seattle's offense for his prediction.",
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
@@ -250,26 +290,6 @@
       "priority": 1
     },
     {
-      "title": "Motors & Movies at America’s Car Museum in July — Pixar’s Cars Under the Stars!",
-      "link": "https://sports.mynorthwest.com/contests-events/motors-movies-at-americas-car-museum-in-july-pixars-cars-under-the-stars",
-      "pubDate": "Thu, 09 Jul 2026 23:19:05 +0000",
-      "isoDate": "2026-07-09T23:19:05.000Z",
-      "excerpt": "More to explore this July at ACM, Motors & Movies on Friday July 24th is just one stop on a packed summer calendar.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "World Cup: Mbappé has foot in both goals, France beats Morocco 2-0",
-      "link": "https://sports.mynorthwest.com/seattle-sports-pit/world-cup-mbappe-has-foot-in-both-goals-france-beats-morocco-2-0",
-      "pubDate": "Thu, 09 Jul 2026 22:43:49 +0000",
-      "isoDate": "2026-07-09T22:43:49.000Z",
-      "excerpt": "Les Bleus moved on to a semifinal match on Tuesday in Dallas.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
       "title": "Mariners Game #94 Preview and Discussion: SEA at MIA, 7/9",
       "link": "https://www.lookoutlanding.com/seattle-mariners-game-information/145902/mariners-game-94-preview-and-discussion-sea-at-mia-7-9",
       "pubDate": "2026-07-09T22:31:08.000Z",
@@ -278,16 +298,6 @@
       "source": "Lookout Landing",
       "team": "mariners",
       "priority": 1
-    },
-    {
-      "title": "Report: 2 front-runners emerge in Seahawks sale process",
-      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/report-2-front-runners-emerge-seattle-seahawks-sale-process",
-      "pubDate": "Thu, 09 Jul 2026 21:25:42 +0000",
-      "isoDate": "2026-07-09T21:25:42.000Z",
-      "excerpt": "One of the two leading groups reportedly includes a former Seahawks player.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
     },
     {
       "title": "Trade Deadline Outlook: Seattle Mariners",
@@ -347,16 +357,6 @@
       "excerpt": "SEATTLE, WASHINGTON - JANUARY 25: A detailed view of a Seattle Seahawks helmet before the game against the Los Angeles Rams in the NFC Championship game at Lumen Field on January 25, 2026 in Seattle, Washington. (Photo...",
       "source": "Field Gulls",
       "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "Mariners News: Justin Verlander, Willson Contreras, and Jac Caglianone",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-news/145892/mariners-news-justin-verlander-willson-contreras-and-jac-caglianone",
-      "pubDate": "2026-07-09T14:00:00.000Z",
-      "isoDate": "2026-07-09T14:00:00.000Z",
-      "excerpt": "Detroit Tigers pitcher Justin Verlander watches a play from the dugout during the second inning against the Athletics at Comerica Park in Detroit on Wednesday, July 8, 2026. | Junfu Han / USA TODAY NETWORK via Imagn...",
-      "source": "Lookout Landing",
-      "team": "mariners",
       "priority": 1
     },
     {
