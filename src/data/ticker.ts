@@ -10,8 +10,8 @@
 //          'note'   -> a quip, status line, or fun aside     (label: a little >)
 //   text : what scrolls across. Keep it short and punchy.
 //   href : OPTIONAL. A link the item points to. Leave it out for no link.
-//          - internal page:  '/retro/tecmo-week-04'  or  '/columns'
-//          - YouTube etc.:   'https://www.youtube.com/@the206fix'
+//          Link straight to the video on YouTube, e.g.
+//          'https://www.youtube.com/watch?v=VIDEO_ID' or the channel URL.
 //
 // Tips:
 //   - \u00B7 prints a middot ( · ). Handy for score lines.
@@ -27,7 +27,7 @@ export interface ManualTickerItem {
 
 export const MANUAL_TICKER_ITEMS: ManualTickerItem[] = [
   // ---- SCORES (from your gameplay) -----------------------------------------
-  { kind: 'score', text: 'TECMO S1 W1 \u00B7 SEA 35  AZ 21 \u00B7 FINAL', href: '/retro/tecmo-week-02' },
+  { kind: 'score', text: 'TECMO S1 W2 \u00B7 SEA 35  AZ 21 \u00B7 FINAL', href: 'https://www.youtube.com/watch?v=y6jK9GHGN1c' },
 
   // ---- NOTES (your voice — jokes, status, asides) --------------------------
   { kind: 'note', text: 'Cardinal Sin? Better ask Ernest...' },

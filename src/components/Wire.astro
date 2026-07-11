@@ -1,0 +1,58 @@
+---
+// src/components/Wire.astro
+// The right-hand column: the aggregated Seattle sports wire, every source merged
+// newest-first. Data comes from the RSS aggregator (src/data/rss-feed.json),
+// refreshed every ~2h by the fetch-rss GitHub Action. Items are already sorted
+// reverse-chronologically at fetch time.
+import rssData from '../data/rss-feed.json';
+
+interface Props {
+  limit?: number;
+}
+const { limit = 24 } = Astro.props;
+const items = rssData.items.slice(0, limit);
+
+function timeAgo(iso: string): string {
+  const then = new Date(iso).getTime();
+  const diff = Date.now() - then;
+  const hours = Math.floor(diff / (1000 * 60 * 60));
+  if (hours < 1) return 'Just now';
+  if (hours < 24) return `${hours} hour${hours === 1 ? '' : 's'} ago`;
+  const days = Math.floor(hours / 24);
+  if (days === 1) return 'Yesterday';
+  if (days < 7) return `${days} days ago`;
+  return new Date(iso).toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+}
+---
+
+<aside aria-label="The wire">
+  <div class="flex items-center gap-4 mb-6 pb-2 border-b-2 border-ink">
+    <h2 class="font-mast text-[16px] text-forest tracking-[0.02em]">THE WIRE</h2>
+    <div class="flex-1 h-px bg-ink"></div>
+    <div class="meta-line">Seattle Sports</div>
+  </div>
+
+  {items.length === 0 ? (
+    <p class="font-body text-slate italic text-[9px] leading-[1.6] py-4">
+      No wire items yet. The aggregator refreshes every two hours.
+    </p>
+  ) : (
+    <div>
+      {items.map((item) => (
+        <div class="dashed-border border-x-0 border-t-0 py-3 last:border-b-0">
+          <div class="font-mast text-[7px] uppercase tracking-[0.08em] text-rust mb-2">
+            {item.source}
+          </div>
+          <div class="font-mast text-[11px] leading-[1.5] tracking-[0.02em]">
+            <a href={item.link} target="_blank" rel="noopener noreferrer" class="hover:text-rust">
+              {item.title}
+            </a>
+          </div>
+          <div class="font-mast text-[7px] text-slate mt-2 tracking-[0.05em] uppercase">
+            {timeAgo(item.isoDate)}
+          </div>
+        </div>
+      ))}
+    </div>
+  )}
+</aside>

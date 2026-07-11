@@ -3,20 +3,21 @@
 import '../styles/global.css';
 import TopStrip from '../components/TopStrip.astro';
 import Masthead from '../components/Masthead.astro';
-import Nav from '../components/Nav.astro';
 import Ticker from '../components/Ticker.astro';
 import Footer from '../components/Footer.astro';
 
 interface Props {
   title: string;
   description?: string;
-  activeNav?: string;
+  // When true, emits <meta name="robots" content="noindex"> so search engines
+  // skip the page. Used to keep the About page reachable by direct URL only.
+  noindex?: boolean;
 }
 
 const {
   title,
-  description = 'The 206 Fix - Seattle sports and retro gaming, with a pixel heart. Independent writing on the Seahawks, Mariners, Kraken, and the return of the Sonics.',
-  activeNav = 'home',
+  description = 'The 206 Fix - Seattle sports and retro gaming, with a pixel heart. Seattle sports games on the NES/SNES, played on The 206 Fix YouTube channel, plus the Seattle sports wire.',
+  noindex = false,
 } = Astro.props;
 ---
 
@@ -27,6 +28,7 @@ const {
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="generator" content={Astro.generator} />
     <meta name="description" content={description} />
+    {noindex && <meta name="robots" content="noindex" />}
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="alternate" type="application/rss+xml" title="The 206 Fix" href="/rss.xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -36,7 +38,6 @@ const {
   <body>
     <TopStrip />
     <Masthead />
-    <Nav active={activeNav} />
     <Ticker />
     <main>
       <slot />
