@@ -2,33 +2,23 @@
 // src/components/Ticker.astro
 import { getCollection } from 'astro:content';
 import { MANUAL_TICKER_ITEMS } from '../data/ticker';
+import { youtubeWatchUrl } from '../config';
 
 type TickerKind = 'score' | 'headline' | 'note';
 interface Item { kind: TickerKind; text: string; href?: string; }
 
-// --- AUTO: latest posts become linked headline items ----------------------
-// Pull articles + retro posts, newest first, take a handful, link each to
-// its page. You never list these by hand; publishing a post adds it here.
-const articles = (await getCollection('articles')).filter((a) => !a.data.draft);
-const retro = (await getCollection('retro')).filter((r) => !r.data.draft);
+// --- AUTO: latest videos become linked headline items ---------------------
+// Pull the videos collection, newest first, take a handful, and link each out
+// to YouTube. You never list these by hand; publishing a video adds it here.
+const videos = (await getCollection('videos'))
+  .filter((v) => !v.data.draft)
+  .sort((a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf());
 
-const articleItems: Item[] = articles.map((a) => ({
+const headlineItems: Item[] = videos.slice(0, 6).map((v) => ({
   kind: 'headline',
-  text: a.data.title,
-  href: `/articles/${a.slug}`,
-  _date: a.data.publishDate,
-})) as any;
-
-const retroItems: Item[] = retro.map((r) => ({
-  kind: 'headline',
-  text: r.data.title,
-  href: `/retro/${r.slug}`,
-  _date: r.data.publishDate,
-})) as any;
-
-const headlineItems: Item[] = [...articleItems, ...retroItems]
-  .sort((a: any, b: any) => b._date.valueOf() - a._date.valueOf())
-  .slice(0, 6); // newest 6 posts
+  text: v.data.title,
+  href: youtubeWatchUrl(v.data.youtubeId),
+}));
 
 // --- MERGE: weave headlines through the manual scores/notes ----------------
 // Alternating so the ticker reads: score, headline, note, headline, ...
@@ -68,7 +58,7 @@ const loop = [...items, ...items];
         <span class="ticker-item">
           <span class:list={['ticker-label font-mast', colorFor[item.kind]]}>{labelFor[item.kind]}</span>
           {item.href ? (
-            <a href={item.href} class="ticker-text font-ticker ticker-link">{item.text}</a>
+            <a href={item.href} target="_blank" rel="noopener noreferrer" class="ticker-text font-ticker ticker-link">{item.text}</a>
           ) : (
             <span class="ticker-text font-ticker">{item.text}</span>
           )}
