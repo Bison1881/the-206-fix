@@ -1,15 +1,15 @@
 ---
 // src/components/Wire.astro
-// The right-hand column: the aggregated Seattle sports wire, every source merged
-// newest-first. Data comes from the RSS aggregator (src/data/rss-feed.json),
-// refreshed every ~2h by the fetch-rss GitHub Action. Items are already sorted
-// reverse-chronologically at fetch time.
+// The wire: the aggregated Seattle sports news, every source merged newest-first,
+// laid out as a full-width band beneath the videos. Data comes from the RSS
+// aggregator (src/data/rss-feed.json), refreshed every ~2h by the fetch-rss
+// GitHub Action. Items are already sorted reverse-chronologically at fetch time.
 import rssData from '../data/rss-feed.json';
 
 interface Props {
   limit?: number;
 }
-const { limit = 24 } = Astro.props;
+const { limit = 18 } = Astro.props;
 const items = rssData.items.slice(0, limit);
 
 function timeAgo(iso: string): string {
@@ -25,11 +25,11 @@ function timeAgo(iso: string): string {
 }
 ---
 
-<aside aria-label="The wire">
+<section class="mt-10">
   <div class="flex items-center gap-4 mb-6 pb-2 border-b-2 border-ink">
     <h2 class="font-mast text-[16px] text-forest tracking-[0.02em]">THE WIRE</h2>
     <div class="flex-1 h-px bg-ink"></div>
-    <div class="meta-line">Seattle Sports</div>
+    <div class="meta-line">Seattle Sports &middot; Refreshed Through the Day</div>
   </div>
 
   {items.length === 0 ? (
@@ -37,7 +37,7 @@ function timeAgo(iso: string): string {
       No wire items yet. The aggregator refreshes every two hours.
     </p>
   ) : (
-    <div>
+    <div class="grid grid-cols-3 gap-x-9 gap-y-0 max-md:grid-cols-2 max-sm:grid-cols-1">
       {items.map((item) => (
         <div class="dashed-border border-x-0 border-t-0 py-3 last:border-b-0">
           <div class="font-mast text-[7px] uppercase tracking-[0.08em] text-rust mb-2">
@@ -55,4 +55,4 @@ function timeAgo(iso: string): string {
       ))}
     </div>
   )}
-</aside>
+</section>
