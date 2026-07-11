@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-11T16:53:26.273Z",
+  "generatedAt": "2026-07-11T18:56:57.627Z",
   "sourceCount": 10,
   "successfulSources": 9,
   "failedSources": [
@@ -10,10 +10,40 @@
   ],
   "items": [
     {
-      "title": "MLB Draft Day 1 picks, analysis (LIVE on NBC/Peacock)",
+      "title": "MLB Draft Day 1 picks, analysis (LIVE on MLB Network, Peacock, MLB.com, MLB.TV, MLB+)",
       "link": "https://www.mlb.com/mariners/news/2026-mlb-draft-day-1-complete-coverage",
-      "pubDate": "Sat, 11 Jul 2026 16:31:00 GMT",
-      "isoDate": "2026-07-11T16:31:00.000Z",
+      "pubDate": "Sat, 11 Jul 2026 18:55:00 GMT",
+      "isoDate": "2026-07-11T18:55:00.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Anderson earns nod as AL starter for Futures Game in Philly",
+      "link": "https://www.mlb.com/mariners/news/kade-anderson-american-league-starter-2026-futures-game",
+      "pubDate": "Sat, 11 Jul 2026 18:49:00 GMT",
+      "isoDate": "2026-07-11T18:49:00.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "The Seattle Mariners&#8217; 2026 MLB Draft picks",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-mlb-draft/146033/the-seattle-mariners-2026-mlb-draft-picks",
+      "pubDate": "2026-07-11T17:57:23.000Z",
+      "isoDate": "2026-07-11T17:57:23.000Z",
+      "excerpt": "PHILADELPHIA, PENNSYLVANIA - JULY 11: MLB Commissioner Rob Manfred announces Roch Cholowsky of UCLA as the first pick in the 2026 MLB Draft by the Chicago White Sox at Pennsylvania Convention Center on July 11, 2026 in...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "LIVE Draft Tracker: Follow every pick",
+      "link": "https://www.mlb.com/draft/tracker",
+      "pubDate": "Sat, 11 Jul 2026 16:55:00 GMT",
+      "isoDate": "2026-07-11T16:55:00.000Z",
       "excerpt": "",
       "source": "Mariners.com",
       "team": "mariners",
@@ -40,7 +70,7 @@
       "priority": 3
     },
     {
-      "title": "2026 MLB Draft Draft Tracker, Open Thread",
+      "title": "Seattle Mariners 2026 MLB Draft Tracker, Open Thread",
       "link": "https://www.lookoutlanding.com/seattle-mariners-mlb-draft/146008/2026-mlb-draft-draft-tracker-open-thread",
       "pubDate": "2026-07-11T16:05:00.000Z",
       "isoDate": "2026-07-11T16:05:00.000Z",
@@ -78,16 +108,6 @@
       "source": "Field Gulls",
       "team": "seahawks",
       "priority": 1
-    },
-    {
-      "title": "2026 Draft Tracker: Follow every pick",
-      "link": "https://www.mlb.com/draft/tracker",
-      "pubDate": "Sat, 11 Jul 2026 06:25:07 GMT",
-      "isoDate": "2026-07-11T06:25:07.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
     },
     {
       "title": "Frustrations bubble as RISP troubles mount against Rays",
@@ -174,16 +194,6 @@
       "link": "https://www.mlb.com/mariners/news/mariners-injuries-and-roster-moves",
       "pubDate": "Fri, 10 Jul 2026 23:13:00 GMT",
       "isoDate": "2026-07-10T23:13:00.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
-    },
-    {
-      "title": "Anderson earns nod as AL starter for Futures Game in Philly",
-      "link": "https://www.mlb.com/mariners/news/kade-anderson-american-league-starter-2026-futures-game",
-      "pubDate": "Fri, 10 Jul 2026 22:49:57 GMT",
-      "isoDate": "2026-07-10T22:49:57.000Z",
       "excerpt": "",
       "source": "Mariners.com",
       "team": "mariners",
@@ -288,16 +298,6 @@
       "source": "Seahawks.com",
       "team": "seahawks",
       "priority": 6
-    },
-    {
-      "title": "Series Preview: Mariners (47-47) at Rays (54-37)",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-game-information/145945/series-preview-seattle-mariners-at-tampa-bay-rays-july-2026",
-      "pubDate": "2026-07-10T16:00:00.000Z",
-      "isoDate": "2026-07-10T16:00:00.000Z",
-      "excerpt": "ST PETERSBURG, FLORIDA - JULY 08: (L-R) Junior Caminero #13 of the Tampa Bay Rays celebrates with Jonathan Aranda #8 after defeating the New York Yankees 3-0 at Tropicana Field on July 08, 2026 in St Petersburg,...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
     },
     {
       "title": "Texans Work Out CB Terrion Arnold; Colts, Jets, Seahawks Showing Interest",
