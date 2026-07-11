@@ -52,15 +52,13 @@ RSS-aggregated via a GitHub Actions cron every 2 hours.
 - ink #1a1a1a · forest #2D4A3E · slate #4A5560 · fog #8FA9B8
 - cream #E7E6E7 (cool newsprint grey) · paper #DCDADC · rust #A0522D
 
-**Fonts — what the code actually loads today** (global.css import + tailwind.config.mjs):
+**Fonts — exactly two** (global.css import + tailwind.config.mjs):
 - **Press Start 2P** → everything: masthead chrome, headlines, section heads,
   body text, kickers, labels, buttons, the ticker. (All Tailwind `font-*`
   families map to it.)
 - **Jacquard 24** → the masthead nameplate only (the blackletter "The 206 Fix").
-- NOTE: earlier versions of these docs listed "Bitcount Grid Single / Bitcount
-  Prop Single" and said Jacquard was removed. That no longer matches the code —
-  the code loads Press Start 2P + Jacquard 24. If you want a different set, say
-  so and we'll change the code and this note together.
+- REMOVED, do not reintroduce: Bitcount Grid Single, Bitcount Prop Single,
+  Playfair, Source Serif, Libre Caslon, Inter, Pixelify Sans, Jersey 10.
 
 **Aesthetic:** old newspaper/broadsheet meets pixel-retro. Rust misregister
 drop-shadow on the masthead title. Paper-texture background. The simplification

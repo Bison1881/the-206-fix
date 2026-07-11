@@ -143,7 +143,7 @@ or have no public feed).
 - paper `#DCDADC`
 - rust `#A0522D`
 
-**Fonts** — what the code currently loads (`global.css` import + `tailwind.config.mjs`):
+**Fonts** — exactly two (`global.css` import + `tailwind.config.mjs`):
 - **Press Start 2P** — everything: masthead chrome, headlines, section heads,
   body text, kickers, small labels, buttons, and the ticker. (All the Tailwind
   `font-*` families — mast, display, body, ui, caslon, ticker — map to it.)
