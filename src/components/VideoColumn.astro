@@ -1,0 +1,108 @@
+---
+// src/components/VideoColumn.astro
+// The left-hand column: the owner's YouTube videos. The most recent video is the
+// lead (large, with image); older videos stack below as blog-style cards, newest
+// first. Every item links out to YouTube — there are no on-site video pages.
+
+export interface VideoCard {
+  title: string;
+  deck?: string;
+  episodeNumber?: number;
+  game?: string;
+  publishDate: Date;
+  url: string;
+  image: string;
+}
+
+interface Props {
+  lead: VideoCard | null;
+  rest: VideoCard[];
+}
+const { lead, rest } = Astro.props;
+
+function formatDate(date: Date): string {
+  return date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+}
+function epLabel(n?: number): string | null {
+  return n ? `Episode ${String(n).padStart(3, '0')}` : null;
+}
+---
+
+<div>
+  <div class="flex items-center gap-4 mb-6 pb-2 border-b-2 border-ink">
+    <h2 class="font-mast text-[16px] text-forest tracking-[0.02em]">ON THE CHANNEL</h2>
+    <div class="flex-1 h-px bg-ink"></div>
+    <div class="meta-line">The 206 Fix on YouTube</div>
+  </div>
+
+  {lead ? (
+    <article class="mb-9 pb-9 border-b-4 border-double border-ink">
+      <a href={lead.url} target="_blank" rel="noopener noreferrer" class="block mb-4">
+        <img
+          src={lead.image}
+          alt={lead.title}
+          width="960"
+          height="540"
+          loading="eager"
+          class="w-full aspect-video object-cover border-2 border-ink"
+        />
+      </a>
+      <div class="kicker mb-3">
+        &#9658; Now Playing{epLabel(lead.episodeNumber) && <> &middot; {epLabel(lead.episodeNumber)}</>}
+      </div>
+      <h1 class="font-display text-[18px] leading-[1.3] tracking-[0.01em] mb-3 text-ink max-md:text-[15px]">
+        <a href={lead.url} target="_blank" rel="noopener noreferrer" class="hover:text-rust">{lead.title}</a>
+      </h1>
+      {lead.deck && (
+        <p class="font-caslon text-[11px] leading-relaxed text-slate mb-4">{lead.deck}</p>
+      )}
+      <div class="meta-line mb-5">
+        {lead.game && <>{lead.game} &middot; </>}Published {formatDate(lead.publishDate)}
+      </div>
+      <a
+        href={lead.url}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="inline-block bg-rust text-cream font-pixel text-[10px] px-[18px] py-[10px] tracking-[0.05em] hover:bg-forest transition-colors"
+      >
+        Watch on YouTube &#9654;
+      </a>
+    </article>
+  ) : (
+    <article class="mb-9 pb-9 border-b-4 border-double border-ink">
+      <div class="kicker mb-3">&#9658; Now Playing</div>
+      <h1 class="font-display text-[16px] leading-[1.3] text-ink">
+        No videos published yet. Add a Markdown file to <code>src/content/videos/</code>.
+      </h1>
+    </article>
+  )}
+
+  {rest.length > 0 && (
+    <div>
+      {rest.map((v) => (
+        <article class="flex gap-5 py-5 dashed-border border-x-0 border-t-0 last:border-b-0 max-md:flex-col max-md:gap-3">
+          <a href={v.url} target="_blank" rel="noopener noreferrer" class="block shrink-0 max-md:w-full">
+            <img
+              src={v.image}
+              alt={v.title}
+              width="320"
+              height="180"
+              loading="lazy"
+              class="w-[180px] aspect-video object-cover border border-ink max-md:w-full"
+            />
+          </a>
+          <div>
+            <h3 class="font-display text-[12px] leading-[1.4] tracking-[0.01em] mb-2 text-ink">
+              <a href={v.url} target="_blank" rel="noopener noreferrer" class="hover:text-rust">{v.title}</a>
+            </h3>
+            {v.deck && <p class="font-caslon text-[9px] leading-relaxed text-slate mb-2">{v.deck}</p>}
+            <div class="meta-line">
+              {epLabel(v.episodeNumber) && <>{epLabel(v.episodeNumber)} &middot; </>}
+              {v.game && <>{v.game} &middot; </>}{formatDate(v.publishDate)}
+            </div>
+          </div>
+        </article>
+      ))}
+    </div>
+  )}
+</div>
