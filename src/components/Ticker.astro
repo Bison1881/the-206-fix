@@ -1,48 +1,23 @@
 ---
 // src/components/Ticker.astro
-import { getCollection } from 'astro:content';
 import { MANUAL_TICKER_ITEMS } from '../data/ticker';
-import { youtubeWatchUrl } from '../config';
 
-type TickerKind = 'score' | 'headline' | 'note';
+type TickerKind = 'score' | 'note';
 interface Item { kind: TickerKind; text: string; href?: string; }
 
-// --- AUTO: latest videos become linked headline items ---------------------
-// Pull the videos collection, newest first, take a handful, and link each out
-// to YouTube. You never list these by hand; publishing a video adds it here.
-const videos = (await getCollection('videos'))
-  .filter((v) => !v.data.draft)
-  .sort((a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf());
-
-const headlineItems: Item[] = videos.slice(0, 6).map((v) => ({
-  kind: 'headline',
-  text: v.data.title,
-  href: youtubeWatchUrl(v.data.youtubeId),
-}));
-
-// --- MERGE: weave headlines through the manual scores/notes ----------------
-// Alternating so the ticker reads: score, headline, note, headline, ...
-const manual: Item[] = MANUAL_TICKER_ITEMS;
-const merged: Item[] = [];
-const maxLen = Math.max(manual.length, headlineItems.length);
-for (let i = 0; i < maxLen; i++) {
-  if (manual[i]) merged.push(manual[i]);
-  if (headlineItems[i]) merged.push(headlineItems[i]);
-}
-
+// The ticker renders ONLY your manual scores and notes from src/data/ticker.ts.
+// (The old auto-injection of latest-video headlines was removed.)
 // Fallback so the ticker is never empty on a brand-new site.
-const items: Item[] = merged.length ? merged : [
+const items: Item[] = MANUAL_TICKER_ITEMS.length ? MANUAL_TICKER_ITEMS : [
   { kind: 'note', text: 'Welcome to The 206 Fix. Press Start.' },
 ];
 
 const labelFor: Record<TickerKind, string> = {
   score: 'SCORE',
-  headline: 'LATEST',
   note: '\u25B6',
 };
 const colorFor: Record<TickerKind, string> = {
   score: 'text-fog',
-  headline: 'text-rust',
   note: 'text-cream/60',
 };
 
