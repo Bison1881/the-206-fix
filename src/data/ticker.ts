@@ -27,9 +27,10 @@ export interface ManualTickerItem {
 
 export const MANUAL_TICKER_ITEMS: ManualTickerItem[] = [
   // ---- SCORES (from your gameplay) -----------------------------------------
-  { kind: 'score', text: 'TECMO S1 W2 \u00B7 SEA 35  AZ 21 \u00B7 FINAL', href: 'https://www.youtube.com/watch?v=y6jK9GHGN1c' },
+  { kind: 'score', text: 'TECMO S1 W1 \u00B7 SEA 35  NE 13 \u00B7 FINAL', href: 'https://youtu.be/MGRyb41Y__M?si=gagntaCHJgP1mnUS' },
+  { kind: 'score', text: 'TECMO S1 W2 \u00B7 SEA 35  AZ 21 \u00B7 FINAL', href: 'https://youtu.be/y6jK9GHGN1c?si=1yFEgxAtDJ2UnGcn' },
 
   // ---- NOTES (your voice — jokes, status, asides) --------------------------
-  { kind: 'note', text: 'Cardinal Sin? Better ask Ernest...' },
+  { kind: 'note', text: 'UPCOMING: TECMO S1 W3 \u00B7 SEA vs. WAS ' },
   { kind: 'note', text: 'Crowd questions weird disappearing squares while watching the game.' },
 ];
