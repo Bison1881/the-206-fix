@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-11T18:56:57.627Z",
+  "generatedAt": "2026-07-11T20:42:41.765Z",
   "sourceCount": 10,
   "successfulSources": 9,
   "failedSources": [
@@ -10,14 +10,64 @@
   ],
   "items": [
     {
-      "title": "MLB Draft Day 1 picks, analysis (LIVE on MLB Network, Peacock, MLB.com, MLB.TV, MLB+)",
+      "title": "Mariners select 3B Ace Reese in the 1st round of 2026 MLB Draft",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-mlb-draft/146064/mariners-select-3b-ace-reese-in-the-1st-round-of-2026-mlb-draft",
+      "pubDate": "2026-07-11T20:22:09.000Z",
+      "isoDate": "2026-07-11T20:22:09.000Z",
+      "excerpt": "ATHENS, GA - JUNE 07: Mississippi State third baseman Ace Reese(3) during the NCAA Super Regional college baseball game between the Georgia Bulldogs vs Mississippi State Bulldogs on JUNE 7, 2026 Foley Field in Athens,...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "MLB Draft Day 1 picks, analysis (LIVE on Peacock, MLB.com, MLB.TV, MLB+)",
       "link": "https://www.mlb.com/mariners/news/2026-mlb-draft-day-1-complete-coverage",
-      "pubDate": "Sat, 11 Jul 2026 18:55:00 GMT",
-      "isoDate": "2026-07-11T18:55:00.000Z",
+      "pubDate": "Sat, 11 Jul 2026 20:12:00 GMT",
+      "isoDate": "2026-07-11T20:12:00.000Z",
       "excerpt": "",
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
+    },
+    {
+      "title": "Mariners Game #96 Preview and Discussion, 7/11/26: SEA vs TBR",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-discussion/146083/mariners-game-96-preview-and-discussion-7-11-26-sea-vs-tbr",
+      "pubDate": "2026-07-11T20:10:15.000Z",
+      "isoDate": "2026-07-11T20:10:15.000Z",
+      "excerpt": "SEATTLE, WASHINGTON - JULY 4: Logan Gilbert #36 of the Seattle Mariners wears the USA 250 patch on his jersey while smiling after the game against the Toronto Blue Jays at T-Mobile Park on July 4, 2026 in Seattle,...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Mariners snag Mississippi State 3B Reese with No. 24 Draft pick",
+      "link": "https://www.mlb.com/mariners/news/ace-reese-drafted-no-24-by-mariners-in-2026-mlb-draft",
+      "pubDate": "Sat, 11 Jul 2026 20:08:00 GMT",
+      "isoDate": "2026-07-11T20:08:00.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Canucks Inquired About Wright",
+      "link": "https://www.prohockeyrumors.com/2026/07/pacific-notes-pettersson-wright-dach.html",
+      "pubDate": "Sat, 11 Jul 2026 20:00:33 +0000",
+      "isoDate": "2026-07-11T20:00:33.000Z",
+      "excerpt": "Notes from the Pacific including Vancouver not looking to simply dump salary, Edmonton wants to wait to re-sign Colton Dach, and more.",
+      "source": "Pro Hockey Rumors",
+      "team": "kraken",
+      "priority": 2
+    },
+    {
+      "title": "MLB Draft: Mariners pick Mississippi St. 3B Ace Reese No. 24 overall",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/mlb-draft-mariners-pick-mississippi-st-3b-ace-reese-no-24-overall",
+      "pubDate": "Sat, 11 Jul 2026 19:51:33 +0000",
+      "isoDate": "2026-07-11T19:51:33.000Z",
+      "excerpt": "The left-handed slugger was an All-America selection by Baseball America after hitting 25 homers in 2026.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
     },
     {
       "title": "Anderson earns nod as AL starter for Futures Game in Philly",
@@ -38,6 +88,16 @@
       "source": "Lookout Landing",
       "team": "mariners",
       "priority": 1
+    },
+    {
+      "title": "A’s place All-Star slugger Nick Kurtz on injured list",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/athletics-place-all-star-slugger-nick-kurtz-on-injured-list",
+      "pubDate": "Sat, 11 Jul 2026 17:39:18 +0000",
+      "isoDate": "2026-07-11T17:39:18.000Z",
+      "excerpt": "The first baseman has a right thumb strain. He was slated to start for the AL in the Midsummer Classic.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
     },
     {
       "title": "LIVE Draft Tracker: Follow every pick",
@@ -78,6 +138,16 @@
       "source": "Lookout Landing",
       "team": "mariners",
       "priority": 1
+    },
+    {
+      "title": "AL West Check-In: Rangers ace to miss final start before All-Star break",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/al-west-check-in-rangers-ace-to-miss-final-star-before-all-star-break",
+      "pubDate": "Sat, 11 Jul 2026 15:58:13 +0000",
+      "isoDate": "2026-07-11T15:58:13.000Z",
+      "excerpt": "Jacob deGrom also won't be available immediately after the break.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
     },
     {
       "title": "Seahawks quarterback Sam Darnold’s high school retires his number",
@@ -210,51 +280,11 @@
       "priority": 3
     },
     {
-      "title": "Mariners Game #95 Preview and Discussion, 7/10/26: SEA vs TBR",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-discussion/145971/mariners-game-95-preview-and-discussion-7-10-26-sea-vs-tbr",
-      "pubDate": "2026-07-10T22:00:00.000Z",
-      "isoDate": "2026-07-10T22:00:00.000Z",
-      "excerpt": "Oct 27, 2020; Arlington, Texas, USA; Tampa Bay Rays left fielder Randy Arozarena (56) celebrates after hitting home run during the first inning against the Los Angeles Dodgers during game six of the 2020 World Series at...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
       "title": "World Cup: Spain edges Belgium 2-1 to reach semifinals",
       "link": "https://sports.mynorthwest.com/seattle-sports-pit/world-cup-spain-edges-belgium-2-1-to-reach-semifinals",
       "pubDate": "Fri, 10 Jul 2026 21:36:33 +0000",
       "isoDate": "2026-07-10T21:36:33.000Z",
       "excerpt": "Mikel Merino scored the winning goal in the 88th minute to help Spain move on to a matchup against France.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "Dodgers star Shohei Ohtani to miss All-Star Game",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/dodgers-star-shohei-ohtani-to-miss-all-star-game",
-      "pubDate": "Fri, 10 Jul 2026 20:47:22 +0000",
-      "isoDate": "2026-07-10T20:47:22.000Z",
-      "excerpt": "The two-way phenom is dealing with continued irritation in his left knee.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "Mariners Lineup: Latest trade pickup gets first start",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-lineup-latest-trade-pickup-gets-first-start",
-      "pubDate": "Fri, 10 Jul 2026 20:23:14 +0000",
-      "isoDate": "2026-07-10T20:23:14.000Z",
-      "excerpt": "Buddy Kennedy, who was acquired in late June, is playing third base and batting ninth against Tampa Bay on Friday.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "Seahawks expressed interest in troubled CB, per agent",
-      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/seahawks-expressed-interest-in-troubled-cb-per-agent",
-      "pubDate": "Fri, 10 Jul 2026 19:27:48 +0000",
-      "isoDate": "2026-07-10T19:27:48.000Z",
-      "excerpt": "The agent of Terrion Arnold during a court hearing named Seattle as one four teams to inquire about the defensive back.",
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
@@ -277,16 +307,6 @@
       "excerpt": "DETROIT, MICHIGAN - NOVEMBER 27: Terrion Arnold #6 of the Detroit Lions runs onto the field prior to an NFL football game against the Green Bay Packers at Ford Field on November 27, 2025 in Detroit, Michigan. (Photo by...",
       "source": "Field Gulls",
       "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "2026 MLB Mock Draft, Lookout Landing-style",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-mlb-draft/145954/2026-mlb-mock-draft-lookout-landing-style",
-      "pubDate": "2026-07-10T16:53:00.000Z",
-      "isoDate": "2026-07-10T16:53:00.000Z",
-      "excerpt": "ATLANTA, GA - JULY 13: Atlanta Braves mascot Blooper and Philadelphia Phillies mascot Phillie Phanatic interact during the 2025 MLB Draft presented by Nike at Coca-Cola Roxy on Sunday, July 13, 2025 in Atlanta, Georgia....",
-      "source": "Lookout Landing",
-      "team": "mariners",
       "priority": 1
     },
     {
@@ -520,16 +540,6 @@
       "priority": 6
     },
     {
-      "title": "How will Mariners build for long-term success in Draft?",
-      "link": "https://www.mlb.com/mariners/news/mariners-2026-draft-preview",
-      "pubDate": "Mon, 06 Jul 2026 16:53:01 GMT",
-      "isoDate": "2026-07-06T16:53:01.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
-    },
-    {
       "title": "Top 2026 Training Camp Storylines: Does Rashid Shaheed Still Handle Both Return Jobs?",
       "link": "https://www.seahawks.com/news/top-2026-training-camp-storylines-does-rashid-shaheed-still-handle-both-return-jobs",
       "pubDate": "Mon, 06 Jul 2026 16:06:56 GMT",
@@ -598,16 +608,6 @@
       "source": "Pro Hockey Rumors",
       "team": "kraken",
       "priority": 2
-    },
-    {
-      "title": "Stream Mariners games on Mariners.TV for low price of $54.99",
-      "link": "https://www.mlb.com/mariners/news/mariners-tv-is-here-for-2026-season",
-      "pubDate": "Wed, 01 Jul 2026 16:04:00 GMT",
-      "isoDate": "2026-07-01T16:04:00.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
     }
   ]
 }
