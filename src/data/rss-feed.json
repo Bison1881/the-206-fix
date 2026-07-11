@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-11T06:10:14.390Z",
+  "generatedAt": "2026-07-11T09:25:03.599Z",
   "sourceCount": 10,
   "successfulSources": 10,
   "failedSources": [],
@@ -43,6 +43,16 @@
       "source": "Lookout Landing",
       "team": "mariners",
       "priority": 1
+    },
+    {
+      "title": "Seahawks Unlikely To Continue Pursuing Terrion Arnold",
+      "link": "https://www.profootballrumors.com/2026/07/seahawks-unlikely-to-continue-pursuing-terrion-arnold",
+      "pubDate": "Sat, 11 Jul 2026 03:55:03 +0000",
+      "isoDate": "2026-07-11T03:55:03.000Z",
+      "excerpt": "Although free agent cornerback Terrion Arnold has been awaiting trial since a late-June arrest on felony kidnapping and armed robbery charges, teams are showing interest in the former Lion. During a hearing in a Florida...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
+      "priority": 2
     },
     {
       "title": "Arozarena makes return to Randy Land for 1st time as Mariner",
@@ -119,6 +129,16 @@
       "link": "https://www.mlb.com/mariners/news/mariners-injuries-and-roster-moves",
       "pubDate": "Fri, 10 Jul 2026 23:13:00 GMT",
       "isoDate": "2026-07-10T23:13:00.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Anderson earns nod as AL starter for Futures Game in Philly",
+      "link": "https://www.mlb.com/mariners/news/kade-anderson-american-league-starter-2026-futures-game",
+      "pubDate": "Fri, 10 Jul 2026 22:49:57 GMT",
+      "isoDate": "2026-07-10T22:49:57.000Z",
       "excerpt": "",
       "source": "Mariners.com",
       "team": "mariners",
@@ -205,14 +225,14 @@
       "priority": 2
     },
     {
-      "title": "Seahawks Unlikely To Continue Pursuing Terrion Arnold",
-      "link": "https://www.profootballrumors.com/2026/07/seahawks-unlikely-to-continue-pursuing-terrion-arnold",
-      "pubDate": "Fri, 10 Jul 2026 18:45:03 +0000",
-      "isoDate": "2026-07-10T18:45:03.000Z",
-      "excerpt": "Although free agent cornerback Terrion Arnold has been awaiting trial since a late-June arrest on felony kidnapping and armed robbery charges, teams are showing interest in the former Lion. During a hearing in a Florida...",
-      "source": "Pro Football Rumors",
+      "title": "Seahawks show interest in Terrion Arnold, who’s facing kidnapping, robbery charges",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-news/170449/nfl-news-seahawks-show-interest-terrion-arnold-kidnapping-robbery-charges",
+      "pubDate": "2026-07-10T18:38:54.000Z",
+      "isoDate": "2026-07-10T18:38:54.000Z",
+      "excerpt": "DETROIT, MICHIGAN - NOVEMBER 27: Terrion Arnold #6 of the Detroit Lions runs onto the field prior to an NFL football game against the Green Bay Packers at Ford Field on November 27, 2025 in Detroit, Michigan. (Photo by...",
+      "source": "Field Gulls",
       "team": "seahawks",
-      "priority": 2
+      "priority": 1
     },
     {
       "title": "Mariners MLB Draft Primer: Where they’re picking and how to watch",
@@ -323,16 +343,6 @@
       "source": "Lookout Landing",
       "team": "mariners",
       "priority": 1
-    },
-    {
-      "title": "Arroyo stays hot, hits 1st Triple-A homer in 3rd game at level",
-      "link": "https://www.mlb.com/mariners/news/mariners-prospect-michael-arroyo-hits-1st-triple-a-homer",
-      "pubDate": "Fri, 10 Jul 2026 13:42:36 GMT",
-      "isoDate": "2026-07-10T13:42:36.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
     },
     {
       "title": "Mariners ‘open to anything’ with No. 24 pick in MLB draft",
@@ -513,16 +523,6 @@
       "source": "Seahawks.com",
       "team": "seahawks",
       "priority": 6
-    },
-    {
-      "title": "Where do the Seahawks land in ESPN’s best roster rankings?",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/170367/where-seattle-seahawks-land-espn-best-roster-rankings",
-      "pubDate": "2026-07-08T20:20:55.000Z",
-      "isoDate": "2026-07-08T20:20:55.000Z",
-      "excerpt": "We are in full theory crafting season. With the preseason right around the corner, many are trying to predict team rosters and where teams rank heading into the preseason. ESPN has released their roster rankings for all...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
     },
     {
       "title": "Mariners Sign Stuart Fairchild To Minor League Deal",
