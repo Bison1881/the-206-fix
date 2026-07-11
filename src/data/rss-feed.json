@@ -1,17 +1,52 @@
 {
-  "generatedAt": "2026-07-11T14:49:47.708Z",
+  "generatedAt": "2026-07-11T16:53:26.273Z",
   "sourceCount": 10,
-  "successfulSources": 10,
-  "failedSources": [],
+  "successfulSources": 9,
+  "failedSources": [
+    {
+      "source": "Seattle Times Sports",
+      "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
+    }
+  ],
   "items": [
     {
-      "title": "As Messi dominates the World Cup, a global war rages for Maradona’s ghost",
-      "link": "https://www.seattletimes.com/sports/as-messi-dominates-the-world-cup-a-global-war-rages-for-maradonas-ghost/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sat, 11 Jul 2026 07:01:03 -0700",
-      "isoDate": "2026-07-11T14:01:03.000Z",
-      "excerpt": "A multimillion-dollar battle for a soccer god’s brand is being waged across continents, burning investors and tearing his family apart.",
-      "source": "Seattle Times Sports",
+      "title": "MLB Draft Day 1 picks, analysis (LIVE on NBC/Peacock)",
+      "link": "https://www.mlb.com/mariners/news/2026-mlb-draft-day-1-complete-coverage",
+      "pubDate": "Sat, 11 Jul 2026 16:31:00 GMT",
+      "isoDate": "2026-07-11T16:31:00.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Draft targets for the Mariners beyond the first round",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-mlb-draft/146020/draft-targets-for-the-mariners-beyond-the-first-round",
+      "pubDate": "2026-07-11T16:28:50.000Z",
+      "isoDate": "2026-07-11T16:28:50.000Z",
+      "excerpt": "PHOENIX, AZ - JUNE 23: Harold Reynolds talks with Peyton Bonds as Bonds prepares to bat during the 2026 Draft Combine at Chase Field on Tuesday, June 23, 2026 in Phoenix, Arizona. (Photo by Jill Weisleder/MLB Photos via...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "What USA skipper DeRosa saw from Mariners’ Cal Raleigh at WBC",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/what-usa-skipper-derosa-saw-from-seattle-mariners-cal-raleigh-at-wbc",
+      "pubDate": "Sat, 11 Jul 2026 16:06:08 +0000",
+      "isoDate": "2026-07-11T16:06:08.000Z",
+      "excerpt": "The longtime former MLB player noticed something was off at the plate for Seattle's slugger.",
+      "source": "710 Seattle Sports",
       "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "2026 MLB Draft Draft Tracker, Open Thread",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-mlb-draft/146008/2026-mlb-draft-draft-tracker-open-thread",
+      "pubDate": "2026-07-11T16:05:00.000Z",
+      "isoDate": "2026-07-11T16:05:00.000Z",
+      "excerpt": "ATLANTA, GA - JULY 13: Major League Baseball Robert D. Manfred announces Luke Stevenson as the thirty-fifth overall pick by the Seattle Mariners during the 2025 MLB Draft presented by Nike at Coca-Cola Roxy on Sunday,...",
+      "source": "Lookout Landing",
+      "team": "mariners",
       "priority": 1
     },
     {
@@ -45,60 +80,20 @@
       "priority": 1
     },
     {
-      "title": "How Kevin Durant and WNBA All-Star Dominique Malonga formed their bond",
-      "link": "https://www.seattletimes.com/sports/storm/how-kevin-durant-and-wnba-all-star-dominique-malonga-formed-their-bond/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sat, 11 Jul 2026 06:00:00 -0700",
-      "isoDate": "2026-07-11T13:00:00.000Z",
-      "excerpt": "After their friendship formed earlier this season, NBA legend Kevin Durant joined the Storm's Dominique Malonga after practice earlier this week in L.A.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Washington Huskies replacing turf at Husky Stadium",
-      "link": "https://www.seattletimes.com/sports/washington-huskies-football/washington-huskies-replacing-turf-at-husky-stadium/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sat, 11 Jul 2026 06:00:00 -0700",
-      "isoDate": "2026-07-11T13:00:00.000Z",
-      "excerpt": "Washington is installing a new playing surface at Husky Stadium, as preparations for the 2026 college football season ramp up.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "2026 World Cup: Norway’s match vs. England has Ballard buzzing",
-      "link": "https://www.seattletimes.com/sports/world-cup/2026-world-cup-norways-match-vs-england-has-ballard-buzzing/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Sat, 11 Jul 2026 06:00:00 -0700",
-      "isoDate": "2026-07-11T13:00:00.000Z",
-      "excerpt": "Norway has become a global darling while advancing to the quarterfinals of this FIFA Men's World Cup, and Ballard is buzzing with Norwegian pride.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Kraken sign Victor Östman, Ville Ottavainen to 1-year deals",
-      "link": "https://www.seattletimes.com/sports/kraken/kraken-sign-victor-ostman-ville-ottavainen-to-1-year-deals/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Fri, 10 Jul 2026 22:24:12 -0700",
-      "isoDate": "2026-07-11T05:24:12.000Z",
-      "excerpt": "The Kraken signed goaltender Victor Östman and defenseman Ville Ottavainen to one-year, two-way deals at $850,000 apiece for the upcoming season.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
-      "title": "Frustrations bubble as RISP troubles mount against Rays",
-      "link": "https://www.mlb.com/mariners/news/mariners-struggle-with-risp-in-frustrating-loss-to-rays",
-      "pubDate": "Sat, 11 Jul 2026 04:50:41 GMT",
-      "isoDate": "2026-07-11T04:50:41.000Z",
+      "title": "2026 Draft Tracker: Follow every pick",
+      "link": "https://www.mlb.com/draft/tracker",
+      "pubDate": "Sat, 11 Jul 2026 06:25:07 GMT",
+      "isoDate": "2026-07-11T06:25:07.000Z",
       "excerpt": "",
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
     },
     {
-      "title": "MLB Pipeline's final mock draft predictions!",
-      "link": "https://www.mlb.com/mariners/news/final-mlb-mock-draft-2026",
-      "pubDate": "Sat, 11 Jul 2026 04:06:00 GMT",
-      "isoDate": "2026-07-11T04:06:00.000Z",
+      "title": "Frustrations bubble as RISP troubles mount against Rays",
+      "link": "https://www.mlb.com/mariners/news/mariners-struggle-with-risp-in-frustrating-loss-to-rays",
+      "pubDate": "Sat, 11 Jul 2026 04:50:41 GMT",
+      "isoDate": "2026-07-11T04:50:41.000Z",
       "excerpt": "",
       "source": "Mariners.com",
       "team": "mariners",
@@ -145,16 +140,6 @@
       "priority": 3
     },
     {
-      "title": "Randy Arozarena’s defense derails in Mariners in loss to Tampa Bay Rays",
-      "link": "https://www.seattletimes.com/sports/mariners/mariners-fall-below-500-as-losing-streak-continues-with-loss-to-rays/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Fri, 10 Jul 2026 18:47:55 -0700",
-      "isoDate": "2026-07-11T01:47:55.000Z",
-      "excerpt": "Friday night’s 7-2 loss to the Rays offered a lasting sequence of the Mariners' current four-game losing streak and a glaring red flag on how this team has performed in an uneven first “half\" of the season.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "47-48: Chart",
       "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/145994/47-48-chart",
       "pubDate": "2026-07-11T01:36:04.000Z",
@@ -173,16 +158,6 @@
       "source": "Seahawks.com",
       "team": "seahawks",
       "priority": 6
-    },
-    {
-      "title": "Mariners’ Randy Arozarena has ‘emotional’ return to Tropicana Field",
-      "link": "https://www.seattletimes.com/sports/mariners/mariners-randy-arozarena-has-emotional-return-to-tropicana-field/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Fri, 10 Jul 2026 16:51:38 -0700",
-      "isoDate": "2026-07-10T23:51:38.000Z",
-      "excerpt": "More than two years after being traded to Seattle, Randy Arozarena is back at Tropicana Field. \"I know it's going to be emotional,\" the former Ray said before Friday's series opener.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
     },
     {
       "title": "M’s prospect Kade Anderson named AL starter for Futures Game",
@@ -245,16 +220,6 @@
       "priority": 3
     },
     {
-      "title": "Mikel Merino stars again as Spain edges Belgium 2-1 in the World Cup quarterfinals",
-      "link": "https://www.seattletimes.com/sports/world-cup/mikel-merino-stars-again-as-spain-edges-belgium-2-1-in-the-world-cup-quarterfinals/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
-      "pubDate": "Fri, 10 Jul 2026 14:18:36 -0700",
-      "isoDate": "2026-07-10T21:18:36.000Z",
-      "excerpt": "Mikel Merino scored in the 88th minute on a rebound yielded by Belgium's backup Belgium goalkeeper to send Spain to the World Cup semifinals with a 2-1 victory.",
-      "source": "Seattle Times Sports",
-      "team": "general",
-      "priority": 1
-    },
-    {
       "title": "Dodgers star Shohei Ohtani to miss All-Star Game",
       "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/dodgers-star-shohei-ohtani-to-miss-all-star-game",
       "pubDate": "Fri, 10 Jul 2026 20:47:22 +0000",
@@ -303,16 +268,6 @@
       "source": "Field Gulls",
       "team": "seahawks",
       "priority": 1
-    },
-    {
-      "title": "Mariners MLB Draft Primer: Where they’re picking and how to watch",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-mlb-draft-primer-where-theyre-picking-and-how-to-watch",
-      "pubDate": "Fri, 10 Jul 2026 17:39:47 +0000",
-      "isoDate": "2026-07-10T17:39:47.000Z",
-      "excerpt": "A look at which picks the Seattle Mariners have and where you can watch the two-day MLB Draft.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
     },
     {
       "title": "2026 MLB Mock Draft, Lookout Landing-style",
@@ -365,16 +320,6 @@
       "priority": 1
     },
     {
-      "title": "The Seattle Mariners 2026 mock draft roundup",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-mlb-draft/145950/the-seattle-mariners-2026-mock-draft-roundup",
-      "pubDate": "2026-07-10T14:15:00.000Z",
-      "isoDate": "2026-07-10T14:15:00.000Z",
-      "excerpt": "04 March 2026, Bavaria, Munich: Jens Spahn (Thomas Limpinsel) performs at the \"Starkbieranstich\" at the Nockherberg. The strong beer season in Bavaria is traditionally opened with the traditional mockery, the...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
       "title": "Seahawks News: Leonard Williams is the best at his position",
       "link": "https://www.fieldgulls.com/seattle-seahawks-news/170432/seahawks-news-leonard-williams-is-the-best-at-his-position",
       "pubDate": "2026-07-10T14:09:57.000Z",
@@ -393,26 +338,6 @@
       "source": "Field Gulls",
       "team": "seahawks",
       "priority": 1
-    },
-    {
-      "title": "Mariners News: Bryce Harper, Munetaka Murakami, and Jordan Walker",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-news/145929/mariners-news-bryce-harper-munetaka-murakami-and-jordan-walker",
-      "pubDate": "2026-07-10T14:00:00.000Z",
-      "isoDate": "2026-07-10T14:00:00.000Z",
-      "excerpt": "May 26, 2026; Chicago, Illinois, USA; Chicago White Sox first baseman Munetaka Murakami (5) rounds the bases after hitting a two-run home run against the Minnesota Twins during the eight inning at Rate Field. Mandatory...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
-      "title": "Mariners eager to exit Miami after low-scoring series",
-      "link": "https://www.mlb.com/mariners/news/mariners-lose-series-finale-vs-marlins",
-      "pubDate": "Fri, 10 Jul 2026 05:01:00 GMT",
-      "isoDate": "2026-07-10T05:01:00.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
     },
     {
       "title": "Two Groups Competing To Buy Seahawks",
@@ -599,6 +524,86 @@
       "link": "https://www.mlb.com/mariners/news/mariners-2026-draft-preview",
       "pubDate": "Mon, 06 Jul 2026 16:53:01 GMT",
       "isoDate": "2026-07-06T16:53:01.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Top 2026 Training Camp Storylines: Does Rashid Shaheed Still Handle Both Return Jobs?",
+      "link": "https://www.seahawks.com/news/top-2026-training-camp-storylines-does-rashid-shaheed-still-handle-both-return-jobs",
+      "pubDate": "Mon, 06 Jul 2026 16:06:56 GMT",
+      "isoDate": "2026-07-06T16:06:56.000Z",
+      "excerpt": "Rashid Shaheed boosted Seattle’s return game last season, how does he fit in in the return game, with the expectation of a larger role in the offense.",
+      "source": "Seahawks.com",
+      "team": "seahawks",
+      "priority": 6
+    },
+    {
+      "title": "Kraken Working With Shane Wright To Find A Suitable Trade",
+      "link": "https://www.prohockeyrumors.com/2026/07/kraken-working-with-shane-wright-to-find-a-suitable-trade.html",
+      "pubDate": "Sat, 04 Jul 2026 16:59:35 +0000",
+      "isoDate": "2026-07-04T16:59:35.000Z",
+      "excerpt": "Shane Wright's agent indicated that the Seattle Kraken are working to move the center this summer.",
+      "source": "Pro Hockey Rumors",
+      "team": "kraken",
+      "priority": 2
+    },
+    {
+      "title": "Mariners Place Julio Rodríguez On Concussion IL",
+      "link": "https://www.mlbtraderumors.com/2026/07/mariners-place-julio-rodriguez-on-concussion-il.html",
+      "pubDate": "Fri, 03 Jul 2026 22:55:31 +0000",
+      "isoDate": "2026-07-03T22:55:31.000Z",
+      "excerpt": "The Mariners announced that outfielder Julio Rodríguez has been placed on the seven-day concussion injured list. Infielder/outfielder Miles Mastrobuoni has been selected to take his place on the roster. Right-hander...",
+      "source": "MLB Trade Rumors",
+      "team": "mariners",
+      "priority": 2
+    },
+    {
+      "title": "Kraken add Curtis Douglas in FA on 2-year, 1.25m AAV contract",
+      "link": "https://www.davyjoneslockerroom.com/kraken-add-curtis-douglas-in-fa-on-2-year-1-25m-aav-contract/",
+      "pubDate": "Thu, 02 Jul 2026 02:13:48 +0000",
+      "isoDate": "2026-07-02T02:13:48.000Z",
+      "excerpt": "Cue up Manny Fresh, because the Kraken like their forwards Real Big this free agency. The Kraken announced the signing of Forward Curtis Douglas to a 2 year deal worth $1.25 million. WELCOME ABOARD! 🦑The #SeaKraken...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
+      "title": "Kraken Sign Curtis Douglas",
+      "link": "https://www.prohockeyrumors.com/2026/07/kraken-sign-curtis-douglas.html",
+      "pubDate": "Wed, 01 Jul 2026 20:29:44 +0000",
+      "isoDate": "2026-07-01T20:29:44.000Z",
+      "excerpt": "The Seattle Kraken have signed UFA winger Curtis Douglas to a two-year contract.",
+      "source": "Pro Hockey Rumors",
+      "team": "kraken",
+      "priority": 2
+    },
+    {
+      "title": "DJLR Free Agency Frenzy LIVETHREAD",
+      "link": "https://www.davyjoneslockerroom.com/djlr-free-agency-primer/",
+      "pubDate": "Wed, 01 Jul 2026 16:49:53 +0000",
+      "isoDate": "2026-07-01T16:49:53.000Z",
+      "excerpt": "Welcome to free agent frenzy, friends. The NHL has already begun making goofy trades all over the place after the Kraken made a perfectly reasonable call for Mackie Samoskevich, so let’s enjoy the magic as it unfolds!...",
+      "source": "Davy Jones' Locker Room",
+      "team": "kraken",
+      "priority": 1
+    },
+    {
+      "title": "Kraken Sign Mackie Samoskevich To Three-Year Deal",
+      "link": "https://www.prohockeyrumors.com/2026/07/kraken-sign-mackie-samoskevich-to-three-year-deal.html",
+      "pubDate": "Wed, 01 Jul 2026 16:19:07 +0000",
+      "isoDate": "2026-07-01T16:19:07.000Z",
+      "excerpt": "The Seattle Kraken announced that they have signed restricted free agent forward Mackie Samoskevich to a three-year deal. Per Elliotte Friedman, the deal carries a $3.85MM AAV ($11.55MM Total Value) and which will have...",
+      "source": "Pro Hockey Rumors",
+      "team": "kraken",
+      "priority": 2
+    },
+    {
+      "title": "Stream Mariners games on Mariners.TV for low price of $54.99",
+      "link": "https://www.mlb.com/mariners/news/mariners-tv-is-here-for-2026-season",
+      "pubDate": "Wed, 01 Jul 2026 16:04:00 GMT",
+      "isoDate": "2026-07-01T16:04:00.000Z",
       "excerpt": "",
       "source": "Mariners.com",
       "team": "mariners",
