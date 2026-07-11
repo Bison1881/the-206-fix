@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-11T20:42:41.765Z",
+  "generatedAt": "2026-07-11T22:43:04.500Z",
   "sourceCount": 10,
   "successfulSources": 9,
   "failedSources": [
@@ -9,6 +9,56 @@
     }
   ],
   "items": [
+    {
+      "title": "Mariners pick OF Jake Brown in 2nd round of 2026 MLB Draft",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-mlb-draft/146108/mariners-pick-of-jake-brown-in-2nd-round-of-2026-mlb-draft",
+      "pubDate": "2026-07-11T21:59:27.000Z",
+      "isoDate": "2026-07-11T21:59:27.000Z",
+      "excerpt": "BATON ROUGE, LOUISIANA - MARCH 15: Jake Brown #7 of the LSU Tigers in action against the Oklahoma Sooners at the Alex Box Stadium on March 15, 2026 in Baton Rouge, Louisiana. (Photo by Alex Diaz/LSU/University Images...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Gilbert becomes 5th Mariners pitcher with 1,000 career K's",
+      "link": "https://www.mlb.com/mariners/news/logan-gilbert-notches-1-000th-strikeout",
+      "pubDate": "Sat, 11 Jul 2026 21:50:51 GMT",
+      "isoDate": "2026-07-11T21:50:51.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "MLB Draft Day 1 picks, analysis (LIVE on MLB.com, MLB.TV, MLB+)",
+      "link": "https://www.mlb.com/mariners/news/2026-mlb-draft-day-1-complete-coverage",
+      "pubDate": "Sat, 11 Jul 2026 21:41:00 GMT",
+      "isoDate": "2026-07-11T21:41:00.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Mariners pull an Ace with No. 24 pick ... but this one's a hitter",
+      "link": "https://www.mlb.com/mariners/news/ace-reese-drafted-no-24-by-mariners-in-2026-mlb-draft",
+      "pubDate": "Sat, 11 Jul 2026 21:34:00 GMT",
+      "isoDate": "2026-07-11T21:34:00.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Mariners 2026 MLB Draft Tracker: Keep up with every pick",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-2026-mlb-draft-tracker-keep-up-with-every-pick",
+      "pubDate": "Sat, 11 Jul 2026 20:43:23 +0000",
+      "isoDate": "2026-07-11T20:43:23.000Z",
+      "excerpt": "A look at all of the selections the M's made in the 2026 amateur draft.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
     {
       "title": "Mariners select 3B Ace Reese in the 1st round of 2026 MLB Draft",
       "link": "https://www.lookoutlanding.com/seattle-mariners-mlb-draft/146064/mariners-select-3b-ace-reese-in-the-1st-round-of-2026-mlb-draft",
@@ -20,16 +70,6 @@
       "priority": 1
     },
     {
-      "title": "MLB Draft Day 1 picks, analysis (LIVE on Peacock, MLB.com, MLB.TV, MLB+)",
-      "link": "https://www.mlb.com/mariners/news/2026-mlb-draft-day-1-complete-coverage",
-      "pubDate": "Sat, 11 Jul 2026 20:12:00 GMT",
-      "isoDate": "2026-07-11T20:12:00.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
-    },
-    {
       "title": "Mariners Game #96 Preview and Discussion, 7/11/26: SEA vs TBR",
       "link": "https://www.lookoutlanding.com/seattle-mariners-discussion/146083/mariners-game-96-preview-and-discussion-7-11-26-sea-vs-tbr",
       "pubDate": "2026-07-11T20:10:15.000Z",
@@ -38,16 +78,6 @@
       "source": "Lookout Landing",
       "team": "mariners",
       "priority": 1
-    },
-    {
-      "title": "Mariners snag Mississippi State 3B Reese with No. 24 Draft pick",
-      "link": "https://www.mlb.com/mariners/news/ace-reese-drafted-no-24-by-mariners-in-2026-mlb-draft",
-      "pubDate": "Sat, 11 Jul 2026 20:08:00 GMT",
-      "isoDate": "2026-07-11T20:08:00.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
     },
     {
       "title": "Canucks Inquired About Wright",
@@ -68,16 +98,6 @@
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
-    },
-    {
-      "title": "Anderson earns nod as AL starter for Futures Game in Philly",
-      "link": "https://www.mlb.com/mariners/news/kade-anderson-american-league-starter-2026-futures-game",
-      "pubDate": "Sat, 11 Jul 2026 18:49:00 GMT",
-      "isoDate": "2026-07-11T18:49:00.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
     },
     {
       "title": "The Seattle Mariners&#8217; 2026 MLB Draft picks",
@@ -230,16 +250,6 @@
       "priority": 3
     },
     {
-      "title": "47-48: Chart",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/145994/47-48-chart",
-      "pubDate": "2026-07-11T01:36:04.000Z",
-      "isoDate": "2026-07-11T01:36:04.000Z",
-      "excerpt": "Jul 10, 2026; St. Petersburg, Florida, USA; Tampa Bay Rays outfielder Chandler Simpson (14) runs to third base during the third inning against Seattle Mariners at Tropicana Field. Mandatory Credit: Pablo Robles-Imagn...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
       "title": "Top 2026 Training Camp Storylines: Can A Loaded Defensive Front Be Even Better In 2026?",
       "link": "https://www.seahawks.com/news/top-2026-training-camp-storylines-can-a-loaded-defensive-front-be-even-better-in-2026",
       "pubDate": "Sat, 11 Jul 2026 00:34:06 GMT",
@@ -275,16 +285,6 @@
       "pubDate": "Fri, 10 Jul 2026 22:49:16 +0000",
       "isoDate": "2026-07-10T22:49:16.000Z",
       "excerpt": "Manager Dan Wilson also shared an update on Brendan Donovan.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "World Cup: Spain edges Belgium 2-1 to reach semifinals",
-      "link": "https://sports.mynorthwest.com/seattle-sports-pit/world-cup-spain-edges-belgium-2-1-to-reach-semifinals",
-      "pubDate": "Fri, 10 Jul 2026 21:36:33 +0000",
-      "isoDate": "2026-07-10T21:36:33.000Z",
-      "excerpt": "Mikel Merino scored the winning goal in the 88th minute to help Spain move on to a matchup against France.",
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
