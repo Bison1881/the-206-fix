@@ -7,6 +7,16 @@ Built with Astro, Tailwind, TypeScript. Deployed on Vercel. Seattle sports news 
 > Day-to-day "how do I post after recording a video" lives in **WORKFLOW.md**.
 > This README is the architecture and reference. WORKFLOW.md is the routine.
 
+**The site is a low-maintenance aggregator.** One front page, two things stacked
+top to bottom:
+- **On the Channel** — your YouTube videos. Newest is the big lead; older ones
+  are cards below. Every video links straight to YouTube; there are no on-site
+  video pages.
+- **The Wire** — aggregated Seattle sports news, refreshed automatically.
+
+There is no original written content anymore (no columns, team pages, author
+page, or archives). The only thing you publish by hand is videos.
+
 ---
 
 ## Quick start
@@ -28,29 +38,27 @@ npm run preview      # preview the production build locally
 
 ```
 src/
-  components/        Astro components (Masthead, Nav, Ticker, HeroSection, etc.)
-  config.ts          Site-wide constants: author name/slug/bio, title, YouTube URL
+  components/        Astro components:
+                       Masthead, TopStrip, Ticker, Footer   (page chrome)
+                       VideoColumn (the videos), Wire (the news band)
+                       CoinOp (the footer "Press Start" gag)
+  config.ts          Site-wide constants: title, description, YouTube URL,
+                       plus youtubeWatchUrl() and youtubeThumb() helpers
   content/
-    articles/        Original writing (Markdown + frontmatter)
-      _TEMPLATE.md   Copy this to start a new column (hidden; never publishes)
-    retro/           YouTube companion pieces (Markdown + frontmatter)
-      _TEMPLATE.md   Copy this to start a new retro post (hidden; never publishes)
-    config.ts        Content collection schemas
+    videos/          Your YouTube videos (Markdown + frontmatter)
+      _TEMPLATE.md   Copy this to start a new video (hidden; never publishes)
+    config.ts        Content collection schema (the `videos` collection)
   data/
     rss-feed.json    Aggregated Seattle sports RSS (generated; do not hand-edit)
     ticker.ts        Manual ticker items (your scores + quips). See "Ticker" below.
   layouts/
-    BaseLayout.astro Shared page chrome (top strip, masthead, nav, ticker, footer)
+    BaseLayout.astro Shared page chrome (top strip, masthead, ticker, footer).
+                       Supports a `noindex` prop (used by the About page).
   pages/
-    index.astro              Front page
-    articles/[...slug].astro Article detail
-    retro/[...slug].astro    Retro post detail
-    retro.astro              The Arcade archive
-    columns.astro            Columns archive
-    author/[slug].astro      Per-author page (auto-generated from bylines)
-    about.astro, 404.astro
-    teams/                   seahawks / mariners / kraken / sonics
-    rss.xml.js               The site's own outgoing RSS feed
+    index.astro      Front page (videos + wire)
+    about.astro      Hidden: noindex + not linked anywhere. Direct URL only.
+    404.astro
+    rss.xml.js       The site's own outgoing RSS feed (lists your videos)
   scripts/
     fetch-rss.mjs    RSS aggregator
   styles/
@@ -63,93 +71,66 @@ public/
   fetch-rss.yml      Scheduled RSS aggregation, commits to repo
 ```
 
-## Author / byline
+## Publishing a new video
 
-The byline is a single source of truth in `src/config.ts`:
-
-```ts
-export const DEFAULT_AUTHOR = 'Two Oh Six';
-export const DEFAULT_AUTHOR_SLUG = 'two-oh-six';
-export const DEFAULT_AUTHOR_BIO = '...';
-```
-
-You do NOT put an author in each post's frontmatter — it's applied from config.
-To change the byline sitewide (e.g. switch to a real name later), edit these
-three values and update the slug to match. Every byline and the author page
-update automatically.
-
-## Writing a new article (column)
-
-Copy `src/content/articles/_TEMPLATE.md`, rename it (e.g. `mariners-rebuild.md`),
-fill it in. The template is self-documenting. Frontmatter shape:
+Copy `src/content/videos/_TEMPLATE.md`, rename it (e.g. `tecmo-week-03.md`, the
+name is just an internal key), fill it in. Frontmatter shape:
 
 ```markdown
 ---
-title: "Headline goes here"
-deck: "Subhead. One sentence, italicized in the layout."   # optional
-publishDate: 2026-05-26
-tag: "Long View"          # see src/content/config.ts for allowed tag values
-team: "seahawks"          # seahawks | mariners | kraken | sonics | general
-lead: false               # true = front-page lead story (only ONE at a time)
-featured: false
-readMinutes: 8
-draft: false              # true to hide from the build
+title: "Week 3: Seahawks vs Commanders | Road to the Playoffs"
+deck: "One-line blurb shown on the card."   # optional
+publishDate: 2026-07-12                      # YYYY-MM-DD — decides ordering
+youtubeId: "dQw4w9WgXcQ"                     # the part of the URL after v=
+episodeNumber: 3                             # optional
+game: "Tecmo Super Bowl 27 - Training Camp Edition"   # optional
+series: "Tecmo Super Bowl 2026-27 Season"    # optional
+customImage: ""                              # optional; see below
+featured: false                              # reserved flag; optional
+draft: false                                 # true to hide from the build
 ---
-
-Article body in Markdown.
 ```
 
-The home page picks the lead automatically: the article flagged `lead: true`,
-otherwise the most recent. "From the Desk" shows the next most recent columns.
+Only `title`, `publishDate`, and `youtubeId` are required. The **newest
+`publishDate` automatically becomes the front-page lead**; older videos stack
+below as cards. There is no manual "lead" switch.
 
-## Writing a retro piece
+### The video image
 
-Copy `src/content/retro/_TEMPLATE.md`, rename it (e.g. `tecmo-week-04.md`):
-
-```markdown
----
-title: "Tecmo Super Bowl: Seahawks Season, Week 4 vs. Rams"
-deck: "Optional subhead."
-publishDate: 2026-05-30
-episodeNumber: 4
-youtubeId: "abc123XYZ"      # the part of the URL after v=
-game: "Tecmo Super Bowl"
-series: "Seahawks Season 1"
-featured: false             # one piece can be featured in The Arcade slot
-readMinutes: 5
-draft: false
----
-
-Body content.
-```
+By default the card uses that video's **YouTube thumbnail automatically**
+(`img.youtube.com/vi/<id>/hqdefault.jpg`) — zero work. To override with a game
+screenshot, set `customImage`: either a file you drop in `public/` (e.g.
+`customImage: "/week3-shot.jpg"`) or any full image URL.
 
 ## Ticker
 
-The scrolling ticker below the nav has two streams:
+The scrolling ticker below the masthead has two streams:
 
-- **Auto:** your latest posts appear as linked "LATEST" headlines. You never
-  list these by hand — publishing a post adds it.
+- **Auto:** your latest videos appear as linked "LATEST" headlines that link
+  out to YouTube. You never list these by hand — publishing a video adds it.
 - **Manual:** scores and quips, which you edit in `src/data/ticker.ts`. Each
-  item is `score` or `note`, with optional `href`. This file is where your
-  gameplay results and humor go. It's heavily commented.
+  item is `score` or `note`, with an optional `href` (point it at the video on
+  YouTube). This file is heavily commented.
 
-## RSS aggregation
+## RSS: two separate things
 
-The aggregator pulls from the `SOURCES` array in `src/scripts/fetch-rss.mjs`.
-Edit that array to add or remove feeds.
-
-- Run locally: `npm run rss:fetch`
-- Dry run (no file write): `npm run rss:test`
-- Scheduled: every 2 hours via `.github/workflows/fetch-rss.yml`
-
-On a successful scheduled run, the workflow commits the updated
-`src/data/rss-feed.json` to `main`, triggering a Vercel rebuild. Unchanged JSON
-makes no commit. The fetcher calls `process.exit(0)` on completion (a past hang
-was traced to the Node process not exiting); per-source fetches have a hard
-timeout so one dead feed can't stall the run.
+- **The Wire (incoming):** the aggregator pulls from the `SOURCES` array in
+  `src/scripts/fetch-rss.mjs` into `src/data/rss-feed.json`. Edit that array to
+  add or remove feeds.
+  - Run locally: `npm run rss:fetch`
+  - Dry run (no file write): `npm run rss:test`
+  - Scheduled: every 2 hours via `.github/workflows/fetch-rss.yml`. On a
+    successful run it commits the updated `rss-feed.json` to `main`, triggering
+    a Vercel rebuild. Unchanged JSON makes no commit. The fetcher calls
+    `process.exit(0)` on completion (a past hang was the Node process not
+    exiting); per-source fetches have a hard timeout so one dead feed can't
+    stall the run.
+- **The site's own feed (outgoing):** `src/pages/rss.xml.js` publishes
+  `/rss.xml`, a feed of your **videos** (each item links to YouTube). This is
+  generated from the `videos` collection — you don't edit it.
 
 Note: there is currently no working Sonics RSS source (the known ones are dead
-or have no public feed). Sonics coverage is original writing for now.
+or have no public feed).
 
 ## Design system
 
@@ -162,15 +143,11 @@ or have no public feed). Sonics coverage is original writing for now.
 - paper `#DCDADC`
 - rust `#A0522D`
 
-**Fonts** — three only, all pixel/dot family:
-- **Press Start 2P** — all chrome: masthead title, nav, top strip, kickers,
-  bylines, small labels, buttons, edition line, tagline.
-- **Bitcount Grid Single** — all headlines (lead ~40px, scaling down), section
-  heads, retro/arcade titles, prose h2/h3, drop caps, and the ticker.
-- **Bitcount Prop Single** — all body text.
-
-(Earlier candidates — Playfair, Source Serif, Libre Caslon, Inter, Pixelify
-Sans, Jersey 10 — were all removed. Only the three above load.)
+**Fonts** — what the code currently loads (`global.css` import + `tailwind.config.mjs`):
+- **Press Start 2P** — everything: masthead chrome, headlines, section heads,
+  body text, kickers, small labels, buttons, and the ticker. (All the Tailwind
+  `font-*` families — mast, display, body, ui, caslon, ticker — map to it.)
+- **Jacquard 24** — the masthead nameplate only (the blackletter "The 206 Fix").
 
 ## Dates, edition, volume
 
@@ -185,11 +162,11 @@ Because the RSS bot rebuilds every ~2 hours, these stay fresh without manual wor
 
 ## Gotchas
 
-- Files starting with `_` (the templates) are hidden and never publish. Copy
-  them; don't edit them in place.
-- `draft: true` hides a post. New posts copied from a template inherit it — set
-  `draft: false` to go live.
-- Only one article should have `lead: true` at a time.
+- Files starting with `_` (the template) are hidden and never publish. Copy it;
+  don't edit it in place.
+- `draft: true` hides a video. New videos copied from the template inherit it —
+  set `draft: false` to go live.
+- The lead is automatic (newest `publishDate`); there's no lead flag to set.
 - Commit with `git commit -am`, not `git commit -a` (the latter opens a broken
   editor on this setup).
 - `git pull --rebase` before pushing — the RSS bot commits between your pushes.

@@ -2,9 +2,15 @@
 
 **The core idea:** You edit files on your computer, then push them to GitHub. Vercel rebuilds the site automatically. There's no website login or dashboard, your project folder *is* the back end.
 
+**What the site is now:** one front page, two things stacked top to bottom.
+- **On the Channel** — your YouTube videos. The newest video is the big lead; older ones sit below as cards. Every video links straight to YouTube; there are no on-site video pages.
+- **The Wire** — aggregated Seattle sports news, refreshed automatically. You never edit this by hand.
+
+The only content you publish by hand is **videos** (plus the ticker scores, if you want).
+
 ## The basic loop (every edit follows this)
 
-- Open the project in Notepad++ (`C:\Users\Tim_W\the-206-fix`)
+- Open the project in Notepad++ (`C:\Users\Tim_W\dev\the-206-fix`)
 - Make your change (see the specific tasks below)
 - Save the file
 - In PowerShell, from the project folder, run:
@@ -14,57 +20,75 @@
   - `git push`
 - Wait ~1-2 minutes for Vercel to rebuild, then check the live site
 
-## To publish a new column/article
+## To publish a new video
 
-- Go to `src/content/articles/`
-- Copy `_TEMPLATE.md`, rename the copy (e.g. `mariners-rebuild.md`)
-- Fill in the fields at the top (title, deck, publishDate, tag, team, etc.)
-- Write your article below the second `---`
+- Go to `src/content/videos/`
+- Copy `_TEMPLATE.md`, rename the copy (e.g. `tecmo-week-03.md`)
+  (lowercase, dashes, no spaces — the file name is just an internal key, it's never shown)
+- Fill in the fields at the top. Only three are required:
+  - `title` — the headline shown on the card
+  - `publishDate` — YYYY-MM-DD (this is what decides the order; newest becomes the lead)
+  - `youtubeId` — the code in the video's URL. For `youtube.com/watch?v=dQw4w9WgXcQ`
+    the ID is `dQw4w9WgXcQ` (for a `youtu.be/dQw4w9WgXcQ` link, same thing after the slash)
+- Optional fields: `deck` (one-line blurb on the card), `episodeNumber`, `game`, `series`
 - Set `draft: false` when ready to go live
 - Push (the basic loop above)
 
-## To publish a new retro/episode post
+That's it. The newest video automatically becomes the big lead story; the previous ones
+drop into the card row below. You never touch the home page layout.
 
-- Go to `src/content/retro/`
-- Copy `_TEMPLATE.md`, rename the copy (e.g. `tecmo-week-04.md`)
-- Fill in the fields (title, youtubeId, episodeNumber, game, series, etc.)
-- Write your few sentences below the second `---`
-- Set `draft: false`
-- Push
+## About the video image
+
+- By default the card uses that video's **YouTube thumbnail automatically** — you do nothing.
+- To use a game screenshot instead, add a `customImage` field:
+  - Drop the image file into the `public/` folder (e.g. `public/week3-shot.jpg`)
+  - Then set `customImage: "/week3-shot.jpg"` in the video's fields (leading slash)
+  - Or paste any full image URL.
 
 ## To update the ticker (scores and quips)
 
 - Open `src/data/ticker.ts`
-- Add or edit items in the list, each is `kind: 'score'` or `kind: 'note'`, with optional `href` link
-- (Your latest posts auto-appear as headlines; you only hand-write scores and jokes here)
+- Add or edit items in the list, each is `kind: 'score'` or `kind: 'note'`, with an optional
+  `href` link. For a link, point it straight at the video on YouTube
+  (e.g. `href: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'`)
+- (Your latest videos auto-appear as ticker headlines; you only hand-write scores and jokes here)
 - Push
 
-## To edit an existing post
+## To edit an existing video
 
-- Open the specific `.md` file in `src/content/articles/` or `src/content/retro/`
-- Edit the text directly
+- Open the specific `.md` file in `src/content/videos/`
+- Edit the fields at the top
 - Push
 
-## To change your bio or byline
+## To edit the About page
 
-- Open `src/config.ts`
-- Edit `DEFAULT_AUTHOR_BIO` (bio) or `DEFAULT_AUTHOR` (the byline name)
+- The About page is still there but hidden — it's reachable only if you know the direct URL
+  (`/about`) and it's marked so search engines skip it. It's not linked anywhere on the site.
+- To edit its text, open `src/pages/about.astro` and edit the paragraphs
+- To bring it back into the site later, re-add links to it in `src/components/TopStrip.astro`
+  and `src/components/Footer.astro`, and remove `noindex={true}` in `src/pages/about.astro`
 - Push
 
-## To set the front-page lead story
+## To change which news sources feed The Wire (rarely needed)
 
-- Open the article you want as the lead
-- Set `lead: true` in its frontmatter
-- Make sure no other article has `lead: true` (only one at a time)
+- The Wire is fully automatic — a GitHub Action refreshes it every 2 hours, you do nothing.
+- To add or remove a news feed, open `src/scripts/fetch-rss.mjs` and edit the `SOURCES` list.
 - Push
 
 ## Key reminders
 
-- **`draft: true` hides a post** — set it to `false` to publish
-- **Files starting with `_` never publish** — copy the templates, don't edit them in place
-- **Only one article** should have `lead: true` at a time
+- **`draft: true` hides a video** — set it to `false` to publish
+- **Files starting with `_` never publish** — copy the `_TEMPLATE.md`, don't edit it in place
+- **The lead is automatic** — whichever video has the newest `publishDate` becomes the lead.
+  There's no "lead" switch to set anymore.
 - **Use `git commit -am`**, not `git commit -a` (the latter opens a broken editor)
 - **Always `git pull --rebase` before pushing** (the news bot commits between your pushes)
-- **You never manually update** the home page, archives, team pages, RSS feed, author page, or ticker headlines, publishing a post updates all of them automatically
+- **You never manually update** the home page, the lead slot, the RSS feed, or the ticker
+  headlines — publishing a video updates all of them automatically.
 
-For the full routine, see `WORKFLOW.md` in your project root.
+## Editing straight on GitHub (no computer setup)
+
+If you're not at your own machine, you can also edit any file directly at
+github.com/Bison1881/the-206-fix — open the file, click the pencil icon, make the change,
+and commit. Vercel rebuilds the same way. Good for quick fixes; the basic loop above is
+better when you're adding a video with an image.
