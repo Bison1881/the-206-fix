@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-11T22:43:04.500Z",
+  "generatedAt": "2026-07-12T02:26:20.102Z",
   "sourceCount": 10,
   "successfulSources": 9,
   "failedSources": [
@@ -10,34 +10,184 @@
   ],
   "items": [
     {
-      "title": "Mariners pick OF Jake Brown in 2nd round of 2026 MLB Draft",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-mlb-draft/146108/mariners-pick-of-jake-brown-in-2nd-round-of-2026-mlb-draft",
-      "pubDate": "2026-07-11T21:59:27.000Z",
-      "isoDate": "2026-07-11T21:59:27.000Z",
-      "excerpt": "BATON ROUGE, LOUISIANA - MARCH 15: Jake Brown #7 of the LSU Tigers in action against the Oklahoma Sooners at the Alex Box Stadium on March 15, 2026 in Baton Rouge, Louisiana. (Photo by Alex Diaz/LSU/University Images...",
+      "title": "Gilbert joins Mariners' 1,000-K club -- and gets there in record time",
+      "link": "https://www.mlb.com/mariners/news/logan-gilbert-notches-1-000th-strikeout",
+      "pubDate": "Sun, 12 Jul 2026 01:50:00 GMT",
+      "isoDate": "2026-07-12T01:50:00.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Here are the Mariners' Day 1 Draft picks. Here's how to follow Day 2",
+      "link": "https://www.mlb.com/mariners/news/mariners-2026-draft-picks",
+      "pubDate": "Sun, 12 Jul 2026 01:35:53 GMT",
+      "isoDate": "2026-07-12T01:35:53.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Looking ahead to Day 2 of the Draft: Overview, schedule, best available",
+      "link": "https://www.mlb.com/mariners/news/2026-mlb-draft-day-2-overview-schedule",
+      "pubDate": "Sun, 12 Jul 2026 01:30:00 GMT",
+      "isoDate": "2026-07-12T01:30:00.000Z",
+      "excerpt": "",
+      "source": "Mariners.com",
+      "team": "mariners",
+      "priority": 6
+    },
+    {
+      "title": "Read the NFL’s memo to teams following Seahawks sale agreement",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-news/170490/read-nfl-memo-owners-following-seattle-seahawks-sale-agreement",
+      "pubDate": "2026-07-12T01:14:06.000Z",
+      "isoDate": "2026-07-12T01:14:06.000Z",
+      "excerpt": "SAN FRANCISCO, CALIFORNIA - OCTOBER 28: Vinod Khosla, Founder of Khosla Ventures, speaks onstage during TechCrunch Disrupt 2024 Day 1 at Moscone Center on October 28, 2024 in San Francisco, California. (Photo by...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
+    {
+      "title": "Mariners go high-floor on Day 1 of 2026 MLB Draft",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-mlb-draft/146156/mariners-go-high-floor-on-day-1-of-2026-mlb-draft",
+      "pubDate": "2026-07-12T00:29:59.000Z",
+      "isoDate": "2026-07-12T00:29:59.000Z",
+      "excerpt": "HOOVER, AL - MAY 21: Infielder Ace Reese #3 of the Mississippi State Bulldogs hits a foul ball during the SEC Baseball Tournament Quarterfinals game between Mississippi State Bulldogs and Georgia Bulldogs on May 21,...",
       "source": "Lookout Landing",
       "team": "mariners",
       "priority": 1
     },
     {
-      "title": "Gilbert becomes 5th Mariners pitcher with 1,000 career K's",
-      "link": "https://www.mlb.com/mariners/news/logan-gilbert-notches-1-000th-strikeout",
-      "pubDate": "Sat, 11 Jul 2026 21:50:51 GMT",
-      "isoDate": "2026-07-11T21:50:51.000Z",
+      "title": "World Cup: England edges Norway 2-1 in OT to reach semifinals",
+      "link": "https://sports.mynorthwest.com/seattle-sports-pit/world-cup-england-edges-norway-2-1-in-ot-to-reach-semifinals",
+      "pubDate": "Sun, 12 Jul 2026 00:01:28 +0000",
+      "isoDate": "2026-07-12T00:01:28.000Z",
+      "excerpt": "Jude Bellingham netted both goals to help England move two wins from a title.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Mariners blow themselves up, out in 6-1 loss to Rays",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/146160/mariners-blow-themselves-up-out-in-6-1-loss-to-rays",
+      "pubDate": "2026-07-11T23:49:06.000Z",
+      "isoDate": "2026-07-11T23:49:06.000Z",
+      "excerpt": "Jul 11, 2026; St. Petersburg, Florida, USA; Seattle Mariners pitcher Logan Gilbert (36) delivers a pitch during the second inning against Tampa Bay Rays at Tropicana Field. Mandatory Credit: Pablo Robles-Imagn Images |...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Draft Day 1: Pick-by-pick rundown, analysis",
+      "link": "https://www.mlb.com/mariners/news/2026-mlb-draft-day-1-complete-coverage",
+      "pubDate": "Sat, 11 Jul 2026 23:48:00 GMT",
+      "isoDate": "2026-07-11T23:48:00.000Z",
       "excerpt": "",
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
     },
     {
-      "title": "MLB Draft Day 1 picks, analysis (LIVE on MLB.com, MLB.TV, MLB+)",
-      "link": "https://www.mlb.com/mariners/news/2026-mlb-draft-day-1-complete-coverage",
-      "pubDate": "Sat, 11 Jul 2026 21:41:00 GMT",
-      "isoDate": "2026-07-11T21:41:00.000Z",
+      "title": "Mariners lose to Rays 6-1, drop fifth straight game on road trip",
+      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-lose-to-rays-6-1-drop-fifth-straight-game-on-road-trip",
+      "pubDate": "Sat, 11 Jul 2026 23:41:58 +0000",
+      "isoDate": "2026-07-11T23:41:58.000Z",
+      "excerpt": "Tampa Bay's Ryan Vilade hit a three-run homer that broke the game open in the seventh.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Seattle Mariners select 3B Trevor Lucas in 4th round of 2026 MLB Draft",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-mlb-draft/146154/seattle-mariners-select-3b-trevor-lucas-in-4th-round-of-2026-mlb-draft",
+      "pubDate": "2026-07-11T23:36:42.000Z",
+      "isoDate": "2026-07-11T23:36:42.000Z",
+      "excerpt": "With their fourth and final pick on day one of the 2026 MLB Draft, the Seattle Mariners opted for UNC-Wilmington third baseman Trevor Lucas. Lucas possesses an excellent blend of hitting ability and defensive chops that...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Mariners Draft Tracker: Follow every pick",
+      "link": "https://www.mlb.com/draft/tracker/2026/all/team/mariners",
+      "pubDate": "Sat, 11 Jul 2026 23:32:12 GMT",
+      "isoDate": "2026-07-11T23:32:12.000Z",
       "excerpt": "",
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
+    },
+    {
+      "title": "Seattle Seahawks agree to sell to Vinod Khosla-led group in biggest deal in NFL history",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-news/170494/seattle-seahawks-sale-nfl-record-vinod-khosla-group",
+      "pubDate": "2026-07-11T23:15:04.000Z",
+      "isoDate": "2026-07-11T23:15:04.000Z",
+      "excerpt": "SAN FRANCISCO, CALIFORNIA - APRIL 08: Vinod Khosla speaks onstage during the \"Super Reliability vs. Super Intelligence\" panel at the HumanX Conference San Franciso 2026 Moscone Center South on April 08, 2026 in San...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
+    {
+      "title": "47-49: Chart",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/146139/47-49-chart",
+      "pubDate": "2026-07-11T23:10:23.000Z",
+      "isoDate": "2026-07-11T23:10:23.000Z",
+      "excerpt": "Jul 11, 2026; St. Petersburg, Florida, USA; Tampa Bay Rays Hall Fame inductee Evan Longoria (3) waves at the crowd during the ceremony at Tropicana Field. Mandatory Credit: Pablo Robles-Imagn Images | Pablo Robles-Imagn...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Khosla family group agrees to buy Seahawks for reported record price",
+      "link": "https://sports.mynorthwest.com/nfl/seattle-seahawks/group-led-by-khosla-family-agrees-to-buy-seattle-seahawks",
+      "pubDate": "Sat, 11 Jul 2026 22:58:26 +0000",
+      "isoDate": "2026-07-11T22:58:26.000Z",
+      "excerpt": "The sale, which is subject to owner approval, is reportedly for an NFL-record $9.6 billion.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Estate of Paul G. Allen Reaches Agreement to Sell Seattle Seahawks",
+      "link": "https://www.seahawks.com/news/estate-of-paul-g-allen-reaches-agreement-to-sell-seattle-seahawks",
+      "pubDate": "Sat, 11 Jul 2026 22:45:04 GMT",
+      "isoDate": "2026-07-11T22:45:04.000Z",
+      "excerpt": "",
+      "source": "Seahawks.com",
+      "team": "seahawks",
+      "priority": 6
+    },
+    {
+      "title": "Seahawks Sell For Record $9.6 Billion",
+      "link": "https://www.profootballrumors.com/2026/07/seahawks-sell-for-record-9-6-billion",
+      "pubDate": "Sat, 11 Jul 2026 22:43:31 +0000",
+      "isoDate": "2026-07-11T22:43:31.000Z",
+      "excerpt": "The sale for the Seahawks has been a much quieter story than that of the Commanders and Broncos in prior years. All the same, it’s a record sale as ESPN’s Adam Schefter reports that a group led by 49ers limited partner...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
+      "priority": 2
+    },
+    {
+      "title": "RHP Nathan Taylor is 3rd round pick for the Seattle Mariners in the 2026 MLB Draft",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-mlb-draft/146108/mariners-select-rhp-nathan-taylor-cincinnati-3rd-round-2026-draft",
+      "pubDate": "2026-07-11T21:59:27.000Z",
+      "isoDate": "2026-07-11T21:59:27.000Z",
+      "excerpt": "ARLINGTON, TX - MAY 21: Cincinnati pitcher Nathan Taylor (11) pitches the ball during the 2024 Phillips 66 Big 12 Baseball Championship game between Cincinnati and UCF on May 21, 2024, at Globe Life Field in Arlington,...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
+    },
+    {
+      "title": "Mariners pick OF Jake Brown in 2nd round of 2026 MLB Draft",
+      "link": "https://www.lookoutlanding.com/seattle-mariners-mlb-draft/146135/mariners-pick-of-jake-brown-in-2nd-round-of-2026-mlb-draft",
+      "pubDate": "2026-07-11T21:37:00.000Z",
+      "isoDate": "2026-07-11T21:37:00.000Z",
+      "excerpt": "BATON ROUGE, LOUISIANA - MARCH 15: Jake Brown #7 of the LSU Tigers in action against the Oklahoma Sooners at the Alex Box Stadium on March 15, 2026 in Baton Rouge, Louisiana. (Photo by Alex Diaz/LSU/University Images...",
+      "source": "Lookout Landing",
+      "team": "mariners",
+      "priority": 1
     },
     {
       "title": "Mariners pull an Ace with No. 24 pick ... but this one's a hitter",
@@ -100,16 +250,6 @@
       "priority": 3
     },
     {
-      "title": "The Seattle Mariners&#8217; 2026 MLB Draft picks",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-mlb-draft/146033/the-seattle-mariners-2026-mlb-draft-picks",
-      "pubDate": "2026-07-11T17:57:23.000Z",
-      "isoDate": "2026-07-11T17:57:23.000Z",
-      "excerpt": "PHILADELPHIA, PENNSYLVANIA - JULY 11: MLB Commissioner Rob Manfred announces Roch Cholowsky of UCLA as the first pick in the 2026 MLB Draft by the Chicago White Sox at Pennsylvania Convention Center on July 11, 2026 in...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
       "title": "A’s place All-Star slugger Nick Kurtz on injured list",
       "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/athletics-place-all-star-slugger-nick-kurtz-on-injured-list",
       "pubDate": "Sat, 11 Jul 2026 17:39:18 +0000",
@@ -120,26 +260,6 @@
       "priority": 3
     },
     {
-      "title": "LIVE Draft Tracker: Follow every pick",
-      "link": "https://www.mlb.com/draft/tracker",
-      "pubDate": "Sat, 11 Jul 2026 16:55:00 GMT",
-      "isoDate": "2026-07-11T16:55:00.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
-    },
-    {
-      "title": "Draft targets for the Mariners beyond the first round",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-mlb-draft/146020/draft-targets-for-the-mariners-beyond-the-first-round",
-      "pubDate": "2026-07-11T16:28:50.000Z",
-      "isoDate": "2026-07-11T16:28:50.000Z",
-      "excerpt": "PHOENIX, AZ - JUNE 23: Harold Reynolds talks with Peyton Bonds as Bonds prepares to bat during the 2026 Draft Combine at Chase Field on Tuesday, June 23, 2026 in Phoenix, Arizona. (Photo by Jill Weisleder/MLB Photos via...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
       "title": "What USA skipper DeRosa saw from Mariners’ Cal Raleigh at WBC",
       "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/what-usa-skipper-derosa-saw-from-seattle-mariners-cal-raleigh-at-wbc",
       "pubDate": "Sat, 11 Jul 2026 16:06:08 +0000",
@@ -148,16 +268,6 @@
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
-    },
-    {
-      "title": "Seattle Mariners 2026 MLB Draft Tracker, Open Thread",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-mlb-draft/146008/2026-mlb-draft-draft-tracker-open-thread",
-      "pubDate": "2026-07-11T16:05:00.000Z",
-      "isoDate": "2026-07-11T16:05:00.000Z",
-      "excerpt": "ATLANTA, GA - JULY 13: Major League Baseball Robert D. Manfred announces Luke Stevenson as the thirty-fifth overall pick by the Seattle Mariners during the 2025 MLB Draft presented by Nike at Coca-Cola Roxy on Sunday,...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
     },
     {
       "title": "AL West Check-In: Rangers ace to miss final start before All-Star break",
@@ -180,16 +290,6 @@
       "priority": 1
     },
     {
-      "title": "Mariners News: MLB Draft, JJ Wetherholt, and Jacob Gonzalez",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-news/146012/mariners-news-mlb-draft-jj-wetherholt-and-jacob-gonzalez",
-      "pubDate": "2026-07-11T14:00:00.000Z",
-      "isoDate": "2026-07-11T14:00:00.000Z",
-      "excerpt": "Jul 10, 2026; St. Louis, Missouri, USA;St. Louis Cardinals second baseman JJ Wetherholt (26) is congratulated by teammates after scoring against the Atlanta Braves during the sixth inning at Busch Stadium. Mandatory...",
-      "source": "Lookout Landing",
-      "team": "mariners",
-      "priority": 1
-    },
-    {
       "title": "Seahawks News: Are the 2026 Seahawks a 7-win team?",
       "link": "https://www.fieldgulls.com/seattle-seahawks-news/170463/seahawks-news-are-the-2026-seahawks-a-7-win-team",
       "pubDate": "2026-07-11T13:26:51.000Z",
@@ -197,26 +297,6 @@
       "excerpt": "June 19, 2026; Seattle, Washington, U.S.; Seattle Seahawks head coach Mike Macdonald inside the stadium before the match. Mandatory Credit: Steven Bisig-Imagn Images | Steven Bisig-Imagn Images In Today’s Links: more...",
       "source": "Field Gulls",
       "team": "seahawks",
-      "priority": 1
-    },
-    {
-      "title": "Frustrations bubble as RISP troubles mount against Rays",
-      "link": "https://www.mlb.com/mariners/news/mariners-struggle-with-risp-in-frustrating-loss-to-rays",
-      "pubDate": "Sat, 11 Jul 2026 04:50:41 GMT",
-      "isoDate": "2026-07-11T04:50:41.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
-    },
-    {
-      "title": "Mariners lose in Florida again",
-      "link": "https://www.lookoutlanding.com/seattle-mariners-scores-standings/146001/mariners-lose-in-florida-again",
-      "pubDate": "2026-07-11T03:56:26.000Z",
-      "isoDate": "2026-07-11T03:56:26.000Z",
-      "excerpt": "ST PETERSBURG, FLORIDA - JULY 10: Victor Mesa Jr. #25 of the Tampa Bay Rays hits a home run in the fifth inning against the Seattle Mariners at Tropicana Field on July 10, 2026 in St Petersburg, Florida. (Photo by Julio...",
-      "source": "Lookout Landing",
-      "team": "mariners",
       "priority": 1
     },
     {
@@ -230,26 +310,6 @@
       "priority": 2
     },
     {
-      "title": "Arozarena makes return to Randy Land for 1st time as Mariner",
-      "link": "https://www.mlb.com/mariners/news/randy-arozarena-plays-at-tropicana-field-for-1st-time-as-a-mariner",
-      "pubDate": "Sat, 11 Jul 2026 03:28:00 GMT",
-      "isoDate": "2026-07-11T03:28:00.000Z",
-      "excerpt": "",
-      "source": "Mariners.com",
-      "team": "mariners",
-      "priority": 6
-    },
-    {
-      "title": "Mariners fall to AL-leading Rays 7-2 for 4th straight loss",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-fall-to-al-leading-rays-7-2-for-4th-straight-loss",
-      "pubDate": "Sat, 11 Jul 2026 02:01:11 +0000",
-      "isoDate": "2026-07-11T02:01:11.000Z",
-      "excerpt": "Seattle surrendered four homers in a loss that drop it below .500.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
       "title": "Top 2026 Training Camp Storylines: Can A Loaded Defensive Front Be Even Better In 2026?",
       "link": "https://www.seahawks.com/news/top-2026-training-camp-storylines-can-a-loaded-defensive-front-be-even-better-in-2026",
       "pubDate": "Sat, 11 Jul 2026 00:34:06 GMT",
@@ -260,16 +320,6 @@
       "priority": 6
     },
     {
-      "title": "M’s prospect Kade Anderson named AL starter for Futures Game",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/ms-prospect-kade-anderson-named-al-starter-for-futures-game",
-      "pubDate": "Fri, 10 Jul 2026 23:35:15 +0000",
-      "isoDate": "2026-07-10T23:35:15.000Z",
-      "excerpt": "The left-hander earned the honor amid a dominant year in Double-A.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
       "title": "Latest Mariners injuries and transactions",
       "link": "https://www.mlb.com/mariners/news/mariners-injuries-and-roster-moves",
       "pubDate": "Fri, 10 Jul 2026 23:13:00 GMT",
@@ -278,16 +328,6 @@
       "source": "Mariners.com",
       "team": "mariners",
       "priority": 6
-    },
-    {
-      "title": "Mariners hopeful Julio Rodríguez will return after All-Star break",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/seattle-mariners-hopeful-julio-rodriguez-will-return-after-all-star-break",
-      "pubDate": "Fri, 10 Jul 2026 22:49:16 +0000",
-      "isoDate": "2026-07-10T22:49:16.000Z",
-      "excerpt": "Manager Dan Wilson also shared an update on Brendan Donovan.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
     },
     {
       "title": "Kraken Re-Sign Victor Ostman, Ville Ottavainen",
@@ -370,16 +410,6 @@
       "priority": 2
     },
     {
-      "title": "Seattle Seahawks sale update: Two front-runners emerge, ex-Seahawk involved in one group",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-news/170414/seattle-seahawks-sale-update-two-front-runners-emerge-ex-seahawk-involved-nfl-news",
-      "pubDate": "2026-07-10T00:55:24.000Z",
-      "isoDate": "2026-07-10T00:55:24.000Z",
-      "excerpt": "With the start of the NFL’s regular season drawing ever closer, there remains one question hanging over the head of the Seattle Seahawks’ organization: Who will our next owner be? It’s a question that could soon have...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
-    },
-    {
       "title": "Trade Deadline Outlook: Seattle Mariners",
       "link": "https://www.mlbtraderumors.com/2026/07/trade-deadline-outlook-seattle-mariners-2.html",
       "pubDate": "Thu, 09 Jul 2026 21:13:50 +0000",
@@ -388,16 +418,6 @@
       "source": "MLB Trade Rumors",
       "team": "mariners",
       "priority": 2
-    },
-    {
-      "title": "Seahawks’ Leonard Williams ranked as NFL’s best defensive tackle in ESPN survey",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/170407/seahawks-leonard-williams-ranked-nfl-best-defensive-tackle-espn-survey",
-      "pubDate": "2026-07-09T19:54:03.000Z",
-      "isoDate": "2026-07-09T19:54:03.000Z",
-      "excerpt": "CHICAGO, ILLINOIS - DECEMBER 26: Leonard Williams #99 of the Seattle Seahawks reacts after a sack during the second quarter against the Chicago Bears at Soldier Field on December 26, 2024 in Chicago, Illinois. (Photo by...",
-      "source": "Field Gulls",
-      "team": "seahawks",
-      "priority": 1
     },
     {
       "title": "WR Brandin Cooks Wants To Rejoin Bills",
@@ -500,16 +520,6 @@
       "priority": 2
     },
     {
-      "title": "2026 Cap Space, By Team",
-      "link": "https://www.profootballrumors.com/2026/07/2026-cap-space-by-team",
-      "pubDate": "Wed, 08 Jul 2026 03:15:26 +0000",
-      "isoDate": "2026-07-08T03:15:26.000Z",
-      "excerpt": "With training camps not far away, teams around the NFL will soon witness an influx of signings. Veteran free agents will line up new deals in advance of the 2026 campaign. As a result, this represents a good time to...",
-      "source": "Pro Football Rumors",
-      "team": "seahawks",
-      "priority": 2
-    },
-    {
       "title": "Shane Wright wants out, and his development is the key to why",
       "link": "https://www.davyjoneslockerroom.com/shane-wright-wants-out-and-his-development-is-the-key-to-why/",
       "pubDate": "Tue, 07 Jul 2026 21:00:00 +0000",
@@ -535,16 +545,6 @@
       "pubDate": "Tue, 07 Jul 2026 19:56:45 GMT",
       "isoDate": "2026-07-07T19:56:45.000Z",
       "excerpt": "The NFL announced key dates for the upcoming season and offseason.",
-      "source": "Seahawks.com",
-      "team": "seahawks",
-      "priority": 6
-    },
-    {
-      "title": "Top 2026 Training Camp Storylines: Does Rashid Shaheed Still Handle Both Return Jobs?",
-      "link": "https://www.seahawks.com/news/top-2026-training-camp-storylines-does-rashid-shaheed-still-handle-both-return-jobs",
-      "pubDate": "Mon, 06 Jul 2026 16:06:56 GMT",
-      "isoDate": "2026-07-06T16:06:56.000Z",
-      "excerpt": "Rashid Shaheed boosted Seattle’s return game last season, how does he fit in in the return game, with the expectation of a larger role in the offense.",
       "source": "Seahawks.com",
       "team": "seahawks",
       "priority": 6
