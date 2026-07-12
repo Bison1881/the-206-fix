@@ -10,7 +10,7 @@ import styles from './SectionNav.module.css';
  * the front-page "Inside this edition" strip is a teaser, not nav.
  */
 const ITEMS = [
-  { label: 'Scores', to: '/standings' },
+  { label: 'Scores', to: '/' }, // the front-page scoreboard lives on home
   { label: 'Teams', to: '/teams' },
   { label: 'This Day', to: '/this-day' },
   { label: 'Almanac', to: '/almanac' },
