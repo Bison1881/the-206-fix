@@ -1,14 +1,59 @@
 {
-  "generatedAt": "2026-07-12T02:26:20.102Z",
+  "generatedAt": "2026-07-12T06:29:51.765Z",
   "sourceCount": 10,
-  "successfulSources": 9,
-  "failedSources": [
-    {
-      "source": "Seattle Times Sports",
-      "error": "Unable to parse XML. (lenient retry: Unable to parse XML.)"
-    }
-  ],
+  "successfulSources": 10,
+  "failedSources": [],
   "items": [
+    {
+      "title": "Byungho Lee wins 124th PNGA Men’s Amateur Championship",
+      "link": "https://www.seattletimes.com/sports/byungho-lee-wins-124th-pnga-mens-amateur-championship/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Sat, 11 Jul 2026 22:29:58 -0700",
+      "isoDate": "2026-07-12T05:29:58.000Z",
+      "excerpt": "Rising junior at Pepperdine bests Nilay Naik of Lake Oswego 3 and 1 in the final match.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Argentina outlasts Switzerland 3-1 in OT, advances to World Cup semis",
+      "link": "https://sports.mynorthwest.com/seattle-sports-pit/argentina-outlasts-switzerland-3-1-in-ot-advances-to-world-cup-semis",
+      "pubDate": "Sun, 12 Jul 2026 04:00:12 +0000",
+      "isoDate": "2026-07-12T04:00:12.000Z",
+      "excerpt": "Julian Alvarez scored the go-ahead goal in the 112th minute.",
+      "source": "710 Seattle Sports",
+      "team": "general",
+      "priority": 3
+    },
+    {
+      "title": "Alvarez’s 112th-minute goal helps lift Argentina past Switzerland 3-1 and into World Cup semifinals",
+      "link": "https://www.seattletimes.com/sports/world-cup/alvarezs-112th-minute-goal-helps-lift-argentina-past-switzerland-3-1-and-into-world-cup-semifinals/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Sat, 11 Jul 2026 20:58:42 -0700",
+      "isoDate": "2026-07-12T03:58:42.000Z",
+      "excerpt": "Julián Alvarez has sent Argentina into the World Cup semifinals with a stunning long-range strike in extra time against Switzerland.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Seahawks Sell For Record $9.6 Billion",
+      "link": "https://www.profootballrumors.com/2026/07/seahawks-sell-for-record-9-6-billion",
+      "pubDate": "Sun, 12 Jul 2026 03:43:31 +0000",
+      "isoDate": "2026-07-12T03:43:31.000Z",
+      "excerpt": "The sale for the Seahawks has been a much quieter story than that of the Commanders and Broncos in prior years. All the same, it’s a record sale as ESPN’s Adam Schefter reports that a group led by 49ers limited partner...",
+      "source": "Pro Football Rumors",
+      "team": "seahawks",
+      "priority": 2
+    },
+    {
+      "title": "Ezi Magbegor to miss Seattle Storm’s game vs. Washington Mystics with face injury",
+      "link": "https://www.seattletimes.com/sports/storm/ezi-magbegor-to-miss-seattle-storms-game-vs-washington-mystics-with-face-injury/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Sat, 11 Jul 2026 19:39:51 -0700",
+      "isoDate": "2026-07-12T02:39:51.000Z",
+      "excerpt": "The injury-riddled Storm have been short-handed for most of the season and will be again Sunday against the Mystics.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
     {
       "title": "Gilbert joins Mariners' 1,000-K club -- and gets there in record time",
       "link": "https://www.mlb.com/mariners/news/logan-gilbert-notches-1-000th-strikeout",
@@ -40,13 +85,13 @@
       "priority": 6
     },
     {
-      "title": "Read the NFL’s memo to teams following Seahawks sale agreement",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-news/170490/read-nfl-memo-owners-following-seattle-seahawks-sale-agreement",
-      "pubDate": "2026-07-12T01:14:06.000Z",
-      "isoDate": "2026-07-12T01:14:06.000Z",
-      "excerpt": "SAN FRANCISCO, CALIFORNIA - OCTOBER 28: Vinod Khosla, Founder of Khosla Ventures, speaks onstage during TechCrunch Disrupt 2024 Day 1 at Moscone Center on October 28, 2024 in San Francisco, California. (Photo by...",
-      "source": "Field Gulls",
-      "team": "seahawks",
+      "title": "Seahawks’ new owners hopefully know they need to stay out of the way",
+      "link": "https://www.seattletimes.com/sports/seahawks/seahawks-new-owners-hopefully-know-they-need-to-stay-out-of-the-way/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Sat, 11 Jul 2026 18:28:59 -0700",
+      "isoDate": "2026-07-12T01:28:59.000Z",
+      "excerpt": "It might be hard for the ownership of a sports team to not meddle with something they just spent billions on, but football matters should be left to football people.",
+      "source": "Seattle Times Sports",
+      "team": "general",
       "priority": 1
     },
     {
@@ -68,6 +113,16 @@
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
+    },
+    {
+      "title": "Bellingham scores twice to lift England past Haaland and Norway 2-1 and into World Cup semifinals",
+      "link": "https://www.seattletimes.com/sports/world-cup/bellingham-scores-twice-to-lift-england-past-haaland-and-norway-2-1-and-into-world-cup-semifinals/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Sat, 11 Jul 2026 16:53:42 -0700",
+      "isoDate": "2026-07-11T23:53:42.000Z",
+      "excerpt": "Jude Bellingham scored in extra time to lift England past Norway 2-1 and into the World Cup semifinals for the first time since 2018.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
     },
     {
       "title": "Mariners blow themselves up, out in 6-1 loss to Rays",
@@ -120,13 +175,13 @@
       "priority": 6
     },
     {
-      "title": "Seattle Seahawks agree to sell to Vinod Khosla-led group in biggest deal in NFL history",
-      "link": "https://www.fieldgulls.com/seattle-seahawks-news/170494/seattle-seahawks-sale-nfl-record-vinod-khosla-group",
-      "pubDate": "2026-07-11T23:15:04.000Z",
-      "isoDate": "2026-07-11T23:15:04.000Z",
-      "excerpt": "SAN FRANCISCO, CALIFORNIA - APRIL 08: Vinod Khosla speaks onstage during the \"Super Reliability vs. Super Intelligence\" panel at the HumanX Conference San Franciso 2026 Moscone Center South on April 08, 2026 in San...",
-      "source": "Field Gulls",
-      "team": "seahawks",
+      "title": "Mariners’ losing streak reaches 5 games as offense remains listless",
+      "link": "https://www.seattletimes.com/sports/mariners/mariners-losing-streak-reaches-5-games-as-offense-remains-listless/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Sat, 11 Jul 2026 16:17:58 -0700",
+      "isoDate": "2026-07-11T23:17:58.000Z",
+      "excerpt": "For the third straight game, the Mariners went hitless with runners in scoring position as their losing streak reached five straight.",
+      "source": "Seattle Times Sports",
+      "team": "general",
       "priority": 1
     },
     {
@@ -160,14 +215,24 @@
       "priority": 6
     },
     {
-      "title": "Seahawks Sell For Record $9.6 Billion",
-      "link": "https://www.profootballrumors.com/2026/07/seahawks-sell-for-record-9-6-billion",
-      "pubDate": "Sat, 11 Jul 2026 22:43:31 +0000",
-      "isoDate": "2026-07-11T22:43:31.000Z",
-      "excerpt": "The sale for the Seahawks has been a much quieter story than that of the Commanders and Broncos in prior years. All the same, it’s a record sale as ESPN’s Adam Schefter reports that a group led by 49ers limited partner...",
-      "source": "Pro Football Rumors",
-      "team": "seahawks",
-      "priority": 2
+      "title": "Seahawks to be sold to Khosla family group for record price",
+      "link": "https://www.seattletimes.com/sports/seahawks/seahawks-to-be-sold-to-vinod-neal-khosla-group-for-record-9-6b/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Sat, 11 Jul 2026 15:44:06 -0700",
+      "isoDate": "2026-07-11T22:44:06.000Z",
+      "excerpt": "A group headed by the Kholsa family, with Neeru Khosla as the controlling partner, appears set to become the fourth owners of the Seahawks for a record $9.6 billion.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
+    },
+    {
+      "title": "Mario Saint-Supery leaves Gonzaga men’s basketball for Spanish club in shocking move",
+      "link": "https://www.seattletimes.com/sports/gonzaga-bulldogs/mario-saint-supery-leaves-gonzaga-for-spanish-club-in-shocking-move/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_sports",
+      "pubDate": "Sat, 11 Jul 2026 15:43:22 -0700",
+      "isoDate": "2026-07-11T22:43:22.000Z",
+      "excerpt": "Gonzaga is suddenly in the market for a new starting point guard just four months before the start of the 2026-27 season.",
+      "source": "Seattle Times Sports",
+      "team": "general",
+      "priority": 1
     },
     {
       "title": "RHP Nathan Taylor is 3rd round pick for the Seattle Mariners in the 2026 MLB Draft",
@@ -265,16 +330,6 @@
       "pubDate": "Sat, 11 Jul 2026 16:06:08 +0000",
       "isoDate": "2026-07-11T16:06:08.000Z",
       "excerpt": "The longtime former MLB player noticed something was off at the plate for Seattle's slugger.",
-      "source": "710 Seattle Sports",
-      "team": "general",
-      "priority": 3
-    },
-    {
-      "title": "AL West Check-In: Rangers ace to miss final start before All-Star break",
-      "link": "https://sports.mynorthwest.com/mlb/seattle-mariners/al-west-check-in-rangers-ace-to-miss-final-star-before-all-star-break",
-      "pubDate": "Sat, 11 Jul 2026 15:58:13 +0000",
-      "isoDate": "2026-07-11T15:58:13.000Z",
-      "excerpt": "Jacob deGrom also won't be available immediately after the break.",
       "source": "710 Seattle Sports",
       "team": "general",
       "priority": 3
@@ -410,6 +465,16 @@
       "priority": 2
     },
     {
+      "title": "Seattle Seahawks sale update: Two front-runners emerge, ex-Seahawk involved in one group",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-news/170414/seattle-seahawks-sale-update-two-front-runners-emerge-ex-seahawk-involved-nfl-news",
+      "pubDate": "2026-07-10T00:55:24.000Z",
+      "isoDate": "2026-07-10T00:55:24.000Z",
+      "excerpt": "With the start of the NFL’s regular season drawing ever closer, there remains one question hanging over the head of the Seattle Seahawks’ organization: Who will our next owner be? It’s a question that could soon have...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
+    },
+    {
       "title": "Trade Deadline Outlook: Seattle Mariners",
       "link": "https://www.mlbtraderumors.com/2026/07/trade-deadline-outlook-seattle-mariners-2.html",
       "pubDate": "Thu, 09 Jul 2026 21:13:50 +0000",
@@ -418,6 +483,16 @@
       "source": "MLB Trade Rumors",
       "team": "mariners",
       "priority": 2
+    },
+    {
+      "title": "Seahawks’ Leonard Williams ranked as NFL’s best defensive tackle in ESPN survey",
+      "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/170407/seahawks-leonard-williams-ranked-nfl-best-defensive-tackle-espn-survey",
+      "pubDate": "2026-07-09T19:54:03.000Z",
+      "isoDate": "2026-07-09T19:54:03.000Z",
+      "excerpt": "CHICAGO, ILLINOIS - DECEMBER 26: Leonard Williams #99 of the Seattle Seahawks reacts after a sack during the second quarter against the Chicago Bears at Soldier Field on December 26, 2024 in Chicago, Illinois. (Photo by...",
+      "source": "Field Gulls",
+      "team": "seahawks",
+      "priority": 1
     },
     {
       "title": "WR Brandin Cooks Wants To Rejoin Bills",
@@ -528,86 +603,6 @@
       "source": "Davy Jones' Locker Room",
       "team": "kraken",
       "priority": 1
-    },
-    {
-      "title": "Top 2026 Training Camp Storylines: Who Wins The Open Starting Spot?",
-      "link": "https://www.seahawks.com/news/top-2026-training-camp-storylines-who-wins-the-open-starting-spot",
-      "pubDate": "Tue, 07 Jul 2026 20:16:31 GMT",
-      "isoDate": "2026-07-07T20:16:31.000Z",
-      "excerpt": "With Coby Bryant leaving in free agency, the competition will be on in training camp to win that open stop.",
-      "source": "Seahawks.com",
-      "team": "seahawks",
-      "priority": 6
-    },
-    {
-      "title": "NFL Announces Important Dates For 2026-2027",
-      "link": "https://www.seahawks.com/news/nfl-announces-important-dates-for-2026-2027",
-      "pubDate": "Tue, 07 Jul 2026 19:56:45 GMT",
-      "isoDate": "2026-07-07T19:56:45.000Z",
-      "excerpt": "The NFL announced key dates for the upcoming season and offseason.",
-      "source": "Seahawks.com",
-      "team": "seahawks",
-      "priority": 6
-    },
-    {
-      "title": "Kraken Working With Shane Wright To Find A Suitable Trade",
-      "link": "https://www.prohockeyrumors.com/2026/07/kraken-working-with-shane-wright-to-find-a-suitable-trade.html",
-      "pubDate": "Sat, 04 Jul 2026 16:59:35 +0000",
-      "isoDate": "2026-07-04T16:59:35.000Z",
-      "excerpt": "Shane Wright's agent indicated that the Seattle Kraken are working to move the center this summer.",
-      "source": "Pro Hockey Rumors",
-      "team": "kraken",
-      "priority": 2
-    },
-    {
-      "title": "Mariners Place Julio Rodríguez On Concussion IL",
-      "link": "https://www.mlbtraderumors.com/2026/07/mariners-place-julio-rodriguez-on-concussion-il.html",
-      "pubDate": "Fri, 03 Jul 2026 22:55:31 +0000",
-      "isoDate": "2026-07-03T22:55:31.000Z",
-      "excerpt": "The Mariners announced that outfielder Julio Rodríguez has been placed on the seven-day concussion injured list. Infielder/outfielder Miles Mastrobuoni has been selected to take his place on the roster. Right-hander...",
-      "source": "MLB Trade Rumors",
-      "team": "mariners",
-      "priority": 2
-    },
-    {
-      "title": "Kraken add Curtis Douglas in FA on 2-year, 1.25m AAV contract",
-      "link": "https://www.davyjoneslockerroom.com/kraken-add-curtis-douglas-in-fa-on-2-year-1-25m-aav-contract/",
-      "pubDate": "Thu, 02 Jul 2026 02:13:48 +0000",
-      "isoDate": "2026-07-02T02:13:48.000Z",
-      "excerpt": "Cue up Manny Fresh, because the Kraken like their forwards Real Big this free agency. The Kraken announced the signing of Forward Curtis Douglas to a 2 year deal worth $1.25 million. WELCOME ABOARD! 🦑The #SeaKraken...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
-    },
-    {
-      "title": "Kraken Sign Curtis Douglas",
-      "link": "https://www.prohockeyrumors.com/2026/07/kraken-sign-curtis-douglas.html",
-      "pubDate": "Wed, 01 Jul 2026 20:29:44 +0000",
-      "isoDate": "2026-07-01T20:29:44.000Z",
-      "excerpt": "The Seattle Kraken have signed UFA winger Curtis Douglas to a two-year contract.",
-      "source": "Pro Hockey Rumors",
-      "team": "kraken",
-      "priority": 2
-    },
-    {
-      "title": "DJLR Free Agency Frenzy LIVETHREAD",
-      "link": "https://www.davyjoneslockerroom.com/djlr-free-agency-primer/",
-      "pubDate": "Wed, 01 Jul 2026 16:49:53 +0000",
-      "isoDate": "2026-07-01T16:49:53.000Z",
-      "excerpt": "Welcome to free agent frenzy, friends. The NHL has already begun making goofy trades all over the place after the Kraken made a perfectly reasonable call for Mackie Samoskevich, so let’s enjoy the magic as it unfolds!...",
-      "source": "Davy Jones' Locker Room",
-      "team": "kraken",
-      "priority": 1
-    },
-    {
-      "title": "Kraken Sign Mackie Samoskevich To Three-Year Deal",
-      "link": "https://www.prohockeyrumors.com/2026/07/kraken-sign-mackie-samoskevich-to-three-year-deal.html",
-      "pubDate": "Wed, 01 Jul 2026 16:19:07 +0000",
-      "isoDate": "2026-07-01T16:19:07.000Z",
-      "excerpt": "The Seattle Kraken announced that they have signed restricted free agent forward Mackie Samoskevich to a three-year deal. Per Elliotte Friedman, the deal carries a $3.85MM AAV ($11.55MM Total Value) and which will have...",
-      "source": "Pro Hockey Rumors",
-      "team": "kraken",
-      "priority": 2
     }
   ]
 }
