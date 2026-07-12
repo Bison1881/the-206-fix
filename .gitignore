@@ -1,6 +1,7 @@
 node_modules/
 dist/
 .astro/
+.vite-react-ssg-temp/
 .env
 .env.production
 .env.local

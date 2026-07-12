@@ -1,0 +1,58 @@
+/*
+ * Section-index line. Sits directly under the masthead's double rule, above
+ * the score ribbon. Condensed uppercase (Anton), letter-spaced, middot-
+ * separated — the register of a newspaper section index.
+ */
+.bar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--font-head);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 15px;
+  line-height: 1.6;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.link,
+.linkActive {
+  padding: 2px 0;
+  white-space: nowrap;
+}
+
+.link {
+  color: var(--ink);
+}
+
+.link:hover {
+  color: var(--teal);
+}
+
+/* Current section */
+.linkActive {
+  color: var(--teal);
+}
+
+/* Middot separator before every item but the first (not clickable) */
+.link:not(:first-child)::before,
+.linkActive:not(:first-child)::before {
+  content: "·";
+  margin: 0 16px;
+  color: var(--line);
+  pointer-events: none;
+}
+
+@media (max-width: 880px) {
+  .bar {
+    font-size: 13px;
+    letter-spacing: 1.5px;
+  }
+
+  .link:not(:first-child)::before,
+  .linkActive:not(:first-child)::before {
+    margin: 0 11px;
+  }
+}

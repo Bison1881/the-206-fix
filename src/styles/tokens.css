@@ -1,0 +1,27 @@
+/*
+ * THE 206 FIX — design tokens (LOCKED)
+ * Ported 1:1 from new site plan/206-fix-v3-manufacturing.html.
+ * Do not drift the palette or the four-register type stack without sign-off.
+ */
+:root {
+  /* Palette — 5 colors, cheap two-spot-color print look */
+  --news: #E5E1D6;      /* newsprint base (aged grey-tan) */
+  --news-dk: #D8D3C4;   /* darker newsprint (sidebars, panels) */
+  --ink: #1A1A17;       /* press ink (faded near-black) */
+  --line: #B4AE9C;      /* hairline rule */
+  --teal: #0F6E63;      /* spot one — Northwest teal (accent) */
+  --red: #C4392E;       /* spot two — faded newspaper red (alerts/LIVE only) */
+  --half: #C7C2B3;      /* halftone fill base */
+
+  /* Muted ink tints used throughout the mockup for captions/bylines */
+  --ink-60: #5c574a;
+  --ink-70: #3d3930;
+  --ink-40: #8a8474;
+
+  /* Type registers — each has exactly one job */
+  --font-nameplate: 'Manufacturing Consent', serif;                 /* masthead + footer wordmark only */
+  --font-head: 'Anton', sans-serif;                                 /* condensed headlines */
+  --font-body: 'Libre Baskerville', Georgia, serif;                 /* article body / reading */
+  --font-term: 'VT323', monospace;                                  /* data: scores, timestamps, stat lines */
+  --font-pixel: 'Press Start 2P', monospace;                        /* the trading card + tiny accents */
+}

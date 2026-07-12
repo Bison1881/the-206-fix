@@ -1,0 +1,14 @@
+.folio {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 6px;
+  font-family: var(--font-term);
+  font-size: 17px;
+  padding: 5px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.spot {
+  color: var(--teal);
+}

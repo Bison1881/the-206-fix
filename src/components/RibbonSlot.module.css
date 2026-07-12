@@ -1,0 +1,31 @@
+.ribbon {
+  border-top: 2px solid var(--ink);
+  border-bottom: 1px solid var(--ink);
+  display: flex;
+  gap: 0;
+  font-family: var(--font-term);
+  font-size: 16px;
+  overflow-x: auto;
+}
+
+.r {
+  padding: 5px 12px;
+  border-right: 1px solid var(--line);
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.r:last-child {
+  border-right: none;
+}
+
+.tm {
+  font-weight: 400;
+}
+
+/* Muted placeholder token — stands in for a score until Phase 1 */
+.ph {
+  color: var(--ink-40);
+}

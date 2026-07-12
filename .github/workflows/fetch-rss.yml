@@ -1,9 +1,12 @@
 name: Fetch RSS Feeds
 
 on:
-  schedule:
-    # Every 2 hours
-    - cron: '0 */2 * * *'
+  # Schedule disabled during the Phase 0 rebuild: the aggregator was archived
+  # to _archive/astro-site and `npm run rss:fetch` no longer exists. Phase 2
+  # rebuilds the build-time feed pipeline and re-enables this cron.
+  # schedule:
+  #   # Every 2 hours
+  #   - cron: '0 */2 * * *'
   workflow_dispatch:
 
 jobs:
