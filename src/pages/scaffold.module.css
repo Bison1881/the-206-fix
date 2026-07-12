@@ -1,0 +1,78 @@
+/* Shared styling for Phase 0 page scaffolds (home + interior stubs). */
+
+.page {
+  padding-top: 16px;
+}
+
+.banner {
+  font-family: var(--font-head);
+  text-transform: uppercase;
+  font-weight: 400;
+  line-height: 0.92;
+  font-size: clamp(30px, 6.4vw, 60px);
+  letter-spacing: 1px;
+}
+
+.deck {
+  font-family: var(--font-body);
+  font-style: italic;
+  font-size: clamp(15px, 2.4vw, 20px);
+  margin: 8px 0 14px;
+  color: var(--ink-70);
+}
+
+.rule {
+  border: 0;
+  border-top: 3px double var(--ink);
+  margin: 18px 0;
+}
+
+/* A map of the regions each later phase fills in. */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-top: 8px;
+}
+
+.slot {
+  border: 1px solid var(--line);
+  padding: 16px;
+  background: var(--news-dk);
+}
+
+.slot h3 {
+  font-family: var(--font-head);
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1;
+  margin-bottom: 6px;
+}
+
+.slot p {
+  font-size: 13px;
+}
+
+.badge {
+  display: inline-block;
+  font-family: var(--font-pixel);
+  font-size: 8px;
+  color: var(--news);
+  background: var(--ink);
+  padding: 4px 6px;
+  margin-bottom: 9px;
+  text-transform: uppercase;
+}
+
+.note {
+  font-family: var(--font-term);
+  font-size: 16px;
+  color: var(--ink-60);
+}
+
+@media (max-width: 880px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}

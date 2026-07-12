@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+24&family=Press+Start+2P&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --ink: #1a1a1a;
+    --forest: #2D4A3E;
+    --slate: #4A5560;
+    --fog: #8FA9B8;
+    --cream: #E7E6E7;
+    --paper: #DCDADC;
+    --rust: #A0522D;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    background-color: var(--cream);
+    color: var(--ink);
+    font-family: 'Press Start 2P', monospace;
+    font-size: 10px;
+    line-height: 1.5;
+    letter-spacing: -0.5px;
+    background-image:
+      radial-gradient(circle at 25% 30%, rgba(0, 0, 0, 0.025) 0%, transparent 50%),
+      radial-gradient(circle at 75% 70%, rgba(0, 0, 0, 0.03) 0%, transparent 50%),
+      repeating-linear-gradient(45deg, transparent 0, transparent 2px, rgba(0, 0, 0, 0.012) 2px, rgba(0, 0, 0, 0.012) 3px);
+    min-height: 100vh;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: inherit;
+    margin: 0;
+  }
+
+  ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  p {
+    margin: 0;
+  }
+}
+
+@layer components {
+  .nameplate {
+    font-family: 'Jacquard 24', system-ui, serif;
+    letter-spacing: 0.01em;
+    line-height: 1.05;
+  }
+  .nameplate .seg { font-size: 100px; }
+  .nameplate .num { font-size: 110px; }
+  @media (max-width: 768px) {
+    .nameplate .seg { font-size: 56px; }
+    .nameplate .num { font-size: 62px; }
+  }
+
+  .container-fix {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .section-label-tag {
+    @apply font-mast text-[11px] text-cream bg-forest px-3 py-2 uppercase tracking-wider inline-block;
+  }
+
+  .kicker {
+    @apply font-mast text-[8px] uppercase tracking-[0.1em] text-rust;
+  }
+
+  .meta-line {
+    @apply font-mast text-[7px] uppercase tracking-[0.08em] text-slate;
+  }
+
+  .dropcap::first-letter {
+    font-family: 'Press Start 2P', monospace;
+    font-weight: 400;
+    font-size: 34px;
+    float: left;
+    line-height: 0.8;
+    padding: 8px 12px 0 0;
+    color: var(--forest);
+  }
+
+  .lead-body {
+    column-count: 1;
+    column-gap: 28px;
+    column-rule: 1px solid rgba(0, 0, 0, 0.15);
+    font-size: 10px;
+    line-height: 1.5;
+  }
+
+  .lead-body p {
+    margin-bottom: 12px;
+    text-align: justify;
+    hyphens: auto;
+  }
+
+  @media (max-width: 900px) {
+    .lead-body {
+      column-count: 1;
+    }
+  }
+
+  .pixel-shadow {
+    text-shadow: 3px 3px 0 var(--rust);
+  }
+
+  .pixel-shadow-sm {
+    text-shadow: 2px 2px 0 var(--rust);
+  }
+
+  .dashed-border {
+    border: 1px dashed rgba(0, 0, 0, 0.25);
+  }
+}

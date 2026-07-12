@@ -1,0 +1,22 @@
+.masthead {
+  text-align: center;
+  padding: 20px 0 8px;
+  border-bottom: 4px double var(--ink);
+}
+
+.nameplate {
+  display: block;
+  font-family: var(--font-nameplate);
+  font-size: clamp(46px, 12.5vw, 108px);
+  line-height: 1;
+  letter-spacing: 1px;
+  color: var(--ink);
+}
+
+.subhead {
+  font-family: var(--font-head);
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: clamp(10px, 2.2vw, 15px);
+  margin-top: 10px;
+}

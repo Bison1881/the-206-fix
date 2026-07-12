@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The 206 Fix — vintage mockup</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Anton&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Manufacturing+Consent&family=VT323&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --news:#E5E1D6; --news-dk:#D8D3C4; --ink:#1A1A17;
+    --line:#B4AE9C; --teal:#0F6E63; --red:#C4392E; --half:#C7C2B3;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--news);color:var(--ink);font-family:'Libre Baskerville',Georgia,serif;line-height:1.5;position:relative}
+  body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:9;opacity:.05;
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+  .wrap{max-width:1120px;margin:0 auto;padding:0 18px}
+  .half{background-color:var(--half);background-image:radial-gradient(var(--ink) 0.8px,transparent 1.2px);background-size:4px 4px}
+
+  /* TOP SCORE RIBBON */
+  .ribbon{border-top:2px solid var(--ink);border-bottom:1px solid var(--ink);display:flex;gap:0;font-family:'VT323',monospace;font-size:16px;overflow-x:auto}
+  .ribbon .r{padding:5px 12px;border-right:1px solid var(--line);white-space:nowrap;display:flex;align-items:center;gap:7px}
+  .ribbon .r:last-child{border-right:none}
+  .ribbon .tm{font-weight:400}
+  .ribbon .w{color:var(--teal)}
+  .ribbon .lv{color:var(--red);display:inline-flex;align-items:center;gap:6px}
+
+  /* MASTHEAD */
+  .folio{display:flex;justify-content:space-between;flex-wrap:wrap;gap:6px;font-family:'VT323',monospace;font-size:17px;padding:5px 0;border-bottom:1px solid var(--line)}
+  .folio .spot{color:var(--teal)}
+  .masthead{text-align:center;padding:20px 0 8px;border-bottom:4px double var(--ink)}
+  .nameplate{font-family:'Manufacturing Consent',serif;font-size:clamp(46px,12.5vw,108px);line-height:1;letter-spacing:1px;color:var(--ink)}
+  .nameplate .area{color:var(--ink)}
+  .subhead{font-family:'Anton',sans-serif;text-transform:uppercase;letter-spacing:5px;font-size:clamp(10px,2.2vw,15px);margin-top:10px}
+
+  /* HERO */
+  .hero{padding-top:16px}
+  .banner{font-family:'Anton',sans-serif;text-transform:uppercase;font-weight:400;line-height:.92;font-size:clamp(30px,6.4vw,60px);letter-spacing:1px}
+  .deck{font-family:'Libre Baskerville',serif;font-style:italic;font-size:clamp(15px,2.4vw,20px);margin:8px 0 14px;color:#3d3930}
+  .hero-grid{display:grid;grid-template-columns:2fr 1fr;gap:22px}
+  .hero-photo{aspect-ratio:16/10;border:1px solid var(--ink)}
+  .caption{font-family:'Libre Baskerville',serif;font-style:italic;font-size:12px;color:#5c574a;border-bottom:1px solid var(--line);padding:5px 0 9px;margin-top:5px}
+  .hero-col .byline{font-family:'VT323',monospace;font-size:16px;color:#5c574a;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:3px 0;margin-bottom:9px}
+  .hero-col p{font-size:13.5px;text-align:justify;hyphens:auto;margin-bottom:9px}
+
+  /* MATCHUP DIVIDER */
+  .divider{display:flex;align-items:center;justify-content:center;gap:14px;margin:20px 0 4px;padding:8px 0;border-top:3px double var(--ink);border-bottom:3px double var(--ink);text-align:center}
+  .divider .roundel{width:30px;height:30px;border-radius:50%;border:2px solid var(--ink);display:flex;align-items:center;justify-content:center;font-family:'Press Start 2P';font-size:9px;background:var(--news-dk)}
+  .divider .dtitle{font-family:'Anton',sans-serif;text-transform:uppercase;letter-spacing:2px;font-size:clamp(13px,2.4vw,18px)}
+  .divider .dscore{font-family:'VT323',monospace;font-size:20px;color:var(--teal)}
+
+  /* BODY GRID */
+  .body-grid{display:grid;grid-template-columns:1fr 1fr 300px;border-top:1px solid var(--line);margin-top:14px}
+  .col{padding:16px 18px}
+  .col.a,.col.b{border-right:1px solid var(--line)}
+  .story+.story{margin-top:14px;padding-top:14px;border-top:1px solid var(--line)}
+  .story h3{font-family:'Anton',sans-serif;font-weight:400;text-transform:uppercase;font-size:21px;line-height:1;margin-bottom:5px}
+  .story .by{font-family:'VT323',monospace;font-size:15px;color:#5c574a;margin-bottom:6px}
+  .story p{font-size:13px;text-align:justify;hyphens:auto}
+
+  /* SIDEBAR */
+  .side{background:var(--news-dk);padding:16px}
+  .box{border:2px solid var(--ink);padding:13px;margin-bottom:16px;background:var(--news)}
+  .box-t{font-family:'Press Start 2P',monospace;font-size:9px;margin-bottom:9px;text-transform:uppercase}
+  .otd .d{font-family:'VT323',monospace;font-size:24px;color:var(--red);line-height:1}
+  .otd p{font-size:12.5px;margin-top:5px}
+
+  /* COLUMNIST */
+  .colm{display:flex;gap:11px;align-items:flex-start}
+  .colm .mug{width:56px;height:64px;border:2px solid var(--ink);flex:0 0 auto}
+  .colm .cn{font-family:'Anton',sans-serif;text-transform:uppercase;font-size:17px;line-height:1}
+  .colm .cby{font-family:'VT323',monospace;font-size:15px;color:var(--teal);margin:3px 0 5px}
+  .colm p{font-size:12px}
+  .colm .empty{font-family:'VT323',monospace;font-size:14px;color:#8a8474}
+
+  /* pixel card */
+  .card{background:var(--teal);border:3px solid var(--ink);padding:7px;box-shadow:5px 5px 0 var(--ink)}
+  .card .portrait{background:var(--news-dk);border:2px solid var(--ink);height:132px;position:relative;overflow:hidden;image-rendering:pixelated}
+  .pix{position:absolute;background:var(--ink)}
+  .card .plate{background:var(--news);border:2px solid var(--ink);border-top:none;padding:6px 7px}
+  .card .cname{font-family:'Press Start 2P',monospace;font-size:10px}
+  .card .cpos{font-family:'VT323',monospace;font-size:16px;color:var(--teal);margin-top:2px}
+  .card .stats{display:flex;justify-content:space-between;font-family:'VT323',monospace;font-size:14px;margin-top:5px;border-top:1px solid var(--line);padding-top:3px}
+
+  .beat li{list-style:none;font-size:12.5px;padding:6px 0;border-bottom:1px dotted var(--line);display:flex;justify-content:space-between;gap:8px}
+  .beat li:last-child{border-bottom:none}
+  .beat .src{font-weight:700}
+  .beat .tm{font-family:'VT323',monospace;font-size:14px;color:var(--teal)}
+
+  /* AROUND THE TEAMS */
+  .around{border-top:3px double var(--ink);padding:16px 18px}
+  .around-h{font-family:'Anton',sans-serif;text-transform:uppercase;letter-spacing:1px;font-size:20px;margin-bottom:12px}
+  .teams{display:grid;grid-template-columns:repeat(3,1fr);gap:0 16px}
+  .trow{display:flex;gap:10px;align-items:center;padding:9px 0;border-top:1px solid var(--line)}
+  .trow .rl{width:30px;height:30px;border-radius:50%;border:2px solid var(--ink);flex:0 0 auto;display:flex;align-items:center;justify-content:center;font-family:'Press Start 2P';font-size:8px;background:var(--news-dk)}
+  .trow .th{font-family:'Libre Baskerville',serif;font-size:12.5px;font-weight:700;line-height:1.15}
+  .trow .tt{font-family:'VT323',monospace;font-size:13px;color:#5c574a}
+
+  /* FILM + INSIDE + FOOTER */
+  .film{border-top:3px double var(--ink);padding:16px 18px}
+  .film-h{font-family:'Anton',sans-serif;text-transform:uppercase;letter-spacing:1px;font-size:20px;margin-bottom:12px}
+  .films{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+  .thumb{aspect-ratio:16/9;border:2px solid var(--ink);display:flex;align-items:center;justify-content:center;position:relative}
+  .thumb .play{width:0;height:0;border-left:20px solid var(--news);border-top:13px solid transparent;border-bottom:13px solid transparent;margin-left:4px}
+  .thumb .len{position:absolute;bottom:5px;right:5px;font-family:'VT323',monospace;font-size:13px;color:var(--news);background:rgba(0,0,0,.65);padding:0 4px}
+  .fcap{font-family:'Anton',sans-serif;text-transform:uppercase;font-size:13px;line-height:1.05;margin-top:7px}
+  .fsub{font-family:'VT323',monospace;font-size:14px;color:#5c574a}
+
+  .inside{border-top:3px double var(--ink);border-bottom:2px solid var(--ink);padding:12px 18px;display:grid;grid-template-columns:auto repeat(4,1fr);gap:16px;align-items:center}
+  .inside .lbl{font-family:'Press Start 2P';font-size:9px;color:var(--news);background:var(--ink);padding:6px 9px}
+  .inside .it .h{font-family:'Anton',sans-serif;text-transform:uppercase;font-size:14px;line-height:1}
+  .inside .it .p{font-family:'VT323',monospace;font-size:14px;color:#5c574a}
+
+  .colophon{padding:20px 18px 40px;text-align:center}
+  .colophon .mark{font-family:'Manufacturing Consent',serif;font-size:32px}
+  .colophon .mark .area{color:var(--ink)}
+  .colophon .tag{font-family:'VT323',monospace;font-size:16px;color:#5c574a;margin-top:8px}
+
+  .note{background:var(--red);color:var(--news);font-family:'VT323',monospace;font-size:15px;text-align:center;padding:5px}
+  .live-blip{width:7px;height:7px;background:var(--red);border-radius:50%;display:inline-block;animation:blip 1.1s steps(1) infinite}
+  @keyframes blip{50%{opacity:.15}}
+
+  @media(max-width:880px){
+    .hero-grid{grid-template-columns:1fr}
+    .body-grid{grid-template-columns:1fr}
+    .col.a,.col.b{border-right:none;border-bottom:1px solid var(--line)}
+    .teams,.films{grid-template-columns:1fr}
+    .inside{grid-template-columns:1fr}
+  }
+  @media(prefers-reduced-motion:reduce){.live-blip{animation:none}}
+</style>
+</head>
+<body>
+<div class="note">DESIGN MOCKUP v3 · Manufacturing Consent masthead · scores &amp; feeds are placeholder sample data</div>
+
+<div class="wrap">
+
+  <!-- MASTHEAD -->
+  <div class="folio">
+    <span>SUN · JUL 12, 2026</span>
+    <span class="spot">VOL. XI · NO. 194</span>
+    <span>SEATTLE · 71&deg;F</span>
+  </div>
+  <header class="masthead">
+    <div class="nameplate">The 206 Fix</div>
+    <div class="subhead">Seattle Sports</div>
+  </header>
+
+  <!-- TOP SCORE RIBBON -->
+  <div class="ribbon">
+    <div class="r"><span class="tm">MARINERS</span> <span class="w">4</span> RANGERS 2 <span class="lv"><span class="live-blip"></span>LIVE</span></div>
+    <div class="r"><span class="tm">STORM</span> <span class="w">88</span> ACES 79 · F</div>
+    <div class="r"><span class="tm">SOUNDERS</span> 1 TIMBERS 1 · F</div>
+    <div class="r"><span class="tm">SEAHAWKS</span> CAMP JUL 22</div>
+    <div class="r"><span class="tm">KRAKEN</span> NEXT OCT 8</div>
+    <div class="r"><span class="tm">SONICS</span> EST. 1967</div>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="banner">M's Hang A Crooked Number</div>
+    <div class="deck">A four-run sixth in Arlington snaps the skid and pulls Seattle back into the division race.</div>
+    <div class="hero-grid">
+      <div class="hero-main">
+        <div class="hero-photo half"></div>
+        <div class="caption">A Mariners rally caps a four-run sixth under the lights in Texas. (photo credit runs here, vintage-style)</div>
+      </div>
+      <div class="hero-col">
+        <div class="byline">LOOKOUT LANDING · 41 min ago</div>
+        <p>The offense that vanished for a week in Anaheim reappeared under the lights in Arlington, and the Mariners took the series opener behind a rotation that has carried the club all month.</p>
+        <p>Three two-out hits turned a quiet night into a laugher, and the bullpen did the rest. The road trip that looked like a trap now looks like a turn.</p>
+        <p>Next up is a rematch that could decide who leads the West into the break.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- MATCHUP DIVIDER -->
+  <div class="divider">
+    <div class="roundel">MRN</div>
+    <div>
+      <div class="dtitle">Battle For The AL West</div>
+      <div class="dscore">MARINERS 4 · RANGERS 2</div>
+    </div>
+    <div class="roundel">TEX</div>
+  </div>
+
+  <!-- BODY -->
+  <div class="body-grid">
+    <div class="col a">
+      <div class="story">
+        <h3>Camp Battles Take Shape In Renton</h3>
+        <div class="by">FIELD GULLS · 3 hr ago</div>
+        <p>With pads on in ten days, the depth chart questions are already loud. The interior line and the third-corner spot are the two to watch as the Seahawks open the most competitive camp in years.</p>
+      </div>
+      <div class="story">
+        <h3>Sounders Held To A Draw In Cascadia</h3>
+        <div class="by">SOUNDER AT HEART · 2 hr ago</div>
+        <p>A first-half lead slipped away in Portland, and the points were split in a match that felt heavier than the standings suggest.</p>
+      </div>
+    </div>
+    <div class="col b">
+      <div class="story">
+        <h3>Kraken Lock Up Young Blueliner Through 2030</h3>
+        <div class="by">SOUND OF HOCKEY · 6 hr ago</div>
+        <p>The extension keeps a cornerstone of the rebuild in teal for the rest of the decade, and signals the front office believes the core is closer than the record showed.</p>
+      </div>
+      <div class="story">
+        <h3>Storm Surge Into The Second Half</h3>
+        <div class="by">THE NEXT · 8 hr ago</div>
+        <p>A statement win over the league's best sends Seattle into the break with the look of a contender and the city's loudest gym behind them.</p>
+      </div>
+    </div>
+
+    <aside class="side">
+      <div class="box otd">
+        <div class="box-t">◈ On This Day</div>
+        <div class="d">JULY 12</div>
+        <p>The Kingdome roared. A summer night, a packed house, and a Seattle crowd that still tells the story. <em>(auto-rotates by date)</em></p>
+      </div>
+
+      <div class="box">
+        <div class="box-t">◈ The 206 Column</div>
+        <div class="colm">
+          <div class="mug half"></div>
+          <div>
+            <div class="cn">Your Column</div>
+            <div class="cby">By [your byline]</div>
+            <p class="empty">Optional. Appears with your mug when you write, vanishes when you don't.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="box" style="border:none;padding:0;background:none">
+        <div class="box-t">◈ Card Of The Day</div>
+        <div class="card">
+          <div class="portrait" id="portrait"></div>
+          <div class="plate">
+            <div class="cname">THE KID</div>
+            <div class="cpos">CF · No. 24 · SEA</div>
+            <div class="stats"><span>.323</span><span>56 HR</span><span>★★★★★</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="box-t">◈ The Beat</div>
+        <ul class="beat">
+          <li><span class="src">Lookout Landing</span><span class="tm">MRN</span></li>
+          <li><span class="src">Field Gulls</span><span class="tm">SEA</span></li>
+          <li><span class="src">Sound Of Hockey</span><span class="tm">KRK</span></li>
+          <li><span class="src">Sonics Rising</span><span class="tm">SNC</span></li>
+        </ul>
+      </div>
+    </aside>
+  </div>
+
+  <!-- AROUND THE TEAMS -->
+  <section class="around">
+    <div class="around-h">▪ Around The Teams</div>
+    <div class="teams">
+      <div class="trow"><div class="rl">MRN</div><div><div class="th">Bats wake up in Texas heat</div><div class="tt">Mariners · series opener</div></div></div>
+      <div class="trow"><div class="rl">SEA</div><div><div class="th">Camp battles take shape</div><div class="tt">Seahawks · opens Jul 22</div></div></div>
+      <div class="trow"><div class="rl">KRK</div><div><div class="th">Blueliner locked through 2030</div><div class="tt">Kraken · extension</div></div></div>
+      <div class="trow"><div class="rl">STM</div><div><div class="th">Storm surge into the break</div><div class="tt">Storm · statement win</div></div></div>
+      <div class="trow"><div class="rl">SOU</div><div><div class="th">Held to a draw in Cascadia</div><div class="tt">Sounders · road point</div></div></div>
+      <div class="trow"><div class="rl">SNC</div><div><div class="th">Expansion vote inches closer</div><div class="tt">Sonics · return watch</div></div></div>
+    </div>
+  </section>
+
+  <!-- FILM ROOM -->
+  <section class="film">
+    <div class="film-h">▶ The Film Room</div>
+    <div class="films">
+      <div><div class="thumb"><span class="play"></span><span class="len">28:14</span></div><div class="fcap">Tecmo '26 · Seahawks Wk 1</div><div class="fsub">no commentary · 2 days ago</div></div>
+      <div><div class="thumb"><span class="play"></span><span class="len">31:02</span></div><div class="fcap">Griffey MLB '96 · Opening Night</div><div class="fsub">no commentary · 5 days ago</div></div>
+      <div><div class="thumb"><span class="play"></span><span class="len">24:47</span></div><div class="fcap">Tecmo '26 · Cascadia Grudge</div><div class="fsub">no commentary · 1 wk ago</div></div>
+    </div>
+  </section>
+
+  <!-- INSIDE THIS EDITION -->
+  <section class="inside">
+    <span class="lbl">INSIDE</span>
+    <div class="it"><div class="h">This Day</div><div class="p">Seattle history →</div></div>
+    <div class="it"><div class="h">The Almanac</div><div class="p">Records &amp; legends →</div></div>
+    <div class="it"><div class="h">Highlights</div><div class="p">The ultimate reel →</div></div>
+    <div class="it"><div class="h">The Shelf</div><div class="p">Seattle books →</div></div>
+  </section>
+
+  <!-- COLOPHON -->
+  <footer class="colophon">
+    <div class="mark">The 206 Fix</div>
+    <div class="tag">aggregated · curated · a Seattle sports desk</div>
+  </footer>
+
+</div>
+
+<script>
+  (function(){
+    var p=document.getElementById('portrait');if(!p)return;
+    var W=15,H=15,cell=8.6;
+    var map=["000011111100000","000111111110000","001111111111000","001110000111000","001100000011000","001100000011000","000110000110000","000011111100000","000001111000000","000111111110000","001111111111000","011111111111100","011111111111100","011110000111100","011100000011100"];
+    for(var y=0;y<H;y++)for(var x=0;x<W;x++){if(map[y][x]==="1"){var d=document.createElement('div');d.className='pix';d.style.left=(x*cell)+'px';d.style.top=(y*cell)+'px';d.style.width=cell+'px';d.style.height=cell+'px';p.appendChild(d);}}
+  })();
+</script>
+</body>
+</html>
