@@ -1,0 +1,13 @@
+/* Clickable team cards on the TEAMS section front. */
+.card {
+  display: block;
+  transition: border-color 0.12s ease;
+}
+
+.card:hover {
+  border-color: var(--ink);
+}
+
+.card:hover h3 {
+  color: var(--teal);
+}

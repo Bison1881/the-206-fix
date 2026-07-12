@@ -1,6 +1,7 @@
 import type { RouteRecord } from 'vite-react-ssg';
 import Layout from './components/Layout';
 import HomePage from './pages/HomePage';
+import TeamsIndex from './pages/TeamsIndex';
 import StubPage from './pages/StubPage';
 import NotFound from './pages/NotFound';
 import { TEAMS } from './lib/teams';
@@ -40,6 +41,7 @@ export const routes: RouteRecord[] = [
           />
         ),
       },
+      { path: 'teams', element: <TeamsIndex /> },
       ...teamRoutes,
       {
         path: 'this-day',
