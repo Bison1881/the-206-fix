@@ -1,6 +1,7 @@
 import type { RouteRecord } from 'vite-react-ssg';
 import Layout from './components/Layout';
 import HomePage from './pages/HomePage';
+import ScoresPage from './pages/ScoresPage';
 import TeamsIndex from './pages/TeamsIndex';
 import StubPage from './pages/StubPage';
 import NotFound from './pages/NotFound';
@@ -31,16 +32,9 @@ export const routes: RouteRecord[] = [
     element: <Layout />,
     children: [
       { index: true, element: <HomePage /> },
-      {
-        path: 'standings',
-        element: (
-          <StubPage
-            title="Standings"
-            phase="Phase 1"
-            blurb="Full standings per league, alongside the live scoreboard."
-          />
-        ),
-      },
+      // The live scoreboard (Phase 1). Renamed from /standings so the URL
+      // matches the SCORES nav label; old /standings 301s here via vercel.json.
+      { path: 'scores', element: <ScoresPage /> },
       { path: 'teams', element: <TeamsIndex /> },
       ...teamRoutes,
       {
