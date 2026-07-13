@@ -84,19 +84,19 @@
 
 .score {
   font-family: var(--font-term);
-  font-size: 34px;
+  font-size: 18px;
   line-height: 1;
   color: var(--ink);
 }
 
 .dash {
-  padding: 0 6px;
+  padding: 0 5px;
   color: var(--ink-40);
 }
 
 .vs {
   font-family: var(--font-term);
-  font-size: 17px;
+  font-size: 18px;
   color: var(--ink-60);
 }
 
