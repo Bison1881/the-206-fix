@@ -3,5 +3,6 @@
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
   "framework": "vite",
-  "cleanUrls": true
+  "cleanUrls": true,
+  "redirects": [{ "source": "/standings", "destination": "/scores", "permanent": true }]
 }

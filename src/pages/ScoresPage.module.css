@@ -1,0 +1,165 @@
+.page {
+  padding-top: 16px;
+}
+
+/* Page title / deck / rule — matched to the shared scaffold conventions. */
+.banner {
+  font-family: var(--font-head);
+  text-transform: uppercase;
+  font-weight: 400;
+  line-height: 0.92;
+  font-size: clamp(30px, 6.4vw, 60px);
+  letter-spacing: 1px;
+}
+
+.deck {
+  font-family: var(--font-body);
+  font-style: italic;
+  font-size: clamp(15px, 2.4vw, 20px);
+  margin: 8px 0 14px;
+  color: var(--ink-70);
+}
+
+.rule {
+  border: 0;
+  border-top: 3px double var(--ink);
+  margin: 18px 0;
+}
+
+/* ── Score tiles ─────────────────────────────────────────────────────── */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.tile {
+  border: 1px solid var(--line);
+  background: var(--news-dk);
+  padding: 14px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-height: 116px;
+}
+
+.tileHead {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+}
+
+.name {
+  font-family: var(--font-head);
+  text-transform: uppercase;
+  font-size: 22px;
+  line-height: 1;
+  flex: 1;
+}
+
+.badge,
+.badgeLive {
+  font-family: var(--font-term);
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  color: var(--ink-40);
+}
+
+.badgeLive {
+  color: var(--red);
+  font-weight: 700;
+}
+
+.scoreRow {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+}
+
+.score {
+  font-family: var(--font-term);
+  font-size: 18px;
+  line-height: 1;
+  color: var(--ink);
+}
+
+.dash {
+  padding: 0 5px;
+  color: var(--ink-40);
+}
+
+.vs {
+  font-family: var(--font-term);
+  font-size: 18px;
+  color: var(--ink-60);
+}
+
+/* Non-score body line (scheduled/offseason/returning/unavailable). */
+.line {
+  font-family: var(--font-term);
+  font-size: 19px;
+  color: var(--ink);
+}
+
+.detail {
+  font-family: var(--font-term);
+  font-size: 15px;
+  color: var(--ink-60);
+}
+
+.series {
+  font-family: var(--font-term);
+  font-size: 14px;
+  color: var(--teal);
+}
+
+/* ── Standings ───────────────────────────────────────────────────────── */
+.standHead {
+  font-family: var(--font-head);
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 26px;
+  letter-spacing: 1px;
+  margin: 26px 0 10px;
+  border-bottom: 2px solid var(--ink);
+  padding-bottom: 4px;
+}
+
+.standList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.standRow {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 6px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.standTeam {
+  font-family: var(--font-head);
+  text-transform: uppercase;
+  font-size: 17px;
+}
+
+.standInfo {
+  font-family: var(--font-term);
+  font-size: 16px;
+  color: var(--ink-60);
+  text-align: right;
+}
+
+@media (max-width: 880px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}

@@ -25,7 +25,24 @@
   font-weight: 400;
 }
 
-/* Muted placeholder token — stands in for a score until Phase 1 */
-.ph {
+/* Live/final score value — full ink. */
+.val {
+  color: var(--ink);
+}
+
+/* Muted token — offseason / returning / unavailable / skeleton. */
+.dim {
+  color: var(--ink-40);
+}
+
+/* LIVE indicator — the one place the ribbon uses spot-two red (§6). */
+.live {
+  color: var(--red);
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+/* Small final marker after a completed score. */
+.fin {
   color: var(--ink-40);
 }
