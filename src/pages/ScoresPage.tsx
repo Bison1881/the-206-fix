@@ -72,9 +72,9 @@ function Tile({ team, score }: { team: Team; score?: TeamScore }) {
         </div>
       )}
 
-      {(hasScore || status === 'scheduled') && score.detail && (
-        <div className={s.detail}>{score.detail}</div>
-      )}
+      {/* Under a score, the detail carries the live/final nuance ("Bot 7",
+          "Final/10"). Scheduled tiles already show the time in the line above. */}
+      {hasScore && score.detail && <div className={s.detail}>{score.detail}</div>}
 
       {score.series?.summary && (
         <div className={s.series}>{score.series.summary}</div>

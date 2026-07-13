@@ -13,7 +13,7 @@ export default function Colophon() {
     <footer className={styles.colophon}>
       <nav className={styles.nav} aria-label="Site">
         <Link to="/">Front Page</Link>
-        <Link to="/standings">Standings</Link>
+        <Link to="/scores">Scores</Link>
         <Link to="/this-day">This Day</Link>
         <Link to="/almanac">The Almanac</Link>
         <Link to="/highlights">Highlights</Link>
