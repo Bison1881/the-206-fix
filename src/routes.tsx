@@ -3,6 +3,7 @@ import Layout from './components/Layout';
 import HomePage from './pages/HomePage';
 import ScoresPage from './pages/ScoresPage';
 import TeamsIndex from './pages/TeamsIndex';
+import TeamPage from './pages/TeamPage';
 import StubPage from './pages/StubPage';
 import NotFound from './pages/NotFound';
 import { TEAMS } from './lib/teams';
@@ -15,15 +16,10 @@ import { TEAMS } from './lib/teams';
  */
 
 // One static route per covered team → /mariners, /seahawks, ...
+// Phase 2 fills these with the team's aggregated wire; Phase 3 adds depth.
 const teamRoutes: RouteRecord[] = TEAMS.map((t) => ({
   path: t.id,
-  element: (
-    <StubPage
-      title={t.name}
-      phase="Phase 3"
-      blurb={`The ${t.name} interior page — auto-fed by that team's feeds, with hand-built depth for the big four.`}
-    />
-  ),
+  element: <TeamPage team={t} />,
 }));
 
 export const routes: RouteRecord[] = [

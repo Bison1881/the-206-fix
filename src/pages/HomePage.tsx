@@ -1,31 +1,62 @@
-import s from './scaffold.module.css';
+import { anchorWire } from '../lib/feeds';
+import { shortDate } from '../lib/time';
+import Wire from '../components/Wire';
+import AroundTheTeams from '../components/AroundTheTeams';
+import FilmRoom from '../components/FilmRoom';
+import CommunityPulse from '../components/CommunityPulse';
+import s from './HomePage.module.css';
 
 /*
- * Front page — Phase 0 scaffold. The shell (masthead, folio, ribbon slot,
- * colophon) is real and shared; the content regions below are a labelled map
- * of what each later phase fills in. No feeds, scores, or evergreen data yet.
+ * The front page. Phase 2 fills the body from the build-time feed data: a lead
+ * story + the wire (anchor items), Around the Teams, the Film Room, and the
+ * community pulse — all reading the one src/data/feeds.json, no runtime fetch.
+ * The Phase 3/4 regions (This Day, Card of the Day, the teaser strip) stay as
+ * labelled placeholders until those phases land.
  */
-const REGIONS: { title: string; phase: string; blurb: string }[] = [
-  { title: 'Lead Story + Wire', phase: 'Phase 2', blurb: 'Banner headline and the curated Seattle-only article wall.' },
-  { title: 'Around the Teams', phase: 'Phase 2', blurb: 'One headline per team, logo in the left rail.' },
-  { title: 'On This Day', phase: 'Phase 3', blurb: 'Rotating box of Seattle sports history, keyed to the date.' },
+
+const LATER = [
+  { title: 'On This Day', phase: 'Phase 3', blurb: 'Seattle sports history, keyed to today’s date.' },
   { title: 'Card of the Day', phase: 'Phase 4', blurb: 'The pixel trading card — the site’s signature element.' },
-  { title: 'The Film Room', phase: 'Phase 2', blurb: 'Auto-pulled videos + Shorts from the 206 Fix channel.' },
-  { title: 'Inside This Edition', phase: 'Phase 3', blurb: 'Teaser strip pointing into This Day, Almanac, Highlights.' },
+  { title: 'Inside This Edition', phase: 'Phase 3', blurb: 'Teaser strip into This Day, Almanac, Highlights.' },
 ];
 
 export default function HomePage() {
+  // Cap the front page — the full depth lives on team pages, not one giant wall.
+  const anchors = anchorWire(28);
+  const [lead, ...rest] = anchors;
+
   return (
     <div className={s.page}>
-      <div className={s.banner}>Foundation Laid</div>
-      <div className={s.deck}>
-        Phase 0 is up: the masthead, folio, score-ribbon slot, and colophon are
-        live and shared across every page. Content blocks arrive by phase.
-      </div>
-      <hr className={s.rule} />
-      <div className={s.grid}>
-        {REGIONS.map((r) => (
-          <div className={s.slot} key={r.title}>
+      {lead ? (
+        <div className={s.lead}>
+          <div className={s.leadKicker}>
+            {lead.source} · {shortDate(lead.publishedAt)}
+          </div>
+          <a className={s.leadHead} href={lead.link} target="_blank" rel="noopener noreferrer">
+            {lead.title}
+          </a>
+          {lead.snippet && <p className={s.leadSnippet}>{lead.snippet}</p>}
+        </div>
+      ) : (
+        <div className={s.lead}>
+          <div className={s.leadKicker}>The Wire</div>
+          <div className={s.leadHead}>Seattle Sports, Aggregated</div>
+          <p className={s.leadSnippet}>
+            The wire refreshes at build time. Run the feeds fetch to populate it.
+          </p>
+        </div>
+      )}
+
+      <h2 className={s.wireHead}>The Wire</h2>
+      <Wire items={rest.length ? rest : anchors} />
+
+      <AroundTheTeams />
+      <FilmRoom />
+      <CommunityPulse />
+
+      <div className={s.stubs}>
+        {LATER.map((r) => (
+          <div className={s.stub} key={r.title}>
             <span className={s.badge}>{r.phase}</span>
             <h3>{r.title}</h3>
             <p>{r.blurb}</p>

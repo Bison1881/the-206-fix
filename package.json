@@ -5,9 +5,12 @@
   "private": true,
   "description": "The 206 Fix - Seattle sports news hub. Retro vintage-newspaper design, self-updating feeds.",
   "scripts": {
+    "predev": "node scripts/ensure-feeds.mjs",
     "dev": "vite",
+    "prebuild": "npm run feeds:fetch",
     "build": "vite-react-ssg build",
     "preview": "vite preview",
+    "pretypecheck": "node scripts/ensure-feeds.mjs",
     "typecheck": "tsc --noEmit",
     "feeds:fetch": "node scripts/fetch-feeds.mjs"
   },

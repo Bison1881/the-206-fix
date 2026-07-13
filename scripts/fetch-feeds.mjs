@@ -82,10 +82,13 @@ function stripHtml(input) {
   if (!input) return '';
   return input
     .replace(/<[^>]*>/g, '')
-    .replace(/&nbsp;/g, ' ')
+    // Decode &amp; first so double-encoded numeric refs (&amp;#8211;) resolve,
+    // then numeric (hex + decimal) refs, then the common named ones.
     .replace(/&amp;/g, '&')
+    .replace(/&#x([0-9a-fA-F]+);/g, (_, h) => String.fromCodePoint(parseInt(h, 16)))
+    .replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(parseInt(n, 10)))
+    .replace(/&nbsp;/g, ' ')
     .replace(/&quot;/g, '"')
-    .replace(/&#39;/g, "'")
     .replace(/&lt;/g, '<')
     .replace(/&gt;/g, '>')
     .replace(/\s+/g, ' ')
@@ -141,11 +144,16 @@ async function fetchSource(source) {
     return { ok: false, source: source.name, via, error: 'fetch failed', items: [] };
   }
 
+  const viaGNews = Boolean(via && via.includes('news.google.com'));
   const items = (feed.items || [])
     .slice(0, MAX_ITEMS_PER_FEED)
     .map((item) => {
-      const title = stripHtml(item.title || '');
-      const snippet = truncate(stripHtml(item.contentSnippet || item.summary || item.content || ''), SNIPPET_MAX);
+      let title = stripHtml(item.title || '');
+      // Google News appends " - Publisher" to every headline — strip it.
+      if (viaGNews) title = title.replace(/\s+[-–]\s+[^-–]+$/, '').trim();
+      let snippet = truncate(stripHtml(item.contentSnippet || item.summary || item.content || ''), SNIPPET_MAX);
+      // Drop snippets that just echo the headline (Google News always does).
+      if (viaGNews || normTitle(snippet) === normTitle(title)) snippet = '';
       return {
         title,
         link: item.link || '',
