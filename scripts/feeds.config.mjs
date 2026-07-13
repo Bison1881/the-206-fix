@@ -95,6 +95,3 @@ export function needsSeattleFilter(source) {
 
 // 206 Fix YouTube channel (resolved + feed-verified from @The206Fix).
 export const YOUTUBE_CHANNEL_ID = 'UCFS_B5W-vRNXQa6G3LYwmwA';
-
-// Community pulse — subreddit top-of-day feeds (Reddit needs a real UA).
-export const SUBREDDITS = ['Mariners', 'Seahawks', 'SeattleKraken'];

@@ -26,18 +26,10 @@ export interface VideoItem {
   thumbnail: string;
 }
 
-export interface CommunityItem {
-  title: string;
-  link: string;
-  subreddit: string;
-  publishedAt: string;
-}
-
 interface FeedData {
   generatedAt: string | null;
   wire: WireItem[];
   videos: VideoItem[];
-  community: CommunityItem[];
 }
 
 const data = rawData as FeedData;
@@ -45,7 +37,6 @@ const data = rawData as FeedData;
 export const generatedAt = data.generatedAt;
 export const wire: WireItem[] = data.wire ?? [];
 export const videos: VideoItem[] = data.videos ?? [];
-export const community: CommunityItem[] = data.community ?? [];
 
 /** Front-page wire: anchor items only, newest first (spec §5). */
 export function anchorWire(limit?: number): WireItem[] {

@@ -22,7 +22,6 @@ import {
   SEATTLE_PATTERNS,
   needsSeattleFilter,
   YOUTUBE_CHANNEL_ID,
-  SUBREDDITS,
 } from './feeds.config.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -220,33 +219,6 @@ async function fetchVideos() {
   }
 }
 
-async function fetchCommunity() {
-  const out = [];
-  const failed = [];
-  // Sequential with a gap — Reddit rate-limits (429) bursts of parallel
-  // requests, even with a descriptive UA. Best-effort: a 429 on one sub is
-  // logged, never fatal.
-  for (const sub of SUBREDDITS) {
-    const url = `https://www.reddit.com/r/${sub}/top/.rss?t=day`;
-    try {
-      const feed = await parseAny(url, `r/${sub}`);
-      for (const item of (feed.items || []).slice(0, 5)) {
-        out.push({
-          title: stripHtml(item.title || ''),
-          link: item.link || '',
-          subreddit: `r/${sub}`,
-          publishedAt: isoOf(item),
-        });
-      }
-    } catch (err) {
-      failed.push({ source: `r/${sub}`, error: err.message || String(err) });
-    }
-    await new Promise((r) => setTimeout(r, 1200));
-  }
-  out.sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
-  return { items: out, failed };
-}
-
 // ── Main ────────────────────────────────────────────────────────────────────
 
 async function main() {
@@ -270,22 +242,19 @@ async function main() {
   ).slice(0, MAX_WIRE_ITEMS);
 
   const videos = await fetchVideos();
-  const community = await fetchCommunity();
 
-  console.log(`[feeds] wire: ${wire.length} items | videos: ${videos.items.length} | community: ${community.items.length}`);
+  console.log(`[feeds] wire: ${wire.length} items | videos: ${videos.items.length}`);
 
   const output = {
     generatedAt: startedAt.toISOString(),
     wire,
     videos: videos.items,
-    community: community.items,
     log: {
       sourceCount: SOURCES.length,
       ok: ok.map((r) => ({ source: r.source, count: r.count, googleNews: r.via?.includes('news.google.com') || false })),
       failed: [
         ...failed.map((f) => ({ source: f.source, error: f.error })),
         ...(videos.error ? [{ source: 'YouTube', error: videos.error }] : []),
-        ...community.failed,
       ],
     },
   };

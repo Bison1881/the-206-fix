@@ -3,7 +3,6 @@ import { shortDate } from '../lib/time';
 import Wire from '../components/Wire';
 import AroundTheTeams from '../components/AroundTheTeams';
 import FilmRoom from '../components/FilmRoom';
-import CommunityPulse from '../components/CommunityPulse';
 import s from './HomePage.module.css';
 
 /*
@@ -52,7 +51,6 @@ export default function HomePage() {
 
       <AroundTheTeams />
       <FilmRoom />
-      <CommunityPulse />
 
       <div className={s.stubs}>
         {LATER.map((r) => (

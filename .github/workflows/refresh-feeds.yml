@@ -1,0 +1,33 @@
+name: Refresh Feeds
+
+# Triggers a Vercel rebuild on a schedule so the build-time feed aggregation
+# (prebuild → feeds:fetch) regenerates fresh content. This does NOT commit to
+# the repo — the feed JSON is a build artifact (Phase 2 spec §4). It just POSTs
+# to a Vercel Deploy Hook.
+#
+# Setup (one-time):
+#   1. Vercel → Project → Settings → Git → Deploy Hooks → create a hook on the
+#      production branch (main). Copy the URL.
+#   2. GitHub → repo Settings → Secrets and variables → Actions → New secret
+#      named VERCEL_DEPLOY_HOOK_URL, paste the URL.
+# Until the secret exists the job no-ops (so it never fails red).
+
+on:
+  schedule:
+    # ~3x/day (UTC). Roughly early morning, midday, and evening Pacific.
+    - cron: '0 13,19,1 * * *'
+  workflow_dispatch:
+
+jobs:
+  trigger-rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping Vercel Deploy Hook
+        env:
+          HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK_URL }}
+        run: |
+          if [ -z "$HOOK" ]; then
+            echo "VERCEL_DEPLOY_HOOK_URL not set yet — skipping (no-op)."
+            exit 0
+          fi
+          curl -fsSL -X POST "$HOOK" && echo "Rebuild triggered."

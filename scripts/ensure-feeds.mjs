@@ -16,7 +16,7 @@ try {
   // Exists — leave whatever data is there untouched.
 } catch {
   await mkdir(dirname(OUTPUT_PATH), { recursive: true });
-  const empty = { generatedAt: null, wire: [], videos: [], community: [], log: { sourceCount: 0, ok: [], failed: [] } };
+  const empty = { generatedAt: null, wire: [], videos: [], log: { sourceCount: 0, ok: [], failed: [] } };
   await writeFile(OUTPUT_PATH, JSON.stringify(empty, null, 2), 'utf-8');
   console.log('[feeds] wrote empty src/data/feeds.json (run `npm run feeds:fetch` for real data)');
 }
