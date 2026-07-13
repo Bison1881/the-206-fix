@@ -1,0 +1,102 @@
+.page {
+  padding-top: 16px;
+}
+
+/* ── Lead story (newest anchor headline) ────────────────────────────── */
+.lead {
+  border-bottom: 3px double var(--ink);
+  padding-bottom: 16px;
+  margin-bottom: 18px;
+}
+
+.leadKicker {
+  font-family: var(--font-term);
+  font-size: 15px;
+  color: var(--ink-60);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.leadHead {
+  font-family: var(--font-head);
+  text-transform: uppercase;
+  font-weight: 400;
+  line-height: 0.96;
+  font-size: clamp(27px, 4.6vw, 44px);
+  letter-spacing: 0.5px;
+  color: var(--ink);
+  text-decoration: none;
+  display: block;
+  margin: 4px 0 8px;
+}
+
+.leadHead:hover {
+  color: var(--teal);
+}
+
+.leadSnippet {
+  font-family: var(--font-body);
+  font-style: italic;
+  font-size: clamp(15px, 2.2vw, 19px);
+  line-height: 1.4;
+  color: var(--ink-70);
+  max-width: 62ch;
+}
+
+.wireHead {
+  font-family: var(--font-head);
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: clamp(20px, 3vw, 28px);
+  letter-spacing: 1px;
+  line-height: 1;
+  margin: 0 0 12px;
+  border-bottom: 2px solid var(--ink);
+  padding-bottom: 5px;
+}
+
+/* ── Phase 3/4 placeholders (kept until those phases land) ───────────── */
+.stubs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-top: 26px;
+  border-top: 1px solid var(--line);
+  padding-top: 18px;
+}
+
+.stub {
+  border: 1px dashed var(--line);
+  padding: 14px;
+}
+
+.stub .badge {
+  display: inline-block;
+  font-family: var(--font-pixel);
+  font-size: 8px;
+  color: var(--news);
+  background: var(--ink);
+  padding: 4px 6px;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+.stub h3 {
+  font-family: var(--font-head);
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1;
+  margin-bottom: 5px;
+}
+
+.stub p {
+  font-size: 13px;
+  color: var(--ink-60);
+}
+
+@media (max-width: 880px) {
+  .stubs {
+    grid-template-columns: 1fr;
+  }
+}

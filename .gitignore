@@ -10,3 +10,7 @@ dist/
 .vercel/
 .vscode/
 .idea/
+
+# Phase 2 feed data is a build artifact — regenerated each build by the
+# prebuild step, never committed (keeps main clean; see phase 2 spec §4).
+src/data/feeds.json
