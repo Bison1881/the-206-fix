@@ -8,7 +8,15 @@
   overflow-x: auto;
 }
 
+/*
+ * flex-grow fills the rule edge to edge instead of letting seven cells clump
+ * left with a third of the strip empty. flex-basis stays auto and the cells
+ * never shrink, so each keeps its natural width on a phone and the ribbon's
+ * overflow-x scroll still works.
+ */
 .r {
+  flex: 1 0 auto;
+  justify-content: center;
   padding: 5px 12px;
   border-right: 1px solid var(--line);
   white-space: nowrap;
