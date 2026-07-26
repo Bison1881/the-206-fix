@@ -6,11 +6,16 @@
  * endpoint does nothing but POST the project's Deploy Hook. It replaces the
  * GitHub Actions workflow that used to do the same POST on a schedule.
  *
- * Why the move: GitHub's free scheduler is best-effort and drifts badly under
- * load. Measured over three days it ran 1–3.5 hours late every time, and on
- * 2026-07-26 the 13:00 UTC run never fired at all, leaving the front page
- * serving the previous evening's news at midday Seattle time. Vercel Cron runs
- * on time.
+ * Why the move: GitHub's free scheduler is best-effort and drifts badly. Every
+ * scheduled run over 2026-07-23..26 landed late, consistently and by a lot:
+ *
+ *   slot 01:00 UTC → fired 04:11, 04:15, 04:15, 04:27   (~3.2–3.5 h late)
+ *   slot 13:00 UTC → fired 14:38, 14:56, 15:10          (~1.6–2.2 h late)
+ *   slot 19:00 UTC → fired 20:11, 20:13, 20:20          (~1.2–1.3 h late)
+ *
+ * Ten of ten runs fired — none were skipped — but the overnight slot drifting
+ * 3.5 hours means the "morning" edition can be most of a working day old by the
+ * time anyone in Seattle reads it. Vercel Cron on Hobby lands within the hour.
  *
  * HOBBY PLAN CONSTRAINT — do not "tidy" the schedules in vercel.json.
  * Hobby allows 100 cron jobs per project, but each EXPRESSION may only run once
