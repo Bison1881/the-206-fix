@@ -12,6 +12,17 @@
  * serving the previous evening's news at midday Seattle time. Vercel Cron runs
  * on time.
  *
+ * HOBBY PLAN CONSTRAINT — do not "tidy" the schedules in vercel.json.
+ * Hobby allows 100 cron jobs per project, but each EXPRESSION may only run once
+ * per day; anything more frequent fails at deploy time with "Hobby accounts are
+ * limited to daily cron jobs." So the three refreshes are three separate
+ * once-daily entries pointing at this same path. Collapsing them into one
+ * `0 1,13,19 * * *` would run three times a day and break the deployment.
+ *
+ * Hobby timing is also per-hour (±59 min), so `0 13 * * *` fires somewhere in
+ * 13:00–13:59 UTC rather than on the minute. Still far better than what it
+ * replaces. Pro buys per-minute precision if that is ever worth paying for.
+ *
  * Requires two environment variables on the Vercel project (Production):
  *   CRON_SECRET            — Vercel sends this as `Authorization: Bearer …` on
  *                            every cron invocation. Without it this endpoint
