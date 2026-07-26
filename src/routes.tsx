@@ -6,6 +6,7 @@ import TeamsIndex from './pages/TeamsIndex';
 import TeamPage from './pages/TeamPage';
 import StubPage from './pages/StubPage';
 import NotFound from './pages/NotFound';
+import ErrorPage from './pages/ErrorPage';
 import { TEAMS } from './lib/teams';
 
 /*
@@ -26,6 +27,10 @@ export const routes: RouteRecord[] = [
   {
     path: '/',
     element: <Layout />,
+    // Catches anything thrown anywhere beneath the root — without it React
+    // Router renders its own developer error screen, stack trace and all,
+    // straight into the page for readers.
+    errorElement: <ErrorPage />,
     children: [
       { index: true, element: <HomePage /> },
       // The live scoreboard (Phase 1). Renamed from /standings so the URL
@@ -73,6 +78,13 @@ export const routes: RouteRecord[] = [
           />
         ),
       },
+      /*
+       * A real, prerendered /404 → dist/404.html, which Vercel serves for any
+       * path it can't match. The `*` below only ever fires during client-side
+       * navigation, so on its own it left direct hits and crawlers seeing
+       * Vercel's stock "NOT_FOUND" text page.
+       */
+      { path: '404', element: <NotFound /> },
       { path: '*', element: <NotFound /> },
     ],
   },
