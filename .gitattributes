@@ -1,0 +1,17 @@
+# Line endings, settled: every text file is stored AND checked out as LF, on
+# every platform. This makes the result independent of each machine's
+# core.autocrlf setting, so no more "LF will be replaced by CRLF" warnings and
+# no CRLF/LF churn in diffs between Windows edits and Linux CI builds.
+* text=auto eol=lf
+
+# Binary assets — never normalized, never diffed as text.
+# (.svg is deliberately absent: it is text and benefits from real diffs.)
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.webp binary
+*.gif  binary
+*.ico  binary
+*.woff binary
+*.woff2 binary
+*.pdf  binary
