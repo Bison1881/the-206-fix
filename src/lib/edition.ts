@@ -1,11 +1,20 @@
 /*
  * Edition metadata for the folio line, pinned to Seattle time.
- * Computed when the page renders; under vite-react-ssg that is build time,
- * so the static HTML ships stamped with the build's "edition."
  *
  *   Volume  = Roman numeral, years since the 2026 launch (2026 = I).
  *   Number  = day-of-year in Seattle.
  *   Edition = Morning before noon Seattle, Evening after.
+ *
+ * Pinned to BUILD time, not render time. This used to read `new Date()`, which
+ * meant the prerendered HTML carried the build's edition while hydration
+ * computed the current one — a guaranteed text mismatch that made React throw
+ * (#418/#425/#423), discard the server tree, and re-render the whole root on
+ * every single page load. The dateline visibly flickered from one edition to
+ * the next a second after paint.
+ *
+ * Build time is also the honest answer: the wire, the scores skeleton and every
+ * word on the page are baked by the same build, so the folio now describes the
+ * edition the reader is actually holding rather than the clock on their wall.
  */
 
 const LAUNCH_YEAR = 2026;
@@ -67,7 +76,10 @@ export interface Edition {
   place: string;    // "SEATTLE"
 }
 
-export function getEdition(now: Date = new Date()): Edition {
+/** The build's own timestamp — identical in the prerender and in the browser. */
+export const BUILT_AT = new Date(__BUILT_AT__);
+
+export function getEdition(now: Date = BUILT_AT): Edition {
   const p = seattleParts(now);
   const year = Number(p.year);
   const hour = Number(p.hour);
