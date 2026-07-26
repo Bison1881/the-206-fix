@@ -3,6 +3,7 @@ import { shortDate } from '../lib/time';
 import Wire from '../components/Wire';
 import AroundTheTeams from '../components/AroundTheTeams';
 import FilmRoom from '../components/FilmRoom';
+import PageMeta from '../components/PageMeta';
 import s from './HomePage.module.css';
 
 /*
@@ -26,6 +27,10 @@ export default function HomePage() {
 
   return (
     <div className={s.page}>
+      <PageMeta
+        description="Seattle sports, all in one place — Mariners, Seahawks, Kraken, Sonics, Sounders, Storm and Reign. Live scores, the day's wire from every beat, and Seattle sports history."
+        path="/"
+      />
       {lead ? (
         <div className={s.lead}>
           <div className={s.leadKicker}>

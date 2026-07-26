@@ -4,6 +4,16 @@
   border-bottom: 4px double var(--ink);
 }
 
+/*
+ * The h1 wrapper used on the front page only. Purely semantic — it inherits
+ * type from the header so the nameplate inside is pixel-identical to the plain
+ * link every interior page renders.
+ */
+.plate {
+  font: inherit;
+  font-weight: inherit;
+}
+
 .nameplate {
   display: block;
   font-family: var(--font-nameplate);

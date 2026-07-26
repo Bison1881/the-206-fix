@@ -4,8 +4,13 @@
   <meta charset="UTF-8" />
   <link rel="icon" href="/favicon.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="The 206 Fix — a Seattle sports news hub. Mariners, Seahawks, Kraken, Sonics, Sounders, Storm, Reign. Scores, news, and Seattle sports history." />
-  <title>The 206 Fix — Seattle Sports</title>
+
+  <!--
+    Title and description are deliberately absent from this template. Every
+    route sets its own via src/components/PageMeta.tsx, which vite-react-ssg
+    injects at prerender. Static ones here would ship alongside those, giving
+    every page a duplicate of each. Any new route must render PageMeta.
+  -->
 
   <!-- Type stack (locked): Manufacturing Consent · Libre Baskerville + Anton · VT323 · Press Start 2P -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />

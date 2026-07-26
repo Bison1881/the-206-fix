@@ -9,6 +9,8 @@
     "dev": "vite",
     "prebuild": "npm run feeds:fetch",
     "build": "vite-react-ssg build",
+    "postbuild": "node scripts/generate-seo.mjs",
+    "seo:generate": "node scripts/generate-seo.mjs",
     "preview": "vite preview",
     "pretypecheck": "node scripts/ensure-feeds.mjs",
     "typecheck": "tsc --noEmit",
