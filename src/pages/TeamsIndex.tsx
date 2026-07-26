@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { TEAMS } from '../lib/teams';
+import PageMeta from '../components/PageMeta';
 import s from './scaffold.module.css';
 import t from './TeamsIndex.module.css';
 
@@ -25,7 +26,12 @@ function TeamCard({ id, name, abbr, note }: { id: string; name: string; abbr: st
 export default function TeamsIndex() {
   return (
     <div className={s.page}>
-      <div className={s.banner}>The Teams</div>
+      <PageMeta
+        title="The Teams"
+        description="Every Seattle club on one desk — Mariners, Seahawks, Kraken, Sonics, Sounders, Storm and Reign. Pick a beat for that team's full wire."
+        path="/teams"
+      />
+      <h1 className={s.banner}>The Teams</h1>
       <div className={s.deck}>Seven Seattle clubs, one desk. Pick a beat.</div>
       <hr className={s.rule} />
 

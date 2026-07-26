@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import PageMeta from '../components/PageMeta';
 import s from './scaffold.module.css';
 
 /*
@@ -11,7 +12,8 @@ import s from './scaffold.module.css';
 export default function NotFound() {
   return (
     <div className={s.page}>
-      <div className={s.banner}>Page Not Found</div>
+      <PageMeta title="Page Not Found" description="That edition never went to press." noindex />
+      <h1 className={s.banner}>Page Not Found</h1>
       <div className={s.deck}>That edition never went to press.</div>
       <hr className={s.rule} />
       <p className={s.note}>

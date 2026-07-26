@@ -42,6 +42,7 @@ export const routes: RouteRecord[] = [
         path: 'this-day',
         element: (
           <StubPage
+            path="/this-day"
             title="This Day in Seattle Sports"
             phase="Phase 3"
             blurb="A rotating archive of Seattle sports history, keyed to today's date."
@@ -52,6 +53,7 @@ export const routes: RouteRecord[] = [
         path: 'almanac',
         element: (
           <StubPage
+            path="/almanac"
             title="The Almanac"
             phase="Phase 3"
             blurb="Records, legends, and the shelf of essential Seattle sports books."
@@ -62,6 +64,7 @@ export const routes: RouteRecord[] = [
         path: 'highlights',
         element: (
           <StubPage
+            path="/highlights"
             title="The Ultimate Highlights Reel"
             phase="Phase 3"
             blurb="A curated embed of the greatest moments in Seattle sports."
@@ -72,6 +75,7 @@ export const routes: RouteRecord[] = [
         path: 'privacy',
         element: (
           <StubPage
+            path="/privacy"
             title="Privacy Policy"
             phase="Phase 6"
             blurb="Site privacy policy and affiliate disclosure."

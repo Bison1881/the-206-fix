@@ -1,6 +1,7 @@
 import { TEAMS, type Team } from '../lib/teams';
 import { useScores } from '../lib/useScores';
 import type { TeamScore, TeamStanding } from '../lib/espn';
+import PageMeta from '../components/PageMeta';
 import s from './ScoresPage.module.css';
 
 /*
@@ -100,7 +101,12 @@ export default function ScoresPage() {
 
   return (
     <div className={s.page}>
-      <div className={s.banner}>Scoreboard</div>
+      <PageMeta
+        title="Scoreboard"
+        description="Live scores, next games and standings for all seven Seattle clubs — Mariners, Seahawks, Kraken, Sonics, Sounders, Storm and Reign — on one board."
+        path="/scores"
+      />
+      <h1 className={s.banner}>Scoreboard</h1>
       <div className={s.deck}>
         Live scores, next games, and standings for all seven Seattle clubs —
         refreshing on their own while a game is on.

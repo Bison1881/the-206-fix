@@ -3,6 +3,7 @@ import Folio from '../components/Folio';
 import Masthead from '../components/Masthead';
 import SectionNav from '../components/SectionNav';
 import Colophon from '../components/Colophon';
+import PageMeta from '../components/PageMeta';
 import s from './scaffold.module.css';
 
 /*
@@ -29,12 +30,13 @@ export default function ErrorPage() {
 
   return (
     <div className="wrap">
+      <PageMeta title="Stop the Press" description="Something on this page failed to load." noindex />
       <Folio />
       <Masthead />
       <SectionNav />
       <main>
         <div className={s.page}>
-          <div className={s.banner}>Stop the Press</div>
+          <h1 className={s.banner}>Stop the Press</h1>
           <div className={s.deck}>Something on this page failed to load.</div>
           <hr className={s.rule} />
           <p className={s.note}>

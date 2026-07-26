@@ -1,6 +1,7 @@
 import type { Team } from '../lib/teams';
 import { teamWire } from '../lib/feeds';
 import Wire from '../components/Wire';
+import PageMeta from '../components/PageMeta';
 import s from './scaffold.module.css';
 
 /*
@@ -14,8 +15,13 @@ export default function TeamPage({ team }: { team: Team }) {
 
   return (
     <div className={s.page}>
+      <PageMeta
+        title={`Seattle ${team.name}`}
+        description={`Seattle ${team.name} news from around the web — headlines, beat coverage and links out to every source, updated through the day on The 206 Fix.`}
+        path={`/${team.id}`}
+      />
       <span className={s.badge}>Seattle</span>
-      <div className={s.banner}>{team.name}</div>
+      <h1 className={s.banner}>{team.name}</h1>
       <div className={s.deck}>
         The latest {team.name} coverage from around the web — every headline links out to its source.
       </div>
