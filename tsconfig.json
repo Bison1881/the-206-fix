@@ -19,5 +19,8 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src", "vite.config.ts"]
+  // `api` holds the Vercel Function behind the cron; it reads process.env, so
+  // @types/node is a devDependency. Vercel builds functions with esbuild and
+  // never typechecks them, which is exactly why they belong in this pass.
+  "include": ["src", "api", "vite.config.ts"]
 }

@@ -4,5 +4,10 @@
   "outputDirectory": "dist",
   "framework": "vite",
   "cleanUrls": true,
-  "redirects": [{ "source": "/standings", "destination": "/scores", "permanent": true }]
+  "redirects": [{ "source": "/standings", "destination": "/scores", "permanent": true }],
+  "crons": [
+    { "path": "/api/refresh-feeds", "schedule": "0 13 * * *" },
+    { "path": "/api/refresh-feeds", "schedule": "0 19 * * *" },
+    { "path": "/api/refresh-feeds", "schedule": "0 1 * * *" }
+  ]
 }

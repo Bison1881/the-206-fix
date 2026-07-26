@@ -1,9 +1,20 @@
 name: Refresh Feeds
 
-# Triggers a Vercel rebuild on a schedule so the build-time feed aggregation
-# (prebuild → feeds:fetch) regenerates fresh content. This does NOT commit to
-# the repo — the feed JSON is a build artifact (Phase 2 spec §4). It just POSTs
-# to a Vercel Deploy Hook.
+# BACKSTOP ONLY. The primary schedule now lives in vercel.json `crons`, which
+# calls /api/refresh-feeds and runs on time. This workflow used to be the
+# primary and was demoted because GitHub's free scheduler is best-effort: across
+# 2026-07-23..26 it ran 1–3.5 hours late every single time, and the 13:00 UTC
+# run on 2026-07-26 never fired at all, leaving the front page on the previous
+# evening's news at midday Seattle.
+#
+# It is kept, at ONE non-overlapping hour, purely so a silent failure of Vercel
+# Cron cannot leave the wire stale indefinitely. Being late here no longer
+# matters — nothing depends on it. Delete it if you would rather have a single
+# scheduler.
+#
+# Both paths POST the same Deploy Hook, so the secret below and the Vercel env
+# var VERCEL_DEPLOY_HOOK_URL hold the same value. Neither commits to the repo —
+# the feed JSON is a build artifact (Phase 2 spec §4).
 #
 # Setup (one-time):
 #   1. Vercel → Project → Settings → Git → Deploy Hooks → create a hook on the
@@ -14,8 +25,9 @@ name: Refresh Feeds
 
 on:
   schedule:
-    # ~3x/day (UTC). Roughly early morning, midday, and evening Pacific.
-    - cron: '0 13,19,1 * * *'
+    # 07:00 UTC ≈ midnight Pacific — deliberately between the Vercel cron hours
+    # (01:00, 13:00, 19:00 UTC) so a late run never doubles up on a build.
+    - cron: '0 7 * * *'
   workflow_dispatch:
 
 jobs:
