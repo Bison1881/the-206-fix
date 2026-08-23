@@ -26,15 +26,32 @@ collections: `src/content/` does not exist and there are zero `.md` files under
 Routes are declared in `src/routes.tsx`: `/`, `/scores`, `/teams`, one page per
 team from `src/lib/teams.ts`, plus `/this-day`, `/almanac`, `/highlights` and
 `/privacy` — those four are **stub pages** (`src/pages/StubPage.tsx`), labelled
-Phase 3 and Phase 6, never built out. The three Phase 3 stubs are unlinked and
-noindexed as of the dormant pass below; `/privacy` is untouched.
+Phase 3 and Phase 6, never built out. The three Phase 3 stubs and `/teams` are
+unlinked and noindexed as of the dormant pass below; `/privacy` is untouched.
 
 ## The dormant pass (2026-08-23)
 
-Done in one commit, after this file was first written. **Everything is hidden,
-not deleted** — every block is tagged with a `DORMANT 2026-08` comment
-explaining what was removed and how to put it back, so `grep -rn "DORMANT
-2026-08" src scripts` finds the whole pass.
+Two commits, after this file was first written:
+
+- **`ab3d519`** — hid the sections: nav and footer links, `noindex`, sitemap.
+- **`3b2216b`** — removed the front-page placeholder strip.
+
+**Everything is hidden, not deleted.** Every block is tagged with a
+`DORMANT 2026-08` comment explaining what was removed and how to put it back, so
+`grep -rn "DORMANT 2026-08" src scripts` finds the whole pass — seven blocks in
+seven files (`SectionNav`, `Colophon`, `HomePage`, `StubPage`, `TeamsIndex`,
+`routes.tsx`, `generate-seo.mjs`).
+
+### What the site looks like now
+
+- **Section bar:** Scores. That is the entire primary nav.
+- **Footer:** Front Page · Scores · Privacy.
+- **Front page:** lead story → The Wire → Around the Teams → The Film Room.
+  It ends there. No placeholders, and no `Phase N` badge anywhere on it.
+- **Hidden** (unlinked, `noindex, follow`, no canonical, out of the sitemap):
+  `/teams`, `/this-day`, `/almanac`, `/highlights`. All four still resolve.
+- **Still public and indexed:** `/`, `/scores`, `/privacy`, and the seven team
+  pages. Sitemap is 10 URLs, down from 14.
 
 What changed:
 
@@ -70,6 +87,36 @@ What deliberately did **not** change:
   seven stay internally linked and crawlable without `/teams`.
 - No content, collection, component or route was deleted.
 - `/privacy` is untouched: still linked in the footer, still indexed.
+- The four hidden pages still render their `Phase 3` / `Phase 6` badges. They
+  are unlinked and noindexed so nobody should land on one, but the badges were
+  not scrubbed. Cheap to do if it ever matters.
+
+### How it was verified
+
+Against `dist/` after a real build, not by reading the source:
+
+- Zero `href="/teams"`, `/this-day`, `/almanac`, `/highlights` on the front page
+  or on a team page.
+- All four hidden pages emit `noindex, follow` and **no** canonical.
+- `/`, `/scores`, `/mariners`, `/privacy` all still emit a canonical and no
+  `noindex` — the hiding did not bleed into the live pages.
+- `sitemap.xml` = 10 URLs; the four are absent.
+- Front page contains no `Phase 3`, `Phase 4`, `Card of the Day`, `On This Day`
+  or `Inside This Edition` string, and still contains The Wire, Around the Teams
+  and The Film Room.
+- `npm run typecheck` and `npm run build` clean before each push.
+
+Worth repeating these if the pass is ever partially reversed — checking the
+built HTML catches what reading the components does not.
+
+### Open, deliberately not done
+
+**The four hidden URLs were already indexed by Google.** `noindex` only takes
+effect when Googlebot recrawls, typically days to a few weeks, so they can keep
+appearing in results for a while after this pass. Search Console's Removals tool
+hides a URL in about a day and the `noindex` then makes it stick. Judged not
+worth it for four low-traffic pages on a paused site — revisit if one of them
+actually shows up somewhere embarrassing.
 
 ## What is still live and running itself
 
@@ -269,5 +316,17 @@ what the type system should be against the five fonts that are actually loaded
 before touching anything else.
 
 Next unbuilt work, if it resumes, is Phase 3: the `/this-day`, `/almanac` and
-`/highlights` stubs. Un-hide them first — `grep -rn "DORMANT 2026-08" src
-scripts` lists every block to reverse, and each comment says what to restore.
+`/highlights` stubs.
+
+**Un-hiding is the first step, and it is four things, not one.** Run
+`grep -rn "DORMANT 2026-08" src scripts` — seven blocks, each commenting what it
+removed and how to restore it. For any page you bring back you must, together:
+drop its `noindex` prop, remove it from `EXCLUDE` in `scripts/generate-seo.mjs`,
+and re-add its link in `SectionNav.tsx` and/or `Colophon.tsx`. Doing only some
+of those leaves a page that is either linked but unindexable, or indexed with no
+way to reach it. Rebuild and check `dist/` afterwards — the verification list
+under "The dormant pass" is the checklist.
+
+Bringing back `/teams` is separate from bringing back the Phase 3 stubs; it was
+hidden only because it lost its nav entry, not because it is unfinished. It
+works right now.
