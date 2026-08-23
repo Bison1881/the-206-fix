@@ -5,10 +5,17 @@ import s from './scaffold.module.css';
 import t from './TeamsIndex.module.css';
 
 /*
- * The TEAMS section front. Primary nav's TEAMS item lands here instead of
- * listing all seven clubs in the bar. Big four first (front-page prominence,
- * full interior pages), then the other three — every team named, tier shows
- * only in ordering and the note, never in whether a team appears.
+ * The TEAMS section front. Big four first (front-page prominence, full interior
+ * pages), then the other three — every team named, tier shows only in ordering
+ * and the note, never in whether a team appears.
+ *
+ * DORMANT 2026-08: the TEAMS nav entry that used to land here is gone, leaving
+ * this page with no inbound internal link, so it is noindexed and excluded from
+ * the sitemap (scripts/generate-seo.mjs) rather than left as an indexed orphan.
+ * The page still renders and the URL still resolves. The seven team pages it
+ * links to are NOT hidden — they stay indexed and reachable from Around the
+ * Teams on the front page. To restore: drop the noindex, clear the exclusion,
+ * and re-add the nav entries in SectionNav/Colophon.
  */
 const big4 = TEAMS.filter((x) => x.tier === 'big4');
 const others = TEAMS.filter((x) => x.tier === 'other');
@@ -30,6 +37,7 @@ export default function TeamsIndex() {
         title="The Teams"
         description="Every Seattle club on one desk — Mariners, Seahawks, Kraken, Sonics, Sounders, Storm and Reign. Pick a beat for that team's full wire."
         path="/teams"
+        noindex
       />
       <h1 className={s.banner}>The Teams</h1>
       <div className={s.deck}>Seven Seattle clubs, one desk. Pick a beat.</div>

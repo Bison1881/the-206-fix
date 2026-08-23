@@ -26,7 +26,46 @@ collections: `src/content/` does not exist and there are zero `.md` files under
 Routes are declared in `src/routes.tsx`: `/`, `/scores`, `/teams`, one page per
 team from `src/lib/teams.ts`, plus `/this-day`, `/almanac`, `/highlights` and
 `/privacy` — those four are **stub pages** (`src/pages/StubPage.tsx`), labelled
-Phase 3 and Phase 6, never built out.
+Phase 3 and Phase 6, never built out. The three Phase 3 stubs are unlinked and
+noindexed as of the dormant pass below; `/privacy` is untouched.
+
+## The dormant pass (2026-08-23)
+
+Done in one commit, after this file was first written. **Everything is hidden,
+not deleted** — every block is tagged with a `DORMANT 2026-08` comment
+explaining what was removed and how to put it back, so `grep -rn "DORMANT
+2026-08" src scripts` finds the whole pass.
+
+What changed:
+
+- `src/components/SectionNav.tsx` — the section bar is now **Scores only**.
+  Teams, This Day, Almanac and Highlights removed.
+- `src/components/Colophon.tsx` — the footer is now **Front Page · Scores ·
+  Privacy**. This Day, The Almanac, Highlights and all seven per-team links
+  removed.
+- `src/pages/HomePage.tsx` — the "On This Day" and "Inside This Edition"
+  placeholder cards removed (the latter's blurb named all three hidden
+  sections). "Card of the Day" (Phase 4) is still there, now alone in the strip.
+- `src/routes.tsx` + `src/pages/StubPage.tsx` — the three Phase 3 routes are
+  **kept and still resolve**, but render `noindex, follow` with no canonical.
+  `StubPage` gained an optional `noindex` prop to carry this.
+- `src/pages/TeamsIndex.tsx` — `/teams` gets the same treatment. Losing its nav
+  entry left it with no inbound internal link, and an indexed orphan is worse
+  than a hidden one, so it is noindexed rather than left dangling.
+- `scripts/generate-seo.mjs` — all four are excluded from `sitemap.xml`, which
+  went from 14 URLs to 10. The exclusion list and the `noindex` props must be
+  changed together; a noindexed URL listed in a sitemap is a contradictory
+  signal.
+
+What deliberately did **not** change:
+
+- The seven team pages are still built, still populated from the wire, **still
+  indexed and still in the sitemap**. Only the menu entries and the `/teams`
+  section front were hidden — the team content itself was not.
+- Around the Teams on the front page still links to each team page, so those
+  seven stay internally linked and crawlable without `/teams`.
+- No content, collection, component or route was deleted.
+- `/privacy` is untouched: still linked in the footer, still indexed.
 
 ## What is still live and running itself
 
@@ -108,9 +147,10 @@ so — the thread itself is left alone.
   single date or a date range?
 
   > VERIFIED 2026-08-23: accurate as an intention. `/almanac`, `/this-day` and
-  > `/highlights` exist as Phase 3 stubs in `src/routes.tsx` and are linked from
-  > `Colophon.tsx`. There is no Famous Plays route and no collection mechanism
-  > of any kind to merge into — this is a build, not a merge.
+  > `/highlights` exist as Phase 3 stubs in `src/routes.tsx`. There is no Famous
+  > Plays route and no collection mechanism of any kind to merge into — this is
+  > a build, not a merge. As of the dormant pass the three are unlinked and
+  > noindexed; building this thread means un-hiding them first.
 
 - **Film Room RSS automation. Blocked.** Pull the YouTube channel into the Film
   Room strip via RSS using the existing GitHub Actions cron and fetch-rss.mjs.
@@ -225,4 +265,5 @@ what the type system should be against the five fonts that are actually loaded
 before touching anything else.
 
 Next unbuilt work, if it resumes, is Phase 3: the `/this-day`, `/almanac` and
-`/highlights` stubs.
+`/highlights` stubs. Un-hide them first — `grep -rn "DORMANT 2026-08" src
+scripts` lists every block to reverse, and each comment says what to restore.

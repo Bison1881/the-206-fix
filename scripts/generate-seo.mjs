@@ -19,7 +19,22 @@ const DIST = resolve(__dirname, '../dist');
 const ORIGIN = 'https://the206fix.com';
 
 // Error document, not a page.
-const EXCLUDE = new Set(['404.html']);
+//
+// DORMANT 2026-08: the three Phase 3 scaffolds and the /teams section front are
+// excluded too. All four are unlinked from the nav and render `noindex` (see
+// src/routes.tsx and src/pages/TeamsIndex.tsx) — listing a noindexed URL in the
+// sitemap is a contradictory signal, so both must be kept in sync. Clearing
+// this list is half of restoring them.
+//
+// The seven individual team pages are deliberately NOT here: they stay indexed
+// and stay linked from Around the Teams on the front page.
+const EXCLUDE = new Set([
+  '404.html',
+  'this-day.html',
+  'almanac.html',
+  'highlights.html',
+  'teams.html',
+]);
 
 /** dist/index.html -> "/", dist/mariners.html -> "/mariners" (cleanUrls). */
 function pathForFile(file) {

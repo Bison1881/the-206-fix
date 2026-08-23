@@ -10,14 +10,18 @@ import s from './HomePage.module.css';
  * The front page. Phase 2 fills the body from the build-time feed data: a lead
  * story + the wire (anchor items), Around the Teams, the Film Room, and the
  * community pulse — all reading the one src/data/feeds.json, no runtime fetch.
- * The Phase 3/4 regions (This Day, Card of the Day, the teaser strip) stay as
- * labelled placeholders until those phases land.
+ * The Card of the Day region stays a labelled placeholder until Phase 4.
  */
 
+/*
+ * DORMANT 2026-08: the two Phase 3 placeholder cards were removed from this
+ * strip — "On This Day", and "Inside This Edition" whose blurb named This Day,
+ * Almanac and Highlights directly. Both advertised sections that are now
+ * unlinked and noindexed. "Card of the Day" (Phase 4) is untouched and left
+ * standing alone; restore the other two from git history (commit 3f3c213^).
+ */
 const LATER = [
-  { title: 'On This Day', phase: 'Phase 3', blurb: 'Seattle sports history, keyed to today’s date.' },
   { title: 'Card of the Day', phase: 'Phase 4', blurb: 'The pixel trading card — the site’s signature element.' },
-  { title: 'Inside This Edition', phase: 'Phase 3', blurb: 'Teaser strip into This Day, Almanac, Highlights.' },
 ];
 
 export default function HomePage() {

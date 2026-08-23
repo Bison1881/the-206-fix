@@ -7,6 +7,13 @@ interface StubPageProps {
   blurb: string;
   /** Route path, leading slash — drives canonical. */
   path: string;
+  /**
+   * Keep the scaffold out of the index. DORMANT 2026-08: set on the three
+   * unlinked Phase 3 routes so an empty placeholder can't surface in search
+   * while the site is paused. Must be kept in sync with the exclusion list in
+   * scripts/generate-seo.mjs.
+   */
+  noindex?: boolean;
 }
 
 /*
@@ -14,10 +21,10 @@ interface StubPageProps {
  * the URL, shell, and navigation all exist and are crawlable before the
  * feature itself is built.
  */
-export default function StubPage({ title, phase, blurb, path }: StubPageProps) {
+export default function StubPage({ title, phase, blurb, path, noindex }: StubPageProps) {
   return (
     <div className={s.page}>
-      <PageMeta title={title} description={blurb} path={path} />
+      <PageMeta title={title} description={blurb} path={path} noindex={noindex} />
       <span className={s.badge}>{phase}</span>
       <h1 className={s.banner}>{title}</h1>
       <div className={s.deck}>{blurb}</div>

@@ -38,6 +38,15 @@ export const routes: RouteRecord[] = [
       { path: 'scores', element: <ScoresPage /> },
       { path: 'teams', element: <TeamsIndex /> },
       ...teamRoutes,
+      /*
+       * DORMANT 2026-08: the three Phase 3 scaffolds. Routes deliberately KEPT
+       * so existing links and bookmarks still resolve, but unlinked from the
+       * section bar and footer and marked noindex — an empty placeholder should
+       * not be in search results while the site is paused. They are also
+       * excluded from the sitemap in scripts/generate-seo.mjs; change both
+       * together. To restore: drop the noindex props, re-add the nav entries,
+       * and clear the exclusion list.
+       */
       {
         path: 'this-day',
         element: (
@@ -46,6 +55,7 @@ export const routes: RouteRecord[] = [
             title="This Day in Seattle Sports"
             phase="Phase 3"
             blurb="A rotating archive of Seattle sports history, keyed to today's date."
+            noindex
           />
         ),
       },
@@ -57,6 +67,7 @@ export const routes: RouteRecord[] = [
             title="The Almanac"
             phase="Phase 3"
             blurb="Records, legends, and the shelf of essential Seattle sports books."
+            noindex
           />
         ),
       },
@@ -68,6 +79,7 @@ export const routes: RouteRecord[] = [
             title="The Ultimate Highlights Reel"
             phase="Phase 3"
             blurb="A curated embed of the greatest moments in Seattle sports."
+            noindex
           />
         ),
       },
