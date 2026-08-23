@@ -43,9 +43,13 @@ What changed:
 - `src/components/Colophon.tsx` — the footer is now **Front Page · Scores ·
   Privacy**. This Day, The Almanac, Highlights and all seven per-team links
   removed.
-- `src/pages/HomePage.tsx` — the "On This Day" and "Inside This Edition"
-  placeholder cards removed (the latter's blurb named all three hidden
-  sections). "Card of the Day" (Phase 4) is still there, now alone in the strip.
+- `src/pages/HomePage.tsx` — the entire "coming later" placeholder strip
+  removed: "On This Day" and "Inside This Edition" (Phase 3, both advertising
+  now-hidden sections) and "Card of the Day" (Phase 4). Nothing is being built
+  while the site is paused, so the strip promised work that is not coming, and
+  its phase badges leaked internal build numbering to readers. The front page
+  now ends at the Film Room. The `.stubs`/`.stub`/`.badge` CSS is left in
+  `HomePage.module.css` for the restore.
 - `src/routes.tsx` + `src/pages/StubPage.tsx` — the three Phase 3 routes are
   **kept and still resolve**, but render `noindex, follow` with no canonical.
   `StubPage` gained an optional `noindex` prop to carry this.

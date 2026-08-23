@@ -8,21 +8,19 @@ import s from './HomePage.module.css';
 
 /*
  * The front page. Phase 2 fills the body from the build-time feed data: a lead
- * story + the wire (anchor items), Around the Teams, the Film Room, and the
- * community pulse — all reading the one src/data/feeds.json, no runtime fetch.
- * The Card of the Day region stays a labelled placeholder until Phase 4.
+ * story + the wire (anchor items), Around the Teams and the Film Room — all
+ * reading the one src/data/feeds.json, no runtime fetch.
+ *
+ * DORMANT 2026-08: the whole "coming later" placeholder strip is gone. It held
+ * three cards — "On This Day" and "Inside This Edition" (Phase 3, both
+ * advertising sections that are now unlinked and noindexed), and "Card of the
+ * Day" (Phase 4). Nothing is being built while the site is paused, so the strip
+ * only promised readers work that is not coming, and its "Phase 3"/"Phase 4"
+ * badges leaked internal build numbering onto the front page. The page now ends
+ * at the Film Room. The .stubs/.stub/.badge rules in HomePage.module.css are
+ * intentionally left in place for the restore. Recover the strip from git
+ * history (commit ab3d519^).
  */
-
-/*
- * DORMANT 2026-08: the two Phase 3 placeholder cards were removed from this
- * strip — "On This Day", and "Inside This Edition" whose blurb named This Day,
- * Almanac and Highlights directly. Both advertised sections that are now
- * unlinked and noindexed. "Card of the Day" (Phase 4) is untouched and left
- * standing alone; restore the other two from git history (commit 3f3c213^).
- */
-const LATER = [
-  { title: 'Card of the Day', phase: 'Phase 4', blurb: 'The pixel trading card — the site’s signature element.' },
-];
 
 export default function HomePage() {
   // Cap the front page — the full depth lives on team pages, not one giant wall.
@@ -60,16 +58,6 @@ export default function HomePage() {
 
       <AroundTheTeams />
       <FilmRoom />
-
-      <div className={s.stubs}>
-        {LATER.map((r) => (
-          <div className={s.stub} key={r.title}>
-            <span className={s.badge}>{r.phase}</span>
-            <h3>{r.title}</h3>
-            <p>{r.blurb}</p>
-          </div>
-        ))}
-      </div>
     </div>
   );
 }
