@@ -48,7 +48,7 @@ seven files (`SectionNav`, `Colophon`, `HomePage`, `StubPage`, `TeamsIndex`,
 
 - **Section bar:** Scores · Standings. That is the entire primary nav.
 - **Footer:** Front Page · Scores · Standings · Privacy.
-- **Front page:** lead story → The Wire → Around the Teams. It ends there. No placeholders, and no `Phase N` badge anywhere on it.
+- **Front page:** lead story → The Wire. It ends there. No placeholders, and no `Phase N` badge anywhere on it.
 - **Hidden** (unlinked, `noindex, follow`, no canonical, out of the sitemap):
   `/teams`, `/this-day`, `/almanac`, `/highlights`. All four still resolve.
 - **Still public and indexed:** `/`, `/scores`, `/standings`, `/privacy`, and the
@@ -66,7 +66,7 @@ What changed:
   now-hidden sections) and "Card of the Day" (Phase 4). Nothing is being built
   while the site is paused, so the strip promised work that is not coming, and
   its phase badges leaked internal build numbering to readers. The front page
-  now ends at Around the Teams. The `.stubs`/`.stub`/`.badge` CSS is left in
+  now ends at the wire. The `.stubs`/`.stub`/`.badge` CSS is left in
   `HomePage.module.css` for the restore.
 - `src/routes.tsx` + `src/pages/StubPage.tsx` — the three Phase 3 routes are
   **kept and still resolve**, but render `noindex, follow` with no canonical.
@@ -84,7 +84,7 @@ What deliberately did **not** change:
 - The seven team pages are still built, still populated from the wire, **still
   indexed and still in the sitemap**. Only the menu entries and the `/teams`
   section front were hidden — the team content itself was not.
-- Around the Teams on the front page still links to each team page, so those
+- The ribbon on every page still links to each team page, so those
   seven stay internally linked and crawlable without `/teams`.
 - No content, collection, component or route was deleted.
 - `/privacy` is untouched: still linked in the footer, still indexed.
@@ -103,8 +103,7 @@ Against `dist/` after a real build, not by reading the source:
   `noindex` — the hiding did not bleed into the live pages.
 - `sitemap.xml` = 10 URLs; the four are absent.
 - Front page contains no `Phase 3`, `Phase 4`, `Card of the Day`, `On This Day`
-  or `Inside This Edition` string, and still contains The Wire, Around the Teams
-  and Around the Teams.
+  or `Inside This Edition` string, and still contains The Wire.
 - `npm run typecheck` and `npm run build` clean before each push.
 
 Worth repeating these if the pass is ever partially reversed — checking the
@@ -204,11 +203,8 @@ so — the thread itself is left alone.
   > a build, not a merge. As of the dormant pass the three are unlinked and
   > noindexed; building this thread means un-hiding them first.
 
-- **Around the Teams and The Wire duplicate each other heavily.** Unresolved.
-
-  > VERIFIED 2026-08-23: still open, and the mechanism is visible in
-  > `src/lib/feeds.ts` — `anchorWire()` and `aroundTheTeams()` both select from
-  > the same `role: 'anchor'` pool, so the overlap is structural.
+- **Around the Teams removed (2026-11-14).** It repeated the same anchor
+  headlines as The Wire; the owner asked for it gone.
 
 - **THE_206_FIX_PROJECT_DOCS.md has drifted** from actual state, particularly on
   fonts. Needs a full rewrite before any further build work.

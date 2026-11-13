@@ -1,6 +1,6 @@
 /*
  * The seven covered teams. Drives routing (one interior page each), the score
- * ribbon, and the "Around the Teams" block. Tier controls prominence/depth
+ * and ribbon. Tier controls prominence/depth
  * only — every team is always named, never bucketed. (See build checklist:
  * "Tier by prominence, name everything.")
  *

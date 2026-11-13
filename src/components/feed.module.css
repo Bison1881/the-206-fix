@@ -66,56 +66,8 @@
   margin-top: 4px;
 }
 
-/* ── Around the Teams ───────────────────────────────────────────────── */
-.teams {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 12px;
-}
-
-.teamCard {
-  border: 1px solid var(--line);
-  background: var(--news-dk);
-  padding: 10px 12px;
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-  min-height: 92px;
-}
-
-.teamName {
-  font-family: var(--font-head);
-  text-transform: uppercase;
-  font-size: 16px;
-  line-height: 1;
-  color: var(--ink);
-}
-
-.teamHeadline {
-  font-family: var(--font-body);
-  font-weight: 700;
-  font-size: 13px;
-  line-height: 1.25;
-  color: var(--ink);
-  text-decoration: none;
-}
-
-.teamHeadline:hover {
-  color: var(--teal);
-  text-decoration: underline;
-}
-
-.teamQuiet {
-  font-family: var(--font-term);
-  font-size: 13px;
-  color: var(--ink-40);
-}
-
 @media (max-width: 880px) {
   .wire {
     column-count: 1;
-  }
-  .teams {
-    grid-template-columns: repeat(2, 1fr);
   }
 }
