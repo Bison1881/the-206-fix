@@ -24,6 +24,7 @@ const LIVE: Record<string, LiveSituation> = {
   mariners: {
     period: 7, half: 'bot', balls: 2, strikes: 1, outs: 1,
     linesOurs: ['1', '0', '0', '3', '0', '0', '3'], linesOpp: ['0', '0', '1', '0', '0', '2', '0'],
+    hitsOurs: 9, hitsOpp: 6, errorsOurs: 0, errorsOpp: 1,
   },
   seahawks: {
     period: 3, clock: '4:12', down: 2, distance: 7, downText: '2nd & 7', spot: 'SEA 35', ball: 'ours',
@@ -36,6 +37,7 @@ const LIVE: Record<string, LiveSituation> = {
 const MARINERS_FINAL: LiveSituation = {
   linesOurs: ['1', '0', '0', '0', '2', '0', '0', '0', '0', '1'],
   linesOpp: ['0', '0', '1', '0', '0', '2', '0', '0', '0', '0'],
+  hitsOurs: 8, hitsOpp: 5, errorsOurs: 1, errorsOpp: 0,
 };
 
 export function demoScore(team: Team, state: DemoState): TeamScore | undefined {

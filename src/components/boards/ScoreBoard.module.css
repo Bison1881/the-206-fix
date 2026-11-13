@@ -106,7 +106,7 @@
 
 .mGrid {
   display: grid;
-  grid-template-columns: 88px repeat(10, minmax(0, 1fr)) 40px;
+  grid-template-columns: 84px repeat(10, minmax(0, 1fr)) 38px 28px 28px;
   column-gap: 3px;
   row-gap: 5px;
   align-items: center;
@@ -158,6 +158,18 @@
   background: #e3b93f;
   border-color: #e3b93f;
   color: #0b2723;
+}
+
+.mStat {
+  display: grid;
+  place-items: center;
+  height: 28px;
+  background: linear-gradient(180deg, #0b2723, #07201c);
+  border: 1px solid rgba(185, 194, 189, 0.6);
+  font-family: var(--font-head);
+  font-size: 16px;
+  line-height: 1;
+  color: #fffbe9;
 }
 
 .mRun {
@@ -1057,8 +1069,18 @@
 /* ── Narrow screens ──────────────────────────────────────────────────── */
 @media (max-width: 560px) {
   .mGrid {
-    grid-template-columns: 66px repeat(10, minmax(0, 1fr)) 34px;
+    grid-template-columns: 58px repeat(10, minmax(0, 1fr)) 30px 20px 20px;
     column-gap: 2px;
+  }
+  .mCell,
+  .mCellCur {
+    font-size: 12px;
+  }
+  .mStat {
+    font-size: 12px;
+  }
+  .mRun {
+    font-size: 20px;
   }
   .mTeam,
   .mTeamOurs {

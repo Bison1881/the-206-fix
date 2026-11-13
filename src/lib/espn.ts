@@ -62,6 +62,10 @@ export interface LiveSituation {
   timeoutsOpp?: number;
   linesOurs?: string[]; // per-inning runs
   linesOpp?: string[];
+  hitsOurs?: number; // baseball R H E: runs are the score, these are the other two
+  hitsOpp?: number;
+  errorsOurs?: number;
+  errorsOpp?: number;
 }
 
 export interface TeamScore {
@@ -391,6 +395,10 @@ async function fetchSituation(team: Team, eventId: string, live: boolean): Promi
       timeoutsOpp: intOf(oursHome ? sit?.awayTimeouts : sit?.homeTimeouts),
       linesOurs: lines(ours),
       linesOpp: lines(opp),
+      hitsOurs: intOf(ours?.hits),
+      hitsOpp: intOf(opp?.hits),
+      errorsOurs: intOf(ours?.errors),
+      errorsOpp: intOf(opp?.errors),
     };
   } catch {
     return undefined;

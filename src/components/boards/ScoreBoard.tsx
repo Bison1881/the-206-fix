@@ -85,6 +85,8 @@ function Mariners({ v }: { v: BoardView }) {
           </span>
         ))}
         <span className={s.mInn}>R</span>
+        <span className={s.mInn}>H</span>
+        <span className={s.mInn}>E</span>
         {v.rows.map((r: BoardRow, i) => [
           <span className={r.ours ? s.mTeamOurs : s.mTeam} key={`n${i}`}>
             {r.name}
@@ -99,6 +101,12 @@ function Mariners({ v }: { v: BoardView }) {
           )),
           <span className={s.mRun} key={`r${i}`}>
             {r.score}
+          </span>,
+          <span className={s.mStat} key={`h${i}`}>
+            {inn?.hits[i] ?? ''}
+          </span>,
+          <span className={s.mStat} key={`e${i}`}>
+            {inn?.errors[i] ?? ''}
           </span>,
         ])}
       </div>

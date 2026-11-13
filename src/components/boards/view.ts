@@ -29,7 +29,13 @@ export interface LiveView {
   clock: string; // "4:12" ('' when the sport has none)
   half?: 'top' | 'bot' | 'mid' | 'end';
   bso?: { b: number | null; s: number | null; o: number | null }; // null = unknown (dark)
-  innings?: { labels: string[]; lines: [string[], string[]]; cur?: { row: 0 | 1; col: number } };
+  innings?: {
+    labels: string[];
+    lines: [string[], string[]];
+    cur?: { row: 0 | 1; col: number };
+    hits: [number | null, number | null]; // R H E: runs are the row score
+    errors: [number | null, number | null];
+  };
   downText?: string; // "2ND & 7"
   spot?: string; // "SEA 35"
   ballRow?: 0 | 1; // which row has the football
@@ -102,6 +108,8 @@ function liveView(team: Team, score: TeamScore, ourRow: 0 | 1): LiveView | undef
         labels: Array.from({ length: 10 }, (_, i) => String(first + i)),
         lines,
         cur: live && batting != null && col >= 0 && col < 10 ? { row: batting, col } : undefined,
+        hits: byRow(l.hitsOurs ?? null, l.hitsOpp ?? null),
+        errors: byRow(l.errorsOurs ?? null, l.errorsOpp ?? null),
       },
     };
   }
