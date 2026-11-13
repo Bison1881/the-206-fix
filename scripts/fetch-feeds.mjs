@@ -2,7 +2,7 @@
  * Phase 2 build-time aggregator. Fetches every source in feeds.config.mjs,
  * self-heals dead official feeds via Google News, Seattle-filters, de-dups,
  * sorts, and writes src/data/feeds.json for SSG to prerender from. Also pulls
- * the 206 Fix YouTube uploads and subreddit community pulse.
+ * the subreddit community pulse.
  *
  * Run: `npm run feeds:fetch` (also `--dry-run`). Runs automatically as the
  * prebuild step, so every deploy regenerates the JSON fresh (spec §2, §4).
@@ -21,7 +21,6 @@ import {
   googleNewsUrl,
   SEATTLE_PATTERNS,
   needsSeattleFilter,
-  YOUTUBE_CHANNEL_ID,
 } from './feeds.config.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -196,29 +195,6 @@ function dedup(items) {
   return out;
 }
 
-// ── YouTube uploads + subreddit community pulse ─────────────────────────────
-
-async function fetchVideos() {
-  if (!YOUTUBE_CHANNEL_ID) return { items: [], error: 'no channel id' };
-  const url = `https://www.youtube.com/feeds/videos.xml?channel_id=${YOUTUBE_CHANNEL_ID}`;
-  try {
-    const feed = await parseAny(url, 'YouTube');
-    const items = (feed.items || []).slice(0, 12).map((item) => {
-      const vid = (item.link && item.link.match(/[?&]v=([\w-]+)/)?.[1]) || (item.id || '').split(':').pop();
-      return {
-        title: stripHtml(item.title || ''),
-        link: item.link || (vid ? `https://www.youtube.com/watch?v=${vid}` : ''),
-        videoId: vid || '',
-        publishedAt: isoOf(item),
-        thumbnail: vid ? `https://i.ytimg.com/vi/${vid}/hqdefault.jpg` : '',
-      };
-    }).filter((v) => v.link);
-    return { items };
-  } catch (err) {
-    return { items: [], error: err.message || String(err) };
-  }
-}
-
 // ── Main ────────────────────────────────────────────────────────────────────
 
 async function main() {
@@ -241,21 +217,15 @@ async function main() {
     ok.flatMap((r) => r.items).sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt))
   ).slice(0, MAX_WIRE_ITEMS);
 
-  const videos = await fetchVideos();
-
-  console.log(`[feeds] wire: ${wire.length} items | videos: ${videos.items.length}`);
+  console.log(`[feeds] wire: ${wire.length} items`);
 
   const output = {
     generatedAt: startedAt.toISOString(),
     wire,
-    videos: videos.items,
     log: {
       sourceCount: SOURCES.length,
       ok: ok.map((r) => ({ source: r.source, count: r.count, googleNews: r.via?.includes('news.google.com') || false })),
-      failed: [
-        ...failed.map((f) => ({ source: f.source, error: f.error })),
-        ...(videos.error ? [{ source: 'YouTube', error: videos.error }] : []),
-      ],
+      failed: failed.map((f) => ({ source: f.source, error: f.error })),
     },
   };
 

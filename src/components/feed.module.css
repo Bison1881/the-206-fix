@@ -1,5 +1,5 @@
 /* Shared newspaper styling for the Phase 2 feed surfaces (wire, Around the
-   Teams, Film Room, community pulse). Imported by each feed component. */
+   Teams, community pulse). Imported by each feed component. */
 
 .section {
   margin: 26px 0;
@@ -111,54 +111,9 @@
   color: var(--ink-40);
 }
 
-/* ── Film Room (videos) ─────────────────────────────────────────────── */
-.videos {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 16px;
-}
-
-.videoCard {
-  text-decoration: none;
-  color: var(--ink);
-  display: flex;
-  flex-direction: column;
-  border: 1px solid var(--line);
-  background: var(--news-dk);
-}
-
-.thumbWrap {
-  position: relative;
-  aspect-ratio: 16 / 9;
-  overflow: hidden;
-  border-bottom: 1px solid var(--line);
-}
-
-.thumb {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-}
-
-.videoTitle {
-  font-family: var(--font-body);
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.25;
-  padding: 8px 10px;
-}
-
-.videoCard:hover .videoTitle {
-  color: var(--teal);
-}
-
 @media (max-width: 880px) {
   .wire {
     column-count: 1;
-  }
-  .videos {
-    grid-template-columns: 1fr;
   }
   .teams {
     grid-template-columns: repeat(2, 1fr);

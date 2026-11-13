@@ -92,6 +92,3 @@ export const SEATTLE_PATTERNS = [
 export function needsSeattleFilter(source) {
   return source.team === 'local' || source.type === 'official' || /High Post Hoops|Reign$/.test(source.name);
 }
-
-// 206 Fix YouTube channel (resolved + feed-verified from @The206Fix).
-export const YOUTUBE_CHANNEL_ID = 'UCFS_B5W-vRNXQa6G3LYwmwA';

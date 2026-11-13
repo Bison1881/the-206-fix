@@ -1,7 +1,7 @@
 /*
  * Typed access to the build-time aggregated feed data (src/data/feeds.json,
  * produced by scripts/fetch-feeds.mjs). Every surface — front-page wire,
- * Around the Teams, per-team pages, Film Room, community pulse — reads through
+ * Around the Teams, per-team pages, community pulse — reads through
  * here and filters, so nothing fetches at runtime (spec §2, §5).
  */
 
@@ -18,25 +18,15 @@ export interface WireItem {
   snippet?: string;
 }
 
-export interface VideoItem {
-  title: string;
-  link: string;
-  videoId: string;
-  publishedAt: string;
-  thumbnail: string;
-}
-
 interface FeedData {
   generatedAt: string | null;
   wire: WireItem[];
-  videos: VideoItem[];
 }
 
 const data = rawData as FeedData;
 
 export const generatedAt = data.generatedAt;
 export const wire: WireItem[] = data.wire ?? [];
-export const videos: VideoItem[] = data.videos ?? [];
 
 /** Front-page wire: anchor items only, newest first (spec §5). */
 export function anchorWire(limit?: number): WireItem[] {

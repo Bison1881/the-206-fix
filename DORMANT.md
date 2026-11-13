@@ -46,10 +46,9 @@ seven files (`SectionNav`, `Colophon`, `HomePage`, `StubPage`, `TeamsIndex`,
 
 ### What the site looks like now
 
-- **Section bar:** Scores. That is the entire primary nav.
-- **Footer:** Front Page · Scores · Privacy.
-- **Front page:** lead story → The Wire → Around the Teams → The Film Room.
-  It ends there. No placeholders, and no `Phase N` badge anywhere on it.
+- **Section bar:** Scores · Standings. That is the entire primary nav.
+- **Footer:** Front Page · Scores · Standings · Privacy.
+- **Front page:** lead story → The Wire → Around the Teams. It ends there. No placeholders, and no `Phase N` badge anywhere on it.
 - **Hidden** (unlinked, `noindex, follow`, no canonical, out of the sitemap):
   `/teams`, `/this-day`, `/almanac`, `/highlights`. All four still resolve.
 - **Still public and indexed:** `/`, `/scores`, `/standings`, `/privacy`, and the
@@ -67,7 +66,7 @@ What changed:
   now-hidden sections) and "Card of the Day" (Phase 4). Nothing is being built
   while the site is paused, so the strip promised work that is not coming, and
   its phase badges leaked internal build numbering to readers. The front page
-  now ends at the Film Room. The `.stubs`/`.stub`/`.badge` CSS is left in
+  now ends at Around the Teams. The `.stubs`/`.stub`/`.badge` CSS is left in
   `HomePage.module.css` for the restore.
 - `src/routes.tsx` + `src/pages/StubPage.tsx` — the three Phase 3 routes are
   **kept and still resolve**, but render `noindex, follow` with no canonical.
@@ -105,7 +104,7 @@ Against `dist/` after a real build, not by reading the source:
 - `sitemap.xml` = 10 URLs; the four are absent.
 - Front page contains no `Phase 3`, `Phase 4`, `Card of the Day`, `On This Day`
   or `Inside This Edition` string, and still contains The Wire, Around the Teams
-  and The Film Room.
+  and Around the Teams.
 - `npm run typecheck` and `npm run build` clean before each push.
 
 Worth repeating these if the pass is ever partially reversed — checking the
@@ -151,9 +150,9 @@ actually shows up somewhere embarrassing.
   America/Los_Angeles and to **build** time via the `__BUILT_AT__` define — the
   comment there explains why (render-time `new Date()` caused a hydration
   mismatch and a visible flicker). Correct with no input.
-- **Film Room strip: automated, not static.** `src/components/FilmRoom.tsx`
-  renders up to 6 cards from the channel's uploads feed, pulled by
-  `fetchVideos()` in `scripts/fetch-feeds.mjs`. Hidden when there are none.
+- **No YouTube anywhere (2026-11-14).** The Film Room strip, its fetch
+  (`fetchVideos()`), the channel ID and the `videos` array in `feeds.json` were
+  removed at the owner's request. Do not bring video links back to the site.
 - `postbuild` runs `scripts/generate-seo.mjs`, which derives `dist/robots.txt`
   and `dist/sitemap.xml` from the HTML actually emitted.
 - Domain the206fix.com. Keep renewing it.
@@ -204,25 +203,6 @@ so — the thread itself is left alone.
   > Plays route and no collection mechanism of any kind to merge into — this is
   > a build, not a merge. As of the dormant pass the three are unlinked and
   > noindexed; building this thread means un-hiding them first.
-
-- **Film Room RSS automation. Blocked.** Pull the YouTube channel into the Film
-  Room strip via RSS using the existing GitHub Actions cron and fetch-rss.mjs.
-  Output to its own data file, do NOT append to The Wire array. Blocked on
-  supplying the channel ID (UC..., in YouTube Studio > Settings > Channel >
-  Advanced Settings).
-
-  > VERIFIED 2026-08-23: **done, not blocked.** The channel ID is resolved and
-  > committed — `YOUTUBE_CHANNEL_ID = 'UCFS_B5W-vRNXQa6G3LYwmwA'` at
-  > `scripts/feeds.config.mjs:97`. `fetchVideos()` reads
-  > `youtube.com/feeds/videos.xml?channel_id=…` and writes a separate `videos`
-  > array in `src/data/feeds.json`, kept out of `wire` exactly as this thread
-  > asks. 3 videos were present at the last fetch. Nothing to do.
-
-- **Film Room layout.** Six full-width stacked thumbnails dominate the front
-  page. A three-across CSS grid is the highest-return visual fix available.
-
-  > VERIFIED 2026-08-23: still open. `FilmRoom.tsx` slices to 6; the layout is
-  > whatever `.videos` does in `src/components/feed.module.css`.
 
 - **Around the Teams and The Wire duplicate each other heavily.** Unresolved.
 
