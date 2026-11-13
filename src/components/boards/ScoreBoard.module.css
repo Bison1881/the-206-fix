@@ -82,6 +82,7 @@
    MARINERS: painted ballpark wall board
    ════════════════════════════════════════════════════════════════════════ */
 .mariners {
+  grid-column: 1 / -1; /* the big board takes the whole row */
   --ink: #f2ead3;
   --accent: #f2ead3;
   background:
@@ -104,13 +105,229 @@
   padding-bottom: 5px;
 }
 
-.mGrid {
+/* The big board: lineups on both sides, the man at the plate in the middle,
+   the line score and count underneath. Full width, like the real one. */
+.mFrame {
   display: grid;
-  grid-template-columns: 84px repeat(10, minmax(0, 1fr)) 38px 28px 28px;
-  column-gap: 3px;
-  row-gap: 5px;
+  grid-template-columns: 192px minmax(0, 1fr) 192px;
+  gap: 14px;
+  align-items: stretch;
+  margin-top: 4px;
+}
+
+.mSide {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  background: rgba(0, 0, 0, 0.28);
+  border: 1px solid rgba(185, 194, 189, 0.35);
+}
+
+.mSideHead,
+.mSideHeadOurs {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 4px 8px;
+  font-family: var(--font-head);
+  font-size: 13px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-bottom: 2px solid rgba(242, 234, 211, 0.45);
+}
+
+.mSideHead span:last-child,
+.mSideHeadOurs span:last-child {
+  font-size: 11px;
+  opacity: 0.6;
+}
+
+.mSideHeadOurs {
+  color: #e3b93f;
+}
+
+.mSlot,
+.mSlotAt,
+.mPitch {
+  display: grid;
+  grid-template-columns: 20px minmax(0, 1fr) 22px 36px;
   align-items: center;
-  margin-top: 2px;
+  gap: 3px;
+  height: 26px;
+  padding: 0 6px;
+  border-bottom: 1px solid rgba(242, 234, 211, 0.14);
+  font-family: var(--font-head);
+  font-size: 14px;
+  letter-spacing: 0.3px;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+/* The man at the plate is lit in the lineup. */
+.mSlotAt {
+  background: #e3b93f;
+  color: #0b2723;
+  border-bottom-color: #e3b93f;
+}
+
+.mPitch {
+  margin-top: auto;
+  border-top: 2px solid rgba(242, 234, 211, 0.45);
+  border-bottom: 0;
+  background: rgba(0, 0, 0, 0.22);
+}
+
+.mJersey {
+  text-align: right;
+  opacity: 0.7;
+}
+
+.mPlayer {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.mPos {
+  text-align: center;
+  font-size: 12px;
+  opacity: 0.8;
+}
+
+.mAvg {
+  text-align: right;
+}
+
+.mMid {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-width: 0;
+}
+
+.mBat,
+.mBatOff {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  padding: 8px 12px;
+  background: rgba(0, 0, 0, 0.28);
+  border: 1px solid rgba(185, 194, 189, 0.35);
+}
+
+.mBatHead {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  min-width: 0;
+}
+
+.mBatNum {
+  min-width: 64px;
+  text-align: right;
+  font-family: var(--font-head);
+  font-size: 62px;
+  line-height: 0.9;
+  color: #e3b93f;
+}
+
+.mBatName {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.mBatFirst {
+  min-height: 18px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  line-height: 1;
+  text-transform: uppercase;
+  opacity: 0.8;
+}
+
+.mBatLast {
+  min-height: 36px;
+  font-family: var(--font-head);
+  font-size: 36px;
+  line-height: 1;
+  text-transform: uppercase;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.mBatPos {
+  margin-left: auto;
+  font-family: var(--font-head);
+  font-size: 22px;
+  opacity: 0.8;
+}
+
+.mBatOff .mStatCell i {
+  opacity: 0.3;
+}
+
+.mStat4,
+.mStat8 {
+  display: grid;
+  gap: 4px;
+  text-align: center;
+}
+
+.mStat4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.mStat8 {
+  grid-template-columns: repeat(8, minmax(0, 1fr));
+}
+
+.mStatCell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1px;
+}
+
+.mStatCell i {
+  font-style: normal;
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: #e3b93f;
+  opacity: 0.85;
+}
+
+.mStatCell b {
+  min-height: 24px;
+  font-family: var(--font-head);
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1;
+}
+
+.mStat8 .mStatCell b {
+  min-height: 20px;
+  font-size: 19px;
+}
+
+.mLine {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.mGrid {
+  flex: 1;
+  min-width: 0;
+  display: grid;
+  grid-template-columns: 58px repeat(10, minmax(0, 1fr)) 34px 24px 24px;
+  column-gap: 2px;
+  row-gap: 4px;
+  align-items: center;
 }
 
 .mInn {
@@ -125,7 +342,7 @@
 .mTeamOurs {
   font-family: var(--font-head);
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: 13px;
   letter-spacing: 0.5px;
   line-height: 1;
   min-width: 0;
@@ -141,14 +358,15 @@
 }
 
 .mCell,
-.mCellCur {
+.mCellCur,
+.mStat {
   display: grid;
   place-items: center;
-  height: 28px;
+  height: 26px;
   background: linear-gradient(180deg, #0b2723, #07201c);
   border: 1px solid rgba(185, 194, 189, 0.6);
   font-family: var(--font-head);
-  font-size: clamp(13px, 2.2vw, 18px);
+  font-size: 16px;
   line-height: 1;
   color: #fffbe9;
 }
@@ -160,86 +378,49 @@
   color: #0b2723;
 }
 
-.mStat {
-  display: grid;
-  place-items: center;
-  height: 28px;
-  background: linear-gradient(180deg, #0b2723, #07201c);
-  border: 1px solid rgba(185, 194, 189, 0.6);
-  font-family: var(--font-head);
-  font-size: 16px;
-  line-height: 1;
-  color: #fffbe9;
-}
-
 .mRun {
   display: grid;
   place-items: center;
-  height: 34px;
+  height: 32px;
   background: linear-gradient(180deg, #0b2723, #07201c);
   border: 2px solid #b9c2bd;
   border-radius: 3px;
   font-family: var(--font-head);
-  font-size: 26px;
+  font-size: 22px;
   line-height: 1;
   color: #fffbe9;
   box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.5);
 }
 
-.mCounts {
+/* BALL STRIKE OUT, in numerals like the video board. Unlit: dark dashes. */
+.mBso {
   display: flex;
-  align-items: center;
-  gap: 18px;
-  padding: 10px 2px 4px;
+  gap: 6px;
 }
 
-.mCount {
-  display: inline-flex;
+.mBsoCol {
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: 4px;
+  min-width: 30px;
 }
 
-.mCountLabel {
-  font-family: var(--font-head);
-  font-size: 19px;
+.mBsoCol i {
+  font-style: normal;
+  font-size: 11px;
   letter-spacing: 1px;
-  margin-right: 4px;
+  opacity: 0.75;
 }
 
-.mBulb {
-  width: 17px;
-  height: 17px;
-  border-radius: 50%;
-  background: rgba(0, 0, 0, 0.45);
-  border: 1px solid rgba(185, 194, 189, 0.5);
-}
-
-/* Lit bulbs. Balls green, strikes amber, outs red: the ballpark convention. */
-.toneB {
-  background: #5fe05a;
-  border-color: #5fe05a;
-  box-shadow: 0 0 7px 1px rgba(95, 224, 90, 0.8);
-}
-
-.toneS {
-  background: #ffc531;
-  border-color: #ffc531;
-  box-shadow: 0 0 7px 1px rgba(255, 197, 49, 0.8);
-}
-
-.toneO {
-  background: #ff4b3e;
-  border-color: #ff4b3e;
-  box-shadow: 0 0 7px 1px rgba(255, 75, 62, 0.8);
-}
-
-.mHalf {
-  margin-left: auto;
+.mBsoCol b {
   font-family: var(--font-head);
-  font-size: 21px;
-  letter-spacing: 2px;
-  color: #e3b93f;
-  white-space: nowrap;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 1;
+}
+
+.mBsoOff b {
+  opacity: 0.18;
 }
 
 .mFoot {
@@ -261,6 +442,13 @@
 .mNote {
   flex: 1;
   opacity: 0.85;
+}
+
+.mHalf {
+  flex: 1;
+  color: #e3b93f;
+  font-family: var(--font-head);
+  letter-spacing: 2px;
 }
 
 /* ════════════════════════════════════════════════════════════════════════
@@ -1067,31 +1255,61 @@
 }
 
 /* ── Narrow screens ──────────────────────────────────────────────────── */
+/* Too narrow for lineups either side of the middle: batter on top, lineups side by side. */
+@media (max-width: 960px) {
+  .mFrame {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 8px;
+  }
+  .mMid {
+    grid-column: 1 / -1;
+    order: -1;
+  }
+}
+
 @media (max-width: 560px) {
+  .mSlot,
+  .mSlotAt,
+  .mPitch {
+    grid-template-columns: 18px minmax(0, 1fr) 20px 30px;
+    gap: 3px;
+    padding: 0 5px;
+    font-size: 12px;
+    letter-spacing: 0;
+  }
+  .mBatNum {
+    min-width: 44px;
+    font-size: 44px;
+  }
+  .mBatLast {
+    font-size: 28px;
+  }
+  .mStatCell b {
+    font-size: 20px;
+  }
+  .mStat8 .mStatCell b {
+    font-size: 15px;
+  }
+  .mLine {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
   .mGrid {
-    grid-template-columns: 58px repeat(10, minmax(0, 1fr)) 30px 20px 20px;
+    flex-basis: 100%;
+    grid-template-columns: 52px repeat(10, minmax(0, 1fr)) 30px 20px 20px;
     column-gap: 2px;
   }
-  .mCell,
-  .mCellCur {
-    font-size: 12px;
+  .mTeam,
+  .mTeamOurs {
+    font-size: 11px;
   }
+  .mCell,
+  .mCellCur,
   .mStat {
     font-size: 12px;
   }
   .mRun {
-    font-size: 20px;
-  }
-  .mTeam,
-  .mTeamOurs {
-    font-size: 13px;
-  }
-  .mBulb {
-    width: 14px;
-    height: 14px;
-  }
-  .mCounts {
-    gap: 10px;
+    font-size: 18px;
   }
   .sBody {
     grid-template-columns: minmax(0, 1fr);

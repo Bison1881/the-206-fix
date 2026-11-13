@@ -1,5 +1,5 @@
 import type { Team } from '../../lib/teams';
-import { boxHref, leagueCodeOf, type TeamScore } from '../../lib/espn';
+import { boxHref, leagueCodeOf, type LineupSlot, type TeamScore } from '../../lib/espn';
 
 /*
  * One normalized "what should the board say" shape, shared by every themed
@@ -23,12 +23,31 @@ export interface BoardRow {
   ours: boolean;
 }
 
+/** One club's side of the ballpark board: nine lineup slots and the pitcher. */
+export interface SideView {
+  lineup: LineupSlot[]; // always nine, blank slots when the lineup is not known
+  pitcher?: { name: string; era: string };
+  batterAt: number; // index of the man at the plate in this lineup, -1 if none
+}
+
+/** The man at the plate, as the centre of the board prints him. */
+export interface BatterView {
+  jersey: string;
+  first: string;
+  last: string;
+  pos: string;
+  top: { k: string; v: string }[]; // AVG HR RBI OPS
+  bottom: { k: string; v: string }[]; // G AB H XBH R BB OBP SLG
+}
+
 /** In-game detail, already arranged visitor-first like the rows. */
 export interface LiveView {
   periodLabel: string; // "7" | "3RD" | "2ND" | "OT" | "HALF"
   clock: string; // "4:12" ('' when the sport has none)
   half?: 'top' | 'bot' | 'mid' | 'end';
   bso?: { b: number | null; s: number | null; o: number | null }; // null = unknown (dark)
+  sides?: [SideView, SideView]; // by row, visitor first
+  batter?: BatterView;
   innings?: {
     labels: string[];
     lines: [string[], string[]];
@@ -99,7 +118,27 @@ function liveView(team: Team, score: TeamScore, ourRow: 0 | 1): LiveView | undef
     const batting = l.half === 'top' ? 0 : l.half === 'bot' ? 1 : undefined;
     const col = p != null ? p - first : -1;
     const live = score.status === 'live';
+    const blank: LineupSlot[] = Array.from({ length: 9 }, () => ({ jersey: '', name: '', pos: '', avg: '' }));
+    const bid = l.batter?.id;
+    const side = (lineup: LineupSlot[] | undefined, pitcher: { name: string; era: string } | undefined): SideView => {
+      const slots = lineup ?? blank;
+      return { lineup: slots, pitcher, batterAt: live && bid ? slots.findIndex((s) => s.id === bid) : -1 };
+    };
+    const st = l.batter?.stats ?? {};
+    const pick = (keys: [string, string][]) => keys.map(([k, label]) => ({ k: label, v: st[k] ?? '' }));
     return {
+      sides: byRow(side(l.lineupOurs, l.pitcherOurs), side(l.lineupOpp, l.pitcherOpp)),
+      batter:
+        live && l.batter
+          ? {
+              jersey: l.batter.jersey,
+              first: l.batter.first,
+              last: l.batter.last,
+              pos: l.batter.pos,
+              top: pick([['AVG', 'AVG'], ['HR', 'HR'], ['RBI', 'RBI'], ['OPS', 'OPS']]),
+              bottom: pick([['GP', 'G'], ['AB', 'AB'], ['H', 'H'], ['XBH', 'XBH'], ['R', 'R'], ['BB', 'BB'], ['OBP', 'OBP'], ['SLG', 'SLG']]),
+            }
+          : undefined,
       periodLabel: p != null ? String(p) : '',
       clock: '',
       half: l.half,

@@ -44,6 +44,30 @@ export type GameStatus =
  * fills them in sport by sport and only while a game is on, and a board shows
  * a dark (unlit) cell for anything that is missing rather than a made-up value.
  */
+/** One batting-order slot as the ballpark board shows it. */
+export interface LineupSlot {
+  id?: string;
+  jersey: string;
+  name: string; // last name
+  pos: string; // "SS"
+  avg: string; // season ".282"
+}
+
+export interface PitcherSlot {
+  name: string;
+  era: string;
+}
+
+/** The player at the plate, with season numbers (centre of the ballpark board). */
+export interface BatterCard {
+  id: string;
+  jersey: string;
+  first: string;
+  last: string;
+  pos: string;
+  stats: Record<string, string>; // ESPN labels: GP AB R H HR RBI BB AVG OBP SLG OPS XBH
+}
+
 export interface LiveSituation {
   period?: number; // inning | quarter | period
   clock?: string; // "4:12" (hockey / football)
@@ -66,6 +90,11 @@ export interface LiveSituation {
   hitsOpp?: number;
   errorsOurs?: number;
   errorsOpp?: number;
+  lineupOurs?: LineupSlot[]; // nine slots, batting order
+  lineupOpp?: LineupSlot[];
+  pitcherOurs?: PitcherSlot; // the pitcher now in the game
+  pitcherOpp?: PitcherSlot;
+  batter?: BatterCard; // live games only
 }
 
 export interface TeamScore {
@@ -303,6 +332,140 @@ const intOf = (v: unknown): number | undefined => {
   return typeof n === 'number' && Number.isFinite(n) ? n : undefined;
 };
 
+const lastNameOf = (short: string): string => {
+  const i = short.indexOf(' ');
+  return (i >= 0 ? short.slice(i + 1) : short).trim();
+};
+
+interface RosterInfo {
+  jersey: string;
+  first: string;
+  last: string;
+}
+
+interface SideParse {
+  lineup?: LineupSlot[];
+  pitcher?: PitcherSlot;
+  roster: Map<string, RosterInfo>;
+}
+
+/**
+ * One club's lineup and current pitcher from a baseball summary: batting order,
+ * positions and season AVG from the box score; jersey numbers from the roster.
+ * A substitute replaces whoever batted in that slot before (later entry wins).
+ */
+function parseSide(summary: any, teamId: string): SideParse {
+  const roster = new Map<string, RosterInfo>();
+  const ros = (Array.isArray(summary?.rosters) ? summary.rosters : []).find((r: any) => String(r?.team?.id) === teamId);
+  for (const e of Array.isArray(ros?.roster) ? ros.roster : []) {
+    const id = String(e?.athlete?.id ?? '');
+    if (!id) continue;
+    const full = String(e?.athlete?.fullName ?? e?.athlete?.displayName ?? '');
+    const last = String(e?.athlete?.lastName ?? '') || lastNameOf(String(e?.athlete?.shortName ?? full));
+    roster.set(id, { jersey: String(e?.jersey ?? ''), first: full.replace(last, '').trim(), last });
+  }
+  const box = (Array.isArray(summary?.boxscore?.players) ? summary.boxscore.players : []).find(
+    (p: any) => String(p?.team?.id) === teamId,
+  );
+  const groups: any[] = Array.isArray(box?.statistics) ? box.statistics : [];
+  const bat = groups.find((g) => g?.type === 'batting');
+  const pit = groups.find((g) => g?.type === 'pitching');
+
+  let lineup: LineupSlot[] | undefined;
+  if (bat) {
+    const iAvg = (Array.isArray(bat.labels) ? bat.labels : []).indexOf('AVG');
+    const byOrder = new Map<number, LineupSlot>();
+    for (const a of Array.isArray(bat.athletes) ? bat.athletes : []) {
+      const order = intOf(a?.batOrder);
+      if (order == null || order < 1 || order > 9) continue;
+      const id = String(a?.athlete?.id ?? '');
+      const r = roster.get(id);
+      const short = String(a?.athlete?.shortName ?? a?.athlete?.displayName ?? '');
+      byOrder.set(order, {
+        id: id || undefined,
+        jersey: r?.jersey ?? '',
+        name: r?.last || lastNameOf(short),
+        pos: String(a?.position?.abbreviation ?? a?.athlete?.position?.abbreviation ?? ''),
+        avg: iAvg >= 0 ? String(a?.stats?.[iAvg] ?? '') : '',
+      });
+    }
+    if (byOrder.size) {
+      lineup = Array.from({ length: 9 }, (_, i) => byOrder.get(i + 1) ?? { jersey: '', name: '', pos: '', avg: '' });
+    }
+  }
+
+  let pitcher: PitcherSlot | undefined;
+  const arms: any[] = Array.isArray(pit?.athletes) ? pit.athletes : [];
+  if (arms.length) {
+    const cur = arms[arms.length - 1];
+    const iEra = (Array.isArray(pit.labels) ? pit.labels : []).indexOf('ERA');
+    const short = String(cur?.athlete?.shortName ?? cur?.athlete?.displayName ?? '');
+    pitcher = { name: String(cur?.athlete?.lastName ?? '') || lastNameOf(short), era: iEra >= 0 ? String(cur?.stats?.[iEra] ?? '') : '' };
+  }
+  return { lineup, pitcher, roster };
+}
+
+const batterStats = new Map<string, Record<string, string>>();
+
+/**
+ * A batter's latest-season numbers from ESPN's player stats feed: the batting
+ * and expanded-batting tables, each row's `stats` aligned with the category's
+ * `labels`. Cached by player (a season line does not change within a game).
+ */
+async function fetchBatterStats(id: string): Promise<Record<string, string> | undefined> {
+  const hit = batterStats.get(id);
+  if (hit) return hit;
+  try {
+    const d: any = await getJson(
+      `https://site.web.api.espn.com/apis/common/v3/sports/baseball/mlb/athletes/${encodeURIComponent(id)}/stats`,
+    );
+    const out: Record<string, string> = {};
+    for (const cat of Array.isArray(d?.categories) ? d.categories : []) {
+      if (!/batting/.test(String(cat?.name ?? ''))) continue;
+      const labels: string[] = Array.isArray(cat?.labels) ? cat.labels : [];
+      const rows: any[] = Array.isArray(cat?.statistics) ? cat.statistics : [];
+      if (!rows.length) continue;
+      const row = rows.reduce(
+        (best, r) => ((intOf(r?.season?.year) ?? 0) >= (intOf(best?.season?.year) ?? 0) ? r : best),
+        rows[0],
+      );
+      labels.forEach((l, i) => {
+        if (!(l in out) && row?.stats?.[i] != null) out[l] = String(row.stats[i]);
+      });
+    }
+    if (!Object.keys(out).length) return undefined;
+    batterStats.set(id, out);
+    return out;
+  } catch {
+    return undefined;
+  }
+}
+
+/** The live batter (from `situation.batter`) with season stats; undefined if the feed has no batter. */
+async function buildBatter(raw: any, sides: SideParse[]): Promise<BatterCard | undefined> {
+  const id = String(raw?.playerId ?? raw?.athlete?.id ?? raw?.id ?? '');
+  if (!id || id === 'undefined') return undefined;
+  let slot: LineupSlot | undefined;
+  let info: RosterInfo | undefined;
+  for (const s of sides) {
+    slot = slot ?? s.lineup?.find((x) => x.id === id);
+    info = info ?? s.roster.get(id);
+  }
+  const ath = raw?.athlete ?? {};
+  const short = String(ath?.shortName ?? ath?.displayName ?? '');
+  const last = info?.last || slot?.name || String(ath?.lastName ?? '') || lastNameOf(short);
+  const full = String(ath?.fullName ?? ath?.displayName ?? '');
+  const stats = (await fetchBatterStats(id)) ?? {};
+  return {
+    id,
+    jersey: info?.jersey || slot?.jersey || String(ath?.jersey ?? ''),
+    first: info?.first || (full && full.includes(last) ? full.replace(last, '').trim() : ''),
+    last,
+    pos: slot?.pos || String(ath?.position?.abbreviation ?? ''),
+    stats,
+  };
+}
+
 /**
  * In-game detail for one live game (or a finished baseball game's line score).
  * The scoreboard endpoint carries the live `situation` (count, down and
@@ -314,6 +477,7 @@ async function fetchSituation(team: Team, eventId: string, live: boolean): Promi
   try {
     let comp: any;
     let sit: any;
+    let summary: any;
     if (live) {
       const d: any = await getJson(`${SITE}/${team.sport}/${team.league}/scoreboard`);
       const ev = (Array.isArray(d?.events) ? d.events : []).find((e: any) => String(e?.id) === eventId);
@@ -322,8 +486,17 @@ async function fetchSituation(team: Team, eventId: string, live: boolean): Promi
     }
     if (!comp) {
       const d: any = await getJson(`${SITE}/${team.sport}/${team.league}/summary?event=${encodeURIComponent(eventId)}`);
+      summary = d;
       comp = d?.header?.competitions?.[0];
       sit = comp?.situation ?? d?.situation;
+    }
+    // Lineups, pitchers and rosters live in the summary; a miss only costs the extras.
+    if (team.sport === 'baseball' && !summary) {
+      try {
+        summary = await getJson(`${SITE}/${team.sport}/${team.league}/summary?event=${encodeURIComponent(eventId)}`);
+      } catch {
+        summary = undefined;
+      }
     }
     const competitors: any[] = Array.isArray(comp?.competitors) ? comp.competitors : [];
     const ours = competitors.find((c) => String(c?.team?.id) === String(team.espnTeamId));
@@ -348,6 +521,10 @@ async function fetchSituation(team: Team, eventId: string, live: boolean): Promi
         : undefined;
 
     const oursHome = ours?.homeAway === 'home';
+    const sOurs = team.sport === 'baseball' ? parseSide(summary, String(ours?.team?.id)) : undefined;
+    const sOpp = team.sport === 'baseball' ? parseSide(summary, String(opp?.team?.id)) : undefined;
+    const batter =
+      team.sport === 'baseball' && live && sOurs && sOpp ? await buildBatter(sit?.batter, [sOurs, sOpp]) : undefined;
     const poss = sit?.possession != null ? String(sit.possession) : undefined;
     const ball: LiveSituation['ball'] =
       poss != null
@@ -399,6 +576,11 @@ async function fetchSituation(team: Team, eventId: string, live: boolean): Promi
       hitsOpp: intOf(opp?.hits),
       errorsOurs: intOf(ours?.errors),
       errorsOpp: intOf(opp?.errors),
+      lineupOurs: sOurs?.lineup,
+      lineupOpp: sOpp?.lineup,
+      pitcherOurs: sOurs?.pitcher,
+      pitcherOpp: sOpp?.pitcher,
+      batter,
     };
   } catch {
     return undefined;

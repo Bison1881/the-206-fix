@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import type { Team, TeamKey } from '../../lib/teams';
-import type { TeamScore } from '../../lib/espn';
-import { boardView, type BoardRow, type BoardView } from './view';
+import type { LineupSlot, TeamScore } from '../../lib/espn';
+import { boardView, type BatterView, type BoardRow, type BoardView, type SideView } from './view';
 import SevenSegment from './SevenSegment';
 import s from './ScoreBoard.module.css';
 
@@ -50,19 +50,62 @@ function BoxLink({ view }: { view: BoardView }) {
   );
 }
 
-/* ── Mariners: painted ballpark wall board ───────────────────────────── */
+/* ── Mariners: the T-Mobile Park video board, minus the pictures ─────── */
 const BLANK_INNINGS = Array.from({ length: 10 }, (_, i) => String(i + 1));
 const NO_RUNS = Array.from({ length: 10 }, () => '');
+const BLANK_SLOTS: LineupSlot[] = Array.from({ length: 9 }, () => ({ jersey: '', name: '', pos: '', avg: '' }));
+const TOP_KEYS = ['AVG', 'HR', 'RBI', 'OPS'];
+const BOTTOM_KEYS = ['G', 'AB', 'H', 'XBH', 'R', 'BB', 'OBP', 'SLG'];
 
-/** Ballpark count lamps: balls green, strikes amber, outs red. Dark = not lit. */
-function Count({ label, lit, of, tone }: { label: string; lit: number | null; of: number; tone: string }) {
+/** One club's lineup, with its pitcher at the foot. The man at the plate is lit. */
+function Lineup({ side, name, ours }: { side?: SideView; name: string; ours: boolean }) {
+  const slots = side?.lineup ?? BLANK_SLOTS;
   return (
-    <span className={s.mCount}>
-      <span className={s.mCountLabel}>{label}</span>
-      {Array.from({ length: of }, (_, i) => (
-        <span className={lit != null && i < lit ? `${s.mBulb} ${tone}` : s.mBulb} key={i} />
+    <div className={s.mSide}>
+      <div className={ours ? s.mSideHeadOurs : s.mSideHead}>
+        <span>{name}</span>
+        <span>AVG</span>
+      </div>
+      {slots.map((x, i) => (
+        <div className={side?.batterAt === i ? s.mSlotAt : s.mSlot} key={i}>
+          <span className={s.mJersey}>{x.jersey}</span>
+          <span className={s.mPlayer}>{x.name}</span>
+          <span className={s.mPos}>{x.pos}</span>
+          <span className={s.mAvg}>{x.avg}</span>
+        </div>
       ))}
-    </span>
+      <div className={s.mPitch}>
+        <span className={s.mJersey}>P</span>
+        <span className={s.mPlayer}>{side?.pitcher?.name ?? ''}</span>
+        <span className={s.mPos}>ERA</span>
+        <span className={s.mAvg}>{side?.pitcher?.era ?? ''}</span>
+      </div>
+    </div>
+  );
+}
+
+/** The batter's name and season numbers. No photo, no vitals. */
+function Batter({ b }: { b?: BatterView }) {
+  const cells = (keys: string[], got?: { k: string; v: string }[]) =>
+    keys.map((k) => (
+      <span className={s.mStatCell} key={k}>
+        <i>{k}</i>
+        <b>{got?.find((x) => x.k === k)?.v ?? ''}</b>
+      </span>
+    ));
+  return (
+    <div className={b ? s.mBat : s.mBatOff}>
+      <div className={s.mBatHead}>
+        <span className={s.mBatNum}>{b?.jersey || ''}</span>
+        <span className={s.mBatName}>
+          <span className={s.mBatFirst}>{b?.first ?? ''}</span>
+          <span className={s.mBatLast}>{b?.last ?? ''}</span>
+        </span>
+        <span className={s.mBatPos}>{b?.pos ?? ''}</span>
+      </div>
+      <div className={s.mStat4}>{cells(TOP_KEYS, b?.top)}</div>
+      <div className={s.mStat8}>{cells(BOTTOM_KEYS, b?.bottom)}</div>
+    </div>
   );
 }
 
@@ -71,57 +114,74 @@ function Mariners({ v }: { v: BoardView }) {
   const labels = inn?.labels ?? BLANK_INNINGS;
   const live = v.mode === 'live' ? v.live : undefined;
   const halfWord = live?.half === 'top' ? 'TOP' : live?.half === 'bot' ? 'BOT' : live?.half ? live.half.toUpperCase() : '';
+  const bso = live?.bso;
+  const count: [string, number | null | undefined][] = [
+    ['BALL', bso?.b],
+    ['STRIKE', bso?.s],
+    ['OUT', bso?.o],
+  ];
   return (
     <>
       <div className={s.mPlate}>
         <span>T-MOBILE PARK</span>
         <span>SEATTLE</span>
       </div>
-      <div className={s.mGrid}>
-        <span />
-        {labels.map((l) => (
-          <span className={s.mInn} key={l}>
-            {l}
-          </span>
-        ))}
-        <span className={s.mInn}>R</span>
-        <span className={s.mInn}>H</span>
-        <span className={s.mInn}>E</span>
-        {v.rows.map((r: BoardRow, i) => [
-          <span className={r.ours ? s.mTeamOurs : s.mTeam} key={`n${i}`}>
-            {r.name}
-          </span>,
-          ...(inn?.lines[i] ?? NO_RUNS).map((runs, k) => (
-            <span
-              className={inn?.cur && inn.cur.row === i && inn.cur.col === k ? s.mCellCur : s.mCell}
-              key={`c${i}-${k}`}
-            >
-              {runs}
-            </span>
-          )),
-          <span className={s.mRun} key={`r${i}`}>
-            {r.score}
-          </span>,
-          <span className={s.mStat} key={`h${i}`}>
-            {inn?.hits[i] ?? ''}
-          </span>,
-          <span className={s.mStat} key={`e${i}`}>
-            {inn?.errors[i] ?? ''}
-          </span>,
-        ])}
-      </div>
-      <div className={s.mCounts}>
-        <Count label="B" lit={live?.bso?.b ?? null} of={3} tone={s.toneB} />
-        <Count label="S" lit={live?.bso?.s ?? null} of={2} tone={s.toneS} />
-        <Count label="O" lit={live?.bso?.o ?? null} of={2} tone={s.toneO} />
-        <span className={s.mHalf}>{live ? `${halfWord} ${live.periodLabel}` : ''}</span>
+      <div className={s.mFrame}>
+        <Lineup side={v.live?.sides?.[0]} name={v.rows[0].name} ours={v.rows[0].ours} />
+        <div className={s.mMid}>
+          <Batter b={live?.batter} />
+          <div className={s.mLine}>
+            <div className={s.mGrid}>
+              <span />
+              {labels.map((l) => (
+                <span className={s.mInn} key={l}>
+                  {l}
+                </span>
+              ))}
+              <span className={s.mInn}>R</span>
+              <span className={s.mInn}>H</span>
+              <span className={s.mInn}>E</span>
+              {v.rows.map((r: BoardRow, i) => [
+                <span className={r.ours ? s.mTeamOurs : s.mTeam} key={`n${i}`}>
+                  {r.name}
+                </span>,
+                ...(inn?.lines[i] ?? NO_RUNS).map((runs, k) => (
+                  <span
+                    className={inn?.cur && inn.cur.row === i && inn.cur.col === k ? s.mCellCur : s.mCell}
+                    key={`c${i}-${k}`}
+                  >
+                    {runs}
+                  </span>
+                )),
+                <span className={s.mRun} key={`r${i}`}>
+                  {r.score}
+                </span>,
+                <span className={s.mStat} key={`h${i}`}>
+                  {inn?.hits[i] ?? ''}
+                </span>,
+                <span className={s.mStat} key={`e${i}`}>
+                  {inn?.errors[i] ?? ''}
+                </span>,
+              ])}
+            </div>
+            <div className={s.mBso}>
+              {count.map(([k, n]) => (
+                <span className={n == null ? `${s.mBsoCol} ${s.mBsoOff}` : s.mBsoCol} key={k}>
+                  <i>{k}</i>
+                  <b>{n ?? '–'}</b>
+                </span>
+              ))}
+            </div>
+          </div>
+        </div>
+        <Lineup side={v.live?.sides?.[1]} name={v.rows[1].name} ours={v.rows[1].ours} />
       </div>
       <div className={s.mFoot}>
         <span className={s.mStatus}>
           <Lamp on={v.mode === 'live'} />
           {v.status}
         </span>
-        {!live && <span className={s.mNote}>{v.note}</span>}
+        {live ? <span className={s.mHalf}>{`${halfWord} ${live.periodLabel}`}</span> : <span className={s.mNote}>{v.note}</span>}
         <BoxLink view={v} />
       </div>
     </>
