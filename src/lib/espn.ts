@@ -39,6 +39,30 @@ export type GameStatus =
   | 'returning'
   | 'unavailable';
 
+/**
+ * Extra in-game detail for the arena boards. Every field is optional: ESPN
+ * fills them in sport by sport and only while a game is on, and a board shows
+ * a dark (unlit) cell for anything that is missing rather than a made-up value.
+ */
+export interface LiveSituation {
+  period?: number; // inning | quarter | period
+  clock?: string; // "4:12" (hockey / football)
+  halftime?: boolean;
+  half?: 'top' | 'bot' | 'mid' | 'end'; // baseball
+  balls?: number;
+  strikes?: number;
+  outs?: number;
+  down?: number;
+  distance?: number;
+  downText?: string; // "2nd & 7"
+  spot?: string; // "SEA 35"
+  ball?: 'ours' | 'opp'; // football possession
+  timeoutsOurs?: number;
+  timeoutsOpp?: number;
+  linesOurs?: string[]; // per-inning runs
+  linesOpp?: string[];
+}
+
 export interface TeamScore {
   key: TeamKey;
   displayName: string;
@@ -52,6 +76,7 @@ export interface TeamScore {
   series?: { summary: string; results: ('W' | 'L')[] }; // playoffs only
   logoUrl?: string;
   eventId?: string; // ESPN event id — only set for live/final, i.e. when a box score exists
+  live?: LiveSituation; // in-game detail for the arena boards (live, or a baseball final)
   updatedAt: string; // ISO
 }
 
@@ -268,6 +293,103 @@ function dedupe(events: ParsedEvent[]): ParsedEvent[] {
   return events.filter((e) => (seen.has(e.id) ? false : (seen.add(e.id), true)));
 }
 
+const intOf = (v: unknown): number | undefined => {
+  const n = typeof v === 'string' && v.trim() !== '' ? Number(v) : v;
+  return typeof n === 'number' && Number.isFinite(n) ? n : undefined;
+};
+
+/**
+ * In-game detail for one live game (or a finished baseball game's line score).
+ * The scoreboard endpoint carries the live `situation` (count, down and
+ * distance, possession, timeouts); the summary endpoint is the fallback and
+ * the source for a finished game's per-inning runs. Never throws: any miss
+ * resolves to undefined and the board simply shows less.
+ */
+async function fetchSituation(team: Team, eventId: string, live: boolean): Promise<LiveSituation | undefined> {
+  try {
+    let comp: any;
+    let sit: any;
+    if (live) {
+      const d: any = await getJson(`${SITE}/${team.sport}/${team.league}/scoreboard`);
+      const ev = (Array.isArray(d?.events) ? d.events : []).find((e: any) => String(e?.id) === eventId);
+      comp = ev?.competitions?.[0];
+      sit = comp?.situation;
+    }
+    if (!comp) {
+      const d: any = await getJson(`${SITE}/${team.sport}/${team.league}/summary?event=${encodeURIComponent(eventId)}`);
+      comp = d?.header?.competitions?.[0];
+      sit = comp?.situation ?? d?.situation;
+    }
+    const competitors: any[] = Array.isArray(comp?.competitors) ? comp.competitors : [];
+    const ours = competitors.find((c) => String(c?.team?.id) === String(team.espnTeamId));
+    const opp = competitors.find((c) => c !== ours);
+    if (!ours || !opp) return undefined;
+
+    const status = comp?.status ?? {};
+    const detail = String(status?.type?.shortDetail ?? '').toLowerCase();
+    const half: LiveSituation['half'] = /^top/.test(detail)
+      ? 'top'
+      : /^(bot|bottom)/.test(detail)
+        ? 'bot'
+        : /^mid/.test(detail)
+          ? 'mid'
+          : /^end/.test(detail)
+            ? 'end'
+            : undefined;
+
+    const lines = (c: any): string[] | undefined =>
+      Array.isArray(c?.linescores)
+        ? c.linescores.map((l: any) => String(l?.displayValue ?? l?.value ?? ''))
+        : undefined;
+
+    const oursHome = ours?.homeAway === 'home';
+    const poss = sit?.possession != null ? String(sit.possession) : undefined;
+    const ball: LiveSituation['ball'] =
+      poss != null
+        ? poss === String(ours?.team?.id)
+          ? 'ours'
+          : poss === String(opp?.team?.id)
+            ? 'opp'
+            : undefined
+        : ours?.possession === true
+          ? 'ours'
+          : opp?.possession === true
+            ? 'opp'
+            : undefined;
+
+    const down = intOf(sit?.down);
+    const distance = intOf(sit?.distance);
+    const downText: string | undefined =
+      sit?.shortDownDistanceText ??
+      (down != null && down > 0 && distance != null ? `${ORD[down] ?? down} & ${distance}` : undefined);
+    const spotRaw: string | undefined = sit?.possessionText ?? sit?.downDistanceText;
+    const spot = spotRaw && / at /i.test(spotRaw) ? spotRaw.split(/ at /i).pop() : undefined;
+
+    return {
+      period: intOf(status?.period),
+      clock: typeof status?.displayClock === 'string' ? status.displayClock : undefined,
+      halftime: /halftime/i.test(String(status?.type?.name ?? '')) || /half/i.test(detail),
+      half,
+      balls: intOf(sit?.balls),
+      strikes: intOf(sit?.strikes),
+      outs: intOf(sit?.outs),
+      down,
+      distance,
+      downText,
+      spot,
+      ball,
+      timeoutsOurs: intOf(oursHome ? sit?.homeTimeouts : sit?.awayTimeouts),
+      timeoutsOpp: intOf(oursHome ? sit?.awayTimeouts : sit?.homeTimeouts),
+      linesOurs: lines(ours),
+      linesOpp: lines(opp),
+    };
+  } catch {
+    return undefined;
+  }
+}
+
+const ORD: Record<number, string> = { 1: '1st', 2: '2nd', 3: '3rd', 4: '4th' };
+
 /**
  * Normalized score for one team. Never throws: a returning team short-circuits
  * with no fetch, and any fetch/parse failure resolves to an `unavailable` tile
@@ -303,7 +425,13 @@ export async function fetchTeamScore(team: Team): Promise<TeamScore> {
       }
     }
 
-    return build(team, chosen.status, chosen.event);
+    const score = build(team, chosen.status, chosen.event);
+    // The arena boards want more than the score: only reach for it while a game
+    // is on (or for a finished baseball line score), to stay gentle (spec §7).
+    const wantsDetail =
+      !!score.eventId && (score.status === 'live' || (score.status === 'final' && team.sport === 'baseball'));
+    if (wantsDetail) score.live = await fetchSituation(team, score.eventId!, score.status === 'live');
+    return score;
   } catch {
     return unavailable(team);
   }

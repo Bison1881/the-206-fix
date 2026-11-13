@@ -20,20 +20,6 @@ type Props = { team: Team; score?: TeamScore };
 
 const NO_BREAK = ' ';
 
-/** Painted number tiles (Mariners). Dark tiles stay when there is no score. */
-function Tiles({ value, n = 2 }: { value: string; n?: number }) {
-  const cells = value.padStart(n, ' ').slice(-n).split('');
-  return (
-    <span className={s.tiles} aria-hidden="true">
-      {cells.map((c, i) => (
-        <span className={s.tile} key={i}>
-          {c === ' ' ? NO_BREAK : c}
-        </span>
-      ))}
-    </span>
-  );
-}
-
 /** Split-flap tiles (Reign): one character per tile, hinge across the middle. */
 function Flip({ text, n, align = 'left' }: { text: string; n: number; align?: 'left' | 'right' }) {
   // Too long for the tiles: prefer the first word ("NORTH") over a ragged cut.
@@ -65,27 +51,77 @@ function BoxLink({ view }: { view: BoardView }) {
 }
 
 /* ── Mariners: painted ballpark wall board ───────────────────────────── */
+const BLANK_INNINGS = Array.from({ length: 10 }, (_, i) => String(i + 1));
+const NO_RUNS = Array.from({ length: 10 }, () => '');
+
+/** Ballpark count lamps: balls green, strikes amber, outs red. Dark = not lit. */
+function Count({ label, lit, of, tone }: { label: string; lit: number | null; of: number; tone: string }) {
+  return (
+    <span className={s.mCount}>
+      <span className={s.mCountLabel}>{label}</span>
+      {Array.from({ length: of }, (_, i) => (
+        <span className={lit != null && i < lit ? `${s.mBulb} ${tone}` : s.mBulb} key={i} />
+      ))}
+    </span>
+  );
+}
+
 function Mariners({ v }: { v: BoardView }) {
+  const inn = v.live?.innings;
+  const labels = inn?.labels ?? BLANK_INNINGS;
+  const live = v.mode === 'live' ? v.live : undefined;
+  const halfWord = live?.half === 'top' ? 'TOP' : live?.half === 'bot' ? 'BOT' : live?.half ? live.half.toUpperCase() : '';
   return (
     <>
       <div className={s.mPlate}>
         <span>T-MOBILE PARK</span>
         <span>SEATTLE</span>
       </div>
-      <div className={s.mRows}>
-        {v.rows.map((r: BoardRow, i) => (
-          <div className={r.ours ? s.mRowOurs : s.mRow} key={i}>
-            <span className={s.mName}>{r.name}</span>
-            <Tiles value={r.score} />
-          </div>
+      <div className={s.mGrid}>
+        <span />
+        {labels.map((l) => (
+          <span className={s.mInn} key={l}>
+            {l}
+          </span>
         ))}
+        <span className={s.mInn}>R</span>
+        {v.rows.map((r: BoardRow, i) => [
+          <span className={r.ours ? s.mTeamOurs : s.mTeam} key={`n${i}`}>
+            {r.name}
+          </span>,
+          ...(inn?.lines[i] ?? NO_RUNS).map((runs, k) => (
+            <span
+              className={inn?.cur && inn.cur.row === i && inn.cur.col === k ? s.mCellCur : s.mCell}
+              key={`c${i}-${k}`}
+            >
+              {runs}
+            </span>
+          )),
+          <span className={s.mRun} key={`r${i}`}>
+            {r.score}
+          </span>,
+        ])}
       </div>
+      {live && (
+        <div className={s.mCounts}>
+          {live.bso && (
+            <>
+              <Count label="B" lit={live.bso.b} of={3} tone={s.toneB} />
+              <Count label="S" lit={live.bso.s} of={2} tone={s.toneS} />
+              <Count label="O" lit={live.bso.o} of={2} tone={s.toneO} />
+            </>
+          )}
+          <span className={s.mHalf}>
+            {halfWord} {live.periodLabel}
+          </span>
+        </div>
+      )}
       <div className={s.mFoot}>
         <span className={s.mStatus}>
           <Lamp on={v.mode === 'live'} />
           {v.status}
         </span>
-        <span className={s.mNote}>{v.note}</span>
+        {!live && <span className={s.mNote}>{v.note}</span>}
         <BoxLink view={v} />
       </div>
     </>
@@ -93,8 +129,29 @@ function Mariners({ v }: { v: BoardView }) {
 }
 
 /* ── Seahawks: stadium LED, GUEST over HOME ──────────────────────────── */
+function FootballIcon() {
+  return (
+    <svg className={s.sBall} viewBox="0 0 24 14" role="img" aria-label="Has the ball">
+      <ellipse cx="12" cy="7" rx="11" ry="6" fill="#8a4b1f" stroke="#e8c9a0" strokeWidth="1" />
+      <path d="M7 7h10M10 4.6v4.8M12 4.4v5.2M14 4.6v4.8" stroke="#f4ead8" strokeWidth="1" fill="none" />
+    </svg>
+  );
+}
+
+/** Three timeout dots under a team: lit = remaining, dark = used or unknown. */
+function Timeouts({ left }: { left: number | null }) {
+  return (
+    <span className={s.sTimeouts} role="img" aria-label={left == null ? 'Timeouts unknown' : `${left} timeouts left`}>
+      {[0, 1, 2].map((i) => (
+        <span className={left != null && i < left ? s.sTimeoutOn : s.sTimeout} key={i} />
+      ))}
+    </span>
+  );
+}
+
 function Seahawks({ v }: { v: BoardView }) {
   const labels = ['GUEST', 'HOME'];
+  const live = v.mode === 'live' ? v.live : undefined;
   return (
     <>
       <div className={s.sHead}>
@@ -106,7 +163,13 @@ function Seahawks({ v }: { v: BoardView }) {
           {v.rows.map((r: BoardRow, i) => (
             <div className={r.ours ? s.sRowOurs : s.sRow} key={i}>
               <span className={s.sLabel}>{labels[i]}</span>
-              <span className={s.sName}>{r.name}</span>
+              <span className={s.sTeamCell}>
+                <span className={s.sNameLine}>
+                  <span className={s.sBallSlot}>{live?.ballRow === i ? <FootballIcon /> : null}</span>
+                  <span className={s.sName}>{r.name}</span>
+                </span>
+                {live?.timeouts && <Timeouts left={live.timeouts[i]} />}
+              </span>
               <span className={s.sScore}>
                 <SevenSegment value={r.score} digits={2} />
               </span>
@@ -118,7 +181,16 @@ function Seahawks({ v }: { v: BoardView }) {
             <Lamp on={v.mode === 'live'} />
             {v.status}
           </span>
-          <span className={s.sNote}>{v.note}</span>
+          {live ? (
+            <>
+              <span className={s.sQtr}>{live.periodLabel || '—'}</span>
+              <span className={s.sClock}>{live.clock || '—'}</span>
+              <span className={s.sDown}>{live.downText ?? ''}</span>
+              {live.spot && <span className={s.sSpot}>BALL ON {live.spot}</span>}
+            </>
+          ) : (
+            <span className={s.sNote}>{v.note}</span>
+          )}
         </div>
       </div>
       <BoxLink view={v} />
@@ -127,6 +199,9 @@ function Seahawks({ v }: { v: BoardView }) {
 }
 
 /* ── Kraken: arena board hung from the rafters ───────────────────────── */
+/** "8:41" -> "08:41" so the board always shows the same four digits. */
+const padClock = (c: string) => (/^\d:/.test(c) ? `0${c}` : c);
+
 function Kraken({ v }: { v: BoardView }) {
   return (
     <>
@@ -147,9 +222,21 @@ function Kraken({ v }: { v: BoardView }) {
           </div>
         ))}
       </div>
+      {v.mode === 'live' && v.live && (
+        <div className={s.kClockBar}>
+          <span className={s.kPeriod}>
+            <span className={s.kPeriodLabel}>PERIOD</span>
+            <span className={s.kPeriodValue}>{v.live.periodLabel || '—'}</span>
+          </span>
+          <span className={s.kClock}>
+            <span className={s.kPeriodLabel}>TIME</span>
+            <SevenSegment value={padClock(v.live.clock)} digits={Math.max(padClock(v.live.clock).length, 4)} />
+          </span>
+        </div>
+      )}
       <div className={s.kFoot}>
         <span className={s.kStatus}>{v.status}</span>
-        <span>{v.note}</span>
+        {v.mode !== 'live' && <span>{v.note}</span>}
         <BoxLink view={v} />
       </div>
     </>

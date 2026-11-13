@@ -43,6 +43,9 @@ export default function SevenSegment({ value, digits = 3 }: { value: string; dig
   return (
     <span className={s.digits} aria-hidden="true">
       {cells.map((ch, i) => {
+        // A clock colon or decimal point is a narrow cell, not a digit.
+        if (ch === ':') return <span className={s.colon} key={i} />;
+        if (ch === '.') return <span className={s.dot} key={i} />;
         const on = LIT[ch] ?? '';
         return (
           <svg className={s.digit} viewBox="0 0 44 80" key={i}>

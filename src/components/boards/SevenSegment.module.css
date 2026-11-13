@@ -21,3 +21,33 @@
 .off {
   fill: var(--seg-off, rgba(255, 255, 255, 0.08));
 }
+
+/* Clock separators: two dots for a colon, one low dot for a decimal point. */
+.colon,
+.dot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 0.2em;
+  flex: none;
+}
+
+.colon {
+  justify-content: center;
+  gap: 0.22em;
+}
+
+.dot {
+  justify-content: flex-end;
+  padding-bottom: 0.06em;
+}
+
+.colon::before,
+.colon::after,
+.dot::before {
+  content: '';
+  width: 0.1em;
+  height: 0.1em;
+  background: var(--seg-on, #7dff3a);
+  box-shadow: 0 0 3px var(--seg-glow, currentColor);
+}

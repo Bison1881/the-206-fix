@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { TEAMS, type Team } from '../lib/teams';
-import type { TeamScore } from '../lib/espn';
+import type { LiveSituation, TeamScore } from '../lib/espn';
 import PageMeta from '../components/PageMeta';
 import ScoreBoard from '../components/boards/ScoreBoard';
 import s from './BoardsPage.module.css';
@@ -32,6 +32,25 @@ const GAME: Record<string, { opp: string; clock: string; us: number; them: numbe
   reign: { opp: 'North Carolina', clock: "74'", us: 0, them: 1, home: false },
 };
 
+// In-game detail for the live fixtures (the real feed supplies this only while a game is on).
+const LIVE: Record<string, LiveSituation> = {
+  mariners: {
+    period: 7, half: 'bot', balls: 2, strikes: 1, outs: 1,
+    linesOurs: ['1', '0', '0', '3', '0', '0', '3'], linesOpp: ['0', '0', '1', '0', '0', '2', '0'],
+  },
+  seahawks: {
+    period: 3, clock: '4:12', down: 2, distance: 7, downText: '2nd & 7', spot: 'SEA 35', ball: 'ours',
+    timeoutsOurs: 2, timeoutsOpp: 3,
+  },
+  kraken: { period: 2, clock: '8:41' },
+};
+
+// A ten-inning final, to show the board with its tenth box in use.
+const MARINERS_FINAL: LiveSituation = {
+  linesOurs: ['1', '0', '0', '0', '2', '0', '0', '0', '0', '1'],
+  linesOpp: ['0', '0', '1', '0', '0', '2', '0', '0', '0', '0'],
+};
+
 function fixture(team: Team, state: State): TeamScore | undefined {
   if (state === 'loading') return undefined;
   const base = { key: team.id, displayName: team.name, updatedAt: '2026-11-13T00:00:00Z' };
@@ -43,13 +62,16 @@ function fixture(team: Team, state: State): TeamScore | undefined {
     case 'live':
       return {
         ...base, status: 'live', opponent: g.opp, teamScore: g.us, oppScore: g.them, isHome: g.home,
-        detail: g.clock, eventId: '1',
+        detail: g.clock, eventId: '1', live: LIVE[team.id],
         series: team.id === 'kraken' ? { summary: 'Hurricanes lead series 2-1', results: [] } : undefined,
       };
     case 'final':
       return {
-        ...base, status: 'final', opponent: g.opp, teamScore: g.us, oppScore: g.them, isHome: g.home,
-        detail: team.id === 'mariners' ? 'Final/10' : 'Final', eventId: '1',
+        ...base, status: 'final', opponent: g.opp, isHome: g.home, eventId: '1',
+        teamScore: team.id === 'mariners' ? 4 : g.us,
+        oppScore: team.id === 'mariners' ? 3 : g.them,
+        detail: team.id === 'mariners' ? 'Final/10' : 'Final',
+        live: team.id === 'mariners' ? MARINERS_FINAL : undefined,
       };
     case 'next':
       return { ...base, status: 'scheduled', opponent: g.opp, isHome: g.home, detail: 'Mon 07:05' };

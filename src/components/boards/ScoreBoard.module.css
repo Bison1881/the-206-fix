@@ -104,26 +104,29 @@
   padding-bottom: 5px;
 }
 
-.mRows {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  margin-top: 4px;
-}
-
-.mRow,
-.mRowOurs {
-  display: flex;
+.mGrid {
+  display: grid;
+  grid-template-columns: minmax(0, 7.6ch) repeat(10, minmax(0, 1fr)) 2.5rem;
+  column-gap: 3px;
+  row-gap: 5px;
   align-items: center;
-  justify-content: space-between;
-  gap: 12px;
+  margin-top: 2px;
 }
 
-.mName {
+.mInn {
+  text-align: center;
+  font-family: var(--font-head);
+  font-size: 12px;
+  letter-spacing: 0;
+  opacity: 0.75;
+}
+
+.mTeam,
+.mTeamOurs {
   font-family: var(--font-head);
   text-transform: uppercase;
-  font-size: clamp(22px, 3.4vw, 32px);
-  letter-spacing: 2px;
+  font-size: clamp(14px, 2.3vw, 17px);
+  letter-spacing: 1px;
   line-height: 1;
   min-width: 0;
   overflow: hidden;
@@ -132,31 +135,99 @@
 }
 
 /* The home club's name is painted brighter, with a gold underline stripe. */
-.mRowOurs .mName {
+.mTeamOurs {
   border-bottom: 3px solid #e3b93f;
   padding-bottom: 2px;
 }
 
-.tiles {
-  display: inline-flex;
-  gap: 4px;
-  flex: none;
+.mCell,
+.mCellCur {
+  display: grid;
+  place-items: center;
+  height: 28px;
+  background: linear-gradient(180deg, #0b2723, #07201c);
+  border: 1px solid rgba(185, 194, 189, 0.6);
+  font-family: var(--font-head);
+  font-size: clamp(13px, 2.2vw, 18px);
+  line-height: 1;
+  color: #fffbe9;
 }
 
-.tile {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 38px;
-  height: 52px;
+/* The inning being played, on the batting club's line. */
+.mCellCur {
+  background: #e3b93f;
+  border-color: #e3b93f;
+  color: #0b2723;
+}
+
+.mRun {
+  display: grid;
+  place-items: center;
+  height: 34px;
   background: linear-gradient(180deg, #0b2723, #07201c);
   border: 2px solid #b9c2bd;
   border-radius: 3px;
   font-family: var(--font-head);
-  font-size: 40px;
+  font-size: 26px;
   line-height: 1;
   color: #fffbe9;
   box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.5);
+}
+
+.mCounts {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding-top: 4px;
+}
+
+.mCount {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.mCountLabel {
+  font-family: var(--font-head);
+  font-size: 15px;
+  letter-spacing: 1px;
+  margin-right: 3px;
+}
+
+.mBulb {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.45);
+  border: 1px solid rgba(185, 194, 189, 0.5);
+}
+
+/* Lit bulbs. Balls green, strikes amber, outs red: the ballpark convention. */
+.toneB {
+  background: #5fe05a;
+  border-color: #5fe05a;
+  box-shadow: 0 0 7px 1px rgba(95, 224, 90, 0.8);
+}
+
+.toneS {
+  background: #ffc531;
+  border-color: #ffc531;
+  box-shadow: 0 0 7px 1px rgba(255, 197, 49, 0.8);
+}
+
+.toneO {
+  background: #ff4b3e;
+  border-color: #ff4b3e;
+  box-shadow: 0 0 7px 1px rgba(255, 75, 62, 0.8);
+}
+
+.mHalf {
+  margin-left: auto;
+  font-family: var(--font-head);
+  font-size: 17px;
+  letter-spacing: 2px;
+  color: #e3b93f;
+  white-space: nowrap;
 }
 
 .mFoot {
@@ -222,7 +293,7 @@
 
 .sBody {
   display: grid;
-  grid-template-columns: 1fr minmax(92px, 28%);
+  grid-template-columns: minmax(0, 1fr) minmax(104px, 30%);
   gap: 12px;
   align-items: stretch;
   flex: 1;
@@ -238,7 +309,7 @@
 .sRow,
 .sRowOurs {
   display: grid;
-  grid-template-columns: 44px 1fr auto;
+  grid-template-columns: 40px minmax(0, 1fr) auto;
   align-items: center;
   gap: 8px;
 }
@@ -264,6 +335,84 @@
   color: #69d12a;
 }
 
+.sTeamCell {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+}
+
+.sNameLine {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  min-width: 0;
+}
+
+/* A fixed slot, so names line up whether or not the ball is there. */
+.sBallSlot {
+  flex: none;
+  width: 20px;
+  height: 12px;
+  display: block;
+}
+
+.sBall {
+  display: block;
+  width: 20px;
+  height: 12px;
+  filter: drop-shadow(0 0 3px rgba(255, 200, 120, 0.55));
+}
+
+.sTimeouts {
+  display: inline-flex;
+  gap: 5px;
+  padding-left: 25px;
+}
+
+.sTimeout,
+.sTimeoutOn {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.sTimeoutOn {
+  background: #ffd84a;
+  box-shadow: 0 0 6px 1px rgba(255, 216, 74, 0.75);
+}
+
+.sQtr {
+  font-family: var(--font-head);
+  font-size: 22px;
+  letter-spacing: 2px;
+  line-height: 1;
+  color: #e8f6d8;
+}
+
+.sClock {
+  font-size: 34px;
+  line-height: 0.9;
+  color: #ffd84a;
+  text-shadow: 0 0 8px rgba(255, 216, 74, 0.55);
+}
+
+.sDown {
+  font-size: 22px;
+  line-height: 1;
+  color: #69d12a;
+  letter-spacing: 1px;
+  white-space: nowrap;
+}
+
+.sSpot {
+  font-size: 14px;
+  letter-spacing: 1px;
+  opacity: 0.75;
+  white-space: nowrap;
+}
+
 .sScore {
   font-size: 46px;
   color: #69d12a;
@@ -274,7 +423,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 8px;
+  gap: 6px;
   padding: 8px 10px;
   background: #050f20;
   border: 2px solid #2b3747;
@@ -383,6 +532,45 @@
   font-size: 50px;
   line-height: 1;
   color: #aef2ff;
+}
+
+.kClockBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 6px 6px 2px;
+  border-top: 2px solid rgba(156, 194, 209, 0.35);
+}
+
+.kPeriod,
+.kClock {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.kPeriodLabel {
+  font-size: 13px;
+  letter-spacing: 2px;
+  opacity: 0.65;
+}
+
+.kPeriodValue {
+  font-family: var(--font-head);
+  font-size: 30px;
+  line-height: 1;
+  letter-spacing: 2px;
+  color: #aef2ff;
+  text-shadow: 0 0 8px rgba(120, 225, 255, 0.7);
+}
+
+.kClock {
+  font-size: 30px; /* sizes the seven-segment digits (1em tall) */
+}
+
+.kClock .kPeriodLabel {
+  font-size: 13px;
 }
 
 .kFoot {
@@ -785,18 +973,22 @@
 
 /* ── Narrow screens ──────────────────────────────────────────────────── */
 @media (max-width: 560px) {
-  .tile {
-    width: 32px;
-    height: 46px;
-    font-size: 34px;
+  .mGrid {
+    grid-template-columns: minmax(0, 6.4ch) repeat(10, minmax(0, 1fr)) 2.1rem;
+    column-gap: 2px;
+  }
+  .mCounts {
+    gap: 10px;
   }
   .sBody {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
   }
   .sInfo {
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    gap: 4px 14px;
   }
   .stBody {
     grid-template-columns: 1fr 1fr;
