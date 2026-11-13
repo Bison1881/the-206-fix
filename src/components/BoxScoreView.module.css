@@ -97,6 +97,7 @@
 .linescore td.num {
   text-align: right;
   padding-left: 12px;
+  padding-right: 4px;
   min-width: 1.6ch;
 }
 
@@ -105,7 +106,7 @@
 .linescore th.total,
 .linescore td.total {
   text-align: right;
-  padding-left: 14px;
+  padding-left: 16px;
   min-width: 1.8ch;
   font-weight: 700;
 }
@@ -179,6 +180,10 @@
 
 .evTeam {
   min-width: 4ch;
+  font-weight: 700;
+}
+
+.goal {
   font-weight: 700;
 }
 

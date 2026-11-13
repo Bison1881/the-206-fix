@@ -7,11 +7,19 @@ import s from './BoxScoreView.module.css';
  * `BoxScore` — it never sees an ESPN object.
  */
 
+// Dated in Seattle's time, whatever the reader's clock says: a 7pm game in
+// Seattle is the same game on the same date for a reader in Brisbane.
 function fmtDate(iso?: string): string {
   if (!iso) return '';
   const d = new Date(iso);
   if (Number.isNaN(d.getTime())) return '';
-  return d.toLocaleDateString(undefined, { weekday: 'short', month: 'short', day: 'numeric', year: 'numeric' });
+  return d.toLocaleDateString('en-US', {
+    weekday: 'short',
+    month: 'short',
+    day: 'numeric',
+    year: 'numeric',
+    timeZone: 'America/Los_Angeles',
+  });
 }
 
 function Name({ line }: { line: BoxLine }) {

@@ -743,6 +743,9 @@ function parseGroup(g: any, picks: string[] | undefined): BoxTable | null {
   const idx = labels
     .map((l, i) => ({ l, i }))
     .filter(({ l }) => (picks ? picks.includes(l) : l !== 'H-AB'));
+  // With an explicit pick list, print in the pick order (newspaper convention:
+  // hockey leads with G A, not ESPN's TOI-first order).
+  if (picks) idx.sort((a, b) => picks.indexOf(a.l) - picks.indexOf(b.l));
   if (!idx.length) return null;
 
   const rows = athletes
@@ -776,10 +779,11 @@ function soccerEvents(d: any, idToAbbr: Map<string, string>): BoxEvent[] {
     const who: string[] = (Array.isArray(e?.participants) ? e.participants : [])
       .map((p: any) => p?.athlete?.displayName)
       .filter(Boolean);
-    const how = type.includes(' - ') ? type.split(' - ')[1] : '';
+    const how = type.includes(' - ') ? type.split(' - ')[1].toLowerCase() : '';
+    // Lead with what happened, so a goal can't be mistaken for a booking.
     const text = isGoal
-      ? `${who[0] ?? 'Goal'}${how ? `, ${how.toLowerCase()}` : ''}${who[1] ? ` (assist: ${who[1]})` : ''}`
-      : `${who[0] ?? 'Player'} (${type.toLowerCase()})`;
+      ? `Goal: ${who[0] ?? 'unknown'}${how ? ` (${how})` : ''}${who[1] ? `, assist ${who[1]}` : ''}`
+      : `${type}: ${who[0] ?? 'unknown'}`;
     out.push({
       clock: String(e?.clock?.displayValue ?? ''),
       teamAbbr: idToAbbr.get(String(e?.team?.id)),
@@ -864,11 +868,12 @@ export async function fetchBoxScore(leagueCode: string, eventId: string): Promis
         if (starters.length) {
           tables.push({
             title: `Starting XI${r?.formation ? ` · ${r.formation}` : ''}`,
-            columns: ['#'],
+            columns: [],
             rows: starters.map((x: any) => ({
-              name: String(x?.athlete?.shortName ?? x?.athlete?.displayName ?? '—'),
+              // Shirt number leads the name, as in a printed lineup.
+              name: `${x?.jersey ? `${x.jersey}  ` : ''}${String(x?.athlete?.shortName ?? x?.athlete?.displayName ?? '—')}`,
               pos: x?.position?.abbreviation ?? x?.athlete?.position?.abbreviation,
-              cells: [String(x?.jersey ?? '')],
+              cells: [],
             })),
           });
         }
