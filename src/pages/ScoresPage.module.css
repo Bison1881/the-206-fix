@@ -33,6 +33,20 @@
   gap: 22px;
 }
 
+/* Shown only with ?demo=live. */
+.demo {
+  font-family: var(--font-term);
+  font-size: 20px;
+  margin: 0 0 14px;
+  padding: 4px 10px;
+  border: 1px dashed var(--teal);
+  color: var(--teal);
+}
+
+.demo a {
+  text-decoration: underline;
+}
+
 /* ── Links ───────────────────────────────────────────────────────────── */
 .more {
   font-family: var(--font-term);
