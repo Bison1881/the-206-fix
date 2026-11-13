@@ -364,6 +364,14 @@
   filter: drop-shadow(0 0 3px rgba(255, 200, 120, 0.55));
 }
 
+.sBallOff {
+  display: block;
+  width: 20px;
+  height: 12px;
+  opacity: 0.16;
+  filter: grayscale(1);
+}
+
 .sTimeouts {
   display: inline-flex;
   gap: 5px;
@@ -422,6 +430,53 @@
   letter-spacing: 1px;
   opacity: 0.75;
   white-space: nowrap;
+}
+
+/* The same readouts with the power off: ghost glyphs, no glow. */
+.sQtrOff,
+.sClockOff,
+.sDownOff,
+.sSpotOff {
+  color: rgba(207, 217, 230, 0.2);
+  text-shadow: none;
+  white-space: nowrap;
+}
+
+.sQtrOff {
+  font-family: var(--font-head);
+  font-size: 22px;
+  letter-spacing: 2px;
+  line-height: 1;
+}
+
+.sClockOff {
+  font-size: 34px;
+  line-height: 0.9;
+}
+
+.sDownOff {
+  font-size: 22px;
+  line-height: 1;
+  letter-spacing: 1px;
+}
+
+.sSpotOff {
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.sFoot {
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+  font-size: 19px;
+  letter-spacing: 1px;
+  opacity: 0.85;
+}
+
+.sFoot .boxLink {
+  margin: 0 0 0 auto;
+  align-self: auto;
 }
 
 .sScore {
@@ -552,6 +607,23 @@
   gap: 12px;
   padding: 6px 6px 2px;
   border-top: 2px solid rgba(156, 194, 209, 0.35);
+}
+
+.kClockBarOff {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 6px 6px 2px;
+  border-top: 2px solid rgba(156, 194, 209, 0.35);
+  /* Power off: the colon and period read as ghosts, not lit. */
+  --seg-on: rgba(174, 242, 255, 0.09);
+  --seg-glow: transparent;
+}
+
+.kClockBarOff .kPeriodValue {
+  color: rgba(174, 242, 255, 0.14);
+  text-shadow: none;
 }
 
 .kPeriod,

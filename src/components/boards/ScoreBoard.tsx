@@ -102,20 +102,12 @@ function Mariners({ v }: { v: BoardView }) {
           </span>,
         ])}
       </div>
-      {live && (
-        <div className={s.mCounts}>
-          {live.bso && (
-            <>
-              <Count label="B" lit={live.bso.b} of={3} tone={s.toneB} />
-              <Count label="S" lit={live.bso.s} of={2} tone={s.toneS} />
-              <Count label="O" lit={live.bso.o} of={2} tone={s.toneO} />
-            </>
-          )}
-          <span className={s.mHalf}>
-            {halfWord} {live.periodLabel}
-          </span>
-        </div>
-      )}
+      <div className={s.mCounts}>
+        <Count label="B" lit={live?.bso?.b ?? null} of={3} tone={s.toneB} />
+        <Count label="S" lit={live?.bso?.s ?? null} of={2} tone={s.toneS} />
+        <Count label="O" lit={live?.bso?.o ?? null} of={2} tone={s.toneO} />
+        <span className={s.mHalf}>{live ? `${halfWord} ${live.periodLabel}` : ''}</span>
+      </div>
       <div className={s.mFoot}>
         <span className={s.mStatus}>
           <Lamp on={v.mode === 'live'} />
@@ -129,9 +121,13 @@ function Mariners({ v }: { v: BoardView }) {
 }
 
 /* ── Seahawks: stadium LED, GUEST over HOME ──────────────────────────── */
-function FootballIcon() {
+function FootballIcon({ lit }: { lit: boolean }) {
   return (
-    <svg className={s.sBall} viewBox="0 0 24 14" role="img" aria-label="Has the ball">
+    <svg
+      className={lit ? s.sBall : s.sBallOff}
+      viewBox="0 0 24 14"
+      {...(lit ? { role: 'img', 'aria-label': 'Has the ball' } : { 'aria-hidden': true })}
+    >
       <ellipse cx="12" cy="7" rx="11" ry="6" fill="#8a4b1f" stroke="#e8c9a0" strokeWidth="1" />
       <path d="M7 7h10M10 4.6v4.8M12 4.4v5.2M14 4.6v4.8" stroke="#f4ead8" strokeWidth="1" fill="none" />
     </svg>
@@ -139,9 +135,14 @@ function FootballIcon() {
 }
 
 /** Three timeout dots under a team: lit = remaining, dark = used or unknown. */
-function Timeouts({ left }: { left: number | null }) {
+function Timeouts({ left, show }: { left: number | null; show: boolean }) {
   return (
-    <span className={s.sTimeouts} role="img" aria-label={left == null ? 'Timeouts unknown' : `${left} timeouts left`}>
+    <span
+      className={s.sTimeouts}
+      {...(show
+        ? { role: 'img', 'aria-label': left == null ? 'Timeouts unknown' : `${left} timeouts left` }
+        : { 'aria-hidden': true })}
+    >
       {[0, 1, 2].map((i) => (
         <span className={left != null && i < left ? s.sTimeoutOn : s.sTimeout} key={i} />
       ))}
@@ -164,11 +165,13 @@ function Seahawks({ v }: { v: BoardView }) {
             <div className={r.ours ? s.sRowOurs : s.sRow} key={i}>
               <span className={s.sTeamCell}>
                 <span className={s.sNameLine}>
-                  <span className={s.sBallSlot}>{live?.ballRow === i ? <FootballIcon /> : null}</span>
+                  <span className={s.sBallSlot}>
+                    <FootballIcon lit={live?.ballRow === i} />
+                  </span>
                   <span className={s.sName}>{r.name}</span>
                 </span>
                 <span className={s.sMeta}>
-                  {live?.timeouts && <Timeouts left={live.timeouts[i]} />}
+                  <Timeouts left={live?.timeouts?.[i] ?? null} show={!!live} />
                   <span className={s.sLabel}>{labels[i]}</span>
                 </span>
               </span>
@@ -183,19 +186,20 @@ function Seahawks({ v }: { v: BoardView }) {
             <Lamp on={v.mode === 'live'} />
             {v.status}
           </span>
-          {live ? (
-            <>
-              <span className={s.sQtr}>{live.periodLabel || '—'}</span>
-              <span className={s.sClock}>{live.clock || '—'}</span>
-              <span className={s.sDown}>{live.downText ?? ''}</span>
-              {live.spot && <span className={s.sSpot}>BALL ON {live.spot}</span>}
-            </>
-          ) : (
-            <span className={s.sNote}>{v.note}</span>
-          )}
+          <span className={live ? s.sQtr : s.sQtrOff}>{live?.periodLabel || '–'}</span>
+          <span className={live ? s.sClock : s.sClockOff}>{live?.clock || '–:––'}</span>
+          <span className={live ? s.sDown : s.sDownOff}>{live?.downText || '– & –'}</span>
+          <span className={live ? s.sSpot : s.sSpotOff}>{live?.spot ? `BALL ON ${live.spot}` : 'BALL ON ––'}</span>
         </div>
       </div>
-      <BoxLink view={v} />
+      {live ? (
+        <BoxLink view={v} />
+      ) : (
+        <div className={s.sFoot}>
+          <span>{v.note}</span>
+          <BoxLink view={v} />
+        </div>
+      )}
     </>
   );
 }
@@ -205,6 +209,9 @@ function Seahawks({ v }: { v: BoardView }) {
 const padClock = (c: string) => (/^\d:/.test(c) ? `0${c}` : c);
 
 function Kraken({ v }: { v: BoardView }) {
+  const lit = v.mode === 'live' && !!v.live;
+  // Unlit, the clock shows its ghost digits and colon, nothing lit.
+  const clock = lit ? padClock(v.live?.clock ?? '') || '  :  ' : '  :  ';
   return (
     <>
       <span className={s.kCableL} aria-hidden="true" />
@@ -224,18 +231,16 @@ function Kraken({ v }: { v: BoardView }) {
           </div>
         ))}
       </div>
-      {v.mode === 'live' && v.live && (
-        <div className={s.kClockBar}>
-          <span className={s.kPeriod}>
-            <span className={s.kPeriodLabel}>PERIOD</span>
-            <span className={s.kPeriodValue}>{v.live.periodLabel || '—'}</span>
-          </span>
-          <span className={s.kClock}>
-            <span className={s.kPeriodLabel}>TIME</span>
-            <SevenSegment value={padClock(v.live.clock)} digits={Math.max(padClock(v.live.clock).length, 4)} />
-          </span>
-        </div>
-      )}
+      <div className={lit ? s.kClockBar : s.kClockBarOff} aria-hidden={lit ? undefined : true}>
+        <span className={s.kPeriod}>
+          <span className={s.kPeriodLabel}>PERIOD</span>
+          <span className={s.kPeriodValue}>{(lit && v.live?.periodLabel) || '–'}</span>
+        </span>
+        <span className={s.kClock}>
+          <span className={s.kPeriodLabel}>TIME</span>
+          <SevenSegment value={clock} digits={Math.max(clock.length, 5)} />
+        </span>
+      </div>
       <div className={s.kFoot}>
         <span className={s.kStatus}>{v.status}</span>
         {v.mode !== 'live' && <span>{v.note}</span>}

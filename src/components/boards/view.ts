@@ -167,6 +167,8 @@ export function boardView(team: Team, score?: TeamScore): BoardView {
 
   let note = detail;
   if (mode === 'final' && /^FINAL$/.test(detail)) note = '';
+  const extra = mode === 'final' ? detail.match(/^FINAL\/(\d+)$/) : null;
+  if (extra) note = `${extra[1]} INNINGS`;
   if (mode === 'off') note = detail.replace(/^OFFSEASON\s*·?\s*/, '');
   if (mode === 'unavailable') note = '';
 
