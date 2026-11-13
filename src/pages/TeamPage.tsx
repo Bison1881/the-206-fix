@@ -3,6 +3,7 @@ import { leagueKeyOf } from '../lib/espn';
 import { teamWire } from '../lib/feeds';
 import Wire from '../components/Wire';
 import StandingsPanel from '../components/StandingsTable';
+import RecentResults from '../components/RecentResults';
 import PageMeta from '../components/PageMeta';
 import s from './scaffold.module.css';
 
@@ -30,6 +31,7 @@ export default function TeamPage({ team }: { team: Team }) {
       </div>
       <hr className={s.rule} />
       <Wire items={items} />
+      <RecentResults team={team} />
       {leagueKey && (
         <>
           <hr className={s.rule} />

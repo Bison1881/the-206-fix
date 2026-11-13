@@ -1,0 +1,24 @@
+.page {
+  padding-top: 16px;
+}
+
+.back {
+  font-family: var(--font-term);
+  font-size: 18px;
+  margin: 0 0 10px;
+}
+
+.back a {
+  color: var(--teal);
+}
+
+.back a:hover {
+  text-decoration: underline;
+}
+
+.note {
+  font-family: var(--font-term);
+  font-size: 20px;
+  color: var(--ink-60);
+  margin: 18px 0;
+}

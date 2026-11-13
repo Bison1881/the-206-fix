@@ -30,6 +30,8 @@ const ORIGIN = 'https://the206fix.com';
 // and stay linked from Around the Teams on the front page.
 const EXCLUDE = new Set([
   '404.html',
+  // /box is a query-string shell (one game per ?lg=&id=), noindex by design.
+  'box.html',
   'this-day.html',
   'almanac.html',
   'highlights.html',

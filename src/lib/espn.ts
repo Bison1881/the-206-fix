@@ -10,14 +10,20 @@
  * Endpoints (all permissive-CORS, callable straight from the browser):
  *   schedule:  site.api.../{sport}/{league}/teams/{id}/schedule → live/final/next
  *   standings: site.web.api.../{sport}/{league}/standings       → league tables
+ *   box score: site.api.../{sport}/{league}/summary?event={id}  → one game
  *
  * (The per-team `.../teams/{id}` info endpoint used to supply a one-line record
  * but is blocked cross-origin from the browser, so it was dropped.)
  */
 
-import type { Team, TeamKey } from './teams';
+import { TEAMS, type Team, type TeamKey } from './teams';
 
 const SITE = 'https://site.api.espn.com/apis/site/v2/sports';
+
+/** `${sport}/${league}:${espnTeamId}` for every Seattle club — to flag "ours". */
+const TEAMS_ESPN_IDS = new Set(
+  TEAMS.filter((t) => t.espnTeamId).map((t) => `${t.sport}/${t.league}:${t.espnTeamId}`),
+);
 
 const TIMEOUT_MS = 10_000;
 const RECENT_FINAL_MS = 48 * 60 * 60 * 1000; // a "recent" final: within ~48h
@@ -45,6 +51,7 @@ export interface TeamScore {
   startDate?: string; // ISO
   series?: { summary: string; results: ('W' | 'L')[] }; // playoffs only
   logoUrl?: string;
+  eventId?: string; // ESPN event id — only set for live/final, i.e. when a box score exists
   updatedAt: string; // ISO
 }
 
@@ -100,6 +107,8 @@ interface ParsedEvent {
   teamScore?: number;
   oppScore?: number;
   isHome: boolean;
+  won?: boolean; // ESPN's own winner flags: the only honest answer after a shootout,
+  oppWon?: boolean; // and both are false on a draw, so a flag alone can't mean "lost"
   logoUrl?: string;
   series?: { summary: string; results: ('W' | 'L')[] };
 }
@@ -141,6 +150,8 @@ function parseEvent(ev: any, team: Team): ParsedEvent | null {
     teamScore: parseScore(ours?.score),
     oppScore: parseScore(opp?.score),
     isHome: ours?.homeAway === 'home',
+    won: typeof ours?.winner === 'boolean' ? ours.winner : undefined,
+    oppWon: typeof opp?.winner === 'boolean' ? opp.winner : undefined,
     logoUrl: ours?.team?.logo ?? ours?.team?.logos?.[0]?.href,
     series: summary ? { summary, results: [] } : undefined,
   };
@@ -229,6 +240,7 @@ function build(team: Team, status: GameStatus, ev?: ParsedEvent): TeamScore {
     startDate: ev.startDate,
     series: ev.series,
     logoUrl: ev.logoUrl,
+    eventId: status === 'live' || status === 'final' ? ev.id : undefined,
   };
 }
 
@@ -525,5 +537,392 @@ export async function fetchLeagueStandings(
     };
   } catch {
     return fail;
+  }
+}
+
+// ─── League codes (short, URL-safe names for the box-score route) ───────────
+
+const LEAGUE_CODES: Record<string, string> = {
+  'baseball/mlb': 'mlb',
+  'football/nfl': 'nfl',
+  'hockey/nhl': 'nhl',
+  'basketball/wnba': 'wnba',
+  'soccer/usa.1': 'mls',
+  'soccer/usa.nwsl': 'nwsl',
+};
+const CODE_TO_KEY: Record<string, string> = Object.fromEntries(
+  Object.entries(LEAGUE_CODES).map(([k, v]) => [v, k]),
+);
+
+/** "mlb" for the Mariners, null for a club with no feed (the Sonics). */
+export function leagueCodeOf(team: Team): string | null {
+  if (team.kind === 'returning' || !team.sport || !team.league) return null;
+  return LEAGUE_CODES[`${team.sport}/${team.league}`] ?? null;
+}
+
+/** In-app link to a game's box score. */
+export function boxHref(leagueCode: string, eventId: string): string {
+  return `/box?lg=${encodeURIComponent(leagueCode)}&id=${encodeURIComponent(eventId)}`;
+}
+
+// ─── Recent results (a team's last few finals, each with a box score) ───────
+
+export interface GameResult {
+  id: string;
+  date: string; // ISO
+  opponent: string;
+  isHome: boolean;
+  teamScore?: number;
+  oppScore?: number;
+  outcome: 'W' | 'L' | 'T';
+}
+
+/** W/L/T from the winner flags first (shootouts), then the score. */
+function outcomeOf(e: ParsedEvent): 'W' | 'L' | 'T' {
+  if (e.won === true) return 'W';
+  if (e.oppWon === true) return 'L';
+  if (e.teamScore != null && e.oppScore != null && e.teamScore !== e.oppScore) {
+    return e.teamScore > e.oppScore ? 'W' : 'L';
+  }
+  return 'T';
+}
+
+/**
+ * The last `n` completed games, newest first. The base schedule view is stale
+ * in some leagues (it can hold only the early season, or only the next one), so
+ * it is merged with the explicit current-season view, and with last season's
+ * when the club hasn't played yet this year. Never throws: [] on any failure.
+ */
+export async function fetchRecentResults(team: Team, n = 5): Promise<GameResult[]> {
+  if (team.kind === 'returning' || !team.espnTeamId) return [];
+  const base = `${SITE}/${team.sport}/${team.league}/teams/${team.espnTeamId}/schedule`;
+  const year = new Date().getFullYear();
+
+  const pull = async (q: string): Promise<ParsedEvent[]> => {
+    try {
+      const data: any = await getJson(`${base}${q}`);
+      const events: any[] = Array.isArray(data?.events) ? data.events : [];
+      return events.map((e) => parseEvent(e, team)).filter((p): p is ParsedEvent => p !== null);
+    } catch {
+      return [];
+    }
+  };
+
+  const finals = (xs: ParsedEvent[]) => xs.filter((p) => p.state === 'post');
+  let all = finals(dedupe([...(await pull('')), ...(await pull(`?season=${year}`))]));
+  if (all.length < n) all = finals(dedupe([...all, ...(await pull(`?season=${year - 1}`))]));
+
+  return all
+    .sort((a, b) => b.dateMs - a.dateMs)
+    .slice(0, n)
+    .map((e) => ({
+      id: e.id,
+      date: e.startDate,
+      opponent: e.oppName ?? 'Opponent',
+      isHome: e.isHome,
+      teamScore: e.teamScore,
+      oppScore: e.oppScore,
+      outcome: outcomeOf(e),
+    }));
+}
+
+// ─── Box score fetch + normalize ────────────────────────────────────────────
+
+export interface BoxLine {
+  teamId: string;
+  name: string; // "Seattle Mariners"
+  abbr?: string;
+  logoUrl?: string;
+  ours: boolean;
+  winner: boolean;
+  periods: string[]; // one per period/inning, aligned with BoxScore.periodLabels
+  totals: string[]; // aligned with BoxScore.totalLabels: ['R','H','E'] or ['T']
+}
+
+export interface BoxTable {
+  title: string; // "Batting", "Starting XI"
+  columns: string[];
+  rows: { name: string; pos?: string; starter?: boolean; cells: string[] }[];
+  totals?: string[];
+}
+
+export interface BoxTeam {
+  teamId: string;
+  name: string;
+  ours: boolean;
+  tables: BoxTable[];
+}
+
+export interface BoxEvent {
+  clock: string; // "15'"
+  teamAbbr?: string;
+  kind: 'goal' | 'card';
+  text: string;
+}
+
+export interface BoxScore {
+  status: 'ok' | 'unavailable';
+  leagueCode: string;
+  eventId: string;
+  state?: 'pre' | 'in' | 'post';
+  statusText?: string; // "Final", "Final/10", "Bot 7"
+  date?: string; // ISO
+  venue?: string;
+  attendance?: string;
+  periodLabels: string[];
+  totalLabels: string[];
+  lines: BoxLine[]; // visitor first, home second — the newspaper convention
+  teams: BoxTeam[]; // same order as `lines`
+  compare: { label: string; values: [string, string] }[];
+  events: BoxEvent[]; // soccer: goals and cards
+  updatedAt: string;
+}
+
+/** Player-table columns worth printing (ESPN's own labels). Absent = keep all. */
+const BOX_COLUMNS: Record<string, Record<string, string[]>> = {
+  'baseball/mlb': {
+    batting: ['AB', 'R', 'H', 'RBI', 'HR', 'BB', 'K', 'AVG'],
+    pitching: ['IP', 'H', 'R', 'ER', 'BB', 'K', 'HR', 'ERA'],
+  },
+  'hockey/nhl': {
+    forwards: ['G', 'A', '+/-', 'SOG', 'HT', 'TK', 'GV', 'PIM', 'TOI'],
+    defenses: ['G', 'A', '+/-', 'SOG', 'HT', 'TK', 'GV', 'PIM', 'TOI'],
+    goalies: ['GA', 'SA', 'SV', 'SV%', 'TOI'],
+  },
+  'basketball/wnba': {
+    '': ['MIN', 'PTS', 'FG', '3PT', 'FT', 'REB', 'AST', 'TO', 'STL', 'BLK', 'PF', '+/-'],
+  },
+};
+
+/** Team-comparison rows (ESPN stat names), in print order. */
+const BOX_COMPARE: Record<string, string[]> = {
+  'football/nfl': [
+    'firstDowns', 'totalYards', 'netPassingYards', 'rushingYards',
+    'thirdDownEff', 'turnovers', 'totalPenaltiesYards', 'possessionTime',
+  ],
+  'hockey/nhl': [
+    'shotsTotal', 'hits', 'blockedShots', 'takeaways', 'giveaways',
+    'powerPlayGoals', 'powerPlayOpportunities',
+  ],
+  'soccer/usa.1': [
+    'possessionPct', 'totalShots', 'shotsOnTarget', 'wonCorners',
+    'foulsCommitted', 'yellowCards', 'redCards', 'offsides', 'saves',
+  ],
+  'soccer/usa.nwsl': [
+    'possessionPct', 'totalShots', 'shotsOnTarget', 'wonCorners',
+    'foulsCommitted', 'yellowCards', 'redCards', 'offsides', 'saves',
+  ],
+};
+
+/** ESPN shouts some soccer labels ("SHOTS", "ON GOAL"); print them normally. */
+function tidyLabel(label: string): string {
+  if (label.length > 3 && label === label.toUpperCase()) {
+    return label.toLowerCase().replace(/\b[a-z]/g, (c) => c.toUpperCase());
+  }
+  return label;
+}
+
+function titleCase(raw: string): string {
+  const spaced = raw.replace(/([a-z])([A-Z])/g, '$1 $2').trim();
+  return spaced.charAt(0).toUpperCase() + spaced.slice(1);
+}
+
+function periodLabel(key: string, i: number): string {
+  if (key === 'hockey/nhl') return i < 3 ? String(i + 1) : i === 3 ? 'OT' : 'SO';
+  if (key === 'football/nfl' || key === 'basketball/wnba') return i < 4 ? String(i + 1) : i === 4 ? 'OT' : `${i - 3}OT`;
+  if (key.startsWith('soccer/')) return i === 0 ? '1' : i === 1 ? '2' : 'ET';
+  return String(i + 1); // baseball innings
+}
+
+function parseGroup(g: any, picks: string[] | undefined): BoxTable | null {
+  const labels: string[] = Array.isArray(g?.labels) ? g.labels.map(String) : [];
+  const athletes: any[] = Array.isArray(g?.athletes) ? g.athletes : [];
+  if (!labels.length || !athletes.length) return null;
+
+  // Keep ESPN's order; drop the redundant H-AB column in favour of AB + H.
+  const idx = labels
+    .map((l, i) => ({ l, i }))
+    .filter(({ l }) => (picks ? picks.includes(l) : l !== 'H-AB'));
+  if (!idx.length) return null;
+
+  const rows = athletes
+    .filter((a) => Array.isArray(a?.stats) && a.stats.length > 0)
+    .map((a) => ({
+      name: String(a?.athlete?.shortName ?? a?.athlete?.displayName ?? '—'),
+      pos: a?.athlete?.position?.abbreviation as string | undefined,
+      starter: a?.starter === true,
+      cells: idx.map(({ i }) => (a.stats[i] != null && a.stats[i] !== '' ? String(a.stats[i]) : '–')),
+    }));
+  if (!rows.length) return null;
+
+  const t: unknown[] | undefined = Array.isArray(g?.totals) ? g.totals : undefined;
+  const raw = String(g?.name ?? g?.type ?? '');
+  return {
+    title: raw ? titleCase(raw) : 'Players',
+    columns: idx.map(({ l }) => l),
+    rows,
+    totals: t ? idx.map(({ i }) => (t[i] != null && t[i] !== '' ? String(t[i]) : '')) : undefined,
+  };
+}
+
+function soccerEvents(d: any, idToAbbr: Map<string, string>): BoxEvent[] {
+  const evs: any[] = Array.isArray(d?.keyEvents) ? d.keyEvents : [];
+  const out: BoxEvent[] = [];
+  for (const e of evs) {
+    const type = String(e?.type?.text ?? '');
+    const isGoal = e?.scoringPlay === true;
+    const isCard = /card/i.test(type);
+    if (!isGoal && !isCard) continue;
+    const who: string[] = (Array.isArray(e?.participants) ? e.participants : [])
+      .map((p: any) => p?.athlete?.displayName)
+      .filter(Boolean);
+    const how = type.includes(' - ') ? type.split(' - ')[1] : '';
+    const text = isGoal
+      ? `${who[0] ?? 'Goal'}${how ? `, ${how.toLowerCase()}` : ''}${who[1] ? ` (assist: ${who[1]})` : ''}`
+      : `${who[0] ?? 'Player'} (${type.toLowerCase()})`;
+    out.push({
+      clock: String(e?.clock?.displayValue ?? ''),
+      teamAbbr: idToAbbr.get(String(e?.team?.id)),
+      kind: isGoal ? 'goal' : 'card',
+      text,
+    });
+  }
+  return out;
+}
+
+function unavailableBox(leagueCode: string, eventId: string): BoxScore {
+  return {
+    status: 'unavailable',
+    leagueCode,
+    eventId,
+    periodLabels: [],
+    totalLabels: [],
+    lines: [],
+    teams: [],
+    compare: [],
+    events: [],
+    updatedAt: new Date().toISOString(),
+  };
+}
+
+/**
+ * One game's box score, normalized across sports. Never throws: any failure
+ * (unknown league, bad id, shape change) resolves to `status:'unavailable'`.
+ * `ourTeamId` is the ESPN id of the Seattle club, to highlight it.
+ */
+export async function fetchBoxScore(leagueCode: string, eventId: string): Promise<BoxScore> {
+  const key = CODE_TO_KEY[leagueCode];
+  if (!key || !/^\d+$/.test(eventId)) return unavailableBox(leagueCode, eventId);
+
+  try {
+    const d: any = await getJson(`${SITE}/${key}/summary?event=${encodeURIComponent(eventId)}`);
+    const comp = d?.header?.competitions?.[0];
+    const competitors: any[] = Array.isArray(comp?.competitors) ? comp.competitors : [];
+    if (competitors.length < 2) return unavailableBox(leagueCode, eventId);
+
+    // Visitor first, home second.
+    const sorted = [...competitors].sort((a, b) => (a?.homeAway === 'away' ? -1 : 1) - (b?.homeAway === 'away' ? -1 : 1));
+    const isOurs = (c: any) => TEAMS_ESPN_IDS.has(`${key}:${String(c?.team?.id)}`);
+
+    const longest = Math.max(...sorted.map((c) => (Array.isArray(c?.linescores) ? c.linescores.length : 0)));
+    const nPeriods = key === 'baseball/mlb' ? Math.max(9, longest) : longest;
+    const baseball = key === 'baseball/mlb';
+
+    const lines: BoxLine[] = sorted.map((c) => {
+      const ls: any[] = Array.isArray(c?.linescores) ? c.linescores : [];
+      const periods = Array.from({ length: nPeriods }, (_, i) =>
+        ls[i] ? String(ls[i]?.displayValue ?? ls[i]?.value ?? '') : '',
+      );
+      const score = c?.score != null ? String(typeof c.score === 'object' ? c.score.displayValue ?? c.score.value : c.score) : '';
+      return {
+        teamId: String(c?.team?.id ?? ''),
+        name: String(c?.team?.displayName ?? c?.team?.name ?? '—'),
+        abbr: c?.team?.abbreviation,
+        logoUrl: c?.team?.logos?.[0]?.href ?? c?.team?.logo,
+        ours: isOurs(c),
+        winner: c?.winner === true,
+        periods,
+        totals: baseball ? [score, String(c?.hits ?? ''), String(c?.errors ?? '')] : [score],
+      };
+    });
+
+    // Player tables, matched to competitors by team id.
+    const picks = BOX_COLUMNS[key] ?? {};
+    const players: any[] = Array.isArray(d?.boxscore?.players) ? d.boxscore.players : [];
+    const rosters: any[] = Array.isArray(d?.rosters) ? d.rosters : [];
+    const teams: BoxTeam[] = lines.map((line) => {
+      const tables: BoxTable[] = [];
+      const p = players.find((x) => String(x?.team?.id) === line.teamId);
+      for (const g of Array.isArray(p?.statistics) ? p.statistics : []) {
+        const gname = String(g?.name ?? g?.type ?? '');
+        const t = parseGroup(g, picks[gname]);
+        if (t) tables.push(t);
+      }
+      if (!tables.length && key.startsWith('soccer/')) {
+        const r = rosters.find((x) => String(x?.team?.id) === line.teamId);
+        const starters = (Array.isArray(r?.roster) ? r.roster : []).filter((x: any) => x?.starter === true);
+        if (starters.length) {
+          tables.push({
+            title: `Starting XI${r?.formation ? ` · ${r.formation}` : ''}`,
+            columns: ['#'],
+            rows: starters.map((x: any) => ({
+              name: String(x?.athlete?.shortName ?? x?.athlete?.displayName ?? '—'),
+              pos: x?.position?.abbreviation ?? x?.athlete?.position?.abbreviation,
+              cells: [String(x?.jersey ?? '')],
+            })),
+          });
+        }
+      }
+      return { teamId: line.teamId, name: line.name, ours: line.ours, tables };
+    });
+
+    // Team comparison (flat-stat sports; baseball's team stats are nested and
+    // already covered by the line score and player tables).
+    const compare: BoxScore['compare'] = [];
+    const ts: any[] = Array.isArray(d?.boxscore?.teams) ? d.boxscore.teams : [];
+    const statsOf = (id: string) => {
+      const t = ts.find((x) => String(x?.team?.id) === id);
+      const m = new Map<string, { label: string; v: string }>();
+      for (const st of Array.isArray(t?.statistics) ? t.statistics : []) {
+        if (typeof st?.name === 'string' && st?.displayValue != null) {
+          m.set(st.name, { label: tidyLabel(String(st?.label ?? st?.displayName ?? titleCase(st.name))), v: String(st.displayValue) });
+        }
+      }
+      return m;
+    };
+    if (!baseball && lines.length === 2) {
+      const a = statsOf(lines[0].teamId);
+      const b = statsOf(lines[1].teamId);
+      const want = BOX_COMPARE[key];
+      let names = want ? want.filter((n) => a.has(n) && b.has(n)) : [];
+      if (names.length < 3) names = [...a.keys()].filter((n) => b.has(n)).slice(0, 8);
+      for (const n of names) {
+        compare.push({ label: a.get(n)!.label, values: [a.get(n)!.v, b.get(n)!.v] });
+      }
+    }
+
+    const idToAbbr = new Map(lines.map((l) => [l.teamId, l.abbr ?? ''] as [string, string]));
+    const stateRaw: string | undefined = comp?.status?.type?.state;
+    const att = d?.gameInfo?.attendance;
+
+    return {
+      status: 'ok',
+      leagueCode,
+      eventId,
+      state: stateRaw === 'in' || stateRaw === 'post' || stateRaw === 'pre' ? stateRaw : undefined,
+      statusText: comp?.status?.type?.detail ?? comp?.status?.type?.shortDetail,
+      date: comp?.date,
+      venue: d?.gameInfo?.venue?.fullName,
+      attendance: typeof att === 'number' && att > 0 ? att.toLocaleString('en-US') : undefined,
+      periodLabels: Array.from({ length: nPeriods }, (_, i) => periodLabel(key, i)),
+      totalLabels: baseball ? ['R', 'H', 'E'] : ['T'],
+      lines,
+      teams,
+      compare,
+      events: key.startsWith('soccer/') ? soccerEvents(d, idToAbbr) : [],
+      updatedAt: new Date().toISOString(),
+    };
+  } catch {
+    return unavailableBox(leagueCode, eventId);
   }
 }

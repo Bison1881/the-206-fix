@@ -1,17 +1,16 @@
-import { useState } from 'react';
-import { TEAMS, LEAGUE_TITLE, type Team, type TeamKey } from '../lib/teams';
+import { Link } from 'react-router-dom';
+import { TEAMS, type Team } from '../lib/teams';
 import { useScores } from '../lib/useScores';
-import { leagueKeyOf, type TeamScore } from '../lib/espn';
+import { boxHref, leagueCodeOf, type TeamScore } from '../lib/espn';
 import PageMeta from '../components/PageMeta';
-import StandingsPanel from '../components/StandingsTable';
 import s from './ScoresPage.module.css';
 
 /*
- * The /scores board (spec §6, §8) — the SCORES nav destination. Scores lead
- * (fuller per-team tiles over the same normalized data the ribbon uses), with
- * full league standings beneath: pick a club, see its whole league. Client-
- * hydrated island over a static skeleton, same as the ribbon: scores share one
- * fetch via useScores(); standings load per league on demand (useStandings).
+ * The /scores board (spec §6, §8) — the SCORES nav destination: fuller per-team
+ * tiles over the same normalized data the ribbon uses. A live or just-finished
+ * game links to its box score (/box); league tables live on /standings.
+ * Client-hydrated island over a static skeleton, same as the ribbon: scores
+ * share one fetch via useScores().
  */
 
 const STATUS_LABEL: Record<TeamScore['status'], string> = {
@@ -83,43 +82,31 @@ function Tile({ team, score }: { team: Team; score?: TeamScore }) {
       {score.series?.summary && (
         <div className={s.series}>{score.series.summary}</div>
       )}
+
+      {score.eventId && leagueCodeOf(team) && (
+        <Link className={s.boxLink} to={boxHref(leagueCodeOf(team)!, score.eventId)}>
+          Box score →
+        </Link>
+      )}
     </div>
   );
 }
-
-// Teams that have a league table (the Sonics don't until there's a real club).
-const STANDINGS_TEAMS = TEAMS.filter((t) => leagueKeyOf(t) !== null);
-const IN_SEASON: TeamScore['status'][] = ['live', 'final', 'scheduled'];
 
 export default function ScoresPage() {
   const { scores } = useScores();
   const scoreByKey = new Map(scores.map((x) => [x.key, x]));
 
-  // Default to a club that's actually playing; the reader's pick wins once made.
-  // Until scores arrive there's no honest default, so we wait rather than fetch
-  // a league the page is about to swap away from.
-  const [picked, setPicked] = useState<TeamKey | null>(null);
-  const auto =
-    STANDINGS_TEAMS.find((t) => IN_SEASON.includes(scoreByKey.get(t.id)?.status as TeamScore['status']))
-      ?? STANDINGS_TEAMS[0];
-  const selected = picked
-    ? STANDINGS_TEAMS.find((t) => t.id === picked)
-    : scores.length
-      ? auto
-      : undefined;
-  const key = selected ? leagueKeyOf(selected) : null;
-
   return (
     <div className={s.page}>
       <PageMeta
         title="Scoreboard"
-        description="Live scores, next games and standings for all seven Seattle clubs — Mariners, Seahawks, Kraken, Sonics, Sounders, Storm and Reign — on one board."
+        description="Live scores and next games for all seven Seattle clubs — Mariners, Seahawks, Kraken, Sonics, Sounders, Storm and Reign — on one board, with box scores."
         path="/scores"
       />
       <h1 className={s.banner}>Scoreboard</h1>
       <div className={s.deck}>
-        Live scores, next games, and standings for all seven Seattle clubs —
-        refreshing on their own while a game is on.
+        Live scores and next games for all seven Seattle clubs — refreshing on
+        their own while a game is on.
       </div>
       <hr className={s.rule} />
 
@@ -129,26 +116,9 @@ export default function ScoresPage() {
         ))}
       </div>
 
-      <h2 className={s.standHead}>Standings</h2>
-      <div className={s.tabs} role="tablist" aria-label="Choose a club to see its league standings">
-        {STANDINGS_TEAMS.map((t) => (
-          <button
-            key={t.id}
-            type="button"
-            role="tab"
-            aria-selected={selected?.id === t.id}
-            className={selected?.id === t.id ? s.tabOn : s.tab}
-            onClick={() => setPicked(t.id)}
-          >
-            {t.name}
-          </button>
-        ))}
-      </div>
-      {key ? (
-        <StandingsPanel leagueKey={key} title={LEAGUE_TITLE[key]} />
-      ) : (
-        <p className={s.standNote}>Loading standings…</p>
-      )}
+      <p className={s.more}>
+        <Link to="/standings">League standings →</Link>
+      </p>
     </div>
   );
 }

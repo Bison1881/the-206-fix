@@ -18,6 +18,7 @@ export default function Colophon() {
       <nav className={styles.nav} aria-label="Site">
         <Link to="/">Front Page</Link>
         <Link to="/scores">Scores</Link>
+        <Link to="/standings">Standings</Link>
         <Link to="/privacy">Privacy</Link>
       </nav>
       <div className={styles.mark}>The 206 Fix</div>

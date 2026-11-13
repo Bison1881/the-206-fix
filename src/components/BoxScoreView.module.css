@@ -1,0 +1,304 @@
+.box {
+  padding-top: 4px;
+}
+
+.kicker {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px 14px;
+  font-family: var(--font-term);
+  font-size: 18px;
+  color: var(--ink-60);
+}
+
+.status,
+.statusLive {
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: var(--ink);
+}
+
+/* Red is reserved for LIVE (design tokens). */
+.statusLive {
+  color: var(--red);
+}
+
+.title {
+  font-family: var(--font-head);
+  text-transform: uppercase;
+  font-weight: 400;
+  line-height: 0.95;
+  letter-spacing: 1px;
+  font-size: clamp(28px, 5.4vw, 52px);
+  margin: 6px 0 14px;
+}
+
+.at {
+  color: var(--ink-40);
+  font-size: 0.6em;
+}
+
+.scroll {
+  overflow-x: auto;
+}
+
+.srOnly {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+/* ── Line score ─────────────────────────────────────────────────────── */
+.linescore {
+  width: 100%;
+  border-collapse: collapse;
+  border-top: 2px solid var(--ink);
+  border-bottom: 2px solid var(--ink);
+  font-variant-numeric: tabular-nums;
+}
+
+.linescore thead th {
+  font-family: var(--font-term);
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--ink-60);
+  padding: 4px 0;
+  border-bottom: 1px solid var(--ink);
+}
+
+.linescore tbody th,
+.linescore tbody td {
+  font-family: var(--font-term);
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.1;
+  padding: 5px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.linescore tbody tr:last-child th,
+.linescore tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+/* Higher specificity than the shorthand paddings above, or they're lost. */
+.linescore th.team {
+  text-align: left;
+  white-space: nowrap;
+  width: 100%;
+  padding-right: 10px;
+}
+
+.linescore th.num,
+.linescore td.num {
+  text-align: right;
+  padding-left: 12px;
+  min-width: 1.6ch;
+}
+
+.linescore th.totalFirst,
+.linescore td.totalFirst,
+.linescore th.total,
+.linescore td.total {
+  text-align: right;
+  padding-left: 14px;
+  min-width: 1.8ch;
+  font-weight: 700;
+}
+
+.linescore th.totalFirst,
+.linescore td.totalFirst {
+  border-left: 2px solid var(--ink);
+  margin-left: 6px;
+}
+
+.logo {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  vertical-align: -3px;
+  margin-right: 8px;
+}
+
+.nameAbbr {
+  display: none;
+}
+
+/* The Seattle club: teal ink, bold, tinted band (same as the standings). */
+.ours th,
+.ours td {
+  color: var(--teal);
+  font-weight: 700;
+  background: var(--news-dk);
+}
+
+/* ── Sections ───────────────────────────────────────────────────────── */
+.section {
+  margin-top: 22px;
+}
+
+.h2,
+.h2Ours {
+  font-family: var(--font-head);
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 22px;
+  letter-spacing: 1px;
+  margin: 0 0 8px;
+  border-bottom: 2px solid var(--ink);
+  padding-bottom: 3px;
+}
+
+.h2Ours {
+  color: var(--teal);
+}
+
+.events {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-term);
+  font-size: 19px;
+}
+
+.events li {
+  display: flex;
+  gap: 12px;
+  padding: 3px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.clock {
+  min-width: 3.4ch;
+  color: var(--ink-60);
+}
+
+.evTeam {
+  min-width: 4ch;
+  font-weight: 700;
+}
+
+.card {
+  color: var(--ink-60);
+}
+
+/* ── Player + comparison tables ─────────────────────────────────────── */
+.teams {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 26px 32px;
+  align-items: start;
+  margin-top: 26px;
+}
+
+.teamCol {
+  min-width: 0;
+}
+
+.table,
+.compare {
+  width: 100%;
+  border-collapse: collapse;
+  border-top: 2px solid var(--ink);
+  font-variant-numeric: tabular-nums;
+  margin-bottom: 18px;
+}
+
+.compare {
+  max-width: 520px;
+}
+
+.caption {
+  caption-side: top;
+  text-align: left;
+  font-family: var(--font-head);
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 1px;
+  padding: 2px 0 4px;
+  color: var(--ink-70);
+}
+
+.table thead th,
+.compare thead th {
+  font-family: var(--font-term);
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--ink-60);
+  border-bottom: 1px solid var(--ink);
+  padding: 3px 0;
+}
+
+.table tbody th,
+.table tbody td,
+.table tfoot th,
+.table tfoot td,
+.compare tbody th,
+.compare tbody td {
+  font-family: var(--font-term);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.1;
+  padding: 3px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.table tfoot th,
+.table tfoot td {
+  font-weight: 700;
+  border-top: 1px solid var(--ink);
+  border-bottom: 0;
+}
+
+.table th.player,
+.compare th.player {
+  text-align: left;
+  white-space: nowrap;
+  padding-right: 8px;
+  width: 100%;
+}
+
+.pos {
+  color: var(--ink-40);
+  font-size: 0.85em;
+}
+
+.table th.num,
+.table td.num,
+.compare th.num,
+.compare td.num {
+  text-align: right;
+  padding-left: 10px;
+  min-width: 2.2ch;
+  white-space: nowrap;
+}
+
+.note {
+  font-family: var(--font-term);
+  font-size: 18px;
+  color: var(--ink-60);
+  margin: 10px 0;
+}
+
+@media (max-width: 880px) {
+  .teams {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 560px) {
+  .nameFull {
+    display: none;
+  }
+  .nameAbbr {
+    display: inline;
+  }
+  .linescore tbody th,
+  .linescore tbody td {
+    font-size: 19px;
+  }
+}

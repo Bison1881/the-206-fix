@@ -1,0 +1,70 @@
+.page {
+  padding-top: 16px;
+}
+
+/* Page title / deck / rule: matched to the scoreboard and scaffold pages. */
+.banner {
+  font-family: var(--font-head);
+  text-transform: uppercase;
+  font-weight: 400;
+  line-height: 0.92;
+  font-size: clamp(30px, 6.4vw, 60px);
+  letter-spacing: 1px;
+}
+
+.deck {
+  font-family: var(--font-body);
+  font-style: italic;
+  font-size: clamp(15px, 2.4vw, 20px);
+  margin: 8px 0 14px;
+  color: var(--ink-70);
+}
+
+.rule {
+  border: 0;
+  border-top: 3px double var(--ink);
+  margin: 18px 0;
+}
+
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 6px;
+  margin: 0 0 14px;
+}
+
+.tab,
+.tabOn {
+  font-family: var(--font-head);
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: var(--ink-60);
+  background: none;
+  border: 0;
+  border-bottom: 3px solid transparent;
+  padding: 4px 10px 3px;
+  cursor: pointer;
+}
+
+.tab:hover {
+  color: var(--ink);
+  border-bottom-color: var(--line);
+}
+
+.tabOn {
+  color: var(--teal);
+  border-bottom-color: var(--teal);
+}
+
+.tab:focus-visible,
+.tabOn:focus-visible {
+  outline: 2px solid var(--teal);
+  outline-offset: 2px;
+}
+
+.note {
+  font-family: var(--font-term);
+  font-size: 18px;
+  color: var(--ink-60);
+}

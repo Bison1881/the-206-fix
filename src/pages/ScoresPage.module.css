@@ -119,59 +119,31 @@
   color: var(--teal);
 }
 
-/* ── Standings ───────────────────────────────────────────────────────── */
-.standHead {
-  font-family: var(--font-head);
-  text-transform: uppercase;
-  font-weight: 400;
-  font-size: 26px;
-  letter-spacing: 1px;
-  margin: 26px 0 10px;
-  border-bottom: 2px solid var(--ink);
-  padding-bottom: 4px;
-}
-
-.tabs {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 4px 6px;
-  margin: 0 0 14px;
-}
-
-.tab,
-.tabOn {
-  font-family: var(--font-head);
-  text-transform: uppercase;
-  font-size: 16px;
-  letter-spacing: 1px;
-  color: var(--ink-60);
-  background: none;
-  border: 0;
-  border-bottom: 3px solid transparent;
-  padding: 4px 10px 3px;
-  cursor: pointer;
-}
-
-.tab:hover {
-  color: var(--ink);
-  border-bottom-color: var(--line);
-}
-
-.tabOn {
-  color: var(--teal);
-  border-bottom-color: var(--teal);
-}
-
-.tab:focus-visible,
-.tabOn:focus-visible {
-  outline: 2px solid var(--teal);
-  outline-offset: 2px;
-}
-
-.standNote {
+/* ── Links ───────────────────────────────────────────────────────────── */
+.boxLink {
+  margin-top: auto;
+  padding-top: 4px;
   font-family: var(--font-term);
-  font-size: 18px;
-  color: var(--ink-60);
+  font-size: 17px;
+  color: var(--teal);
+}
+
+.boxLink:hover {
+  text-decoration: underline;
+}
+
+.more {
+  font-family: var(--font-term);
+  font-size: 20px;
+  margin: 22px 0 6px;
+}
+
+.more a {
+  color: var(--teal);
+}
+
+.more a:hover {
+  text-decoration: underline;
 }
 
 @media (max-width: 880px) {

@@ -15,6 +15,7 @@ import styles from './SectionNav.module.css';
  */
 const ITEMS = [
   { label: 'Scores', to: '/scores' }, // the live scoreboard board (Phase 1)
+  { label: 'Standings', to: '/standings' }, // league tables, one tab per club
 ];
 
 export default function SectionNav() {

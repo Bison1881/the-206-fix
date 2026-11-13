@@ -23,7 +23,8 @@ and `src/styles/global.css`. No Astro. No Tailwind. No Markdown, no content
 collections: `src/content/` does not exist and there are zero `.md` files under
 `src/` or `public/`.
 
-Routes are declared in `src/routes.tsx`: `/`, `/scores`, `/teams`, one page per
+Routes are declared in `src/routes.tsx`: `/`, `/scores`, `/standings`, `/box` (noindex
+query-string shell, one game per `?lg=&id=`), `/teams`, one page per
 team from `src/lib/teams.ts`, plus `/this-day`, `/almanac`, `/highlights` and
 `/privacy` — those four are **stub pages** (`src/pages/StubPage.tsx`), labelled
 Phase 3 and Phase 6, never built out. The three Phase 3 stubs and `/teams` are
@@ -50,8 +51,8 @@ seven files (`SectionNav`, `Colophon`, `HomePage`, `StubPage`, `TeamsIndex`,
   It ends there. No placeholders, and no `Phase N` badge anywhere on it.
 - **Hidden** (unlinked, `noindex, follow`, no canonical, out of the sitemap):
   `/teams`, `/this-day`, `/almanac`, `/highlights`. All four still resolve.
-- **Still public and indexed:** `/`, `/scores`, `/privacy`, and the seven team
-  pages. Sitemap is 10 URLs, down from 14.
+- **Still public and indexed:** `/`, `/scores`, `/standings`, `/privacy`, and the
+  seven team pages. (`/box` is public but noindex and not in the sitemap.)
 
 What changed:
 
@@ -121,8 +122,8 @@ actually shows up somewhere embarrassing.
 ## What is still live and running itself
 
 - Site serves from Vercel, free tier, auto-deploy on push to main.
-  Config in `vercel.json` (framework `vite`, output `dist`, `cleanUrls`,
-  `/standings` → `/scores` 301).
+  Config in `vercel.json` (framework `vite`, output `dist`, `cleanUrls`).
+  `/standings` was a 301 to `/scores`; it is now a real page (2026-11).
 - **Feed aggregator: `scripts/fetch-feeds.mjs`**, source list in
   `scripts/feeds.config.mjs`. Runs at build time (`prebuild` → `npm run
   feeds:fetch`) and writes `src/data/feeds.json`, which is **gitignored**
