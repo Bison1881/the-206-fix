@@ -162,13 +162,15 @@ function Seahawks({ v }: { v: BoardView }) {
         <div className={s.sTeams}>
           {v.rows.map((r: BoardRow, i) => (
             <div className={r.ours ? s.sRowOurs : s.sRow} key={i}>
-              <span className={s.sLabel}>{labels[i]}</span>
               <span className={s.sTeamCell}>
                 <span className={s.sNameLine}>
                   <span className={s.sBallSlot}>{live?.ballRow === i ? <FootballIcon /> : null}</span>
                   <span className={s.sName}>{r.name}</span>
                 </span>
-                {live?.timeouts && <Timeouts left={live.timeouts[i]} />}
+                <span className={s.sMeta}>
+                  {live?.timeouts && <Timeouts left={live.timeouts[i]} />}
+                  <span className={s.sLabel}>{labels[i]}</span>
+                </span>
               </span>
               <span className={s.sScore}>
                 <SevenSegment value={r.score} digits={2} />

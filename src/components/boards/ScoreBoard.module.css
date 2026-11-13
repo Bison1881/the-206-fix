@@ -106,7 +106,7 @@
 
 .mGrid {
   display: grid;
-  grid-template-columns: minmax(0, 7.6ch) repeat(10, minmax(0, 1fr)) 2.5rem;
+  grid-template-columns: 88px repeat(10, minmax(0, 1fr)) 40px;
   column-gap: 3px;
   row-gap: 5px;
   align-items: center;
@@ -125,8 +125,8 @@
 .mTeamOurs {
   font-family: var(--font-head);
   text-transform: uppercase;
-  font-size: clamp(14px, 2.3vw, 17px);
-  letter-spacing: 1px;
+  font-size: 16px;
+  letter-spacing: 0.5px;
   line-height: 1;
   min-width: 0;
   overflow: hidden;
@@ -177,8 +177,8 @@
 .mCounts {
   display: flex;
   align-items: center;
-  gap: 16px;
-  padding-top: 4px;
+  gap: 18px;
+  padding: 10px 2px 4px;
 }
 
 .mCount {
@@ -189,14 +189,14 @@
 
 .mCountLabel {
   font-family: var(--font-head);
-  font-size: 15px;
+  font-size: 19px;
   letter-spacing: 1px;
-  margin-right: 3px;
+  margin-right: 4px;
 }
 
 .mBulb {
-  width: 12px;
-  height: 12px;
+  width: 17px;
+  height: 17px;
   border-radius: 50%;
   background: rgba(0, 0, 0, 0.45);
   border: 1px solid rgba(185, 194, 189, 0.5);
@@ -224,7 +224,7 @@
 .mHalf {
   margin-left: auto;
   font-family: var(--font-head);
-  font-size: 17px;
+  font-size: 21px;
   letter-spacing: 2px;
   color: #e3b93f;
   white-space: nowrap;
@@ -293,7 +293,7 @@
 
 .sBody {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(104px, 30%);
+  grid-template-columns: minmax(0, 1fr) minmax(100px, 28%);
   gap: 12px;
   align-items: stretch;
   flex: 1;
@@ -309,22 +309,22 @@
 .sRow,
 .sRowOurs {
   display: grid;
-  grid-template-columns: 40px minmax(0, 1fr) auto;
+  grid-template-columns: minmax(0, 1fr) auto;
   align-items: center;
   gap: 8px;
 }
 
 .sLabel {
-  font-size: 13px;
+  font-size: 12px;
   letter-spacing: 1px;
-  opacity: 0.6;
+  opacity: 0.55;
 }
 
 .sName {
   font-family: var(--font-head);
   text-transform: uppercase;
-  font-size: clamp(19px, 2.6vw, 26px);
-  letter-spacing: 2px;
+  font-size: clamp(18px, 2.4vw, 24px);
+  letter-spacing: 1px;
   min-width: 0;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -368,6 +368,17 @@
   display: inline-flex;
   gap: 5px;
   padding-left: 25px;
+}
+
+.sMeta {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-left: 25px;
+}
+
+.sMeta .sTimeouts {
+  padding-left: 0;
 }
 
 .sTimeout,
@@ -414,7 +425,7 @@
 }
 
 .sScore {
-  font-size: 46px;
+  font-size: 40px;
   color: #69d12a;
   line-height: 1;
 }
@@ -974,8 +985,16 @@
 /* ── Narrow screens ──────────────────────────────────────────────────── */
 @media (max-width: 560px) {
   .mGrid {
-    grid-template-columns: minmax(0, 6.4ch) repeat(10, minmax(0, 1fr)) 2.1rem;
+    grid-template-columns: 66px repeat(10, minmax(0, 1fr)) 34px;
     column-gap: 2px;
+  }
+  .mTeam,
+  .mTeamOurs {
+    font-size: 13px;
+  }
+  .mBulb {
+    width: 14px;
+    height: 14px;
   }
   .mCounts {
     gap: 10px;

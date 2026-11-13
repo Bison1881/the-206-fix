@@ -77,7 +77,7 @@ function liveView(team: Team, score: TeamScore, ourRow: 0 | 1): LiveView | undef
   const oppRow = (1 - ourRow) as 0 | 1;
   const byRow = <T,>(ours: T, opp: T): [T, T] => (ourRow === 0 ? [ours, opp] : [opp, ours]);
   const p = l.period;
-  const detail = (score.detail ?? '').toUpperCase();
+  const detail = (l.statusDetail ?? score.detail ?? '').toUpperCase();
 
   if (team.sport === 'baseball') {
     const mine = l.linesOurs ?? [];
@@ -184,17 +184,17 @@ export function boardView(team: Team, score?: TeamScore): BoardView {
     .join(', ');
 
   const live = liveView(team, score, score.isHome ? 1 : 0);
+  // The note already carries inning / period and clock; add only what it lacks.
   const liveReading = live
     ? [
-        live.half && live.periodLabel ? `${live.half === 'top' ? 'top' : live.half === 'bot' ? 'bottom' : live.half} ${live.periodLabel}` : live.periodLabel,
-        live.clock,
         live.bso && live.bso.b != null && live.bso.s != null && live.bso.o != null
           ? `${live.bso.b} balls ${live.bso.s} strikes ${live.bso.o} outs`
           : '',
         live.downText?.toLowerCase(),
+        live.spot ? `ball on ${live.spot.toLowerCase()}` : '',
       ]
         .filter(Boolean)
-        .join(' ')
+        .join(', ')
     : '';
 
   return {

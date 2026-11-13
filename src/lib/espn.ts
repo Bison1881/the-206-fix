@@ -48,6 +48,7 @@ export interface LiveSituation {
   period?: number; // inning | quarter | period
   clock?: string; // "4:12" (hockey / football)
   halftime?: boolean;
+  statusDetail?: string; // the feed's own status text, e.g. "8:41 - 2nd" | "Final/SO"
   half?: 'top' | 'bot' | 'mid' | 'end'; // baseball
   balls?: number;
   strikes?: number;
@@ -362,13 +363,21 @@ async function fetchSituation(team: Team, eventId: string, live: boolean): Promi
     const downText: string | undefined =
       sit?.shortDownDistanceText ??
       (down != null && down > 0 && distance != null ? `${ORD[down] ?? down} & ${distance}` : undefined);
-    const spotRaw: string | undefined = sit?.possessionText ?? sit?.downDistanceText;
-    const spot = spotRaw && / at /i.test(spotRaw) ? spotRaw.split(/ at /i).pop() : undefined;
+    // Where the ball is: the tail of "2nd & 7 at SEA 35", else a bare "SEA 35".
+    const atText: string | undefined = sit?.downDistanceText;
+    const bare: string | undefined = sit?.possessionText;
+    const spot =
+      atText && / at /i.test(atText)
+        ? atText.split(/ at /i).pop()
+        : bare && /^[A-Za-z]{2,4}\s+\d{1,2}$/.test(bare.trim())
+          ? bare.trim()
+          : undefined;
 
     return {
       period: intOf(status?.period),
       clock: typeof status?.displayClock === 'string' ? status.displayClock : undefined,
       halftime: /halftime/i.test(String(status?.type?.name ?? '')) || /half/i.test(detail),
+      statusDetail: typeof status?.type?.shortDetail === 'string' ? status.type.shortDetail : undefined,
       half,
       balls: intOf(sit?.balls),
       strikes: intOf(sit?.strikes),
