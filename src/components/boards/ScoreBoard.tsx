@@ -161,12 +161,14 @@ function Sounders({ v }: { v: BoardView }) {
   const [a, b] = v.rows;
   return (
     <>
-      <div className={s.rbMain}>
+      <div className={s.rbTop}>
         <span className={a.ours ? s.rbNameOurs : s.rbName}>{a.name}</span>
+        <span className={b.ours ? s.rbNameOurs : s.rbName}>{b.name}</span>
+      </div>
+      <div className={s.rbMain}>
         <span className={s.rbScore}>{a.score || '·'}</span>
         <span className={s.rbDash}>–</span>
         <span className={s.rbScore}>{b.score || '·'}</span>
-        <span className={b.ours ? s.rbNameOurs : s.rbName}>{b.name}</span>
       </div>
       <div className={s.rbFoot}>
         <span className={s.rbStatus}>

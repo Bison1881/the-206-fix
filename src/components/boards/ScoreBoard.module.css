@@ -307,7 +307,7 @@
     linear-gradient(180deg, rgba(255, 255, 255, 0.14), transparent 28%),
     linear-gradient(180deg, #0f3a4d, #071a24);
   border: 4px solid #9cc2d1;
-  clip-path: polygon(14px 0, calc(100% - 14px) 0, 100% 14px, 100% calc(100% - 14px), calc(100% - 14px) 100%, 14px 100%, 0 calc(100% - 14px), 0 14px);
+  border-radius: 16px;
 }
 
 .kCableL,
@@ -419,25 +419,21 @@
   overflow: hidden;
 }
 
-.rbMain {
+.rbTop {
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  gap: 10px;
-  margin-top: 6px;
-  color: #8fe03e;
-  text-shadow: 0 0 6px rgba(143, 224, 62, 0.65);
+  gap: 12px;
+  font-size: clamp(10px, 1.7vw, 13px);
+  letter-spacing: 1px;
+  line-height: 1.4;
 }
 
 .rbName,
 .rbNameOurs {
-  font-size: clamp(10px, 1.9vw, 15px);
-  letter-spacing: 1px;
   min-width: 0;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  flex: 1;
 }
 
 .rbName:last-child,
@@ -445,19 +441,36 @@
   text-align: right;
 }
 
+.rbNameOurs {
+  color: #8fe03e;
+  text-shadow: 0 0 6px rgba(143, 224, 62, 0.65);
+}
+
 .rbName {
   color: #5ea5e8;
   text-shadow: 0 0 6px rgba(94, 165, 232, 0.6);
 }
 
+.rbMain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  flex: 1;
+  color: #8fe03e;
+  text-shadow: 0 0 10px rgba(143, 224, 62, 0.7);
+}
+
 .rbScore {
-  font-size: clamp(26px, 5vw, 40px);
+  font-size: clamp(36px, 8vw, 62px);
   line-height: 1;
+  min-width: 1.2ch;
+  text-align: center;
 }
 
 .rbDash {
-  font-size: 22px;
-  opacity: 0.6;
+  font-size: clamp(20px, 4vw, 30px);
+  opacity: 0.55;
 }
 
 .rbFoot {
@@ -468,7 +481,7 @@
   font-size: 11px;
   letter-spacing: 1px;
   color: #b8e98a;
-  margin-top: 8px;
+  padding-bottom: 6px;
 }
 
 .rbStatus {
