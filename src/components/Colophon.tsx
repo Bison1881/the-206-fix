@@ -16,13 +16,12 @@ export default function Colophon() {
   return (
     <footer className={styles.colophon}>
       <nav className={styles.nav} aria-label="Site">
-        <Link to="/">Front Page</Link>
+        <Link to="/">Home</Link>
         <Link to="/scores">Scores</Link>
         <Link to="/standings">Standings</Link>
-        <Link to="/privacy">Privacy</Link>
       </nav>
       <div className={styles.mark}>The 206 Fix</div>
-      <div className={styles.tag}>aggregated · curated · a Seattle sports desk</div>
+      <div className={styles.tag}>A Seattle Sports Desk</div>
     </footer>
   );
 }

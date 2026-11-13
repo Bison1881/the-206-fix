@@ -89,17 +89,6 @@ export const routes: RouteRecord[] = [
           />
         ),
       },
-      {
-        path: 'privacy',
-        element: (
-          <StubPage
-            path="/privacy"
-            title="Privacy Policy"
-            phase="Phase 6"
-            blurb="Site privacy policy and affiliate disclosure."
-          />
-        ),
-      },
       /*
        * A real, prerendered /404 → dist/404.html, which Vercel serves for any
        * path it can't match. The `*` below only ever fires during client-side

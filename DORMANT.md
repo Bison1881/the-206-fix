@@ -26,10 +26,12 @@ collections: `src/content/` does not exist and there are zero `.md` files under
 Routes are declared in `src/routes.tsx`: `/`, `/scores`, `/standings`, `/box` (noindex
 query-string shell, one game per `?lg=&id=`), `/boards` (unlinked, noindex scoreboard
 specimen sheet; safe to delete), `/teams`, one page per
-team from `src/lib/teams.ts`, plus `/this-day`, `/almanac`, `/highlights` and
-`/privacy` — those four are **stub pages** (`src/pages/StubPage.tsx`), labelled
-Phase 3 and Phase 6, never built out. The three Phase 3 stubs and `/teams` are
-unlinked and noindexed as of the dormant pass below; `/privacy` is untouched.
+team from `src/lib/teams.ts`, plus `/this-day`, `/almanac` and `/highlights` —
+those three are **stub pages** (`src/pages/StubPage.tsx`), labelled Phase 3,
+never built out. They and `/teams` are unlinked and noindexed as of the dormant
+pass below. `/privacy` (a Phase 6 stub) was removed 2026-11-14 at the owner's
+request, along with its footer link; the site has no analytics, ads or
+affiliate links.
 
 ## The dormant pass (2026-08-23)
 
@@ -46,12 +48,12 @@ seven files (`SectionNav`, `Colophon`, `HomePage`, `StubPage`, `TeamsIndex`,
 
 ### What the site looks like now
 
-- **Section bar:** Scores · Standings. That is the entire primary nav.
-- **Footer:** Front Page · Scores · Standings · Privacy.
+- **Section bar:** Home · Scores · Standings. That is the entire primary nav.
+- **Footer:** Home · Scores · Standings, then the wordmark and "A Seattle Sports Desk".
 - **Front page:** lead story → The Wire. It ends there. No placeholders, and no `Phase N` badge anywhere on it.
 - **Hidden** (unlinked, `noindex, follow`, no canonical, out of the sitemap):
   `/teams`, `/this-day`, `/almanac`, `/highlights`. All four still resolve.
-- **Still public and indexed:** `/`, `/scores`, `/standings`, `/privacy`, and the
+- **Still public and indexed:** `/`, `/scores`, `/standings`, and the
   seven team pages. (`/box` is public but noindex and not in the sitemap.)
 
 What changed:
