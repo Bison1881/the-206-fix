@@ -1,96 +1,21 @@
 import { Link } from 'react-router-dom';
 import { TEAMS, type Team } from '../lib/teams';
 import { useScores } from '../lib/useScores';
-import { boxHref, leagueCodeOf, type TeamScore } from '../lib/espn';
 import PageMeta from '../components/PageMeta';
+import ScoreBoard from '../components/boards/ScoreBoard';
 import s from './ScoresPage.module.css';
 
 /*
- * The /scores board (spec §6, §8) — the SCORES nav destination: fuller per-team
- * tiles over the same normalized data the ribbon uses. A live or just-finished
- * game links to its box score (/box); league tables live on /standings.
+ * The /scores board (spec §6, §8) — the SCORES nav destination: one scoreboard
+ * per club, each styled after its own home (see components/boards), over the
+ * same normalized data the ribbon uses. A live or just-finished game links to
+ * its box score (/box); league tables live on /standings.
  * Client-hydrated island over a static skeleton, same as the ribbon: scores
  * share one fetch via useScores().
  */
 
-const STATUS_LABEL: Record<TeamScore['status'], string> = {
-  live: 'LIVE',
-  final: 'FINAL',
-  scheduled: 'NEXT',
-  offseason: 'OFFSEASON',
-  returning: 'RETURNING',
-  unavailable: '—',
-};
-
-function Tile({ team, score }: { team: Team; score?: TeamScore }) {
-  // Pre-hydration skeleton: name + muted placeholder, never blank (§5).
-  if (!score) {
-    return (
-      <div className={s.tile}>
-        <div className={s.tileHead}>
-          <span className={s.name}>{team.name}</span>
-        </div>
-        <div className={s.line}>…</div>
-      </div>
-    );
-  }
-
-  const { status } = score;
-  const hasScore = score.teamScore != null;
-  const vs = score.opponent
-    ? `${score.isHome ? 'vs' : '@'} ${score.opponent}`
-    : '';
-
-  return (
-    <div className={s.tile}>
-      <div className={s.tileHead}>
-        {score.logoUrl && (
-          <img
-            className={s.logo}
-            src={score.logoUrl}
-            alt=""
-            width={28}
-            height={28}
-            loading="lazy"
-          />
-        )}
-        <span className={s.name}>{team.name}</span>
-        <span className={status === 'live' ? s.badgeLive : s.badge}>
-          {STATUS_LABEL[status]}
-        </span>
-      </div>
-
-      {hasScore ? (
-        <div className={s.scoreRow}>
-          <span className={s.score}>
-            {score.teamScore}
-            <span className={s.dash}>–</span>
-            {score.oppScore}
-          </span>
-          {vs && <span className={s.vs}>{vs}</span>}
-        </div>
-      ) : (
-        <div className={s.line}>
-          {status === 'scheduled' && vs ? `${score.detail} · ${vs}` : score.detail}
-        </div>
-      )}
-
-      {/* Under a score, the detail carries the live/final nuance ("Bot 7",
-          "Final/10"). Scheduled tiles already show the time in the line above. */}
-      {hasScore && score.detail && <div className={s.detail}>{score.detail}</div>}
-
-      {score.series?.summary && (
-        <div className={s.series}>{score.series.summary}</div>
-      )}
-
-      {score.eventId && leagueCodeOf(team) && (
-        <Link className={s.boxLink} to={boxHref(leagueCodeOf(team)!, score.eventId)}>
-          Box score →
-        </Link>
-      )}
-    </div>
-  );
-}
+// Sonics last: their marquee spans the full width under the six live boards.
+const ORDERED: Team[] = [...TEAMS.filter((t) => t.kind !== 'returning'), ...TEAMS.filter((t) => t.kind === 'returning')];
 
 export default function ScoresPage() {
   const { scores } = useScores();
@@ -111,8 +36,8 @@ export default function ScoresPage() {
       <hr className={s.rule} />
 
       <div className={s.grid}>
-        {TEAMS.map((t) => (
-          <Tile key={t.id} team={t} score={scoreByKey.get(t.id)} />
+        {ORDERED.map((t) => (
+          <ScoreBoard key={t.id} team={t} score={scoreByKey.get(t.id)} />
         ))}
       </div>
 

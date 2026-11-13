@@ -1,0 +1,801 @@
+/* ════════════════════════════════════════════════════════════════════════
+   Scoreboards. Each board is an OBJECT on the newsprint page, so its colours
+   are its own (custom properties on the theme class), not the site tokens.
+   Red appears only as the LIVE lamp, same rule as the rest of the site.
+   ════════════════════════════════════════════════════════════════════════ */
+
+.board {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 14px 16px 12px;
+  min-height: 200px;
+  color: var(--ink, #eee);
+  box-shadow:
+    0 2px 0 rgba(0, 0, 0, 0.35),
+    0 10px 18px -10px rgba(0, 0, 0, 0.55);
+  /* Space the digit module from edges consistently. */
+  font-family: var(--font-term);
+}
+
+/* A board that has nothing to say is powered down, not hidden. */
+.off,
+.unavailable,
+.loading {
+  filter: saturate(0.6) brightness(0.84);
+}
+
+.series {
+  font-family: var(--font-term);
+  font-size: 15px;
+  letter-spacing: 1px;
+  opacity: 0.85;
+}
+
+.boxLink {
+  align-self: flex-end;
+  margin-top: auto;
+  font-family: var(--font-term);
+  font-size: 17px;
+  letter-spacing: 1px;
+  color: var(--accent, #fff);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.boxLink:hover {
+  text-decoration: underline;
+}
+
+.boxLink:focus-visible {
+  outline: 2px solid var(--accent, #fff);
+  outline-offset: 3px;
+}
+
+/* ── LIVE lamp (the one place red lives) ─────────────────────────────── */
+.lamp,
+.lampOn {
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  margin-right: 7px;
+  background: rgba(255, 255, 255, 0.16);
+  vertical-align: 1px;
+  flex: none;
+}
+
+.lampOn {
+  background: #ff3b2f;
+  box-shadow: 0 0 8px 2px rgba(255, 59, 47, 0.75);
+  animation: pulse 1.6s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  50% {
+    opacity: 0.45;
+  }
+}
+
+/* ════════════════════════════════════════════════════════════════════════
+   MARINERS: painted ballpark wall board
+   ════════════════════════════════════════════════════════════════════════ */
+.mariners {
+  --ink: #f2ead3;
+  --accent: #f2ead3;
+  background:
+    radial-gradient(circle at 12px 12px, rgba(0, 0, 0, 0.38) 2px, transparent 3px) 0 0 / 24px 24px,
+    linear-gradient(180deg, #17483f, #0e342d);
+  border: 5px solid #6f7d79;
+  border-radius: 4px;
+  outline: 2px solid #2c3a37;
+  outline-offset: -9px;
+}
+
+.mPlate {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-family: var(--font-head);
+  font-size: 15px;
+  letter-spacing: 3px;
+  border-bottom: 2px solid rgba(242, 234, 211, 0.55);
+  padding-bottom: 5px;
+}
+
+.mRows {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 4px;
+}
+
+.mRow,
+.mRowOurs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.mName {
+  font-family: var(--font-head);
+  text-transform: uppercase;
+  font-size: clamp(22px, 3.4vw, 32px);
+  letter-spacing: 2px;
+  line-height: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* The home club's name is painted brighter, with a gold underline stripe. */
+.mRowOurs .mName {
+  border-bottom: 3px solid #e3b93f;
+  padding-bottom: 2px;
+}
+
+.tiles {
+  display: inline-flex;
+  gap: 4px;
+  flex: none;
+}
+
+.tile {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 52px;
+  background: linear-gradient(180deg, #0b2723, #07201c);
+  border: 2px solid #b9c2bd;
+  border-radius: 3px;
+  font-family: var(--font-head);
+  font-size: 40px;
+  line-height: 1;
+  color: #fffbe9;
+  box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.5);
+}
+
+.mFoot {
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+  margin-top: auto;
+  font-size: 19px;
+  letter-spacing: 1px;
+  border-top: 2px solid rgba(242, 234, 211, 0.35);
+  padding-top: 6px;
+}
+
+.mStatus {
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.mNote {
+  flex: 1;
+  opacity: 0.85;
+}
+
+/* ════════════════════════════════════════════════════════════════════════
+   SEAHAWKS: stadium LED, GUEST over HOME
+   ════════════════════════════════════════════════════════════════════════ */
+.seahawks {
+  --ink: #cfd9e6;
+  --accent: #69be28;
+  --seg-on: #69d12a;
+  --seg-glow: rgba(105, 209, 42, 0.8);
+  --seg-off: rgba(105, 190, 40, 0.1);
+  background: linear-gradient(180deg, #0c2547 0%, #071a35 100%);
+  border: 6px solid #3b4553;
+  border-radius: 6px;
+  box-shadow:
+    inset 0 0 0 2px #1e2733,
+    0 2px 0 rgba(0, 0, 0, 0.35),
+    0 10px 18px -10px rgba(0, 0, 0, 0.55);
+}
+
+.sHead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--font-head);
+  font-size: 15px;
+  letter-spacing: 3px;
+}
+
+.sCrest {
+  display: grid;
+  place-items: center;
+  width: 30px;
+  height: 30px;
+  background: #69be28;
+  color: #071a35;
+  font-family: var(--font-head);
+  font-size: 17px;
+  letter-spacing: 0;
+  clip-path: polygon(25% 4%, 75% 4%, 100% 50%, 75% 96%, 25% 96%, 0 50%);
+}
+
+.sBody {
+  display: grid;
+  grid-template-columns: 1fr minmax(92px, 28%);
+  gap: 12px;
+  align-items: stretch;
+  flex: 1;
+}
+
+.sTeams {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  justify-content: center;
+}
+
+.sRow,
+.sRowOurs {
+  display: grid;
+  grid-template-columns: 44px 1fr auto;
+  align-items: center;
+  gap: 8px;
+}
+
+.sLabel {
+  font-size: 13px;
+  letter-spacing: 1px;
+  opacity: 0.6;
+}
+
+.sName {
+  font-family: var(--font-head);
+  text-transform: uppercase;
+  font-size: clamp(19px, 2.6vw, 26px);
+  letter-spacing: 2px;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.sRowOurs .sName {
+  color: #69d12a;
+}
+
+.sScore {
+  font-size: 46px;
+  color: #69d12a;
+  line-height: 1;
+}
+
+.sInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+  padding: 8px 10px;
+  background: #050f20;
+  border: 2px solid #2b3747;
+  text-align: center;
+}
+
+.sStatus {
+  font-size: 17px;
+  letter-spacing: 2px;
+  color: #69d12a;
+}
+
+.sNote {
+  font-size: 22px;
+  line-height: 1;
+  color: #e8f6d8;
+}
+
+/* ════════════════════════════════════════════════════════════════════════
+   KRAKEN: arena board hung from the rafters
+   ════════════════════════════════════════════════════════════════════════ */
+.kraken {
+  --ink: #d5f0f7;
+  --accent: #8fe4f5;
+  --seg-on: #aef2ff;
+  --seg-glow: rgba(120, 225, 255, 0.85);
+  --seg-off: rgba(174, 242, 255, 0.09);
+  margin-top: 22px; /* room for the cables */
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.14), transparent 28%),
+    linear-gradient(180deg, #0f3a4d, #071a24);
+  border: 4px solid #9cc2d1;
+  clip-path: polygon(14px 0, calc(100% - 14px) 0, 100% 14px, 100% calc(100% - 14px), calc(100% - 14px) 100%, 14px 100%, 0 calc(100% - 14px), 0 14px);
+}
+
+.kCableL,
+.kCableR {
+  position: absolute;
+  top: -30px;
+  width: 3px;
+  height: 30px;
+  background: linear-gradient(180deg, transparent, #7c8d95);
+}
+
+.kCableL {
+  left: 18%;
+}
+
+.kCableR {
+  right: 18%;
+}
+
+.kHead {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  font-family: var(--font-head);
+  font-size: 14px;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+.kHead .lamp,
+.kHead .lampOn {
+  margin: 0;
+  width: 12px;
+  height: 12px;
+}
+
+.kRows {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex: 1;
+  justify-content: center;
+}
+
+.kRow,
+.kRowOurs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 2px 6px;
+}
+
+.kRowOurs {
+  background: rgba(174, 242, 255, 0.1);
+  border-left: 3px solid #aef2ff;
+}
+
+.kName {
+  font-family: var(--font-head);
+  text-transform: uppercase;
+  font-size: clamp(20px, 2.8vw, 28px);
+  letter-spacing: 2px;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.kScore {
+  font-size: 50px;
+  line-height: 1;
+  color: #aef2ff;
+}
+
+.kFoot {
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+  font-size: 19px;
+  letter-spacing: 1px;
+  border-top: 2px solid rgba(156, 194, 209, 0.5);
+  padding-top: 6px;
+}
+
+.kStatus {
+  font-weight: 700;
+}
+
+.kFoot > :nth-child(2) {
+  flex: 1;
+  opacity: 0.85;
+}
+
+/* ════════════════════════════════════════════════════════════════════════
+   SOUNDERS: supporters' LED ribbon board
+   ════════════════════════════════════════════════════════════════════════ */
+.sounders {
+  --ink: #b8e98a;
+  --accent: #8fe03e;
+  background:
+    radial-gradient(circle, rgba(143, 224, 62, 0.16) 1.2px, transparent 1.6px) 0 0 / 6px 6px,
+    #08142b;
+  border: 4px solid #1c2c4d;
+  border-radius: 3px;
+  min-height: 170px;
+  font-family: var(--font-pixel);
+  overflow: hidden;
+}
+
+.rbMain {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 6px;
+  color: #8fe03e;
+  text-shadow: 0 0 6px rgba(143, 224, 62, 0.65);
+}
+
+.rbName,
+.rbNameOurs {
+  font-size: clamp(10px, 1.9vw, 15px);
+  letter-spacing: 1px;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  flex: 1;
+}
+
+.rbName:last-child,
+.rbNameOurs:last-child {
+  text-align: right;
+}
+
+.rbName {
+  color: #5ea5e8;
+  text-shadow: 0 0 6px rgba(94, 165, 232, 0.6);
+}
+
+.rbScore {
+  font-size: clamp(26px, 5vw, 40px);
+  line-height: 1;
+}
+
+.rbDash {
+  font-size: 22px;
+  opacity: 0.6;
+}
+
+.rbFoot {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px 16px;
+  font-size: 11px;
+  letter-spacing: 1px;
+  color: #b8e98a;
+  margin-top: 8px;
+}
+
+.rbStatus {
+  white-space: nowrap;
+}
+
+.rbVenue {
+  opacity: 0.55;
+}
+
+.rbFoot .boxLink {
+  margin-left: auto;
+  font-family: var(--font-term);
+}
+
+/* The scarf: blue and green bands, as hung at the supporters' end. */
+.rbScarf {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 9px;
+  background: repeating-linear-gradient(90deg, #2f7fd0 0 26px, #8fe03e 26px 52px, #ffffff 52px 58px);
+}
+
+/* ════════════════════════════════════════════════════════════════════════
+   STORM: arena ring board, a score each side of the clock
+   ════════════════════════════════════════════════════════════════════════ */
+.storm {
+  --ink: #f5e9b3;
+  --accent: #ffd21f;
+  --seg-on: #ffd21f;
+  --seg-glow: rgba(255, 190, 20, 0.85);
+  --seg-off: rgba(255, 210, 31, 0.08);
+  background: radial-gradient(ellipse at 50% 0%, #1b2a1d 0%, #0b100c 70%);
+  border: 5px solid #2d5a35;
+  border-radius: 14px;
+  box-shadow:
+    inset 0 0 0 3px #0b100c,
+    inset 0 0 0 5px #ffd21f,
+    0 2px 0 rgba(0, 0, 0, 0.35),
+    0 10px 18px -10px rgba(0, 0, 0, 0.55);
+  padding: 18px 20px 14px;
+}
+
+.stHead {
+  text-align: center;
+  font-family: var(--font-head);
+  font-size: 14px;
+  letter-spacing: 4px;
+  color: #ffd21f;
+}
+
+.stBody {
+  display: grid;
+  grid-template-columns: 1fr minmax(82px, 22%) 1fr;
+  gap: 8px;
+  align-items: center;
+  flex: 1;
+}
+
+.stSide,
+.stSideOurs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  min-width: 0;
+}
+
+.stLabel {
+  font-size: 13px;
+  letter-spacing: 2px;
+  opacity: 0.6;
+}
+
+.stName {
+  font-family: var(--font-head);
+  text-transform: uppercase;
+  font-size: clamp(16px, 2.4vw, 22px);
+  letter-spacing: 2px;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.stSideOurs .stName {
+  color: #ffd21f;
+}
+
+.stScore {
+  font-size: 54px;
+  line-height: 1;
+  color: #ffd21f;
+}
+
+.stCenter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  text-align: center;
+  padding: 8px 4px;
+  border-left: 2px solid rgba(255, 210, 31, 0.35);
+  border-right: 2px solid rgba(255, 210, 31, 0.35);
+}
+
+.stStatus {
+  font-size: 17px;
+  letter-spacing: 2px;
+  color: #ffd21f;
+}
+
+.stNote {
+  font-size: 20px;
+  line-height: 1.05;
+}
+
+/* ════════════════════════════════════════════════════════════════════════
+   REIGN: split-flap sign
+   ════════════════════════════════════════════════════════════════════════ */
+.reign {
+  --ink: #f4f0e2;
+  --accent: #9bc4ff;
+  background: linear-gradient(180deg, #14213d, #0b1426);
+  border: 5px solid #2b3a5c;
+  border-radius: 4px;
+}
+
+.rgHead {
+  display: flex;
+  justify-content: space-between;
+  font-family: var(--font-head);
+  font-size: 14px;
+  letter-spacing: 3px;
+  color: #9bc4ff;
+}
+
+.rgRows {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 2px;
+}
+
+.rgRow,
+.rgRowOurs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.flips {
+  display: inline-flex;
+  gap: 2px;
+}
+
+.flip {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: clamp(17px, 2.5vw, 24px);
+  height: 34px;
+  background: linear-gradient(180deg, #232d44 0 50%, #1a2338 50% 100%);
+  border-radius: 3px;
+  font-family: var(--font-head);
+  font-size: 24px;
+  line-height: 1;
+  color: #f4f0e2;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+}
+
+/* The hinge. */
+.flip::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  height: 2px;
+  margin-top: -1px;
+  background: #060a14;
+}
+
+.rgRowOurs .flip {
+  color: #9bc4ff;
+}
+
+.rgRow .flips:last-child .flip,
+.rgRowOurs .flips:last-child .flip {
+  width: 30px;
+  font-size: 30px;
+}
+
+.rgFoot {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: auto;
+}
+
+.rgFoot .flip {
+  height: 24px;
+  width: 15px;
+  font-size: 16px;
+}
+
+.rgNote {
+  flex: 1;
+  font-size: 19px;
+  letter-spacing: 1px;
+  opacity: 0.85;
+}
+
+/* ════════════════════════════════════════════════════════════════════════
+   SONICS: theatre marquee. Waiting, not scoring.
+   ════════════════════════════════════════════════════════════════════════ */
+.sonics {
+  --accent: #ffd24a;
+  padding: 10px;
+  min-height: 150px;
+  background: transparent;
+  box-shadow: none;
+  grid-column: 1 / -1;
+}
+
+.mqFrame {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  min-height: 130px;
+  padding: 20px 28px;
+  background: linear-gradient(180deg, #14543a, #0b3a28);
+  border: 4px solid #0a2b1e;
+  box-shadow:
+    0 2px 0 rgba(0, 0, 0, 0.35),
+    0 10px 18px -10px rgba(0, 0, 0, 0.55);
+}
+
+/* Two rings of bulbs that take turns, so the sign appears to chase. */
+.mqBulbs,
+.mqBulbs2 {
+  position: absolute;
+  inset: 6px;
+  border: 7px dotted #ffd24a;
+  border-radius: 2px;
+  filter: drop-shadow(0 0 3px rgba(255, 210, 74, 0.9));
+  pointer-events: none;
+}
+
+.mqBulbs2 {
+  border-color: #fff1b0;
+  border-spacing: 0;
+  opacity: 0;
+  animation: chase 1.4s steps(1) infinite;
+}
+
+@keyframes chase {
+  50% {
+    opacity: 0.85;
+  }
+}
+
+.mqTitle {
+  font-family: var(--font-head);
+  font-size: clamp(40px, 8vw, 72px);
+  letter-spacing: 12px;
+  line-height: 1;
+  padding-left: 12px;
+  color: #ffd24a;
+  text-shadow:
+    0 0 10px rgba(255, 210, 74, 0.7),
+    2px 3px 0 #082318;
+}
+
+.mqSub {
+  font-size: 22px;
+  letter-spacing: 4px;
+  color: #f6efc8;
+  text-align: center;
+}
+
+/* ── Calm for people who ask for it ──────────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  .lampOn,
+  .mqBulbs2 {
+    animation: none;
+  }
+  .mqBulbs2 {
+    opacity: 0.4;
+  }
+}
+
+/* ── Narrow screens ──────────────────────────────────────────────────── */
+@media (max-width: 560px) {
+  .tile {
+    width: 32px;
+    height: 46px;
+    font-size: 34px;
+  }
+  .sBody {
+    grid-template-columns: 1fr;
+  }
+  .sInfo {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .stBody {
+    grid-template-columns: 1fr 1fr;
+  }
+  .stCenter {
+    grid-column: 1 / -1;
+    grid-row: 1;
+    border: 0;
+    border-bottom: 2px solid rgba(255, 210, 31, 0.35);
+    flex-direction: row;
+    justify-content: center;
+    gap: 14px;
+  }
+  .mqTitle {
+    letter-spacing: 6px;
+  }
+}

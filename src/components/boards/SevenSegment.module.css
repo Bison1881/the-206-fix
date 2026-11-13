@@ -1,0 +1,23 @@
+.digits {
+  display: inline-flex;
+  gap: 0.18em;
+  height: 1em;
+  /* A touch of slant, the way real LED modules read. */
+  transform: skewX(-5deg);
+}
+
+.digit {
+  height: 100%;
+  width: auto;
+  aspect-ratio: 44 / 80;
+  overflow: visible;
+}
+
+.on {
+  fill: var(--seg-on, #7dff3a);
+  filter: drop-shadow(0 0 2.5px var(--seg-glow, currentColor));
+}
+
+.off {
+  fill: var(--seg-off, rgba(255, 255, 255, 0.08));
+}

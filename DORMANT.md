@@ -24,7 +24,8 @@ collections: `src/content/` does not exist and there are zero `.md` files under
 `src/` or `public/`.
 
 Routes are declared in `src/routes.tsx`: `/`, `/scores`, `/standings`, `/box` (noindex
-query-string shell, one game per `?lg=&id=`), `/teams`, one page per
+query-string shell, one game per `?lg=&id=`), `/boards` (unlinked, noindex scoreboard
+specimen sheet; safe to delete), `/teams`, one page per
 team from `src/lib/teams.ts`, plus `/this-day`, `/almanac`, `/highlights` and
 `/privacy` — those four are **stub pages** (`src/pages/StubPage.tsx`), labelled
 Phase 3 and Phase 6, never built out. The three Phase 3 stubs and `/teams` are

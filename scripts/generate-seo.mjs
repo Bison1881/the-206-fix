@@ -32,6 +32,8 @@ const EXCLUDE = new Set([
   '404.html',
   // /box is a query-string shell (one game per ?lg=&id=), noindex by design.
   'box.html',
+  // /boards is the unlinked scoreboard specimen sheet (noindex).
+  'boards.html',
   'this-day.html',
   'almanac.html',
   'highlights.html',
