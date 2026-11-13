@@ -82,7 +82,8 @@ export function boardView(team: Team, score?: TeamScore): BoardView {
 
   let note = detail;
   if (mode === 'final' && /^FINAL$/.test(detail)) note = '';
-  if (mode === 'unavailable') note = 'SCORE UNAVAILABLE';
+  if (mode === 'off') note = detail.replace(/^OFFSEASON\s*·?\s*/, '');
+  if (mode === 'unavailable') note = '';
 
   const code = leagueCodeOf(team);
   const boxTo = score.eventId && code ? boxHref(code, score.eventId) : undefined;

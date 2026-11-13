@@ -288,9 +288,10 @@
 }
 
 .sNote {
-  font-size: 22px;
+  font-size: 20px;
   line-height: 1;
   color: #e8f6d8;
+  overflow-wrap: anywhere;
 }
 
 /* ════════════════════════════════════════════════════════════════════════
@@ -597,8 +598,9 @@
 }
 
 .stNote {
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.05;
+  overflow-wrap: anywhere;
 }
 
 /* ════════════════════════════════════════════════════════════════════════
