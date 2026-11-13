@@ -82,9 +82,13 @@
   width: 100%;
 }
 
-.num {
+/* Higher specificity than the `.table tbody td` padding shorthand above, or
+   the left padding is lost and the figures run together. */
+.table th.num,
+.table td.num {
   text-align: right;
-  padding-left: 8px;
+  padding-left: 12px;
+  min-width: 2.4ch;
   white-space: nowrap;
 }
 
