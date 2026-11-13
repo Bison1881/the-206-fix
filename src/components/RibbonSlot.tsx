@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { TEAMS } from '../lib/teams';
 import { useScores } from '../lib/useScores';
 import type { TeamScore } from '../lib/espn';
@@ -8,7 +9,8 @@ import styles from './RibbonSlot.module.css';
  * shell, on every page (spec §6). It's a client-hydrated island: the
  * prerendered HTML ships the team-name skeleton (score store is empty during
  * SSG), then useScores() fetches on mount and this hydrates with live data.
- * Terse by design; the full context lives on /scores.
+ * Terse by design; the full context lives on /scores. Each cell links to that
+ * club's page, which is also what keeps the seven team pages linked.
  */
 
 function monthDay(iso?: string): string {
@@ -52,12 +54,12 @@ export default function RibbonSlot() {
           s.status === 'returning' ||
           s.status === 'unavailable';
         return (
-          <div className={styles.r} key={t.id}>
+          <Link className={styles.r} to={`/${t.id}`} key={t.id} aria-label={`${t.name}: ${cellText(s)}`}>
             <span className={styles.tm}>{t.abbr}</span>
             <span className={dim ? styles.dim : styles.val}>{cellText(s)}</span>
             {s?.status === 'live' && <span className={styles.live}>LIVE</span>}
             {s?.status === 'final' && <span className={styles.fin}>F</span>}
-          </div>
+          </Link>
         );
       })}
     </div>
