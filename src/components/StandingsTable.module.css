@@ -1,0 +1,103 @@
+.panel {
+  margin: 4px 0 8px;
+}
+
+.title {
+  font-family: var(--font-head);
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 22px;
+  letter-spacing: 1px;
+  margin: 0 0 4px;
+}
+
+.season {
+  font-family: var(--font-term);
+  font-size: 16px;
+  color: var(--ink-60);
+  margin-bottom: 8px;
+}
+
+.note {
+  font-family: var(--font-term);
+  font-size: 18px;
+  color: var(--ink-60);
+  margin: 10px 0;
+}
+
+/* Two newspaper columns of tables on desktop, one on mobile. */
+.groups {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 22px 28px;
+  align-items: start;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  border-top: 2px solid var(--ink);
+  font-variant-numeric: tabular-nums;
+}
+
+.caption {
+  caption-side: top;
+  text-align: left;
+  font-family: var(--font-head);
+  text-transform: uppercase;
+  font-size: 17px;
+  letter-spacing: 1px;
+  padding-bottom: 4px;
+}
+
+.table thead th {
+  font-family: var(--font-term);
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--ink-60);
+  border-bottom: 1px solid var(--ink);
+  padding: 3px 0;
+}
+
+.table tbody th,
+.table tbody td {
+  font-family: var(--font-term);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.1;
+  padding: 3px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.team {
+  text-align: left;
+  padding-right: 8px;
+}
+
+.table tbody th.team {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 0; /* lets the name column shrink so the figures keep their room */
+  width: 100%;
+}
+
+.num {
+  text-align: right;
+  padding-left: 8px;
+  white-space: nowrap;
+}
+
+/* The Seattle club: teal ink, bold, tinted band. */
+.ours th,
+.ours td {
+  color: var(--teal);
+  font-weight: 700;
+  background: var(--news-dk);
+}
+
+@media (max-width: 880px) {
+  .groups {
+    grid-template-columns: 1fr;
+  }
+}

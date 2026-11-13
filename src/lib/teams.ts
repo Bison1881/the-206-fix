@@ -122,3 +122,13 @@ export const TEAMS: Team[] = [
     offseasonCopy: 'NWSL offseason',
   },
 ];
+
+/** Display names for each league's standings, keyed `${sport}/${league}`. */
+export const LEAGUE_TITLE: Record<string, string> = {
+  'baseball/mlb': 'Major League Baseball',
+  'football/nfl': 'National Football League',
+  'hockey/nhl': 'National Hockey League',
+  'basketball/wnba': 'WNBA',
+  'soccer/usa.1': 'Major League Soccer',
+  'soccer/usa.nwsl': 'National Women’s Soccer League',
+};

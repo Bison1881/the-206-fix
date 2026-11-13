@@ -1,6 +1,8 @@
-import type { Team } from '../lib/teams';
+import { LEAGUE_TITLE, type Team } from '../lib/teams';
+import { leagueKeyOf } from '../lib/espn';
 import { teamWire } from '../lib/feeds';
 import Wire from '../components/Wire';
+import StandingsPanel from '../components/StandingsTable';
 import PageMeta from '../components/PageMeta';
 import s from './scaffold.module.css';
 
@@ -12,6 +14,7 @@ import s from './scaffold.module.css';
  */
 export default function TeamPage({ team }: { team: Team }) {
   const items = teamWire(team.id);
+  const leagueKey = leagueKeyOf(team);
 
   return (
     <div className={s.page}>
@@ -27,6 +30,16 @@ export default function TeamPage({ team }: { team: Team }) {
       </div>
       <hr className={s.rule} />
       <Wire items={items} />
+      {leagueKey && (
+        <>
+          <hr className={s.rule} />
+          <StandingsPanel
+            leagueKey={leagueKey}
+            title={`${LEAGUE_TITLE[leagueKey]} standings`}
+            heading="h2"
+          />
+        </>
+      )}
     </div>
   );
 }

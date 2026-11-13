@@ -1,14 +1,17 @@
-import { TEAMS, type Team } from '../lib/teams';
+import { useState } from 'react';
+import { TEAMS, LEAGUE_TITLE, type Team, type TeamKey } from '../lib/teams';
 import { useScores } from '../lib/useScores';
-import type { TeamScore, TeamStanding } from '../lib/espn';
+import { leagueKeyOf, type TeamScore } from '../lib/espn';
 import PageMeta from '../components/PageMeta';
+import StandingsPanel from '../components/StandingsTable';
 import s from './ScoresPage.module.css';
 
 /*
  * The /scores board (spec §6, §8) — the SCORES nav destination. Scores lead
  * (fuller per-team tiles over the same normalized data the ribbon uses), with
- * compact one-line standings beneath. Client-hydrated island over a static
- * skeleton, same as the ribbon: one shared fetch via useScores().
+ * full league standings beneath: pick a club, see its whole league. Client-
+ * hydrated island over a static skeleton, same as the ribbon: scores share one
+ * fetch via useScores(); standings load per league on demand (useStandings).
  */
 
 const STATUS_LABEL: Record<TeamScore['status'], string> = {
@@ -84,20 +87,27 @@ function Tile({ team, score }: { team: Team; score?: TeamScore }) {
   );
 }
 
-function StandingRow({ team, standing }: { team: Team; standing?: TeamStanding }) {
-  const parts = [standing?.record, standing?.standingSummary].filter(Boolean);
-  return (
-    <li className={s.standRow}>
-      <span className={s.standTeam}>{team.name}</span>
-      <span className={s.standInfo}>{parts.length ? parts.join(' · ') : '—'}</span>
-    </li>
-  );
-}
+// Teams that have a league table (the Sonics don't until there's a real club).
+const STANDINGS_TEAMS = TEAMS.filter((t) => leagueKeyOf(t) !== null);
+const IN_SEASON: TeamScore['status'][] = ['live', 'final', 'scheduled'];
 
 export default function ScoresPage() {
-  const { scores, standings } = useScores();
+  const { scores } = useScores();
   const scoreByKey = new Map(scores.map((x) => [x.key, x]));
-  const standByKey = new Map(standings.map((x) => [x.key, x]));
+
+  // Default to a club that's actually playing; the reader's pick wins once made.
+  // Until scores arrive there's no honest default, so we wait rather than fetch
+  // a league the page is about to swap away from.
+  const [picked, setPicked] = useState<TeamKey | null>(null);
+  const auto =
+    STANDINGS_TEAMS.find((t) => IN_SEASON.includes(scoreByKey.get(t.id)?.status as TeamScore['status']))
+      ?? STANDINGS_TEAMS[0];
+  const selected = picked
+    ? STANDINGS_TEAMS.find((t) => t.id === picked)
+    : scores.length
+      ? auto
+      : undefined;
+  const key = selected ? leagueKeyOf(selected) : null;
 
   return (
     <div className={s.page}>
@@ -120,11 +130,25 @@ export default function ScoresPage() {
       </div>
 
       <h2 className={s.standHead}>Standings</h2>
-      <ul className={s.standList}>
-        {TEAMS.map((t) => (
-          <StandingRow key={t.id} team={t} standing={standByKey.get(t.id)} />
+      <div className={s.tabs} role="tablist" aria-label="Choose a club to see its league standings">
+        {STANDINGS_TEAMS.map((t) => (
+          <button
+            key={t.id}
+            type="button"
+            role="tab"
+            aria-selected={selected?.id === t.id}
+            className={selected?.id === t.id ? s.tabOn : s.tab}
+            onClick={() => setPicked(t.id)}
+          >
+            {t.name}
+          </button>
         ))}
-      </ul>
+      </div>
+      {key ? (
+        <StandingsPanel leagueKey={key} title={LEAGUE_TITLE[key]} />
+      ) : (
+        <p className={s.standNote}>Loading standings…</p>
+      )}
     </div>
   );
 }

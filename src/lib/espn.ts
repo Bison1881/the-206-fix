@@ -8,8 +8,11 @@
  * `TeamStanding` shapes below and never sees a raw ESPN object.
  *
  * Endpoints (all permissive-CORS, callable straight from the browser):
- *   schedule: .../{sport}/{league}/teams/{id}/schedule   → live/final/next
- *   team:     .../{sport}/{league}/teams/{id}             → record + standing
+ *   schedule:  site.api.../{sport}/{league}/teams/{id}/schedule → live/final/next
+ *   standings: site.web.api.../{sport}/{league}/standings       → league tables
+ *
+ * (The per-team `.../teams/{id}` info endpoint used to supply a one-line record
+ * but is blocked cross-origin from the browser, so it was dropped.)
  */
 
 import type { Team, TeamKey } from './teams';
@@ -45,10 +48,28 @@ export interface TeamScore {
   updatedAt: string; // ISO
 }
 
-export interface TeamStanding {
-  key: TeamKey;
-  record?: string; // "50-40"
-  standingSummary?: string; // "2nd in AL West"
+// ─── League standings (full tables) ─────────────────────────────────────────
+
+export interface StandingsRow {
+  teamId: string;
+  name: string; // "Seattle Mariners"
+  abbr?: string; // ESPN's own abbreviation (ours is flagged separately)
+  logoUrl?: string;
+  ours: boolean; // the Seattle club — highlighted by the table
+  cells: string[]; // aligned with LeagueStandings.columns
+}
+
+export interface StandingsGroup {
+  name: string; // "AL West" | "Western Conference"
+  rows: StandingsRow[];
+}
+
+export interface LeagueStandings {
+  key: string; // `${sport}/${league}`
+  status: 'ok' | 'unavailable';
+  season?: string; // "2026"
+  columns: string[]; // header labels, e.g. ['W','L','PCT','GB','STRK']
+  groups: StandingsGroup[];
   updatedAt: string; // ISO
 }
 
@@ -276,26 +297,233 @@ export async function fetchTeamScore(team: Team): Promise<TeamScore> {
   }
 }
 
-/**
- * Compact one-line standing for one team (spec §8 tier-1): the cheap, reliable
- * `record` + `standingSummary` off the team-info endpoint. Never throws.
+// ─── Standings fetch + normalize ────────────────────────────────────────────
+
+/*
+ * Full league standings come from a different ESPN host than the schedule
+ * endpoints (site.web.api.espn.com — the site.api host 404s on /standings).
+ * `?level=3` asks for division groupings where the league has them (MLB, NFL,
+ * NHL); leagues without divisions simply return conference groups, and the
+ * walker below takes whatever groups carry entries, so a shape change degrades
+ * to "unavailable" rather than throwing.
  */
-export async function fetchTeamStanding(team: Team): Promise<TeamStanding> {
-  const stamp = () => new Date().toISOString();
-  if (team.kind === 'returning' || !team.espnTeamId) {
-    return { key: team.id, updatedAt: stamp() };
+const WEB = 'https://site.web.api.espn.com/apis/v2/sports';
+
+interface LeagueTableConfig {
+  level3: boolean;
+  /** Column label → ESPN stat name(s), first one present wins. */
+  columns: { label: string; stats: string[] }[];
+  /** Sort within a group, best first. Ties keep ESPN's order (stable sort). */
+  sortBy: string[];
+}
+
+const LEAGUE_TABLES: Record<string, LeagueTableConfig> = {
+  'baseball/mlb': {
+    level3: true,
+    columns: [
+      { label: 'W', stats: ['wins'] },
+      { label: 'L', stats: ['losses'] },
+      { label: 'PCT', stats: ['winPercent'] },
+      { label: 'GB', stats: ['gamesBehind'] },
+      { label: 'STRK', stats: ['streak'] },
+    ],
+    sortBy: ['winPercent'],
+  },
+  'football/nfl': {
+    level3: true,
+    columns: [
+      { label: 'W', stats: ['wins'] },
+      { label: 'L', stats: ['losses'] },
+      { label: 'T', stats: ['ties'] },
+      { label: 'PCT', stats: ['winPercent'] },
+      { label: 'PF', stats: ['pointsFor'] },
+      { label: 'PA', stats: ['pointsAgainst'] },
+      { label: 'STRK', stats: ['streak'] },
+    ],
+    sortBy: ['winPercent', 'pointDifferential'],
+  },
+  'hockey/nhl': {
+    level3: true,
+    columns: [
+      { label: 'GP', stats: ['gamesPlayed'] },
+      { label: 'W', stats: ['wins'] },
+      { label: 'L', stats: ['losses'] },
+      { label: 'OTL', stats: ['otLosses', 'overtimeLosses'] },
+      { label: 'PTS', stats: ['points'] },
+      { label: 'STRK', stats: ['streak'] },
+    ],
+    sortBy: ['points'],
+  },
+  'basketball/wnba': {
+    level3: false,
+    columns: [
+      { label: 'W', stats: ['wins'] },
+      { label: 'L', stats: ['losses'] },
+      { label: 'PCT', stats: ['winPercent'] },
+      { label: 'GB', stats: ['gamesBehind'] },
+      { label: 'STRK', stats: ['streak'] },
+    ],
+    sortBy: ['winPercent'],
+  },
+  'soccer/usa.1': {
+    level3: false,
+    columns: [
+      { label: 'GP', stats: ['gamesPlayed'] },
+      { label: 'W', stats: ['wins'] },
+      { label: 'L', stats: ['losses'] },
+      { label: 'T', stats: ['ties'] },
+      { label: 'GD', stats: ['pointDifferential'] },
+      { label: 'PTS', stats: ['points'] },
+    ],
+    sortBy: ['points', 'pointDifferential'],
+  },
+  'soccer/usa.nwsl': {
+    level3: false,
+    columns: [
+      { label: 'GP', stats: ['gamesPlayed'] },
+      { label: 'W', stats: ['wins'] },
+      { label: 'L', stats: ['losses'] },
+      { label: 'T', stats: ['ties'] },
+      { label: 'GD', stats: ['pointDifferential'] },
+      { label: 'PTS', stats: ['points'] },
+    ],
+    sortBy: ['points', 'pointDifferential'],
+  },
+};
+
+/** The league key a team's standings live under, or null (e.g. the Sonics). */
+export function leagueKeyOf(team: Team): string | null {
+  if (team.kind === 'returning' || !team.sport || !team.league) return null;
+  const key = `${team.sport}/${team.league}`;
+  return LEAGUE_TABLES[key] ? key : null;
+}
+
+function statMap(entry: any): Map<string, string> {
+  const m = new Map<string, string>();
+  const stats: any[] = Array.isArray(entry?.stats) ? entry.stats : [];
+  for (const st of stats) {
+    if (typeof st?.name === 'string' && st.displayValue != null) {
+      m.set(st.name, String(st.displayValue));
+    }
   }
+  return m;
+}
+
+function num(v: string | undefined): number {
+  if (v == null) return Number.NEGATIVE_INFINITY;
+  const n = parseFloat(v.replace(/[^0-9.+-]/g, ''));
+  return Number.isFinite(n) ? n : Number.NEGATIVE_INFINITY;
+}
+
+/** Every node that actually carries entries, depth-first, in ESPN's order. */
+function collectGroups(
+  node: any,
+  out: { name: string; season?: string; entries: any[] }[] = [],
+) {
+  const entries = node?.standings?.entries;
+  if (Array.isArray(entries) && entries.length) {
+    // The season a group's numbers belong to. Do NOT use the response's
+    // top-level `season`: it points at the *upcoming* season in the offseason
+    // (baseball reports 2027 over 2026's final table).
+    const ssn = node?.standings?.seasonDisplayName;
+    out.push({
+      name: String(node?.name ?? ''),
+      season: ssn != null && ssn !== '' ? String(ssn) : undefined,
+      entries,
+    });
+  }
+  const kids: any[] = Array.isArray(node?.children) ? node.children : [];
+  for (const k of kids) collectGroups(k, out);
+  return out;
+}
+
+/**
+ * One league's full standings, normalized for the table component. Never
+ * throws: any fetch/parse failure resolves to `status:'unavailable'` with no
+ * groups, so the UI can say so instead of breaking (spec §10).
+ * `ourTeamId` is the Seattle club's ESPN id *in this league*, used only to
+ * flag its row.
+ */
+export async function fetchLeagueStandings(
+  key: string,
+  ourTeamId?: string,
+): Promise<LeagueStandings> {
+  const cfg = LEAGUE_TABLES[key];
+  const stamp = new Date().toISOString();
+  const fail: LeagueStandings = {
+    key,
+    status: 'unavailable',
+    columns: cfg?.columns.map((c) => c.label) ?? [],
+    groups: [],
+    updatedAt: stamp,
+  };
+  if (!cfg) return fail;
+
   try {
-    const url = `${SITE}/${team.sport}/${team.league}/teams/${team.espnTeamId}`;
+    const url = `${WEB}/${key}/standings${cfg.level3 ? '?level=3' : ''}`;
     const data: any = await getJson(url);
-    const t = data?.team;
+
+    const raw = collectGroups(data);
+    const groups: StandingsGroup[] = raw
+      .map((g) => {
+        const rows = g.entries
+          .map((e, i) => {
+            const t = e?.team;
+            const stats = statMap(e);
+            const row: StandingsRow & { _i: number } = {
+              _i: i,
+              teamId: String(t?.id ?? ''),
+              name: String(t?.displayName ?? t?.name ?? t?.shortDisplayName ?? '—'),
+              abbr: t?.abbreviation,
+              logoUrl: t?.logos?.[0]?.href ?? t?.logo,
+              ours: !!ourTeamId && String(t?.id) === String(ourTeamId),
+              cells: cfg.columns.map((c) => {
+                const hit = c.stats.find((s) => stats.has(s));
+                return hit ? (stats.get(hit) as string) : '–';
+              }),
+            };
+            return { row, stats };
+          })
+          .sort((a, b) => {
+            for (const k of cfg.sortBy) {
+              const d = num(b.stats.get(k)) - num(a.stats.get(k));
+              if (d) return d; // note: -Infinity - -Infinity is NaN → falsy, falls through
+            }
+            return a.row._i - b.row._i;
+          })
+          .map(({ row }) => {
+            const { _i, ...clean } = row;
+            return clean as StandingsRow;
+          });
+        return { name: g.name, rows };
+      })
+      .filter((g) => g.rows.length > 0);
+
+    if (!groups.length) return fail;
+
+    // Season label from the groups themselves; the top-level field is only a
+    // last resort (it can name the next season, see collectGroups).
+    const top: unknown = data?.season;
+    const topLabel =
+      typeof top === 'object' && top
+        ? (top as { displayName?: string; year?: number }).displayName ??
+          String((top as { year?: number }).year ?? '')
+        : top != null
+          ? String(top)
+          : undefined;
+    // Keep just the year part: ESPN's soccer groups say "2026 MLS" / "2026 NWSL".
+    const rawSeason = raw.find((g) => g.season)?.season ?? topLabel;
+    const seasonLabel = rawSeason?.match(/^\d{4}(?:[-\u2013/]\d{2,4})?/)?.[0] ?? rawSeason;
+
     return {
-      key: team.id,
-      record: t?.record?.items?.[0]?.summary,
-      standingSummary: t?.standingSummary,
-      updatedAt: stamp(),
+      key,
+      status: 'ok',
+      season: seasonLabel || undefined,
+      columns: cfg.columns.map((c) => c.label),
+      groups,
+      updatedAt: stamp,
     };
   } catch {
-    return { key: team.id, updatedAt: stamp() };
+    return fail;
   }
 }

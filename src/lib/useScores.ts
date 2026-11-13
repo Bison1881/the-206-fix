@@ -14,16 +14,10 @@
 
 import { useSyncExternalStore } from 'react';
 import { TEAMS } from './teams';
-import {
-  fetchTeamScore,
-  fetchTeamStanding,
-  type TeamScore,
-  type TeamStanding,
-} from './espn';
+import { fetchTeamScore, type TeamScore } from './espn';
 
 export interface ScoresState {
   scores: TeamScore[];
-  standings: TeamStanding[];
   loading: boolean;
   lastFetched: number | null;
 }
@@ -33,12 +27,11 @@ const POLL_MS = 45_000; // live-refresh cadence while a game is in progress
 
 // A single stable state object; replaced (not mutated) on every update so
 // useSyncExternalStore sees a new reference and re-renders.
-let state: ScoresState = { scores: [], standings: [], loading: true, lastFetched: null };
+let state: ScoresState = { scores: [], loading: true, lastFetched: null };
 
 const subscribers = new Set<() => void>();
 let pollTimer: ReturnType<typeof setTimeout> | null = null;
 let scoresInFlight: Promise<void> | null = null;
-let standingsLoaded = false;
 
 function emit() {
   for (const cb of subscribers) cb();
@@ -65,17 +58,6 @@ function loadScores(force: boolean): Promise<void> {
       scoresInFlight = null;
     });
   return scoresInFlight;
-}
-
-/** Standings change slowly — fetched once, not on every live poll (§8). */
-function loadStandings() {
-  if (standingsLoaded) return;
-  standingsLoaded = true;
-  Promise.all(TEAMS.map(fetchTeamStanding))
-    .then((standings) => setState({ standings }))
-    .catch(() => {
-      standingsLoaded = false;
-    });
 }
 
 function clearTimer() {
@@ -110,7 +92,6 @@ function start() {
     document.addEventListener('visibilitychange', onVisibility);
   }
   loadScores(false).then(scheduleNext);
-  loadStandings();
 }
 
 function stop() {

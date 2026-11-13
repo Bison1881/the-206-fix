@@ -131,31 +131,47 @@
   padding-bottom: 4px;
 }
 
-.standList {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.standRow {
+.tabs {
   display: flex;
-  justify-content: space-between;
-  gap: 12px;
-  padding: 6px 0;
-  border-bottom: 1px solid var(--line);
+  flex-wrap: wrap;
+  gap: 4px 6px;
+  margin: 0 0 14px;
 }
 
-.standTeam {
+.tab,
+.tabOn {
   font-family: var(--font-head);
   text-transform: uppercase;
-  font-size: 17px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: var(--ink-60);
+  background: none;
+  border: 0;
+  border-bottom: 3px solid transparent;
+  padding: 4px 10px 3px;
+  cursor: pointer;
 }
 
-.standInfo {
+.tab:hover {
+  color: var(--ink);
+  border-bottom-color: var(--line);
+}
+
+.tabOn {
+  color: var(--teal);
+  border-bottom-color: var(--teal);
+}
+
+.tab:focus-visible,
+.tabOn:focus-visible {
+  outline: 2px solid var(--teal);
+  outline-offset: 2px;
+}
+
+.standNote {
   font-family: var(--font-term);
-  font-size: 16px;
+  font-size: 18px;
   color: var(--ink-60);
-  text-align: right;
 }
 
 @media (max-width: 880px) {
