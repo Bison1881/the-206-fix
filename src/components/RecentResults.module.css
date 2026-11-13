@@ -20,7 +20,7 @@
 
 .row {
   display: grid;
-  grid-template-columns: 4.5ch 2ch 1fr auto auto;
+  grid-template-columns: 6.5ch 2ch 1fr auto auto;
   align-items: baseline;
   gap: 14px;
   padding: 4px 0;
@@ -31,6 +31,7 @@
 
 .date {
   color: var(--ink-60);
+  white-space: nowrap;
 }
 
 .win,
@@ -61,7 +62,7 @@
 
 @media (max-width: 560px) {
   .row {
-    grid-template-columns: 4.5ch 2ch 1fr auto;
+    grid-template-columns: 6.5ch 2ch 1fr auto;
   }
   .link {
     grid-column: 1 / -1;
