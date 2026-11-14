@@ -1404,3 +1404,277 @@ export async function fetchBoxScore(leagueCode: string, eventId: string): Promis
     return unavailableBox(leagueCode, eventId);
   }
 }
+
+// ─── Club desk: season leaders, injuries, roster moves ──────────────────────
+
+/*
+ * Three small feeds that live on a club's own page. They share a roster fetch
+ * (which carries each player's injury status and lets us turn the leaders
+ * feed's athlete links into names), and each can fail on its own: a part that
+ * can't be had is `null`, a part that exists but is empty is `[]`, so the page
+ * can tell "unavailable" from "nothing to report".
+ */
+
+const CORE = 'https://sports.core.api.espn.com/v2/sports';
+
+export interface ClubLeader {
+  name: string;
+  pos?: string;
+  value: string;
+}
+export interface LeaderGroup {
+  label: string;
+  leaders: ClubLeader[];
+}
+export interface InjuryRow {
+  name: string;
+  pos?: string;
+  status: string; // ESPN's words: "Out", "Questionable", "Injured Reserve"...
+  date?: string; // ISO, when the status was set
+}
+export interface MoveRow {
+  date: string; // ISO
+  text: string;
+}
+export interface ClubDesk {
+  /** The season the leaders belong to, e.g. "2026" or "2026-27". */
+  season?: string;
+  leaders: LeaderGroup[] | null;
+  injuries: InjuryRow[] | null;
+  moves: MoveRow[] | null;
+}
+
+interface DeskConfig {
+  /** ESPN leader category → heading, in display order. */
+  leaders: { name: string; label: string }[];
+  /** ESPN carries player injury status for this league. */
+  injuries: boolean;
+  /** ESPN carries a transactions feed for this league. */
+  moves: boolean;
+  /** Hockey seasons are labelled by the year they end in ("2027" is 2026-27). */
+  splitYear?: boolean;
+}
+
+const DESK: Record<string, DeskConfig> = {
+  'baseball/mlb': {
+    leaders: [
+      { name: 'avg', label: 'Batting average' },
+      { name: 'homeRuns', label: 'Home runs' },
+      { name: 'RBIs', label: 'Runs batted in' },
+      { name: 'stolenBases', label: 'Stolen bases' },
+      { name: 'ERA', label: 'Earned run average' },
+      { name: 'wins', label: 'Wins' },
+      { name: 'strikeouts', label: 'Strikeouts' },
+      { name: 'saves', label: 'Saves' },
+    ],
+    injuries: true,
+    moves: true,
+  },
+  'football/nfl': {
+    leaders: [
+      { name: 'passingLeader', label: 'Passing' },
+      { name: 'rushingLeader', label: 'Rushing' },
+      { name: 'receivingLeader', label: 'Receiving' },
+      { name: 'sacks', label: 'Sacks' },
+      { name: 'interceptions', label: 'Interceptions' },
+      { name: 'totalTackles', label: 'Tackles' },
+    ],
+    injuries: true,
+    moves: true,
+  },
+  'hockey/nhl': {
+    leaders: [
+      { name: 'goals', label: 'Goals' },
+      { name: 'assists', label: 'Assists' },
+      { name: 'points', label: 'Points' },
+      { name: 'plusMinus', label: 'Plus/minus' },
+      { name: 'savePct', label: 'Save percentage' },
+      { name: 'wins', label: 'Goalie wins' },
+    ],
+    injuries: true,
+    moves: true,
+    splitYear: true,
+  },
+  'basketball/wnba': {
+    leaders: [
+      { name: 'pointsPerGame', label: 'Points per game' },
+      { name: 'reboundsPerGame', label: 'Rebounds per game' },
+      { name: 'assistsPerGame', label: 'Assists per game' },
+      { name: 'stealsPerGame', label: 'Steals per game' },
+      { name: 'blocksPerGame', label: 'Blocks per game' },
+    ],
+    injuries: true,
+    moves: true,
+  },
+  'soccer/usa.1': {
+    leaders: [
+      { name: 'goals', label: 'Goals' },
+      { name: 'assists', label: 'Assists' },
+      { name: 'shotsOnTarget', label: 'Shots on target' },
+      { name: 'saves', label: 'Saves' },
+    ],
+    injuries: false,
+    moves: false,
+  },
+  'soccer/usa.nwsl': {
+    leaders: [
+      { name: 'goals', label: 'Goals' },
+      { name: 'assists', label: 'Assists' },
+      { name: 'shotsOnTarget', label: 'Shots on target' },
+      { name: 'saves', label: 'Saves' },
+    ],
+    injuries: false,
+    moves: false,
+  },
+};
+
+/** Does this club have a desk (leaders and friends)? The Sonics, for one, do not. */
+export function hasClubDesk(team: Team): boolean {
+  return !!team.espnTeamId && !!DESK[`${team.sport}/${team.league}`] && team.kind !== 'returning';
+}
+
+interface RosterPlayer {
+  name: string;
+  pos?: string;
+  injury?: { status: string; date?: string };
+}
+
+/** id → player, from the roster (grouped by position for most leagues, flat for some). */
+async function fetchRoster(base: string, id: string): Promise<Map<string, RosterPlayer>> {
+  const data: any = await getJson(`${base}/teams/${id}/roster`);
+  const groups: any[] = Array.isArray(data?.athletes) ? data.athletes : [];
+  const flat: any[] = groups.flatMap((g) => (Array.isArray(g?.items) ? g.items : [g]));
+  const out = new Map<string, RosterPlayer>();
+  for (const p of flat) {
+    if (!p?.id) continue;
+    const inj = Array.isArray(p.injuries) ? p.injuries[0] : undefined;
+    out.set(String(p.id), {
+      name: String(p.displayName ?? p.fullName ?? ''),
+      pos: p.position?.abbreviation,
+      injury: inj?.status ? { status: String(inj.status), date: inj.date } : undefined,
+    });
+  }
+  return out;
+}
+
+const STATUS_ORDER = ['out', 'injured reserve', 'doubtful', 'questionable', 'day-to-day'];
+
+function injuriesOf(roster: Map<string, RosterPlayer>): InjuryRow[] {
+  const rows: InjuryRow[] = [];
+  for (const p of roster.values()) {
+    if (p.injury && p.name) {
+      rows.push({ name: p.name, pos: p.pos, status: p.injury.status, date: p.injury.date });
+    }
+  }
+  const rank = (s: string) => {
+    const i = STATUS_ORDER.indexOf(s.toLowerCase());
+    return i === -1 ? STATUS_ORDER.length : i;
+  };
+  return rows.sort(
+    (a, b) => rank(a.status) - rank(b.status) || (b.date ?? '').localeCompare(a.date ?? ''),
+  );
+}
+
+/** The leaders feed for the newest season that has any (see the candidates below). */
+async function fetchLeaders(
+  sport: string,
+  league: string,
+  id: string,
+  cfg: DeskConfig,
+  roster: Map<string, RosterPlayer> | null,
+): Promise<{ season: string; groups: LeaderGroup[] } | null> {
+  const y = new Date().getFullYear();
+  // ESPN names a season by one year, and which year differs by league (and the
+  // newest one may not have a game yet), so take the first candidate with data.
+  for (const year of [y + 1, y, y - 1]) {
+    let data: any;
+    try {
+      data = await getJson(`${CORE}/${sport}/leagues/${league}/seasons/${year}/types/2/teams/${id}/leaders`);
+    } catch {
+      continue;
+    }
+    const cats: any[] = Array.isArray(data?.categories) ? data.categories : [];
+    const picked = cfg.leaders
+      .map((c) => ({ c, cat: cats.find((k) => k?.name === c.name) }))
+      .filter((x) => Array.isArray(x.cat?.leaders) && x.cat.leaders.length > 0);
+    if (!picked.length) continue;
+
+    const athleteId = (l: any): string | undefined =>
+      String(l?.athlete?.$ref ?? '').match(/\/athletes\/(\d+)/)?.[1];
+
+    // Names come from the roster; anyone no longer on it (traded, released)
+    // is looked up directly.
+    const missing = new Map<string, string>();
+    for (const { cat } of picked) {
+      for (const l of cat.leaders.slice(0, 3)) {
+        const aid = athleteId(l);
+        if (aid && !roster?.has(aid)) missing.set(aid, String(l.athlete.$ref).replace(/^http:/, 'https:'));
+      }
+    }
+    const extra = new Map<string, string>();
+    await Promise.all(
+      [...missing].map(async ([aid, ref]) => {
+        try {
+          const a: any = await getJson(ref);
+          if (a?.displayName ?? a?.fullName) extra.set(aid, String(a.displayName ?? a.fullName));
+        } catch {
+          /* leave unnamed; the row is dropped below */
+        }
+      }),
+    );
+
+    const groups: LeaderGroup[] = picked.map(({ c, cat }) => ({
+      label: c.label,
+      leaders: cat.leaders
+        .slice(0, 3)
+        .map((l: any): ClubLeader | null => {
+          const aid = athleteId(l);
+          const p = aid ? roster?.get(aid) : undefined;
+          const name = p?.name || (aid ? extra.get(aid) : undefined);
+          return name && l?.displayValue != null
+            ? { name, pos: p?.pos, value: String(l.displayValue) }
+            : null;
+        })
+        .filter((l: ClubLeader | null): l is ClubLeader => !!l),
+    }));
+    const kept = groups.filter((g) => g.leaders.length > 0);
+    if (!kept.length) continue;
+    const label = cfg.splitYear ? `${year - 1}-${String(year).slice(2)}` : String(year);
+    return { season: label, groups: kept };
+  }
+  return null;
+}
+
+async function fetchMoves(base: string, id: string): Promise<MoveRow[]> {
+  const data: any = await getJson(`${base}/transactions?team=${encodeURIComponent(id)}`);
+  const tx: any[] = Array.isArray(data?.transactions) ? data.transactions : [];
+  return tx
+    .filter((t) => t?.date && t?.description)
+    .map((t) => ({ date: String(t.date), text: String(t.description) }))
+    .sort((a, b) => b.date.localeCompare(a.date));
+}
+
+/**
+ * Leaders, injuries and roster moves for one club. Never throws: each part
+ * resolves independently and an unavailable part comes back `null`.
+ */
+export async function fetchClubDesk(team: Team): Promise<ClubDesk> {
+  const key = `${team.sport}/${team.league}`;
+  const cfg = DESK[key];
+  const id = team.espnTeamId;
+  const none: ClubDesk = { leaders: null, injuries: null, moves: null };
+  if (!cfg || !id) return none;
+  const base = `${SITE}/${key}`;
+
+  const rosterP = fetchRoster(base, id).catch(() => null);
+  const movesP = cfg.moves ? fetchMoves(base, id).catch(() => null) : Promise.resolve(null);
+  const roster = await rosterP;
+  const leaders = await fetchLeaders(team.sport, team.league, id, cfg, roster).catch(() => null);
+
+  return {
+    season: leaders?.season,
+    leaders: leaders ? leaders.groups : null,
+    injuries: cfg.injuries && roster ? injuriesOf(roster) : null,
+    moves: await movesP,
+  };
+}
