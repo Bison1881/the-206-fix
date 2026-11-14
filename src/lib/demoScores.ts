@@ -2,9 +2,8 @@ import type { Team } from './teams';
 import type { LineupSlot, LiveSituation, TeamScore } from './espn';
 
 /*
- * Fixture scores for the boards. Used by the /boards specimen sheet, and by
- * /scores?demo=live so the real page can show every board mid-game without
- * waiting for one. Nothing here touches ESPN.
+ * Fixture scores for the boards. Used only by the /boards specimen sheet.
+ * Nothing here touches ESPN.
  */
 
 export type DemoState = 'live' | 'final' | 'next' | 'off' | 'unavailable' | 'loading';
