@@ -3,6 +3,7 @@ import { shortDate } from '../lib/time';
 import Wire from '../components/Wire';
 import Schedule from '../components/Schedule';
 import GameDay from '../components/GameDay';
+import GameDayInjuries from '../components/GameDayInjuries';
 import PageMeta from '../components/PageMeta';
 import s from './HomePage.module.css';
 
@@ -53,6 +54,8 @@ export default function HomePage() {
           </p>
         </div>
       )}
+
+      <GameDayInjuries />
 
       <Schedule />
 
