@@ -58,12 +58,35 @@
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(6, minmax(0, 1fr));
   gap: 22px;
+}
+
+/* Small boards: two across, or three across on a wide page. The big boards
+   (Mariners, Seahawks, Kraken, Sonics) set grid-column 1 / -1 themselves;
+   :where() keeps this default from out-ranking them. */
+:where(.grid) > * {
+  grid-column: span 3;
+}
+
+@media (min-width: 1000px) {
+  :where(.grid) > * {
+    grid-column: span 2;
+  }
+}
+
+/* Between phone and wide, three small boards would leave one alone: give the last a full row. */
+@media (min-width: 761px) and (max-width: 999px) {
+  :where(.grid) > [data-team='reign'] {
+    grid-column: 1 / -1;
+  }
 }
 
 @media (max-width: 760px) {
   .grid {
     grid-template-columns: 1fr;
+  }
+  :where(.grid) > * {
+    grid-column: 1 / -1;
   }
 }

@@ -289,25 +289,27 @@ function Kraken({ v }: { v: BoardView }) {
         <span>CLIMATE PLEDGE ARENA</span>
         <Lamp on={v.mode === 'live'} />
       </div>
-      <div className={s.kRows}>
-        {v.rows.map((r: BoardRow, i) => (
-          <div className={r.ours ? s.kRowOurs : s.kRow} key={i}>
-            <span className={s.kName}>{r.name}</span>
-            <span className={s.kScore}>
-              <SevenSegment value={r.score} digits={2} />
-            </span>
-          </div>
-        ))}
-      </div>
-      <div className={lit ? s.kClockBar : s.kClockBarOff} aria-hidden={lit ? undefined : true}>
-        <span className={s.kPeriod}>
-          <span className={s.kPeriodLabel}>PERIOD</span>
-          <span className={s.kPeriodValue}>{(lit && v.live?.periodLabel) || '–'}</span>
-        </span>
-        <span className={s.kClock}>
-          <span className={s.kPeriodLabel}>TIME</span>
-          <SevenSegment value={clock} digits={Math.max(clock.length, 5)} />
-        </span>
+      <div className={s.kBody}>
+        <div className={s.kRows}>
+          {v.rows.map((r: BoardRow, i) => (
+            <div className={r.ours ? s.kRowOurs : s.kRow} key={i}>
+              <span className={s.kName}>{r.name}</span>
+              <span className={s.kScore}>
+                <SevenSegment value={r.score} digits={2} />
+              </span>
+            </div>
+          ))}
+        </div>
+        <div className={lit ? s.kClockBar : s.kClockBarOff} aria-hidden={lit ? undefined : true}>
+          <span className={s.kPeriod}>
+            <span className={s.kPeriodLabel}>PERIOD</span>
+            <span className={s.kPeriodValue}>{(lit && v.live?.periodLabel) || '–'}</span>
+          </span>
+          <span className={s.kClock}>
+            <span className={s.kPeriodLabel}>TIME</span>
+            <SevenSegment value={clock} digits={Math.max(clock.length, 5)} />
+          </span>
+        </div>
       </div>
       <div className={s.kFoot}>
         <span className={s.kStatus}>{v.status}</span>

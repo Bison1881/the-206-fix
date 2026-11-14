@@ -1255,6 +1255,144 @@
 }
 
 /* ── Narrow screens ──────────────────────────────────────────────────── */
+/* ════════════════════════════════════════════════════════════════════════
+   Seahawks and Kraken run the full width of the page, like the Mariners.
+   Below 700px they keep their compact stacked layouts.
+   ════════════════════════════════════════════════════════════════════════ */
+.seahawks,
+.kraken {
+  grid-column: 1 / -1;
+}
+
+.kBody {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex: 1;
+}
+
+@media (min-width: 700px) {
+  /* Seahawks: bigger names and digits, a roomier info panel. */
+  .seahawks .sBody {
+    grid-template-columns: minmax(0, 1fr) 300px;
+    gap: 22px;
+  }
+  .seahawks .sTeams {
+    gap: 16px;
+  }
+  .seahawks .sRow,
+  .seahawks .sRowOurs {
+    gap: 18px;
+  }
+  .seahawks .sName {
+    font-size: 36px;
+    letter-spacing: 2px;
+  }
+  .seahawks .sScore {
+    font-size: 68px;
+  }
+  .seahawks .sBallSlot,
+  .seahawks .sBall,
+  .seahawks .sBallOff {
+    width: 28px;
+    height: 17px;
+  }
+  .seahawks .sTimeouts {
+    gap: 7px;
+    padding-left: 33px;
+  }
+  .seahawks .sMeta {
+    padding-left: 33px;
+    gap: 14px;
+  }
+  .seahawks .sMeta .sTimeouts {
+    padding-left: 0;
+  }
+  .seahawks .sTimeout,
+  .seahawks .sTimeoutOn {
+    width: 13px;
+    height: 13px;
+  }
+  .seahawks .sLabel {
+    font-size: 15px;
+  }
+  .seahawks .sInfo {
+    gap: 10px;
+    padding: 14px;
+  }
+  .seahawks .sStatus {
+    font-size: 20px;
+  }
+  .seahawks .sQtr,
+  .seahawks .sQtrOff {
+    font-size: 32px;
+  }
+  .seahawks .sClock,
+  .seahawks .sClockOff {
+    font-size: 58px;
+  }
+  .seahawks .sDown,
+  .seahawks .sDownOff {
+    font-size: 30px;
+  }
+  .seahawks .sSpot,
+  .seahawks .sSpotOff {
+    font-size: 19px;
+  }
+  .seahawks .sFoot {
+    font-size: 22px;
+  }
+
+  /* Kraken: the scores on the left, a period-and-clock panel on the right. */
+  .kraken .kBody {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 300px;
+    gap: 22px;
+    align-items: stretch;
+  }
+  .kraken .kRows {
+    gap: 10px;
+  }
+  .kraken .kRow,
+  .kraken .kRowOurs {
+    padding: 8px 16px;
+  }
+  .kraken .kName {
+    font-size: 40px;
+    letter-spacing: 3px;
+  }
+  .kraken .kScore {
+    font-size: 72px;
+  }
+  .kraken .kClockBar,
+  .kraken .kClockBarOff {
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    padding: 14px;
+    text-align: center;
+    background: rgba(2, 12, 18, 0.55);
+    border: 2px solid rgba(156, 194, 209, 0.35);
+    border-radius: 10px;
+  }
+  .kraken .kPeriod {
+    flex-direction: column;
+    gap: 4px;
+  }
+  .kraken .kPeriodValue {
+    font-size: 54px;
+  }
+  .kraken .kClock {
+    flex-direction: column;
+    gap: 6px;
+    font-size: 58px;
+  }
+  .kraken .kPeriodLabel,
+  .kraken .kClock .kPeriodLabel {
+    font-size: 15px;
+  }
+}
+
 /* Too narrow for lineups either side of the middle: batter on top, lineups side by side. */
 @media (max-width: 960px) {
   .mFrame {
