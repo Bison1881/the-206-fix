@@ -902,10 +902,13 @@ function playoffPictureOf(
       };
       return { input, stats, seed, i };
     });
-    // ESPN's own seeds when every team has one; otherwise the league's table order.
+    // ESPN's own order when it gives one (a playoff seed, else a table rank within the unit);
+    // otherwise the league's table sort.
     const seeded = !!rules.seedStat && rows.every((r) => Number.isFinite(r.seed));
+    const ranked = !seeded && rows.every((r) => Number.isFinite(num(r.stats.get('rank'))));
     rows.sort((a, b) => {
       if (seeded) return a.seed - b.seed || a.i - b.i;
+      if (ranked) return num(a.stats.get('rank')) - num(b.stats.get('rank')) || a.i - b.i;
       for (const k of cfg.sortBy) {
         const d = num(b.stats.get(k)) - num(a.stats.get(k));
         if (d) return d;
