@@ -50,7 +50,7 @@ export default function RecentResults({
   if (results.length === 0) return emptyNote ? <p className={s.empty}>{emptyNote}</p> : null;
 
   return (
-    <section className={s.panel} aria-label="Recent results">
+    <section className={s.panel} aria-label={`${team.name} recent results`}>
       {title && <h2 className={s.title}>{title}</h2>}
       <ul className={s.list}>
         {results.map((r) => (
