@@ -10,15 +10,24 @@ import s from './LatestBoxScore.module.css';
 /*
  * The club's box score, in full, right under its scoreboard. Which game:
  *   - a game in progress: that game, live;
- *   - for 48 hours after a game ends: that game, final;
+ *   - for a while after a game ends: that game, final. How long depends on how often
+ *     the sport plays: 48 hours for football and soccer (about weekly), 24 for hockey
+ *     (twice a week), and for baseball and basketball (nearly daily) until the next
+ *     game starts, since an empty box would otherwise be up most of the time;
  *   - after that: the next game's box score, empty, waiting for the game to be played
  *     (when there is no next game, as in the offseason, the last final stays up).
  * Client-only, like the scoreboard it follows: the prerender and first client
  * render are empty, and a box score that can't be loaded simply isn't shown.
  */
 
-const HOLD_MS = 48 * 60 * 60 * 1000;
 const HOUR = 60 * 60 * 1000;
+const HOLD_MS: Record<string, number> = {
+  football: 48 * HOUR,
+  soccer: 48 * HOUR,
+  hockey: 24 * HOUR,
+  baseball: Infinity, // until the next game starts
+  basketball: Infinity,
+};
 // The feed gives a game's start, not its end, so the hold counts from start plus a typical length.
 const GAME_LENGTH_MS: Record<string, number> = {
   football: 3.5 * HOUR,
@@ -43,7 +52,7 @@ export default function LatestBoxScore({ team }: { team: Team }) {
       if (cancelled) return;
       const last = results[0];
       const next = upcoming?.[0];
-      const heldUntil = last ? Date.parse(last.date) + (GAME_LENGTH_MS[team.sport] ?? 3 * HOUR) + HOLD_MS : 0;
+      const heldUntil = last ? Date.parse(last.date) + (GAME_LENGTH_MS[team.sport] ?? 3 * HOUR) + (HOLD_MS[team.sport] ?? 48 * HOUR) : 0;
       setPickedId(last && (Date.now() < heldUntil || !next) ? last.id : next?.id ?? null);
     });
     return () => {
