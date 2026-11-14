@@ -3,8 +3,8 @@ import styles from './SectionNav.module.css';
 
 /*
  * Primary navigation — a vintage newspaper section-index line, built into the
- * shared shell so it rides under the masthead on every page. Home, Scores and Standings;
- * the footer repeats them.
+ * shared shell so it rides under the masthead on every page. Home, Scores, Standings and Results;
+ * the footer repeats them, and the two should stay in step.
  *
  * DORMANT 2026-08: Teams, This Day, Almanac and Highlights were removed from
  * this bar. The three Phase 3 routes are empty scaffolds and are now noindexed
@@ -17,6 +17,7 @@ const ITEMS = [
   { label: 'Home', to: '/' }, // the front page: the day's news
   { label: 'Scores', to: '/scores' }, // the live scoreboard board (Phase 1)
   { label: 'Standings', to: '/standings' }, // league tables, one tab per club
+  { label: 'Results', to: '/results' }, // last ten games per club, with box scores
 ];
 
 export default function SectionNav() {
