@@ -1,22 +1,17 @@
 import { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
-import { TEAMS, type Team, type TeamKey } from '../lib/teams';
+import type { Team } from '../lib/teams';
 import { fetchUpcoming, type UpcomingGame } from '../lib/espn';
 import { gameDay, gameWhen } from '../lib/time';
 import { buildIcs, downloadIcs } from '../lib/calendar';
 import s from './Schedule.module.css';
 
 /*
- * Upcoming games for each club, on the front page. A client-hydrated island over
- * a static skeleton: the prerendered HTML carries the club names (each a link to
- * the club's page, which keeps those pages reachable) and the games load on mount.
- * Times read in Seattle's clock, with the viewer's own time underneath when it differs.
+ * A club's upcoming games, on its page. A client-fetched island: the prerender
+ * is empty and the games load on mount. Times read in Seattle's clock, with the
+ * viewer's own time underneath when it differs.
  */
 
-const GAMES = 4;
-// The Sonics have no feed, so no schedule to show.
-const CLUBS = TEAMS.filter((t) => t.kind === 'live');
-
+const GAMES = 5;
 type Entry = UpcomingGame[] | 'unavailable';
 
 function Game({ g }: { g: UpcomingGame }) {
@@ -54,7 +49,24 @@ function CalendarButton({ team }: { team: Team }) {
   );
 }
 
-function Club({ team, entry }: { team: Team; entry?: Entry }) {
+/** One club's next games, with the calendar download. */
+export default function ClubSchedule({ team }: { team: Team }) {
+  const [entry, setEntry] = useState<Entry | undefined>();
+
+  useEffect(() => {
+    if (team.kind !== 'live') return;
+    let live = true;
+    fetchUpcoming(team, GAMES).then((r) => {
+      if (live) setEntry(r ?? 'unavailable');
+    });
+    return () => {
+      live = false;
+    };
+  }, [team]);
+
+  // The Sonics have no feed, so no schedule to show.
+  if (team.kind !== 'live') return null;
+
   let body;
   if (!entry) body = <p className={s.note}>Loading schedule</p>;
   else if (entry === 'unavailable') body = <p className={s.note}>Schedule unavailable</p>;
@@ -69,41 +81,12 @@ function Club({ team, entry }: { team: Team; entry?: Entry }) {
     );
 
   return (
-    <section className={s.club} aria-label={`${team.name} schedule`}>
-      <h3 className={s.clubHead}>
-        <Link to={`/${team.id}`}>{team.name}</Link>
-      </h3>
+    <section className={s.panel} aria-label={`${team.name} schedule`}>
+      <h2 className={s.title}>
+        Schedule <span className={s.tz}>Seattle time</span>
+      </h2>
       {body}
       {Array.isArray(entry) && entry.length > 0 && <CalendarButton team={team} />}
-    </section>
-  );
-}
-
-export default function Schedule() {
-  const [data, setData] = useState<Partial<Record<TeamKey, Entry>>>({});
-
-  useEffect(() => {
-    let live = true;
-    for (const t of CLUBS) {
-      fetchUpcoming(t, GAMES).then((r) => {
-        if (live) setData((d) => ({ ...d, [t.id]: r ?? 'unavailable' }));
-      });
-    }
-    return () => {
-      live = false;
-    };
-  }, []);
-
-  return (
-    <section className={s.wrap} aria-labelledby="schedule-head">
-      <h2 id="schedule-head" className={s.head}>
-        The Schedule <span className={s.tz}>Seattle time</span>
-      </h2>
-      <div className={s.grid}>
-        {CLUBS.map((t) => (
-          <Club key={t.id} team={t} entry={data[t.id]} />
-        ))}
-      </div>
     </section>
   );
 }

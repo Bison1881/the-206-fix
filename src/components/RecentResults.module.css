@@ -9,6 +9,13 @@
   font-size: calc(25.3px * var(--head-scale, 1));
   letter-spacing: calc(1px * var(--head-track, 1));
   margin: 0 0 6px;
+  padding-top: 8px;
+  border-top: 2px solid var(--ink);
+}
+
+/* A titled list takes its rule from the title; an untitled one (the results page) draws its own. */
+.title + .list {
+  border-top: 0;
 }
 
 .list {
