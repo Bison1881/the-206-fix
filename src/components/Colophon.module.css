@@ -11,7 +11,7 @@
   justify-content: center;
   gap: 4px 16px;
   font-family: var(--font-data);
-  font-size: 12px;
+  font-size: calc(12px * var(--data-scale, 1));
   color: var(--ink-60);
   margin-bottom: 16px;
 }
@@ -27,7 +27,7 @@
 
 .tag {
   font-family: var(--font-data);
-  font-size: 12.8px;
+  font-size: calc(12.8px * var(--data-scale, 1));
   color: var(--ink-60);
   margin-top: 8px;
 }

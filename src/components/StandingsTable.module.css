@@ -13,14 +13,14 @@
 
 .season {
   font-family: var(--font-data);
-  font-size: 12.8px;
+  font-size: calc(12.8px * var(--data-scale, 1));
   color: var(--ink-60);
   margin-bottom: 8px;
 }
 
 .note {
   font-family: var(--font-data);
-  font-size: 14.4px;
+  font-size: calc(14.4px * var(--data-scale, 1));
   color: var(--ink-60);
   margin: 10px 0;
 }
@@ -52,7 +52,7 @@
 
 .table thead th {
   font-family: var(--font-data);
-  font-size: 12px;
+  font-size: calc(12px * var(--data-scale, 1));
   font-weight: 400;
   color: var(--ink-60);
   border-bottom: 1px solid var(--ink);
@@ -62,7 +62,7 @@
 .table tbody th,
 .table tbody td {
   font-family: var(--font-data);
-  font-size: 14.4px;
+  font-size: calc(14.4px * var(--data-scale, 1));
   font-weight: 400;
   line-height: 1.1;
   padding: 3px 0;

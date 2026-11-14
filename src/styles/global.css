@@ -59,3 +59,14 @@ a {
     animation: none !important;
   }
 }
+
+/* Type sample (?type=...), see components/TypeSample.tsx. Nothing here applies unless a sample is chosen. */
+html[data-type='old'] {
+  --font-data: 'Old Standard TT', Georgia, serif;
+  --data-scale: 1;
+}
+
+html[data-type='source'] {
+  --font-data: 'Source Serif 4', Georgia, serif;
+  --data-scale: 1.06;
+}

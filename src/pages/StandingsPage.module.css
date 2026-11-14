@@ -57,6 +57,6 @@
 
 .note {
   font-family: var(--font-data);
-  font-size: 14.4px;
+  font-size: calc(14.4px * var(--data-scale, 1));
   color: var(--ink-60);
 }

@@ -9,7 +9,7 @@
   color: var(--news);
   text-decoration: none;
   font-family: var(--font-data);
-  font-size: 16px;
+  font-size: calc(16px * var(--data-scale, 1));
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }

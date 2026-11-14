@@ -48,7 +48,7 @@
 /* Shown only with ?demo=live. */
 .demo {
   font-family: var(--font-data);
-  font-size: 16px;
+  font-size: calc(16px * var(--data-scale, 1));
   margin: 0 0 14px;
   padding: 4px 10px;
   border: 1px dashed var(--teal);
@@ -62,7 +62,7 @@
 /* ── Links ───────────────────────────────────────────────────────────── */
 .more {
   font-family: var(--font-data);
-  font-size: 16px;
+  font-size: calc(16px * var(--data-scale, 1));
   margin: 22px 0 6px;
 }
 

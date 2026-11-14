@@ -11,7 +11,7 @@
 
 .leadKicker {
   font-family: var(--font-data);
-  font-size: 12px;
+  font-size: calc(12px * var(--data-scale, 1));
   color: var(--ink-60);
   text-transform: uppercase;
   letter-spacing: 0.5px;
@@ -73,7 +73,7 @@
 .stub .badge {
   display: inline-block;
   font-family: var(--font-data);
-  font-size: 11px;
+  font-size: calc(11px * var(--data-scale, 1));
   font-weight: 700;
   letter-spacing: 1.5px;
   text-transform: uppercase;

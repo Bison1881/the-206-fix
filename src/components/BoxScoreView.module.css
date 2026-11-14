@@ -8,7 +8,7 @@
   align-items: baseline;
   gap: 4px 14px;
   font-family: var(--font-data);
-  font-size: 14.4px;
+  font-size: calc(14.4px * var(--data-scale, 1));
   color: var(--ink-60);
 }
 
@@ -63,7 +63,7 @@
 
 .linescore thead th {
   font-family: var(--font-data);
-  font-size: 12px;
+  font-size: calc(12px * var(--data-scale, 1));
   font-weight: 400;
   color: var(--ink-60);
   padding: 4px 0;
@@ -73,7 +73,7 @@
 .linescore tbody th,
 .linescore tbody td {
   font-family: var(--font-data);
-  font-size: 17.6px;
+  font-size: calc(17.6px * var(--data-scale, 1));
   font-weight: 400;
   line-height: 1.1;
   padding: 5px 0;
@@ -163,7 +163,7 @@
   margin: 0;
   padding: 0;
   font-family: var(--font-data);
-  font-size: 15.2px;
+  font-size: calc(15.2px * var(--data-scale, 1));
 }
 
 .events li {
@@ -231,7 +231,7 @@
 .table thead th,
 .compare thead th {
   font-family: var(--font-data);
-  font-size: 12px;
+  font-size: calc(12px * var(--data-scale, 1));
   font-weight: 400;
   color: var(--ink-60);
   border-bottom: 1px solid var(--ink);
@@ -245,7 +245,7 @@
 .compare tbody th,
 .compare tbody td {
   font-family: var(--font-data);
-  font-size: 14.4px;
+  font-size: calc(14.4px * var(--data-scale, 1));
   font-weight: 400;
   line-height: 1.1;
   padding: 3px 0;
@@ -284,7 +284,7 @@
 
 .note {
   font-family: var(--font-data);
-  font-size: 14.4px;
+  font-size: calc(14.4px * var(--data-scale, 1));
   color: var(--ink-60);
   margin: 10px 0;
 }
