@@ -140,7 +140,7 @@ function PlayerTable({ t }: { t: BoxTable }) {
   );
 }
 
-export default function BoxScoreView({ box }: { box: BoxScore }) {
+export default function BoxScoreView({ box, titleAs: Title = 'h1' }: { box: BoxScore; titleAs?: 'h1' | 'h3' }) {
   const [away, home] = box.lines;
   const live = box.state === 'in';
 
@@ -154,9 +154,9 @@ export default function BoxScoreView({ box }: { box: BoxScore }) {
         <span className={live ? s.statusLive : s.status}>{live ? 'LIVE' : box.statusText ?? ''}</span>
         {meta && <span className={s.meta}>{meta}</span>}
       </div>
-      <h1 className={s.title}>
+      <Title className={s.title}>
         {away?.name} <span className={s.at}>at</span> {home?.name}
-      </h1>
+      </Title>
 
       <LineScore box={box} />
 
