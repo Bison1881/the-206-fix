@@ -107,6 +107,7 @@
 .linescore td.total {
   text-align: right;
   padding-left: 16px;
+  padding-right: 10px;
   min-width: 1.8ch;
   font-weight: 700;
 }
