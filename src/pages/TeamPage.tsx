@@ -34,6 +34,7 @@ export default function TeamPage({ team }: { team: Team }) {
         title={`Seattle ${team.name}`}
         description={`Seattle ${team.name}: scores, schedule, injury report, season leaders, standings and news from around the web, on The 206 Fix.`}
         path={`/${team.id}`}
+        aboutTeam={team.kind === 'live' ? `Seattle ${team.name}` : undefined}
       />
       <span className={s.badge}>Seattle</span>
       <h1 className={s.banner}>{team.name}</h1>

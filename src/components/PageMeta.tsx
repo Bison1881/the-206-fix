@@ -39,6 +39,43 @@ interface Props {
   path?: string;
   /** Keep the page out of the index — the 404, which has no canonical URL. */
   noindex?: boolean;
+  /** A club page: names the team the page is about, for structured data. */
+  aboutTeam?: string;
+}
+
+const IMAGE = `${ORIGIN}/og-image.png`;
+const IMAGE_ALT = 'The 206 Fix, Seattle Sports';
+
+/** JSON-LD for a page: the site itself on the front page, a breadcrumb trail elsewhere. */
+function structuredData(fullTitle: string, title: string | undefined, description: string, canonical: string, aboutTeam?: string) {
+  if (!title) {
+    return [
+      { '@context': 'https://schema.org', '@type': 'WebSite', name: SITE, alternateName: fullTitle, url: ORIGIN },
+      { '@context': 'https://schema.org', '@type': 'Organization', name: SITE, url: ORIGIN, logo: `${ORIGIN}/apple-touch-icon.png` },
+    ];
+  }
+  const out: object[] = [
+    {
+      '@context': 'https://schema.org',
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: SITE, item: ORIGIN },
+        { '@type': 'ListItem', position: 2, name: title, item: canonical },
+      ],
+    },
+  ];
+  if (aboutTeam) {
+    out.push({
+      '@context': 'https://schema.org',
+      '@type': 'WebPage',
+      name: fullTitle,
+      description,
+      url: canonical,
+      isPartOf: { '@type': 'WebSite', name: SITE, url: ORIGIN },
+      about: { '@type': 'SportsTeam', name: aboutTeam },
+    });
+  }
+  return out;
 }
 
 /** Upsert a <meta name="..."> in <head>, or drop it when content is null. */
@@ -75,9 +112,11 @@ function setCanonical(href: string | null) {
   document.head.appendChild(el);
 }
 
-export default function PageMeta({ title, description, path, noindex }: Props) {
+export default function PageMeta({ title, description, path, noindex, aboutTeam }: Props) {
   const fullTitle = title ? `${title} — ${SITE}` : `${SITE} — Seattle Sports`;
   const canonical = path === '/' ? ORIGIN : `${ORIGIN}${path}`;
+  // "<" escaped so a stray "</script>" in a title could never end the block early.
+  const ld = noindex ? [] : structuredData(fullTitle, title, description, canonical, aboutTeam).map((d) => JSON.stringify(d).replace(/</g, '\\u003c'));
 
   useEffect(() => {
     document.title = fullTitle;
@@ -96,6 +135,24 @@ export default function PageMeta({ title, description, path, noindex }: Props) {
       ) : (
         <link rel="canonical" href={canonical} />
       )}
+      {!noindex && <meta property="og:type" content="website" />}
+      {!noindex && <meta property="og:site_name" content={SITE} />}
+      {!noindex && <meta property="og:title" content={fullTitle} />}
+      {!noindex && <meta property="og:description" content={description} />}
+      {!noindex && <meta property="og:url" content={canonical} />}
+      {!noindex && <meta property="og:image" content={IMAGE} />}
+      {!noindex && <meta property="og:image:width" content="1200" />}
+      {!noindex && <meta property="og:image:height" content="630" />}
+      {!noindex && <meta property="og:image:alt" content={IMAGE_ALT} />}
+      {!noindex && <meta name="twitter:card" content="summary_large_image" />}
+      {!noindex && <meta name="twitter:title" content={fullTitle} />}
+      {!noindex && <meta name="twitter:description" content={description} />}
+      {!noindex && <meta name="twitter:image" content={IMAGE} />}
+      {ld.map((json, i) => (
+        <script key={i} type="application/ld+json">
+          {json}
+        </script>
+      ))}
     </Head>
   );
 }
