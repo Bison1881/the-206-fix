@@ -1,7 +1,6 @@
 /*
- * The one shared scoreboard store (spec §6, §7). Both surfaces — the RibbonSlot
- * in the shell and the /scores board — read from here via useScores(), so the
- * data is fetched ONCE and the two never drift or double-hit ESPN.
+ * The one shared scoreboard store (spec §6, §7). The /scores page reads
+ * from here via useScores(), so the data is fetched once and never double-hits ESPN.
  *
  * It's a module-level singleton behind useSyncExternalStore:
  *   - getServerSnapshot returns the empty skeleton, so SSG prerenders a static

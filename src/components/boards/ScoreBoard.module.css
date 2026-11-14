@@ -1475,3 +1475,13 @@
     letter-spacing: 6px;
   }
 }
+
+/* Second line under an upcoming game's Seattle time: the viewer's own clock. */
+.noteLocal {
+  display: block;
+  font-size: 0.78em;
+  letter-spacing: 0.06em;
+  opacity: 0.72;
+  margin-top: 2px;
+  white-space: nowrap;
+}

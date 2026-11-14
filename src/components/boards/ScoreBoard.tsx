@@ -58,6 +58,16 @@ const TOP_KEYS = ['AVG', 'HR', 'RBI', 'OPS'];
 const BOTTOM_KEYS = ['G', 'AB', 'H', 'XBH', 'R', 'BB', 'OBP', 'SLG'];
 
 /** One club's lineup, with its pitcher at the foot. The man at the plate is lit. */
+/** The board's note line. An upcoming game adds the viewer's own time underneath, when it differs from Seattle's. */
+function Note({ v, className }: { v: BoardView; className?: string }) {
+  return (
+    <span className={className}>
+      {v.note}
+      {v.local && <small className={s.noteLocal}>YOUR TIME: {v.local}</small>}
+    </span>
+  );
+}
+
 function Lineup({ side, name, ours }: { side?: SideView; name: string; ours: boolean }) {
   const slots = side?.lineup ?? BLANK_SLOTS;
   return (
@@ -181,7 +191,7 @@ function Mariners({ v }: { v: BoardView }) {
           <Lamp on={v.mode === 'live'} />
           {v.status}
         </span>
-        {live ? <span className={s.mHalf}>{`${halfWord} ${live.periodLabel}`}</span> : <span className={s.mNote}>{v.note}</span>}
+        {live ? <span className={s.mHalf}>{`${halfWord} ${live.periodLabel}`}</span> : <Note v={v} className={s.mNote} />}
         <BoxLink view={v} />
       </div>
     </>
@@ -264,7 +274,7 @@ function Seahawks({ v }: { v: BoardView }) {
         <BoxLink view={v} />
       ) : (
         <div className={s.sFoot}>
-          <span>{v.note}</span>
+          <Note v={v} />
           <BoxLink view={v} />
         </div>
       )}
@@ -313,7 +323,7 @@ function Kraken({ v }: { v: BoardView }) {
       </div>
       <div className={s.kFoot}>
         <span className={s.kStatus}>{v.status}</span>
-        {v.mode !== 'live' && <span>{v.note}</span>}
+        {v.mode !== 'live' && <Note v={v} />}
         <BoxLink view={v} />
       </div>
     </>
@@ -339,7 +349,7 @@ function Sounders({ v }: { v: BoardView }) {
           <Lamp on={v.mode === 'live'} />
           {v.status}
         </span>
-        <span>{v.note}</span>
+        <Note v={v} />
         <span className={s.rbVenue}>LUMEN FIELD</span>
         <BoxLink view={v} />
       </div>
@@ -370,7 +380,7 @@ function Storm({ v }: { v: BoardView }) {
             <Lamp on={v.mode === 'live'} />
             {v.status}
           </span>
-          <span className={s.stNote}>{v.note}</span>
+          <Note v={v} className={s.stNote} />
         </div>
         {side(b, 'HOME')}
       </div>
@@ -397,7 +407,7 @@ function Reign({ v }: { v: BoardView }) {
       </div>
       <div className={s.rgFoot}>
         <Flip text={v.status} n={Math.max(4, v.status.length)} />
-        <span className={s.rgNote}>{v.note}</span>
+        <Note v={v} className={s.rgNote} />
         <BoxLink view={v} />
       </div>
     </>

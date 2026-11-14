@@ -1,5 +1,6 @@
 import type { Team } from '../../lib/teams';
 import { boxHref, leagueCodeOf, type LineupSlot, type TeamScore } from '../../lib/espn';
+import { gameWhen } from '../../lib/time';
 
 /*
  * One normalized "what should the board say" shape, shared by every themed
@@ -65,7 +66,9 @@ export interface BoardView {
   mode: BoardMode;
   rows: [BoardRow, BoardRow];
   status: string; // LIVE | FINAL | NEXT | OFFSEASON ...
-  note: string; // the detail line: "BOT 7", "MON 07:05", "OFFSEASON · NEXT 25 MAR"
+  note: string;
+  local?: string; // upcoming game: the viewer's own time, when it differs from Seattle's
+  // the detail line: "BOT 7", "MON 07:05", "OFFSEASON · NEXT 25 MAR"
   series?: string;
   summary: string; // plain-text reading of the board, for screen readers
   boxTo?: string; // in-app link to the box score, when one exists
@@ -218,6 +221,9 @@ export function boardView(team: Team, score?: TeamScore): BoardView {
   if (extra) note = `${extra[1]} INNINGS`;
   if (mode === 'off') note = detail.replace(/^OFFSEASON\s*·?\s*/, '');
   if (mode === 'unavailable') note = '';
+  // An upcoming game reads in Seattle time, with the viewer's own time as a second line.
+  const when = mode === 'next' ? gameWhen(score.startDate, score.timeTbd) : undefined;
+  if (when) note = when.line;
 
   const code = leagueCodeOf(team);
   const boxTo = score.eventId && code ? boxHref(code, score.eventId) : undefined;
@@ -251,6 +257,7 @@ export function boardView(team: Team, score?: TeamScore): BoardView {
     rows,
     status: STATUS[mode],
     note,
+    local: when?.local,
     series: score.series?.summary?.toUpperCase(),
     summary: liveReading ? `${summary}, ${liveReading}` : summary,
     boxTo,

@@ -1,6 +1,7 @@
 import { anchorWire } from '../lib/feeds';
 import { shortDate } from '../lib/time';
 import Wire from '../components/Wire';
+import Schedule from '../components/Schedule';
 import PageMeta from '../components/PageMeta';
 import s from './HomePage.module.css';
 
@@ -50,6 +51,8 @@ export default function HomePage() {
           </p>
         </div>
       )}
+
+      <Schedule />
 
       <h2 className={s.wireHead}>The Wire</h2>
       <Wire items={rest.length ? rest : anchors} />

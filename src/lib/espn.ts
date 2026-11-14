@@ -17,6 +17,7 @@
  */
 
 import { TEAMS, type Team, type TeamKey } from './teams';
+import { gameWhen } from './time';
 
 const SITE = 'https://site.api.espn.com/apis/site/v2/sports';
 
@@ -107,6 +108,7 @@ export interface TeamScore {
   detail?: string; // "Bot 7" | "Final" | "Sun 1:10 PM" | "Offseason · Next Oct 8"
   isHome?: boolean;
   startDate?: string; // ISO
+  timeTbd?: boolean; // upcoming game with no start time set yet
   series?: { summary: string; results: ('W' | 'L')[] }; // playoffs only
   logoUrl?: string;
   eventId?: string; // ESPN event id — only set for live/final, i.e. when a box score exists
@@ -166,6 +168,7 @@ interface ParsedEvent {
   teamScore?: number;
   oppScore?: number;
   isHome: boolean;
+  tbd?: boolean; // the league has not set a start time yet
   won?: boolean; // ESPN's own winner flags: the only honest answer after a shootout,
   oppWon?: boolean; // and both are false on a draw, so a flag alone can't mean "lost"
   logoUrl?: string;
@@ -209,6 +212,7 @@ function parseEvent(ev: any, team: Team): ParsedEvent | null {
     teamScore: parseScore(ours?.score),
     oppScore: parseScore(opp?.score),
     isHome: ours?.homeAway === 'home',
+    tbd: comp?.timeValid === false || /\b(TBD|TBA)\b/i.test(String(comp?.status?.type?.detail ?? comp?.status?.type?.shortDetail ?? '')),
     won: typeof ours?.winner === 'boolean' ? ours.winner : undefined,
     oppWon: typeof opp?.winner === 'boolean' ? opp.winner : undefined,
     logoUrl: ours?.team?.logo ?? ours?.team?.logos?.[0]?.href,
@@ -245,21 +249,16 @@ function chooseEvent(parsed: ParsedEvent[]): {
   return { status: 'offseason', event: next };
 }
 
-function fmtScheduled(iso: string): string {
-  // Client-side island → the user's local timezone is exactly what we want.
-  const d = new Date(iso);
-  if (Number.isNaN(d.getTime())) return 'Scheduled';
-  return d.toLocaleString(undefined, {
-    weekday: 'short',
-    hour: 'numeric',
-    minute: '2-digit',
-  });
-}
-
-function fmtShort(iso: string): string {
+// "Mar 25". Seattle's calendar day, except for a placeholder time (the league has
+// not set one), where the date as published (UTC) is the honest day.
+function fmtShort(iso: string, tbd = false): string {
   const d = new Date(iso);
   if (Number.isNaN(d.getTime())) return '';
-  return d.toLocaleDateString(undefined, { month: 'short', day: 'numeric' });
+  return d.toLocaleDateString('en-US', {
+    month: 'short',
+    day: 'numeric',
+    timeZone: tbd ? 'UTC' : 'America/Los_Angeles',
+  });
 }
 
 function build(team: Team, status: GameStatus, ev?: ParsedEvent): TeamScore {
@@ -275,7 +274,7 @@ function build(team: Team, status: GameStatus, ev?: ParsedEvent): TeamScore {
       ...base,
       startDate: ev?.startDate,
       detail: ev
-        ? `Offseason · Next ${fmtShort(ev.startDate)}`
+        ? `Offseason · Next ${fmtShort(ev.startDate, ev.tbd)}`
         : team.offseasonCopy ?? 'Offseason',
     };
   }
@@ -284,7 +283,7 @@ function build(team: Team, status: GameStatus, ev?: ParsedEvent): TeamScore {
 
   const detail =
     status === 'scheduled'
-      ? fmtScheduled(ev.startDate)
+      ? gameWhen(ev.startDate, ev.tbd)?.line ?? 'Scheduled'
       : status === 'final'
         ? ev.shortDetail ?? 'Final'
         : ev.shortDetail ?? 'Live';
@@ -297,6 +296,7 @@ function build(team: Team, status: GameStatus, ev?: ParsedEvent): TeamScore {
     detail,
     isHome: ev.isHome,
     startDate: ev.startDate,
+    timeTbd: ev.tbd || undefined,
     series: ev.series,
     logoUrl: ev.logoUrl,
     eventId: status === 'live' || status === 'final' ? ev.id : undefined,
@@ -325,6 +325,52 @@ async function fetchScheduleEvents(team: Team, fixture: boolean): Promise<Parsed
 function dedupe(events: ParsedEvent[]): ParsedEvent[] {
   const seen = new Set<string>();
   return events.filter((e) => (seen.has(e.id) ? false : (seen.add(e.id), true)));
+}
+
+/** One upcoming game for a club's schedule list. */
+export interface UpcomingGame {
+  id: string;
+  startDate: string; // ISO
+  opponent: string;
+  isHome: boolean;
+  timeTbd: boolean;
+  series?: string; // playoff series line, e.g. "Hurricanes lead series 2-1"
+}
+
+/**
+ * A club's next `n` games, soonest first. Undefined when the feed cannot be
+ * reached (the caller shows "unavailable"); an empty list means no games are
+ * scheduled yet (offseason, schedule not released). Same two-step lookup as the
+ * scoreboard: the base schedule, then the forward (fixture) view if that is short.
+ */
+export async function fetchUpcoming(team: Team, n = 5): Promise<UpcomingGame[] | undefined> {
+  if (team.kind === 'returning' || !team.espnTeamId) return undefined;
+  try {
+    const now = Date.now();
+    const upcoming = (events: ParsedEvent[]) =>
+      dedupe(events)
+        .filter((e) => e.state === 'pre' && e.dateMs >= now)
+        .sort((a, b) => a.dateMs - b.dateMs);
+    const base = await fetchScheduleEvents(team, false);
+    let next = upcoming(base);
+    if (next.length < n) {
+      try {
+        next = upcoming([...base, ...(await fetchScheduleEvents(team, true))]);
+      } catch {
+        /* keep what the base schedule gave */
+      }
+    }
+    return next.slice(0, n).map((e) => ({
+      id: e.id,
+      startDate: e.startDate,
+      opponent: e.oppName ?? 'TBD',
+      isHome: e.isHome,
+      timeTbd: !!e.tbd,
+      series: e.series?.summary,
+    }));
+  } catch {
+    return undefined;
+  }
 }
 
 const intOf = (v: unknown): number | undefined => {

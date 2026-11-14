@@ -7,8 +7,8 @@ import styles from './Colophon.module.css';
  * is crawlable/reachable.
  *
  * DORMANT 2026-08: This Day, The Almanac, Highlights and the seven per-team
- * links were removed here. The team pages stay crawlable via the ribbon
- * on the front page; the three Phase 3 scaffolds are now noindexed and out of
+ * links were removed here. The team pages stay crawlable via the club
+ * headings in the front page schedule; the three Phase 3 scaffolds are now noindexed and out of
  * the sitemap, so they no longer need a crawl path. Restore from git history
  * (commit 3f3c213^) along with the SectionNav entries.
  */

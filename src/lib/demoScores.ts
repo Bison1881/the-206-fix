@@ -84,7 +84,7 @@ export function demoScore(team: Team, state: DemoState): TeamScore | undefined {
         live: team.id === 'mariners' ? MARINERS_FINAL : undefined,
       };
     case 'next':
-      return { ...base, status: 'scheduled', opponent: g.opp, isHome: g.home, detail: 'Mon 07:05' };
+      return { ...base, status: 'scheduled', opponent: g.opp, isHome: g.home, detail: 'Sun Nov 15 · 1:05 PM PST', startDate: '2026-11-15T21:05:00Z' };
     case 'off':
       return { ...base, status: 'offseason', detail: 'Offseason · Next 25 Mar' };
     case 'unavailable':

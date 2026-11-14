@@ -9,7 +9,7 @@ import styles from './SectionNav.module.css';
  * DORMANT 2026-08: Teams, This Day, Almanac and Highlights were removed from
  * this bar. The three Phase 3 routes are empty scaffolds and are now noindexed
  * (see routes.tsx); /teams and the seven team pages are still built, still
- * populated and still linked from the ribbon on every page — only
+ * populated and still linked from the club headings in the front page schedule — only
  * their top-level menu entry is gone. To restore, put the entries back below
  * and re-add the TEAMS-aware active check from git history (commit 3f3c213^).
  */
