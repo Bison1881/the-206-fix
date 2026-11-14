@@ -117,6 +117,12 @@
   margin-left: 6px;
 }
 
+/* Centre the divider: the column before it gets the same breathing room as the one after. */
+.linescore th.num:has(+ .totalFirst),
+.linescore td.num:has(+ .totalFirst) {
+  padding-right: 16px;
+}
+
 .logo {
   width: 20px;
   height: 20px;

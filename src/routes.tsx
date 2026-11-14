@@ -5,7 +5,6 @@ import ScoresPage from './pages/ScoresPage';
 import StandingsPage from './pages/StandingsPage';
 import ResultsPage from './pages/ResultsPage';
 import BoxScorePage from './pages/BoxScorePage';
-import BoardsPage from './pages/BoardsPage';
 import TeamsIndex from './pages/TeamsIndex';
 import TeamPage from './pages/TeamPage';
 import StubPage from './pages/StubPage';
@@ -43,7 +42,6 @@ export const routes: RouteRecord[] = [
       { path: 'standings', element: <StandingsPage /> },
       { path: 'results', element: <ResultsPage /> },
       { path: 'box', element: <BoxScorePage /> },
-      { path: 'boards', element: <BoardsPage /> },
       { path: 'teams', element: <TeamsIndex /> },
       ...teamRoutes,
       /*
