@@ -28,6 +28,8 @@ const TEAMS_ESPN_IDS = new Set(
 
 const TIMEOUT_MS = 10_000;
 const RECENT_FINAL_MS = 48 * 60 * 60 * 1000; // a "recent" final: within ~48h
+const FRESH_FINAL_MS = 12 * 60 * 60 * 1000; // a final this close to its start always holds the board
+const SOON_MS = 24 * 60 * 60 * 1000; // a game this close beats an older final
 const NEAR_MS = 10 * 24 * 60 * 60 * 1000; // "next game is near": within ~10 days
 
 // ─── Normalized shapes the rest of the app consumes (spec §4) ───────────────
@@ -239,11 +241,18 @@ function chooseEvent(parsed: ParsedEvent[]): {
   const finals = parsed
     .filter((p) => p.state === 'post' && now - p.dateMs >= 0 && now - p.dateMs <= RECENT_FINAL_MS)
     .sort((a, b) => b.dateMs - a.dateMs);
-  if (finals[0]) return { status: 'final', event: finals[0] };
 
   const next = parsed
     .filter((p) => p.state === 'pre' && p.dateMs >= now)
     .sort((a, b) => a.dateMs - b.dateMs)[0];
+
+  // A recent final holds the board, unless it is a day-old result and the next game
+  // is about to start: then the board moves on to the preview.
+  if (finals[0]) {
+    const stale = now - finals[0].dateMs > FRESH_FINAL_MS;
+    const soon = !!next && !next.tbd && next.dateMs - now <= SOON_MS;
+    if (!(stale && soon)) return { status: 'final', event: finals[0] };
+  }
 
   if (next && next.dateMs - now <= NEAR_MS) return { status: 'scheduled', event: next };
   return { status: 'offseason', event: next };
