@@ -68,3 +68,20 @@
     grid-column: 1 / -1;
   }
 }
+
+.all {
+  display: inline-block;
+  margin-top: 6px;
+  font-family: var(--font-term);
+  font-size: 17px;
+  text-transform: uppercase;
+  color: var(--teal);
+}
+
+.empty {
+  margin: 0;
+  font-family: var(--font-term);
+  font-size: 17px;
+  text-transform: uppercase;
+  color: var(--ink-60);
+}

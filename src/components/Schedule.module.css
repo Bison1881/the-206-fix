@@ -125,3 +125,27 @@
     grid-template-columns: minmax(0, 1fr);
   }
 }
+
+.cal {
+  margin-top: 6px;
+  padding: 0;
+  border: 0;
+  background: none;
+  font-family: var(--font-term);
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--teal);
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.cal:hover:not(:disabled) {
+  color: var(--ink);
+}
+
+.cal:disabled {
+  color: var(--ink-60);
+  cursor: default;
+}

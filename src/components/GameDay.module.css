@@ -1,0 +1,59 @@
+.banner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px 16px;
+  margin: 0 0 16px;
+  padding: 8px 12px;
+  background: var(--ink);
+  color: var(--news);
+  text-decoration: none;
+  font-family: var(--font-term);
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.banner:hover {
+  background: var(--ink-70);
+}
+
+.flag {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-family: var(--font-head);
+  font-size: 17px;
+  letter-spacing: 1.5px;
+  color: #fff;
+}
+
+.lamp {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--red);
+  box-shadow: 0 0 6px var(--red);
+}
+
+.games {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px 20px;
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.game b {
+  font-weight: 400;
+  color: #fff;
+}
+
+.detail {
+  color: var(--line);
+}
+
+.go {
+  color: var(--line);
+  white-space: nowrap;
+}

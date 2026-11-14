@@ -2,6 +2,7 @@ import { anchorWire } from '../lib/feeds';
 import { shortDate } from '../lib/time';
 import Wire from '../components/Wire';
 import Schedule from '../components/Schedule';
+import GameDay from '../components/GameDay';
 import PageMeta from '../components/PageMeta';
 import s from './HomePage.module.css';
 
@@ -32,6 +33,7 @@ export default function HomePage() {
         description="Seattle sports, all in one place — Mariners, Seahawks, Kraken, Sonics, Sounders, Storm and Reign. Live scores, the day's wire from every beat, and Seattle sports history."
         path="/"
       />
+      <GameDay />
       {lead ? (
         <div className={s.lead}>
           <div className={s.leadKicker}>

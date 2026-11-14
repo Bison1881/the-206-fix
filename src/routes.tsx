@@ -3,6 +3,7 @@ import Layout from './components/Layout';
 import HomePage from './pages/HomePage';
 import ScoresPage from './pages/ScoresPage';
 import StandingsPage from './pages/StandingsPage';
+import ResultsPage from './pages/ResultsPage';
 import BoxScorePage from './pages/BoxScorePage';
 import BoardsPage from './pages/BoardsPage';
 import TeamsIndex from './pages/TeamsIndex';
@@ -40,6 +41,7 @@ export const routes: RouteRecord[] = [
       // matches the SCORES nav label; old /standings 301s here via vercel.json.
       { path: 'scores', element: <ScoresPage /> },
       { path: 'standings', element: <StandingsPage /> },
+      { path: 'results', element: <ResultsPage /> },
       { path: 'box', element: <BoxScorePage /> },
       { path: 'boards', element: <BoardsPage /> },
       { path: 'teams', element: <TeamsIndex /> },

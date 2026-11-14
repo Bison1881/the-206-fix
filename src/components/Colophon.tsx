@@ -19,6 +19,7 @@ export default function Colophon() {
         <Link to="/">Home</Link>
         <Link to="/scores">Scores</Link>
         <Link to="/standings">Standings</Link>
+        <Link to="/results">Results</Link>
       </nav>
       <div className={styles.mark}>The 206 Fix</div>
       <div className={styles.tag}>A Seattle Sports Desk</div>

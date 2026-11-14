@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { TEAMS, type Team, type TeamKey } from '../lib/teams';
 import { fetchUpcoming, type UpcomingGame } from '../lib/espn';
 import { gameDay, gameWhen } from '../lib/time';
+import { buildIcs, downloadIcs } from '../lib/calendar';
 import s from './Schedule.module.css';
 
 /*
@@ -36,6 +37,23 @@ function Game({ g }: { g: UpcomingGame }) {
   );
 }
 
+/** The rest of the club's schedule as a calendar file (the list above shows only the next few). */
+function CalendarButton({ team }: { team: Team }) {
+  const [state, setState] = useState<'idle' | 'busy' | 'none'>('idle');
+  const click = async () => {
+    setState('busy');
+    const games = await fetchUpcoming(team, 400);
+    if (!games?.length) return setState('none');
+    downloadIcs(`${team.id}-schedule.ics`, buildIcs(team, games));
+    setState('idle');
+  };
+  return (
+    <button type="button" className={s.cal} onClick={click} disabled={state === 'busy'}>
+      {state === 'busy' ? 'Preparing' : state === 'none' ? 'No games to add' : 'Add to calendar'}
+    </button>
+  );
+}
+
 function Club({ team, entry }: { team: Team; entry?: Entry }) {
   let body;
   if (!entry) body = <p className={s.note}>Loading schedule</p>;
@@ -56,6 +74,7 @@ function Club({ team, entry }: { team: Team; entry?: Entry }) {
         <Link to={`/${team.id}`}>{team.name}</Link>
       </h3>
       {body}
+      {Array.isArray(entry) && entry.length > 0 && <CalendarButton team={team} />}
     </section>
   );
 }
