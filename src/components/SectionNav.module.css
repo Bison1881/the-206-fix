@@ -56,3 +56,61 @@
     margin: 0 calc(11px * var(--head-gap, 1));
   }
 }
+
+/* ── Club row: the seven club pages, a notch quieter than the sections ── */
+.clubs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--font-head);
+  text-transform: uppercase;
+  letter-spacing: calc(1.5px * var(--head-track, 1));
+  font-size: calc(14.95px * var(--head-scale, 1));
+  line-height: 1.5;
+  padding: 5px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.club,
+.clubActive {
+  padding: 1px 0;
+  white-space: nowrap;
+}
+
+.club {
+  color: var(--ink-70);
+}
+
+.club:hover {
+  color: var(--teal);
+}
+
+.clubActive {
+  color: var(--teal);
+}
+
+.club:not(:first-child)::before,
+.clubActive:not(:first-child)::before {
+  content: "·";
+  margin: 0 12px;
+  color: var(--line);
+  pointer-events: none;
+}
+
+@media (max-width: 880px) {
+  .clubs {
+    font-size: 11.5px;
+    letter-spacing: calc(1px * var(--head-track, 1));
+  }
+
+  /* The row wraps on a phone, so spacing instead of dots (a dot would start the second line). */
+  .clubs {
+    gap: 2px 14px;
+  }
+
+  .club:not(:first-child)::before,
+  .clubActive:not(:first-child)::before {
+    content: none;
+  }
+}

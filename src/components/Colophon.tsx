@@ -1,16 +1,16 @@
-import { Link } from 'react-router-dom';
-import styles from './Colophon.module.css';
+import { Link } from "react-router-dom";
+import { TEAMS } from "../lib/teams";
+import styles from "./Colophon.module.css";
 
 /*
  * Footer. Mockup colophon = wordmark + tagline. Because the site is multi-page
  * (the mockup was a single page), a minimal footer nav is added so every route
  * is crawlable/reachable.
  *
- * DORMANT 2026-08: This Day, The Almanac, Highlights and the seven per-team
- * links were removed here. The team pages stay crawlable via the club
- * headings in the front page schedule; the three Phase 3 scaffolds are now noindexed and out of
- * the sitemap, so they no longer need a crawl path. Restore from git history
- * (commit 3f3c213^) along with the SectionNav entries.
+ * The seven club pages are linked here and in the top nav's club row, so every
+ * page on the site stays one click from every other and crawlable. (This Day, The
+ * Almanac and Highlights were removed in 2026-08: noindexed scaffolds that no
+ * longer need a crawl path.)
  */
 export default function Colophon() {
   return (
@@ -20,6 +20,13 @@ export default function Colophon() {
         <Link to="/scores">Scores</Link>
         <Link to="/standings">Standings</Link>
         <Link to="/results">Results</Link>
+      </nav>
+      <nav className={styles.nav} aria-label="Club pages">
+        {TEAMS.map((team) => (
+          <Link key={team.id} to={`/${team.id}`}>
+            {team.name}
+          </Link>
+        ))}
       </nav>
       <div className={styles.mark}>The 206 Fix</div>
       <div className={styles.tag}>A Seattle Sports Desk</div>
