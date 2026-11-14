@@ -61,13 +61,15 @@ export function gameWhen(iso: string | null | undefined, tba = false): GameWhen 
   const clock = `${part(sea, 'hour')}:${part(sea, 'minute')} ${part(sea, 'dayPeriod')}`;
   const line = `${part(sea, 'weekday')} ${part(sea, 'month')} ${part(sea, 'day')} · ${clock} ${part(sea, 'timeZoneName')}`.toUpperCase();
 
-  // The viewer's own clock, in their own locale. Skip it when it reads the same as Seattle's.
+  // The viewer's own clock. Skip it when it reads the same as Seattle's.
   let local: string | undefined;
   try {
-    const mine = new Intl.DateTimeFormat(undefined, {
+    // The viewer's zone, but always a 12-hour English clock, to read like the Seattle line above it.
+    const mine = new Intl.DateTimeFormat('en-US', {
       weekday: 'short',
       hour: 'numeric',
       minute: '2-digit',
+      hour12: true,
     });
     const parts = mine.formatToParts(d);
     const period = part(parts, 'dayPeriod');
