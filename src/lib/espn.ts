@@ -882,9 +882,10 @@ function playoffPictureOf(
       const isHockey = stats.has('otLosses') || stats.has('overtimeLosses');
       const ties = n0(stats, 'ties');
       const gp = stats.has('gamesPlayed') ? n0(stats, 'gamesPlayed') : w + l + extra;
+      // Hockey shows W-L-OTL and soccer W-L-T; everyone else shows W-L, with ties only when there are some.
       const record = isHockey
         ? `${w}-${l}-${extra}`
-        : ties || stats.has('gamesPlayed') // soccer shows W-L-T always; NFL only when there are ties
+        : rules.kind === 'points' || ties
           ? `${w}-${l}-${ties}`
           : `${w}-${l}`;
       const seed = rules.seedStat ? num(stats.get(rules.seedStat)) : Number.NEGATIVE_INFINITY;
