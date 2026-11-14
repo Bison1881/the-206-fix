@@ -6,7 +6,7 @@
   font-family: var(--font-head);
   text-transform: uppercase;
   font-weight: 400;
-  font-size: 22px;
+  font-size: 25.3px;
   letter-spacing: 1px;
   margin: 0 0 6px;
 }
@@ -25,8 +25,8 @@
   gap: 14px;
   padding: 4px 0;
   border-bottom: 1px solid var(--line);
-  font-family: var(--font-term);
-  font-size: 19px;
+  font-family: var(--font-data);
+  font-size: 15.2px;
 }
 
 .date {
@@ -72,16 +72,16 @@
 .all {
   display: inline-block;
   margin-top: 6px;
-  font-family: var(--font-term);
-  font-size: 17px;
+  font-family: var(--font-data);
+  font-size: 13.6px;
   text-transform: uppercase;
   color: var(--teal);
 }
 
 .empty {
   margin: 0;
-  font-family: var(--font-term);
-  font-size: 17px;
+  font-family: var(--font-data);
+  font-size: 13.6px;
   text-transform: uppercase;
   color: var(--ink-60);
 }

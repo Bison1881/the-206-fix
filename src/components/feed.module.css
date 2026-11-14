@@ -9,7 +9,7 @@
   font-family: var(--font-head);
   text-transform: uppercase;
   font-weight: 400;
-  font-size: clamp(20px, 3vw, 28px);
+  font-size: clamp(23px, 3.45vw, 32.2px);
   letter-spacing: 1px;
   line-height: 1;
   margin: 0 0 12px;
@@ -18,8 +18,8 @@
 }
 
 .empty {
-  font-family: var(--font-term);
-  font-size: 16px;
+  font-family: var(--font-data);
+  font-size: 12.8px;
   color: var(--ink-40);
   padding: 8px 0;
 }
@@ -52,8 +52,8 @@
 }
 
 .meta {
-  font-family: var(--font-term);
-  font-size: 14px;
+  font-family: var(--font-data);
+  font-size: 11.2px;
   color: var(--ink-60);
   margin-top: 3px;
 }

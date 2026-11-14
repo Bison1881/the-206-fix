@@ -16,7 +16,7 @@
     0 2px 0 rgba(0, 0, 0, 0.35),
     0 10px 18px -10px rgba(0, 0, 0, 0.55);
   /* Space the digit module from edges consistently. */
-  font-family: var(--font-term);
+  font-family: var(--font-board-mono);
 }
 
 /* A board that has nothing to say is powered down, not hidden. */
@@ -27,7 +27,7 @@
 }
 
 .series {
-  font-family: var(--font-term);
+  font-family: var(--font-board-mono);
   font-size: 15px;
   letter-spacing: 1px;
   opacity: 0.85;
@@ -36,7 +36,7 @@
 .boxLink {
   align-self: flex-end;
   margin-top: auto;
-  font-family: var(--font-term);
+  font-family: var(--font-board-mono);
   font-size: 17px;
   letter-spacing: 1px;
   color: var(--accent, #fff);
@@ -98,7 +98,7 @@
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  font-family: var(--font-head);
+  font-family: var(--font-board-head);
   font-size: 15px;
   letter-spacing: 3px;
   border-bottom: 2px solid rgba(242, 234, 211, 0.55);
@@ -129,7 +129,7 @@
   justify-content: space-between;
   align-items: baseline;
   padding: 4px 8px;
-  font-family: var(--font-head);
+  font-family: var(--font-board-head);
   font-size: 13px;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -156,7 +156,7 @@
   height: 26px;
   padding: 0 6px;
   border-bottom: 1px solid rgba(242, 234, 211, 0.14);
-  font-family: var(--font-head);
+  font-family: var(--font-board-head);
   font-size: 14px;
   letter-spacing: 0.3px;
   line-height: 1;
@@ -228,7 +228,7 @@
 .mBatNum {
   min-width: 64px;
   text-align: right;
-  font-family: var(--font-head);
+  font-family: var(--font-board-head);
   font-size: 62px;
   line-height: 0.9;
   color: #e3b93f;
@@ -251,7 +251,7 @@
 
 .mBatLast {
   min-height: 36px;
-  font-family: var(--font-head);
+  font-family: var(--font-board-head);
   font-size: 36px;
   line-height: 1;
   text-transform: uppercase;
@@ -262,7 +262,7 @@
 
 .mBatPos {
   margin-left: auto;
-  font-family: var(--font-head);
+  font-family: var(--font-board-head);
   font-size: 22px;
   opacity: 0.8;
 }
@@ -303,7 +303,7 @@
 
 .mStatCell b {
   min-height: 24px;
-  font-family: var(--font-head);
+  font-family: var(--font-board-head);
   font-weight: 400;
   font-size: 24px;
   line-height: 1;
@@ -332,7 +332,7 @@
 
 .mInn {
   text-align: center;
-  font-family: var(--font-head);
+  font-family: var(--font-board-head);
   font-size: 12px;
   letter-spacing: 0;
   opacity: 0.75;
@@ -340,7 +340,7 @@
 
 .mTeam,
 .mTeamOurs {
-  font-family: var(--font-head);
+  font-family: var(--font-board-head);
   text-transform: uppercase;
   font-size: 13px;
   letter-spacing: 0.5px;
@@ -365,7 +365,7 @@
   height: 26px;
   background: linear-gradient(180deg, #0b2723, #07201c);
   border: 1px solid rgba(185, 194, 189, 0.6);
-  font-family: var(--font-head);
+  font-family: var(--font-board-head);
   font-size: 16px;
   line-height: 1;
   color: #fffbe9;
@@ -385,7 +385,7 @@
   background: linear-gradient(180deg, #0b2723, #07201c);
   border: 2px solid #b9c2bd;
   border-radius: 3px;
-  font-family: var(--font-head);
+  font-family: var(--font-board-head);
   font-size: 22px;
   line-height: 1;
   color: #fffbe9;
@@ -413,7 +413,7 @@
 }
 
 .mBsoCol b {
-  font-family: var(--font-head);
+  font-family: var(--font-board-head);
   font-weight: 400;
   font-size: 42px;
   line-height: 1;
@@ -447,7 +447,7 @@
 .mHalf {
   flex: 1;
   color: #e3b93f;
-  font-family: var(--font-head);
+  font-family: var(--font-board-head);
   letter-spacing: 2px;
 }
 
@@ -473,7 +473,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-family: var(--font-head);
+  font-family: var(--font-board-head);
   font-size: 15px;
   letter-spacing: 3px;
 }
@@ -485,7 +485,7 @@
   height: 30px;
   background: #69be28;
   color: #071a35;
-  font-family: var(--font-head);
+  font-family: var(--font-board-head);
   font-size: 17px;
   letter-spacing: 0;
   clip-path: polygon(25% 4%, 75% 4%, 100% 50%, 75% 96%, 25% 96%, 0 50%);
@@ -521,7 +521,7 @@
 }
 
 .sName {
-  font-family: var(--font-head);
+  font-family: var(--font-board-head);
   text-transform: uppercase;
   font-size: clamp(18px, 2.4vw, 24px);
   letter-spacing: 1px;
@@ -603,7 +603,7 @@
 }
 
 .sQtr {
-  font-family: var(--font-head);
+  font-family: var(--font-board-head);
   font-size: 22px;
   letter-spacing: 2px;
   line-height: 1;
@@ -643,7 +643,7 @@
 }
 
 .sQtrOff {
-  font-family: var(--font-head);
+  font-family: var(--font-board-head);
   font-size: 22px;
   letter-spacing: 2px;
   line-height: 1;
@@ -748,7 +748,7 @@
   align-items: center;
   justify-content: center;
   gap: 12px;
-  font-family: var(--font-head);
+  font-family: var(--font-board-head);
   font-size: 14px;
   letter-spacing: 3px;
   text-align: center;
@@ -784,7 +784,7 @@
 }
 
 .kName {
-  font-family: var(--font-head);
+  font-family: var(--font-board-head);
   text-transform: uppercase;
   font-size: clamp(20px, 2.8vw, 28px);
   letter-spacing: 2px;
@@ -840,7 +840,7 @@
 }
 
 .kPeriodValue {
-  font-family: var(--font-head);
+  font-family: var(--font-board-head);
   font-size: 30px;
   line-height: 1;
   letter-spacing: 2px;
@@ -887,7 +887,7 @@
   border: 4px solid #1c2c4d;
   border-radius: 3px;
   min-height: 170px;
-  font-family: var(--font-pixel);
+  font-family: var(--font-led);
   overflow: hidden;
 }
 
@@ -966,7 +966,7 @@
 
 .rbFoot .boxLink {
   margin-left: auto;
-  font-family: var(--font-term);
+  font-family: var(--font-board-mono);
 }
 
 /* The scarf: blue and green bands, as hung at the supporters' end. */
@@ -1001,7 +1001,7 @@
 
 .stHead {
   text-align: center;
-  font-family: var(--font-head);
+  font-family: var(--font-board-head);
   font-size: 14px;
   letter-spacing: 4px;
   color: #ffd21f;
@@ -1031,7 +1031,7 @@
 }
 
 .stName {
-  font-family: var(--font-head);
+  font-family: var(--font-board-head);
   text-transform: uppercase;
   font-size: clamp(16px, 2.4vw, 22px);
   letter-spacing: 2px;
@@ -1088,7 +1088,7 @@
 .rgHead {
   display: flex;
   justify-content: space-between;
-  font-family: var(--font-head);
+  font-family: var(--font-board-head);
   font-size: 14px;
   letter-spacing: 3px;
   color: #9bc4ff;
@@ -1123,7 +1123,7 @@
   height: 34px;
   background: linear-gradient(180deg, #232d44 0 50%, #1a2338 50% 100%);
   border-radius: 3px;
-  font-family: var(--font-head);
+  font-family: var(--font-board-head);
   font-size: 24px;
   line-height: 1;
   color: #f4f0e2;
@@ -1225,7 +1225,7 @@
 }
 
 .mqTitle {
-  font-family: var(--font-head);
+  font-family: var(--font-board-head);
   font-size: clamp(40px, 8vw, 72px);
   letter-spacing: 12px;
   line-height: 1;

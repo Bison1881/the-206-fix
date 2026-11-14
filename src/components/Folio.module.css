@@ -3,12 +3,25 @@
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 6px;
-  font-family: var(--font-term);
-  font-size: 17px;
+  font-family: var(--font-data);
+  font-size: 13.6px;
   padding: 5px 0;
   border-bottom: 1px solid var(--line);
 }
 
 .spot {
   color: var(--teal);
+}
+
+/* Phone: date left and place right on the first line, the edition centred beneath. */
+@media (max-width: 560px) {
+  .folio {
+    font-size: 12px;
+  }
+
+  .spot {
+    order: 3;
+    flex-basis: 100%;
+    text-align: center;
+  }
 }

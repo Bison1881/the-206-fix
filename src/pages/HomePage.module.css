@@ -10,8 +10,8 @@
 }
 
 .leadKicker {
-  font-family: var(--font-term);
-  font-size: 15px;
+  font-family: var(--font-data);
+  font-size: 12px;
   color: var(--ink-60);
   text-transform: uppercase;
   letter-spacing: 0.5px;
@@ -22,7 +22,7 @@
   text-transform: uppercase;
   font-weight: 400;
   line-height: 0.96;
-  font-size: clamp(27px, 4.6vw, 44px);
+  font-size: clamp(31.05px, 5.29vw, 50.6px);
   letter-spacing: 0.5px;
   color: var(--ink);
   text-decoration: none;
@@ -47,7 +47,7 @@
   font-family: var(--font-head);
   text-transform: uppercase;
   font-weight: 400;
-  font-size: clamp(20px, 3vw, 28px);
+  font-size: clamp(23px, 3.45vw, 32.2px);
   letter-spacing: 1px;
   line-height: 1;
   margin: 0 0 12px;
@@ -72,8 +72,11 @@
 
 .stub .badge {
   display: inline-block;
-  font-family: var(--font-pixel);
-  font-size: 8px;
+  font-family: var(--font-data);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
   color: var(--news);
   background: var(--ink);
   padding: 4px 6px;
@@ -85,7 +88,7 @@
   font-family: var(--font-head);
   text-transform: uppercase;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 20.7px;
   line-height: 1;
   margin-bottom: 5px;
 }

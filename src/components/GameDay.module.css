@@ -8,8 +8,8 @@
   background: var(--ink);
   color: var(--news);
   text-decoration: none;
-  font-family: var(--font-term);
-  font-size: 20px;
+  font-family: var(--font-data);
+  font-size: 16px;
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }
@@ -23,7 +23,7 @@
   align-items: center;
   gap: 7px;
   font-family: var(--font-head);
-  font-size: 17px;
+  font-size: 19.55px;
   letter-spacing: 1.5px;
   color: #fff;
 }

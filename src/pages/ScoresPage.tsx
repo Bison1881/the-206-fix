@@ -38,10 +38,6 @@ export default function ScoresPage() {
         path="/scores"
       />
       <h1 className={s.banner}>Scoreboard</h1>
-      <div className={s.deck}>
-        Live scores and next games for all seven Seattle clubs — refreshing on
-        their own while a game is on.
-      </div>
       <hr className={s.rule} />
 
       {demo && (

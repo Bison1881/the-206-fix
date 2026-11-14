@@ -10,6 +10,8 @@
 }
 
 html {
+  /* Tabular figures wherever the face has them, so scores and times line up in columns. */
+  font-variant-numeric: tabular-nums;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

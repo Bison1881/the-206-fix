@@ -6,7 +6,7 @@
   font-family: var(--font-head);
   text-transform: uppercase;
   font-weight: 400;
-  font-size: clamp(28px, 5vw, 44px);
+  font-size: clamp(32.2px, 5.75vw, 50.6px);
   letter-spacing: 1px;
   line-height: 1;
   margin: 0 0 14px;
@@ -30,7 +30,7 @@
   font-family: var(--font-head);
   text-transform: uppercase;
   font-weight: 400;
-  font-size: 26px;
+  font-size: 29.9px;
   letter-spacing: 1px;
   line-height: 1;
   margin: 0 0 4px;

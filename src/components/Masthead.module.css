@@ -27,6 +27,6 @@
   font-family: var(--font-head);
   text-transform: uppercase;
   letter-spacing: 5px;
-  font-size: clamp(10px, 2.2vw, 15px);
+  font-size: clamp(11.5px, 2.53vw, 17.25px);
   margin-top: 10px;
 }

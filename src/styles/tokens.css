@@ -20,8 +20,12 @@
 
   /* Type registers — each has exactly one job */
   --font-nameplate: 'Manufacturing Consent', serif;                 /* masthead + footer wordmark only */
-  --font-head: 'Anton', sans-serif;                                 /* condensed headlines */
+  --font-head: 'League Gothic', 'Arial Narrow', sans-serif;         /* condensed newspaper headlines */
   --font-body: 'Libre Baskerville', Georgia, serif;                 /* article body / reading */
-  --font-term: 'VT323', monospace;                                  /* data: scores, timestamps, stat lines */
-  --font-pixel: 'Press Start 2P', monospace;                        /* the trading card + tiny accents */
+  --font-data: 'Public Sans', 'Helvetica Neue', Arial, sans-serif;  /* data + labels: schedules, results, box scores, tags (Franklin-style, tabular figures) */
+
+  /* The arena scoreboards keep their own faces: they are signs, not newspaper type. */
+  --font-board-head: 'Anton', sans-serif;
+  --font-board-mono: 'VT323', monospace;
+  --font-led: 'Press Start 2P', monospace;                          /* the Sounders LED board only */
 }

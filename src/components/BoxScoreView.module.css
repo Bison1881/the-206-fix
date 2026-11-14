@@ -7,8 +7,8 @@
   flex-wrap: wrap;
   align-items: baseline;
   gap: 4px 14px;
-  font-family: var(--font-term);
-  font-size: 18px;
+  font-family: var(--font-data);
+  font-size: 14.4px;
   color: var(--ink-60);
 }
 
@@ -30,7 +30,7 @@
   font-weight: 400;
   line-height: 0.95;
   letter-spacing: 1px;
-  font-size: clamp(28px, 5.4vw, 52px);
+  font-size: clamp(32.2px, 6.21vw, 59.8px);
   margin: 6px 0 14px;
 }
 
@@ -62,8 +62,8 @@
 }
 
 .linescore thead th {
-  font-family: var(--font-term);
-  font-size: 15px;
+  font-family: var(--font-data);
+  font-size: 12px;
   font-weight: 400;
   color: var(--ink-60);
   padding: 4px 0;
@@ -72,8 +72,8 @@
 
 .linescore tbody th,
 .linescore tbody td {
-  font-family: var(--font-term);
-  font-size: 22px;
+  font-family: var(--font-data);
+  font-size: 17.6px;
   font-weight: 400;
   line-height: 1.1;
   padding: 5px 0;
@@ -147,7 +147,7 @@
   font-family: var(--font-head);
   text-transform: uppercase;
   font-weight: 400;
-  font-size: 22px;
+  font-size: 25.3px;
   letter-spacing: 1px;
   margin: 0 0 8px;
   border-bottom: 2px solid var(--ink);
@@ -162,8 +162,8 @@
   list-style: none;
   margin: 0;
   padding: 0;
-  font-family: var(--font-term);
-  font-size: 19px;
+  font-family: var(--font-data);
+  font-size: 15.2px;
 }
 
 .events li {
@@ -222,7 +222,7 @@
   text-align: left;
   font-family: var(--font-head);
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: 18.4px;
   letter-spacing: 1px;
   padding: 2px 0 4px;
   color: var(--ink-70);
@@ -230,8 +230,8 @@
 
 .table thead th,
 .compare thead th {
-  font-family: var(--font-term);
-  font-size: 15px;
+  font-family: var(--font-data);
+  font-size: 12px;
   font-weight: 400;
   color: var(--ink-60);
   border-bottom: 1px solid var(--ink);
@@ -244,8 +244,8 @@
 .table tfoot td,
 .compare tbody th,
 .compare tbody td {
-  font-family: var(--font-term);
-  font-size: 18px;
+  font-family: var(--font-data);
+  font-size: 14.4px;
   font-weight: 400;
   line-height: 1.1;
   padding: 3px 0;
@@ -283,8 +283,8 @@
 }
 
 .note {
-  font-family: var(--font-term);
-  font-size: 18px;
+  font-family: var(--font-data);
+  font-size: 14.4px;
   color: var(--ink-60);
   margin: 10px 0;
 }

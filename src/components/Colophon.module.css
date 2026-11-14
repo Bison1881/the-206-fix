@@ -10,8 +10,8 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 4px 16px;
-  font-family: var(--font-term);
-  font-size: 15px;
+  font-family: var(--font-data);
+  font-size: 12px;
   color: var(--ink-60);
   margin-bottom: 16px;
 }
@@ -26,8 +26,8 @@
 }
 
 .tag {
-  font-family: var(--font-term);
-  font-size: 16px;
+  font-family: var(--font-data);
+  font-size: 12.8px;
   color: var(--ink-60);
   margin-top: 8px;
 }

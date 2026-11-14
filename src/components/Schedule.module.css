@@ -6,7 +6,7 @@
   font-family: var(--font-head);
   text-transform: uppercase;
   font-weight: 400;
-  font-size: clamp(20px, 3vw, 28px);
+  font-size: clamp(23px, 3.45vw, 32.2px);
   letter-spacing: 1px;
   line-height: 1;
   margin: 0 0 12px;
@@ -15,8 +15,8 @@
 }
 
 .tz {
-  font-family: var(--font-term);
-  font-size: 15px;
+  font-family: var(--font-data);
+  font-size: 12px;
   letter-spacing: 0.5px;
   color: var(--ink-60);
   margin-left: 8px;
@@ -38,7 +38,7 @@
   font-family: var(--font-head);
   text-transform: uppercase;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 23px;
   letter-spacing: 1px;
   line-height: 1;
   margin: 0 0 6px;
@@ -61,19 +61,20 @@
 
 .game {
   display: grid;
-  grid-template-columns: 82px minmax(0, 1fr) auto;
+  grid-template-columns: 7.2em minmax(0, 1fr) auto;
   gap: 2px 8px;
   align-items: baseline;
   padding: 5px 0;
   border-bottom: 1px dotted var(--line);
-  font-family: var(--font-term);
-  font-size: 17px;
+  font-family: var(--font-data);
+  font-size: 13.6px;
   line-height: 1.1;
   text-transform: uppercase;
 }
 
 .day {
   color: var(--ink-60);
+  white-space: nowrap;
 }
 
 .opp {
@@ -99,7 +100,7 @@
 }
 
 .local {
-  grid-column: 2 / -1;
+  grid-column: 1 / -1;
   text-align: right;
   font-size: 14px;
   color: var(--ink-60);
@@ -108,8 +109,8 @@
 
 .note {
   margin: 0;
-  font-family: var(--font-term);
-  font-size: 17px;
+  font-family: var(--font-data);
+  font-size: 13.6px;
   color: var(--ink-60);
   text-transform: uppercase;
 }
@@ -131,8 +132,8 @@
   padding: 0;
   border: 0;
   background: none;
-  font-family: var(--font-term);
-  font-size: 16px;
+  font-family: var(--font-data);
+  font-size: 12.8px;
   text-transform: uppercase;
   letter-spacing: 0.5px;
   color: var(--teal);
