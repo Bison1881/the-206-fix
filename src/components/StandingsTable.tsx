@@ -1,5 +1,6 @@
 import { useStandings } from '../lib/useStandings';
 import type { LeagueStandings } from '../lib/espn';
+import { fmtBack, fmtBackLong, type PlayoffPicture } from '../lib/playoffs';
 import s from './StandingsTable.module.css';
 
 /*
@@ -47,6 +48,108 @@ function Tables({ league }: { league: LeagueStandings }) {
   );
 }
 
+/** "Seattle Seahawks: ..." sentence for where the Seattle club stands in the race. */
+function standingLine(p: PlayoffPicture): string | null {
+  const o = p.ours;
+  if (!o) return null;
+  const where = o.unit ? ` in the ${o.unit}` : '';
+  const gap =
+    o.back === 0
+      ? 'level with the last spot but behind on tiebreakers'
+      : `${fmtBackLong(p.kind, o.back ?? 0)} behind the last spot`;
+  if (p.final) {
+    return o.in
+      ? `${o.name}: made the playoffs as the No. ${o.seed} seed${where}.`
+      : `${o.name}: missed the playoffs, finishing No. ${o.seed}${where}, ${gap}.`;
+  }
+  return o.in
+    ? `${o.name}: in the field as the No. ${o.seed} seed${where}.`
+    : `${o.name}: outside the field at No. ${o.seed}${where}, ${gap}.`;
+}
+
+function PlayoffPictureView({
+  picture: p,
+  heading,
+}: {
+  picture: PlayoffPicture;
+  heading: 'h3' | 'h4';
+}) {
+  const Heading = heading;
+  const cols = p.kind === 'points' ? 5 : 4; // seed, team, record, (points), back
+  const line = standingLine(p);
+  const scope = p.scope === 'conference' ? 'in each conference' : 'overall';
+  return (
+    <section className={s.pick} aria-label={p.final ? 'Final playoff field' : 'Playoff picture'}>
+      <Heading className={s.pickTitle}>{p.final ? 'Final playoff field' : 'Playoff picture'}</Heading>
+      <p className={s.pickNote}>
+        {p.final
+          ? `The top ${p.berths} ${scope} made the playoffs.`
+          : `The top ${p.berths} ${scope} make the playoffs. Seeds are ESPN's, tiebreakers included.`}
+      </p>
+      {line && <p className={s.pickOurs}>{line}</p>}
+      <div className={s.groups}>
+        {p.units.map((u) => (
+          <table className={s.table} key={u.name || 'league'}>
+            <caption className={s.caption}>{u.name || 'League'}</caption>
+            <thead>
+              <tr>
+                <th className={s.seed} scope="col" aria-label="Seed">
+                  #
+                </th>
+                <th className={s.team} scope="col">
+                  Team
+                </th>
+                <th className={s.num} scope="col">
+                  Record
+                </th>
+                {p.kind === 'points' && (
+                  <th className={s.num} scope="col">
+                    Pts
+                  </th>
+                )}
+                <th className={s.num} scope="col">
+                  Back
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              {u.field.map((t) => (
+                <tr className={t.ours ? s.ours : undefined} key={t.teamId || t.name}>
+                  <td className={s.seed}>{t.seed}</td>
+                  <th className={s.team} scope="row">
+                    {t.name}
+                  </th>
+                  <td className={s.num}>{t.record}</td>
+                  {p.kind === 'points' && <td className={s.num}>{t.pts ?? '–'}</td>}
+                  <td className={s.num} />
+                </tr>
+              ))}
+            </tbody>
+            <tbody className={s.bubble}>
+              <tr>
+                <th className={s.bubbleHead} colSpan={cols} scope="colgroup">
+                  {p.final ? 'Just missed' : 'On the bubble'}
+                </th>
+              </tr>
+              {u.bubble.map((t) => (
+                <tr className={t.ours ? s.ours : undefined} key={t.teamId || t.name}>
+                  <td className={s.seed}>{t.seed}</td>
+                  <th className={s.team} scope="row">
+                    {t.name}
+                  </th>
+                  <td className={s.num}>{t.record}</td>
+                  {p.kind === 'points' && <td className={s.num}>{t.pts ?? '–'}</td>}
+                  <td className={s.num}>{fmtBack(t.back ?? 0)}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        ))}
+      </div>
+    </section>
+  );
+}
+
 export default function StandingsPanel({
   leagueKey,
   title,
@@ -77,6 +180,9 @@ export default function StandingsPanel({
         <>
           {data.season && <div className={s.season}>{data.season} season</div>}
           <Tables league={data} />
+          {data.picture && (
+            <PlayoffPictureView picture={data.picture} heading={heading === 'h2' ? 'h3' : 'h4'} />
+          )}
         </>
       )}
     </section>

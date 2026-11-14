@@ -105,3 +105,72 @@
     grid-template-columns: 1fr;
   }
 }
+
+/* ── Playoff picture ────────────────────────────────────────────────── */
+.pick {
+  margin-top: 30px;
+}
+
+.pickTitle {
+  font-family: var(--font-head);
+  text-transform: uppercase;
+  font-weight: var(--head-weight, 400);
+  font-size: calc(25.3px * var(--head-scale, 1));
+  letter-spacing: calc(1px * var(--head-track, 1));
+  margin: 0 0 4px;
+  padding-top: 10px;
+  border-top: 2px solid var(--ink);
+}
+
+.pickNote {
+  font-family: var(--font-data);
+  font-size: calc(12.8px * var(--data-scale, 1));
+  color: var(--ink-60);
+  margin: 0 0 8px;
+}
+
+/* Where the Seattle club stands, in plain words. */
+.pickOurs {
+  font-family: var(--font-data);
+  font-size: calc(15.5px * var(--data-scale, 1));
+  font-weight: 700;
+  color: var(--teal);
+  margin: 0 0 14px;
+}
+
+.seed {
+  width: 3.2ch;
+  text-align: left;
+  padding-right: 6px;
+  color: var(--ink-60);
+  font-variant-numeric: tabular-nums;
+}
+
+.table thead th.seed,
+.table tbody td.seed {
+  font-family: var(--font-data);
+}
+
+/* The playoff line: a heavier rule, then a small label for the teams just outside. */
+.bubble .bubbleHead {
+  text-align: left;
+  font-family: var(--font-data);
+  font-size: calc(12px * var(--data-scale, 1));
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--ink-60);
+  padding: 8px 0 3px;
+  border-top: 2px solid var(--ink);
+  border-bottom: 1px solid var(--line);
+}
+
+.bubble td,
+.bubble th.team {
+  color: var(--ink-70);
+}
+
+.bubble .ours td,
+.bubble .ours th.team {
+  color: var(--teal);
+}

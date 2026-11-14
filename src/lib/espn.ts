@@ -18,6 +18,7 @@
 
 import { TEAMS, type Team, type TeamKey } from './teams';
 import { gameWhen } from './time';
+import { buildPicture, type PlayoffInput, type PlayoffPicture, type PlayoffRules } from './playoffs';
 
 const SITE = 'https://site.api.espn.com/apis/site/v2/sports';
 
@@ -140,6 +141,8 @@ export interface LeagueStandings {
   season?: string; // "2026"
   columns: string[]; // header labels, e.g. ['W','L','PCT','GB','STRK']
   groups: StandingsGroup[];
+  /** Playoff field + bubble, when the league's format is known and the data supports it. */
+  picture?: PlayoffPicture;
   updatedAt: string; // ISO
 }
 
@@ -709,6 +712,11 @@ interface LeagueTableConfig {
   columns: { label: string; stats: string[] }[];
   /** Sort within a group, best first. Ties keep ESPN's order (stable sort). */
   sortBy: string[];
+  /** Playoff format, for the playoff picture. Omitted → no picture for this league. */
+  playoffs?: PlayoffRules & {
+    /** ESPN's own seed stat, where it publishes one (otherwise `sortBy` orders the unit). */
+    seedStat?: string;
+  };
 }
 
 const LEAGUE_TABLES: Record<string, LeagueTableConfig> = {
@@ -722,6 +730,7 @@ const LEAGUE_TABLES: Record<string, LeagueTableConfig> = {
       { label: 'STRK', stats: ['streak'] },
     ],
     sortBy: ['winPercent'],
+    playoffs: { berths: 6, scope: 'conference', kind: 'wl', seasonGames: 162, seedStat: 'playoffSeed' },
   },
   'football/nfl': {
     level3: true,
@@ -735,6 +744,7 @@ const LEAGUE_TABLES: Record<string, LeagueTableConfig> = {
       { label: 'STRK', stats: ['streak'] },
     ],
     sortBy: ['winPercent', 'pointDifferential'],
+    playoffs: { berths: 7, scope: 'conference', kind: 'wl', seasonGames: 17, seedStat: 'playoffSeed' },
   },
   'hockey/nhl': {
     level3: true,
@@ -747,6 +757,7 @@ const LEAGUE_TABLES: Record<string, LeagueTableConfig> = {
       { label: 'STRK', stats: ['streak'] },
     ],
     sortBy: ['points'],
+    playoffs: { berths: 8, scope: 'conference', kind: 'points', seasonGames: 82, seedStat: 'playoffSeed' },
   },
   'basketball/wnba': {
     level3: false,
@@ -758,6 +769,8 @@ const LEAGUE_TABLES: Record<string, LeagueTableConfig> = {
       { label: 'STRK', stats: ['streak'] },
     ],
     sortBy: ['winPercent'],
+    // The top eight league-wide, regardless of conference (ESPN's seeds are per conference, so not used).
+    playoffs: { berths: 8, scope: 'league', kind: 'wl', seasonGames: 44 },
   },
   'soccer/usa.1': {
     level3: false,
@@ -770,6 +783,8 @@ const LEAGUE_TABLES: Record<string, LeagueTableConfig> = {
       { label: 'PTS', stats: ['points'] },
     ],
     sortBy: ['points', 'pointDifferential'],
+    // Nine per conference: seeds 1-7 straight in, 8 and 9 meet in a wild-card game.
+    playoffs: { berths: 9, scope: 'conference', kind: 'points', seasonGames: 34 },
   },
   'soccer/usa.nwsl': {
     level3: false,
@@ -782,6 +797,7 @@ const LEAGUE_TABLES: Record<string, LeagueTableConfig> = {
       { label: 'PTS', stats: ['points'] },
     ],
     sortBy: ['points', 'pointDifferential'],
+    playoffs: { berths: 8, scope: 'league', kind: 'points', seasonGames: 30 },
   },
 };
 
@@ -829,6 +845,76 @@ function collectGroups(
   const kids: any[] = Array.isArray(node?.children) ? node.children : [];
   for (const k of kids) collectGroups(k, out);
   return out;
+}
+
+/** A stat as a plain number, 0 when missing. */
+function n0(stats: Map<string, string>, name: string): number {
+  const v = num(stats.get(name));
+  return Number.isFinite(v) ? v : 0;
+}
+
+/**
+ * The playoff picture for a league, from the same standings payload. Returns
+ * undefined (and the page simply omits the section) when the league has no
+ * known format or the payload doesn't carry what's needed.
+ */
+function playoffPictureOf(
+  data: any,
+  cfg: LeagueTableConfig,
+  ourTeamId?: string,
+): PlayoffPicture | undefined {
+  const rules = cfg.playoffs;
+  if (!rules) return undefined;
+
+  // The units seeded against each other: each conference, or the whole league.
+  const confs: any[] = Array.isArray(data?.children) ? data.children : [];
+  const rawUnits =
+    rules.scope === 'conference' && confs.length
+      ? confs.map((c) => ({ name: String(c?.name ?? ''), entries: collectGroups(c).flatMap((g) => g.entries) }))
+      : [{ name: '', entries: collectGroups(data).flatMap((g) => g.entries) }];
+
+  const units = rawUnits.map((u) => {
+    const rows = u.entries.map((e, i) => {
+      const stats = statMap(e);
+      const w = n0(stats, 'wins');
+      const l = n0(stats, 'losses');
+      const extra = n0(stats, 'ties') + n0(stats, 'otLosses') + n0(stats, 'overtimeLosses');
+      const isHockey = stats.has('otLosses') || stats.has('overtimeLosses');
+      const ties = n0(stats, 'ties');
+      const gp = stats.has('gamesPlayed') ? n0(stats, 'gamesPlayed') : w + l + extra;
+      const record = isHockey
+        ? `${w}-${l}-${extra}`
+        : ties || stats.has('gamesPlayed') // soccer shows W-L-T always; NFL only when there are ties
+          ? `${w}-${l}-${ties}`
+          : `${w}-${l}`;
+      const seed = rules.seedStat ? num(stats.get(rules.seedStat)) : Number.NEGATIVE_INFINITY;
+      const input: PlayoffInput = {
+        teamId: String(e?.team?.id ?? ''),
+        name: String(e?.team?.displayName ?? e?.team?.name ?? '—'),
+        ours: !!ourTeamId && String(e?.team?.id) === String(ourTeamId),
+        record,
+        pts: rules.kind === 'points' ? stats.get('points') : undefined,
+        gamesPlayed: gp,
+        w: w + ties / 2,
+        l: l + ties / 2,
+        points: n0(stats, 'points'),
+      };
+      return { input, stats, seed, i };
+    });
+    // ESPN's own seeds when every team has one; otherwise the league's table order.
+    const seeded = !!rules.seedStat && rows.every((r) => Number.isFinite(r.seed));
+    rows.sort((a, b) => {
+      if (seeded) return a.seed - b.seed || a.i - b.i;
+      for (const k of cfg.sortBy) {
+        const d = num(b.stats.get(k)) - num(a.stats.get(k));
+        if (d) return d;
+      }
+      return a.i - b.i;
+    });
+    return { name: u.name, teams: rows.map((r) => r.input) };
+  });
+
+  return buildPicture(units, rules);
 }
 
 /**
@@ -915,6 +1001,7 @@ export async function fetchLeagueStandings(
       season: seasonLabel || undefined,
       columns: cfg.columns.map((c) => c.label),
       groups,
+      picture: playoffPictureOf(data, cfg, ourTeamId),
       updatedAt: stamp,
     };
   } catch {
