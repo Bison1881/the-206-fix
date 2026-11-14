@@ -1,4 +1,5 @@
 import type { BoxLine, BoxScore, BoxTable } from '../lib/espn';
+import { gameWhen } from '../lib/time';
 import s from './BoxScoreView.module.css';
 
 /*
@@ -144,14 +145,17 @@ export default function BoxScoreView({ box, titleAs: Title = 'h1' }: { box: BoxS
   const [away, home] = box.lines;
   const live = box.state === 'in';
 
-  const meta = [fmtDate(box.date), box.venue, box.attendance ? `Att. ${box.attendance}` : '']
+  const pre = box.state === 'pre';
+
+  // Before the game: its Seattle start time, not ESPN's Eastern-time status line.
+  const meta = [pre ? gameWhen(box.date)?.line : fmtDate(box.date), box.venue, box.attendance ? `Att. ${box.attendance}` : '']
     .filter(Boolean)
     .join(' · ');
 
   return (
     <article className={s.box}>
       <div className={s.kicker}>
-        <span className={live ? s.statusLive : s.status}>{live ? 'LIVE' : box.statusText ?? ''}</span>
+        <span className={live ? s.statusLive : s.status}>{live ? 'LIVE' : pre ? 'NEXT GAME' : box.statusText ?? ''}</span>
         {meta && <span className={s.meta}>{meta}</span>}
       </div>
       <Title className={s.title}>
@@ -213,7 +217,11 @@ export default function BoxScoreView({ box, titleAs: Title = 'h1' }: { box: BoxS
         {box.teams.map((t) => (
           <section key={t.teamId} className={s.teamCol} aria-label={t.name}>
             <h2 className={t.ours ? s.h2Ours : s.h2}>{t.name}</h2>
-            {t.tables.length === 0 && <p className={s.note}>Player statistics aren’t available for this game.</p>}
+            {t.tables.length === 0 && (
+              <p className={s.note}>
+                {pre ? 'Player statistics appear once the game starts.' : 'Player statistics aren’t available for this game.'}
+              </p>
+            )}
             {t.tables.map((tb, i) => (
               <PlayerTable t={tb} key={`${tb.title}-${i}`} />
             ))}

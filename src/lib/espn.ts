@@ -1301,8 +1301,14 @@ export async function fetchBoxScore(leagueCode: string, eventId: string): Promis
     const sorted = [...competitors].sort((a, b) => (a?.homeAway === 'away' ? -1 : 1) - (b?.homeAway === 'away' ? -1 : 1));
     const isOurs = (c: any) => TEAMS_ESPN_IDS.has(`${key}:${String(c?.team?.id)}`);
 
+    const stateRaw: string | undefined = comp?.status?.type?.state;
+    // A game not yet played: ESPN fills the team stats with season averages and has
+    // no line score, so show an empty line score of the usual length and no comparison.
+    const notStarted = stateRaw === 'pre';
+
     const longest = Math.max(...sorted.map((c) => (Array.isArray(c?.linescores) ? c.linescores.length : 0)));
-    const nPeriods = key === 'baseball/mlb' ? Math.max(9, longest) : longest;
+    const emptyPeriods = key.startsWith('soccer/') ? 2 : key === 'hockey/nhl' ? 3 : key === 'baseball/mlb' ? 9 : 4;
+    const nPeriods = key === 'baseball/mlb' ? Math.max(9, longest) : notStarted && !longest ? emptyPeriods : longest;
     const baseball = key === 'baseball/mlb';
 
     const lines: BoxLine[] = sorted.map((c) => {
@@ -1368,7 +1374,7 @@ export async function fetchBoxScore(leagueCode: string, eventId: string): Promis
       }
       return m;
     };
-    if (!baseball && lines.length === 2) {
+    if (!baseball && !notStarted && lines.length === 2) {
       const a = statsOf(lines[0].teamId);
       const b = statsOf(lines[1].teamId);
       const want = BOX_COMPARE[key];
@@ -1380,7 +1386,6 @@ export async function fetchBoxScore(leagueCode: string, eventId: string): Promis
     }
 
     const idToAbbr = new Map(lines.map((l) => [l.teamId, l.abbr ?? ''] as [string, string]));
-    const stateRaw: string | undefined = comp?.status?.type?.state;
     const att = d?.gameInfo?.attendance;
 
     return {
