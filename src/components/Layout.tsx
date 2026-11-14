@@ -3,7 +3,6 @@ import Folio from './Folio';
 import Masthead from './Masthead';
 import SectionNav from './SectionNav';
 import Colophon from './Colophon';
-import TypeSample from './TypeSample';
 
 /*
  * The shared shell every page inherits: folio → masthead → section nav →
@@ -23,7 +22,6 @@ export default function Layout() {
         </main>
         <Colophon />
       </div>
-      <TypeSample />
       <ScrollRestoration />
     </>
   );

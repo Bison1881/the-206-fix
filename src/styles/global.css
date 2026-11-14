@@ -59,25 +59,3 @@ a {
     animation: none !important;
   }
 }
-
-/* Type sample (?type=...), see components/TypeSample.tsx. Nothing here applies unless a sample is chosen. */
-html[data-type='old'] {
-  --font-data: 'Old Standard TT', Georgia, serif;
-  --data-scale: 1;
-}
-
-html[data-type='source'] {
-  --font-data: 'Source Serif 4', Georgia, serif;
-  --data-scale: 1.06;
-}
-
-/* Old Standard for the headline face too (letters are wider than League Gothic, so sizes come down). */
-html[data-type='oldhead'] {
-  --font-data: 'Old Standard TT', Georgia, serif;
-  --data-scale: 1;
-  --font-head: 'Old Standard TT', Georgia, serif;
-  --head-scale: 0.7;
-  --head-weight: 700;
-  --head-track: 0.35;
-  --head-gap: 0.6;
-}

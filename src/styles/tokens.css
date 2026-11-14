@@ -20,9 +20,17 @@
 
   /* Type registers — each has exactly one job */
   --font-nameplate: 'Manufacturing Consent', serif;                 /* masthead + footer wordmark only */
-  --font-head: 'League Gothic', 'Arial Narrow', sans-serif;         /* condensed newspaper headlines */
+  --font-head: 'Old Standard TT', Georgia, serif;                   /* bold serif newspaper headlines (uppercase) */
   --font-body: 'Libre Baskerville', Georgia, serif;                 /* article body / reading */
-  --font-data: 'Public Sans', 'Helvetica Neue', Arial, sans-serif;  /* data + labels: schedules, results, box scores, tags (Franklin-style, tabular figures) */
+  --font-data: 'Old Standard TT', Georgia, serif;                   /* data + labels: schedules, results, box scores, tags */
+
+  /* Size/weight/tracking knobs for those two faces. Component sizes are written for a unit scale and
+     multiplied by these, so retuning a face is a change here, not in every file. */
+  --head-scale: 0.7;     /* Old Standard caps are far wider than a condensed face, so headlines come down */
+  --head-weight: 700;
+  --head-track: 0.35;    /* letter-spacing multiplier */
+  --head-gap: 0.6;       /* nav separator spacing multiplier */
+  --data-scale: 1;
 
   /* The arena scoreboards keep their own faces: they are signs, not newspaper type. */
   --font-board-head: 'Anton', sans-serif;
