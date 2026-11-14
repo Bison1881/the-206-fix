@@ -5,9 +5,9 @@
 .head {
   font-family: var(--font-head);
   text-transform: uppercase;
-  font-weight: 400;
-  font-size: clamp(32.2px, 5.75vw, 50.6px);
-  letter-spacing: 1px;
+  font-weight: var(--head-weight, 400);
+  font-size: calc(clamp(32.2px, 5.75vw, 50.6px) * var(--head-scale, 1));
+  letter-spacing: calc(1px * var(--head-track, 1));
   line-height: 1;
   margin: 0 0 14px;
   border-bottom: 3px double var(--ink);
@@ -29,9 +29,9 @@
 .clubHead {
   font-family: var(--font-head);
   text-transform: uppercase;
-  font-weight: 400;
-  font-size: 29.9px;
-  letter-spacing: 1px;
+  font-weight: var(--head-weight, 400);
+  font-size: calc(29.9px * var(--head-scale, 1));
+  letter-spacing: calc(1px * var(--head-track, 1));
   line-height: 1;
   margin: 0 0 4px;
 }

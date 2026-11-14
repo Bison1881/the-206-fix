@@ -5,10 +5,10 @@
 .banner {
   font-family: var(--font-head);
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: var(--head-weight, 400);
   line-height: 0.92;
-  font-size: clamp(34.5px, 7.36vw, 69px);
-  letter-spacing: 1px;
+  font-size: calc(clamp(34.5px, 7.36vw, 69px) * var(--head-scale, 1));
+  letter-spacing: calc(1px * var(--head-track, 1));
 }
 
 .deck {
@@ -36,8 +36,8 @@
 .tabOn {
   font-family: var(--font-head);
   text-transform: uppercase;
-  font-size: 18.4px;
-  letter-spacing: 1px;
+  font-size: calc(18.4px * var(--head-scale, 1));
+  letter-spacing: calc(1px * var(--head-track, 1));
   color: var(--ink-60);
   background: none;
   border: 0;

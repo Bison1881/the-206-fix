@@ -5,9 +5,9 @@
 .title {
   font-family: var(--font-head);
   text-transform: uppercase;
-  font-weight: 400;
-  font-size: 25.3px;
-  letter-spacing: 1px;
+  font-weight: var(--head-weight, 400);
+  font-size: calc(25.3px * var(--head-scale, 1));
+  letter-spacing: calc(1px * var(--head-track, 1));
   margin: 0 0 4px;
 }
 
@@ -45,8 +45,8 @@
   text-align: left;
   font-family: var(--font-head);
   text-transform: uppercase;
-  font-size: 19.55px;
-  letter-spacing: 1px;
+  font-size: calc(19.55px * var(--head-scale, 1));
+  letter-spacing: calc(1px * var(--head-track, 1));
   padding-bottom: 4px;
 }
 

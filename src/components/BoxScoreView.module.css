@@ -27,10 +27,10 @@
 .title {
   font-family: var(--font-head);
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: var(--head-weight, 400);
   line-height: 0.95;
-  letter-spacing: 1px;
-  font-size: clamp(32.2px, 6.21vw, 59.8px);
+  letter-spacing: calc(1px * var(--head-track, 1));
+  font-size: calc(clamp(32.2px, 6.21vw, 59.8px) * var(--head-scale, 1));
   margin: 6px 0 14px;
 }
 
@@ -146,9 +146,9 @@
 .h2Ours {
   font-family: var(--font-head);
   text-transform: uppercase;
-  font-weight: 400;
-  font-size: 25.3px;
-  letter-spacing: 1px;
+  font-weight: var(--head-weight, 400);
+  font-size: calc(25.3px * var(--head-scale, 1));
+  letter-spacing: calc(1px * var(--head-track, 1));
   margin: 0 0 8px;
   border-bottom: 2px solid var(--ink);
   padding-bottom: 3px;
@@ -222,8 +222,8 @@
   text-align: left;
   font-family: var(--font-head);
   text-transform: uppercase;
-  font-size: 18.4px;
-  letter-spacing: 1px;
+  font-size: calc(18.4px * var(--head-scale, 1));
+  letter-spacing: calc(1px * var(--head-track, 1));
   padding: 2px 0 4px;
   color: var(--ink-70);
 }

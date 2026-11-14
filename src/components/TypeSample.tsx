@@ -3,7 +3,7 @@ import s from './TypeSample.module.css';
 
 /*
  * A preview switch for type options, so a whole-site change can be judged before it is made.
- * Visit any page with ?type=sans | old | source | off. The choice is remembered for the tab
+ * Visit any page with ?type=sans | old | oldhead | source | off. The choice is remembered for the tab
  * (sessionStorage) and shown as a small bar at the bottom-left; with no choice made, this renders
  * nothing and the site is untouched. The serif faces load only when a serif sample is picked.
  */
@@ -11,6 +11,7 @@ const OPTIONS = [
   { id: 'off', label: 'Current' },
   { id: 'sans', label: 'Sans, new titles' },
   { id: 'old', label: 'Serif: Old Standard' },
+  { id: 'oldhead', label: 'Old Standard + serif headlines' },
   { id: 'source', label: 'Serif: Source Serif' },
 ] as const;
 type Id = (typeof OPTIONS)[number]['id'];
@@ -40,7 +41,7 @@ function apply(id: Id) {
   const root = document.documentElement;
   if (id === 'off') delete root.dataset.type;
   else root.dataset.type = id;
-  if ((id === 'old' || id === 'source') && !document.getElementById('type-sample-fonts')) {
+  if ((id === 'old' || id === 'oldhead' || id === 'source') && !document.getElementById('type-sample-fonts')) {
     const l = document.createElement('link');
     l.id = 'type-sample-fonts';
     l.rel = 'stylesheet';

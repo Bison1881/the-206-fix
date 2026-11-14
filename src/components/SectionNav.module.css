@@ -10,8 +10,8 @@
   align-items: center;
   font-family: var(--font-head);
   text-transform: uppercase;
-  letter-spacing: 2px;
-  font-size: 17.25px;
+  letter-spacing: calc(2px * var(--head-track, 1));
+  font-size: calc(17.25px * var(--head-scale, 1));
   line-height: 1.6;
   padding: 8px 0;
   border-bottom: 1px solid var(--line);
@@ -48,11 +48,11 @@
 @media (max-width: 880px) {
   .bar {
     font-size: 13px;
-    letter-spacing: 1.5px;
+    letter-spacing: calc(1.5px * var(--head-track, 1));
   }
 
   .link:not(:first-child)::before,
   .linkActive:not(:first-child)::before {
-    margin: 0 11px;
+    margin: 0 calc(11px * var(--head-gap, 1));
   }
 }

@@ -20,10 +20,10 @@
 .leadHead {
   font-family: var(--font-head);
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: var(--head-weight, 400);
   line-height: 0.96;
-  font-size: clamp(31.05px, 5.29vw, 50.6px);
-  letter-spacing: 0.5px;
+  font-size: calc(clamp(31.05px, 5.29vw, 50.6px) * var(--head-scale, 1));
+  letter-spacing: calc(0.5px * var(--head-track, 1));
   color: var(--ink);
   text-decoration: none;
   display: block;
@@ -46,9 +46,9 @@
 .wireHead {
   font-family: var(--font-head);
   text-transform: uppercase;
-  font-weight: 400;
-  font-size: clamp(23px, 3.45vw, 32.2px);
-  letter-spacing: 1px;
+  font-weight: var(--head-weight, 400);
+  font-size: calc(clamp(23px, 3.45vw, 32.2px) * var(--head-scale, 1));
+  letter-spacing: calc(1px * var(--head-track, 1));
   line-height: 1;
   margin: 0 0 12px;
   border-bottom: 2px solid var(--ink);
@@ -87,8 +87,8 @@
 .stub h3 {
   font-family: var(--font-head);
   text-transform: uppercase;
-  font-weight: 400;
-  font-size: 20.7px;
+  font-weight: var(--head-weight, 400);
+  font-size: calc(20.7px * var(--head-scale, 1));
   line-height: 1;
   margin-bottom: 5px;
 }

@@ -8,9 +8,9 @@
 .sectionHead {
   font-family: var(--font-head);
   text-transform: uppercase;
-  font-weight: 400;
-  font-size: clamp(23px, 3.45vw, 32.2px);
-  letter-spacing: 1px;
+  font-weight: var(--head-weight, 400);
+  font-size: calc(clamp(23px, 3.45vw, 32.2px) * var(--head-scale, 1));
+  letter-spacing: calc(1px * var(--head-track, 1));
   line-height: 1;
   margin: 0 0 12px;
   border-bottom: 2px solid var(--ink);
@@ -75,9 +75,9 @@
 /* Type sample (?type=...): wire titles set in the headline face, like the lead story. */
 :global(html[data-type]) .headline {
   font-family: var(--font-head);
-  font-weight: 400;
-  font-size: 23px;
+  font-weight: var(--head-weight, 400);
+  font-size: calc(23px * var(--head-scale, 1));
   line-height: 1.02;
-  letter-spacing: 0.5px;
+  letter-spacing: calc(0.5px * var(--head-track, 1));
   text-transform: uppercase;
 }
