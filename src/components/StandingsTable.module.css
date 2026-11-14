@@ -122,13 +122,6 @@
   border-top: 2px solid var(--ink);
 }
 
-.pickNote {
-  font-family: var(--font-data);
-  font-size: calc(12.8px * var(--data-scale, 1));
-  color: var(--ink-60);
-  margin: 0 0 8px;
-}
-
 /* Where the Seattle club stands, in plain words. */
 .pickOurs {
   font-family: var(--font-data);

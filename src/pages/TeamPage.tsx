@@ -69,9 +69,6 @@ export default function TeamPage({ team }: { team: Team }) {
 
       <hr className={s.rule} />
       <h2 className={t.wireHead}>The Wire</h2>
-      <div className={t.deck}>
-        The latest {team.name} coverage from around the web. Every headline links out to its source.
-      </div>
       <Wire items={items} />
     </div>
   );

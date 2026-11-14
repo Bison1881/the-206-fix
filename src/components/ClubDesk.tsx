@@ -18,7 +18,7 @@ export function SeasonLeaders({ team }: { team: Team }) {
   return (
     <section className={s.panel} aria-label={`${team.name} season leaders`}>
       <h2 className={s.title}>Season leaders</h2>
-      {data.season && <div className={s.sub}>{data.season} season, regular season</div>}
+      {data.season && <div className={s.sub}>{data.season} season</div>}
       <div className={s.boxes}>
         {leaders.map((g) => (
           <div className={s.box} key={g.label}>

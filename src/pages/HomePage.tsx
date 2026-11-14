@@ -47,9 +47,6 @@ export default function HomePage() {
         <div className={s.lead}>
           <div className={s.leadKicker}>The Wire</div>
           <div className={s.leadHead}>Seattle Sports, Aggregated</div>
-          <p className={s.leadSnippet}>
-            The wire refreshes at build time. Run the feeds fetch to populate it.
-          </p>
         </div>
       )}
 

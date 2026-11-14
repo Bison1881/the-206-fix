@@ -20,12 +20,11 @@ import t from './TeamsIndex.module.css';
 const big4 = TEAMS.filter((x) => x.tier === 'big4');
 const others = TEAMS.filter((x) => x.tier === 'other');
 
-function TeamCard({ id, name, abbr, note }: { id: string; name: string; abbr: string; note: string }) {
+function TeamCard({ id, name, abbr }: { id: string; name: string; abbr: string }) {
   return (
     <Link to={`/${id}`} className={`${s.slot} ${t.card}`}>
       <span className={s.badge}>{abbr}</span>
       <h3>{name}</h3>
-      <p>{note}</p>
     </Link>
   );
 }
@@ -40,7 +39,6 @@ export default function TeamsIndex() {
         noindex
       />
       <h1 className={s.banner}>The Teams</h1>
-      <div className={s.deck}>Seven Seattle clubs, one desk. Pick a beat.</div>
       <hr className={s.rule} />
 
       <div className={s.grid}>
@@ -50,7 +48,6 @@ export default function TeamsIndex() {
             id={team.id}
             name={team.name}
             abbr={team.abbr}
-            note="Front-page club · full interior page"
           />
         ))}
         {others.map((team) => (
@@ -59,7 +56,6 @@ export default function TeamsIndex() {
             id={team.id}
             name={team.name}
             abbr={team.abbr}
-            note="Named on the front page · feed-only interior page"
           />
         ))}
       </div>

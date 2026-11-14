@@ -30,15 +30,7 @@
   font-size: calc(clamp(23px, 3.45vw, 32.2px) * var(--head-scale, 1));
   letter-spacing: calc(1px * var(--head-track, 1));
   line-height: 1;
-  margin: 0 0 4px;
-}
-
-.deck {
-  font-family: var(--font-body);
-  font-style: italic;
-  font-size: clamp(14px, 2.2vw, 17px);
-  margin: 0 0 14px;
-  color: var(--ink-70);
+  margin: 0 0 12px;
 }
 
 @media (max-width: 880px) {

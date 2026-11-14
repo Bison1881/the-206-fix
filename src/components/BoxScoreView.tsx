@@ -217,11 +217,7 @@ export default function BoxScoreView({ box, titleAs: Title = 'h1' }: { box: BoxS
         {box.teams.map((t) => (
           <section key={t.teamId} className={s.teamCol} aria-label={t.name}>
             <h2 className={t.ours ? s.h2Ours : s.h2}>{t.name}</h2>
-            {t.tables.length === 0 && (
-              <p className={s.note}>
-                {pre ? 'Player statistics appear once the game starts.' : 'Player statistics aren’t available for this game.'}
-              </p>
-            )}
+            {t.tables.length === 0 && !pre && <p className={s.note}>Player statistics aren’t available for this game.</p>}
             {t.tables.map((tb, i) => (
               <PlayerTable t={tb} key={`${tb.title}-${i}`} />
             ))}
@@ -229,7 +225,6 @@ export default function BoxScoreView({ box, titleAs: Title = 'h1' }: { box: BoxS
         ))}
       </div>
 
-      {live && <p className={s.note}>Updates every 30 seconds while the game is on.</p>}
     </article>
   );
 }

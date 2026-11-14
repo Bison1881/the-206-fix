@@ -70,22 +70,20 @@ function standingLine(p: PlayoffPicture): string | null {
 function PlayoffPictureView({
   picture: p,
   heading,
+  leagueKey,
 }: {
   picture: PlayoffPicture;
   heading: 'h3' | 'h4';
+  leagueKey: string;
 }) {
   const Heading = heading;
   const cols = p.kind === 'points' ? 5 : 4; // seed, team, record, (points), back
   const line = standingLine(p);
-  const scope = p.scope === 'conference' ? 'in each conference' : 'overall';
+  // Baseball calls it the post season; everyone else, the playoffs.
+  const title = leagueKey === 'baseball/mlb' ? 'Post season' : 'Playoffs';
   return (
-    <section className={s.pick} aria-label={p.final ? 'Final playoff field' : 'Playoff picture'}>
-      <Heading className={s.pickTitle}>{p.final ? 'Final playoff field' : 'Playoff picture'}</Heading>
-      <p className={s.pickNote}>
-        {p.final
-          ? `The top ${p.berths} ${scope} made the playoffs.`
-          : `The top ${p.berths} ${scope} make the playoffs. Seeds are ESPN's, tiebreakers included.`}
-      </p>
+    <section className={s.pick} aria-label={title}>
+      <Heading className={s.pickTitle}>{title}</Heading>
       {line && <p className={s.pickOurs}>{line}</p>}
       <div className={s.groups}>
         {p.units.map((u) => (
@@ -181,7 +179,7 @@ export default function StandingsPanel({
           {data.season && <div className={s.season}>{data.season} season</div>}
           <Tables league={data} />
           {data.picture && (
-            <PlayoffPictureView picture={data.picture} heading={heading === 'h2' ? 'h3' : 'h4'} />
+            <PlayoffPictureView picture={data.picture} heading={heading === 'h2' ? 'h3' : 'h4'} leagueKey={leagueKey} />
           )}
         </>
       )}
