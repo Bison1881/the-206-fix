@@ -1450,8 +1450,12 @@ export interface ClubDesk {
 }
 
 interface DeskConfig {
-  /** ESPN leader category → heading, in display order. */
-  leaders: { name: string; label: string }[];
+  /**
+   * ESPN leader category → heading, in display order. `volume` reads a player's
+   * workload (attempts, carries, catches) out of ESPN's display value, so a trick-play
+   * passer can be dropped from a list ESPN does not qualify itself.
+   */
+  leaders: { name: string; label: string; volume?: RegExp }[];
   /** ESPN carries player injury status for this league. */
   injuries: boolean;
   /** ESPN carries a transactions feed for this league. */
@@ -1477,9 +1481,9 @@ const DESK: Record<string, DeskConfig> = {
   },
   'football/nfl': {
     leaders: [
-      { name: 'passingLeader', label: 'Passing' },
-      { name: 'rushingLeader', label: 'Rushing' },
-      { name: 'receivingLeader', label: 'Receiving' },
+      { name: 'passingLeader', label: 'Passing', volume: /\/(\d+)/ },
+      { name: 'rushingLeader', label: 'Rushing', volume: /^(\d+)/ },
+      { name: 'receivingLeader', label: 'Receiving', volume: /^(\d+)/ },
       { name: 'sacks', label: 'Sacks' },
       { name: 'interceptions', label: 'Interceptions' },
       { name: 'totalTackles', label: 'Tackles' },
@@ -1607,11 +1611,23 @@ async function fetchLeaders(
     const athleteId = (l: any): string | undefined =>
       String(l?.athlete?.$ref ?? '').match(/\/athletes\/(\d+)/)?.[1];
 
+    // The top three of each category, after dropping anyone whose workload is a
+    // sliver of the leader's (a receiver's one trick-play pass).
+    const MIN_SHARE = 0.15;
+    const shortlist = (c: { volume?: RegExp }, cat: any): any[] => {
+      const all: any[] = cat.leaders.slice(0, 6);
+      if (!c.volume) return all.slice(0, 3);
+      const vol = (l: any): number => Number(String(l?.displayValue ?? '').match(c.volume!)?.[1] ?? NaN);
+      const top = vol(all[0]);
+      return all.filter((l) => !(Number.isFinite(top) && vol(l) < top * MIN_SHARE)).slice(0, 3);
+    };
+    const shown = picked.map(({ c, cat }) => ({ c, rows: shortlist(c, cat) }));
+
     // Names come from the roster; anyone no longer on it (traded, released)
     // is looked up directly.
     const missing = new Map<string, string>();
-    for (const { cat } of picked) {
-      for (const l of cat.leaders.slice(0, 3)) {
+    for (const { rows } of shown) {
+      for (const l of rows) {
         const aid = athleteId(l);
         if (aid && !roster?.has(aid)) missing.set(aid, String(l.athlete.$ref).replace(/^http:/, 'https:'));
       }
@@ -1628,10 +1644,9 @@ async function fetchLeaders(
       }),
     );
 
-    const groups: LeaderGroup[] = picked.map(({ c, cat }) => ({
+    const groups: LeaderGroup[] = shown.map(({ c, rows }) => ({
       label: c.label,
-      leaders: cat.leaders
-        .slice(0, 3)
+      leaders: rows
         .map((l: any): ClubLeader | null => {
           const aid = athleteId(l);
           const p = aid ? roster?.get(aid) : undefined;
