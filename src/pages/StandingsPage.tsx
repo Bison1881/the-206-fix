@@ -43,9 +43,6 @@ export default function StandingsPage() {
         path="/standings"
       />
       <h1 className={s.banner}>Standings</h1>
-      <div className={s.deck}>
-        Where each Seattle club stands in its league. Pick a club, see the whole table.
-      </div>
       <hr className={s.rule} />
 
       <div className={s.tabs} role="tablist" aria-label="Choose a club to see its league standings">

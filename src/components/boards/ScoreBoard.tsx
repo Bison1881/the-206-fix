@@ -63,7 +63,7 @@ function Note({ v, className }: { v: BoardView; className?: string }) {
   return (
     <span className={className}>
       {v.note}
-      {v.local && <small className={s.noteLocal}>YOUR TIME: {v.local}</small>}
+      {v.local && <small className={s.noteLocal}>LOCAL: {v.local}</small>}
     </span>
   );
 }

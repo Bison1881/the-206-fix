@@ -32,7 +32,7 @@ function Game({ g }: { g: UpcomingGame }) {
         {g.series && <span className={s.series}>{g.series}</span>}
       </span>
       <span className={s.time}>{time}</span>
-      {when?.local && <small className={s.local}>YOUR TIME: {when.local}</small>}
+      {when?.local && <small className={s.local}>LOCAL: {when.local}</small>}
     </li>
   );
 }

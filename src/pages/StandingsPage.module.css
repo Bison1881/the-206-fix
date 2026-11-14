@@ -12,14 +12,6 @@
   letter-spacing: 1px;
 }
 
-.deck {
-  font-family: var(--font-body);
-  font-style: italic;
-  font-size: clamp(15px, 2.4vw, 20px);
-  margin: 8px 0 14px;
-  color: var(--ink-70);
-}
-
 .rule {
   border: 0;
   border-top: 3px double var(--ink);

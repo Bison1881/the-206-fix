@@ -26,7 +26,7 @@ const SEATTLE = 'America/Los_Angeles';
 export interface GameWhen {
   /** "SUN NOV 15 · 1:05 PM PST". Seattle's own clock; PST or PDT as the date requires. */
   line: string;
-  /** "MON 7:05 AM AEST". Only when the viewer's clock differs from Seattle's. */
+  /** "MON. 7:05 AM". Only when the viewer's clock differs from Seattle's. */
   local?: string;
 }
 
@@ -68,13 +68,14 @@ export function gameWhen(iso: string | null | undefined, tba = false): GameWhen 
       weekday: 'short',
       hour: 'numeric',
       minute: '2-digit',
-      timeZoneName: 'short',
     });
     const parts = mine.formatToParts(d);
-    const theirs = `${part(parts, 'weekday')} ${part(parts, 'hour')}:${part(parts, 'minute')} ${part(parts, 'dayPeriod')}`.toUpperCase();
-    const seattleShort = `${part(sea, 'weekday')} ${clock}`.toUpperCase();
+    const period = part(parts, 'dayPeriod');
+    // "SUN. 4:00 AM": weekday and clock only, no zone name.
+    const theirs = `${part(parts, 'weekday')}. ${part(parts, 'hour')}:${part(parts, 'minute')}${period ? ` ${period}` : ''}`.toUpperCase();
+    const seattleShort = `${part(sea, 'weekday')}. ${clock}`.toUpperCase();
     if (theirs.replace(/\s+/g, ' ') !== seattleShort.replace(/\s+/g, ' ') && mine.resolvedOptions().timeZone !== SEATTLE) {
-      local = mine.format(d).replace(',', '').toUpperCase();
+      local = theirs;
     }
   } catch {
     /* no Intl support for the viewer's zone: Seattle time alone is fine */
